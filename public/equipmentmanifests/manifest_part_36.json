@@ -1,0 +1,1344 @@
+[
+  {
+    "level": 0,
+    "name": "Scrimshaw whale bone",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Scroll Belt",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>These belts are specially designed to allow for writing along the inside surface. You can scribe a spell to a scroll belt, Crafting the scroll as normal. A scroll belt can only hold a single spell, and you must Cast the Spell before you can scribe another spell to the belt. You can't Cast a Spell from the belt while wearing it; you must remove the belt with an Interact action. A scroll belt acts as a mundane belt, but when a spell is scribed on it, any creature can immediately discern that an unattended belt holds magic. If you're wearing the belt, a creature can notice the belt holds a spell with a successful @Check[perception|against:stealth] check against your Stealth DC.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 19,
+    "name": "Scroll of 10th-rank Spell",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Scroll of 1st-rank Spell",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Scroll of 2nd-rank Spell",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Scroll of 3rd-rank Spell",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Scroll of 4th-rank Spell",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Scroll of 5th-rank Spell",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Scroll of 6th-rank Spell",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Scroll of 7th-rank Spell",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Scroll of 8th-rank Spell",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Scroll of 9th-rank Spell",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "scroll"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Scroll Robes",
+    "price": {
+      "sp": 15
+    },
+    "description": "<p>Scroll robes are composed of paper alchemically treated for strength and flexibility. A layered structure prevents cutting and tearing, and for the purpose of calculating damage, the robes are considered to be cloth. The paper accepts all sorts of decoration, including magical writing, as detailed in the inscribed trait.</p>",
+    "rarity": "common",
+    "traits": [
+      "inscribed"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Scrollstaff",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>A band of pliant wood encircles the head of this slender mahogany staff. The Magaambya created the first <em>scrollstaves</em> millennia ago, and even the few <em>scrollstaves</em> found beyond the organization often incorporate Magaambyan iconography as an homage to their source.</p>\n<p>A <em>scrollstaff</em> serves as a weapon just like an ordinary staff and can be improved via runes like any other staff. In addition, if you are capable of creating magical scrolls, you can inscribe a single scroll onto the staff's head for the same cost as normal for Crafting the scroll. If necessary, you can embed a required material focus into the staff as part of the same Craft activity. As long as you are holding the staff, you can cast the spell from the staff's head. Casting the written spell works just like casting from a scroll, but you can perform the necessary material component with the staff, even if you don't have a free hand. Once you cast the inscribed spell, any material focus remains embedded in the staff until removed as an Interact action.</p>\n<p>The staff can hold only a single scroll at a time. If you inscribe a new scroll before casting the previous spell, you replace the existing spell and remove any previous material focus as part of the Craft activity to write the new scroll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Scythe",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>Derived from a farming tool used to mow down long grains and cereals, this weapon has a long wooden shaft with protruding handles, capped with a curved blade set at a right angle.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d10",
+      "trip"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Scything Blade Snare",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>This snare sends a powerful series of scything blades to slice through a creature entering the snare's square, dealing @Damage[10d8[slashing]] damage (@Check[reflex|showDC:all|dc:32|basic] save).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Sea Touch Elixir (Greater)",
+    "price": {
+      "gp": 920
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This briny concoction alters the skin on your hands and feet. The spaces between your fingers and toes become webbed, granting you a swim Speed of 20 feet for 24 hours, and you can breathe underwater.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sea Touch Elixir (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Sea Touch Elixir (Lesser)",
+    "price": {
+      "gp": 22
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This briny concoction alters the skin on your hands and feet. The spaces between your fingers and toes become webbed, granting you a swim Speed of 20 feet for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sea Touch Elixir (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Sea Touch Elixir (Moderate)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This briny concoction alters the skin on your hands and feet. The spaces between your fingers and toes become webbed, granting you a swim Speed of 20 feet for 1 hour, and you can breathe underwater.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sea Touch Elixir (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Sealing Chest (Greater)",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>Vigilant Seal members use these containers when transporting samples and relics.</p>\n<p>The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a sealing chest; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful remove curse gives enough time to stash the item in the chest.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Sealing Chest (Lesser)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>Vigilant Seal members use these containers when transporting samples and relics.</p>\n<p>The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a sealing chest; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful remove curse gives enough time to stash the item in the chest.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Sealing Chest (Major)",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p>Vigilant Seal members use these containers when transporting samples and relics.</p>\n<p>The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a sealing chest; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful remove curse gives enough time to stash the item in the chest.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Sealing Chest (Moderate)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>Vigilant Seal members use these containers when transporting samples and relics.</p>\n<p>The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a sealing chest; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful remove curse gives enough time to stash the item in the chest.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Searing Blade (Greater)",
+    "price": {
+      "gp": 13800
+    },
+    "description": "<p>This <em>+3 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Flaming (Greater)]{Greater Flaming} longsword</em> has an ornate brass hilt and a blade shaped like stylized flames. When wielded, the blade projects illumination resembling shimmering firelight, emitting dim light in a 10-foot radius.</p>\n<hr />\n<p><strong>Activate—Shoot Fire</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You cast the @UUID[Compendium.pf2e.spells-srd.Item.Ignition] cantrip from the sword as a 9th-rank arcane spell, using your melee attack modifier with <em>searing blade</em> as your spell attack modifier.</p>\n<hr />\n<p><strong>Activate—Radiate Flames</strong> <span class=\"action-glyph\">A</span> (aura, concentrate, fire)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A @Template[emanation|distance:10] of flame radiates from the <em>greater searing blade</em> for 1 minute. All weapon and unarmed attacks by you and your allies within the area gain the effect of the <em>flaming</em> property rune.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Aura: Searing Blade (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Searing Blade",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>This <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Flaming] longsword</em> has an ornate brass hilt and a blade shaped like stylized flames. When wielded, the blade projects illumination resembling shimmering firelight, emitting dim light in a 10-foot radius.</p>\n<p><strong>Activate—Shoot Fire</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You cast the @UUID[Compendium.pf2e.spells-srd.Item.Ignition] cantrip from the sword as a 7th-rank arcane spell, using your melee attack modifier with <em>searing blade</em> as your spell attack modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Searing Suture (Greater)",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Activating this black powder-infused alchemical bandage cauterizes wounds. You can apply a searing suture to yourself or an adjacent willing creature as you activate it. The target creature takes @Damage[1d6[fire]] damage and can immediately attempt a @Check[flat|dc:5] to remove the persistent bleed damage. When applied against a bleed effect that is lower level than the searing suture, the flat check is automatically successful.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Searing Suture (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Activating this black powder-infused alchemical bandage cauterizes wounds. You can apply a searing suture to yourself or an adjacent willing creature as you activate it. The target creature takes @Damage[1d6[fire]] damage and can immediately attempt a @Check[flat|dc:15] to remove the persistent bleed damage. When applied against a bleed effect that is lower level than the searing suture, the flat check is automatically successful.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Secret-Keeper's Mask (Blackfingers)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>Each of these full-face masks is made of stitched materials—often including humanoid skin—and has a single, bulbous eye. While wearing the mask, you gain a +1 item bonus to Deception checks to Lie and the mask doesn't impair your vision. The mask can also be activated, with an ability based on its type.</p>\n<hr />\n<p>This featureless mask is made of thin, papery skin. Its single eye is a fragile bubble of venom-filled glass.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (divination)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You twist the mask's eye and peer at an object. You know whether the object is poison or has been poisoned, but you don't learn the number or type of poisons present in the object.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Secret-Keeper's Mask (Father Skinsaw)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Each of these full-face masks is made of stitched materials—often including humanoid skin—and has a single, bulbous eye. While wearing the mask, you gain a +1 item bonus to Deception checks to Lie and the mask doesn't impair your vision. The mask can also be activated, with an ability based on its type.</p>\n<hr />\n<p>This mask is a patchwork of tanned skins, each with a distinctive scar. It is contorted into a caricature of a face with a leering eye.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You deal persistent bleed damage to a creature</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The bleeding wound you cause is particularly mutilating. The DC of flat checks to recover from the persistent bleed damage is increased by 2, and the target creature has a -2 status penalty to Deception, Diplomacy, and Performance checks while it is bleeding and for 1 minute after it ceases bleeding.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Secret-Keeper's Mask (Gray Master)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>Each of these full-face masks is made of stitched materials—often including humanoid skin—and has a single, bulbous eye. While wearing the mask, you gain a +1 item bonus to Deception checks to Lie and the mask doesn't impair your vision. The mask can also be activated, with an ability based on its type.</p>\n<hr />\n<p>This monochrome mask is made of tattered rags of gray and black cloth and bleached fragments of skin.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact (illusion, visual)</p>\n<p><strong>Trigger</strong> You succeed on a Thievery check to Steal an item of negligible Bulk</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You create an illusory duplicate of the item you just stole. This duplicate has the appropriate appearance and weight, but it doesn't make sounds or generate smells. The illusion vanishes after 10 minutes, or earlier if anyone examines or manipulates the illusory duplicate (such as to try to use it).</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Secret-Keeper's Mask (Reaper of Reputation)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>Each of these full-face masks is made of stitched materials—often including humanoid skin—and has a single, bulbous eye. While wearing the mask, you gain a +1 item bonus to Deception checks to Lie and the mask doesn't impair your vision. The mask can also be activated, with an ability based on its type.</p>\n<hr />\n<p>This mask is made of gray and black tiles sewn together. It has a messy, inky spiral over the mouth.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (auditory, linguistic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You touch the mask's spiral and identify a target creature within 30 feet. For the next 10 minutes, any normal speech you utter can, at your discretion, be inaudible to all creatures except the target creature, who can hear you clearly regardless of ambient sound so long as it is within 1 mile. This ability doesn't silence magical words, such as the verbal component of spellcasting or commands to activate magic items.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Seeking Bracelets",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<hr />\n<p>Both beaded bracelets in this pair have an even larger bead in their center. The bracelets are magically linked and only interact with their counterpart from the same pair.</p>\n<p>When you crush the largest bead to activate the bracelet, it creates a mental alert in the mind of the wearer of the paired bracelet. This alert works at any distance as long as both bracelets are on the same plane.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Seer's Flute (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>This ivory flute is adorned with many carvings of eyes. Each has jade pupils and a semiprecious stone as its iris. The eyes flutter open and closed when the flute is played, as if it held the eyes of many independent beings. While playing the flute, you gain a +1 item bonus to Perception checks and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance], @UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Alignment]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Augury], @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Clairaudience], @UUID[Compendium.pf2e.spells-srd.Item.Hypercognition], @UUID[Compendium.pf2e.spells-srd.Item.Wanderer's Guide]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Seer's Flute (Major)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This ivory flute is adorned with many carvings of eyes. Each has jade pupils and a semiprecious stone as its iris. The eyes flutter open and closed when the flute is played, as if it held the eyes of many independent beings. While playing the flute, you gain a +2 item bonus to Perception checks and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance], @UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Alignment]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Augury], @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Clairaudience], @UUID[Compendium.pf2e.spells-srd.Item.Hypercognition], @UUID[Compendium.pf2e.spells-srd.Item.Wanderer's Guide]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Clairvoyance], @UUID[Compendium.pf2e.spells-srd.Item.Read Omens]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Inevitable Disaster], @UUID[Compendium.pf2e.spells-srd.Item.Scouting Eye], @UUID[Compendium.pf2e.spells-srd.Item.Truespeech]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Seer's Flute",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This ivory flute is adorned with many carvings of eyes. Each has jade pupils and a semiprecious stone as its iris. The eyes flutter open and closed when the flute is played, as if it held the eyes of many independent beings. While playing the flute, you gain a +1 item bonus to Perception checks and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance], @UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Alignment]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Self-Emptying Pocket",
+    "price": {},
+    "description": "<p>You never perform to an empty crowd after promising any profits to a phantom in a playhouse, sealed by holes that appear in your pockets. By meeting with the attendees at your events, you can use Performance instead of Diplomacy to Gather Information. When you would use Performance to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income], you don't earn any gold pieces, as the money disappears before you can even count it.</p>\n<p>The entity that holds your <em>bargained contract</em> can influence your reception any time you perform for a crowd or Activate the pocket. If they influence your performance favorably, you gain a +2 item bonus to your Performance check. If they influence your performance unfavorably, you gain a -2 item penalty to your Performance check. If you've failed to earn the entity money in quite a while, it typically influences your performance unfavorably.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You exercise all of your charm on a creature, turning a chance meeting into an impromptu performance that commands attention. Attempt a single @Check[performance|defense:perception] check against the Perception DC of the creature. On a success, the creature is affected as though by a successful Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.Create a Diversion]. The entity that holds your contract can influence this performance as well.</p>",
+    "rarity": "rare",
+    "traits": [
+      "contract",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Self-Immolating Note",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Access</strong> Member of a secret society</p>\n<hr />\n<p>This paper is crafted with an unusual formula, causing it to catch fire and self-immolate 5 minutes after being exposed to the air. The item activates automatically when the envelope is opened, which typically takes an Interact action. Anyone holding the note when it catches fire takes @Damage[1[fire]] damage. Often, these notes are given as practical jokes or threats, but secret societies find them quite useful when sharing information about upcoming meetings or any other relevant news. These letters must be written in haste and require the use of their accompanying envelopes, which prevent air from interacting with the paper until the envelope's seal is broken.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Sense-Dulling Hood (Greater)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Sometimes, an enemy's dangerous special ability makes relatively standard sensory capabilities a liability. From otyugh stench to a harpy's song, plenty of creatures use their prey's senses against them. A sense-dulling hood is a wide, single-use mask designed to be pulled from an airtight package and slipped over the head. The mask grants you a +4 item bonus to saving throws against auditory, olfactory, and visual effects for 1 hour. Since it dulls your senses without depriving you of them, the mask also imposes a –1 penalty to rolls and checks using Perception for the same duration.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sense-Dulling Hood (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Sense-Dulling Hood (Lesser)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Sometimes, an enemy's dangerous special ability makes relatively standard sensory capabilities a liability. From otyugh stench to a harpy's song, plenty of creatures use their prey's senses against them. A sense-dulling hood is a wide, single-use mask designed to be pulled from an airtight package and slipped over the head. The mask grants you a +2 item bonus to saving throws against auditory, olfactory, and visual effects for 10 minutes. Since it dulls your senses without depriving you of them, the mask also imposes a –1 penalty to rolls and checks using Perception for the same duration.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sense-Dulling Hood (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Sensei's Parasol",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>A master once said to his pupil that, in the hands of a skilled practitioner, even a parasol can become a deadly weapon. Returning the next day, the pupil excitedly turned over a parasol forged out of metal slats, explaining that it lowered the amount of skill one would need to exert deadly force. The master sighed, seeing that his pupil had failed to see the point, but accepted the gift nonetheless. Ingenuity was, after all, a virtue.</p>\n<p>Since then, additional <em>sensei's parasols</em> have been crafted, and they're very sought after. This weapon functions as a <em>+2 striking bo staff</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cause the metal slats of the parasol to open up, transforming it into a @UUID[Compendium.pf2e.equipment-srd.Item.Sturdy Shield (Moderate)]{Moderate Sturdy Shield} (Hardness 13, HP 104 [BT 51]). You can sustain this activation for up to 10 minutes, after which the <em>sensei's parasol</em> reverts back to bo-staff form. If it's broken as a shield, it reverts to its undamaged bo-staff form. If it's destroyed as a shield, it reverts to bo-staff form and becomes broken.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Requirements</strong> The <em>sensei's parasol</em> is in bo-staff form and isn't broken</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature misses you with a melee Strike</p>\n<p><strong>Effect</strong> You redirect the missed Strike to target a creature or object within the triggering creature's reach. The triggering creature rolls a new Strike against the new target to determine the results of the redirected attack.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "monk",
+      "parry",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Sentinel Horn",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This curved brass horn is a virtuoso instrument with a surprisingly deep tone, etched with images of interlocking lines and swirls. Sentinel horns come in pairs, and each works with only the other of its pair. The listed Price is for a pair of sentinel horns.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> You play a specific tune on the horn. When you do, the other horn also plays the same tune, not matter how far away it is, as long as it is on the same plane.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Sentry Fulu",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p>A sentry fulu depicts an armed guard. When you activate the fulu, it takes the shape of a Tiny humanoid guard made of paper and keeps watch over an area in a 20-foot burst. The guard has a Perception DC of 20, along with precise visual senses and imprecise hearing and vibrational sense to detect creatures moving in its area, including through the air. You dictate whether the guard remains still in its area or patrols it; if the latter, you also determine the path the guard takes, at a Speed of 25 feet. You also determine a password others must give the guard to bypass it. If a creature enters the area without giving the password, the sentry creates either an audible or mental alarm. An audible alarm has the sound and volume of a human shouting, as well as the auditory trait, allowing each creature that can hear it to attempt a @Check[perception|dc:15] check to wake up if they're asleep. The mental alert reaches you if you're within 60 feet of the active guard (see below). The guard remains active for 8 hours, and then the fulu is consumed.</p>\n<p>If you have more than one sentry fulu, you can set up several that function as a unit, provided their areas touch or overlap. When one sounds its alarm, the alarm passes through all of them, so you must be within range of only one to hear it or receive the mental alert. Creatures that give the correct password to one sentry fulu in a unit need not give that password again to the others. The destruction of one fulu-created guard in a unit sets off the alarm in others in connected areas.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Serene Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You gain inner serenity, but you find violence off-putting.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Will saves and Perception, Medicine, Nature, Religion, and Survival checks. This bonus improves to +4 when you attempt Will saves against mental effects. When you roll a success on a Will save against a mental effect, you get a critical success instead.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to attack rolls and save DCs of offensive spells, and a -1 penalty per damage die to all weapon, unarmed attack, and spell damage.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Serene Mutagen (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Serene Mutagen (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You gain inner serenity, but you find violence off-putting.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Will saves and Perception, Medicine, Nature, Religion, and Survival checks. This bonus improves to +2 when you attempt Will saves against mental effects.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to attack rolls and save DCs of offensive spells, and a -1 penalty per damage die to all weapon, unarmed attack, and spell damage.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Serene Mutagen (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Serene Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You gain inner serenity, but you find violence off-putting.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Will saves and Perception, Medicine, Nature, Religion, and Survival checks. When you roll a success on a Will save against a mental effect, you get a critical success instead, and your critical failures on Will saves against mental effects become failures instead.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to attack rolls and save DCs of offensive spells, and a -1 penalty per damage die to all weapon, unarmed attack, and spell damage.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Serene Mutagen (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Serene Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You gain inner serenity, but you find violence off-putting.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Will saves and Perception, Medicine, Nature, Religion, and Survival checks. This bonus improves to +3 when you attempt Will saves against mental effects.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to attack rolls and save DCs of offensive spells, and a -1 penalty per damage die to all weapon, unarmed attack, and spell damage.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Serene Mutagen (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 23,
+    "name": "Serithtial",
+    "price": {},
+    "description": "<p><strong>Perception</strong> +28; normal vision and hearing within 60 feet</p>\n<p><strong>Communication</strong> empathy (partner only)</p>\n<p><strong>Skills</strong> Iomedae Lore +29, Religion +26, Zon-Kuthon Lore +29</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +1, <strong>Cha</strong> +2</p>\n<p><strong>Will</strong> +30</p>\n<hr />\n<p>The legendary blade <em>Serithtial</em> is said to have been forged by Iomedae, goddess of honor, justice, and valor. She is an intelligent <em>+4 major striking holy bastard sword</em>. Although the sword is made of steel, <em>Serithtial</em> is also treated as cold iron and silver, allowing her to deal more damage to certain supernatural creatures. She glows as bright as a torch, but you or <em>Serithtial</em> can suppress or resume this glow as a single action, which has the concentrate trait. In addition, Strikes with <em>Serithtial</em> deal an additional 2d6 damage against creatures that are worshippers of Zon-Kuthon. While wielding <em>Serithtial</em>, against effects created by followers of Zon-Kuthon you gain the benefit of @UUID[Compendium.pf2e.spells-srd.Item.Unfettered Movement], a +4 status bonus to saves against death and void effects, void resistance 10, and suppress the @UUID[Compendium.pf2e.conditionitems.Item.Doomed] condition.</p>\n<p><em>Serithtial</em> was forged as a bastard sword, and she reverts to this shape when no one wields her, but she can also detect what sort of blade her current wielder prefers and transform into it (choosing from dagger, shortsword, longsword, scimitar, falchion, greatsword, rapier, or bastard sword) using an action, which she does when first held. The wielder can empathically tell <em>Serithtial</em> to transform at any time by using a single action, which has the concentrate trait, after which <em>Serithtial</em> uses an action to transform.</p>\n<p><em>Serithtial</em> is willing to work with almost any partner as long as they are dedicated to defeating the great wyrm Kazavon and the forces of Zon-Kuthon. If you ignore those threats and pursue your own agenda instead, before long <em>Serithtial</em> attempts to seize control of your body (@Check[will|dc:45] save to resist her control), though she typically remains in control for only long enough to find a more worthy partner. You can attempt a new Will save each day to retake control of your body.</p>\n<hr />\n<p><strong>Activate—Grace of the Inheritor</strong> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> <em>Serithtial</em> spends the appropriate number of actions and casts a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Heal] or @UUID[Compendium.pf2e.spells-srd.Item.Ring of Truth] spell (DC 45 for either of the two spells).</p>\n<hr />\n<p><strong>Destruction</strong> If Kazavon or a great wyrm shadow dragon who is a worshipper of Zon-Kuthon uses its dragon breath on <em>Serithtial</em> while she is unattended, the sword melts into a pool of mundane iron.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "divine",
+      "intelligent",
+      "two-hand-d12"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Serpent Dagger",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>The serrated blade of this <em>+1 striking dagger</em> has a greenish tinge, and the hilt is sculpted to look like the head of a serpent about to strike.</p>\n<p>When you critically succeed at an attack roll with the <em>serpent dagger</em>, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} unless it succeeds at a @Check[fortitude|dc:19] save. This is a poison effect.</p>\n<p>In addition, you can activate the dagger to poison a creature with a more potent poison.</p>\n<hr />\n<p><strong>Activate—Drip Poison</strong> <span class=\"action-glyph\">F</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You damage a creature with the <em>serpent dagger</em></p>\n<p><strong>Effect</strong> You poison the creature you hit with dagger venom.</p>\n<hr />\n<p><strong>Dagger Venom</strong> (poison)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d8[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1}</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "poison",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Serpent Oil (Greater)",
+    "price": {
+      "gp": 56
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This glistening oil has a green hue and tiny snake scales floating within. If you slather serpent oil on a Medium object that is snakelike in shape, from a stick to a scarf, the object transforms into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Giant Viper], keeping some of the same colors and patterns of the original item. If placed on other objects, the oil fails and is wasted. This false snake has the minion trait. It remains in snake form for 1 minute before returning to its object state. If slain, the item returns to its original form, unharmed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Serpent Oil (Lesser)",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This glistening oil has a green hue and tiny snake scales floating within. If you slather serpent oil on a Tiny object that is snakelike in shape, from a stick to a scarf, the object transforms into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Viper], keeping some of the same colors and patterns of the original item. If placed on other objects, the oil fails and is wasted. This false snake has the minion trait. It remains in snake form for 1 minute before returning to its object state. If slain, the item returns to its original form, unharmed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Serpent Oil (Major)",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This glistening oil has a green hue and tiny snake scales floating within. If you slather serpent oil on a Large object that is snakelike in shape, from a stick to a scarf, the object transforms into a @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Emperor Cobra], keeping some of the same colors and patterns of the original item. If placed on other objects, the oil fails and is wasted. This false snake has the minion trait. It remains in snake form for 1 minute before returning to its object state. If slain, the item returns to its original form, unharmed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Serpent Oil (Moderate)",
+    "price": {
+      "gp": 24
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This glistening oil has a green hue and tiny snake scales floating within. If you slather serpent oil on an object, the object transforms. The oil can be applied to a Small object, producing a @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Sea Snake], or a Medium object, producing a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Python], keeping some of the same colors and patterns of the original item. If placed on other objects, the oil fails and is wasted. This false snake has the minion trait. It remains in snake form for 1 minute before returning to its object state. If slain, the item returns to its original form, unharmed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Serpent Oil (True)",
+    "price": {
+      "gp": 1100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This glistening oil has a green hue and tiny snake scales floating within. If you slather serpent oil on a Huge object that is snakelike in shape, from a stick to a scarf, the object transforms into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Giant Anaconda], keeping some of the same colors and patterns of the original item. If placed on other objects, the oil fails and is wasted. This false snake has the minion trait. It remains in snake form for 1 minute before returning to its object state. If slain, the item returns to its original form, unharmed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Serrating",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>A <em>serrating</em> weapon's bladed edge separates into jagged, swirling shards that spin along the blade. When dealing slashing damage, the weapon deals an additional 1d4 damage.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the <em>serrating</em> rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Serum of Sex Shift",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Upon drinking this potion, your biology instantly transforms to take on a set of sexual characteristics of your choice, changing your appearance and physiology accordingly. You have mild control over the details of this change, but you retain a strong \"family resemblance\" to your former appearance.</p>\n<p>The magic functions instantaneously and can't be counteracted. Your new anatomy is as healthy and functional as your previous body's, potentially allowing you to procreate (depending on your ancestry's biology). Drinking a subsequent <em>serum of sex shift</em> allows you to either revert back to your original form or adopt other sexual characteristics, as you choose. The elixir has no effect if you are pregnant or from an ancestry with no sexual differentiation. Most ancestries have a wide spectrum of sexual differentiation, some common, others more rare.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Server's Stew",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The type of animal tongue used in this tomato-based stew shifts from region to region, but it's always cooked with spirit of wine and seasoned with @UUID[Compendium.pf2e.equipment-srd.Item.Refined Pesh]. Eating this restaurant-staff favorite empowers you to speak and understand a single language for 1 hour. This must be a language the stew's cook could speak and understand, chosen at the time of the stew's creation. It also helps your words land smoothly, granting you a +2 item bonus to Diplomacy checks made in that language for the same duration. It doesn't allow you to read the newly acquired language in its written form.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Server's Stew]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Set of decorated ceramic plates",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Set of decorated porcelain plates",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Set of six ivory dice",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Setup Snare",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This snare is designed to divert a target's movement towards another snare or hazard. You may choose to have the target attempt a Will saving throw instead of a Reflex saving throw; if you do, add the fear and mental traits plus add either the visual or auditory trait.</p>\n<p>When a Small or larger creature enters the square, the snare Pushes the creature 5 feet and the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} until the end of their next turn. On a critical failure the snare Pushes the target 10 feet and the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} until the end of their next turn.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "kobold",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Seven-Color Raw Fish Salad",
+    "price": {
+      "gp": 88
+    },
+    "description": "<p>An appetizer popularized in Goka, seven-color raw fish salad (qicai yusheng) is both fun and tasty to eat. This large platter of salad of raw fish, seafood, fruits, and vegetables of various hues is dressed in generous drizzlings of crushed peanuts, plum sauce, and sesame oil. During the Lunar New Year, consuming the seven-color raw fish salad (as 'seven colors' sounds similar to 'seven riches') is a grand, often messy, affair of spectacle and skill. Diners gather around the platter with long chopsticks to toss the salad, lifting the assorted ingredients as high as possible without dropping them off the table; erudite diners lead the table in uttering auspicious sayings to wish good fortune for the new year.</p>\n<p><strong>Activate</strong> 1 minute (command, Interact)</p>\n<hr />\n<p><strong>Effect</strong> You toss the ingredients of the seven-color raw fish salad into the air to prepare the dish. You must attempt a @Check[cooking|dc:20|showDC:all] Lore check, with the following results.</p>\n<hr />\n<p><strong>Critical Success</strong> You manage to toss the ingredients deftly without wasting food, and your enthusiastic recitation of auspicious sayings is well received-a sign of impending good fortune! For the first month of the coming year, you enjoy a +2 bonus to skill checks to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income] and Diplomacy checks made to Gather Information about job opportunities.</p>\n<p><strong>Success</strong> You toss the ingredients adroitly, wasting a minimum of seafood, and your delivery of auspicious sayings is respectable. For the first month of the coming year, you gain a +1 bonus to skill checks to Earn Income and Diplomacy checks made to Gather Information about job opportunities.</p>\n<p><strong>Failure</strong> You fumble too many of the ingredients to have enough left to eat.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fortune",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Seventh Prism (Pentagonal)",
+    "price": {
+      "gp": 52
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>Beloved by the church of the Seventh Veil, a <em>seventh prism</em> is a crystal that disperses its internal light, casting an aurora of color. If you use a seventh prism to cast @UUID[Compendium.pf2e.spells-srd.Item.Dizzying Colors], targets are @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for twice as long as their saving throw indicates. On a critical failure, the target is dazzled for 1 minute after its @UUID[Compendium.pf2e.conditionitems.Item.Blinded] condition ends. Motes of shifting rainbow hues cloud the eyes, making it difficult to see details.</p>\n<p>The area increases to a @Template[cone|distance:20], and the DC for the flat check against the target being @UUID[Compendium.pf2e.conditionitems.Item.Concealed] increases to @Check[flat|dc:7].</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Seventh Prism (Pentagonal)]</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Seventh Prism (Triangular)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>Beloved by the church of the Seventh Veil, a <em>seventh prism</em> is a crystal that disperses its internal light, casting an aurora of color. If you use a seventh prism to cast @UUID[Compendium.pf2e.spells-srd.Item.Dizzying Colors], targets are @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for twice as long as their saving throw indicates. On a critical failure, the target is dazzled for 1 minute after its @UUID[Compendium.pf2e.conditionitems.Item.Blinded] condition ends. Motes of shifting rainbow hues cloud the eyes, making it difficult to see details.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Sextant of the Night",
+    "price": {
+      "gp": 95
+    },
+    "description": "<p>This finely wrought sextant is made from silver with several onyx mirrors and shades made from thin sets of crystal glass. A fine spyglass made of silver is affixed to the frame; removing the spyglass destroys the sextant. By all appearances, the sextant shouldn't function, as the shades and mirrors are swapped, but when you look through the spyglass, you see a night sky during the day and the sun during the night, as if day and night were inverted.</p>\n<p>When you use the sextant, you gain a +1 item bonus to Survival checks, which increases to a +2 item bonus when you Sense Direction.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Shade Hat",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This comfortable and stylish wide-brimmed hat magically protects you from the worst of the heat in hot areas, even when the heat doesn't come from the sun. While wearing the <em>shade hat</em>, you are protected from mild and severe heat (but not extreme heat).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 22,
+    "name": "Shadewither Key",
+    "price": {},
+    "description": "<p>This palm-sized talisman hangs on a string of braided bark fibers. It resembles a leaf from some unknown tree similar to oak, carved from jade and then dipped halfway into black ink that looks wet despite feeling completely dry. The gate key was originally created to open the aiudara known as the Seventh Arch. In recent years, corrupting magic has given it additional, stranger powers.</p>\n<p>When you wear and invest the <em>Shadewither Key</em>, shadows gather around you. You gain a +1 item bonus to Stealth checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You touch the <em>Shadewither Key</em> and command the shadows it casts around you to peel away. The shadows form an umbral double that resembles you in every way except for its fiery red eyes and the expression of wicked delight on its face. The double occupies the same space as you and attempts to intercept any attacks aimed at you. A creature must succeed at a @Check[flat|dc:11] when targeting you with an attack, spell, or other effect; on a failure, they hit the shadowy double instead of you. The effect lasts for 1 minute or until the double is hit, whichever comes first. Once the double is hit, it's destroyed. As long as the double exists, you don't gain the <em>Shadewither Key's</em> item bonus to Stealth checks.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "cursed",
+      "illusion",
+      "invested",
+      "primal",
+      "shadow"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Shadow Ash",
+    "price": {
+      "gp": 750
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell or successfully perform a ritual as the primary or secondary caster</p>\n<hr />\n<p>This small pile of ash glows with strange blue embers that coat whatever they touch with a thin layer of frost laced with veins of necrotic ichor. Adding this catalyst to an animate dead spell or create undead ritual wreathes the resulting undead creature in a shroud of frost that pulses with void energy. During a combat encounter, the first opponent to deal damage to the undead creature with a melee Strike takes @Damage[3d6[cold]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} as the shroud of ice and rot shatters from the blow. If the undead creature survives the encounter, the shroud of frost reforms the next day. When an undead creature animated or created with this catalyst dies, it can return to animation with half of its Hit Points within [[/r 1d4 #Rounds]]{1d4 rounds} of its death (unless it was killed in a manner that destroys it remains completely such as a @UUID[Compendium.pf2e.spells-srd.Item.Disintegrate] spell) with a @Check[flat|dc:11]. If the undead creature rises again, a desperate, garbled screech resonates from within its corpse.</p>",
+    "rarity": "rare",
+    "traits": [
+      "catalyst",
+      "cold",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Shadow (Greater)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Armor etched with this rune takes on a hazy black appearance. You gain a +2 item bonus to Stealth checks while wearing the armor.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Shadow (Major)",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>Armor etched with this rune takes on a hazy black appearance. You gain a +3 item bonus to Stealth checks while wearing the armor.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Shadow Manse",
+    "price": {
+      "gp": 1550
+    },
+    "description": "<p>This miniature dollhouse is made of dark wood with steep eaves and wide windows. Close inspection through the open windows reveals the inside to be elaborately decorated with fine furniture and ebony accoutrements.</p>\n<p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<hr />\n<p><strong>Effect</strong> You cause the dollhouse to grow into a mansion, 60 feet across and 20 feet high, with a dozen rooms. The mansion pushes aside rather than traps creatures in the area when it is created. The door appears in front of you; it bears no lock and provides easy entrance to anyone. The mansion's interior is well-appointed and dimly lit via wall sconces and fireplaces that emit pale, heatless flames. Each day at dusk, the mansion's dining room produces enough fine food and water to sustain the creatures in the manor at that time. Except for this nourishment, everything inside the manor is nearly impossible to break; even the flimsiest chairs and thinnest draperies have Hardness 20. The material inside the mansion vanishes if removed, but is replaced with the next activation.</p>\n<p>Although the mansion is easy for anyone to enter, only you and other creatures you designate when you activate the manor can leave it. Others find themselves entering some other part of the mansion when they leave through a door or window, rather than exiting. A creature that succeeds at a @Check[occultism|dc:30] check when attempting to exit the mansion can leave it if they choose, as can anyone who Forces Open an exit with a successful @Check[athletics|dc:30] check; any opening they make in the mansion closes behind them.</p>\n<p>You can return the shadow manse to its dollhouse form by twisting the front door handle and uttering a command (as a single action). Once deactivated, it can't be reactivated for 8 hours.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Shadow Signet",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This obsidian ring allows you to partially warp your spells through the Netherworld, allowing them to strike directly at a target's body.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> (concentrate, spellshape)</p><hr /><p><strong>Effect</strong> If your next action is to Cast a Spell that requires a spell attack roll against Armor Class, choose Fortitude DC or Reflex DC. You make your spell attack roll against that defense instead of AC. If the spell has multiple targets, the choice of DC applies to all of them.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Shadow",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>Armor etched with this rune takes on a hazy black appearance. You gain a +1 item bonus to Stealth checks while wearing the armor.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 22,
+    "name": "Shadowed Scale, the Jungle Secret",
+    "price": {},
+    "description": "<p>This gold-inlaid wooden mask depicts the reptilian visage of a mokele-mbembe, a jungle predator seen by the Mwangi as embodiments of nature's strength and majesty. If you're a Magaambyan who already has a mask, you can use <em>Shadowed Scale, the Jungle Secret</em> in lieu of your own mask for the purposes of mask-related abilities, such as @UUID[Compendium.pf2e.feats-srd.Item.Magic Warrior Dedication]. When you wear the mask, you are always @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in a jungle.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Requirements</strong> Your last action was a melee Strike that killed a living creature or destroyed an undead creature</p>\n<hr />\n<p><strong>Effect</strong> You cause the body to decompose into a pile of fertile soil. The creature's body is completely destroyed at the start of your next turn, and it can only be returned to life with the use of powerful magic such as @UUID[Compendium.pf2e.spells-srd.Item.Miracle] or @UUID[Compendium.pf2e.spells-srd.Item.Wish].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You are adjacent to the body of a creature you killed that has decomposed into soil</p>\n<hr />\n<p><strong>Effect</strong> You pull a seed from the mask and throw it into the soil, where it sprouts. You cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Plant or Fungus]; the spell is heightened to a level equal to one-half of the slain creature's level, rounded up. When the spell's duration ends, the plant creature returns to the soil, where it roots itself and becomes a non-creature piece of flora.</p>\n<hr />\n<p><strong>Destruction</strong> If the progenitor of all mokele-mbembes stomps on the mask, it is crushed to splinters.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "invested",
+      "magical",
+      "primal"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Shadowmist Cape",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This black cape flows more like a vaporous liquid than fabric. The cape grants you a +3 item bonus to Stealth checks. When you invest the cape, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> A creature misses you with an attack</p>\n<hr />\n<p><strong>Effect</strong> Attempt a Stealth check against the triggering creature's Perception DC. If you roll a success, you're @UUID[Compendium.pf2e.conditionitems.Item.Hidden] from that creature until the end of your next turn or until right after you use a hostile action against that creature. If you roll a critical success, you're hidden from that creature until the end of your next turn, even if you use hostile actions against that creature.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> With a twirl of the cape, you transform yourself into a puff of gray smoke. You cast @UUID[Compendium.pf2e.spells-srd.Item.Vapor Form] on yourself.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Shadow's Heart",
+    "price": {
+      "gp": 23000
+    },
+    "description": "<p>This <em>+3 greater striking kukri</em> has a thin, delicate blade that absorbs light.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (illusion, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You make a melee Strike with shadow's heart and teleport to an open space you can see within 100 feet. If the attack hits, you also leave behind a shadowy, illusory duplicate of yourself that attacks the same target for up to 3 rounds. The illusion has 1 action per round, which it takes on the turn it's created and on your turn each round. It uses this action to move up to 30 feet to a square adjacent to the target and (if the target is adjacent) to attack the target with a [[/r 1d20+28 #Attack Roll]]{+28} attack modifier, dealing @Damage[(3d6+16)[slashing]] damage. The illusion has an AC of 35 and is immediately destroyed by any attack that deals damage or requires a saving throw.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "trip"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Shapespeak Mask",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>A <em>shapespeak mask</em> is carved into the shape of an animal, usually tailored to a species of beast that the user favors. While wearing this mask, you can speak even when polymorphed into an animal. The shapespeak mask removes no other limitations, such as the inability to cast spells when transformed.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Shard of the Third Seal",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This stone fragment from the Third Seal retains a tiny sliver of that legendary item's power. The shard sheds light constantly, with the effects of a torch requiring no oxygen and generating no heat. The flame can be covered or @UUID[Compendium.pf2e.conditionitems.Item.Hidden], but it can't be smothered or quenched.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Effect</strong> You generate the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Vitality Lash] cantrip, heightened to 3rd level.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> By passing the shard over a creature or object, you can produce the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Veil of Privacy] spell on that target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> By gripping the shard tightly and waving it before you, you can produce the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Levitate] spell on yourself.</p>",
+    "rarity": "unique",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Shared-Pain Sankeit",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A <em>shared-pain sankeit</em> seems to be an impressive suit of <em>+2 resilient fortification duskwood sankeit</em> shaped to resemble a mighty linnorm. However, it protects you by drawing on the health of your nearby allies. When you roll the flat check for the armor's fortification rune, it protects you normally when you roll a 20. When you roll a 17, 18, or 19, though, the GM determines damage for the critical hit normally, then distributes half to you and the other half evenly among allies within 30 feet of you. If no ally is within range to take the distributed damage, the fortification rune fails to function. This effect manifests the first time an attacker scores a critical hit on you, after which the armor fuses with you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "laminar",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Shark Tooth Charm",
+    "price": {
+      "gp": 23
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p>This dried-seaweed bracelet is lined with charms shaped like small shark teeth. When you activate the bracelet, attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] using Acrobatics with a +1 item bonus to the check. If you roll a success, you get a critical success instead (if you roll a critical failure, you get a failure instead). If you fail the Acrobatics check against a grabbing creature, the creature must either release you as a free action or take @Damage[2d8[piercing]] damage as shark's teeth momentarily emerge from your skin.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Sharkskin Robe",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This sandy-textured robe comes with sleeves that resemble dorsal fins. It's believed to have been developed by frustrated alchemists from the Universe for trips to the Plane of Water. The <em>sharkskin robe</em> grants you a swim Speed equal to your land Speed and a +2 item bonus to Athletics checks.</p>\n<hr />\n<p><strong>Activate—Shark's Elegance</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> For 1 minute, any time you make a Strike, your weapon or unarmed attack gains the benefit of the <em>underwater</em> weapon property rune.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sharkskin Robe]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Sharpened Canines",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Some of your teeth have been replaced with those of a larger meat-eating predator. You gain a jaws unarmed attack that deals 1d6 piercing damage. These jaws are in the brawling group.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Shattered Plan",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Though the body of this <em>+2 striking impactful boomerang</em> is riddled with glowing hairline cracks, the weapon feels reassuringly solid in the hand. If you damage a target that has been struck by a <em>rime foil</em> within the last round, you bruise its chilled body, and the target takes a –5-foot penalty to all its Speeds, or a –10-foot penalty on a critical hit.</p>\n<hr />\n<p><strong>Special</strong> The shattered plan pairs with the <em>rime foil</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "recovery",
+      "thrown"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Shatterstone (Greater)",
+    "price": {
+      "gp": 3800
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A shatterstone is a small ceramic orb, much like a thunderstone. Inside are reactive agents that set up an intense field of sonic vibration when the stone breaks. The bomb grants a +3 item bonus to attack rolls and deals 4d6 sonic damage and 4 sonic splash damage. Much of the sound is ultrasonic, and creatures with sonic weakness that take damage from the bomb must succeed at a @Check[fortitude|dc:40] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of their next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Shatterstone",
+    "price": {
+      "gp": 380
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A shatterstone is a small ceramic orb, much like a thunderstone. Inside are reactive agents that set up an intense field of sonic vibration when the stone breaks. The bomb grants a +2 item bonus to attack rolls and deals 3d6 sonic damage and 3 sonic splash damage. Much of the sound is ultrasonic, and creatures with sonic weakness that take damage from the bomb must succeed at a @Check[fortitude|dc:30] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of their next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shauth Blade",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>These strange curved blades are jagged and deadly weapons made from the alchemically strengthened teeth of dead urdefhans. Each weapon is typically named for the urdefhan whose teeth were forged into the weapon, which are often carried (and revered) by that urdefhan's descendants. Magical shauth blades allow an urdefhan wielder to channel their Wicked Bite ability through shauth blade Strikes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "deadly-d8",
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shauth Lash",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This metal chain bears hook-like barbs made of alchemically strengthened urdefhan teeth. Magical shauth lashes have the same ability to channel an urdefhan wielder's Wicked Bite as magical shauth blades, and urdefhans hold these weapons with the same reverence as they do shauth blades.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d10",
+      "finesse",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shears",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Shell of Easy Breathing (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This large salt-encrusted seashell is more than 2 feet across, with images of deep sea creatures carved around its edge.</p>\n<hr />\n<p><strong>Activate—Fill the Shell</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You place the shell on a level surface and sprinkle a few drops of water into its basin. The shell slowly fills with saltwater over the course of 1 minute. The shell's magic then becomes active, indicated by a steady stream of bubbles. Moving the shell disturbs its contents, causing the item to deactivate and the water inside to evaporate; otherwise, it remains activated for an unlimited duration. While the shell is activated, a creature can submerge its head and let water and bubbles fill its nose and mouth (or whatever body part it uses for breathing) as a 3-action activity. For the next 8 hours, the creature can breathe underwater. The creature is then temporarily immune to <em>shells of easy breathing</em> until the next time it makes its daily preparations.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Shell of Easy Breathing",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This large salt-encrusted seashell is more than 2 feet across, with images of deep sea creatures carved around its edge.</p>\n<hr />\n<p><strong>Activate—Fill the Shell</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You place the shell on a level surface and sprinkle a few drops of water into its basin. The shell slowly fills with saltwater over the course of 1 minute. The shell's magic then becomes active, indicated by a steady stream of bubbles. Moving the shell disturbs its contents, causing the item to deactivate and the water inside to evaporate; otherwise, it remains activated for an unlimited duration. While the shell is activated, a creature can submerge its head and let water and bubbles fill its nose and mouth (or whatever body part it uses for breathing) as a 3-action activity. For the next hour, the creature can breathe underwater. The creature is then temporarily immune to <em>shells of easy breathing</em> until the next time it makes its daily preparations.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shell",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Shield Augmentation",
+    "price": {
+      "sp": 8
+    },
+    "description": "<p>There are numerous methods to modify shields-snarling rods to catch weapons, bladed edges, padding for nonlethal strikes, and so on-but all share basic functionality. A shield augmentation can be etched with weapon runes, much like a shield boss or shield spikes, but doesn't otherwise alter your shield's statistics. A shield bearing an augmentation can't be combined with an attached weapon, like shield spikes.</p>\n<p>A shield augmentation grants your shield one or more weapon traits, chosen when the augmentation is created. You can either choose to add the backswing or forceful trait, or you can choose two of the following weapon traits: disarm, nonlethal, shove, thrown 10 feet, trip, or versatile S.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shield Boss",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>Typically a round, convex, or conical piece of thick metal attached to the center of a shield, a shield boss increases the bludgeoning damage of a shield bash.</p>",
+    "rarity": "common",
+    "traits": [
+      "attached-to-shield"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shield Bow",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>As the name implies, a shield bow is a bow with an integrated shielding surface. While versatile and effective, a shield bow's architecture limits its flexibility somewhat, decreasing its total draw strength and penetrating power.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d8",
+      "parry"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Shield of the Unified Legion",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This high-grade orichalcum shield (Hardness 16, HP 64, and BT 32) bears a +3 major striking shield boss that cannot be removed.</p>\n<p>It gleams brightly in any light, drawing attention at all times.</p>\n<p>When you Raise this Shield, ephemeral reflections of it appear in front of each of your allies within 30 feet, granting them its +2 circumstance bonus to AC for as long as they are within 30 feet of you and your shield is raised. @UUID[Compendium.pf2e.equipment-effects.Item.Effect: Shield of the Unified Legion]</p>\n<hr />\n<p><strong>Activate</strong> (2 actions) Interact (force)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You heft the shield and thrust it forward, causing ephemeral reflections of the shield to surround you and then rush outward in a @Template[line|distance:90] or @Template[cone|distance:60] (your choice).</p>\n<p>Make a shield bash Strike against each enemy within the area, except that the damage dealt is force damage. Each target you hit is moved 10 feet away from you (each target you critically hit is also knocked prone). This is forced movement. These shield bashes count against your multiple attack penalty, but the penalty doesn't increase until after you have made all these attacks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shield Pistol Rounds",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Shield Pistol",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>These unique firearms are designed to attach to shields while still firing normally. Shield pistols are popular among Firebrands in the Shackles as they allow them to hold a blade and a firearm in each hand without giving up on defense. As is normal with firearms, a character doesn't have access to shield pistols unless they separately have access to firearms.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "attached-to-shield",
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Shield Sconce",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>This carefully balanced metal bracket can be attached to the front or top of a shield or tower shield (but not a buckler), allowing you to carry a torch without giving up your shield or holding it in your other hand. While carrying a torch in this way, you must attempt a @Check[flat|dc:11] every time you use the Shield Block reaction; on a failure, the torch is extinguished.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Shield Spikes",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>These metal spikes are strategically placed on the defensive side of the shield to deal piercing damage with a shield bash.</p>",
+    "rarity": "common",
+    "traits": [
+      "attached-to-shield"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Shielding Salve",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This shimmering paste has many properties of a @UUID[Compendium.pf2e.spells-srd.Item.Shield] spell. When you slather it onto a creature or object, the target gains a +1 circumstance bonus to AC for 1 round. The first time a physical attack or a force barrage hits the target during that round, the oil prevents 5 damage from that attack or spell, and then the oil's effect ends.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Shielding Salve]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Shifter Prosthesis",
+    "price": {
+      "gp": 210
+    },
+    "description": "<p>This prosthetic arm is imbued with transmutation magic that can transform it into a weapon.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, Interact</p>\n<p><strong>Requirements</strong> You are holding a one-handed weapon</p>\n<hr />\n<p><strong>Effect</strong> The prosthesis engulfs the weapon and absorbs it entirely. The weapon is unavailable until you use this Activation to release it from the prosthesis. The prosthesis can hold up to two items at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> The prosthesis reshapes into the form of a weapon it has absorbed. The prosthesis has all of the statistics of the weapon, including the effects of any etched runes. The prosthesis remains in this weapon's form until you use this Activation again to revert it back to a prosthesis.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  }
+]

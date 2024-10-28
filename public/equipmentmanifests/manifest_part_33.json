@@ -1,0 +1,1299 @@
+[
+  {
+    "level": 3,
+    "name": "Recording Rod (Basic)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This smooth metal bar is short enough to fit in one hand. It has several inset gemstone buttons on one end and a small lens on the other. Popular with law enforcement and blackmailers alike, recording rods allow users to capture and replay incriminating scenes and are often concealed and triggered covertly to avoid raising the subject's suspicion.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> When activated, the rod records anything it sees and hears for 1 minute. Its lens acts as both eye and ear with precise vision and imprecise hearing. This recorded sequence can then be played back as many times as desired, the sights and sounds communicated telepathically to the rod's holder. The rod's recording sequence can be triggered manually by a person holding it, or it can be programmed to begin recording automatically in response to a specified stimulus, such as nearby movement or a specific trigger word spoken in its vicinity.</p>\n<p>Once activated, the rod records for 1 minute, after which it loses its recording ability but can replay that same scene over and over.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "scrying"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Recording Rod (Reusable)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This smooth metal bar is short enough to fit in one hand. It has several inset gemstone buttons on one end and a small lens on the other. Popular with law enforcement and blackmailers alike, recording rods allow users to capture and replay incriminating scenes and are often concealed and triggered covertly to avoid raising the subject's suspicion.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> When activated, the rod records anything it sees and hears for 1 minute. Its lens acts as both eye and ear with precise vision and imprecise hearing. This recorded sequence can then be played back as many times as desired, the sights and sounds communicated telepathically to the rod's holder. The rod's recording sequence can be triggered manually by a person holding it, or it can be programmed to begin recording automatically in response to a specified stimulus, such as nearby movement or a specific trigger word spoken in its vicinity.</p>\n<p>Once activated, the rod records for 1 minute. The recording function can be enabled a second time by permanently erasing the memory currently stored on the rod.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "scrying"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Recovery Bladder",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Bulk</strong> L (8 if inflated)</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Tattletail developed this tether-covered bladder to help divers in Anuli's Crater Lake recover heavy salvage or escape dangerous underwater beasts. Pulling the ripcord causes a small, pressurized air tank to instantly inflate the bladder to the size of a rowboat, forcing up to 16 Bulk of attached items or creatures to jet to the surface of the water at a rate of 60 feet per round. Pulling the ripcord, or removing or affixing something to one of the many tethers on the recovery bladder, takes an Interact action. A recovery bladder can only be used once, as the quick inflation permanently stretches the bladder, and only a few tinkerers have the skills and equipment to refill a pressurized air tank.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Red Dragon's Breath Potion (Adult)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p>This liquid contains blood from a red dragon. For 1 hour after you imbibe the concoction, you can unleash a red dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[cone|distance:15] of fire which deals @Damage[6d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:29|basic|name:Adult Red Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Red Dragon's Breath Potion (Wyrm)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This liquid contains blood from a red dragon. For 1 hour after you imbibe the concoction, you can unleash a red dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[cone|distance:15] of fire which deals @Damage[10d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:37|basic|name:Wyrm Red Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Red Dragon's Breath Potion (Young)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This liquid contains blood from a red dragon. For 1 hour after you imbibe the concoction, you can unleash a red dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[cone|distance:15] of fire which deals @Damage[4d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:23|basic|name:Young Red Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Red-Handed Missive",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p>Composed to look like an important document, a red-handed missive is a trap used by those who suspect someone has been going through their correspondence. If activated, the missive dissolves into red dye that coats anything touching the missive. Magic in the dye prevents it from washing off for 1 week.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "curse",
+      "magical",
+      "missive"
+    ]
+  },
+  {
+    "level": 21,
+    "name": "Red Hand's Satchel",
+    "price": {},
+    "description": "<p>An <em>Red Hand's Satchel</em> is a sturdy leather backpack with two compartments. The main section contains an extradimensional space equivalent to a @UUID[Compendium.pf2e.equipment-srd.Item.Spacious Pouch (Type IV)], perfect for carrying bulkier alchemist equipment. A secondary partition can hold 2 Bulk of items, 1 of which doesn't count against your Bulk limit. This second compartment can also be activated (see below). Two shoulder straps and a thick belt for the waist hold the haversack on the wearer securely. These straps have pouches and loops for keeping alchemical items handy. They also contain magically expanded alchemist's tools that grant you a +2 item bonus to Crafting checks to create alchemical items. Water and undesirable material can't seep into the haversack, which cleans itself once per hour. When you reach in any part of the haversack, the item you sought is the first one you find. Also, the haversack preserves mundane ingredients, food, and drink inside, so they stay fresh indefinitely. This feature doesn't prolong the duration of magic or alchemical items.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You gain batches of infused reagents during your daily preparations</p>\n<p><strong>Effect</strong> You pull one additional batch of infused reagents from the satchel's secondary compartment. If you fail to use these reagents by the end of your next turn, they're lost.</p><hr /><p><strong>Craft Requirements</strong> You are an alchemist.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "divine",
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Red-Rib Gill Mask (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mask is made from the gills of the red-rib salamander, an amphibious creature unique to Terwa Lake.</p>\n<p>Once activated, the mask intensifies the odors of gaseous toxins, allowing you to automatically detect toxic fumes within 30 feet and their approximate source (making the source undetected instead of unnoticed).</p>\n<p>You can't wear other masks while you're wearing a red-rib gill mask.</p>\n<p>After Activating the mask, you also gain the listed item bonus to Fortitude saves against inhaled effects; this bonus is increased against the deadly volcanic gas known around Terwa Lake as Dead Man's Breath, and possibly against other similar volcanic gases at the GM's discretion.</p>\n<hr />\n<p><strong>Type: Greater</strong></p>\n<p>The item bonus is +3, or +4 against Dead Man's Breath, and the duration is 8 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Red-Rib Gill Mask (Greater)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Red-Rib Gill Mask (Lesser)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mask is made from the gills of the red-rib salamander, an amphibious creature unique to Terwa Lake.</p>\n<p>Once activated, the mask intensifies the odors of gaseous toxins, allowing you to automatically detect toxic fumes within 30 feet and their approximate source (making the source undetected instead of unnoticed).</p>\n<p>You can't wear other masks while you're wearing a red-rib gill mask.</p>\n<p>After Activating the mask, you also gain the listed item bonus to Fortitude saves against inhaled effects; this bonus is increased against the deadly volcanic gas known around Terwa Lake as Dead Man's Breath, and possibly against other similar volcanic gases at the GM's discretion.</p>\n<hr />\n<p><strong>Type: Lesser</strong></p>\n<p>The item bonus is +1, or +2 against Dead Man's Breath, and the duration is 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Red-Rib Gill Mask (Lesser)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Red-Rib Gill Mask (Moderate)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mask is made from the gills of the red-rib salamander, an amphibious creature unique to Terwa Lake.</p>\n<p>Once activated, the mask intensifies the odors of gaseous toxins, allowing you to automatically detect toxic fumes within 30 feet and their approximate source (making the source undetected instead of unnoticed).</p>\n<p>You can't wear other masks while you're wearing a red-rib gill mask.</p>\n<p>After Activating the mask, you also gain the listed item bonus to Fortitude saves against inhaled effects; this bonus is increased against the deadly volcanic gas known around Terwa Lake as Dead Man's Breath, and possibly against other similar volcanic gases at the GM's discretion.</p>\n<hr />\n<p><strong>Type: Moderate</strong></p>\n<p>The item bonus is +2, or +3 against Dead Man's Breath, and the duration is 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Red-Rib Gill Mask (Moderate)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Red Thread Knot",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This small length of red thread is knotted six times, with a loop at each end so it can either be worn as a bracelet or anklet, or hung from a strap.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You critically fail a save</p>\n<hr />\n<p><strong>Effect</strong> The knot unties one of its six knots, altering your fate in the process. Treat your saving throw as if you failed the check rather than critically failed the check. This is a fortune effect. Once the sixth knot unties, it becomes a non-magical red thread.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Redeemer's Pistol",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This <em>+2 striking dueling pistol</em> is fashioned from silvery steel that glistens with a radiant light. You can choose to make a nonlethal attack with the redeemer's pistol without taking a -2 penalty; if you do so, the attack deals 1d6 additional mental damage. You can also call forth the redemptive spirit within the gun to pass judgment on your foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An enemy within 30 feet damages you</p>\n<hr />\n<p><strong>Effect</strong> The protective spirit within the gun imposes a vision of redemption in your foe's mind. The foe must choose one of the following options.</p>\n<ul>\n<li>You're unharmed by the triggering damage.</li>\n<li>You gain resistance to all damage against the triggering damage equal to 2 + your level. After the damaging effect is applied, the enemy becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} until the end of its next turn and takes @Damage[4[persistent,spirit]] damage</li>\n</ul>",
+    "rarity": "unique",
+    "traits": [
+      "concealable",
+      "concussive",
+      "fatal-d10",
+      "good",
+      "holy",
+      "mental"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Redpitch Bomb (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.</p>\n<p>You gain a +2 bonus on attack rolls. The bomb deals 3 fire damage, 3d4 persistent fire damage, and 3 fire splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} until the start of your next turn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Redpitch Bomb (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.</p>\n<p>The bomb deals 1 fire damage, 1d4 persistent fire damage, and 1 fire splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} until the start of your next turn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Redpitch Bomb (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.</p>\n<p>You gain a +3 bonus on attack rolls. The bomb deals 4 fire damage, 4d4 persistent fire damage, and 4 fire splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 3} until the start of your next turn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Redpitch Bomb (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<p>Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2 fire damage, 2d4 persistent fire damage, and 2 fire splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} until the start of your next turn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 23,
+    "name": "Redsand Hourglass",
+    "price": {},
+    "description": "<p>This platinum hourglass is filled with red sand, is decorated with imagery of roses and whippoorwills with tiny black onyx eyes, and has the ability to manipulate time. Once used by Pharasma herself, the <em>Redsand Hourglass</em> was stolen from Pharasma's court a millennia ago. While the hourglass is in your possession, you're immune to the @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], @UUID[Compendium.pf2e.conditionitems.Item.Slowed], and @UUID[Compendium.pf2e.conditionitems.Item.Stunned] conditions.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact (divine, fortune, transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail a saving throw</p>\n<hr />\n<p><strong>Effect</strong> You flip the hourglass upside down then immediately right it again, rewinding time by a few moments. Reroll the saving throw with a +4 circumstance bonus. You must use the results of this new saving throw.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (divine, transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You flip the hourglass upside down, unhinging you from the flow of time. You become @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 minute. You can use this extra action only to Step, Stride, or Sustain a Spell.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (divine, transmutation)</p>\n<p><strong>Frequency</strong> once per week</p>\n<hr />\n<p><strong>Effect</strong> You flip the hourglass sideways, pausing time for everyone but yourself. You cast @UUID[Compendium.pf2e.spells-srd.Item.Freeze Time].</p>\n<p><strong>Destruction</strong> The <em>Redsand Hourglass</em> is destroyed if it's used within the Dimension of Time.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "divine"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Reducer Round",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This bullet is fashioned from a rubbery substance and stamped with the image of a diminutive ant twitching in surprise. The bullet deals no damage on a successful hit. Instead, the target must attempt a @Check[fortitude|dc:19] save.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target shrinks to Tiny size for [[/r 1d4 #rounds]] rounds. Its reach becomes 0 feet, and it's @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} for this duration.</p>\n<p><strong>Critical Failure</strong> The target shrinks to Tiny size for 1 minute. Its reach becomes 0 feet, and it's @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} for this duration</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Reef Heart (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This <em>+2 greater resilient coral armor</em>, often favored by allies of merfolk and aquatic elves, is made of living coral carefully harvested from the ocean depths. Legends speak of a variety of similar coral armors with distinct powers, but surface-dwellers know of <em>reef heart</em> as a magic armor that makes it easier for them to travel under the sea. <em>Reef heart</em> enables you to breathe underwater and gives you a swim Speed equal to your land Speed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast a 7th level @UUID[Compendium.pf2e.spells-srd.Item.Coral Eruption]. If you conjure the coral underwater, it ceases dealing damage after 1 minute, but its duration is unlimited. If the magical coral remains in place for 1 year, it becomes non-magical coral from which a reef might grow.</p>",
+    "rarity": "common",
+    "traits": [
+      "aquadynamic"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Reef Heart",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This <em>+2 resilient coral armor</em>, often favored by allies of merfolk and aquatic elves, is made of living coral carefully harvested from the ocean depths. Legends speak of a variety of similar coral armors with distinct powers, but surface-dwellers know of <em>reef heart</em> as a magic armor that makes it easier for them to travel under the sea. <em>Reef heart</em> enables you to breathe underwater and gives you a swim Speed equal to half your land Speed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Coral Eruption]. If you conjure the coral underwater, it ceases dealing damage after 1 minute, but its duration is unlimited. If the magical coral remains in place for 1 year, it becomes non-magical coral from which a reef might grow.</p>",
+    "rarity": "common",
+    "traits": [
+      "aquadynamic"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Refined Pesh",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>When eaten or smoked, pesh gives users a sense of well-being, sometimes with hallucinations, aggression, and exhaustion.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested, Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:12]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} and a +2 item bonus to saves versus fear effects (1 minute)</p>\n<p><strong>Stage 2</strong> 1 temporary Hit Point per level (first time you reach this stage only), +2 item bonus to saves versus fear effects, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and stupefied 1 (1 minute)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "inhaled",
+      "poison"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Reflected Moonlight Fulu",
+    "price": {
+      "gp": 750
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You fail to save against a void or death effect.</p>\n<p>An acolyte accidentally left fulu paper outdoors overnight during a divine ceremony to Tsukiyo conducted only during a supermoon, creating the first reflected moonlight fulu. When you Activate this fulu, you reroll your saving throw against the triggering effect and take the better result. If this new roll is a critical success, the effect is reflected on its creator, who's treated as the effect's target, with any void damage converted to vitality. A reflected effect or spell affects only the original creator, even if it was an area spell or one that affects more than one creature.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fortune",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Reflecting Shard (Greater)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Trigger</strong> You are targeted by a spell</p>\n<p><strong>Requirements</strong> You're a master in Athletics, and you have the affixed shield raised.</p>\n<hr />\n<p>This mirrored metal fragment is bolted or welded to the face of the affixed shield. When you Activate it, you attempt to reflect the triggering spell back at its caster with @UUID[Compendium.pf2e.spells-srd.Item.Spell Turning], using your Athletics modifier for the counteract check. The talisman's counteract rank is 9th.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Reflecting Shard",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Trigger</strong> You are targeted by a spell of 5th level or lower</p>\n<p><strong>Requirements</strong> You're a master in Athletics, and you have the affixed shield raised.</p>\n<hr />\n<p>This mirrored metal fragment is bolted or welded to the face of the affixed shield. When you Activate it, you attempt to reflect the triggering spell back at its caster with @UUID[Compendium.pf2e.spells-srd.Item.Spell Turning], using your Athletics modifier for the counteract check. The talisman's counteract rank is 7th.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Reflecting Shield",
+    "price": {
+      "gp": 18000
+    },
+    "description": "<p>This high-grade silver buckler (Hardness 6, HP 24, BT 12) is polished to a mirrorlike sheen. The shield functions as a <em>spellguard shield</em> that can also reflect spells.</p>\n<p><strong>Activate—Reflect Spell</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're targeted by a spell</p>\n<p><strong>Requirements</strong> The <em>reflecting shield</em> is raised</p>\n<hr />\n<p><strong>Effect</strong> You attempt to reflect the spell on its caster. The shield attempts to counteract the spell, with a counteract rank of 9th and a counteract modifier of [[/r 1d20+30 #Counteract]]{+30}. If the spell is successfully counteracted, it's turned back on its caster</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include at least 2,750 gp of silver.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Reflexive Tattoo",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>This subtle pattern of complex dots, sunbursts, and lines is difficult to make out, as it's a near match for the wearer's skin tone. Serving as a barrier facing inward, this tattoo prevents ostentatious expressions of spells that are internal to you, making them easier to hide.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (concentrate, manipulate, metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If the next action you use is to Cast a Spell of 2nd level or lower that affects or targets only you, you can hide that you're casting it. This has the same effect as the @UUID[Compendium.pf2e.feats-srd.Item.Conceal Spell] feat.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Reforging Shield",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This steel shield contains a smoldering core of magma that never cools. Whenever the reforging shield's current Hit Points are below its Break Threshold, the shield recovers 5 Hit Points at the start of its wielder's turn each round until it is no longer broken. Each time a character Repairs the shield, the shield recovers double the number of Hit Points. The shield has Hardness 15, HP 120, and BT 60.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Reinforced Chassis",
+    "price": {},
+    "description": "",
+    "rarity": "rare",
+    "traits": [
+      "comfort"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Reinforced Stock",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>A reinforced stock is a weighted crossbow, firearm haft, or grip customized for striking in melee.</p>",
+    "rarity": "common",
+    "traits": [
+      "attached-to-crossbow-or-firearm",
+      "finesse",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Reinforced Surcoat",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This surcoat is made of thick fabric and light chain, designed to protect vital areas. When you are critically hit by an attack, you gain physical resistance equal to 2 + the value of the armor's potency rune against the attack's damage. If the armor is in the chain armor group and you have its armor specialization effect, you instead increase the physical resistance from the chain armor specialization by 2. This can't reduce the damage to less than the damage rolled for the hit before doubling for a critical hit. However, the reinforced surcoat increases the Speed penalty of your armor by 5 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Reinforced Wheels",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>The chair's wheels have been reinforced with tough, metal rims or a metal cap. While in the chair, you gain a wheel Strike. Your wheel deals 1d4 bludgeoning damage and has the agile, attached, and free-hand traits. A reinforced wheel is a simple melee weapon in the club weapon group. You can etch weapon runes onto reinforced wheels. A wheelchair can only have one attached weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "attached",
+      "free-hand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Reinforcing Rune (Greater)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 5, it gains an additional 80 Hit Points, and its BT increases by 42 (maximum 15 Hardness, 120 HP, and 60 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Reinforcing Rune (Lesser)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 3, it gains an additional 52 Hit Points, and its BT increases by 26 (maximum 10 Hardness, 80 HP, and 40 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Reinforcing Rune (Major)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 5, it gains an additional 84 Hit Points, and its BT increases by 42 (maximum 17 Hardness, 136 HP, and 68 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Reinforcing Rune (Minor)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 3, it gains an additional 44 Hit Points, and its BT increases by 22 (maximum 8 Hardness, 64 HP, and 32 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Reinforcing Rune (Moderate)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 3, it gains an additional 64 Hit Points, and its BT increases by 32 (maximum 13 Hardness, 104 HP, and 52 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Reinforcing Rune (Supreme)",
+    "price": {
+      "gp": 32000
+    },
+    "description": "<p>Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.</p>\n<hr />\n<p>The shield's Hardness increases by 7, it gains an additional 108 Hit Points, and its BT increases by 54 (maximum 20 Hardness, 160 HP, and 80 BT).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Religious Symbol (Silver)",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity to use certain abilities and cast some spells. A religious symbol can be worn on the body on a chain or pin, or can be held.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Religious Symbol (Wooden)",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity to use certain abilities and cast some spells. A religious symbol can be worn on the body on a chain or pin, or can be held.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Religious Text",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain abilities. A religious text must be held in one hand to use it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Remorhaz Armor",
+    "price": {
+      "gp": 975
+    },
+    "description": "<p>This <em>+1 resilient fire-resistant niyaháat</em> is often created to mark the passage of an Erutaki warrior into adulthood, formed from the chitinous plates of a remorhaz, with larger pieces protecting the chest, shoulders, and head. As you fight, the armor glows red hot.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The armor is sheathed in a @UUID[Compendium.pf2e.spells-srd.Item.Fire Shield].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're dealt 30 or more fire damage, before any reduction from your fire resistance</p>\n<p><strong>Requirements</strong> You've used the <em>fire shield</em> activation already today</p>\n<p><strong>Effect</strong> The <em>fire shield</em> activation recharges.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the carapace of a remorhaz.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "laminar"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Remote Trigger",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This trigger array uses thunderstones and crystals to remotely detonate alchemical bombs through harmonic vibrations. When a switch on the trigger is flipped up, the remote trigger begins to emit infrasonic pulses that slowly build up over the course of 30 minutes in up to three alchemical bombs placed next to the trigger (the trigger can be left to attune during your daily preparations). You can later activate the trigger to detonate one or more of the attuned bombs as long as they're within 60 feet. Bombs detonated in this way deal their splash damage as if they had missed a target in the square where they were triggered.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Rending Snare",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Sharp metal jaws wind tightly into the pressure plate mechanism of this snare. When triggered, the jaws clamp shut and spin, damaging limbs in the process. The snare deals @Damage[10d8[piercing]] damage to the first creature to enter the square; that creature must attempt a @Check[reflex|dc:34|showDC:all] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature takes full damage plus @Damage[2d6[bleed]], and it becomes @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage plus @Damage[4d6[bleed]], and it becomes @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "kobold",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Repair Toolkit (Superb)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. A superb repair kit gives you a +1 item bonus to the check. You can draw and replace a worn repair toolkit as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Repair Toolkit",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Repeating Crossbow Magazine",
+    "price": {
+      "sp": 9
+    },
+    "description": "",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Repeating Crossbow",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>This crossbow has an internal chamber that can be loaded with up to five bolts. An automated catch mechanism at the top of the flight groove, just in front of the latch, locks the bowstring and launches bolts with the pull of a trigger.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "repeating"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Repeating Hand Crossbow Magazine",
+    "price": {
+      "sp": 9
+    },
+    "description": "",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Repeating Hand Crossbow",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This handheld crossbow features an ingeniously designed catch mechanism at the top of the flight groove, just in front of the latch, which automatically loads a bolt from a magazine and resets the string each time the weapon is fired. A typical repeating hand crossbow magazine holds five bolts.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "repeating"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Repeating Heavy Crossbow Magazine",
+    "price": {
+      "sp": 9
+    },
+    "description": "",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Repeating Heavy Crossbow",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This large crossbow has an internal chamber that can be loaded with up to five bolts. While it uses the same automated catch mechanism as other repeating crossbows, a repeating heavy crossbow's design has significant trade-offs. It has increased range and damage and is easier to learn how to use, but requires a small amount of effort to reload.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "repeating"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Replacement Filter (Level 1)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>A replacement filter for a @UUID[Compendium.pf2e.equipment-srd.Item.Water Purifier]. The counteract modifier using this filter is +5.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Replacement Filter (Level 10)",
+    "price": {
+      "gp": 155
+    },
+    "description": "<p>A replacement filter for a @UUID[Compendium.pf2e.equipment-srd.Item.Water Purifier]. The counteract modifier using this filter is +17.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Replacement Filter (Level 5)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>A replacement filter for a @UUID[Compendium.pf2e.equipment-srd.Item.Water Purifier]. The counteract modifier using this filter is +9.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 16,
+    "name": "Repulsion Resin",
+    "price": {
+      "gp": 1650
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This clear, tasteless tar causes the victim to emit waves of harmful mental energy that repel other creatures. Desperate users might consume this poison to keep enemies at bay despite the poison's debilitating effects. While you're @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] from this poison, a creature that starts its turn within 10 feet of you or approaches within 10 feet of you must attempt a @Check[will|dc:35] saving throw. On a failure, the creature can't voluntarily move closer to you; this is a mental effect. Once the approaching creature has attempted to save, it uses the same result for all saves from that dose of repulsion resin.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:38]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[12d6[mental]] damage and stupefied 1 (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[16d6[poison]] damage and stupefied 1 (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[20d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 minute)</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of @UUID[Compendium.pf2e.spells-srd.Item.Repulsion].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Resilient (Greater)",
+    "price": {
+      "gp": 3440
+    },
+    "description": "<p><em>Resilient</em> runes imbue armor with additional protective magic. This grants the wearer a +2 item bonus to saving throws.</p>\n<p>You can upgrade the <em>resilient</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Resilient (Major)",
+    "price": {
+      "gp": 49440
+    },
+    "description": "<p><em>Resilient</em> runes imbue armor with additional protective magic. This grants the wearer a +3 item bonus to saving throws.</p>\n<p>You can upgrade the <em>resilient</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Resilient",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p><em>Resilient</em> runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.</p>\n<p>You can upgrade the <em>resilient</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Resolute Mind Wrap",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>The followers of the Tan Sugi monastery understood the value of protecting the mind from the intrusion of violence and anger and infused this strip of striped green and brown cloth with their beliefs. Wrapped around the head, the stripes almost evoke the patterns of sugi branches coiled around the wearer's skull. The <em>resolute mind wrap</em> grants you resistance 5 against mental damage.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a Will saving throw against a mental effect</p>\n<hr />\n<p><strong>Effect</strong> The <em>resolute mind wrap</em> clings more tightly to your head, granting you a +1 item bonus to your Will saving throw. If you succeed at this saving throw, the resistance to mental damage granted by the <em>resolute mind wrap</em> increases to 10 for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Resolute Mind Wrap]</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Resonant Guitar",
+    "price": {
+      "gp": 1850
+    },
+    "description": "<p>Every part of this dark, shining guitar, from the strings to the soundboard, is constructed of metal. When the strings are strummed, the gilding on the guitar ripples like a liquid. A <em>resonant guitar</em> is a virtuoso handheld musical instrument that grants a +2 item bonus to Performance checks attempted while using it.</p>\n<p>A <em>resonant guitar</em> is a planar key for @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] and similar magic to travel to the Plane of Metal. When using it in this way, you can play a tune inspired by your destination to make it more likely to arrive where you intend to be, appearing 1d6×25 miles from your intended destination instead of 1d10×25 miles away.</p>\n<hr />\n<p><strong>Activate-Strum of Thunder</strong> 1 minute (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You play a magnetic tune, enchanting one metallic weapon within 60 feet of you. This item gains the @UUID[Compendium.pf2e.equipment-srd.Item.Thundering] rune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Strum of Thunder]</p>\n<hr />\n<p><strong>Activate-Chord of Protection</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> A creature within 30 feet of you targets you or an ally with a melee attack</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You strike a piercing chord, putting up an invisible sound barrier between the target and the attacker. The target gains a +2 status bonus to AC against the triggering attack. If the Strike still hits, the barrier breaks, dealing @Damage[3d10[sonic]] damage to the attacker.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "metal",
+      "sonic"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Resonating Ammunition (Arrow)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The end of this ammunition is a metallic tuning fork with magical etchings. When an activated resonating arrow hits its target, the tuning fork resonates with residual energy from the shot, transforming it into dangerous sound waves. This deals @Damage[5d10[sonic]] damage to the target and each creature within 10 feet of it with a @Check[fortitude|dc:28|basic|name:Resonating Ammunition|showDC:all] save.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Resonating Ammunition (Bolt)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The end of this ammunition is a metallic tuning fork with magical etchings. When an activated resonating bolt hits its target, the tuning fork resonates with residual energy from the shot, transforming it into dangerous sound waves. This deals @Damage[5d10[sonic]] damage to the target and each creature within 10 feet of it with a @Check[fortitude|dc:28|basic|name:Resonating Ammunition|showDC:all] save.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Resonating Fork (Greater)",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>This two-pronged fork of metal emits a constant low hum, vibrating slightly when touched. The spell attack roll of any spell cast by activating this item is +13, and the spell DC is 23.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to sonic damage and a +2 item bonus to saving throws against effects with the auditory or sonic trait.</li>\n<li><strong>Weapon</strong> After you cast a sonic spell by activating the fork, the weapon reverberates with trapped sound waves. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 3 rounds if it hits (or for 1 minute on a critical hit). If you don't make a Strike by the end of your next turn, the sound waves dissipate with no effect.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Resonating Fork - Armor (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Bullhorn].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Biting Words].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sonic",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Resonating Fork (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This two-pronged fork of metal emits a constant low hum, vibrating slightly when touched. The spell attack roll of any spell cast by activating this item is +19, and the spell DC is 29.</p><ul><li><strong>Armor</strong> You gain resistance 10 to sonic damage and a +2 item bonus to saving throws against effects with the auditory or sonic trait.</li><li><strong>Weapon</strong> After you cast a sonic spell by activating the fork, the weapon reverberates with trapped sound waves. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute if it hits (or for 1 hour on a critical hit). If you don't make a Strike by the end of your next turn, the sound waves dissipate with no effect.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Resonating Fork - Armor (Major)]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Bullhorn].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Painful Vibrations].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sonic",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Resonating Fork",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>This two-pronged fork of metal emits a constant low hum, vibrating slightly when touched. The spell attack roll of any spell cast by activating this item is +9, and the spell DC is 19.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to sonic damage and a +1 item bonus to saving throws against effects with the auditory or sonic trait.</li>\n<li><strong>Weapon</strong> After you cast a sonic spell by activating the fork, the weapon reverberates with trapped sound waves. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round if it hits (or for 3 rounds on a critical hit). If you don't make a Strike by the end of your next turn, the sound waves dissipate with no effect.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Resonating Fork - Armor]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Bullhorn].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Biting Words].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sonic",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Restful Sleep Fulu",
+    "price": {
+      "gp": 32
+    },
+    "description": "<p><strong>Usage</strong> affixed to a creature</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Duration</strong> 1 hour</p>\n<hr />\n<p>This fulu depicts the five-spoke wheel of Qi Zhong, god of magic and medicine, and burns away slowly, like incense. If you fall asleep within the fulu's duration, you regain double the amount of Hit Points you usually gain from resting. You also gain a +2 status bonus to saves against mental effects that occur in your dreams, such as the @UUID[Compendium.pf2e.spells-srd.Item.Nightmare] spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Restful Tent",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>This four-person tent provides several benefits for those who rest within. The climate inside the tent is comfortable and allows creatures inside it to withstand most hostile weather conditions, but incredible heat or cold, powerful storms, and winds of hurricane force or greater can still damage or destroy the tent. Mundane pests such as solitary ordinary insects avoid the tent, though swarms and giant insects can attack the tent as normal. Once you pitch the tent, only you can easily move it; any other creatures must succeed at a @Check[athletics|dc:20|name:Move Tent|showDC:all] check to do so. Finally, the tent automatically camouflages with its surroundings, requiring a Searching creature to succeed at a @Check[perception|dc:22|name:Spot Camouflaged Tent|showDC:all] check to notice it.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Resurrection Tea",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact or 10 minutes (concentrate, Interact)</p><hr /><p>Resurrection tea was named for its repugnant taste, said to be \"strong enough to kill the living,\" and its incredible medicinal properties \"powerful enough to raise the dead.\" The primary ingredients in this medicinal tea are ginseng and jujubes, enhanced with additional herbs, shaved deer antlers, sugi tree bark, and a variety of mushrooms stewed for several hours in a large pot to form a brown, pulpy, and viscous liquid. The bitterness and earthy taste make the tea rather unappetizing. The tea restores @Damage[(2d8+5)[healing]] Hit Points, and you reduce the DC of recovery checks by 1 for 8 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Resurrection Tea]</p><hr /><p><strong>Tea Ceremony</strong> The tea reduces the DC of recovery checks by 3.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion",
+      "tea"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Retaliation (Greater)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>Shields with a retaliation rune use the impact of weapons to generate blasts of explosive force that counterattack foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You Shield Block a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash force damage against the creature that made the triggering attack. This attack deals @Damage[12d4[force]] (@Check[reflex|dc:31|basic]).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Retaliation (Lesser)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Shields with a retaliation rune use the impact of weapons to generate blasts of explosive force that counterattack foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You Shield Block a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash force damage against the creature that made the triggering attack. This attack deals @Damage[4d4[force]] (@Check[reflex|dc:20|basic]).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Retaliation (Major)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>Shields with a retaliation rune use the impact of weapons to generate blasts of explosive force that counterattack foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You Shield Block a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash force damage against the creature that made the triggering attack. This attack deals @Damage[16d4[force]] (@Check[reflex|dc:41|basic]).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Retaliation (Moderate)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Shields with a retaliation rune use the impact of weapons to generate blasts of explosive force that counterattack foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You Shield Block a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash force damage against the creature that made the triggering attack. This attack deals @Damage[8d4[force]] (@Check[reflex|dc:27|basic]).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Retribution Axe",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>The blade of this <em>+1 greataxe</em> bears a design of a human skull.</p>\n<p>Whenever a creature damages you with an attack, the skull changes its appearance to look like the face of that creature. You gain a +2 circumstance bonus to your next damage roll against that creature before the end of your next turn.</p>\n<p>Because the face reshapes each time you're damaged, you get the additional damage only if you attack the creature that damaged you most recently.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 21,
+    "name": "Retribution",
+    "price": {},
+    "description": "<p>Retribution is a <em>+3 greater striking keen shifting wounding war razor</em>.</p>\n<p><strong>Activate—Vengeful Slice</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> You make a Strike with Retribution against a target within 120 feet that you can see and who damaged you within the last minute, as if they were within reach.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "artifact",
+      "backstabber",
+      "deadly-d8",
+      "divine",
+      "finesse"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Retrieval Belt (Greater)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This belt is covered in small pouches that clasp with buttons of painstakingly carved stone. The belt is tied to an extradimensional space that can hold up to three items of 1 Bulk or less. Anyone holding the belt can sense its contents, but only those who've invested it can store or retrieve items. Many retrieval belts are found with an item already inside.</p>\n<hr />\n<p><strong>Activate—Store Item</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> There is room for an item in the belt</p>\n<p><strong>Effect</strong> One item you're holding with a Bulk of 1 or less vanishes into the belt's extradimensional space.</p>\n<hr />\n<p><strong>Activate—Retrieve Item</strong> <span class=\"action-glyph\">F</span> (manipulate)</p>\n<p><strong>Requirements</strong> An item is stored in the belt and you have a free hand</p>\n<p><strong>Effect</strong> The item stored in the belt appears in your hand. Neither Store Item nor Retrieve Item can be activated again for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Retrieval Belt (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>This belt is covered in small pouches that clasp with buttons of painstakingly carved stone. The belt is tied to an extradimensional space that can hold up to ten items of 1 Bulk or less. Anyone holding the belt can sense its contents, but only those who've invested it can store or retrieve items. Many retrieval belts are found with an item already inside.</p>\n<hr />\n<p><strong>Activate—Store Item</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> There is room for an item in the belt</p>\n<p><strong>Effect</strong> One item you're holding with a Bulk of 1 or less vanishes into the belt's extradimensional space.</p>\n<hr />\n<p><strong>Activate—Retrieve Item</strong> <span class=\"action-glyph\">F</span> (manipulate)</p>\n<p><strong>Requirements</strong> An item is stored in the belt and you have a free hand</p>\n<p><strong>Effect</strong> The item stored in the belt appears in your hand. Neither Store Item nor Retrieve Item can be activated again for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Retrieval Belt",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>This belt is covered in small pouches that clasp with buttons of painstakingly carved stone. The belt is tied to an extradimensional space that can hold one item of 1 Bulk or less. Anyone holding the belt can sense its contents, but only those who've invested it can store or retrieve items. Many retrieval belts are found with an item already inside.</p>\n<hr />\n<p><strong>Activate—Store Item</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> There is room for an item in the belt</p>\n<p><strong>Effect</strong> One item you're holding with a Bulk of 1 or less vanishes into the belt's extradimensional space.</p>\n<hr />\n<p><strong>Activate—Retrieve Item</strong> <span class=\"action-glyph\">F</span> (manipulate)</p>\n<p><strong>Requirements</strong> An item is stored in the belt and you have a free hand</p>\n<p><strong>Effect</strong> The item stored in the belt appears in your hand. Neither Store Item nor Retrieve Item can be activated again for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Retrieval Prism (Greater)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Requirements</strong> You have a free hand.</p>\n<hr />\n<p>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. When you activate this talisman, any item in your possession of 1 bulk or less, chosen when you activate the prism, immediately teleports into your hand.</p>\n<p>The retrieval prism can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a bag of holding. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.</p>\n<p>You don't need to attune the prism. It can retrieve any item in your possession of 1 Bulk or less, chosen when you activate the prism.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Retrieval Prism",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Requirements</strong> You have a free hand.</p>\n<hr />\n<p>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. As part of the process of Affixing this Talisman, you attune it to a single item of 1 Bulk or less. When you activate this talisman, the attuned item immediately teleports into your hand.</p>\n<p>The retrieval prism can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a bag of holding. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Returning",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>When you make a thrown Strike with this weapon, it flies back to your hand after the Strike is complete. If your hands are full when the weapon returns, it falls to the ground in your space.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Revealing Mist (Greater)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Kept in an airtight spray bottle, revealing mist is an alchemical concoction that creates a sticky and clinging mist of chemicals in a @Template[cone|distance:30] when sprayed. It doesn't affect visibility but causes @UUID[Compendium.pf2e.conditionitems.Item.Invisible] creatures in the area to be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] rather than undetected. Revealing mist is ineffective in water or in areas with other factors affecting the spread of the mist, as determined by the GM. It remains in the area for 1 minute or until any significant wind disperses it, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Revealing Mist (Lesser)",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Kept in an airtight spray bottle, revealing mist is an alchemical concoction that creates a sticky and clinging mist of chemicals in a @Template[cone|distance:15] when sprayed. It doesn't affect visibility but causes @UUID[Compendium.pf2e.conditionitems.Item.Invisible] creatures in the area to be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] rather than undetected. Revealing mist is ineffective in water or in areas with other factors affecting the spread of the mist, as determined by the GM. It remains in the area for 1 minute or until any significant wind disperses it, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Reverberating Stone (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You use the affixed shield to Shield Block a melee attack</p>\n<p><strong>Requirements</strong> You're a master in Athletics, and you have the affixed shield raised.</p>\n<hr />\n<p>This heavy metal emblem is mounted on the face of the affixed shield and has a dull gray gemstone embedded at its center. When you Activate the talisman, the gem shatters, releasing a powerful shockwave in a @Template[cone|distance:30] that must include the enemy who struck the triggering blow, if possible. Each creature in the cone takes @Damage[3d6[sonic]|options:area-damage] with a @Check[fortitude|dc:34|basic|options:area-effect]. Any creature that fails its save is pushed 5 feet away from you (or 10 feet on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Reverberating Stone",
+    "price": {
+      "gp": 275
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You use the affixed shield to Shield Block a melee attack</p>\n<p><strong>Requirements</strong> You're a master in Athletics, and you have the affixed shield raised.</p>\n<hr />\n<p>This heavy metal emblem is mounted on the face of the affixed shield and has a dull gray gemstone embedded at its center. When you Activate the talisman, the gem shatters, releasing a powerful shockwave in a @Template[cone|distance:15] that must include the enemy who struck the triggering blow, if possible. Each creature in the cone takes @Damage[2d6[sonic]|options:area-damage] with a @Check[fortitude|dc:28|basic|options:area-effect]. Any creature that fails its save is pushed 5 feet away from you (or 10 feet on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Rhino Hide Brooch",
+    "price": {
+      "gp": 28
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You would take physical damage.</p>\n<hr />\n<p>This thick brooch is carved from a single piece of rhino hide. It's lacquered and covered in a thin layer of silver dust. When activated, the talisman grants you resistance 5 to physical damage until the end of the current creature's turn. This resistance applies to the triggering attack.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rhino Hide Brooch]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Rhino Shot",
+    "price": {
+      "gp": 22
+    },
+    "description": "<p><strong>Ammunition</strong> Any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>This arrow is made of polished animal horn, with the head of a rhinoceros carved in place of a traditional arrowhead. When an activated rhino shot is fired, the ethereal form of a large rhinoceros takes shape around the projectile. On a successful Strike, the attack deals an additional 2d6 force damage, and the target must succeed at a @Check[fortitude|dc:19] or be knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]. If the hit with the <em>rhino shot</em> was a critical success, the target is knocked prone unless it critically succeeds at its save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Rhinoceros Mask (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>Covered with thick armor and bearing a thicker horn, this face mask grants you increased momentum. If you Stride at least 10 feet, your next melee Strike before the end of your turn ignores the Hardness of objects with a Hardness of 10 or less. If the object has more than Hardness 10, the mask grants no benefit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Rhinoceros Mask",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>Covered with thick armor and bearing a thicker horn, this face mask grants you increased momentum. If you Stride at least 10 feet, your next melee Strike before the end of your turn ignores the Hardness of objects with a Hardness of 5 or less. If the object has more than Hardness 5, the mask grants no benefit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Rhodochrosite",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Rhoka Sword",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>The rhoka sword is the preferred weapon of urdefhan soldiers, though all urdefhans know how to wield these instruments of war.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "two-hand-d10"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Rhythm Bone (Greater)",
+    "price": {
+      "gp": 64
+    },
+    "description": "<p>This small, enchanted bone (most often a jaw) is usually capped with metal at its ends. It's activated by striking it against a hard surface.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> The bone begins recording the next 10 minutes of ambient sounds (including speech) that require a DC 20 or lower Perception check to hear. The bone's recording doesn't copy magical auditory effects, such as those of spellcasting, a harpy's song, or a banshee's wail. Once the rhythm bone has been activated in this way, it retains the recorded sound for the rest of its existence and can't be activated this way again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> The bone replays its recorded sounds.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Rhythm Bone",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This small, enchanted bone (most often a jaw) is usually capped with metal at its ends. It's activated by striking it against a hard surface.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> The bone begins recording the next 1 minute of ambient sounds (including speech) that require a DC 15 or lower Perception check to hear. The bone's recording doesn't copy magical auditory effects, such as those of spellcasting, a harpy's song, or a banshee's wail. Once the rhythm bone has been activated in this way, it retains the recorded sound for the rest of its existence and can't be activated this way again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> The bone replays its recorded sounds.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Rhyton of the Radiant Ifrit",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>This exquisite, shimmering rhyton is made from volcanic glass and encrusted with rubies, garnets, and other red gemstones, with a blown glass sculpture of a snakelike fire elemental at its base. It was sculpted as part of a 10-piece set of drinking horns, created to match a powerful ifrit shuyookh's entertaining dinnerware, but it became separated from the rest of the collection. Whether for good or ill, the beautiful glass rhyton still carries tidings from its previous shuyookh owner, and you become their esteemed guest from afar whenever you hold it.</p>\n<p>The drinking horn functions as a @UUID[Compendium.pf2e.equipment-srd.Item.Bottomless Stein], refilling with a common ale each time it's emptied. However, anyone holding the rhyton who whispers the name of its former shuyookh owner has the horn filled with their favorite wine, spirit, juice, or other beverage from anywhere across the many planes, as if their wish were granted by a magnanimous genie.</p>\n<hr />\n<p><strong>Activate—Toast!</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You raise a toast to a creature or creatures you're about to socialize with. You gain a +2 item bonus to Deception, Diplomacy, or Intimidation checks against those creatures for 1 hour.</p>\n<hr />\n<p><strong>Activate—Ifrit's Command</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> An ifrit's hospitality always comes with an implied threat. You cause the shuyookh to briefly appear and take its vengeance on those who would hurt you, the genie's \"guest.\" The shuyookh issues a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Command] that targets all creatures hostile to you in range instead of the usual number of targets. The shuyookh issues the same command to all of them. Each target that fails its save also feels all nourishment leached from it, becoming @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] as long as it's affected by the command.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Ridill",
+    "price": {},
+    "description": "<p>This 12-foot sword was made by a cyclops in the ancient past. It might be the greatest dragon-killing weapon ever made, and Fafnheir justly fears it, which is why he keeps it hidden in his hoard. Runes of dragon slaying are written down its blade. <em>Ridill</em> is a <em>+3 major striking dragon bane speed adamantine greatsword</em>. While wielding <em>Ridill</em>, you gain a +2 circumstance bonus to saves against fear. This increases to +4 if the effect is from a dragon. If you have an ability that depends on Large weapons (such as barbarian giant instinct), it works with <em>Ridill</em>.</p>\n<p><em>Ridill</em> is always considered to have the appropriate material or damage type necessary to deactivate a dragon's regeneration or cause the dragon's weakness to apply. For example, <em>Ridill</em> is considered to be cold iron when attacking a linnorm, while it would be treated as having dealt cold damage when attacking a red dragon. If the dragon has more than one weakness, only the highest value applies.</p>\n<p><strong>Destruction</strong> If you boil <em>Ridill</em> in the blood of 10 different types of dragon (blue dragon, red dragon, etc.) and drop the eye of a cyclops seer into the brew, <em>Ridill</em> melts away into nothingness.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Right of Retribution",
+    "price": {},
+    "description": "<p><strong>Devil</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.Erinys]</p>\n<p><strong>Decipher Writing</strong> Nature, Religion</p>\n<hr />\n<p>Profane powers of vengeance are yours to inflict.</p>\n<p><strong>Benefit</strong> When a creature deals damage to you, you can call out for retribution as a reaction. Until the end of your next turn, you gain a +1 status bonus to attack rolls against that creature.</p>\n<p><strong>Payment</strong> If you wound a creature, it is your duty to kill it. If a creature survives for 24 hours after you deal it damage, you are @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1}. If you already have the doomed condition, it increases by 1.</p>\n<p><strong>Hidden Condition</strong> No more than once per year, the erinys can compel you to attack a creature of the erinys's choice that you can see. You are @UUID[Compendium.pf2e.conditionitems.Item.Controlled] by the erinys and must fight the chosen creature for 1 minute.</p>\n<p><strong>Termination Clause</strong> The contract demands that you enact bloody vengeance against anyone who has ever wronged you, but the nature of the vengeance is vague. You can end the contract by creating effigies of everyone you believe has ever wronged you, bleeding upon them all at once (at least 1 Hit Point per effigy), and destroying them.</p>",
+    "rarity": "rare",
+    "traits": [
+      "contract",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Rime Crystal (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>Slowly spinning at the center of this crystalline orb is a single snowflake, and its surface remains lightly covered in frost no matter how hot the weather is outside. The spell attack roll of any spell cast by activating this item is +14, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to cold.</li>\n<li><strong>Weapon</strong> After you cast a cold spell by activating the <em>crystal</em>, your Strikes with the weapon deal an additional @Damage[1d6[cold]] damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray].</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Rime Crystal (Major)",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>Slowly spinning at the center of this crystalline orb is a single snowflake, and its surface remains lightly covered in frost no matter how hot the weather is outside. The spell attack roll of any spell cast by activating this item is +20, and the spell DC is 30.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to cold.</li>\n<li><strong>Weapon</strong> After you cast a cold spell by activating the <em>crystal</em>, your Strikes with the weapon deal an additional @Damage[1d8[cold]] damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ice Storm].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold].</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Rime Crystal",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>Slowly spinning at the center of this crystalline orb is a single snowflake, and its surface remains lightly covered in frost no matter how hot the weather is outside. The spell attack roll of any spell cast by activating this item is +7, and the spell DC is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to cold.</li>\n<li><strong>Weapon</strong> After you cast a cold spell by activating the <em>crystal</em>, your Strikes with the weapon deal an additional @Damage[1d4[cold]] damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rime Crystal - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost].</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Rime Foil",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>The steely blue blade of this <em>+2 striking frost rapier</em> emerges from a hilt wrapped in thick leather and trimmed in fur to protect the wielder's hand.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You hit a creature using the <em>rime foil</em> as your last action</p>\n<hr />\n<p><strong>Effect</strong> You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Phantom Prison] on the target (@Check[will|dc:22|traits:action:disbelieve] to disbelieve). If the target has been damaged by a <em>shattered plan</em> in the last round, the DC is instead @Check[will|dc:24|traits:action:disbelieve].</p>\n<hr />\n<p><strong>Special</strong> The rime foil pairs with the <em>shattered plan</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "finesse"
+    ]
+  }
+]

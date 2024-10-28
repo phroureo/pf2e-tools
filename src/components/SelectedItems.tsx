@@ -3,9 +3,10 @@
 import React from 'react';
 import { EquipmentItem } from '../types/EquipmentItem';
 import { formatPrice } from '../utils/formatPrice';
+import { ManifestItem } from '../types/ManifestItem';
 
 interface SelectedItemsProps {
-    items: EquipmentItem[];
+    items: ManifestItem[];
     totalPrice: string; // Ensure totalPrice is expected as a string here
     onRemoveItem: (index: number) => void;
 }
@@ -14,15 +15,16 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
     return (
         <div>
             <h2>Selected Items</h2>
-            <span className="action-glyph">1</span>
-            <span className="action-glyph">2</span>
-            <span className="action-glyph">R</span>
-            <span className="action-glyph">F</span>
+            <span className="action-glyph">1 </span> 
+            <span className="action-glyph">2 </span> 
+            <span className="action-glyph">3 </span> 
+            <span className="action-glyph">R </span> 
+            <span className="action-glyph">F </span>
             <ul>
                 {items.map((item, index) => (
                     <li key={index}>
                         <div>
-                            {item.name} - {formatPrice(item.system?.price?.value)}
+                            {item.name} - {formatPrice(item.price?.value)}
                         </div>
 
                         <button onClick={() => onRemoveItem(index)}>Remove</button>

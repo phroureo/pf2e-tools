@@ -340,6 +340,7 @@
 .search-condition {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 /* Search bar takes up most of the width */

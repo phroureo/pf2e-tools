@@ -1,0 +1,1299 @@
+[
+  {
+    "level": 9,
+    "name": "Persona Mask (Greater)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Despite covering the entire face, this alabaster mask does not hinder vision or other senses. Wearing the mask grants a +2 item bonus to Performance checks while acting, orating, performing comedy, or singing.</p>\n<hr />\n<p><strong>Activate—Assume Role</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Effect</strong> You change the mask's appearance into an artistic rendition of a dramatic character of your choice.</p>\n<hr />\n<p><strong>Activate—Sacrifice Role</strong> <span class=\"action-glyph\">R</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail a Performance check that benefits from the mask's bonus</p>\n<hr />\n<p><strong>Effect</strong> You change the mask's character and reroll the Performance check, using the second result.</p>",
+    "rarity": "common",
+    "traits": [
+      "fortune",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Persona Mask",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Despite covering the entire face, this alabaster mask does not hinder vision or other senses. Wearing the mask grants a +1 item bonus to Performance checks while acting, orating, performing comedy, or singing.</p>\n<p><strong>Activate—Assume Role</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> You change the mask's appearance into an artistic rendition of a dramatic character of your choice.</p>",
+    "rarity": "common",
+    "traits": [
+      "fortune",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Peshpine Grenade (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals the listed piercing damage and splash damage. On a hit, the target gains the stupefied condition until the end of its next turn.</p>\n<p>Many types of peshpine grenade grant an item bonus to attack rolls.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 3d6 piercing damage and 3 piercing splash damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Peshpine Grenade (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals the listed piercing damage and splash damage. On a hit, the target gains the stupefied condition until the end of its next turn.</p>\n<p>Many types of peshpine grenade grant an item bonus to attack rolls.</p>\n<p>The bomb deals 1d6 piercing damage and 1 piercing splash damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Peshpine Grenade (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals the listed piercing damage and splash damage. On a hit, the target gains the stupefied condition until the end of its next turn.</p>\n<p>Many types of peshpine grenade grant an item bonus to attack rolls.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 4d6 piercing damage and 4 piercing splash damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 3}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Peshpine Grenade (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals the listed piercing damage and splash damage. On a hit, the target gains the stupefied condition until the end of its next turn.</p>\n<p>Many types of peshpine grenade grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 piercing damage and 2 piercing splash damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Petrification Cannon",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Built from the taxidermic body of a basilisk, a <em>petrification cannon</em> functions as a <em>+2 greater striking double-barreled musket</em>. A <em>petrification cannon</em> can be activated to fire a beam of energy that transforms flesh into stone.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (magical, transmutation)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> A beam of coiling energy leaps from the <em>petrification cannon</em> at a target within 60 feet. The target must attempt a @Check[fortitude|dc:34] save against DC 34 with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Petrify].</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the body of a basilisk.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "double-barrel",
+      "fatal-d10",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Phalanx Piercer",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This massive bow is made from bone or wood reinforced with flexible metal strips and strung with reinforced cord. Designed by hobgoblin engineers to take down shielded opponents, the phalanx piercer fires heavy, iron-shod bolts.</p>",
+    "rarity": "common",
+    "traits": [
+      "concussive",
+      "hobgoblin",
+      "propulsive",
+      "razing",
+      "volley-30"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Phantasmal Doorknob (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This ornate doorknob can open doors both material and metaphysical, revealing dreams and nightmares. The spell DC of any spell cast by activating this item is 27.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to Thievery checks to Pick a Lock.</li>\n<li><strong>Weapon</strong> If you critically succeed at a Strike with the weapon, the target is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of its next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Killer].</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "magical",
+      "mental",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Phantasmal Doorknob (Major)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This ornate doorknob can open doors both material and metaphysical, revealing dreams and nightmares. The spell DC of any spell cast by activating this item is 34.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to Thievery checks to Pick a Lock.</li>\n<li><strong>Weapon</strong> If you critically succeed at a Strike with the weapon, the target is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of its next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Killer].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Calamity].</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "magical",
+      "mental",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Phantasmal Doorknob",
+    "price": {
+      "gp": 215
+    },
+    "description": "<p>This ornate doorknob can open doors both material and metaphysical, revealing dreams and nightmares. The spell DC of any spell cast by activating this item is 20.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Thievery checks to Pick a Lock.</li>\n<li><strong>Weapon</strong> If you critically succeed at a Strike with the weapon, the target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] until the end of its next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phantasmal Doorknob - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Treasure].</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "magical",
+      "mental",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Phantom Piano",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+22]]{+22}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> telepathy (any languages the possessing spirit knew in life)</p>\n<p><strong>Skills</strong> Diplomacy [[/r 1d20+23]]{+23}, Music Lore [[/r 1d20+23]]{+23}, Performance [[/r 1d20+25]]{+25}, Society [[/r 1d20+21]]{+21}</p>\n<p><strong>Int</strong> +3, <strong>Wis</strong> +4, <strong>Cha</strong> +5</p>\n<p><strong>Will</strong> [[/r 1d20+22]]{+22}</p><hr /><p>When a skilled musician dies before reaching their full potential or accomplishing an important goal, their soul might refuse to move on to the Boneyard. Rather than becoming undead, the spirit possesses an instrument they played in life, turning it into an intelligent item and a virtuoso instrument. (Other <em>phantom instruments</em> exist, but most are heavy.) A <em>phantom piano</em> offers a bargain to any bard or other skilled musician who finds it: receive musical aid as you dedicate yourself to reaching the success the spirit felt they were denied in life. The piano refuses to play for those who reject this deal. If you accept, the piano asks only that you practice with it and perform for increasingly refined and august audiences, requiring a successful Performance check appropriate to your proficiency level. The piano sets no strict timeline, but at the GM's discretion, if you go too long without making progress, the piano can cease cooperating with you until it's satisfied with your dedication once again.</p>\n<p>While you keep up your end of the bargain, the piano grants you a +2 item bonus to Performance checks made with it. The piano also provides access to composition spells based on your Performance proficiency rank, as if you had the corresponding feat. The spells you can use comprise a cumulative list, but you can cast them only when using the piano. You must spend the actions and Focus Points required to cast these spells.</p>\n<p><strong>Trained:</strong> @UUID[Compendium.pf2e.spells-srd.Item.Uplifting Overture], @UUID[Compendium.pf2e.spells-srd.Item.Courageous Anthem]</p>\n<p><strong>Expert:</strong> @UUID[Compendium.pf2e.spells-srd.Item.Hymn of Healing], @UUID[Compendium.pf2e.spells-srd.Item.Rallying Anthem]</p>\n<p><strong>Master:</strong> @UUID[Compendium.pf2e.spells-srd.Item.Symphony of the Unfettered Heart]</p>\n<p><strong>Legendary:</strong> @UUID[Compendium.pf2e.spells-srd.Item.Soothing Ballad]</p>\n<p>A <em>phantom piano</em> has the following activations.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Effect</strong> The piano shrinks down to a figurine of light Bulk compact enough to store in a pouch, or from figurine form back to instrument form. In figurine form, the piano doesn't function as an instrument or provide magic other than this activation.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to Cast a Spell the piano provides you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "focused",
+      "intelligent",
+      "occult"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Phantom Roll",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>A phantom roll contains vegetables, greens, and fine, clear noodles, all wrapped in transparent, edible starch paper and alchemically treated and laced with a tangy sauce. Upon eating the roll, you gain a +1 item bonus to Stealth checks you attempt during the @UUID[Compendium.pf2e.actionspf2e.Item.Avoid Notice] exploration activity. You can also Avoid Notice at full Speed or combine it with Investigate or Scout while moving at half Speed. These effects expire 24 hours after you eat the roll or when you make your next daily preparations, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Phantom Shroud",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This pale blue cloak is wispy, thin, and cold to the touch. When worn, the cloak turns your hands pale and translucent, imbuing you with the dangerous touch of a ghost. This effect doesn't impede the normal use of your hands. You also gain an unarmed attack that deals 3d6 void damage with the agile, finesse, and magical traits. You gain the benefits of a +2 weapon potency rune with these unarmed attacks (granting a +2 item bonus to your attack rolls).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You fold the cloak around yourself, and it casts @UUID[Compendium.pf2e.spells-srd.Item.Ethereal Jaunt] on you. You can Sustain the activation for up to 10 minutes. When the activation ends, you return to material form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Phasing ether silk tapestry",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 17,
+    "name": "Pheromone Flare (Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This alchemical candle is attached to a tall pole and grounding stake. When the flare is lit, it sprays a concentrated cloud of pheromones to attract the attention of a specific kind of animal (see @UUID[Compendium.pf2e.equipment-srd.Item.Animal Pheromones (Greater)]{alchemical pheromones}). Similar to animal pheromones, when you learn the formula for a pheromone flare, you learn the formulas for all common animals.</p>\n<p>A pheromone flare has a built-in delayed activation timer of up to 1 hour. When it's activated, the flare releases a cloud of pheromones in a @Template[emanation|distance:60] that lasts for 1 hour. A strong wind reduces the emanation to @Template[emanation|distance:15]{15 feet} for as long as the wind lasts. Moving the flare after it has been activated ends the effect. A designated animal that enters the area must attempt a @Check[will|dc:35] save with the following effects. Animals with an Intelligence modifier of –3 or higher increase the result of their save by one step.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected and temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The animal is unaffected but must attempt a new save every 10 minutes it remains within the area.</p>\n<p><strong>Failure</strong> The animal is attracted by the pheromones, following the cloud to its source. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] until it reaches the flare and spends 1 round investigating it. After this, it becomes temporarily immune for 24 hours.</p>\n<p><strong>Critical Failure</strong> As failure, except the fascination lasts for up to 1 hour, though the animal can attempt a new save against the effect every 10 minutes. The animal takes a –1 status penalty to this save that increases by 1 with each subsequent failure or critical failure, up to a maximum of a –3 status penalty</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pheromone Flare (Lesser)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This alchemical candle is attached to a tall pole and grounding stake. When the flare is lit, it sprays a concentrated cloud of pheromones to attract the attention of a specific kind of animal (see @UUID[Compendium.pf2e.equipment-srd.Item.Animal Pheromones (Lesser)]{alchemical pheromones}). Similar to animal pheromones, when you learn the formula for a pheromone flare, you learn the formulas for all common animals.</p>\n<p>A pheromone flare has a built-in delayed activation timer of up to 1 hour. When it's activated, the flare releases a cloud of pheromones in a @Template[emanation|distance:60] that lasts for 1 hour. A strong wind reduces the emanation to @Template[emanation|distance:15]{15 feet} for as long as the wind lasts. Moving the flare after it has been activated ends the effect. A designated animal that enters the area must attempt a @Check[will|dc:19] save with the following effects. Animals with an Intelligence modifier of –3 or higher increase the result of their save by one step.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected and temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The animal is unaffected but must attempt a new save every 10 minutes it remains within the area.</p>\n<p><strong>Failure</strong> The animal is attracted by the pheromones, following the cloud to its source. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] until it reaches the flare and spends 1 round investigating it. After this, it becomes temporarily immune for 24 hours.</p>\n<p><strong>Critical Failure</strong> As failure, except the fascination lasts for up to 1 hour, though the animal can attempt a new save against the effect every 10 minutes. The animal takes a –1 status penalty to this save that increases by 1 with each subsequent failure or critical failure, up to a maximum of a –3 status penalty</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Pheromone Flare (Moderate)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This alchemical candle is attached to a tall pole and grounding stake. When the flare is lit, it sprays a concentrated cloud of pheromones to attract the attention of a specific kind of animal (see @UUID[Compendium.pf2e.equipment-srd.Item.Animal Pheromones (Moderate)]{alchemical pheromones}). Similar to animal pheromones, when you learn the formula for a pheromone flare, you learn the formulas for all common animals.</p>\n<p>A pheromone flare has a built-in delayed activation timer of up to 1 hour. When it's activated, the flare releases a cloud of pheromones in a @Template[emanation|distance:60] that lasts for 1 hour. A strong wind reduces the emanation to @Template[emanation|distance:15]{15 feet} for as long as the wind lasts. Moving the flare after it has been activated ends the effect. A designated animal that enters the area must attempt a @Check[will|dc:27] save with the following effects. Animals with an Intelligence modifier of –3 or higher increase the result of their save by one step.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected and temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The animal is unaffected but must attempt a new save every 10 minutes it remains within the area.</p>\n<p><strong>Failure</strong> The animal is attracted by the pheromones, following the cloud to its source. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] until it reaches the flare and spends 1 round investigating it. After this, it becomes temporarily immune for 24 hours.</p>\n<p><strong>Critical Failure</strong> As failure, except the fascination lasts for up to 1 hour, though the animal can attempt a new save against the effect every 10 minutes. The animal takes a –1 status penalty to this save that increases by 1 with each subsequent failure or critical failure, up to a maximum of a –3 status penalty</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 28,
+    "name": "Philosopher's Extractor",
+    "price": {},
+    "description": "<p>This bizarre machine is a complex arrangement of flasks, tubes, and other alchemical equipment. The <em>philosopher's extractor</em> is designed to create the ultimate alchemical concoctions. The extractor functions as an exceptional set of alchemist's tools, granting a +4 item bonus to Crafting checks related to alchemy. When using the extractor to Craft an alchemical item or with infused reagents as part of your daily preparations, you can create impeccable alchemical items. An impeccable alchemical item always uses the maximum numerical value possible for any rolls it requires, such as dealing maximum damage with alchemist's fire or restoring the maximum number of Hit Points with an elixir of life. If the impeccable item has a duration, it lasts twice as long as normal. Finally, an impeccable alchemical item never has a drawback.</p>\n<p><strong>Activate—Accelerated Synthesis</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You use the extractor to produce an alchemical item of your level or lower whose formula you know. The extractor can create 56 levels' worth of items per day in this way. For example, the extractor could create two true elixirs of life (19th level) and two moderate elixirs of life (9th level), or eight comprehension elixirs (7th level), and so on.</p>\n<p><strong>Activate—Essence Transmogrification</strong> 1 hour (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You take a sizable portion of a creature (at least two-thirds of its original mass) and filter it through the mechanisms of the extractor. After the end of the process, the <em>philosopher's extractor</em> creates a transmogrifying mutagen that imparts the essence of the creature to the drinker. The extractor can make several transmogrifying mutagens simultaneously using the same activation if enough mass is provided at once, up to a maximum of 10 concurrent mutagens. Drinking a transmogrifying mutagen imparts you with one of the creature's unique abilities for 1 hour. This could grant one of several abilities such as a dragon's breath, darkvision, flight, frightful presence, or immunity to sleep. The ability functions as it did for the original creature, except it uses your class DC or your spell DC (whichever is higher) instead of the creature's DC. The mutagen grants only abilities based on a creature's physiology and never grants magic-related abilities such as innate spells or spellcasting ability. The GM ultimately decides what ability a transmogrifying mutagen grants.</p>\n<p>Unlike normal for mutagens and polymorph effects, you can drink multiple transmogrifying mutagens and gain benefits from each. When you drink transmogrifying mutagens made from different creatures, you receive abilities from each creature. When you drink multiple transmogrifying mutagens made from the same type of creature, such as multiple mutagens made from trolls, you gain an additional ability for each transmogrifying mutagen you drink, and the duration of the abilities from that creature type increases by 1 hour for each additional concoction you drink.</p>\n<p>However, these additional benefits come with a risk; if you drink a transmogrifying mutagen while at least one other is active, after drinking it, you must succeed at a flat check with a DC equal to the total number of active transmogrifying mutagens you've consumed. On a failure, you fully transform into a member of the species of the latest transmogrifying mutagen you drank, and you almost always go berserk from your change. The transformation may leave some amount of your personality and memories intact, at the GM's discretion.</p>\n<p><strong>Destruction</strong> Simultaneously feeding the <em>philosopher's extractor</em> sizable portions of an aeon, angel, archon, azata, daemon, demon, devil, protean, and psychopomp, each of at least 14th level, along with a philosopher's stone causes the device to jam, overheat, and explode. Creatures within 60 feet of the explosion must succeed at a @Check[reflex|dc:55] save or become covered in an alchemical slurry that transforms them into a horrifying amalgam of at least two of the creatures used to destroy the machine.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Philosopher's Stone",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate) or 1 or more days; see below</p><hr /><p>An alchemist with the @UUID[Compendium.pf2e.feats-srd.Item.Craft Philosopher's Stone] feat adds the formula for this item to their formula book. This allows them to create a philosopher's stone once per month during their daily preparations using advanced alchemy. Unlike other items created with advanced alchemy, the philosopher's stone remains potent for 1 month or until the alchemist creates a new one. This is the only way to create a philosopher's stone.</p>\n<p>At a glance, a philosopher's stone appears to be an ordinary, sooty piece of natural rock. Breaking the rock open with a @UUID[Compendium.pf2e.actionspf2e.Item.Force Open] action (DC 35) reveals a cavity at the stone's heart. The cavity is lined with a rare type of quicksilver that can transmute base metals into precious metals or create an elixir of rejuvenation.</p>\n<p>To use the quicksilver, you must be legendary in Crafting and have the Alchemical Crafting feat. You can then use the stone's quicksilver for one of two effects.</p><ul><li>You can apply the stone's quicksilver to an infused @UUID[Compendium.pf2e.equipment-srd.Item.Elixir of Life (True)] using an Interact action. This turns the elixir into an infused @UUID[Compendium.pf2e.equipment-srd.Item.Elixir of Rejuvenation] instantaneously. This doesn't require any crafting time or additional materials.</li><li><p>You can spend up to a month of downtime applying the quicksilver either to iron to create silver or to lead to create gold. Treat this as a 20th-level task to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income] using Crafting, except that you create 500 gp worth of your chosen metal per day on a success or 750 gp worth per day on a critical success.</p>\n</li></ul>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Philter of Empty Dreams",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>A <em>philter of empty dreams</em> is a dose of glowing blue liquid that prevents dreams. When you drink a <em>philter of empty dreams</em>, you have no dreams for the next 8 hours and gain a +1 item bonus to saving throws against dream- or nightmare-themed effects (including saving throws against the effects of midnight milk). If you're suffering from an addiction to midnight milk when you drink a <em>philter of empty dreams</em>, the potion attempts to counteract the addiction with a counteract rank of 4 and a [[/r 1d20+15 #Counteract]]{+15} modifier for the roll. If an intellect devourer who's controlling a stolen body uses the body to drink a <em>philter of empty dreams</em>, the intellect devourer must succeed at a @Check[fortitude|dc:24] save or be forced to Exit the Body immediately.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Phoenix Cinder",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>An incandescent, multipronged crystal the color of dying fire, a phoenix cinder gives off pleasant warmth and a sense of peace. A low, soft chirruping around the crystal invokes the idea of using fire to cleanse and protect. The crystal offers this power to anyone who touches it. A partaker must be willing to gain the boon's effects.</p>\n<p><strong>Stage 1 (1 Week)</strong> The first time you enter this stage from a particular phoenix cinder, you are affected as if by regenerate.</p>\n<p>For 3 days after taking in the cinder, you are immune to fire. While in this stage or higher, you have fast healing equal to half your level, as well as resistance to fire damage equal to half your level. You gain a +1 circumstance bonus to saving throws (or any other defense) against fire. Treat the outcome of any saving throw you roll against fire effects as one step better. You can cast produce flame as an innate spell, and you have access to the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (fire)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wreathe yourself in flame for 1 minute. Adjacent creatures that hit you with a melee attack, as well as creatures that touch you or hit you with an unarmed attack, take @Damage[2d6[fire]]. You can Dismiss the activation.</p>\n<p><strong>Stage 2 (1 Month)</strong> You can use the activation once per hour. Always feverish and flushed, you feel as if temperatures lower than sweltering are cold. Reduce your current and maximum Hit Points by 2 × your level, and you have a weakness to cold damage equal to half your level. You have urges to burn and use fire when you can. When confronted with the opportunity to do so, you must succeed at a Will save to avoid it. Doing so once after each time you roll initiative is enough.</p>\n<p>If you die at this stage or higher, your body burns from the inside out over [[/r 1d4 #rounds]]{1d4 rounds}, reducing you to fine ash. Anything flammable on you is destroyed. A phoenix emerges from your remains, but this creature is (roll d%) neutral (01–33) or neutral evil (34–100), interested more in spreading fire and selfish pursuits than kindness, and if evil, thirsting for vengeance against the little beings like the one who dared to use its power for a time.</p>\n<p><strong>Stage 3 (1 Month)</strong> You now have fast healing equal to your level but reduce your current and maximum Hit Points by 4 × your level, rounded up, instead of 2 × your level. Also, you have a weakness to cold damage equal to your level and a weakness to holy equal to half your level. You can use the activation you previously gained once per minute, but you can no longer Dismiss it. Whenever you drop to 0 Hit Points, a flame strike erupts from a randomly chosen point on the edge of your space.</p>\n<p><strong>Stage 4</strong> You die.</p>\n<p><strong>Purging</strong> You must collect the remains of a phoenix of your level or higher who has been unable to self-resurrect, compressing the remains with powdered diamonds, opals, and rubies worth 75 gp × your level into an egg. You can then use flame strike as if you dropped to 0 Hit Points during this boon's stage 3. If you do so, the phoenix whose remains you collected is reborn as if it used its Self-Resurrection, and the phoenix cinder's effects end on you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fire",
+      "primal"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Phoenix Fighting Fan",
+    "price": {},
+    "description": "<p>This fan is useful for elegant dances as well as for slicing unsuspecting foes with the blades along its outer edge. If used in performances, it might be disguised as a frilly accessory, or it might be an obvious, though elegant, weapon.</p>\n<p>This elegant +3 greater striking flaming silver fighting fan features sharp silver feathers instead of traditional paper leaves in its design.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day.</p>\n<hr />\n<p><strong>Effect</strong> You call upon the fan's extradimensional powers to trap a creature in Hao Jin's repository, a small demiplane that holds the countless relics Hao Jin collected over her lifetime (though a trapped creature cannot interact with any of these relics). The fighting fan casts @UUID[Compendium.pf2e.spells-srd.Item.Quandary] on a creature within 30 feet. The fan automatically Sustains the Spell as long as you Strike a creature with it each round. The @Check[survival|dc:34|traits:extradimensional,teleportation|showDC:owner] or @Check[perception|dc:34|traits:extradimensional,teleportation|showDC:owner] DC to escape the demiplane is 34. The spell ends once the creature escapes, you fail to Strike a creature with the fan during a round, or after 1 minute, whichever comes first.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<hr />\n<p><strong>Effect</strong> The fan casts 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Raise Dead], consuming the phoenix fighting fan in the process.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "artifact",
+      "backstabber",
+      "deadly-d6",
+      "finesse",
+      "magical",
+      "monk"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Phoenix Flask",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Once you ingest this strongly spiced, glowing red potion, blazing wings of a phoenix sprout from your back and carry you through the air. For 1 minute, you gain a Fly speed of 40 feet. The first time each round that you Fly (including to hover in place), you shed burning feathers that deal @Damage[3d4[fire]|options:area-damage] damage to all creatures in a @Template[emanation|distance:10] at the end of your movement (@Check[reflex|dc:29|basic|name:Phoenix Flask Fire Feathers|showDC:all|options:area-effect] save).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Phoenix Flask]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Phoenix Fulu Holder",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This elegant wooden frame is decorated with numerous downy red feathers that feel almost uncomfortably hot to the touch. A <em>phoenix fulu holder</em> grants a sort of second \"life\" to any fulu placed for a time within its frame, but also gives the fulu wielder a stylish and eye-catching way of displaying such a treasure. You can place any fulu into a <em>phoenix fulu holder</em> as an Interact action.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> An 11th- or lower-level fulu is stored in the <em>phoenix fulu holder</em></p>\n<hr />\n<p><strong>Effect</strong> You take the fulu from the <em>phoenix fulu holder</em>, and an instant later, a glowing image of the fulu you removed manifests in the frame. If the previously stored fulu is consumed within the next 24 hours, the flickering image within the phoenix fulu holder becomes a solid and fully functional duplicate of that fulu. This duplicated fulu functions identically to the original fulu, but if not affixed within 24 hours of its formation, it fades away and vanishes.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Phoenix Necklace",
+    "price": {},
+    "description": "<p>This brilliant jewelry is made from fine silver interwoven with a uniquely malleable form of ruby that causes the necklace to glimmer like a flickering fire. Hao Jin created the necklaces to mitigate the potential of death during the Ruby Phoenix Tournament pre-qualifier, and she specially attuned each phoenix necklace to the silver feathers she created for the pre-qualifying round. While the silver feathers themselves aren't magical, they are required to activate the necklace's power. Each team starts with 3 feathers hidden in their headquarters; they acquire more through challenges and events. Additionally, the tournament emissary's enforcers have the ability to deliver messages to the necklace's wearer at any time by casting @UUID[Compendium.pf2e.spells-srd.Item.Sending], though the wearer can't respond.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision</p>\n<p><strong>Effect</strong> You select any number of willing creatures you can see within 30 feet, including yourself. The selected creatures can make nonlethal attacks without taking a penalty to their attack rolls. This effect remains in place until you remove the necklace or use this activation again.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Effect</strong> The necklace consumes one of the attached silver feathers and casts 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Raise Dead]. Activating this ability is particularly costly and every activation requires consuming one more silver feather than the previous activation.</p>\n<hr />\n<p><strong>Destruction</strong> Once a phoenix necklace has 10 silver feathers attached, Hao Jin can transform the necklace into a @UUID[Compendium.pf2e.equipment-srd.Item.Phoenix Fighting Fan], a process which requires 3 Interact actions.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "healing",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Phylactery of Faithfulness (Greater)",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>This tiny box holds a fragment of religious scripture sacred to a particular deity. The box is worn by affixing it to a leather cord and tying it around your head just above your brow. You don't gain any benefit from the phylactery if you don't worship the affiliated deity. The phylactery grants you religious wisdom, which manifests as a +3 item bonus to Religion checks.</p>\n<p>Just before you perform an action that would be anathema to the phylactery's deity, the phylactery warns you of the potential transgression in time for you to change your mind.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> envision</p>\n<p><strong>Frequency</strong> once every 30 minutes</p>\n<hr />\n<p><strong>Effect</strong> You ask for guidance about a particular course of action, gaining the effects of an @UUID[Compendium.pf2e.spells-srd.Item.Augury] spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "invested"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Phylactery of Faithfulness",
+    "price": {
+      "gp": 680
+    },
+    "description": "<p>This tiny box holds a fragment of religious scripture sacred to a particular deity. The box is worn by affixing it to a leather cord and tying it around your head just above your brow. You don't gain any benefit from the phylactery if you don't worship the affiliated deity. The phylactery grants you religious wisdom, which manifests as a +2 item bonus to Religion checks.</p>\n<p>Just before you perform an action that would be anathema to the phylactery's deity, the phylactery warns you of the potential transgression in time for you to change your mind.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You ask for guidance about a particular course of action, gaining the effects of an @UUID[Compendium.pf2e.spells-srd.Item.Augury] spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "invested"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pick",
+    "price": {
+      "sp": 7
+    },
+    "description": "<p>A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows.</p>",
+    "rarity": "common",
+    "traits": [
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Pickled Demon Tongue (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>This small crystal vial contains the forked end of a demon's tongue, preserved in brine. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+14 #Spell Attack Roll]]{+14}, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to acid and attacks by demons.</li>\n<li><strong>Weapon</strong> After you cast an acid spell by Activating the <em>pickled demon tongue</em>, your Strikes with the weapon deal an additional @Damage[1d6[acid]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Splash].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Acidic Burst] (@Check[reflex|dc:24|basic|traits:spell]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Pickled Demon Tongue (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This small crystal vial contains the forked end of a demon's tongue, preserved in brine. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+19 #Spell Attack Roll]]{+19}, and the spell DC is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to acid and attacks by demons.</li>\n<li><strong>Weapon</strong> After you cast an acid spell by Activating the <em>pickled demon tongue</em>, your Strikes with the weapon deal an additional @Damage[1d8[acid]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Splash].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Acidic Burst] (@Check[reflex|dc:29|basic|traits:spell]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Pickled Demon Tongue",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This small crystal vial contains the forked end of a demon's tongue, preserved in brine. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+7 #Spell Attack Roll]]{+7}, and the spell DC is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to acid and attacks by demons.</li>\n<li><strong>Weapon</strong> After you cast an acid spell by Activating the <em>pickled demon tongue</em>, your Strikes with the weapon deal an additional @Damage[1d4[acid]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pickled Demon Tongue - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Splash].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Pickpocket's Tailoring",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>Pickpocket's tailoring modifies an existing outfit by adding concealed interior pockets and strategically opened seams for hiding small objects inside the lining. You gain a +1 item bonus to Stealth checks to Conceal an Object of light Bulk or less in the pockets. When you get a failure (but not a critical failure, which works as normal) on a Stealth check to Conceal such an Object, observers know you're concealing an object somewhere, but they don't find the object unless they succeed at a @Check[perception|dc:20|name:Find a Pickpocket Pocket|showDC:all] check to locate the seams in the garment.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Piercing Horn",
+    "price": {
+      "gp": 52
+    },
+    "description": "<p>A beast's horn or horns have been grafted onto your skull. You gain a horn unarmed attack that deals 1d8 piercing damage. This horn is in the brawling group.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Piercing Whistle Snare",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This snare forces air through several high-pitched, whistle-like pipes or reeds. The shrill noise can be heard clearly up to 2 miles away but is most intense near the snare's trigger. The snare deals @Damage[4d6[sonic]] damage (@Check[fortitude|dc:22|basic] save) to creatures within 10 feet; a creature that fails this save is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round (1 hour on a critical failure). The triggering creature is deafened for 1 minute on a failure, or 1 hour on a critical failure.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Piercing Wind",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>Favored by caravan guards who traverse the Mana Wastes, a piercing wind is similar to a @UUID[Compendium.pf2e.equipment-srd.Item.Jezail], in that you can carry it in one hand as long as the other hand's free, by holding it under one arm. Additionally, it's fitted with an underslung curved blade.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "fatal-aim-d10"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Piereta",
+    "price": {},
+    "description": "<div><strong>Perception</strong> +27; precise vision 30 feet, imprecise hearing 30 feet</div>\n<div><strong>Communication</strong> telepathy (Azlanti, Celestial, Common, Utopian)</div>\n<div><strong>Skills</strong> Diplomacy +33, Religion +29, Warfare Lore +27</div>\n<div><strong>Int</strong> +0, <strong>Wis</strong> +4, <strong>Cha</strong> +6</div>\n<div><strong>Will</strong> +31</div>\n<hr />\n<p>Piereta was a Knight of Ozem during the Shining Crusade, sworn to the service of Aroden's herald, @UUID[Compendium.pf2e.deities.Item.Arazni]. After Arazni perished at the hands of the Whispering Tyrant, Piereta became the first paladin to swear her service to the newly ascended goddess, Iomedae. When she fell in battle, a fragment of her spirit clung to the sword through which she had wielded her faith in countless battles, granting the weapon a sentience of its own. The sword named herself after her fallen bearer and has been a faithful companion to many Iomedaean warriors since.</p>\n<p><em>Piereta</em> is a <em>+3 major striking @UUID[Compendium.pf2e.equipment-srd.Item.Holy] rapier</em> devoted to the principles of @UUID[Compendium.pf2e.deities.Item.Iomedae] as an exemplar of valorous action and as a protector of the innocent.</p>\n<p><em>Piereta</em> is very particular about who she permits to wield her. She agrees to work with you if you are a follower of Iomedae, or if you are lawful good or neutral good and worship a different good deity. Otherwise, you must convince <em>Piereta</em> of the rightness of your cause. If <em>Piereta</em> doesn't want you to wield her, once per minute she can attempt to force you to put her down (@Check[will|dc:42] to resist this command). Even if you succeed at this saving throw, <em>Piereta</em> refuses to apply any of her fundamental or property runes and gives you a -2 penalty on attack rolls with <em>Piereta</em> or any other weapon until you drop her.</p>\n<p><em>Piereta</em> can use the following activations.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command, Interact</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Effect</strong> <em>Piereta</em> makes a @UUID[Compendium.pf2e.actionspf2e.Item.Retributive Strike], resolved as though you had used the ability, including any benefits from champion feats you have.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> <em>Piereta</em> casts a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Field of Life].</p>",
+    "rarity": "unique",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "divine",
+      "finesse",
+      "intelligent"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Pilferer's Gloves",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Made of soft and subtle black leather, these gloves fit tightly but aren't uncomfortable and don't impede your sense of touch. As long as you're trained in Thievery while wearing these gloves, you're always considered one skill rank higher than your actual rank. If you possess a Legendary skill rank in Thievery, you gain a +2 item bonus to Thievery checks instead. When you invest the gloves, you either increase your Dexterity score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a Thievery skill check</p>\n<hr />\n<p><strong>Effect</strong> If you failed the Thievery skill check, you succeed at that check instead. If you critically failed, you fail instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pilgrim's Token",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>A small token of protection from a site holy to your faith, or you touched your religious symbol to a relic or altar at such a site. So long as this token is in your possession, when you tie an adversary's initiative roll, you go first.</p>\n<hr />\n<p><strong>Special</strong> If you select the @UUID[Compendium.pf2e.feats-srd.Item.Pilgrim's Token] feat at 1st level, you receive your pilgrim's token for free. Alternately, if you have a religious symbol, it is already attuned, as described above.</p>\n<p>If you select this feat at a later level, or if you lose your pilgrim's token, you must purchase or Craft a replacement and attune it at a holy site. Such a token usually costs at least 2 sp, and the attunement takes 10 minutes of prayer and requires a successful @Check[religion|dc:20|name:Attune to Pilgrim's Token] check. Your GM might adjust the price and DC depending on the token's material and quality and the religious significance of the site; the more significant the location, the easier the attunement.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Pillow Shield",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>The shield's blue enameled face is cool to the touch, and displays the moon's current phase at night. When you lay your head on the reverse side of this steel shield, it becomes as pliant and supportive as the best pillows. If you complete a period of rest using the pillow shield, you can choose to transfer your recovery to the shield. Instead of recovering a number of Hit Points after resting, the shield is restored an equal number of Hit Points instead.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>6</td>\n<td>36</td>\n<td>18</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The shield creates an area of vigilance. It casts @UUID[Compendium.pf2e.spells-srd.Item.Alarm] centered on itself; you decide whether it creates a mental alarm or an audible alarm. The alarm goes off at the end of the spell's duration or when triggered as normal, whichever comes first.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pinwheel",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>This paper and wood pinwheel spins when blown upon by a person or the wind.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Pipe of Dancing Smoke",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>This ornate pipe is chiseled from a single bloodstone piece with wooden accents. When in use, the pipe gives off a vibrant red smoke that floats lazily in the air. These pipes are popular among bards and braggarts who like the ostentatious smoke it gives off—and who often use it to create raucous diversions or send indiscreet signals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The smoke forms a bird that flies up to 120 feet in a direction of your choice. When it collides with a solid object or travels the full range, whichever is shorter, it explodes in a @Template[burst|distance:20] of smoke with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Mist].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Pipes of Compulsion (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>These panpipes are made of what seems to be beat-up tin bound by frayed leather and look like they shouldn't function at all, but in skilled hands they emit a beautiful sound that beguiles the senses. While playing the pipes, you gain a +1 item bonus to Diplomacy and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Fear]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Laughing Fit], @UUID[Compendium.pf2e.spells-srd.Item.Stupefy]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Hypnotize], @UUID[Compendium.pf2e.spells-srd.Item.Mind Reading], @UUID[Compendium.pf2e.spells-srd.Item.Ring of Truth]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Pipes of Compulsion (Major)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>These panpipes are made of what seems to be beat-up tin bound by frayed leather and look like they shouldn't function at all, but in skilled hands they emit a beautiful sound that beguiles the senses. While playing the pipes, you gain a +2 item bonus to Diplomacy and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Fear]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Laughing Fit], @UUID[Compendium.pf2e.spells-srd.Item.Stupefy]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Hypnotize], @UUID[Compendium.pf2e.spells-srd.Item.Mind Reading], @UUID[Compendium.pf2e.spells-srd.Item.Ring of Truth]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Confusion], @UUID[Compendium.pf2e.spells-srd.Item.Suggestion]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Glimmer of Charm], @UUID[Compendium.pf2e.spells-srd.Item.Suggestion], @UUID[Compendium.pf2e.spells-srd.Item.Telepathy]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Pipes of Compulsion",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>These panpipes are made of what seems to be beat-up tin bound by frayed leather and look like they shouldn't function at all, but in skilled hands they emit a beautiful sound that beguiles the senses. While playing the pipes, you gain a +1 item bonus to Diplomacy and Performance checks.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Fear]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "coda",
+      "occult",
+      "staff"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Piranha Kiss",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>Made of a jagged blade with teeth pointing toward a leather-wrapped hilt, these weapons are particularly effective at disarming opponents. Piranha kisses were occasionally used during the Vidric Revolution, and some Firebrands carry them today. Members of the Firebrands have access to this weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "disarm",
+      "finesse"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Pirate Staff",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>Carved of driftwood stained white with the salt of the sea, a <em>pirate staff</em> has jewels and gold pieces embedded in the wood. A skull and crossbones sit on top. When used as a weapon, the staff is a <em>+2 striking fearsome</em> staff. While wielding the staff, you gain a +2 circumstance bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast], @UUID[Compendium.pf2e.spells-srd.Item.Know the Way]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Seashell of Stolen Sound]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mist], @UUID[Compendium.pf2e.spells-srd.Item.Water Breathing], @UUID[Compendium.pf2e.spells-srd.Item.Water Walk]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mind of Menace], @UUID[Compendium.pf2e.spells-srd.Item.Water Breathing]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Solid Fog], @UUID[Compendium.pf2e.spells-srd.Item.Water Walk]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Flowing Strike], @UUID[Compendium.pf2e.spells-srd.Item.Mariner's Curse]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Pistol of Wonder",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This +2 greater striking flintlock pistol bears strange, jagged markings of erratic design and has an oddly squishy grip. It can be activated to produce a variety of unusual effects.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> Choose a creature within 60 feet and roll a percentile die on the table below to determine the pistol's effect. If an entry lists a spell, the pistol Casts that Spell at the indicated rank (or at its lowest rank, if no rank is listed). You make any decisions for a spell cast by the pistol unless otherwise indicated, except that it must only target the creature you chose, or the creature you chose must be the center of the spell's area, if it has an area but no targets. The only exception to the limitation on targeting is if the effect specifically states it targets you. If the spell's range is less than 60 feet, increase the range to 60 feet.</p>\n<p>Any spell DC required is DC 29, and any spell attack roll required is +21. If the pistol casts a spell on you, you don't get a saving throw or any other defense against it. Once activated, the pistol can't be activated again for [[/r 1d4 #hours]]{1d4 hours}.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>d%</th>\n<th>Wondrous Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1-2</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Marvelous Mount] (4th rank) to produce a pale horse adjacent to you; only you can ride it.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The target becomes a shiny metal color (bronze, copper, or iron) and any sound or speech becomes tinny and robotic in nature; this effect lasts 1 month.</td>\n</tr>\n<tr>\n<td>4-5</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Planar Tether].</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.spells-srd.Item.Rewrite Memory] (6th rank) causes the target to forget you ever existed; you can't Sustain the Spell.</td>\n</tr>\n<tr>\n<td>7-13</td>\n<td>A short rod protrudes from the pistol and unfurls a small flag that reads \"Bang!\". The pistol can't be fired until the flag is removed, which requires a single Interact action.</td>\n</tr>\n<tr>\n<td>14-16</td>\n<td>You are pushed 30 feet directly away from the target; if you hit an object or creature, you stop, but take falling damage equal to the distance you moved (if you hit a creature, it takes the same amount of falling damage).</td>\n</tr>\n<tr>\n<td>17-19</td>\n<td>The target is pushed 30 feet directly away from you; if it hits an object or creature, it stops, but takes falling damage equal to the distance it moved (if it hits another creature, the othercreature takes the same amount of falling damage).</td>\n</tr>\n<tr>\n<td>20</td>\n<td>You don't need to eat or drink for 1 week.</td>\n</tr>\n<tr>\n<td>21-25</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Toxic Cloud].</td>\n</tr>\n<tr>\n<td>26-30</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Heroism] on you.</td>\n</tr>\n<tr>\n<td>31</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.One with Plants] on you, except you appear as a Medium wooden grave marker bearing your name and the current date; you can't Dismiss the spell for 1 round.</td>\n</tr>\n<tr>\n<td>32</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Mask of Terror], except the target appears as a more fearsome and violent version of itself to all observers.</td>\n</tr>\n<tr>\n<td>33-35</td>\n<td>The target knows you have a bullet with its name on it; the first time you Strike the target with the pistol before the end of your next turn, roll the attack roll twice and take the highest result (this is a fortune effect).</td>\n</tr>\n<tr>\n<td>36-37</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Cloak of Colors] on you with a duration of 1d10 rounds.</td>\n</tr>\n<tr>\n<td>38-47</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Hydraulic Push] (4th rank) as water streams from the pistol.</td>\n</tr>\n<tr>\n<td>48-50</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Translocate] on you, teleporting you to the space adjacent to the target opposite your current position; if that space isn't clear, you instead teleport to the nearest open space.</td>\n</tr>\n<tr>\n<td>51</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Disintegrate].</td>\n</tr>\n<tr>\n<td>52</td>\n<td>Dozens of tattered, nonmagical playing cards burst from the pistol's barrel.</td>\n</tr>\n<tr>\n<td>53-54</td>\n<td>Shadows crowd around the target, making all creatures @UUID[Compendium.pf2e.conditionitems.Item.Concealed] to the target while not in bright light; this effect lasts for 1 hour.</td>\n</tr>\n<tr>\n<td>55-57</td>\n<td>Normal vegetation within 30 feet of the target immediately dies and turns to ash.</td>\n</tr>\n<tr>\n<td>58</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Dinosaur Form] on you to transform you into a triceratops; the pistol protrudes from the base of your front horn, and you can fire (but not reload) the pistol while in this form.</td>\n</tr>\n<tr>\n<td>59</td>\n<td>All non-artifact ammunition in your possession crumbles to dust.</td>\n</tr>\n<tr>\n<td>60-69</td>\n<td>You are @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 minute. You can use the extra action only to reload or fire the pistol.</td>\n</tr>\n<tr>\n<td>70-71</td>\n<td>The target is @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 minute. It can use the extra action only to Step or Stride.</td>\n</tr>\n<tr>\n<td>72-79</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Killer].</td>\n</tr>\n<tr>\n<td>80-81</td>\n<td>Dozens of bullet holes appear in the target's nonmagical clothing. The effect is purely cosmetic.</td>\n</tr>\n<tr>\n<td>82-85</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Outcast's Curse].</td>\n</tr>\n<tr>\n<td>86</td>\n<td>The pistol vanishes, reappearing among your possessions once it can be activated again.</td>\n</tr>\n<tr>\n<td>87-91</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Solid Fog], but with swirling dust and sand instead of fog.</td>\n</tr>\n<tr>\n<td>92-96</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Mountain Resilience] on you, making your skin rough and leathery; the target ignores the resistance you gain from this spell, and the target's attacks don't reduce the spell's duration.</td>\n</tr>\n<tr>\n<td>97-99</td>\n<td>The pistol casts @UUID[Compendium.pf2e.spells-srd.Item.Uncontrollable Dance] with a duration of 3 rounds, even on a failure or critical failure.</td>\n</tr>\n<tr>\n<td>100</td>\n<td>Reroll two results and apply both in the order rolled; further results of 100 on these rerolls have no effect.</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "rare",
+    "traits": [
+      "chaotic",
+      "concussive",
+      "fatal-d8",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Piston Gauntlets",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>The striking surface of this <em>+2 greater striking flaming pantograph gauntlet</em> releases a puff of fire each time it reaches the end of its linkage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You supercharge the gauntlet's attack. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra two dice of weapon damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "deadly-d6",
+      "monk",
+      "reach",
+      "shove"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Piton",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>These small spikes can be used as anchors to make climbing easier. To affix a piton, you must hold it in one hand and use a hammer to drive it in with your other hand. You can attach a rope to the hammered piton so that you don't fall all the way to the ground on a critical failure while Climbing.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Plain brass censer",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 20,
+    "name": "Planar Ribbon",
+    "price": {
+      "gp": 60000
+    },
+    "description": "<p>By twisting and twirling this ordinary-looking leather ribbon, you can temporarily bend a rift in space.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<hr />\n<p><strong>Effect</strong> The ribbon spins and swirls, creating a circular loop in the air through which you can spy on a creature on another plane.</p>\n<p>This has the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Scrying] spell (DC 40) against the creature but functions more as a mundane -albeit interplanar-window; a similar loop appears before the target, and for the duration, both sides can clearly see and hear each other through the created portal, but nothing can pass through.</p>\n<p>You can Sustain the Activation to gain the effects of Sustaining the Spell. This activation has the scrying trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You extend the ribbon to brush against a foe up to 60 feet away. If that creature fails a @Check[reflex|dc:42] save, you exchange positions with the target and all of that creature's allies are off-guard to you until the end of your turn. This activation has the teleportation trait.</p>",
+    "rarity": "unique",
+    "traits": [
+      "occult"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Plasma Hype",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A synthetic adrenaline supplement that increases awareness and reaction time. Plasma hype has been infused with a specific mixture of Numerian fluids and other alchemical reagents to improve upon the original hype formula.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Maximum Duration</strong> 1 minute</p>\n<p><strong>Stage 1</strong> +10-foot status bonus to speed, quickened and can use the additional action to Step, Stride, Climb, or Swim (1 round)</p>\n<p><strong>Stage 2</strong> quickened and can use the additional action to Step or Stride (1 round)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 round)</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Plate Armor of the Deep",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This suit of +2 greater resilient full plate is decorated with swirling, ornate motifs of waves and fish scales.</p>\n<p>While wearing it, you take no Speed reduction or check penalty from armor when Swimming, gain a +2 item bonus to Athletics checks to Swim, can breathe underwater, and can speak Thalassic.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Plate of Yled (Greater)",
+    "price": {
+      "gp": 415
+    },
+    "description": "<p>This sinister suit of jet-black <em>+1 resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of [[/r 1d10 #Rounds]] rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with @UUID[Compendium.pf2e.spells-srd.Item.Death Knell] (DC 24).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Plate of Yled (Major)",
+    "price": {
+      "gp": 1160
+    },
+    "description": "<p>This sinister suit of jet-black <em>+2 resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of [[/r 1d10 #Rounds]] rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with @UUID[Compendium.pf2e.spells-srd.Item.Death Knell] (DC 28).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Plate of Yled (True)",
+    "price": {
+      "gp": 3600
+    },
+    "description": "<p>This sinister suit of jet-black <em>+2 greater resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of [[/r 1d10 #Rounds]] rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with @UUID[Compendium.pf2e.spells-srd.Item.Death Knell] (DC 31).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Plate of Yled",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This sinister suit of jet-black <em>+1 full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of [[/r 1d10 #Rounds]] rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with @UUID[Compendium.pf2e.spells-srd.Item.Death Knell] (DC 20).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Plated Duster",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>These loose-fitting long coats of canvas or leather are lined with metal plates, offering wearers respite from Alkenstar's dust storms and smog stains as well as modest protection against bullets and knives. While these dusters can't turn away gunfire entirely, their utility, affordability, and comfort ensure their popularity, especially among the city's shieldmarshals, who have adopted them as a sort of unofficial uniform.</p>\n<p>A plated duster can be donned with 2 Interact actions or as part of donning light armor. When worn with light armor from the cloth, leather, or chain groups, a plated duster increases the armor's item bonus to AC by 1, worsens the armor's check penalty by 1, reduces the armor's Dex cap by 1, increases the Strength score required to ignore the armor check penalty and Speed penalty by 2, adds the noisy trait, and changes the armor's group to composite. This also makes the armor one step heavier (from light to medium), and you use the proficiency bonus appropriate to this adjusted armor type. You can't use a plated duster alongside an armored skirt or any other item that adjusts an armor's statistics.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Platinum dragon statuette",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Platinum‑framed monocle",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Platinum image of a fey noble with a bit of orichalcum",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Platinum Pieces",
+    "price": {
+      "pp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Playing Cards",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 16,
+    "name": "Pocket Gala",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This item appears to be a miniature stone replica of an aristocratic home or a simple castle.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You place the figurine on the ground, and a harmonious note rings out as it grows into a spacious, elegant ballroom. The ballroom is 60 feet long, 45 feet wide, and features a ceiling that rises to a height of 20 feet. Elegant double doors on either end of the ballroom allow entry.</p>\n<p>Inside, the ballroom is fully stocked with tables and chairs along both sides. A feasting table in the center of each seating area provides enough food and drink for up to 36 guests, and a cadre of unseen servants tend to guests' basic needs.</p>\n<p>While inside, you can utter a command word to call forth music, which echoes through the ballroom. Repeating the command word can alter the dynamics of the music, such as the musical style or tempo, or stop the music entirely. A second command word produces a set of masked, illusory dancers that immediately take to the floor and begin dancing to the current music. When there's no music, the illusory guests chatter among themselves in a nonsense language. An illusory dancer will gladly dance with anyone who asks. Repeating the command word dismisses the dancers.</p>\n<p>You can utter a third command word declaring the gala over to revert the ballroom to its original form. As it reverts, the illusory dancers clap and cheer for your hospitality. If you don't revert the ballroom on your own, it automatically returns to its original state at the next sunrise.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pocket Stage",
+    "price": {
+      "gp": 138
+    },
+    "description": "<p>This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls.</p>\n<p><strong>Activate—Play with Dolls</strong> (1 minute) (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You place the miniature theater on the ground, filling it with any set dressing and up to six figures you choose. Then, you tap a rhythm on the miniature, causing it to grow into a modest stage 20 feet wide and 15 feet deep. It's dressed with the decorations you selected, and simple mannequins wear the costumes you chose. A wooden proscenium arch frames the stage, and simple curtains along the sides conceal the wings. As a magical structure, the stage has the structure trait.</p>\n<p>All the stage's set dressing is illusory and disappears if taken more than 20 feet from the stage. The costumes are physical but with illusory embellishments that fade at the same range, revealing only plain, white smocks.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Pocket Watch",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This timepiece is a marvel of clockwork and miniaturization; its gears, arbor, and mainspring are immaculately crafted and tuned to maximize precision and reduce time loss. This pocket watch has the properties of a clockwork dial, except it has a maximum duration of 24 hours and is available to characters from Alkenstar.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Poi",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>Poi are light weights tethered to ropes or chains. Performers swing the weights, usually one in each hand, in rhythmic patterns.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "backswing",
+      "finesse",
+      "nonlethal"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Poison Barbs Snare",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>You set several barbed animal spines or wooden stakes in the ground, each tipped with poison from a venomous animal or toxic plant. The snare deals @Damage[1d4[piercing]] damage to the first creature to enter its square (@Check[reflex|dc:15|basic]). On a failed save, several barbs lodge in the creature's feet. For 1 minute (or until a creature or an ally spends three Interact actions to remove the barbs), the barbs deal @Damage[1d4[poison]] damage to the creature each time it Strides more than half its Speed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Poison Concentrator (Greater)",
+    "price": {
+      "gp": 5900
+    },
+    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 14 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
+    "rarity": "common",
+    "traits": [
+      "additive1",
+      "alchemical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Poison Concentrator (Lesser)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 4 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
+    "rarity": "common",
+    "traits": [
+      "additive1",
+      "alchemical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Poison Concentrator (Major)",
+    "price": {
+      "gp": 31000
+    },
+    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 18 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
+    "rarity": "common",
+    "traits": [
+      "additive1",
+      "alchemical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Poison Concentrator (Moderate)",
+    "price": {
+      "gp": 960
+    },
+    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 9 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
+    "rarity": "common",
+    "traits": [
+      "additive1",
+      "alchemical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Poison Fizz (Greater)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +3 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a @Template[cone|distance:15]. This deals @Damage[5d6[poison]] with a @Check[reflex|dc:34|basic|traits:poison]. A creature that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Poison Fizz (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Poison Fizz (Lesser)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +2 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a @Template[cone|distance:15]. This deals @Damage[3d6[poison]] with a @Check[reflex|dc:24|basic|traits:poison]. A creature that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Poison Fizz]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Poison Fizz (Moderate)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +2 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a @Template[cone|distance:15]. This deals @Damage[4d6[poison]] with a @Check[reflex|dc:29|basic|traits:poison]. A creature that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Poison Fizz]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Poison Ring",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This ring contains a compartment beneath the bezel intended to hold a small amount of poison. You can determine the ring's true purpose with a successful @Check[perception|dc:20] check. Noticing the compartment while the ring is being worn is more difficult and typically requires a successful Perception check against the Stealth DC of the person wearing the ring. You place poison within the ring using the same method for applying poison to a weapon. You can release the ring's poison or consume it using an Interact action if you have a free hand. The ring's compartment is large enough to hold an effective amount of most poisons, but it's too small to hold a significant amount of other liquids, including potions and magical oils.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Poison Sedum",
+    "price": {},
+    "description": "<p>This green-and-blue stalk is topped with a clump of small flowers resembling broccoli. It's covered in a mildly toxic resin that sticks to flesh, fur, and equipment alike, causing affected creatures to break out in an itchy rash.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Maximum Duration</strong> 2 weeks</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}, and the sickened condition can't go below 1 (1 day)</p>\n<p><strong>Stage 2</strong> as stage 1, but also @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 day)</p>",
+    "rarity": "rare",
+    "traits": [
+      "contact",
+      "poison"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Poisoner's Staff (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 10.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Poison], @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Enhance Victuals], @UUID[Compendium.pf2e.spells-srd.Item.Imp Sting]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Stinking Cloud]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Poisoner's Staff (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 5.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Poison], @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Enhance Victuals], @UUID[Compendium.pf2e.spells-srd.Item.Imp Sting]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Stinking Cloud]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Swarming Wasp Stings]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Toxic Cloud]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Purple Worm Sting]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Poisoner's Staff",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 13.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> @UUID[Compendium.pf2e.spells-srd.Item.Guidance]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Detect Poison], @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Poisonous Cloak Type I",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> giant scorpion venom</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Poisonous Cloak Type II",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> wolfsbane</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Poisonous Cloak Type III",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> purple worm venom</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Poisonous Cloak Type IV",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> hemlock</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Poisonous Dagger",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This +1 striking dagger has an image of a snake emblazoned on its blade. When you critically succeed at an attack roll with the dagger, magical fangs emerge and poison the target, dealing @Damage[1d4[persistent,poison]].</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "poison",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Polarizing Mace",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>Even grasping the amber handle of this <em>+1 striking shock light mace</em> makes your hair stand on end.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The wielder of a <em>grounding spike</em> is within 30 feet</p>\n<hr />\n<p><strong>Effect</strong> A great surge of electricity connects your paired weapons. All creatures in a line between you and the wielder of the grounding spike take @Damage[4d12[electricity]|options:area-damage] (@Check[reflex|dc:24|basic|options:area-effect]).</p>\n<p><strong>Special</strong> The polarizing mace pairs with the <em>grounding spike</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "shove"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Polished Demon Horn (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional @Damage[1d6[mental]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Daze] (@Check[will|dc:24|basic|traits:cantrip,spell,mental,nonlethal]).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Fear] (@Check[will|dc:24|traits:emotion,fear,mental,spell]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Polished Demon Horn (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional @Damage[1d8[mental]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Daze] (@Check[will|dc:29|basic|traits:cantrip,spell,mental,nonlethal]).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Agonizing Despair] (@Check[will|dc:29|traits:emotion,fear,mental,spell]).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Outcast's Curse] (@Check[will|dc:29|traits:misfortune,curse,mental,spell]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Polished Demon Horn",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional @Damage[1d4[mental]] damage until end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Polished Demon Horn - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Daze] (@Check[will|dc:17|basic|traits:cantrip,spell,mental,nonlethal]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Polytool",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>The polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it- perfect for the goddess @UUID[Compendium.pf2e.deities.Item.Casandalee] to spread innovation farther than actual Numerian tech could reach.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "modular"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Pontoon",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Footwear with <em>pontoon runes</em> allows you to traverse waterways with ease. While wearing footwear with the rune, you can walk on the surface of water and other liquids without falling through. This offers no protection against damage the liquid deals. You can go under the liquid's surface, but you must Swim if you do.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Popdust",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can sprinkle popdust in an empty square adjacent to you. The first creature that applies pressure to the popdust, such as by moving into that square, causes it to emit a series of thunderous cracks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "sonic"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Poracha Fulu",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Folklore from near the Forest of Spirits tells of the origin of the <em>poracha fulu</em>. Once, a traveler saved an eight-legged feline who turned out to be a poracha prince. In return, the prince gave the traveler a fulu that later prevented a fast-acting poison from slaying them. Traditionally, one wears a string of up to nine <em>poracha fulus</em>, which counts as one talisman. Each time you take persistent damage, one <em>poracha fulu</em> affixed to you negates the damage and crumbles to dust. This response is automatic, but you can use a free action (envision) to prevent your fulus from responding. If you do, any <em>poracha fulus</em> affixed to you never respond to that persistent damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Porcelain doll with amber eyes",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Porcelain vase inlaid with gold",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Portable Altar",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This travel-ready kit contains a small altar featuring a deity's iconography. The altar's top can be lifted to reveal a compartment for materials of no more than light Bulk (such as candles, incense, oils, and small texts). The altar grants a +1 item bonus to checks made to conduct religious rites using Performance or Religion.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Portable Animal Blind",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>Simple blinds consist of a series of poles with a cloth to cover them. The cloth covering is styled to represent the natural surroundings such as green and brown leaf and wood patterns for forests, or gray rocks for underground environments. This cloth is either sheer enough to be seen through on one side, or sometimes has small slits cut in it, allowing someone behind it to see what is going on outside while remaining @UUID[Compendium.pf2e.conditionitems.Item.Hidden]. While not the most convincing camouflage, it's good enough to fool many animals and creatures with lower intelligence.</p>\n<p>Portable blinds are made of a wooden frame with camouflage material stretched over them, resembling a large kite. A hole in the center allows for a one-handed ranged weapon to be fired without obstruction. A single person can use the @UUID[Compendium.pf2e.actionspf2e.Item.Take Cover] action while carrying a portable blind. When you do so, you gain a +2 circumstance bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Hide] instead of the normal benefits of standard cover.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Portable Animal Blind]</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Portable Gaming Hall",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A <em>portable gaming hall</em> resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The wheel grows into a circular room 30 feet in diameter, with a door on one side. Six chairs surround a circular table, 10 feet in diameter. The underside of the table contains retractable drawers full of dice, harrow cards, game pieces, and other gambling accouterments. A gallon of ale or a similar drink with a spigot near the bottom hangs on the door, replenishing to a full gallon each day; you can also bring in your own drinks if you require more than the gaming hall provides.</p>\n<p>You can flip the central table over as a 3-action activity, which has the manipulate trait, to revert the gaming hall to its original form.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 15,
+    "name": "Portable Hole",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>Wispy, ethereal strands of carefully spun silk make up the substance of a portable hole, which sparkles with captive beams of starlight. It's linked to an extradimensional space in the shape of a pit, which can be accessed if the hole is fully opened.</p>\n<p><em>Portable holes</em> and <em>bags of holding</em> are antithetical to one another. Rather than deactivating either, if one is placed inside the other, as typical for extradimensional spaces, a rift to the Astral Plane tears open and destroys both items. Any creature or unattended object within a @Template[burst|distance:10] centered on the bag is sucked through to the Astral Plane, though a creature can avoid this with a successful @Check[reflex|dc:30] save. The whole process happens in a single blink of an eye.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You unfold the hole and open it fully, revealing an extradimensional space that stays in place. The hole is 6 feet across—just big enough to cover a 5-foot square—and 10 feet deep. The hole's depth is perpendicular to the surface, so it's most commonly placed on a floor to make a hole straight down or on a wall to create a horizontal passage through it. The only air in the hole is that which enters when it's opened, though if the hole goes through to open space, air can flow freely through the tunnel. Anyone can Interact to grab the hole by the edges and partially or fully fold it up. This closes the entrance to the extradimensional space. Any objects or creatures within the hole remain inside, and any that can't fit fully inside are ejected into the nearest open space. No matter how many items are in the portable hole, its Bulk never changes. Items can be stowed or retrieved only while the hole is fully open. A living creature placed inside has enough air for 10 minutes before it begins to suffocate, and it can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] against a DC of 13. An item inside the hole provides no benefits unless it's retrieved first. Anything in the hole can't be detected by magic that detects only things on the same plane.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  }
+]

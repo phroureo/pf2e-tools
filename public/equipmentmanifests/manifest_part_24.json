@@ -1,0 +1,1311 @@
+[
+  {
+    "level": 11,
+    "name": "Kizidhar's Shield",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>This <em>standard-grade duskwood shield</em> is perfectly symmetrical and incredibly sturdy despite its elaborate construction. These shields are typically given to the chosen emissaries of a kizidhar shuyookh, and the shuyookh's name and title are engraved in Muan behind the shield's handle.</p>\n<hr />\n<p><strong>Activate - Repair</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You command the shield to repair itself, awakening the restorative magic within. For the next minute, the shield heals 3 Hit Points each round at the start of your turn.</p>\n<hr />\n<p><strong>Activate - Secure Site</strong> 10 minutes (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place the <em>kizidhar's shield</em> into the ground at the edge of your campsite, which can't be more than 30 feet on a side, then speak the name of the kizidhar shuyookh carved into its handle. The shuyookh briefly appears just long enough to make a sweeping gesture, causing sprawling thorns to grow in an unnaturally symmetrical formation around the campsite, protecting it for the next 8 hours with an effect that's otherwise identical to @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns]. All creatures within the campsite are then immediately affected by a three-action @UUID[Compendium.pf2e.spells-srd.Item.Heal] spell cast at 4th rank by the shield. After 8 hours, the wall rots away, and the shield can be retrieved as an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wood"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Klar",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This traditional Shoanti armament combines a short metal blade with the skull of a large horned lizard, fashioned as a shield. The lightweight shield allows for quick attacks with its integrated blade.</p>",
+    "rarity": "common",
+    "traits": [
+      "integrated-1d6-s-versatile-p"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Knapsack of Halflingkind (Greater)",
+    "price": {
+      "gp": 2850
+    },
+    "description": "<p>This sturdy leather satchel contains five compartments fastened with large clasps. The first compartment is lined in blue satin and contains an extradimensional space equivalent to a @UUID[Compendium.pf2e.equipment-srd.Item.Spacious Pouch (Type II)].</p>\n<p>The second compartment has no lining. You can pull forth cookware and cooking utensils from it. Once they have been used to prepare a meal, the items transform into plates and silverware, and they evaporate once the meal has been eaten, taking any leftovers with them. The cookware reappears cleaned in the compartment 1 hour later. The compartment provides only kitchenware, not any food.</p>\n<p>The third compartment is lined with plush purple velvet and contains berry tarts wrapped in parchment paper. A creature can unwrap and eat one tart with an Interact action to regain @Damage[(4d8+8)[healing]] Hit Points. The knapsack produces four tarts per day, which appear at breakfast time. Any tarts not eaten by the end of the day evaporate.</p>\n<p>The fourth compartment is lined in golden velvet. Once per day, you can draw a lucky magic sling bullet from this compartment. If you attack with this sling bullet, you roll twice and use the better result on your attack roll and your damage roll. This is a fortune effect. The stone becomes non-magical if not hurled by the end of your turn. Once activated, this compartment stitches itself shut until the next day.</p>\n<p>The bag's fifth compartment is lined in black wool. Once per day, you can unfold this compartment into a 5-foot-diameter portal on the ground. The first person to Step into the portal from an adjacent square is teleported away. This has the same effect as an 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Translocate] spell, except the affected creature takes the knapsack with them. When the portal is used, or at the start of your next turn if it hasn't been used, the compartment closes automatically and can't be unfolded until the next day.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "healing",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Knapsack of Halflingkind",
+    "price": {
+      "gp": 675
+    },
+    "description": "<p>This sturdy leather satchel contains three compartments fastened with large clasps. The first compartment is lined in blue satin and contains an extradimensional space equivalent to a @UUID[Compendium.pf2e.equipment-srd.Item.Spacious Pouch (Type II)].</p>\n<p>The second compartment has no lining. You can pull forth cookware and cooking utensils from it. Once they have been used to prepare a meal, the items transform into plates and silverware, and they evaporate once the meal has been eaten, taking any leftovers with them. The cookware reappears cleaned in the compartment 1 hour later. The compartment provides only kitchenware, not any food.</p>\n<p>The third compartment is lined with plush purple velvet and contains berry tarts wrapped in parchment paper. A creature can unwrap and eat one tart with an Interact action to regain @Damage[(2d8+4)[healing]] Hit Points. The knapsack produces four tarts per day, which appear at breakfast time. Any tarts not eaten by the end of the day evaporate.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "healing",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Knight Captain's Lance",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>The appearance of this beautifully crafted <em>+2 disrupting greater striking lance</em> changes to match the armor of its wielder. It has a cloth flag attached behind the lance point that displays whatever heraldry the wielder wishes.</p>\n<p>If a cavalier with the @UUID[Compendium.pf2e.feats-srd.Item.Cavalier's Banner] feat takes the <em>knight captain's lance</em>, it instead automatically displays the banner of their pledge.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Trigger</strong> Your attack roll with the knight captain's lance is a critical success</p>\n<hr />\n<p><strong>Effect</strong> You raise the lance, inspiring those around you. Allies within 30 feet that can see you receive a +1 status bonus to their attack rolls and damage rolls for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "divine",
+      "jousting-d6",
+      "reach"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Knight's Maintenance Kit",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>This set of gear contains a repair kit, cloth rolls for storing or covering equipment, and specialized mixtures developed by the Knights of Lastwall to clean and treat armaments for continued use. This kit gives you a +1 item bonus to checks to Repair weapons, shields, and armor using the Crafting skill, and you restore an additional 5 Hit Points when you successfully Repair such items using it.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Knight's Standard",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This cloth flag or banner, no larger than a few feet long, bears the symbol or heraldry of a deity, knightly house, nation, or similar organization. A typical standard comes with a stand or pole to hold it aloft. You can instead spend 2 consecutive Interact actions to mount a knight's standard on a two-handed polearm or spear weapon; the standard is visible as long as you wield the weapon with two hands. Some individuals are inspired by the sight of a standard or demoralized by the destruction of one.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Knight's Tabard",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>This cloth vestment features the heraldry or symbol associated with an entity (such as a deity, kingdom, or organization). Knights typically wear it over armor and other clothing, helping them identify allies on the battlefield or distinguishing themselves in more peaceful situations. An individual wearing a tabard gains a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on creatures who have a positive association with the entity represented on the tabard.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Knockout Dram",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This soporific chemical comes in liquid form and is virtually undetectable by taste or scent. It's most commonly slipped into a victim's drink to quickly induce a deep unconsciousness.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:23]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 10 hours</p>\n<p><strong>Stage 1</strong> fall @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] and can't attempt Perception checks to wake up (1 minute)</p>\n<p><strong>Stage 2</strong> sleep normally ([[/br 1d4 #hours]]{1d4 hours})</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Knuckle Duster",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>This bit of hardened metal, favored by street toughs, is typically made of brass and features four finger holes so that it can sit atop the knuckles, adding extra power to a punch.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "free-hand",
+      "monk"
+    ]
+  },
+  {
+    "level": 22,
+    "name": "Kortos Diamond",
+    "price": {},
+    "description": "<p>The hilt of this <em>+3 major striking @UUID[Compendium.pf2e.equipment-srd.Item.Spell Reservoir]{Spell-Storing} longsword</em> is simple and elegant. The blade itself is made of <em>throneglass</em>—a clear, jewellike crafting material with a razor-sharp edge, capable of absorbing psychic magic and redirecting it at the wielder's enemies. Whenever the <em>Kortos Diamond</em> is in an area of dim or brighter light, it glows faintly, as if reflecting the light of a setting sun.</p>\n<p>While wielding the <em>Kortos Diamond</em>, you gain a +2 item bonus on saving throws against mental effects. You can never harm yourself with the <em>Kortos Diamond</em>, even if @UUID[Compendium.pf2e.conditionitems.Item.Confused].</p>\n<p>If you ever travel farther than 100 miles from the Isle of Kortos while in possession of the <em>Kortos Diamond</em>, the sword becomes impossibly heavy; you are encumbered as long as you carry the sword and remain outside of this area. If you relinquish the <em>Kortos Diamond</em> while away from Kortos, the sword gradually makes its way back to the isle over the course of a year.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> You attempt a melee Strike with the <em>Kortos Diamond</em> against a creature within reach. On a hit, you deal damage as normal and the target's mind is inflicted with a powerful disruptive energy. When the creature attempts to Cast a Spell, it must attempt a @Check[will|dc:44]; on a failure, the spell fails and both the spell and the actions spent to cast it are lost. This effect lasts for up to 1 minute.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You damage an aberration with the <em>Kortos Diamond</em></p>\n<p><strong>Effect</strong> You deal an additional @Damage[2d8[force]] damage to the struck creature.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hold the <em>Kortos Diamond</em> aloft and proclaim your might in a booming voice. You cast @UUID[Compendium.pf2e.spells-srd.Item.Overwhelming Presence] (DC 42).</p>\n<hr />\n<p><strong>Destruction</strong> A deity who ascended to divinity via the <em>Test of the Starstone</em> can damage and destroy the <em>Kortos Diamond</em> as if it were not an artifact.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "divine",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Kotodama Bells",
+    "price": {},
+    "description": "<p>This set of bronze bells bear engravings with symbols representing the word \"awaken.\" Among kotodama magic users, who seek to touch the souls of objects using the power of words, the peals of these bells are known to awaken the spirits of even inanimate objects.</p>\n<p><strong>Activate—Awaken the Soul</strong> <span class=\"action-glyph\">2</span> (auditory, concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You ring the bell and focus on an object of negligible Bulk within 10 feet. The bell's toll animates the object for 24 hours. The object becomes a minion that can't attack but can move and take simple Interact actions appropriate for an item of its type, as determined by the GM. For example, a piece of chalk can write a message or draw a symbol, a hand fan can open or fan in a particular direction, or a magnifying glass can set itself up to dramatically reveal incriminating evidence. The animated item has AC 5, 5 Hit Points, a Speed of 10 feet, and automatically fails all saves. If the object is broken, it can no longer move, though it can still Interact as appropriate for an item of its type. As normal with minions you control, you must Command the object to grant it actions.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Kotodama Whistle",
+    "price": {},
+    "description": "<p>This small wooden whistle bears an engraving with a symbol representing the word \"query.\" Practitioners of kotodama magic use these whistles to speak with the spirits of objects.</p>\n<p><strong>Activate—Question the Soul</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You place your hand on an object and play a single note on the whistle, causing the item to stir and respond to your questions for 1 minute. During this time, the object attempts to answer your questions to the best of its ability but can provide an answer of only \"yes\" or \"no.\" In most cases, an object has knowledge only of events it was personally present for and has no particular knowledge skills to interpret the events it has seen. If the object can't answer a question with a simple yes or no answer, it stays silent.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Kraken Bottle",
+    "price": {
+      "gp": 5000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Coiled tentacles make it all but impossible to see anything else inside this ampoule. When opened, a Gargantuan kraken bursts forth, which can appear in water instead of on the ground. Its arms attempt to grasp up to four creatures with a reach of 60 feet. The kraken repositions @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] creatures to a different space within its reach unless the target succeeds at a @Check[fortitude|dc:38] save.</p>\n<p>If the kraken is in water, it then releases a cloud of ink in an @Template[emanation|distance:80]. This cloud has no effect outside of water. Creatures inside the cloud are undetected, can't use their sense of smell, and are exposed to kraken ink poison. The cloud dissipates after 1 minute.</p>\n<p>Krakens are immune to this poison.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:39|traits:poison]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 10 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 round)</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply the corpse of a kraken.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "expandable"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Kraken Figurehead (Wracking)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p><strong>Usage</strong> attached to a ship's bow</p>\n<p>A knot of tentacles makes up the body of this figurehead. It's always slightly slimy and sticky to the touch. Superstitious sailors tend to avoid ships with this figurehead on the bow, claiming it's bad luck to flaunt a kraken's image while at sea.</p>\n<hr />\n<p><strong>Activate—Lash Out!</strong> <span class=\"action-glyph\">2</span> (aura, concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The effigy causes spectral tentacles to erupt from the ship's hull. These tentacles lash out in an emanation with a distance equal to the ship's length and remain active for 10 minutes. Creatures in the aura and in the same body of water as the ship take a -2 circumstance penalty to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Swim] as the writhing tentacles lash out in all directions.</p>\n<hr />\n<p><strong>Activate—Grab Them!</strong> <span class=\"action-glyph\">1</span> (attack, concentrate)</p>\n<p><strong>Requirements</strong> The ship's spectral tentacles are activated</p>\n<p><strong>Effect</strong> The tentacles grab at an enemy vessel in the aura. Attempt a piloting check against the target vessel's AC. On a success, the tentacles grab hold and tether the two vessels together. While tethered, the ships can't move farther away from each other, creatures aboard the enemy vessel receive a -2 circumstance penalty to all piloting checks, and creatures attempting to @UUID[Compendium.pf2e.actionspf2e.Item.Board] the enemy vessel gain a +2 circumstance bonus to any check required to do so.</p>\n<p>If you use this activation while the tentacles are already latched onto another ship, the tentacles instead pull that ship toward yours a distance up to half your ship's swim Speed with a success (or up to your ship's full swim Speed with a critical success). The pilot of the enemy ship can attempt a DC 31 piloting check to break free as a single action that has the attack trait. With a success, the ship frees itself from the tentacles.</p>\n<p>When you use the figurehead's second activation to pull an enemy ship, even if you didn't pull the ship any actual distance, you can have the tentacles try to crack open its hull. The tentacles deal @Damage[7d10[bludgeoning]] damage to the enemy vessel (@Check[fortitude|dc:31|basic] save). Apply the ship's Hardness as normal.</p>",
+    "rarity": "common",
+    "traits": [
+      "figurehead",
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Kraken Figurehead",
+    "price": {
+      "gp": 490
+    },
+    "description": "<p><strong>Usage</strong> attached to a ship's bow</p>\n<p>A knot of tentacles makes up the body of this figurehead. It's always slightly slimy and sticky to the touch. Superstitious sailors tend to avoid ships with this figurehead on the bow, claiming it's bad luck to flaunt a kraken's image while at sea.</p>\n<hr />\n<p><strong>Activate—Lash Out!</strong> <span class=\"action-glyph\">2</span> (aura, concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The effigy causes spectral tentacles to erupt from the ship's hull. These tentacles lash out in an emanation with a distance equal to the ship's length and remain active for 10 minutes. Creatures in the aura and in the same body of water as the ship take a -2 circumstance penalty to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Swim] as the writhing tentacles lash out in all directions.</p>\n<hr />\n<p><strong>Activate—Grab Them!</strong> <span class=\"action-glyph\">1</span> (attack, concentrate)</p>\n<p><strong>Requirements</strong> The ship's spectral tentacles are activated</p>\n<p><strong>Effect</strong> The tentacles grab at an enemy vessel in the aura. Attempt a piloting check against the target vessel's AC. On a success, the tentacles grab hold and tether the two vessels together. While tethered, the ships can't move farther away from each other, creatures aboard the enemy vessel receive a -2 circumstance penalty to all piloting checks, and creatures attempting to @UUID[Compendium.pf2e.actionspf2e.Item.Board] the enemy vessel gain a +2 circumstance bonus to any check required to do so.</p>\n<p>If you use this activation while the tentacles are already latched onto another ship, the tentacles instead pull that ship toward yours a distance up to half your ship's swim Speed with a success (or up to your ship's full swim Speed with a critical success). The pilot of the enemy ship can attempt a DC 27 piloting check to break free as a single action that has the attack trait. With a success, the ship frees itself from the tentacles.</p>",
+    "rarity": "common",
+    "traits": [
+      "figurehead",
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Kraken's Guard",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This steel shield is painted a mottled crimson, and it always glistens as if wet. Its crest is composed of eight appendages that curl around each other, resembling the swirling tentacles of a giant kraken. Two ferocious eyes sit in its center, gleaming with an inner light.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>16</td>\n<td>96</td>\n<td>48</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Raise a Shield</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You unleash the kraken's wrath. You Raise the Shield. The shield's appendages briefly extend to impossible length as they wriggle and lash out at your foes, dealing @Damage[10d10[bludgeoning]|options:area-damage] damage to all enemies in a @Template[cone|distance:30] (@Check[reflex|dc:41|basic|name:Kraken's Guard Tentacle Attack|options:area-effect] save). The shield remains animated for 1 minute, during which you can use it to Grapple a creature within 10 feet of you without needing a free hand. When you use the shield to Grapple, you gain a +3 item bonus to your Athletics check.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Kraken's Guard]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Kris",
+    "price": {
+      "sp": 7
+    },
+    "description": "<p>This blade features multiple curves in a serpentine pattern set on a wide, asymmetrical base, its hilt and sheath often intricately decorated.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "deadly-d8",
+      "finesse"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Kukri",
+    "price": {
+      "sp": 6
+    },
+    "description": "<p>The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Kusarigama",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This impressive weapon consists of a weight attached to a kama via a length of chain, which aids with disarming an opponent or attacking from a distance.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "monk",
+      "reach",
+      "trip",
+      "versatile-b"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Kushtaka Relic",
+    "price": {
+      "gp": 525
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add one action)</p><hr /><p>These relics come in many forms, as the only requirement is they were owned by a human who transformed into a kushtaka. Used as a catalyst for @UUID[Compendium.pf2e.spells-srd.Item.Spirit Blast] against a target possessing another creature, a <em>kushtaka relic</em> attempts to banish such a spirit. A creature who fails the Fortitude save against <em>spirit blast</em> has its grasp on its possessed target weakened. The result of the possessed creature's next Will save against the possession effect is improved by one degree. A creature who is possessing another and critically fails the Fortitude save against <em>spirit blast</em> takes damage and then is banished from the body it was possessing.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Lacquered Waist Drum",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>This hourglass-shaped drum has two heads, each of which produces a different sound when struck. When played together, the resonance of the two sounds is effective in repelling evil spirits. This drum can be played as an instrument, granting a +2 item bonus to Performance.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You play both heads of the drums, generating a pulse of positive energy that targets one creature within 30 feet that has the undead trait. This deals @Damage[5d8[vitality]] damage (@Check[fortitude|dc:28] save) to that creature; if the undead also has the ghost trait, the ghost becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} if it fails the save.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You raucously play both heads of the drums, accompanied with shouting and dancing. This display generates a pulse of positive energy in a @Template[emanation|distance:30] from you. All undead creatures within this area must attempt a @Check[fortitude|dc:28] save.</p>\n<p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes @Damage[2d8[vitality]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[5d8[vitality]] damage; if the creature has the ghost trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[10d8[vitality]] damage; if the creature has the ghost trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Ladder (10-foot)",
+    "price": {
+      "cp": 3
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Lady's Blessing Oil",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Administer First Aid]</p>\n<hr />\n<p>Lady's blessing oil is favored by Pharasmin healers who ease the transitions of life. You can Activate the item as part of the same activity you use to Administer First Aid to stabilize a creature. If you use lady's blessing oil, the DC of the check to Administer First Aid is reduced to the creature's recovery roll DC, rather than 5 + the recovery roll DC. However, if you roll a failure on the check, you get a critical failure instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Lady's Chalice",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This silver chalice bears the symbol of Pharasma, a swirling cloud that transforms into a flight of whippoorwills that encircle the top. The chalice can be activated in one of two ways, though only once per day total.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The chalice fills with a single vial's worth of <em>@UUID[Compendium.pf2e.equipment-srd.Item.Holy Water]</em>. The water loses its potency after 1 day if poured into any container other than a font specifically sanctified by a cleric of Pharasma. It similarly loses its potency 1 day after being removed from such a font.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The <em>Lady's Chalice</em> is full of a vial's worth of <em>holy water</em></p>\n<hr />\n<p><strong>Effect</strong> The chalice splashes a spiral of <em>holy water</em> into an adjacent space. This is a simple thrown weapon with a range of 5 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it. If it hits, it deals 2d6 spirit damage and 2 spirit splash damage (including to you, if you're evil).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "good"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Lady's Knife",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>This <em>+1 striking returning dagger</em> has an elaborate, gemmed handle and can be worn strapped to the inside of a wrist or tucked within a decorative bodice. Despite the name, which stems from the dagger's historical basis in Oppara as a lady's favor, this dagger is common among wielders of all genders and has become quite fashionable in Absalom of late, with most nobles who carry them matching their evening finery to the gems on the hilt.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You offer this weapon as a romantic or platonic favor to an ally. You and the ally become linked for 1 day. During this time, you each benefit from the effects of @UUID[Compendium.pf2e.spells-srd.Item.Status], using each other as the targets.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have become linked with an ally by offering them the <em>lady's knife</em></p>\n<hr />\n<p><strong>Effect</strong> You call forth the blade. The <em>lady's knife</em> instantly teleports to your hand. The attempt to recall the knife fails if you are more than 1 mile away from the knife's current location. Your linked ally can use the same Activation to recall the knife once per day as well.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Lady's Spiral",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This <em>+1 @UUID[Compendium.pf2e.equipment-srd.Item.Vitalizing] striking whip</em> has a single strip of anointed leather wrapped around its hilt in a spiral pattern. The handle of the whip ends in an oak spike that has been sanctified with ashes from Pharasma's Boneyard. If the spike is used to stake a vampire that's vulnerable to being staked, the vampire is immediately destroyed, without having to sever its head and anoint it with holy water. If the whip is buried with a creature, that creature can't rise as an undead as long as the whip remains by its side.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "finesse",
+      "nonlethal",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Lambent Perfume",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This ceramic incense burner is shaped like a three-headed ibis in the form of Atreia, spreading his wings and preparing to take flight; it hangs on a thin, golden chain.</p>\n<hr />\n<p><strong>Activate—Light Incense</strong> <span class=\"action-glyph\">2</span> (aura, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Cost</strong> incense worth at least 1 sp</p>\n<p><strong>Effect</strong> Sparkling golden mist escapes the ibis's open beaks, spreading in a @Template[emanation|distance:20]. This perfume mist is calming and restorative. A creature that ends its turn within the censer's smoke while sickened or under an affliction can attempt a new saving throw to overcome it.</p>\n<p>A creature with multiple afflictions, or that is both sickened and has an affliction, chooses one to attempt to overcome each time it ends its turn in the aura. After attempting a new saving throw against an affliction, a creature is temporarily immune to <em>lambent perfume</em> for the purpose of overcoming that affliction for 24 hours.</p>",
+    "rarity": "common",
+    "traits": [
+      "censer",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Lamellar Breastplate",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>Slats of lacquered steel or other metal held together with cord, whether leather or silk, make up most lamellar breastplates. The lacquering prevents the metal from corroding.</p>",
+    "rarity": "common",
+    "traits": [
+      "hindering",
+      "laminar"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Lance of Sun's Radiance",
+    "price": {
+      "gp": 1450
+    },
+    "description": "<p>Crafted for a long-forgotten knight to slay Avathrael Realmshaper, this <em>+2 striking dragon bane lance</em> is crafted from gleaming steel with a golden silk banner depicting a radiant sun. When in a location of dim light or darkness, the <em>lance of sun's radiance</em> sheds bright light in a 60-foot radius, and dim light for a further 60 feet.</p>\n<hr />\n<p><strong>Activate—Banish Darkness</strong> <span class=\"action-glyph\">1</span> (divine, light, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You tap the lance's tip against an object, causing that object to shed light like a torch for 1 hour.</p>\n<hr />\n<p><strong>Activate—Sun Cutting Scales</strong> <span class=\"action-glyph\">2</span> (divine, light, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> With a bold proclamation, you thrust the lance forward, firing a beam of brilliant, scouring light in a @Template[line|distance:120]. Creatures in the area take @Damage[6d8[spirit]] damage, or @Damage[6d12[spirit]] damage if they're a dragon (@Check[reflex|dc:28|basic] save). Creatures that critically fail are also @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round.</p>",
+    "rarity": "rare",
+    "traits": [
+      "deadly-d8",
+      "jousting-d6",
+      "light",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Lance",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This spear-like weapon is used by a mounted creature to deal a great deal of damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d8",
+      "jousting-d6",
+      "reach"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Lancer",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This lance has a heavy grip with two parallel crossbow fixtures built into it, making it a useful weapon for combats who prefer to keep their distance at all times.</p>",
+    "rarity": "common",
+    "traits": [
+      "combination"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Land-delver's Chair",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A supramarine chair is a wheeled, water-filled bath or tank, originally designed by merfolk, for assisting aquatic people's mobility on land. The heavier-duty land-delver's chair functions as a @UUID[Compendium.pf2e.equipment-srd.Item.Traveler's Chair].</p>\n<p>You increase your Speed to 20 feet or your swim Speed, whichever is lower.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Lantern (Bull's Eye)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A lantern sheds bright light and requires 1 pint of oil to function for 6 hours. A bull's-eye lantern emits its light in a 60-foot cone (and dim light in the next 60 feet).</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Lantern (Hooded)",
+    "price": {
+      "sp": 7
+    },
+    "description": "<p>A lantern sheds bright light and requires 1 pint of oil to function for 6 hours. A hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 feet) and is equipped with shutters, which you can close to block the light. Closing or opening the shutters takes an Interact action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 6,
+    "name": "Lantern of Empty Light",
+    "price": {
+      "gp": 240
+    },
+    "description": "<p>It's said that the pale blue light of this eldritch lantern shines from another dimension or even is linked, somehow, to the glow of a ghost when it is consumed by the Outer Goddess Nhimbaloth. A lantern of empty light is not intrinsically an evil item, though it remains a favored tool of those who would manipulate the minds of others for sinister reasons. It can be used as a normal bull's-eye lantern, but prolonged use tends to instill in the user a vague sense of being watched by unseen eyes.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You direct the lantern's light upon a single living creature within 60 feet. That creature must attempt a @Check[will|dc:20|traits:damaging-effect] save to resist the light's effects.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and realizes that you attempted to mentally influence them with the light.</p>\n<p><strong>Success</strong> The creature is unaffected but thinks the light was harmless, unless it knows the true nature of the lantern already.</p>\n<p><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the lantern's light, and remains fascinated as long as you Sustain the Activation, up to 10 minutes.</p>\n<p><strong>Critical Failure</strong> As failure, but you can Sustain the Activation for up to 1 hour. When the effect ends, the fascinated creature remembers any events that took place while fascinated only as indistinct, dream-like memories.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You direct the lantern's light upon a single incorporeal undead creature within 60 feet to siphon away some of the creature's essence, dealing @Damage[4d8[vitality]] damage to the creature (@Check[will|dc:20|basic] save).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Lapis lazuli pendant",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Lapis lazuli",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Large Bore Modifications",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p>These modifications include a heavier stock and larger replacement barrel designed to increase the stopping power of firearms. <em>Large bore modifications</em> can only be applied to firearms with the kickback or scatter traits, and attaching <em>large bore modifications</em> takes 1 hour, though this time can overlap with the standard time required to maintain and clean your firearm to prevent misfires.</p>\n<p>When you attach <em>large bore modifications</em> to a kickback weapon, the bonus to damage granted by the kickback trait increases from 1 to 2 additional Damage and the Strength requirement to fire the weapon without penalty increases to +4.</p>\n<p>When you attach <em>large bore modifications</em> to a weapon with the scatter trait, the radius of the scatter effect increases by 5 feet, but the weapon imposes a -2 penalty on attack rolls if the wielder's Strength modifier is less than +2. If the weapon has both the kickback and scatter traits, apply both sets of modifications with the Strength requirement raised to +4 to avoid penalties when firing.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 18,
+    "name": "Lastwall Soup (Greater)",
+    "price": {
+      "gp": 3500
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p>Crimson Reclaimers make this rich, hearty soup using herbs that baffle the senses of the undead. A bowl of Lastwall soup is as nourishing as a full meal. Gravelands Herbalists have spent time with the Knights of Lastwall, and have learned how to improve upon Lastwall soup.</p>\n<p>For 1 hour after consuming a bowl of improved Lastwall soup, you gain a +3 item bonus to Stealth checks and DCs against undead. In addition, you gain 10 temporary hit points that last for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lastwall Soup (Greater)]</p>\n<hr />\n<p><em>Note: Paizo did not provide a price for this item, so we set it as appropriate for a level 18 consumable.</em></p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Lastwall Soup (Improved)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p>Crimson Reclaimers make this rich, hearty soup using herbs that baffle the senses of the undead. A bowl of Lastwall soup is as nourishing as a full meal. Gravelands Herbalists have spent time with the Knights of Lastwall, and have learned how to improve upon Lastwall soup.</p>\n<p>For 1 hour after consuming a bowl of improved Lastwall soup, you gain a +3 item bonus to Stealth checks and DCs against undead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lastwall Soup (Improved)]</p>\n<hr />\n<p><em>Note: Paizo did not provide a price for this item, so we set it as appropriate for a level 10 consumable.</em></p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Lastwall Soup",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p>Crimson Reclaimers make this rich, hearty soup using herbs that baffle the senses of the undead. A bowl of Lastwall soup is as nourishing as a full meal.</p>\n<p>In addition, for 1 hour after consuming a bowl of Lastwall soup, you gain a +2 item bonus to Stealth checks and DCs against undead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lastwall Soup]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Lattice Armor",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p>Fine metal cables woven into latticework patterns form this armor. This armor disperses blows much like rings of chain mail, but is much tighter in construction, making it quieter.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 20,
+    "name": "Laurel of the Empath",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This silvery, woven ring of leaves sits on top of the head. While wearing it, when you roll Perception for initiative, you can roll twice and take the higher result. This is a fortune effect. Whenever you spend at least 1 minute talking with a living creature, you automatically become aware of its attitude toward you. When you invest the laurel, you either increase your Wisdom score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You're hit by an attack</p>\n<hr />\n<p><strong>Effect</strong> You take half damage from the triggering attack.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You fail, but don't critically fail, a saving throw</p>\n<hr />\n<p><strong>Effect</strong> You anticipate the danger and guard against it, often in unconventional or almost inconceivable ways. Treat the failed saving throw as a success.</p>\n<hr />\n<p><strong>Activate</strong>(10 minutes) envision (fortune, mental)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You spend 10 minutes talking with one living creature, conversing in inspirational, religious, or philosophical terms. You gain valuable insights into the personality of your target—their alignment, hopes, dreams, and fears. When the ritual is over, you gain a +4 item bonus to all Perception checks made concerning the target for one month. Also, the target gains inspirational insight, allowing the target to use one of the two reactions listed above once during the next 24 hours.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "fortune",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Lawbringer's Lasso",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This enchanted lasso is a @UUID[Compendium.pf2e.equipment-srd.Item.Net] that can be used to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] creatures up to 30 feet away, requires a @Check[athletics|dc:18|traits:action:force-open] check to @UUID[Compendium.pf2e.actionspf2e.Item.Force Open], and has an @UUID[Compendium.pf2e.actionspf2e.Item.Escape] DC of 18. It's permanently attached to a 30-foot rope. While using the lawbringer's lasso to Grapple, you receive a +1 item bonus to Grapple checks against creatures with the chaotic trait. If you roll a critical failure on your attempt to Grapple a chaotic creature with the lawbringer's lasso, you get a failure instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "lawful",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Leadenleg",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>Once injected, this synthetic toxin sinks into the extremities, numbing them nearly to paralysis.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d10[poison]] damage and -5-foot status penalty to all Speeds (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and -10-foot status penalty to all Speeds (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] damage and -20-foot status penalty to all Speeds (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Leaf Weave",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Specialized crafters, often elves, create leaf weave out of sturdy leaves from ancient or magically enriched trees. Such leaves, when treated properly, have the strength of leather, and other tough plant materials hold the leaves together to form the armor. Such suits are popular among those who wish to avoid materials taken from slain beasts. As a material, leaf weave has the same statistics as thin wood.</p>",
+    "rarity": "common",
+    "traits": [
+      "laminar"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Leaper's Elixir (Greater)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] or @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump] as a single action instead of 2 actions. If you do, you don't perform the initial Stride (nor do you fail if you don't Stride 10 feet).</p>\n<p>The maximum vertical distance you can jump with a High Jump is the same as you can jump horizontally with a Long Jump.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Leaper's Elixir (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] or @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump] as a single action instead of 2 actions. If you do, you don't perform the initial Stride (nor do you fail if you don't Stride 10 feet).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Leash",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Leather Armor",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Leather flagon with Caydenite symbol",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Leather Lamellar",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Leather lamellar is a composite armor made of small rectangular pieces of lacquered leather laced together with high-quality cord. It's typically worn with an undershirt.</p>",
+    "rarity": "common",
+    "traits": [
+      "laminar"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Legerdemain Handkerchief",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This frilled, silvery-gray handkerchief is a stylish tool for personal hygiene by all appearances, but it can be used to covertly make very small items vanish.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> The handkerchief is entirely covering an item of negligible Bulk</p>\n<hr />\n<p><strong>Effect</strong> The handkerchief transports the item it covers into its extradimensional space. The handkerchief can hold only one item within its extradimensional space at a time, so any item taken is replaced by any item already within the space. You can also use this action to expel an item already within the extradimensional space without replacing it. This activation can't be used on an attended item unless the creature with that item allows it. Placing the handkerchief over an item typically takes an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Leiomano",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This thick club is inset with sharp teeth, typically from a shark, that easily tear flesh. It's the preferred weapon of many Minatan warriors.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fatal-d10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Leopard's Armor",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Made of cobalt-colored steel rings that flow down the entire length of the garment, this <em>+1 resilient chain mail</em> includes an armored face covering. The armor is said to be based on the same armor once worn by Azure Leopard, one of Old-Mage Jatembe's magic warriors.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call upon the ferocity and grace of the leopard. The armor's rings flatten out to become a solid piece of flexible armor. You gain a +2 item bonus to Stealth checks and Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize], but take a -2 penalty to Diplomacy and Society checks.</p>\n<p>This lasts for 1 hour, but you can Activate the armor again to revert it back to its original form.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Leopard's Armor]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "flexible",
+      "magical",
+      "noisy"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Lesser Cube of Nex",
+    "price": {},
+    "description": "<p>A Lesser Cube of Nex is an enchanted cube that measures an inch across. The sides of a Lesser Cube of Nex are decorated so that they can be distinguished by touch. Each Lesser Cube of Nex is attuned to a single school of magic. Within 5 feet of the Lesser Cube, all magic from that school is suppressed or impossible to cast, with the effects of a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.Antimagic Field] spell. While there are eight Lesser Cubes of Nex, each of the artifacts is unique, as there's only one Lesser Cube of Nex for each school of magic.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You hold the cube aloft and depress one of its six faces for several seconds. The cube creates six walls around you, creating a cube 10 feet on each side centered on you (typically centered on the top of your space if you're a Medium creature). If a creature or object overlaps any of these walls, that face of the cube doesn't appear; this also means if you're Huge or larger, the activation has no effect, as your space is larger than the cube would be. The effect of the six walls depends on which face of the cube you press when you Activate the cube, as seen on the Cube Effects table (below). Pressing the sixth cube face with a simple Interact action Dismisses the effect; doing so isn't an activation and thus doesn't count against the cube's frequency. The walls have the AC, Hit Points, and Hardness of a @UUID[Compendium.pf2e.spells-srd.Item.Wall of Force].You must first Dismiss any previous activation before you use it again.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Cube Face</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The walls keep out gas and wind, attempting to counteract such effects that cross the threshold with a [[/r 1d20+20 #Counteract]]{+20} counteract modifier but allowing all other things through.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The walls block nonliving matter from crossing; a nonliving creature must succeed at a @Check[will|dc:30] save to cross the threshold, wasting their move action on a failure, and unattended objects can't cross. Non-magical ranged attacks can't cross either and instead attack the wall. A living creature can bring attended objects across the walls without needing to attempt a saving throw.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The walls block living matter from crossing; a living creature must succeed at a @Check[will|dc:30] save to cross the threshold, wasting their move action on a failure.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The walls keep out magical effects that cross the threshold, attempting to counteract magical effects with a [[/r 1d20+20 #Counteract]]{+20} counteract modifier, though they don't prevent a creature with magical items or effects from entering.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>The walls block everything, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Wall of Force].</td>\n</tr>\n<tr>\n<td>6</td>\n<td>The cube is Dismissed (this takes only an Interact action and isn't an activation).</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Lethargy Poison",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>Lethargy poison is commonly used in hit-and-run tactics by attackers who want their victims alive; the ambusher retreats until the poison sets in and the victim falls unconscious. Further exposure to lethargy poison does not require the target to attempt additional saving throws; only failing an saving throw against an ongoing exposure can progress its stage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 minute)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] with no Perception check to wake up (1 round)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] with no Perception check to wake up ([[/br 1d4 #hours]]{1d4 hours}).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "incapacitation",
+      "injury",
+      "poison",
+      "sleep"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Leydroth Spellbreaker",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>The larynx of a leydroth, a dangerous creature whose roar can unravel magic, is integrated into the firing mechanism of this <em>+3 greater striking blunderbuss</em>.</p><hr /><p><strong>Activate—Dispelling Blast</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>leydroth spellbreaker</em> emits a @Template[cone|distance:30] of dispelling energy. Attempt a single counteract check at [[/r 1d20+25 #Counteract]]{+25} against each spell or magical effect in the area, plus one item or effect on each creature in the area, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic].</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the larynx of a leydroth.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "magical",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Liar's Board",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This clockwork game board contains 6 hidden compartments that can be opened by moving the game pieces in specific, preset patterns. Each chamber has a unique combination, and only one chamber can be opened at a time. Once a chamber is opened, a new combination can be set as a 1-minute activity. You can identify a Liar's Board as a clockwork device with a successful @Check[perception|dc:25] check, and you can find an individual hidden compartment with a successful @Check[perception|dc:30] check. The GM rolls a [[/r 1d6 #Discovered Chamber]]{d6} to determine which chamber is discovered, rolling again if the result is one you're already aware of. You can force open a compartment you've identified with a successful @Check[thievery|dc:30] check, but tampering will be obvious unless you critically succeed at the check. If you spend at least 1 hour examining the game board, you can instead attempt to deduce the correct combination to open a compartment with a successful @Check[society|dc:30] or @Check[games-lore|dc:30] check.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 14,
+    "name": "Liar's Demise",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>This thick green cream quickly seeps into victim's skin. In addition to causing painful swelling in the brain, liar's demise compels the victim to speak only the truth. While under the effect of liar's demise, the victim takes the listed poison damage and mental damage for any time they voluntarily and knowingly tell a lie, due to the poison's increased blood pressure to their brain. They take this damage once per round at most, even if they lie several times in rapid succession. The victim is aware of this effect and can choose to not answer or give only evasive, technically truthful, answers—this is a mental effect.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:34]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}, @Damage[3d6[poison]] and @Damage[3d6[mental]] for lying (1 minute)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2}, @Damage[4d6[poison]] and @Damage[4d6[mental]] for lying (1 minute)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 3}, @Damage[5d6[poison]] and @Damage[5d6[mental]] for lying, and the damage becomes a death effect. If it reduces the victim to 0 Hit Points, the victim's head explodes, causing death (1 minute).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of @UUID[Compendium.pf2e.spells-srd.Item.Ring of Truth].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "divine",
+      "poison"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Liar's Gun",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This dubious weapon gets its name from the fact that it's typically crafted with multiple false barrels so that it's more difficult for enemies to predict the weapon's angle of fire from the four working barrels. Most of the time, this gun functions as a <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Pepperbox]</em> with capacity 4 instead of capacity 3, albeit one with a complicated loading mechanism involving rotating the barrels. In a pinch though, all four of the real barrels can be fired simultaneously.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Make up to four Strikes with the <em>liar's gun</em>. Each of the four Strikes must be against a different target within a @Template[cone|distance:20]{20-foot cone}. You apply and increasing your multiple attack penalty for the four Strikes only after resolving all attacks. If the weapon misfires on any of these attacks, wait to apply the misfire until you resolve all of the attacks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "capacity-4",
+      "cobbled",
+      "concussive",
+      "fatal-d8",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Liar's Lexicon",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The covers of this book are bound in scratchy, purple leather—hide harvested from a mind-manipulating wormlike monster known as a seugathi. The margins of this grimoire contain hundreds of tips and notes to avoid having your lies discovered. When you prepare spells from a <em>liar's lexicon</em>, you gain a +2 item bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Lie].</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (spellshape)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast a spell that has the emotion trait, your skill at manipulation and exploiting emotion enhance the spell. The spell gains the linguistic trait. Attempt a Deception check to Lie as you cast the spell against the Perception DC of all those observing you. Those you succeed against think you were merely talking, not casting a spell on a creature.</p>",
+    "rarity": "rare",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Librarian Staff (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>A <em>librarian staff</em> is a slender pole composed of thousands of coiled and compressed book pages swirling into one another, with a mishmash of letters tumbling across its surface. The sound of rustling pages can be heard when the staff moves.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You store one portable text of 1 Bulk or less—typically a book or scroll—in an extradimensional space in the staff. You can also use this activation to retrieve one text stored in the staff. The staff can store up to 50 texts.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Approximate], @UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pocket Library], @UUID[Compendium.pf2e.spells-srd.Item.Quick Sort], @UUID[Compendium.pf2e.spells-srd.Item.Share Lore]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Translate], @UUID[Compendium.pf2e.spells-srd.Item.Timely Tutor]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Translate], @UUID[Compendium.pf2e.spells-srd.Item.Pocket Library], @UUID[Compendium.pf2e.spells-srd.Item.Quick Sort], @UUID[Compendium.pf2e.spells-srd.Item.Share Lore]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Translate]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Quick Sort], @UUID[Compendium.pf2e.spells-srd.Item.Share Lore]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Librarian Staff",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>A <em>librarian staff</em> is a slender pole composed of thousands of coiled and compressed book pages swirling into one another, with a mishmash of letters tumbling across its surface. The sound of rustling pages can be heard when the staff moves.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You store one portable text of 1 Bulk or less—typically a book or scroll—in an extradimensional space in the staff. You can also use this activation to retrieve one text stored in the staff. The staff can store up to 50 texts.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Approximate], @UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pocket Library], @UUID[Compendium.pf2e.spells-srd.Item.Quick Sort], @UUID[Compendium.pf2e.spells-srd.Item.Share Lore]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Translate], @UUID[Compendium.pf2e.spells-srd.Item.Timely Tutor]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Librarian's Baton",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>A crystal pendulum hangs loosely from a delicate cord connecting the tips of this Y-shaped wooden baton. Such batons are often used by librarians who have problems with customers (or thieves) who can't be trusted to return the books they burrow, but they're equally valuable to wizards who are particularly worried about having their spell books stolen.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> You focus your attention on the crystal pendulum, repeatedly passing it over the covers of up to 10 Bulk of books. Doing so causes the librarian's baton to permanently attune itself to those books, while simultaneously removing any attunement it may have had to previous books. If an attuned book is damaged significantly, the librarian's baton loses attunement to it (although it can be reattuned at a later date to the damaged book as long as it retains some of its functionality). The librarian's baton grants a +2 item bonus to perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Search] for attuned books hidden within 60 feet of you.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> When you activate the librarian's baton, concentrate on one of the books to which the baton is attuned. The crystal pendulum moves of its own volition, pointing directly toward the location of the book you were concentrating on as a long as the book is within 25 miles of you. If the book is further away than this, or if the book has been damaged enough that it's no longer attuned, you learn only that the book is out of range or damaged, as appropriate. You can Sustain this activation up to 1 minute, during which time you can sense whether the target book is in motion, is in a creature's possession, or enters the possession of a different creature. However, you can't determine the identities of such creatures</p>",
+    "rarity": "rare",
+    "traits": [
+      "detection",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Library Robes (Greater)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>These <em>+2 resilient scroll robes</em> magically store a spell for you. During your daily preparations, choose one spell you know of 6th level or lower. You inscribe that spell on the robes, as though you had done so using the robes' inscribed trait, but without needing to go through the normal scribing process. You must provide the minimum amount of materials to Craft one scroll of that spell (typically half the Price of a scroll of that level plus any extra cost required for the spell). You don't need to be trained in Crafting, nor do you need the Magical Crafting feat. Using this ability erases any scroll already inscribed on the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "inscribed"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Library Robes (Major)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>These <em>+2 greater resilient scroll robes</em> magically store a spell for you. During your daily preparations, choose one spell you know of 8th level or lower. You inscribe that spell on the robes, as though you had done so using the robes' inscribed trait, but without needing to go through the normal scribing process. You must provide the minimum amount of materials to Craft one scroll of that spell (typically half the Price of a scroll of that level plus any extra cost required for the spell). You don't need to be trained in Crafting, nor do you need the Magical Crafting feat. Using this ability erases any scroll already inscribed on the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "inscribed"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Library Robes (True)",
+    "price": {
+      "gp": 36000
+    },
+    "description": "<p>These <em>+3 greater resilient scroll robes</em> magically store a spell for you. During your daily preparations, choose one spell you know of 9th rank or lower. You inscribe that spell on the robes, as though you had done so using the robes' inscribed trait, but without needing to go through the normal scribing process. You must provide the minimum amount of materials to Craft one scroll of that spell (typically half the Price of a scroll of that level plus any extra cost required for the spell). You don't need to be trained in Crafting, nor do you need the Magical Crafting feat. Using this ability erases any scroll already inscribed on the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "inscribed"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Library Robes",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>These <em>+1 resilient scroll robes</em> magically store a spell for you. During your daily preparations, choose one spell you know of 5th level or lower. You inscribe that spell on the robes, as though you had done so using the robes' inscribed trait, but without needing to go through the normal scribing process. You must provide the minimum amount of materials to Craft one scroll of that spell (typically half the Price of a scroll of that level plus any extra cost required for the spell). You don't need to be trained in Crafting, nor do you need the Magical Crafting feat. Using this ability erases any scroll already inscribed on the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "inscribed"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Lich Soul Cage",
+    "price": {
+      "gp": 1600
+    },
+    "description": "<p>This item is crafted by a spellcaster who wishes to become a lich. When a lich is destroyed, its soul flees to the <em>soul cage</em>. The phylactery then rebuilds the lich's undead body over the course of [[/br 1d10 #days]]{1d10 days}. Afterward, the lich manifests next to the <em>soul cage</em>, fully healed and in a new body (therefore, it lacks any equipment it had on its old body). A lich's <em>soul cage</em> must be destroyed to prevent a lich from returning.</p>\n<p>The standard <em>soul cage</em> is a sealed metal box containing strips of parchment inscribed with magical phrases. This box has Hardness 9 and 36 HP, but some liches devise more durable or difficult-to-obtain <em>soul cages</em>. A <em>soul cage</em> might also come in the form of a ring, an amulet, or a similar item; the specifics are up to the creator.</p>",
+    "rarity": "rare",
+    "traits": [
+      "arcane",
+      "void"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Life-Boosting Oil (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you apply sticky, stinging life-boosting oil, you gain fast healing 10 that starts the first time you take damage while the oil lasts. Once the fast healing starts, the oil remains effective for 4 rounds. However, the oil lasts only 8 hours, whether it provides fast healing or not.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life-Boosting Oil (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Life-Boosting Oil (Lesser)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you apply sticky, stinging life-boosting oil, you gain fast healing 3 that starts the first time you take damage while the oil lasts. Once the fast healing starts, the oil remains effective for 4 rounds. However, the oil lasts only 8 hours, whether it provides fast healing or not.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life-Boosting Oil (Lesser)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Life-Boosting Oil (Major)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you apply sticky, stinging life-boosting oil, you gain fast healing 15 that starts the first time you take damage while the oil lasts. Once the fast healing starts, the oil remains effective for 4 rounds. However, the oil lasts only 8 hours, whether it provides fast healing or not.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life-Boosting Oil (Major)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Life-Boosting Oil (Moderate)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you apply sticky, stinging life-boosting oil, you gain fast healing 6 that starts the first time you take damage while the oil lasts. Once the fast healing starts, the oil remains effective for 4 rounds. However, the oil lasts only 8 hours, whether it provides fast healing or not.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life-Boosting Oil (Moderate)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Life Salt",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<p>This crystal vial contains salts blessed by channeling life-giving energies into waters purified by holy fire. You can activate this vial by throwing it as a Strike. It's a simple thrown ranged weapon with a range increment of 10 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it. On a hit against an undead, <em>life salt</em> deals 1 persistent vitality damage, and the undead must succeed at a @Check[will|dc:20] or be unable to attack you as long as it continues taking the persistent vitality damage. If you use a hostile action against any undead, this second effect ends, and the undead can attack you normally.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "divine",
+      "vitality"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Life-Saver Mail (Greater)",
+    "price": {
+      "gp": 52500
+    },
+    "description": "<p>This suit of <em>+3 greater resilient greater fortification splint mail</em> has a large, green gemstone inset in a prominent location. While wearing the armor, you feel at ease knowing the armor can protect you in even dire circumstances. The gemstone glows with life essence, casting green light as brightly as a torch. You can suppress or resume this light by using a single action, which has the concentrate trait.</p>\n<hr />\n<p><strong>Activate—Second Chance</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would die</p>\n<p><strong>Effect</strong> The armor's gemstone turns gray as it shares life energy with you. The armor casts @UUID[Compendium.pf2e.spells-srd.Item.Breath of Life] on you.</p>\n<hr />\n<p><strong>Activate—Shielding Light</strong> <span class=\"action-glyph\">2</span> (concentration, manipulate)</p>\n<p><strong>Effect</strong> You tap on the gemstone, producing a protective screen of green light. You cast a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Shield] spell. As normal with the spell, you can't cast <em>shield</em> again (using this activation or other means) for 10 minutes if you use it to Shield Block.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Life-Saver Mail",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This suit of <em>+2 resilient fortification splint mail</em> has a large, green gemstone inset in a prominent location. While wearing the armor, you feel at ease knowing the armor can protect you in even dire circumstances. The gemstone glows with life essence, casting green light as brightly as a torch. You can suppress or resume this light by using a single action, which has the concentrate trait.</p>\n<hr />\n<p><strong>Activate—Second Chance</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would die</p>\n<p><strong>Effect</strong> The armor's gemstone turns gray as it shares life energy with you. The armor casts @UUID[Compendium.pf2e.spells-srd.Item.Breath of Life] on you.</p>\n<hr />\n<p><strong>Activate—Shielding Light</strong> <span class=\"action-glyph\">2</span> (concentration, manipulate)</p>\n<p><strong>Effect</strong> You tap on the gemstone, producing a protective screen of green light. You cast a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Shield] spell. As normal with the spell, you can't cast <em>shield</em> again (using this activation or other means) for 10 minutes if you use it to Shield Block.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Life Shot (Greater)",
+    "price": {
+      "gp": 750
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[(7d4+10)[healing]] healing and gaining a +2 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Life Shot (Lesser)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[(3d4+3)[healing]] healing and gaining a +1 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Life Shot (Major)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[(8d4+11)[healing]] healing and gaining a +3 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Life Shot (Minor)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[1d4[healing]] healing and gaining a +1 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Life Shot (Moderate)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[(5d4+7)[healing]] healing and gaining a +2 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Life Shot (True)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[(10d4+14)[healing]] healing and gaining a +4 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Life Shot]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Life‑size sculpture by an expert",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 15,
+    "name": "Lifeblight Residue",
+    "price": {
+      "gp": 1100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This black slime is carefully culled from coffins and sarcophagi used by the undead, and is then distilled and combined with necromantic energy, creating a dangerous sludge that leeches life force as aggressively as it rots flesh.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:35]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[5d6[void]] damage and @Damage[3d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[6d6[void]] damage and @Damage[4d6[poison]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[7d6[void]] damage and @Damage[5d6[poison]] damage (1 round)</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Harm].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine",
+      "injury",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Life's Last Breath",
+    "price": {
+      "gp": 23500
+    },
+    "description": "<p>The twin serrated blades of this legendary rhoka sword are dull black and constantly drip with blood. <em>Life's Last Breath</em> is said to have been forged centuries ago for an unknown urdefhan general and has since fallen into the hands of countless other powerful urdefhan warlords.</p>\n<p><em>Life's Last Breath</em> is a <em>+3 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Unholy] @UUID[Compendium.pf2e.equipment-srd.Item.Wounding] rhoka sword</em> with the following special abilities.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You successfully Strike a creature with <em>Life's Last Breath</em></p>\n<hr />\n<p><strong>Effect</strong> You cast a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Paralyze] spell on the target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You successfully Strike a creature with <em>Life's Last Breath</em></p>\n<hr />\n<p><strong>Effect</strong> The target must succeed at a @Check[fortitude|dc:38] or take @Damage[4d6[void]] damage; you gain an equal amount of temporary Hit Points that last 1 minute.</p>",
+    "rarity": "unique",
+    "traits": [
+      "deadly-d8",
+      "evil",
+      "holy",
+      "magical",
+      "two-hand-d10"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Lifting Belt",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>This wide leather belt grants you a +1 item bonus to Athletics checks and increases the amount you can easily carry. You can carry Bulk equal to 6 + your Strength modifier before becoming encumbered, and you can hold and carry a total Bulk up to 11 + your Strength modifier.</p>\n<hr />\n<p><strong>Activate—Assisted Lift</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You lift an object of up to 8 Bulk as though it were weightless. This requires two hands, and if the object is locked or otherwise held in place, you can attempt to Force it Open using Athletics as part of this activation. The object still has its full weight and Bulk for all other purposes-you just ignore that weight. The effect lasts until the end of your next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Light Barding",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [
+      "barding",
+      "companion"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Light Hammer",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>This smaller version of the warhammer has a wooden or metal shaft ending in a metal head. Unlike its heavier cousin, it is light enough to throw.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Light Mace",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>A light mace has a short wooden or metal shaft ending with a dense metal head. Used much like a club, it delivers heavy bludgeoning blows, but with extra power derived from the head's metal ridges or spikes.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "shove"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Light Pick",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>A light pick is a modified mining implement with a wooden shaft ending in a pick head crafted more to pierce armor and flesh than chip rocks.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Light Writer Plates",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Plates for a Light Writer</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "light"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Light Writer",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>The light writer is a cutting edge invention, first created in Absalom in late 4721, combining magic and clockwork innovation to allow its operator to create a true-to-life, monochromatic portrait of people or a scene over the course of 20 minutes of exposure. It consists of two flat metal squares, one larger than the other, connected by a tube of leather similar to that found on a bellows. The smaller square, which sits at the front of the device, has a small glass lens in the center of it. The larger square contains a specially treated metallic plate on the inside; its exterior also has both a small control stick connected via flexible wire, and a small metal tube attached to the top and pointing forward. The user presses a button on the control stick to activate the light writer. Upon activation, magical light illuminates the tube, producing a steady light for 20 minutes. This light is captured by the lens and projected onto the metal plate, slowly creating an image of the scene in front of the lens. The plate can then be removed, allowing the image to be displayed anywhere the owner desires. The light writer is mounted on a tripod and must be perfectly still during operation to prevent any defects from appearing in the plate image. If creating a captured image of a living creature, it is equally important for that creature to remain still throughout the process, to avoid a ghostlike blurring of the final image</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "light"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Lightning Rod Shot",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Made from a shaft of silver with a gleaming copper tip, the lightning rod shot crackles with electricity as it flies through the air. When a lightning rod shot strikes a target, it remains intact. It moves with a creature it struck, unless the GM determines otherwise, until that creature regains any Hit Points. If it doesn't stick to the target, it falls to the ground and becomes inactive. If the target of this shot is within 10 feet of any creature or target that takes electricity damage, the target of this shot takes @Damage[1[electricity]] for each die of damage taken by the nearby creature or target. If the target of this shot takes electricity damage from a spell or attack, it also takes 1 additional electricity damage for each die of damage dealt. If the spell or attack allows a saving throw to reduce the damage, the target of this shot takes a –1 circumstance penalty to the save. This shot remains active for 1 minute, after which it falls to the ground and crumbles to dust.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Lightweave Scarf (Greater)",
+    "price": {
+      "gp": 5500
+    },
+    "description": "<p>The first of these strips of glittering cloth was worn by a monk from Jinin who would interweave it into his <em>handwraps of mighty blows</em>. The spell DC of any spell cast by activating this item is 34.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to saving throws against illusions and Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Create a Diversion].</li>\n<li><strong>Weapon</strong>(visual) After you cast an illusion spell by activating the scarf, the weapon is shrouded in a mesmerizing illusory pattern. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 round if it hits. If you don't make a Strike by the end of your next turn, the illusion ends with no effect.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lightweave Scarf (Armor)]</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Hypnotize].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Vibrant Pattern].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "visual"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Lightweave Scarf (Major)",
+    "price": {
+      "gp": 22000
+    },
+    "description": "<p>The first of these strips of glittering cloth was worn by a monk from Jinin who would interweave it into his <em>handwraps of mighty blows</em>. The spell DC of any spell cast by activating this item is 38.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +3 item bonus to saving throws against illusions and Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Create a Diversion].</li>\n<li><strong>Weapon</strong>(visual) After you cast an illusion spell by activating the scarf, the weapon is shrouded in a mesmerizing illusory pattern. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 minute if it hits. If you don't make a Strike by the end of your next turn, the illusion ends with no effect.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lightweave Scarf (Armor)(Major)]</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Vibrant Pattern].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Confusing Colors]{Scintillating Pattern}.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "visual"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Lightweave Scarf",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>The first of these strips of glittering cloth was worn by a monk from Jinin who would interweave it into his <em>handwraps of mighty blows</em>. The spell DC of any spell cast by activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to saving throws against illusions and Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Create a Diversion].</li>\n<li><strong>Weapon</strong>(visual) After you cast an illusion spell by activating the scarf, the weapon is shrouded in a mesmerizing illusory pattern. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 round if it hits. If you don't make a Strike by the end of your next turn, the illusion ends with no effect.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lightweave Scarf (Armor)]</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Hypnotize].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "visual"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Limestone Shield",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>This tower shield is a slab of limestone, shaved to a portable size and weight. The shield has Hardness 7 and 28 Hit Points.</p>\n<p><strong>Activate—Limestone Wall</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You set the shield down as it expands up to 60 feet wide and 10 feet tall. Each square of the wall has AC 10, Hardness 7, and 28 Hit Points, and it's immune to critical hits and precision damage. If a section is destroyed, this effect ends, and your limestone shield is broken. You can Dismiss this activation, which otherwise lasts for 1 minute.</p>\n<p><strong>Activate—Block Elements</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're targeted by an effect with the air, fire, or water trait</p>\n<hr />\n<p><strong>Effect</strong> The shield expands to block the triggering effect, granting you standard cover from that effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Linguist's Dictionary (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>Bound in sturdy leather, this thick book has several colorful bookmarks and page dividers. Its title and text shift between numerous languages.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your last action was to cast a spell prepared from this grimoire that allows understanding of another language, such as @UUID[Compendium.pf2e.spells-srd.Item.Translate] or @UUID[Compendium.pf2e.spells-srd.Item.Truespeech]</p>\n<hr />\n<p><strong>Effect</strong> The grimoire absorbs knowledge of one language translated this way (caster's choice if more than one), allowing its bearer to communicate on a rudimentary level in that language even after the spell's duration has elapsed. The <em>greater linguist's dictionary</em> can hold three languages at a time.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  }
+]

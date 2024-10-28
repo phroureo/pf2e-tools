@@ -24,7 +24,7 @@ interface TotalPrice {
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState(1);
     const [equipmentData, setEquipmentData] = useState<ManifestItem[]>([]);
-    const [selectedItems, setSelectedItems] = useState<EquipmentItem[]>([]);
+    const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
 
     useEffect(() => {
@@ -33,15 +33,15 @@ const Main: React.FC = () => {
             .catch((error) => console.error('Error fetching equipment data:', error));
     }, []);
 
-    const handleAddItem = (item: EquipmentItem) => {
+    const handleAddItem = (item: ManifestItem) => {
         setSelectedItems((prevItems) => [...prevItems, item]);
 
         // Update the raw total price with safe access
         setTotalPrice((prevTotal) => ({
-            cp: prevTotal.cp + (item.system?.price?.value?.cp ?? 0),
-            sp: prevTotal.sp + (item.system?.price?.value?.sp ?? 0),
-            gp: prevTotal.gp + (item.system?.price?.value?.gp ?? 0),
-            pp: prevTotal.pp + (item.system?.price?.value?.pp ?? 0),
+            cp: prevTotal.cp + (item.price?.value?.cp ?? 0),
+            sp: prevTotal.sp + (item.price?.value?.sp ?? 0),
+            gp: prevTotal.gp + (item.price?.value?.gp ?? 0),
+            pp: prevTotal.pp + (item.price?.value?.pp ?? 0),
         }));
     };
 
@@ -51,10 +51,10 @@ const Main: React.FC = () => {
 
         // Subtract from the raw total price with safe access
         setTotalPrice((prevTotal) => ({
-            cp: prevTotal.cp - (removedItem.system?.price?.value?.cp ?? 0),
-            sp: prevTotal.sp - (removedItem.system?.price?.value?.sp ?? 0),
-            gp: prevTotal.gp - (removedItem.system?.price?.value?.gp ?? 0),
-            pp: prevTotal.pp - (removedItem.system?.price?.value?.pp ?? 0),
+            cp: prevTotal.cp - (removedItem.price?.value?.cp ?? 0),
+            sp: prevTotal.sp - (removedItem.price?.value?.sp ?? 0),
+            gp: prevTotal.gp - (removedItem.price?.value?.gp ?? 0),
+            pp: prevTotal.pp - (removedItem.price?.value?.pp ?? 0),
         }));
     };
 

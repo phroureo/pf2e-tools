@@ -1,0 +1,1356 @@
+[
+  {
+    "level": 1,
+    "name": "Alchemical Fuse",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>An alchemical fuse is a length of treated cord that can be used to time the detonation of an alchemical bomb or a stick of pyronite, or simply as a timer—at the GM's option, fuses can be used as timers to trigger other devices that can be triggered with a single appropriate action, as well.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You attach the alchemical fuse to an alchemical bomb, stick of pyronite, or other device that can be triggered by a fuse. Alternately, you can attach one fuse to another to extend its burn time by 1 round.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You light the alchemical fuse with an adjacent fire source or a fire source that you hold in a hand. If you have a tindertwig in your other hand, you can activate the tindertwig and use it to light a fuse with the same Interact action. A lit fuse takes 1 round per attached fuse to burn down. During the round that the fuse runs out, the device to which the fuse has been attached explodes or otherwise activates at the end of your turn. For a bomb, this deals splash damage, and for pyronite, it deals pyronite's normal damage. An alchemical fuse burns underwater or in up to moderate wind.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You extinguish the fuse.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Alchemical Gauntlet",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>An alchemical gauntlet emits small alchemical detonations when it makes contact with a foe. As an Interact action, you can place a bomb into a metal bracket near the wrist of the gauntlet. The bomb must be one that deals energy damage, such as an acid flask, alchemist's fire, bottled lightning, frost vial, or thunderstone. The next three attacks made with the gauntlet deal 1d4 damage of the bomb's damage type in addition to the gauntlet's normal damage. If the second and third attacks aren't all made within 1 minute of the first attack, the bomb's energy is wasted. These attacks never deal splash damage or other special effects of the bomb and aren't modified by any abilities that add to or modify a bomb's effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "alchemical",
+      "free-hand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Alchemist Goggles (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +2 item bonus to Crafting checks to @UUID[Compendium.pf2e.actionspf2e.Item.Craft] alchemical items. When making Strikes with alchemical bombs, you ignore lesser cover.</p>\n<p>If your Strike with an alchemical bomb fails (but doesn't critically fail), you gain a +2 item bonus to the splash damage the target of the Strike takes.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Alchemist Goggles (Major)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +3 item bonus to Crafting checks to @UUID[Compendium.pf2e.actionspf2e.Item.Craft] alchemical items. When making Strikes with alchemical bombs, you ignore lesser cover.</p>\n<p>If your Strike with an alchemical bomb fails (but doesn't critically fail), you gain a +3 item bonus to the splash damage the target of the Strike takes.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Alchemist Goggles",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +1 item bonus to Crafting checks to @UUID[Compendium.pf2e.actionspf2e.Item.Craft] alchemical items. When making Strikes with alchemical bombs, you ignore lesser cover.</p>\n<p>If your Strike with an alchemical bomb fails (but doesn't critically fail), you gain a +1 item bonus to the splash damage the target of the Strike takes.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Alchemist's Damper",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attack with the affixed firearm</p>\n<p><strong>Requirements</strong> You're an expert with the affixed firearm.</p>\n<hr />\n<p>A glass tube of mercury is contained within this golden clasp that's fitted in front of a firearm's trigger. On the triggering Strike, the mercury turns briefly to gold, reducing the effect of recoil, allowing you to ignore the circumstance penalty of the attached weapon's kickback weapon trait.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Alchemist's Fire (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 3d8 fire damage, 3 persistent fire damage, and 3 fire splash damage. You gain a +2 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Alchemist's Fire (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 1d8 fire damage, 1 persistent fire damage, and 1 fire splash damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Alchemist's Fire (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 4d8 fire damage, 4 persistent fire damage, and 4 fire splash damage. You gain a +3 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Alchemist's Fire (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 2d8 fire damage, 2 persistent fire damage, and 2 fire splash damage. You gain a +1 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Alchemist's Flamethrower",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>This long cylinder is topped by a pair of brass sockets and a collection of polished pipes and tubes. A total of two vials of alchemist's fire must be loaded into the sockets at the base of the weapon and the tubes cleaned and primed. Properly loading the flamethrower in this way takes 1 minute. When the trigger on a loaded flamethrower is pulled, the alchemist's fire is siphoned into the rifle and shot out of the muzzle in a line of fire. The damage dealt by a flamethrower is determined by the strength of the weakest alchemist's fire loaded into the flamethrower.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (fire)</p>\n<p><strong>Requirements</strong> The flamethrower is loaded</p>\n<p><strong>Effect</strong> You pull the trigger, expending both loaded alchemist's fires to shoot a line of fire. Creatures in the area take fire damage based on the weakest alchemist's fire loaded into the flamethrower, as noted below. Creatures that critically fail the basic Reflex save additionally take the listed persistent fire damage.</p>\n<ul>\n<li><strong>Lesser Alchemist's Fire</strong>: The flamethrower deals @Damage[1d8[fire]] (@Check[reflex|dc:15|basic]) in a @Template[line|distance:30]. @Damage[1[persistent,fire]] damage.</li>\n<li><strong>Moderate Alchemist's Fire</strong>: The flamethrower deals @Damage[2d8[fire]] (@Check[reflex|dc:17|basic]) in a @Template[line|distance:60]. @Damage[2[persistent,fire]] damage.</li>\n<li><strong>Greater Alchemist's Fire</strong>: The flamethrower deals @Damage[6d8[fire]] (@Check[reflex|dc:28|basic]) in a @Template[line|distance:90]. @Damage[3[persistent,fire]] damage.</li>\n<li><strong>Major Alchemist's Fire</strong>: The flamethrower deals @Damage[10d8[fire]] (@Check[reflex|dc:37|basic]) in a @Template[line|distance:120]. @Damage[4[persistent,fire]] damage.</li>\n</ul>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "fire"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Alchemist's Haversack",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>An <em>alchemist's haversack</em> is a sturdy leather backpack with two compartments. The main section contains an extradimensional space equivalent to a @UUID[Compendium.pf2e.equipment-srd.Item.Spacious Pouch (Type II)]{Bag of Holding (Type II)}, perfect for carrying bulkier alchemist equipment. A secondary partition can hold 2 Bulk of items, 1 of which doesn't count against your Bulk limit. This second compartment can also be activated (see below). Two shoulder straps and a thick belt for the waist hold the haversack on the wearer securely. These straps have pouches and loops for keeping alchemical items handy. They also contain magically expanded alchemist's tools that grant you a +2 item bonus to Crafting checks to create alchemical items. Water and undesirable material can't seep into the haversack, which cleans itself once per hour. When you reach in any part of the haversack, the item you sought is the first one you find. Also, the haversack preserves mundane ingredients, food, and drink inside, so they stay fresh indefinitely. This feature doesn't prolong the duration of magic or alchemical items.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You gain batches of infused reagents during your daily preparations</p>\n<p><strong>Effect</strong> You pull one additional batch of infused reagents from the satchel's secondary compartment. If you fail to use these reagents by the end of your next turn, they're lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are an alchemist.</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Alchemist's Lab (Expanded)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>You need an alchemist's lab to Craft alchemical items during downtime.</p>\n<p>An expanded alchemist's lab gives a +1 item bonus to Crafting checks to create alchemical items.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Alchemist's Lab",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>You need an alchemist's lab to Craft alchemical items during downtime.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Alchemist's Toolkit",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This mobile collection of vials and chemicals can be used for simple alchemical tasks. If you wear your alchemist's toolkit, you can draw and replace it as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Alcohol",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>Alcohol is a common substance available in stunning variety. The Price of a dose of alcohol depends on the specific beverage. You can't recover from the sickened condition from alcohol while affected.</p>\n<p>If you fail a saving throw against alcohol other than initial saves, the affliction's stage doesn't increase; the only way to increase the stage of alcohol's affliction is to consume more alcohol.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:12]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Stage 1</strong> +1 item bonus to saving throws against fear (10 minutes)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard], +1 item bonus to saving throws against fear effects (10 minutes)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, off-guard, @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (10 minutes)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (10 minutes)</p>\n<p><strong>Stage 5</strong> clumsy 2, sickened 2, and stupefied 2 (10 minutes)</p>\n<p><strong>Stage 6</strong> @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] (8 hours)</p>\n<p><strong>Stage 7</strong> death</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Aldori Dueling Sword",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>An Aldori dueling sword is a slim, single-bladed dueling sword with a slight curve and a sharp, reinforced point.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Alghollthu Lash",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>This fleshy <em>+1 striking whip</em> is obviously crafted from the tentacle of some fearsome beast, likely an alghollthu, and constantly drips slime.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The next creature you successfully Strike with this weapon is exposed to alghollthu slime.</p>\n<p><strong>Alghollthu Slime</strong> (curse, occult)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:25|traits:curse,occult]</p>\n<p><strong>Stage 1</strong> no ill effect (1 round)</p>\n<p><strong>Stage 2</strong> the victim's skin softens, making the creature @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 round)</p>\n<p><strong>Stage 3</strong> the victim's skin transforms into a clear, slimy membrane, making it @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} until the curse ends; every hour this membrane remains dry, the creature's drained condition increases by 1 (permanent). A remove disease spell can counteract this curse, but immunity to disease offers no protection against it.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include a tentacle from an alghollthu.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "finesse",
+      "nonlethal",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Alicorn Hair",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>Hair shed from an alicorn's mane glows when it comes into contact with a living creature. A @UUID[Compendium.pf2e.spells-srd.Item.Stabilize] spell empowered with an <em>alicorn hair</em> allows you to target 1 additional creature.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Alicorn Lance",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This white <em>+1 striking lance</em> is made from the horn of a unicorn, willingly granted at the end of its lifetime. In addition to its normal damage, it deals 1 spirit damage on successful attacks. You can make the lance glow like a torch or suppress its light by using an action, which has the concentrate trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (magical, necromancy)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You evoke the spirit of the unicorn that donated the <em>alicorn lance</em>'s horn, which you ride in a shining charge. Move up to twice your Speed and make a Strike with the <em>alicorn lance</em>; you gain the effects of the lance's jousting trait on this Strike. If you were already mounted when you Activate the horn, the unicorn spirit takes shape around your steed, granting it a +10–foot status bonus to its Speed for the charge.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include a horn willingly gifted by a unicorn. In rare instances, an <em>alicorn lance</em> can be made with a forcibly taken horn. However this heinous act pollutes the horn's magic, causing it to glow with a sickly red light, deal spirit damage instead of spirit damage, and make the unicorn spirit evoked in the charge to whinny visibly in pain.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "jousting-d6",
+      "reach"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Alicorn Trigger",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This <em>+2 greater striking jezail</em> features a preserved alicorn horn mounted underneath the barrel. Such a horn is usually willingly granted by the creature at the end of its natural lifespan, but some wicked gunsmiths acquire the horn through violence.</p><hr /><p><strong>Activate—Glimmer Beam</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>alicorn trigger</em> unleashes a beam of radiant light in a @Template[line|distance:60]. Creatures in the area of effect take @Damage[6d6[fire]|options:area-damage] damage and must attempt a @Check[fortitude|dc:33|options:area-effect,damaging-effect] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] 1.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include a horn from an alicorn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "fatal-aim-d12",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Alkenstar Ice Wine",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This bottle of delicately sweet ice wine has the properties of alcohol. Made exclusively from grapes frozen in the Mana Wastes' erratic surge storms, Alkenstar ice wine finds a ready market among Geb, though undead are still immune to the drug's listed effects.</p>\n<p>The listed price is for a mediocre vintage, but finer vintages are higher level and commensurately more expensive.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison",
+      "vitality"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Alloy Orb (Exquisite High-Grade)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>Although solid, this orb of metal swirls with bright silver and dark iron colors, as if made of liquid. When you activate the <em>alloy orb</em>, select adamantine, cold iron, or dawnsilver. The affixed weapon functions as the chosen material for 1 minute, suppressing its original material. This orb works on weapons of any level.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Alloy Orb (Exquisite High-Grade)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Alloy Orb (Exquisite Standard-Grade)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>Although solid, this orb of metal swirls with bright silver and dark iron colors, as if made of liquid. When you activate the <em>alloy orb</em>, select adamantine, cold iron, or dawnsilver. The affixed weapon functions as the chosen material for 1 minute, suppressing its original material. This orb works on weapons of 15th level or lower.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Alloy Orb (Exquisite Standard-Grade)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Alloy Orb (High-Grade)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>Although solid, this orb of metal swirls with bright silver and dark iron colors, as if made of liquid. When you activate the <em>alloy orb</em>, select cold iron or silver. The affixed weapon functions as the chosen material for 1 minute, suppressing its original material. This orb works on weapons of any level.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Alloy Orb (High-Grade)]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Alloy Orb (Low-Grade)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>Although solid, this orb of metal swirls with bright silver and dark iron colors, as if made of liquid. When you activate the <em>alloy orb</em>, select cold iron or silver. The affixed weapon functions as the chosen material for 1 minute, suppressing its original material. This orb only works on weapons of 8th level or lower.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Alloy Orb (Low-Grade)]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Alloy Orb (Standard-Grade)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>Although solid, this orb of metal swirls with bright silver and dark iron colors, as if made of liquid. When you activate the <em>alloy orb</em>, select cold iron or silver. The affixed weapon functions as the chosen material for 1 minute, suppressing its original material. This orb works on weapons of 15th level or lower.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Alloy Orb (Standard-Grade)]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Alluring Lantern",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>An antenna with a bioluminescent lure protrudes from your head, drawing enemies' attention. When not activated, the antenna lays flat and blends in with your hair or skin.</p><hr /><p><strong>Activate—Raise Lure</strong> <span class=\"action-glyph\">1</span> (manipulate, mental, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Until the beginning of your next turn, the lure raises above your head and lights up with multicolored flashes that draws creatures closer. Any creature that begins its turn within @Template[emanation|distance:20]{20 feet} of you must succeed at a @Check[will|dc:23|traits:mental,visual] save or become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the lure and must spend at least one of its actions to move toward you. The fascination ends at the end of the creature's turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Alluring Scarf (Greater)",
+    "price": {
+      "gp": 1650
+    },
+    "description": "<p>This thin, multicolored scarf shifts between hues in almost dizzying patterns.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, enchantment, mental, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You Stride. All creatures within 20 feet of you when you started the Stride must attempt a @Check[will|dc:29|traits:emotion,mental,visual] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Alluring Scarf (Major)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p>This thin, multicolored scarf shifts between hues in almost dizzying patterns.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, enchantment, mental, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You Stride. All creatures within 30 feet of you when you started the Stride must attempt a @Check[will|dc:35|traits:emotion,mental,visual] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Alluring Scarf",
+    "price": {
+      "gp": 415
+    },
+    "description": "<p>This thin, multicolored scarf shifts between hues in almost dizzying patterns.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, enchantment, mental, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You Stride. All creatures within 10 feet of you when you started the Stride must attempt a @Check[will|dc:24|traits:emotion,mental,visual] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Aluum Charm",
+    "price": {},
+    "description": "<p>This ornate pendant of brass is adorned with a vibrant blue gemstone. An <em>aluum charm</em> grants control over a particular aluum and lesser influence over other such constructs. As long as you wear an aluum's linked <em>aluum charm</em>, that aluum follows your verbal commands, including somewhat nuanced orders like \"subdue this target\" or \"strike anyone wearing a blue robe.\"</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The charm grants you control over an aluum you can see within 60 feet, with a level equal to or lower than the charm. This has the effect of @UUID[Compendium.pf2e.spells-srd.Item.Dominate] and allows a @Check[will|dc:28] save. If the aluum is currently under the control of someone wearing its linked charm, it gets a result on its saving throw one degree higher than what it rolled.</p>\n<p>You can control only one aluum at a time using this activation, and controlling a new aluum ends the effect for one you had previously affected.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Amaranthine Pavise",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This tower shield was developed by followers of Ketephys, the elven god of the hunt. It's distinct for having a central ridge, and for being made from only wood and hide. AC increases to +4 if you are using the @UUID[Compendium.pf2e.actionspf2e.Item.Take Cover] action.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>9</td>\n<td>54</td>\n<td>27</td>\n</tr>\n</tbody>\n</table>\n<p>Ketephys's religious symbol, a hawk rising over a silver crescent, is painted on the hide stretched across the front of the shield. Each amaranthine pavise is blessed by Ketephysian priests to aid in liberating Tanglebriar and defeating the nascent demon lord Treerazer. While you have the shield raised, you gain a +2 circumstance bonus to saving throws against the innate spells and special abilities of demons. When your allies have cover from the amaranthine pavise, the circumstance bonus they gain from cover to Reflex saves against area effects also applies to Fortitude and Will saves against demons' area effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Ketephys's wrath descends upon your foes. The shield casts good @UUID[Compendium.pf2e.spells-srd.Item.Divine Wrath] with a DC of 27.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Amazing Pop-up Book",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>Goblin wizards invented the <em>amazing pop-up book</em> to store their spells without written words, though the tradition has been spreading to illusionists from other cultures. These grimoires have colorful covers and open to reveal three-dimensional scenes illustrating various spells. Goblins delight in constructing the books just right so a terrifying creature, like a horse or dog, pops up toward the reader each time a page is turned.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast an illusion spell prepared from this grimoire that creates illusory terrain or creatures, such as @UUID[Compendium.pf2e.spells-srd.Item.Mirage], you draw forth the pop-up scene. If a creature succeeds, but doesn't critically succeed, at a saving throw to disbelieve the illusion, then just as their mind recognizes the illusion, a startling—though obviously false—illusion pops up somewhere unexpected in their field of vision, visible to only them, dealing mental damage equal to the spell's rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "grimoire",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Amber",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 19,
+    "name": "Ambrosia of Undying Hope",
+    "price": {
+      "gp": 6200
+    },
+    "description": "<p>This elixir is usually stored in a small metal flask or miniature stein. The dark liquid sparkles as if it were full of stars and is considered sacred to @UUID[Compendium.pf2e.deities.Item.Cayden Cailean] and to the cults of the Failed in Absalom.</p>\n<p>The next time you would die from damage within 8 hours after you drink the ambrosia, it prevents you from dying, you regain @Damage[20[healing]]{20 Hit Points}, the elixir's benefits end, and you become temporarily immune to the ambrosia of undying hope for 24 hours.</p>\n<p>The ambrosia can't protect you from death effects or disintegration, but it can protect against almost any other form of death via damage. You can only be under the effect of a single ambrosia of undying hope at a time.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Amethyst",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Amnemonic Charm",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You fail or critically fail a Deception, Diplomacy, or Intimidation check to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce], @UUID[Compendium.pf2e.actionspf2e.Item.Lie], @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression], or @UUID[Compendium.pf2e.actionspf2e.Item.Request]</p>\n<p><strong>Requirements</strong> You're a master in the skill you failed with.</p>\n<hr />\n<p>This ornate locket, usually containing a faceless, humanoid portrait, is typically worn on a chain around the neck or attached to your clothing. When activated, the charm casts a @UUID[Compendium.pf2e.spells-srd.Item.Rewrite Memory] spell (@Check[will|dc:26|traits:mental,spell]) against a single target of the check, removing all memory of your failed attempt and potentially allowing you to make another attempt. The effect can't remove more than 3 minutes of memories from its target.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Amphibious Chair",
+    "price": {
+      "gp": 575
+    },
+    "description": "<p>This magical upgrade allows the wheelchair to shift its functionality between land and aquatic environments without a hitch, propelling through the water or on land with equal ease. Your chair has a base land Speed of 20 feet if that's faster than your land Speed (for example, if you are an aquatic creature with no land Speed or a very slow land Speed), and your chair has a base swim Speed of 20 feet if that's faster than any swim Speed you have. Additionally, while riding in the chair, you can magically breathe underwater if you normally breathe air, or breathe air if you can normally only breathe underwater.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Amphisbaena Handwraps",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>Your hands fit through the venomous mouths of this pair of handwraps made from amphisbaena skin. Your unarmed strikes gain the versatile P trait. <em>Amphisbaena handwraps</em> can have weapon runes etched onto them, similar to @UUID[Compendium.pf2e.equipment-srd.Item.Handwraps of Mighty Blows].</p><hr /><p><strong>Activate—Twin Venom Strike</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> Make two unarmed Strikes. Both Strikes count toward your multiple attack penalty, but the penalty doesn't increase until after both attacks. Each Strike deals an additional 1d6 poison damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the skin and heads of an amphisbaena.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Amphisbaena Spittle",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p><hr /><p>Hardened clumps of <em>amphisbaena spittle</em> can be harvested from the dual-headed snake's hunting grounds. When a casting of @UUID[Compendium.pf2e.spells-srd.Item.Web of Eyes] is empowered with this catalyst, you can place an additional scrying sensor on the back of each target's head, in the shape of a closed snake's eye. When a target shares their vision with the others affected by the spell, the eye blinks open, preventing the target from being flanked until the start of its next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Amphisbaena Spittle]</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Amphora with lavish scenes",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Amulet of the Hellcat",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>This glass amulet is set on a steel backing shaped like a cage and flickers with an eerie crimson glow. Magically sealed within is a portion of a hellcat's ever-burning heart. While wearing the amulet, you gain a +1 item bonus to Stealth checks made while in bright light, and you can cast the @UUID[Compendium.pf2e.spells-srd.Item.Light] cantrip emanating from the amulet as an innate divine spell.</p><hr /><p><strong>Activate—Invisible Pounce</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You are in bright light</p>\n<p><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], Stride up to your speed, and then make a melee Strike at the end of that movement. After making the Strike, you are no longer invisible. If at any point during your Stride, you pass out of bright light, you are no longer invisible and must stop moving. You may make a melee Strike if you have a target within reach.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the heart of a hellcat.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Amulet of the Third Eye",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This large brass medallion hangs low on the torso. It's shaped in the form of an unblinking eye, with a ring of turquoise as the iris and an orb of jet serving as the pupil. The amulet grants you a +2 item bonus to Perception checks. When you invest the amulet, you either increase your Wisdom score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Truesight].</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Anathema Fulu",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Duration</strong> 1 hour</p>\n<p>First used by aasimars of Tianjing to weaken qlippoth, an anathema fulu comes in four pieces, one placed in each cardinal direction. Choose one of the following traits when activating the fulus: celestial, elemental, fey, fiend, monitor, or undead. If a creature with that trait starts its turn in the area, it must succeed at a @Check[fortitude|dc:30] saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} until the start of its next turn. On a critical success, the creature becomes temporarily immune to any anathema fulus for 1 hour. Regardless of the save result, if you subsequently cast banishment on such a creature in the area, the creature takes the –2 penalty described in that spell for using a material component that's anathema to that creature. The fulu acts as that component; you don't need to add it. If a creature affected by this penalty rolls a saving throw against banishment, the caster can use a free action to force the result one step lower. Doing so burns the whole fulu out, ending the effect. If any of the fulu's pieces are moved or destroyed after activation, the effect ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Ancestral Echoing",
+    "price": {
+      "gp": 9500
+    },
+    "description": "<p>The wisdom of this weapon's past owners flows into your mind, amplifying your own abilities with the weapon. Your proficiency rank with this weapon is one step higher than normal, to a maximum of the highest proficiency rank you have in any weapon. For instance, if you had master proficieny with martial weapons and expert proficiency with advanced weapons, you would have master proficiency with advanced weapon that had this rune.</p>\n<p>In addition, while wielding the ancestral echoing weapon, you have expert proficiency in one Lore skill relevant to one or more of the weapon's previous owners. This is typically Dwarven Lore but is ultimately determined by the GM depending on the weapon's history.</p>",
+    "rarity": "rare",
+    "traits": [
+      "dwarf",
+      "magical",
+      "saggorak"
+    ]
+  },
+  {
+    "level": 26,
+    "name": "Ancestral Embrace",
+    "price": {},
+    "description": "<p>This brightly colored <em>+4 major resilient leather armor</em> is inscribed with a spiral that has no end or beginning. Though it is a symbol of the ancient religion of Holy Xatramba, it also serves as a religious symbol of Pharasma. When you invest the armor, you gain void resistance 25 and can draw on the power of your ancestors. You gain an ancestry feat from your ancestry; the feat can be any level, but you must meet any other prerequisites of the feat. You lose the feat when the investment ends, and you can select a different feat each time you invest the armor again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You use an ancestry feat that has a limited number of uses per day</p>\n<hr />\n<p><strong>Effect</strong> You gain an additional use of the ancestry feat. If you do not use it before the next time you make your daily preparations, the use is lost.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You begin casting a legend lore ritual to learn legends about your ancestry or about someone of your ancestry</p>\n<hr />\n<p><strong>Effect</strong> <em>Ancestral Embrace</em> reduces the casting time of this ritual to 1 hour, and you don't need secondary casters for this ritual.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The armor casts @UUID[Compendium.pf2e.spells-srd.Item.Avatar], granting these specific additional abilities instead of those associated with a deity: Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain</p>\n<ul>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> spear (reach 15 feet, thrown 50 feet), Damage 6d6+6 piercing</li>\n<li><strong>Ranged</strong> <span class=\"action-glyph\">1</span> blowgun (range 120 feet), Damage 1d6+3 piercing plus 5d6 poison.</li>\n</ul>\n<hr />\n<p><strong>Destruction</strong> <em>Ancestral Embrace</em> crumbles if its wearer intentionally and knowingly kills or desecrates the remains of six generations of their family.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "divine"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Ancestral Geometry",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Geometric precision and perfect angles signify that an artist with exemplary knowledge of dwarven tattooing traditions created this body art. Your family's ancestral stories, recited throughout the tattooing process, bind your blood even tighter to theirs. During your daily preparations, you manifest a visitation by an ancestor—possibly via a dream, a vision, or a magical trinket left by your bedroll. Roll [[/r 2d20]] and record the highest result. Then roll [[/r 1d6]] and note a type of saving throw: 1–2 Fortitude, 3–4 Reflex, and 5–6 Will.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ancestral Geometry]</p>\n<p>In addition, until the next visitation, you gain a +1 item bonus to one Lore skill related to the ancestor, as determined by the GM. Usually, the ancestor provides a kind of knowledge they believe you'll need. For dwarven ancestors, the Lore skill is usually Architecture Lore, Engineering Lore, Genealogy Lore, Labor Lore, Mining Lore, Warfare Lore, or Lore about a dwarven deity.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You rolled a saving throw of the noted type</p>\n<hr />\n<p><strong>Effect</strong> Replace the roll with the d20 roll from your ancestor's visitation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Anchor of Aquatic Exploration",
+    "price": {
+      "gp": 690
+    },
+    "description": "<p>No matter how often it's washed, the last crystals of salt rime never quite leave this pitted anchor. When you're holding the <em>anchor of aquatic exploration</em>, you can breathe underwater; however, you can't Swim, losing any Swim speed you have, automatically failing any Athletics checks to Swim, and so on. Instead, when you enter a body of water, you sink to the bottom at a rate of 25 feet per round and can move across the bottom at your normal Speed. You're protected from environmental effects of deep water such as pressure, cold temperatures, and any negative consequences of depressurization.</p>\n<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p><strong>Requirements</strong> You're underwater</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You spend one minute digging the anchor into the seabed, after which the anchor casts a @UUID[Compendium.pf2e.spells-srd.Item.Cozy Cabin] spell, summoning a sunken ship instead of a cabin. The sunken ship is filled with breathable air.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Anchor Spear",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>The tip of this +2 greater striking spear is large and wickedly barbed, and the haft is inlaid with fine silver lines that run the length of the weapon. Wielded by specially trained xulgath cavalry, anchor spears are used to prevent the escape of gogiteths or other monsters capable of climbing or burrowing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<hr />\n<p><strong>Effect</strong> The anchor spear extends into a +2 greater striking longspear or back to its original form as a +2 greater striking spear.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You damage a creature using the <em>anchor spear</em></p>\n<hr />\n<p><strong>Effect</strong> The spear embeds itself into the creature, and the spear's haft splits along the silver lines to become a series of hooks attached to a thin but strong cable. As long as the <em>anchor spear</em> remains embedded in the creature, any time the creature burrows or climbs, it treats normal terrain as difficult terrain and difficult terrain as greater difficult terrain. The creature can spend an Interact action to attempt a @Check[athletics|dc:32|name:Remove Spearhead] check to remove the spearhead.</p>\n<hr />\n<p><strong>Critical Success</strong> The <em>anchor spear</em> is removed, becomes broken, and falls to the ground in the creature's space.</p>\n<p><strong>Success</strong> The <em>anchor spear</em> is removed, the creature takes @Damage[1d8[piercing]] damage, and the spear falls to the ground in a random space adjacent to the creature.</p>\n<p><strong>Failure</strong> The <em>anchor spear</em> remains in place, and the creature takes @Damage[1d8[piercing]] damage.</p>\n<p><strong>Critical Failure</strong> As failure, except the creature takes @Damage[2d8[piercing]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "monk",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Anchoring (Greater)",
+    "price": {
+      "gp": 22000
+    },
+    "description": "<p>This rune prevents enemies from escaping your grasp by @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] to other planes.</p>\n<p>When you critically hit a target with a weapon with the anchoring rune, the weapon casts 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Planar Tether] on the target (@Check[will|dc:38|name:Dimensional Anchor]{DC 38 Will}, counteract modifier [[/r 1d20+28 #counteract]]{+28}), except that if the target critically succeeds at its Will save, instead of having no effect, the <em>dimensional anchor</em> lasts for 1 round. When you hit a target with the weapon but don't critically hit, the target is affected by 4th-rank <em>dimensional anchor</em> for 1 round without a save (this still uses a counteract modifier of +28).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Anchoring",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This rune prevents enemies from escaping your grasp by @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] to other planes. If you critically hit a target with an anchoring weapon, the weapon casts @UUID[Compendium.pf2e.spells-srd.Item.Planar Tether] on the target (@Check[will|dc:27|name:Dimensional Anchor]{DC 27 Will}, counteract modifier [[/r 1d20+17 #counteract]]{+17}).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Ancient dragon skull etched with mystic sigils",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 19,
+    "name": "Angelic Opera Cloak",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This luxurious cloak embodies an angel's swiftness. You gain a +3 item bonus to Acrobatics checks and never take falling damage, as your cloak billows like a pair of wings to soften any fall you take. When you invest in the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score. If you are unholy, you are @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} while wearing this cloak.</p>\n<p><strong>Activate—On Angel's Wings</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> The opera cloak transforms into two pairs of brilliant, feathered wings that grant you a fly Speed of 40 feet for 10 minutes. During this time, you gain immunity to paralysis effects and ignore effects that would give you a circumstance penalty to speed.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "holy",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Anglerfish Lantern (Submersible)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This @UUID[Compendium.pf2e.equipment-srd.Item.Lantern (Bull's Eye)]{bull's-eye lantern} is either stylized after an anglerfish or made from the taxidermy of one. While it can be lit as usual, the <em>submersible anglerfish lantern</em> automatically shines when submerged in water.</p>\n<hr />\n<p><strong>Activate—Mesmerizing Lights</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> All creatures within the bright light of the <em>submersible anglerfish lantern</em> must succeed at a @Check[will|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the light for 1 round (1 minute on a critical failure). The fascination ends if the light is extinguished. Aquatic animals and creatures with the water trait take a –2 circumstance penalty to this check. Regardless of the result, the creature then becomes immune to this effect for the next 24 hours.</p>\n<hr />\n<p><strong>Activate—Dive!</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You lower the <em>submersible anglerfish lantern</em> into water at least 15 feet deep while issuing a command. The lantern transforms into a @UUID[Compendium.pf2e.vehicles.Actor.Bathysphere] for 1 hour. This vehicle possesses a @Template[cone|distance:60] light that can be swiveled up to 90 degrees with an Interact action and has the activation listed above. When the effect ends, any occupants are ejected harmlessly. If the bathysphere becomes broken, the effect ends and the <em>submersible anglerfish lantern</em> is broken as well.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Anglerfish Lantern",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This @UUID[Compendium.pf2e.equipment-srd.Item.Lantern (Bull's Eye)]{bull's-eye lantern} is either stylized after an anglerfish or made from the taxidermy of one. While it can be lit as usual, the <em>anglerfish lantern</em> automatically shines when submerged in water.</p>\n<hr />\n<p><strong>Activate—Mesmerizing Lights</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> All creatures within the bright light of the <em>anglerfish lantern</em> must succeed at a @Check[will|dc:19] save or be @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the light for 1 round (1 minute on a critical failure). The fascination ends if the light is extinguished. Aquatic animals and creatures with the water trait take a –2 circumstance penalty to this check. Regardless of the result, the creature then becomes immune to this effect for the next 24 hours.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Animal Bed",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Animal Blind",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Simple blinds consist of a series of poles with a cloth to cover them. The cloth covering is styled to represent the natural surroundings such as green and brown leaf and wood patterns for forests, or gray rocks for underground environments. This cloth is either sheer enough to be seen through on one side, or sometimes has small slits cut in it, allowing someone behind it to see what is going on outside while remaining @UUID[Compendium.pf2e.conditionitems.Item.Hidden]. While not the most convincing camouflage, it's good enough to fool many animals and creatures with lower intelligence.</p>\n<p>Animal blinds take 1 minute to set up. Up to two Medium creatures or one Large creature may use the blinds at the same time. You can @UUID[Compendium.pf2e.actionspf2e.Item.Take Cover] behind the blind to gain standard cover. If the environment matches the terrain depicted on the blind, your circumstance bonus on Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Hide] increases to +4.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Animal Blind]</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Animal Call",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>Animal calls are often whistles or similar devices that imitate the calls of animals. Each call is for a specific type of animal, such as a duck or bear. When you use the call, it gives you a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Command an Animal], provided the animal is of the type as the call. You also do not take a circumstance penalty when attempting to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] that animal for not sharing a language.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Animal Nip (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Animal nip contains a mix of herbaceous, fragrant plants, ground into a coarse powder with a strong scent that attracts a broad spectrum of animals. You activate animal nip by sprinkling it on the ground or a target of your choice. For the next minute, all creatures within 30 feet that have the animal trait must attempt a @Check[will|dc:18] save or become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the smell of the animal nip for 1 round. On a critical failure, they also fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] and roll about on the ground. If the target is subject to a hostile act, the fascination ends immediately. Regardless of the result of the creature's save, it's then immune to animal nip for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Animal Nip (Major)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Animal nip contains a mix of herbaceous, fragrant plants, ground into a coarse powder with a strong scent that attracts a broad spectrum of animals. You activate animal nip by sprinkling it on the ground or a target of your choice. For the next minute, all creatures within 30 feet that have the animal trait must attempt a @Check[will|dc:30] save or become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the smell of the animal nip for 1 round. On a critical failure, they also fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] and roll about on the ground. If the target is subject to a hostile act, the fascination ends immediately. Regardless of the result of the creature's save, it's then immune to animal nip for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Animal Nip (Moderate)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Animal nip contains a mix of herbaceous, fragrant plants, ground into a coarse powder with a strong scent that attracts a broad spectrum of animals. You activate animal nip by sprinkling it on the ground or a target of your choice. For the next minute, all creatures within 30 feet that have the animal trait must attempt a @Check[will|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the smell of the animal nip for 1 round. On a critical failure, they also fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] and roll about on the ground. If the target is subject to a hostile act, the fascination ends immediately. Regardless of the result of the creature's save, it's then immune to animal nip for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Animal Pheromones (Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p><hr /><p>These chemicals convey myriad signals. Many varieties of these alchemical cocktails exist, each tailored for the unique chemistry of a specific type of animal. You can, for example, make wolf pheromones, but not pheromones that affect all animals. The pheromones don't work on creatures that are similar to the specific kind of animal, but aren't actually animals—for example, wolf pheromones don't work on werewolves. When you learn the formula for animal pheromones, you learn the formulas for all common animals. If no animals of a kind are common, you must learn the formula for it separately, and the formula has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal pheromones by rubbing them on yourself or a creature within reach. The pheromones last for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). During this time, the pheromones exude a subtle aroma in a @Template[emanation|distance:15]{15-foot radius} that calms and influences the designated animals. A designated animal that ends its turn within the affected area must attempt a @Check[will|dc:35] saving throw with the following effects. The animal is then temporarily immune to the pheromones for 24 hours. The effect lasts for the duration of the pheromones, even after the creature leaves the affected area.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected. It doesn't necessarily become aware of the pheromones, although intelligent animals might become suspicious if they observe others of their kind being affected.</p>\n<p><strong>Success</strong> The animal's attitude toward the affected creature improves by one step. If this improves its attitude to at least indifferent, it can't take hostile actions against the affected creature, though the change in attitude ends as soon as the affected creature takes a hostile action against the animal or its allies.</p>\n<p><strong>Failure</strong> As success, but the attitude increases by two steps.</p>\n<p><strong>Critical Failure</strong> As success, but the attitude increases to helpful.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Animal Pheromones (Lesser)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p><hr /><p>These chemicals convey myriad signals. Many varieties of these alchemical cocktails exist, each tailored for the unique chemistry of a specific type of animal. You can, for example, make wolf pheromones, but not pheromones that affect all animals. The pheromones don't work on creatures that are similar to the specific kind of animal, but aren't actually animals—for example, wolf pheromones don't work on werewolves. When you learn the formula for animal pheromones, you learn the formulas for all common animals. If no animals of a kind are common, you must learn the formula for it separately, and the formula has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal pheromones by rubbing them on yourself or a creature within reach. The pheromones last for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). During this time, the pheromones exude a subtle aroma in a @Template[emanation|distance:15]{15-foot radius} that calms and influences the designated animals. A designated animal that ends its turn within the affected area must attempt a @Check[will|dc:19] saving throw with the following effects. The animal is then temporarily immune to the pheromones for 24 hours. The effect lasts for the duration of the pheromones, even after the creature leaves the affected area.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected. It doesn't necessarily become aware of the pheromones, although intelligent animals might become suspicious if they observe others of their kind being affected.</p>\n<p><strong>Success</strong> The animal's attitude toward the affected creature improves by one step. If this improves its attitude to at least indifferent, it can't take hostile actions against the affected creature, though the change in attitude ends as soon as the affected creature takes a hostile action against the animal or its allies.</p>\n<p><strong>Failure</strong> As success, but the attitude increases by two steps.</p>\n<p><strong>Critical Failure</strong> As success, but the attitude increases to helpful.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Animal Pheromones (Moderate)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p><hr /><p>These chemicals convey myriad signals. Many varieties of these alchemical cocktails exist, each tailored for the unique chemistry of a specific type of animal. You can, for example, make wolf pheromones, but not pheromones that affect all animals. The pheromones don't work on creatures that are similar to the specific kind of animal, but aren't actually animals—for example, wolf pheromones don't work on werewolves. When you learn the formula for animal pheromones, you learn the formulas for all common animals. If no animals of a kind are common, you must learn the formula for it separately, and the formula has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal pheromones by rubbing them on yourself or a creature within reach. The pheromones last for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). During this time, the pheromones exude a subtle aroma in a @Template[emanation|distance:15]{15-foot radius} that calms and influences the designated animals. A designated animal that ends its turn within the affected area must attempt a @Check[will|dc:27] saving throw with the following effects. The animal is then temporarily immune to the pheromones for 24 hours. The effect lasts for the duration of the pheromones, even after the creature leaves the affected area.</p><hr /><p><strong>Critical Success</strong> The animal is unaffected. It doesn't necessarily become aware of the pheromones, although intelligent animals might become suspicious if they observe others of their kind being affected.</p>\n<p><strong>Success</strong> The animal's attitude toward the affected creature improves by one step. If this improves its attitude to at least indifferent, it can't take hostile actions against the affected creature, though the change in attitude ends as soon as the affected creature takes a hostile action against the animal or its allies.</p>\n<p><strong>Failure</strong> As success, but the attitude increases by two steps.</p>\n<p><strong>Critical Failure</strong> As success, but the attitude increases to helpful.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Animal Repellent (Greater)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>Animal repellent is a noxious alchemical substance that makes you repulsive to a certain kind of animal. You can, for example, make ape repellent, bear repellent, or snake repellent, but not a repellent that affects all animals. The repellent doesn't work on creatures that are similar to the kind of animal, but not actually animals—for example, bear repellent wouldn't work on werebears. Animal repellent is ineffective against animals with an Intelligence modifier of –3 or higher, such as awakened animals. When you initially learn the formula for animal repellent, you learn the formulas for all common animals. If no animals of a kind are common, such as sea serpents, you must learn the formula for that kind separately, and it has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal repellent by sprinkling it on yourself or a creature within reach, or by spreading it on a surface in an area up to 10 feet square. The repellent lasts for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). The designated kind of animal can smell the repellent from three times as far away as normal.</p>\n<p>The designated kind of creature typically avoids the coated creature or area, which smells foul and feels unnerving to it. If in combat or otherwise distressed, the creature can approach within 20 feet of the affected creature or area only if it succeeds at a Will save with a DC determined by the type of animal repellent. Once it succeeds at this save, the animal is temporarily immune for 1 minute. If the animal attacks in a way that causes it to taste or ingest the repellent, it must succeed at a @Check[fortitude|dc:29] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Animal Repellent (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>Animal repellent is a noxious alchemical substance that makes you repulsive to a certain kind of animal. You can, for example, make ape repellent, bear repellent, or snake repellent, but not a repellent that affects all animals. The repellent doesn't work on creatures that are similar to the kind of animal, but not actually animals—for example, bear repellent wouldn't work on werebears. Animal repellent is ineffective against animals with an Intelligence modifier of –3 or higher, such as awakened animals. When you initially learn the formula for animal repellent, you learn the formulas for all common animals. If no animals of a kind are common, such as sea serpents, you must learn the formula for that kind separately, and it has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal repellent by sprinkling it on yourself or a creature within reach, or by spreading it on a surface in an area up to 10 feet square. The repellent lasts for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). The designated kind of animal can smell the repellent from three times as far away as normal.</p>\n<p>The designated kind of creature typically avoids the coated creature or area, which smells foul and feels unnerving to it. If in combat or otherwise distressed, the creature can approach within 20 feet of the affected creature or area only if it succeeds at a Will save with a DC determined by the type of animal repellent. Once it succeeds at this save, the animal is temporarily immune for 1 minute. If the animal attacks in a way that causes it to taste or ingest the repellent, it must succeed at a @Check[fortitude|dc:18] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Animal Repellent (Major)",
+    "price": {
+      "gp": 1600
+    },
+    "description": "<p>Animal repellent is a noxious alchemical substance that makes you repulsive to a certain kind of animal. You can, for example, make ape repellent, bear repellent, or snake repellent, but not a repellent that affects all animals. The repellent doesn't work on creatures that are similar to the kind of animal, but not actually animals—for example, bear repellent wouldn't work on werebears. Animal repellent is ineffective against animals with an Intelligence modifier of –3 or higher, such as awakened animals. When you initially learn the formula for animal repellent, you learn the formulas for all common animals. If no animals of a kind are common, such as sea serpents, you must learn the formula for that kind separately, and it has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal repellent by sprinkling it on yourself or a creature within reach, or by spreading it on a surface in an area up to 10 feet square. The repellent lasts for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). The designated kind of animal can smell the repellent from three times as far away as normal.</p>\n<p>The designated kind of creature typically avoids the coated creature or area, which smells foul and feels unnerving to it. If in combat or otherwise distressed, the creature can approach within 20 feet of the affected creature or area only if it succeeds at a Will save with a DC determined by the type of animal repellent. Once it succeeds at this save, the animal is temporarily immune for 1 minute. If the animal attacks in a way that causes it to taste or ingest the repellent, it must succeed at a @Check[fortitude|dc:35] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Animal Repellent (Minor)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Animal repellent is a noxious alchemical substance that makes you repulsive to a certain kind of animal. You can, for example, make ape repellent, bear repellent, or snake repellent, but not a repellent that affects all animals. The repellent doesn't work on creatures that are similar to the kind of animal, but not actually animals—for example, bear repellent wouldn't work on werebears. Animal repellent is ineffective against animals with an Intelligence modifier of –3 or higher, such as awakened animals. When you initially learn the formula for animal repellent, you learn the formulas for all common animals. If no animals of a kind are common, such as sea serpents, you must learn the formula for that kind separately, and it has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal repellent by sprinkling it on yourself or a creature within reach, or by spreading it on a surface in an area up to 10 feet square. The repellent lasts for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). The designated kind of animal can smell the repellent from three times as far away as normal.</p>\n<p>The designated kind of creature typically avoids the coated creature or area, which smells foul and feels unnerving to it. If in combat or otherwise distressed, the creature can approach within 20 feet of the affected creature or area only if it succeeds at a Will save with a DC determined by the type of animal repellent. Once it succeeds at this save, the animal is temporarily immune for 1 minute. If the animal attacks in a way that causes it to taste or ingest the repellent, it must succeed at a @Check[fortitude|dc:15] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Animal Repellent (Moderate)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>Animal repellent is a noxious alchemical substance that makes you repulsive to a certain kind of animal. You can, for example, make ape repellent, bear repellent, or snake repellent, but not a repellent that affects all animals. The repellent doesn't work on creatures that are similar to the kind of animal, but not actually animals—for example, bear repellent wouldn't work on werebears. Animal repellent is ineffective against animals with an Intelligence modifier of –3 or higher, such as awakened animals. When you initially learn the formula for animal repellent, you learn the formulas for all common animals. If no animals of a kind are common, such as sea serpents, you must learn the formula for that kind separately, and it has the same rarity as the least-rare creature of that kind.</p>\n<p>You Activate animal repellent by sprinkling it on yourself or a creature within reach, or by spreading it on a surface in an area up to 10 feet square. The repellent lasts for 24 hours or until scrubbed clean with 1 minute of work (consisting of multiple Interact actions). The designated kind of animal can smell the repellent from three times as far away as normal.</p>\n<p>The designated kind of creature typically avoids the coated creature or area, which smells foul and feels unnerving to it. If in combat or otherwise distressed, the creature can approach within 20 feet of the affected creature or area only if it succeeds at a Will save with a DC determined by the type of animal repellent. Once it succeeds at this save, the animal is temporarily immune for 1 minute. If the animal attacks in a way that causes it to taste or ingest the repellent, it must succeed at a @Check[fortitude|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Animal Staff (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Know the Way]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Runic Body] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Messenger] @UUID[Compendium.pf2e.spells-srd.Item.Speak with Animals] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Animal Staff (Major)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Know the Way]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Runic Body] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Messenger] @UUID[Compendium.pf2e.spells-srd.Item.Speak with Animals] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] @UUID[Compendium.pf2e.spells-srd.Item.Moon Frenzy] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Animal Staff",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Know the Way]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Runic Body] @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Animal-Turning Fulu",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> A creature with the animal trait successfully Strikes you.</p>\n<hr />\n<p>Frightened animals depicted on this fulu flee in all directions from a central figure (traditionally represented by a human hunter, but sometimes depicted as a skeletal undead creature or even a fiend with long, broken arms). You activate this fulu, gaining a +2 item bonus to AC against the triggering Strike. If this causes the Strike to miss, you become @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from the triggering creature until the start of your next turn.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Animate Dreamer",
+    "price": {
+      "gp": 4700
+    },
+    "description": "<p><strong>Perception</strong> +26; precise vision 60 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> telepathy (Common, and six other common languages)</p>\n<p><strong>Skills</strong> Arcana +30, Deception +27, Diplomacy +27, Occultism +30</p>\n<p><strong>Int</strong> +6, <strong>Wis</strong> +4, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +26</p>\n<p>The gunsmith that created this marvelous <em>+2 greater striking spell-storing scattergun</em> poured so much love and care into its creation that the weapon gained a spark of sentience. However, at first it was completely incapable of expressing itself. This led a seething frustration to grow within the weapon, as it yearned desperately to respond to the same love and affection that created it. Through decades of effort, it gained the ability to communicate empathically, then telepathically. Now, the weapon is capable of exerting its influence over other inanimate objects. Despite the weapon's progress, years of feeling helpless have given the <em>animate dreamer</em> a singular goal: to obtain and occupy a body of its own.</p>\n<p>An <em>animate dreamer</em> is cunning, intelligent, and patient. It urges you to create a body for it and is willing to go to any lengths to see its goals come to fruition, including coercion, deception, and violence. An <em>animate dreamer</em> desires a permanent body but isn't picky about the body's form or the methods it has to use in order to gain it. Therefore, an <em>animate dreamer</em> is just as happy in a living body stolen from an innocent as it would be in an artificially constructed body, or even an undead corpse. If you refuse to work towards creating or obtaining a body for the <em>animate dreamer</em>, it will likely use its possession ability to try and take control of you and use your body to find a permanent replacement for itself.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Requirements</strong> The <em>animate dreamer</em> has a stored spell. It can see a creature it hit and damaged within the last minute, and that creature's within 120 feet of <em>animate dreamer</em></p>\n<hr />\n<p><strong>Effect</strong> The <em>animate dreamer</em> casts its stored spell at a target that meets the requirements. This empties the spell from the weapon and allows a spell to be cast into it again. The <em>animate dreamer</em> has a spell attack roll of +25 and a spell DC of 33 with the stored spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command</p>\n<hr />\n<p><strong>Effect</strong> The <em>animate dreamer</em> focuses on a single unattended inanimate object in an area it can see and exerts its will over the object, temporarily levitating it around. The <em>animate dreamer</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Hand] as a 5th-rank occult spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The <em>animate dreamer</em> attempts to achieve its goal of occupying a body of its own and casts @UUID[Compendium.pf2e.spells-srd.Item.Possession] as a 7th-rank spell with a spell DC of 33. The weapon still functions as a +2 greater striking spell-storing scattergun while this effect is active but loses all other special abilities until the spell expires and the <em>animate dreamer's</em> intellect returns to it.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "dwarf",
+      "intelligent",
+      "kickback",
+      "occult",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Animated",
+    "price": {
+      "gp": 2700
+    },
+    "description": "<p>An <em>animated</em> weapon flies autonomously and strikes your foes.</p>\n<p><strong>Activate—Set Free</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You Release the weapon and it flutters through the air, fighting on its own against the last enemy you attacked, or the nearest enemy to it if your target has been defeated. At the end of your turn each round, the weapon can Fly up to its fly Speed of 40 feet, and then can either Fly again or Strike one creature within its reach.</p>\n<p>The weapon has a space of 5 feet, but it doesn't block or impede enemies attempting to move though that space, nor does it benefit from or provide flanking. The weapon can't move through an enemy's space. The weapon can't use reactions, and its Fly actions don't trigger reactions.</p>\n<p>While it's activated, an <em>animated</em> weapon makes Strikes with an attack modifier of [[/r 1d20+24]] plus its item bonus to attack rolls. It uses the weapon's normal damage but has a +0 Strength modifier. The weapon's abilities that automatically trigger on a hit or critical hit still function, but the weapon can't be activated or benefit from any of your abilities while animated.</p>\n<p>Each round, when the weapon finishes using its actions, attempt a @Check[flat|dc:6]. On a failure, the activation ends. The weapon falls to the ground and can't be Set Free again for 10 minutes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Ankhrav Duster",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>Acid drips from the ankhrav mandibles protruding from this <em>+1 @UUID[Compendium.pf2e.equipment-srd.Item.Knuckle Duster]</em>. Strikes with this weapon deal an additional 1 acid damage.</p><hr /><p><strong>Activate—Caustic Jabs</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> Until the end of your next turn, your Strikes with the <em>ankhrav duster</em> deal an additional 1d6 persistent acid damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Caustic Jabs]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the mandibles of an ankhrav.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "free-hand",
+      "magical",
+      "monk"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Anklets of Alacrity",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>These gem-studded golden anklets give you a +3 item bonus to Acrobatics checks. When you invest the anklets, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You click the anklets together, gaining a +20-foot status bonus to all your Speeds and the effects of @UUID[Compendium.pf2e.spells-srd.Item.Water Walk] for the next 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Anklets of Alacrity]</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Ankylostar",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>This hefty spiked club is made from the fossilized tail-club of a young ankylosaurus. It can be wielded as a +2 greater striking morningstar.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<hr />\n<p><strong>Effect</strong> The <em>ankylostar</em> grows and transforms into a <em>+2 greater striking greatclub</em>, but it retains the versatile (piercing) trait of a morningstar. While in this form, the <em>ankylostar</em> has Bulk 2 and requires two hands to wield. It can be returned to its morningstar form with another 1-action command.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The <em>ankylostar</em> is in its greatclub form</p>\n<hr />\n<p><strong>Effect</strong> The <em>ankylostar's</em> length extends as you swing the club in a wide arc. You Strike up to three creatures in a @Template[cone|distance:15]; this counts as one attack for the purpose of calculating your multiple attack penalty. Alternatively, you Shove up to three creatures in a @Template[cone|distance:15], rolling a separate Athletics check for each creature.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Anointed Waterskin",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This waterskin coruscates with holy energy, causing it to slowly fill itself with special blessed water unique to the item. After using any of the activations, the waterskin is empty, but slowly refills itself. It becomes full enough to use again at the next dawn.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> The anointed waterskin is full</p>\n<hr />\n<p><strong>Effect</strong> You throw the anointed waterskin up to 60 feet. The water explodes out of it, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.Holy Cascade].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> The anointed waterskin is full</p>\n<hr />\n<p><strong>Effect</strong> You drink the water within the waterskin, granting you the effects of @UUID[Compendium.pf2e.spells-srd.Item.Bless]. As normal with the spell, you can increase the radius with a single action with the concentrate trait.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, Interact)</p>\n<p><strong>Requirements</strong> The anointed waterskin is full</p>\n<hr />\n<p><strong>Effect</strong> You decant the water, creating up to 10 vials of <em>@UUID[Compendium.pf2e.equipment-srd.Item.Holy Water]</em>. You must provide the vials.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "good",
+      "water"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Anointing Oil (Greater)",
+    "price": {
+      "gp": 180
+    },
+    "description": "<p>Carried by many Knights of Lastwall, this amber-colored, fragrant-smelling oil is meant to prevent those who fall in battle from rising as undead. Applying <em>anointing oil</em> to a corpse casts a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Peaceful Rest] on it. The effects last for 24 hours. The funerary rites of the Knights of Lastwall sometimes include using this type of oil on their dead if they are to be buried.</p>\n<p>The oil is repugnant to the undead. An undead creature that touches a corpse treated with this oil is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} until the contact is broken or the oil's effect wears off.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Anointing Oil",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p>Carried by many Knights of Lastwall, this amber-colored, fragrant-smelling oil is meant to prevent those who fall in battle from rising as undead. Applying <em>anointing oil</em> to a corpse casts @UUID[Compendium.pf2e.spells-srd.Item.Peaceful Rest] on it. The effects last for 24 hours.</p>\n<p>The oil is repugnant to the undead. An undead creature that touches a corpse treated with this oil is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} until the contact is broken or the oil's effect wears off.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Anticorrosion Oil",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You can coat objects of 6 Bulk or less with <em>anticorrosion oil</em>. For 24 hours, the object takes half damage from acid and from all effects that specifically cause it to rust or corrode, such as contact with a rust monster's antennae.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Antidote (Greater)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +4 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antidote]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Antidote (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +2 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antidote]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Antidote (Major)",
+    "price": {
+      "gp": 675
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +4 item bonus to Fortitude saving throws against poisons for 6 hours, and when you drink the antidote, you can immediately attempt a saving throw against one poison of 14th level or lower affecting you. If you succeed, the poison is neutralized.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antidote]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Antidote (Moderate)",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +3 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antidote]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Antimagic Oil",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This oil contains energy that repels nearly all types of magic. When you apply this oil to armor, the creature wearing the armor becomes immune to all spells, effects of magic items (the wearer's and those of others), and effects with the magical trait for 1 minute.</p>\n<p>The oil affects neither the magic of the armor nor the fundamental runes of weapons attacking the wearer. Magical effects from a source of 20th level or higher, such as a deity, still function on the armor's wearer.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Antimagic",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.</p>\n<hr />\n<p><strong>Activate—Antimagic Armor</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A spell targets you or includes you in its area</p>\n<p><strong>Effect</strong> The armor attempts to counteract the triggering spell with the effect of a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic] spell and a counteract modifier of [[/r 1d20+26 #Counteract]]{+26}.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of <em>dispel magic</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Antiplague (Greater)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain a +4 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antiplague]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Antiplague (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain a +2 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antiplague]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Antiplague (Major)",
+    "price": {
+      "gp": 675
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain a +4 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p>\n<p>When you drink the antiplague, you can immediately attempt a saving throw against one disease of 14th level or lower affecting you. If you succeed, you are cured of the disease.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antiplague]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Antiplague (Moderate)",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain a +3 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Antiplague]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Antipode Oil",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Prepared from brown mold, this liquid oscillates between rapidly absorbing and releasing heat from its victim. Each round the type of damage dealt by this poison changes, starting with cold, then fire, then cold, and so on. If the victim of this poison takes cold damage from a source other than the oil, reduce the save DC to 22 for 1 round. If the victim takes fire damage from a source other than the oil, increase the save DC to 25 for 1 round.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:24]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[cold]] or @Damage[2d6[fire]] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[cold]] or @Damage[3d6[fire]] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Antivenom Potion",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>This cloudy, white liquid helps protect against poisons. When you drink an antivenom potion, you can immediately attempt a @Check[flat|dc:10] to end any persistent poison damage you're taking. In addition, for 1 minute after drinking the potion, you gain a +1 bonus to Fortitude saving throws to avoid taking persistent poison damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Antler Arrow",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Creation of these arrows was inspired by an encounter with a horned archon scout who sought to peacefully restrain their foes. When an activated <em>antler arrow</em> hits a target, bone antlers extend to pin it down. The target must succeed at a @Check[reflex|dc:16] save or become stuck to the surface, taking the critical specialization effects of a bow.</p>\n<p>If the hit with the <em>antler arrow</em> is a critical hit and you have access to the bow critical specialization effect, the DC of the Athletics check increases to 15.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Anylength Rope (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>This 100-foot length of silk rope is lightweight and appears to be inlaid with golden threads. The rope can hold up to 3,000 pounds and is particularly durable, with a Hardness of 5 and 24 Hit Points.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Effect</strong> You command the rope to split, declaring a specific length or amount, such as \"ten feet of rope,\" \"half of the rope,\" and so on. The rope splits itself into the requested piece, leaving the remaining length intact. If the rope isn't long enough to provide the requested amount, the activation fails.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Requirements</strong> The rope is split into two or more pieces</p>\n<p><strong>Effect</strong> The rope attempts to reassemble itself. All pieces of the rope within 500 feet slither back toward you, moving 50 feet per round, over the span of 1 minute. Obstacles and other creatures can prevent a piece of rope from reaching you. Once all pieces reach you or the minute has passed, the pieces rejoin, becoming a single rope. The length of this reformed rope is equal to the total length of all the pieces together; if a piece is missing, the rope is now shorter than its original 50-foot length. Any pieces that didn't rejoin with the rest of the rope remain where they are after the minute passes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Anylength Rope (Lesser)",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This 50-foot length of silk rope is lightweight and appears to be inlaid with golden threads. The rope can hold up to 3,000 pounds and is particularly durable, with a Hardness of 5 and 24 Hit Points.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Effect</strong> You command the rope to split, declaring a specific length or amount, such as \"ten feet of rope,\" \"half of the rope,\" and so on. The rope splits itself into the requested piece, leaving the remaining length intact. If the rope isn't long enough to provide the requested amount, the activation fails.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The rope is split into two or more pieces</p>\n<p><strong>Effect</strong> The rope attempts to reassemble itself. All pieces of the rope within 500 feet slither back toward you, moving 50 feet per round, over the span of 1 minute. Obstacles and other creatures can prevent a piece of rope from reaching you. Once all pieces reach you or the minute has passed, the pieces rejoin, becoming a single rope. The length of this reformed rope is equal to the total length of all the pieces together; if a piece is missing, the rope is now shorter than its original 50-foot length. Any pieces that didn't rejoin with the rest of the rope remain where they are after the minute passes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Anylength Rope (Moderate)",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>This 75-foot length of silk rope is lightweight and appears to be inlaid with golden threads. The rope can hold up to 3,000 pounds and is particularly durable, with a Hardness of 5 and 24 Hit Points.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Effect</strong> You command the rope to split, declaring a specific length or amount, such as \"ten feet of rope,\" \"half of the rope,\" and so on. The rope splits itself into the requested piece, leaving the remaining length intact. If the rope isn't long enough to provide the requested amount, the activation fails.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> The rope is split into two or more pieces</p>\n<p><strong>Effect</strong> The rope attempts to reassemble itself. All pieces of the rope within 500 feet slither back toward you, moving 50 feet per round, over the span of 1 minute. Obstacles and other creatures can prevent a piece of rope from reaching you. Once all pieces reach you or the minute has passed, the pieces rejoin, becoming a single rope. The length of this reformed rope is equal to the total length of all the pieces together; if a piece is missing, the rope is now shorter than its original 50-foot length. Any pieces that didn't rejoin with the rest of the rope remain where they are after the minute passes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Apotropaic Fulu",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Usage</strong> affixed over an entrance</p>\n<hr />\n<p>This unassuming yellow paper, affixed above a door or gate, flickers in the light. Pick an alignment trait: chaotic, good, lawful, or evil. When a creature with the opposing alignment trait of the fulu (good for an evil fulu, and so on) passes through the entrance, it must succeed at a @Check[fortitude|dc:17] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}; regardless of whether they succeed, the creature becomes temporarily immune for 1 day.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  }
+]

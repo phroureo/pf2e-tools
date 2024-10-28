@@ -1,0 +1,1317 @@
+[
+  {
+    "level": 0,
+    "name": "Oilskin Pouch",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>Treated with oil and animal fats, the leather of this pouch is more resistant to water but is also stiffer. Many makers and travelers decorate their oilskin pouches with symbols of the ocean and sailing. Often used to store scrolls or other paper documents when a traveler knows they will be in an area of heavy rain or near water. While not entirely waterproof, an oilskin pouch seals with sturdy leather ties, allowing it to resist anything other than total submersion. Even completely underwater, it will protect its contents for up to 1 minute.</p>\n<p>An oilskin pouch can protect up to 1 Bulk of items.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Oily Button",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You succeed at an Athletics check to Disarm</p>\n<p><strong>Requirements</strong> You are an expert in Athletics.</p>\n<hr />\n<p>A thin sheen of slick oil covers this gaudy button. When you activate the oily button, your attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] your opponent of an item before the start of the opponent's next turn gain a +4 circumstance bonus instead of +2, and the -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item lasts until the end of its next turn or until it uses an @UUID[Compendium.pf2e.actionspf2e.Item.Interact] action to adjust its grip.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Old Tillimaquin",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This beloved tavern mascot is a shabby old stuffed beast mounted on an immense slab of ironwood. The beast is roughly the size and shape of a wolverine but with a broader snout, blue stripes along its upper legs and bristled back, and a club of spiked bone at the end of its long tail. No one can recall where Old Tillimaquin originally came from, how the taxidermic beast came to stand in its tavern, or even whether it's a genuine article. The tradition of rubbing its bronzed claws for good luck has been observed for so long that the front claws are worn to stubs. Local belief holds that as long as Old Tillimaquin stands, neither fire nor flood will claim its town.</p>\n<p><strong>Activate</strong> Interact (divination, fortune, occult)</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> You rub Old Tillimaquin's bronzed claws for good luck before setting out on a task that might benefit the town. You can reroll a single failed saving throw within the next 24 hours, but you must take the second result, even if it's worse than your original result. Each person who rubs the claws can benefit only once per month, but there's no limit to how many people can draw on Old Tillimaquin's luck.</p>",
+    "rarity": "unique",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Olfactory Obfuscator (Greater)",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This frothing fluid causes the drinker's body to exude trace odor absorbing oils. For 8 hours after drinking this elixir, your scent is nearly unnoticeable.</p>\n<p>Creatures with imprecise scent don't detect you with that sense unless they @UUID[Compendium.pf2e.actionspf2e.Item.Seek] for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Olfactory Obfuscator (Lesser)",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This frothing fluid causes the drinker's body to exude trace odor absorbing oils. For 10 minutes after drinking this elixir, your scent is nearly unnoticeable.</p>\n<p>Creatures with imprecise scent don't detect you with that sense unless they @UUID[Compendium.pf2e.actionspf2e.Item.Seek] for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Olfactory Stimulators",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This cluster of sensitive wire whiskers fits over the nose or snout to provide sensory information as it reacts to nearby odors and other scents. A creature wearing olfactory stimulators gains a sense of smell, which is as precise as an average member of its species, as well as the scent special ability if members of its species typically have that ability. Olfactory stimulators can be fitted to animal companions as well as sapient creatures; stimulators produced for companion use have the companion trait.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Ommatophoric Mutagen",
+    "price": {
+      "gp": 65
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Your eyes bulge from their sockets and extend upwards from your head on long, prehensile stalks, greatly enhancing your eyesight and field of view but leaving you unable to close your eyes, increasing your vulnerability to harmful visual effects.</p>\n<p><strong>Benefit</strong> You gain all-around vision, a +2 item bonus to visual Perception checks, and low-light vision if you don't already have it. These effects last for 1 minute.</p>\n<p><strong>Drawback</strong> For 1 minute, you take a –2 penalty to saving throws against effects that have the visual trait.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ommatophoric Mutagen]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Omnidirectional Spear Snare",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>As soon as a creature enters the snare's square, the snare unleashes wickedly powerful spears at the creature from all directions, dealing @Damage[15d8[piercing]] damage (@Check[reflex|showDC:all|dc:37|basic] save).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "One Hundred Victories",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>One hundred cuts, healed into diamond-shaped scars, represent the ability to withstand the attacks of your enemies. Orc warriors covet these scar patterns and cluster them around what they consider to be their strongest assets—a pattern around the heart signifies a warrior with great endurance, while one along the arms indicates great upper body strength.</p>\n<p>You gain a +1 item bonus to Intimidation checks. If you have Ferocity (such as from the Orc Ferocity feat or a similar ability), the first time each day you use it, instead of remaining at 1 Hit Point, your Hit Points are set to an amount equal to your ancestry Hit Points, even if this amount is more than you had before using Ferocity.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Onslaught Hide",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This <em>+1 resilient hide armor</em> is decorated with the horns of many slain beasts. It has an armor check penalty of –1 instead of –2. When you use the @UUID[Compendium.pf2e.feats-srd.Item.Sudden Charge] class feat while wearing this armor, your Strike deals an additional @Damage[1d8[untyped]] damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Onyx Panther",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p>This beautiful black pebble is sculpted into a stylized panther shape. When you activate it, use a @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] action with a +1 item bonus to the check. You can move your full Speed (instead of half) on this Sneak action and any others you take this turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Onyx",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Ooze Ammunition (Greater)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Ooze ammunition is a capsule containing a sticky substance. If you hit a creature with activated ooze ammunition, it deals acid damage instead of its normal damage type, and the creature then takes a -10-foot penalty to Speed and @Damage[3d4[persistent,acid]] damage until it ends the effects. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round in addition to the other effects. The target can end the effects by @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escaping} (DC 29) the sticky foam. Other creatures can provide the actions, although doing so deals half the ammunition's persistent acid damage to the assisting creature. A creature that ends the effect still takes the persistent damage that turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ooze Ammunition (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Ooze Ammunition (Lesser)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Ooze ammunition is a capsule containing a sticky substance. If you hit a creature with activated ooze ammunition, it deals acid damage instead of its normal damage type, and the creature then takes a -5-foot penalty to Speed and @Damage[1d4[persistent,acid]] damage until it ends the effects. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round in addition to the other effects. The target can end the effects by @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escaping} (DC 16) the sticky foam. Other creatures can provide the actions, although doing so deals half the ammunition's persistent acid damage to the assisting creature. A creature that ends the effect still takes the persistent damage that turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ooze Ammunition (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Ooze Ammunition (Major)",
+    "price": {
+      "gp": 3250
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Ooze ammunition is a capsule containing a sticky substance. If you hit a creature with activated ooze ammunition, it deals acid damage instead of its normal damage type, and the creature then takes a -15-foot penalty to Speed and @Damage[4d4[persistent,acid]] damage until it ends the effects. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round in addition to the other effects. The target can end the effects by @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escaping} (DC 38) the sticky foam. Other creatures can provide the actions, although doing so deals half the ammunition's persistent acid damage to the assisting creature. A creature that ends the effect still takes the persistent damage that turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ooze Ammunition (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Ooze Ammunition (Moderate)",
+    "price": {
+      "gp": 42
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Ooze ammunition is a capsule containing a sticky substance. If you hit a creature with activated ooze ammunition, it deals acid damage instead of its normal damage type, and the creature then takes a -10-foot penalty to Speed and @Damage[2d4[persistent,acid]] damage until it ends the effects. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round in addition to the other effects. The target can end the effects by @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escaping} (DC 20) the sticky foam. Other creatures can provide the actions, although doing so deals half the ammunition's persistent acid damage to the assisting creature. A creature that ends the effect still takes the persistent damage that turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ooze Ammunition (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Ooze Skin",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This leather armor has been treated with extract from oozes, which can be reactivated in the presence of a strong acid. A receptacle in the armor can hold an acid flask, which takes 3 Interact actions to install. A loaded suit of ooze skin can be activated to cause the leather to weep slippery protoplasm, granting an item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] and @UUID[Compendium.pf2e.actionspf2e.Item.Squeeze] checks equal to the acid flask's item bonus. The protoplasm also irritates the skin on prolonged contact, causing any creature that grapples or swallows you to take acid damage equal to the acid flask's splash damage. Ooze skin remains activated for a number of rounds equal to the level of the acid flask installed. The effects consume the acid flask, and once the reaction has begun it can't be deactivated.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Oozepick (Greater)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You can pour this silver ooze into a lock or similar mechanism to create a set of malleable lockpicks and tools that conform to internal mechanisms. The ooze is treated as a set of thieves' tools that last for 8 hours and provide a +3 item bonus to Thievery checks to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock] or @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device] against the mechanism into which they were first poured.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Oozepick",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You can pour this silver ooze into a lock or similar mechanism to create a set of malleable lockpicks and tools that conform to internal mechanisms. The ooze is treated as a set of thieves' tools that last for 1 hour and provide a +2 item bonus to Thievery checks to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock] or @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device] against the mechanism into which they were first poured.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Opal",
+    "price": {
+      "gp": 50
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Open Mind",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Abraxas teaches knowledge is the only power that matters. This tattoo of a stylized eye provides a +1 item bonus to Lore checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Abraxas opens your inner eye; you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Hypercognition].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Oracular Crown",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>Patterns themed to your curse cover your <em>oracular crown</em>. As your curse worsens, the appearance of the crown changes, introducing extreme angles, stronger colors, or other indications of the intensity of your curse. Similarly, it gets closer to its natural form when you reduce the effects of your curse. You gain a +2 item bonus to Religion checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast an oracle revelation spell. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command (healing, necromancy, vitality)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your oracular curse is at its minor stage or higher</p><hr /><p><strong>Effect</strong> You regain @Damage[3d8[healing]] Hit Points. This amount increases to @Damage[5d8[healing]] if your curse is at its moderate stage or @Damage[7d8[healing]] if it's at its major stage. If you have void healing, this activation has the void trait and not the healing and vitality traits.</p><hr /><p><strong>Craft Requirements</strong> You are an oracle.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Oracular Hag Eye",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>This item appears to be an ordinary semiprecious stone and is typically mounted on a brooch or ring, but the stone is, in fact, an eyeball. This illusion can be seen through with true seeing or similar magic, and anyone who interacts with the item feels its wet and sticky surface, allowing them to attempt to disbelieve the illusion (DC 19). Many hags claim a hag eye is more effective if plucked from a living, awake creature, but this is likely just a convenient excuse for sadism.</p>\n<p>The hag eye produces no direct benefit for the wearer, but allows the hag who created it, or any member of her coven, can peer through the eye using the Seek action. This has no range limit, provided the hag is on the same plane.</p>\n<p>Any damage dealt to the eye destroys it. If this happens while a hag is looking through it, the hag is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 hour.</p>\n<p>Oracular hag eyes are made with the eye of a cyclops. A hag who casts @UUID[Compendium.pf2e.spells-srd.Item.Augury] with an oracular hag eye in her possession reduces the DC of the secret flat check to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You must be a hag, and the raw materials must include the eye of a cyclops.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "occult",
+      "scrying"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Orb of Dragonkind",
+    "price": {},
+    "description": "<p>Each of the legendary <em>orbs of dragonkind</em> contains the essence and personality of a powerful dragon, with each of the 10 most famous orbs preserving a different type of metallic or chromatic dragon's spirit. It is believed that orbs for other types of true dragons exist, though that theory is yet to be confirmed.</p>\n<p>While holding an <em>orb of dragonkind</em>, you are immune to the breath weapon of the dragon variety associated with the orb. An <em>orb of dragonkind</em> also grants a number of additional senses. You can communicate verbally and visually with the bearers of other orbs as if you were in the same room with them. You know if there are any dragons within 10 miles of you at all times; this extends to 100 miles for dragons of the type associated with the orb. If an associated dragon is within 1 mile, you know which direction the dragon is from you and the dragon's age, such as young, adult, or ancient. Each orb grants a 10th-rank arcane innate spell that you can cast at will, determined by the specific orb.</p>\n<p>The <em>Orb of Gold Dragonkind</em> can convey the innate spells of any of the other orbs, as well as their activated abilities, but it can grant each individual power only once per day. In addition, the bearer of the gold orb can use its 3-action activation to attempt to cast dominate on the bearer of another orb if they are within 1 mile, as if that bearer were a dragon of the associated type within 500 feet. The last reports of the <em>Orb of Gold Dragonkind</em> on Golarion indicate the orb has been destroyed, however. GMs running campaigns in settings other than the Age of Lost Omens might decide the gold orb is still intact for their campaigns.</p>\n<p>Bearing an <em>orb of dragonkind</em> earns you the enmity of all dragonkind forever because you profited from the enslavement of the dragon within the orb, even if you later lose the orb.</p>\n<p><strong>Spell Granted</strong> (DC 40) black dragon (darkness), blue dragon (hallucinatory terrain), brass dragon (speak with animals), bronze dragon (control water), copper dragon (hideous laughter), green dragon (entangle), red dragon (wall of fire), silver dragon (detect alignment [spirit only]), white dragon (wall of ice)</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You cast a 10th-rank <em>dominate</em> spell (DC 40) on a dragon of the type associated with the orb within 500 feet, except the effect lasts for 1 month rather than unlimited. The dragon does not receive its status bonus to saving throws against magic. The dragon is then temporarily immune to further domination via the orb for 24 hours.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> three times per day</p>\n<hr />\n<p><strong>Effect</strong> You breathe an elemental blast that deals 25d6 damage (@Check[reflex|dc:40|basic] save) in either a @Template[cone|distance:60] or a @Template[line|distance:100] (your choice). The breath's damage type matches the Breath Weapon of the dragon type associated with the <em>orb of dragonkind</em> (acid for the black orb, electricity for the blue orb, and so on).</p>\n<p><strong>Destruction</strong> An <em>orb of dragonkind</em> violently shatters and explodes when exposed to the Breath Weapon of a dragon who is a descendant of the dragon trapped within. The explosion deals damage as the 2-action activation above to all creatures within 90 feet.</p>",
+    "rarity": "unique",
+    "traits": [
+      "arcane",
+      "artifact"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Orb Shard",
+    "price": {},
+    "description": "<p>A shard of the <em>Orb of Gold Dragonkind</em> resembles a pointed length of crystal about the size and shape of a shortsword without a hilt. It functions as a <em>+3 striking shortsword</em> that deals 2d6 extra damage to dragons.</p>\n<p>Each <em>orb shard</em> within 60 feet of the <em>flawed orb of Gold Dragonkind</em> increases the save DC against the orb by 1; thus, if all 13 remaining <em>orb shards</em> are in this area, the save DC against the flawed orb increases from DC 30 to DC 43. A talented spellcaster or crafter can integrate an <em>orb shard</em> back into the flawed orb to make this DC increase permanent.</p>\n<p><strong>Destruction</strong> An <em>orb shard</em> is extraordinarily resilient, but it can be damaged or even destroyed by mundane attacks (Hardness 40, HP 50, BT 25). It has weakness 30 to the Breath Weapons and Strikes of gold dragons.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "artifact",
+      "finesse",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orc Knuckle Dagger",
+    "price": {
+      "sp": 7
+    },
+    "description": "<p>This stout, metal blade of orc design has a horizontal basket hilt with blades jutting from each end, or sometimes one blade like that of a katar.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "disarm",
+      "orc"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orc Necksplitter",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This single-bladed bearded axe has a jagged blade that's perfect for separating bone from tendon and cartilage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "forceful",
+      "orc",
+      "sweep"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orc Skewermaul",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>As dwarves poured out of the Darklands following their Quest for Sky, the orcs driven before them adapted to their tactics—including dwarves' heavily armored infantry charges. Surviving orcs developed a response: a weapon that combines a spear and maul to crush heavy armor and skewer charging foes. Although rarely seen today, the weapon is remarkably effective in the right situation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "brace",
+      "orc",
+      "two-hand-d10",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orc Warmask",
+    "price": {},
+    "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Orc Warmask]</p>\n<p>You paint your face to create a <em>warmask</em>, an invested magic item of negligible Bulk with an item level equal to your level and a usage of worn (mask). It has the divination trait and a magical tradition trait depending on its type. Donning or removing your <em>warmask</em> requires 1 minute of work, though you don't need to Invest the mask each time. The <em>warmask</em> is unique to you and might signify your hold, your accomplishments, or your faith. While creating your mask, you must choose the source of your <em>warmask</em>'s power from the options below. This source determines the mask's associated skill as well as magical tradition. Once you select this source, it can't be changed. You become trained in the associated skill, and you gain the @UUID[Compendium.pf2e.feats-srd.Item.Dubious Knowledge] skill feat as a bonus feat. You can spend 1 hour performing a ceremony that costs 50 gp to attune yourself more deeply with your <em>warmask</em>. If you do, you gain a +1 item bonus to the associated skill whenever you wear the <em>warmask</em>.</p>\n<hr />\n<ul>\n<li><strong>The Gods</strong> Religion, divine tradition</li>\n<li><strong>The Land</strong> Nature, primal tradition</li>\n<li><strong>Magic</strong> Arcana, arcane tradition</li>\n<li><strong>The Unknown</strong> Occultism, occult tradition</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Orchestral Brooch",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt a Performance check, but you haven't rolled yet</p>\n<p><strong>Requirements</strong> You're a master in Performance.</p>\n<hr />\n<p>This silver brooch reverberates lightly with the sound of music every time anyone touches it. You can transform it into the shape of any chosen instrument when you Affix it. When you activate this talisman, your performance is accompanied by a grand procession of music that complements your own work, subject to your direction and intent. You receive a +1 status bonus to your Performance check. If you roll a success, you get a critical success instead.</p>\n<p>After being used, the talisman remains a mundane silver brooch with the appearance of the chosen instrument, though it possesses no remaining power.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Orchestral Brooch]</p>",
+    "rarity": "common",
+    "traits": [
+      "auditory",
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orichalcum Chunk",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn't as physically sturdy as adamantine, but orichalcum's time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn't destroyed, it repairs itself completely 24 hours later.</p>\n<h2>Orichalcum Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Orichalcum Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thin Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>16</td>\n<td>64</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Structure</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>35</td>\n<td>140</td>\n<td>70</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "rare",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Orichalcum Ingot",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn't as physically sturdy as adamantine, but orichalcum's time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn't destroyed, it repairs itself completely 24 hours later.</p>\n<h2>Orichalcum Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Orichalcum Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thin Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>16</td>\n<td>64</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Structure</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>35</td>\n<td>140</td>\n<td>70</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "rare",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Origin Unguent",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This shimmering, violet unguent forms mild chemical bonds between objects with a matching composition. You apply the adhesive to two objects, or to an object and a creature. You can check if the two share an origin (such as if they were broken from the same whole, or if a poison sample or body part came from the same creature) by holding them together with the unguent between; if they match, the unguent becomes sticky.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Original manuscript from a world‑famous author",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Orm Choker",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>This elaborate choker is fashioned from the treated hide of a water orm. Its interior is lined with the creature's silky hair. While wearing an <em>orm choker</em>, your form blurs slightly around the edges, granting you a +1 item bonus to saving throws against detection, revelation, and scrying effects.</p><hr /><p><strong>Activate—Watery Form</strong> <span class=\"action-glyph\">3</span> (concentration, water)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You dissolve into liquid, appearing only as a stretch of flowing water. While in this form, you gain a swim Speed of 45 feet, you automatically succeed at Athletics checks to Swim, and you gain a +4 circumstance bonus to Stealth checks in water. However, you can't speak, use any of your other items or abilities, or enter a body of salt water while in this form. You can remain in this form for up to 1 hour, though you can return to your normal form using a single action that has the concentrate trait.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Watery Form]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the hide and hair of a water orm.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Ouroboros Buckles",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This ominous-looking <em>+3 greater resilient greater acid-resistant buckle armor</em> is deep red in color, favored by assassins who worship Norgorber or Asmodeus, and if unfastened, the many belts and buckles writhe like living snakes. <em>Ouroboros buckles</em> have the comfort trait. However, while wearing <em>ouroboros buckles</em>, the unfathomable concept of infinity pulls at your mind, and each time you awaken, you'd swear the armor hissed into your ear while you were asleep. The hissing suggested secret wisdom to you in Aklo, though you only ever remember it vaguely, like a fading dream.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You call forth the cursed regenerative blood of an ouroboros to recover from your wounds. You gain regeneration 15 for 1 minute; fire damage deactivates this regeneration. Each time you regain Hit Points from this regeneration, if you're in your normal form, you collapse into a Large swarm of Tiny snakes. This is a polymorph effect that changes you into a battle form.</p>\n<p>When you're a swarm of snakes, you gain low-light vision, imprecise scent (30 feet), a Speed of 20 feet, a climb Speed of 20 feet, and a swim Speed of 20 feet. You have an AC of 16 + your level and ignore your armor's check penalty and Speed reduction. Also, you gain resistance 5 to physical damage and weakness 5 to area damage and splash damage. You can use none of your normal Strikes. Instead, you can use Swarming Bites, a single action that deals @Damage[4d4[piercing]] plus @Damage[2d6[poison]] to creatures in your space with a @Check[reflex|dc:41|basic].</p>\n<p>If you're in this battle form and are already at full HP when your regeneration occurs, the snakes instantaneously slither together, and you transform into your original form.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> A foe within 15 feet hits you with a Strike that deals slashing or piercing damage</p>\n<p><strong>Effect</strong> Your <em>ouroboros buckles</em> spray acidic blood in a @Template[cone|distance:15] toward the foe, dealing @Damage[5d6[acid]] with a @Check[reflex|dc:41|basic].</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include blood from an ouroboros to tan the leather.</p>",
+    "rarity": "rare",
+    "traits": [
+      "adjusted",
+      "comfort"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Ouroboros Flail (Greater)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>You can easily expand and contract the chain of this <em>+3 greater striking greater extending war flail</em>. It magically grows new links when extended and loses them when contracted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You successfully Strike with the flail while activating its extending rune</p>\n<hr />\n<p><strong>Effect</strong> The head of the flail wraps around the target of the triggering Strike and drags it in your direction. The target must succeed at a @Check[fortitude|dc:37|name:Ouroboros Flail Pull] save or be pulled adjacent to you. A creature pulled in is then @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the flail until the end of your next turn unless you move, your target Escapes (DC 37), or you use the flail.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You extend the flail's chain, then wrap it across itself and strike two links together. This severs a usable 120-foot loop of chain from the flail, which instantly returns to its normal length. If you use this activation again, any previous chain you created with it disappears after 1 round. As with most obviously magical and temporary constructs, the chain cannot be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "magical",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Ouroboros Flail (Major)",
+    "price": {
+      "gp": 65000
+    },
+    "description": "<p>You can easily expand and contract the chain of this <em>+3 major striking greater extending war flail</em>. It magically grows new links when extended and loses them when contracted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You successfully Strike with the flail while activating its extending rune</p>\n<hr />\n<p><strong>Effect</strong> The head of the flail wraps around the target of the triggering Strike and drags it in your direction. The target must succeed at a @Check[fortitude|dc:43|name:Ouroboros Flail Pull] save or be pulled adjacent to you. A creature pulled in is then @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the flail until the end of your next turn unless you move, your target Escapes (DC 43), or you use the flail.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You extend the flail's chain, then wrap it across itself and strike two links together. This severs a usable 120-foot loop of chain from the flail, which instantly returns to its normal length. If you use this activation again, any previous chain you created with it disappears after 1 round. As with most obviously magical and temporary constructs, the chain cannot be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "magical",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Ouroboros Flail",
+    "price": {
+      "gp": 4400
+    },
+    "description": "<p>You can easily expand and contract the chain of this <em>+2 greater striking extending war flail</em>. It magically grows new links when extended and loses them when contracted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You successfully Strike with the flail while activating its extending rune</p>\n<hr />\n<p><strong>Effect</strong> The head of the flail wraps around the target of the triggering Strike and drags it in your direction. The target must succeed at a @Check[fortitude|dc:31|name:Ouroboros Flail Pull] save or be pulled adjacent to you. A creature pulled in is then @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] by the flail until the end of your next turn unless you move, your target Escapes (DC 31), or you use the flail.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You extend the flail's chain, then wrap it across itself and strike two links together. This severs a usable 60-foot loop of chain from the flail, which instantly returns to its normal length. If you use this activation again, any previous chain you created with it disappears after 1 round. As with most obviously magical and temporary constructs, the chain cannot be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "magical",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Overloaded Brain Grenade",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>It's possible for a desperate alchemist to rig the brain container of a defeated alchemical golem to create a volatile (if unusual) explosive. You throw the grenade up to 60 feet, and it explodes, dealing @Damage[3d6[fire],3d6[mental]]{3d6 fire damage and 3d6 mental damage} in a @Template[burst|distance:10] (@Check[reflex|dc:27|basic] save).</p>\n<p>On a critical failure, a creature takes @Damage[2d6[persistent,fire]] damage.</p>\n<p><strong>Craft Requirements</strong> Supply a brain case harvested from alchemical golem</p>",
+    "rarity": "unique",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire",
+      "mental",
+      "splash"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Ovinrbaane",
+    "price": {},
+    "description": "<p><strong>Perception</strong> [[/r 1d20+27 #Perception]]{+27}; precise vision 60 feet, imprecise hearing 60 feet</p>\n<p><strong>Communication</strong> empathy</p>\n<p><strong>Skills</strong> Deception [[/r 1d20+28 #Deception]]{+28}, Intimidation [[/r 1d20+32 #Intimidation]]{+32} Int +0, Wis +3, Cha +4 Will [[/r 1d20+33 #Will save]]{+33}</p>\n<hr />\n<p><em>Ovinrbaane</em> (literally translated as \"enemy of all enemies\") is instilled with an unquenchable bloodlust, and it chafes any time it is not being used to slay. If its partner goes too long without fighting, the sword misleads its wielder into believing they're the real Armag and that anyone around them who isn't obviously a member of their lineage or following is a mortal enemy. The cursed greatsword also slowly changes the features of the wielder over the course of several days or even weeks to appear as those of the original Armag. If left unchecked, these powers seemingly bring the warlord back to life-it's the wait for this subtle transformation to be complete that's kept the current \"Armag\" in meditation in the tomb for so long. The long-term effects on a PC as a result of this curse are left to the GM to adjudicate, but at the very least should result in a gradual shift of the PCs' alignment to chaotic neutral. If 24 hours pass without <em>Ovinrbaane</em> being used in an encounter of at least moderate difficulty, its partner becomes irritable and short-tempered, and is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} until the end of their first turn in a moderate or more difficult combat.</p>\n<p><em>Ovinrbaane</em> is a <em>+2 striking wounding greatsword</em>. It can perform all of the following activations, but only does so when its wielder is in combat against a foe the sword deems worthy-that is, any creature of the wielder's level or higher.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> Ovinrbaane casts @UUID[Compendium.pf2e.spells-srd.Item.Bless]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Trigger</strong> <em>Ovinrbaane's</em> partner becomes @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained]</p>\n<p><strong>Effect</strong> <em>Ovinrbaane</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Unfettered Movement] (heightened to 8th level) on its partner.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Trigger</strong> An undesirable spell effect with a duration affects <em>Ovinrbaane's</em> partner</p>\n<p><strong>Effect</strong> Ovinrbaane casts @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic] (heightened to 8th level, counteract check [[/r 1d20+31 #Counteract Check]]{+31}) on the spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Requirement</strong> <em>Ovinrbaane</em> hasn't been wielded in a moderate or more dangerous encounter within the last 24 hours</p>\n<p><strong>Effect</strong> Ovinrbaane casts @UUID[Compendium.pf2e.spells-srd.Item.Subconscious Suggestion] (heightened to 8th level, @Check[will|dc:34] save) on its partner, suggesting to the partner to attack the next time they face a potential encounter of moderate or greater danger.</p>\n<hr />\n<p><strong>Destruction</strong> In order to destroy <em>Ovinrbaane</em>, its wielder must bring it to the Boneyard, where they must use the sword to strike three blows against their own gravestone, causing the sword to shatter. How one can find their own gravestone in the Boneyard when they have yet to die and be judged, of course, can be a complex problem to solve, perhaps requiring the destroyer to first die, be judged, sent on to the afterlife, and then be restored to their original mortal life through the result of an epic quest by allies or the whims of a deity. Alternately, if <em>Ovinrbaane</em> is left unused for a hundred years, its magical powers grow dormant. At this time, the weapon can be destroyed normally, although it still has Hardness 30 and 120 Hit Points, and at the end of any round during which it is not destroyed, its dormant powers awaken again if it succeeds at a @Check[flat|dc:5]. Since the blade is currently active, this option doesn't present a particularly viable one for PCs seeking the artifact's destruction during the course of the Adventure Path- although sealing it away in a vault could be an excellent first step in this process, entrusting the final destruction of the dangerous artifact to some future generation of hero.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "cursed",
+      "intelligent",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Owlbear Egg",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Not only are owlbear eggs delicious when boiled, but when infused with a mix of alchemical reagents, they also make you emit a long screech much like an owlbear's. All creatures in a @Template[emanation|distance:30] must attempt a @Check[will|dc:23] save. Regardless of the result, creatures in the area are temporarily immune to this screech for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "auditory",
+      "consumable",
+      "emotion",
+      "fear",
+      "mental"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Oxygen Ooze",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You can chew on this translucent green ooze to cause it to expand into a bubble of slime that envelops your mouth and nose. For the next hour, the ooze provides breathable oxygen, allowing you to breathe in environments where you couldn't normally breathe. It then harmlessly dries up and falls away.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pacifying",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This rune turns weapons into instruments of peacemaking.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command (mental)</p>\n<p><strong>Trigger</strong> You damage a creature with the etched weapon</p>\n<hr />\n<p><strong>Effect</strong> The damaged creature must succeed at a @Check[will|dc:20] save or be pacified. A pacified creature takes a –2 penalty to attack rolls on any attacks that aren't nonlethal for 1 minute, and the creature also experiences a clear psychic warning that they should stop making attacks that could kill.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Pact-Bound Pistol",
+    "price": {
+      "gp": 260
+    },
+    "description": "<p>Wielded in over a hundred duels by the famed Ustalavic noblewoman Countess Tasya Iserav, this <em>+1 striking fearsome dueling pistol</em> is a work of master craftsmanship, almost eerie in the axiomatic perfection present in each dimension and detail.</p>\n<p>Commissioned at great expense and artfully designed by a team of the finest gunsmiths, this exquisite mahogany pistol has adamantine detailing. The ruby-eyed, leering devil's face that surrounds the barrel was intended to strike fear into the Countess's opponents-of which there were many. Countess Tasya credited this weapon with her exceptional success in dueling circles and refused to name the weapon's creators for fear their works would fall into an opponent's hands. In the past decade, seven replicas of the Countess's famed pistol have arisen, each said to be crafted by the Countess's anonymous gunsmiths. That each of these weapon's wielders have quickly risen to become exceptional duelists in their own right has lent credence to their claims. Despite public pressure, wielders of these replicas have refused to square off against the Countess.</p>\n<p>Despite the weapon's beauty and utility, a <em>pact-bound pistol</em> is a cursed weapon and a physical manifestation of an infernal contract sworn between the bearer of the weapon and the Archdevil Mephistopheles. Each <em>pact-bound pistol</em> was crafted not by a team of master artisans, but by Countess Tasya Iserav herself, a secret diabolist and devoted priestess of The Crimson Son. The very act of firing the weapon is an acceptance of the contract's terms and causes the weapon to fuse to you. Thereafter, the weapon reappears in your possessions within 1 minute of you discarding it, and can't be destroyed or thrown away permanently, until the curse is removed.</p>\n<p>Whenever you attack a living creature with the <em>pact-bound pistol</em>, text from the infernal contract is seared into your flesh, causing you to lose 1 Hit Point, or 2 Hit Points if the attack was a critical success. The text appears one sentence at a time, from the beginning to the end and is written in Infernal. When the contract is fully scribed (see below), you no longer lose Hit Points when you attack a living creature. These burned phrases heal over as scars which can't be removed while you are fused to the weapon, although they can be covered and disguised.</p>\n<p>Each time a creature dies within 1 hour of being damaged by a <em>pact-bound pistol</em>, that creature must attempt a @Check[will|dc:25|name:Pact Bound Pistol] saving throw. On a failure, their soul is consigned to the Archdevil Mephistopheles; their soul immediately goes to Hell and they can't be returned to life through any means short of divine intervention, a heist, or a successful appeal in the courts of Hell; even powerful magic such as wish is insufficient. After you have consigned 9 souls to Mephistopheles in this way, the contract is fully scribed upon your flesh. You become immune to fire damage and the <em>pact-bound pistol</em> becomes a +2 striking greater fearsome dueling pistol. Your soul belongs to Mephistopheles and immediately goes to Hell when you die. You can't be returned to life through any means, even through the divine intervention of a deity.</p>\n<p>Failing to wield a <em>pact-bound pistol</em> is a breach of contract. Each day you go without firing the <em>pact-bound pistol</em> at a living creature, you must attempt a Will saving throw. On a failure, you become @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}. If you are already stupefied, the value of your stupefied condition increases by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 4}. While you're fused with the <em>pact-bound pistol</em>, you can't reduce the value of your stupefied condition except by damaging a living creature with it. Whenever you damage a living creature with it, if you are suffering from the stupefied condition due to the <em>pact-bound pistol</em>, your stupefied condition is removed.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concealable",
+      "concussive",
+      "cursed",
+      "evil",
+      "fatal-d10",
+      "fire",
+      "magical",
+      "unholy"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pact of Blood-Taking",
+    "price": {},
+    "description": "<p><strong>Devil</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.Barbazu]</p>\n<p><strong>Decipher Writing</strong> Society, Warfare Lore</p>\n<hr />\n<p>You negotiate for might and viciousness.</p>\n<p><strong>Benefit</strong> Your successful Strikes with slashing and piercing melee weapons deal @Damage[1[bleed]] damage. On a critical success, this persistent bleed damage is equal to half your level.</p>\n<p><strong>Payment</strong> You regain half the normal number of Hit Points from resting (including Hit Points gained from long-term rest) and from any application of the Medicine skill.</p>\n<p><strong>Hidden Condition</strong> The barbazu owns any weapons you find. No more often than once per month, the barbazu can demand a single weapon of its choice (often the best weapon in your possession). You are compelled to hand over the weapon immediately, without question.</p>\n<p><strong>Termination Clause</strong> The contract guarantees that you will not \"be slain by the barbazu or by barbazu action.\" This wording is vague; if any barbazu kills you, or if you die from persistent bleed damage from any source, the contract is voided.</p>",
+    "rarity": "rare",
+    "traits": [
+      "contract",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Pactmaster's Grace",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>Granted by Katapesh's Pactmasters to influential merchants, exceptional Zephyr Guards, and favorite retainers, a pactmaster's grace is a crystal-studded blue platinum ring that sharpens the wearer's urban instincts. While invested, the ring grants a +2 item bonus to saving throws while you are in an urban setting, and this increases to a +3 item bonus if you have legendary proficiency in Guild Lore, Katapesh Lore, Mercantile Lore, or Society. You also gain a +3 item bonus to Mercantile Lore checks while wearing the ring, and you can attempt checks that require a proficiency rank of master in Society.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Padded Armor",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep magic armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Paint Set",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint set with extra paints and canvas for 1 sp.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Paired (Greater)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>These runes always come in pairs and can be applied to a garment's pockets to be activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The paired items are both invested, typically by two different characters, and are within 1 mile of each other</p>\n<hr />\n<p><strong>Effect</strong> Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Paired (Major)",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p>These runes always come in pairs and can be applied to a garment's pockets to be activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The paired items are both invested, typically by two different characters, and are on the same plane as each other</p>\n<hr />\n<p><strong>Effect</strong> Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Paired",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>These runes always come in pairs and can be applied to a garment's pockets to be activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The paired items are both invested, typically by two different characters, and are within 100 feet of each other</p>\n<hr />\n<p><strong>Effect</strong> Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Palanquin of Night",
+    "price": {
+      "gp": 825
+    },
+    "description": "<p>This small square of dark blue fabric appears to be painted with a depiction of the night sky, shifting each day to match the sky above Geb the previous night.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The fabric unfolds into a dark palanquin large enough to comfortably hold two Medium creatures. Four spectral bearers appear at the corners of the palanquin, capable of carrying it effortlessly over most types of terrain as long as the terrain is relatively flat and devoid of hazards. Spectral bearers have the statistics of an @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.Phantasmal Minion]{Unseen Servant}, except they're strong enough to carry the palanquin and its occupants. They move generally along a basic set of directions you indicate upon activation, which can include turns onto various streets, but they don't take other creatures' feelings into account and can be inconsiderate to passersby in an inhabited area as they relentlessly move you forward. The bearers move slowly but steadily along their simple directions. While the palanquin is perfectly suitable for overland travel, the bearers' imprecise movements and the requirement to reactivate the palanquin to change destinations make it unsuited for a combat encounter or other situation where seconds and precise movements count.</p>\n<p>The palanquin's interior ceiling is painted with the same night sky pattern as the cloth, and dark curtains hang over the windows. The palanquin protects its occupants from sunlight and severe heat and cold (though not extreme or incredible heat or cold) as well as blocks most non-damaging forms of weather. The palanquin is only as sturdy as a standard wooden carriage—if it would be destroyed, it instantly reverts to a square of fabric and can't be Activated again for 1 month.</p>\n<p>You can return the palanquin to its original shape by using an Interact action to command the spectral bearers to collapse it. They disappear the moment it returns to its fabric form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Pale Fade",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Pale fade is a white ointment with a sharp, earthy scent. The poison rapidly desiccates flesh, which then crumbles and forms a cloud of pallid dust. If the victim is @UUID[Compendium.pf2e.conditionitems.Item.Concealed] by this poison, then the cloud of dust also conceals other creatures from the victim.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:42]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[10d6[poison]] and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[12d6[poison]], drained 1, and concealed (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[15d6[poison]], drained 1, and concealed (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Palette of Masterstrokes",
+    "price": {
+      "gp": 1950
+    },
+    "description": "<p>This painter's palette is decorated with an image of Shelyn's religious symbol: a songbird with a colorful curved tail. The feathers on this tail constantly produce a wide range of colorful pigments, granting you a +2 item bonus to Crafting checks made to create paintings. A <em>palette of masterstrokes</em> functions as a divine focus for a cleric of Shelyn.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>palette of masterstrokes</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Creation] as a 5th-rank divine spell to your specifications.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (illusion, incapacitation)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> With a sweeping motion, you swing the <em>palette of masterstrokes</em> in your hand. It casts @UUID[Compendium.pf2e.spells-srd.Item.Dizzying Colors] as a 4th-rank divine spell. The spell DC is 29 (@Check[will|dc:29|traits:divine,illusion,incapacitation,spell,visual]).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Pallesthetic Mutagen",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>You gain unparalleled sensitivity to the tiniest of vibrations through solid surfaces and even the very air around you, but your eyes become useless.</p>\n<p><strong>Benefit</strong> For 1 minute, you gain precise echolocation out to 40 feet, imprecise tremorsense out to 60 feet, and a +2 item bonus to Perception checks using either of these senses.</p>\n<p><strong>Drawback</strong> You are @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pallesthetic Mutagen]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Palm Crossbow",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This thick, elegant bracelet conceals a specialized firing mechanism that can hold a single blowgun dart. You can fire the dart normally from the bracelet. Recognizing the bracelet's nature requires a successful @Check[perception|dc:25|traits:action:seek] check.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You expand the bracelet into a @UUID[Compendium.pf2e.equipment-srd.Item.Hand Crossbow]. The bracelet has enough pieces to assemble up to three bolts, but the bolts contain necessary components for the bracelet. Without all of the bolt pieces, you cannot collapse the crossbow back into a bracelet.</p>",
+    "rarity": "rare",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Panabas",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This weapon has practical uses in both farming and butchering, thanks to the efficiency and brutality of its forward-curving blade. It can be wielded in one or two hands.</p>",
+    "rarity": "common",
+    "traits": [
+      "forceful",
+      "sweep",
+      "two-hand-d10"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Panacea Fruit",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p>This fruit is slowly, constantly changing shape, transforming from one fruit into another, but always appearing at the peak of ripeness.</p>\n<p>When you consume the fruit, it attempts to counteract all curses, diseases, and poisons affecting you, and you immediately regain @Damage[(8d8+30)[healing]]{8d8+30 Hit Points}. The fruit has a counteract rank of 9 and a [[/r 1d20+30]] modifier for the rolls against each condition.</p>\n<p>The fruit's seed remains after consumption and can be planted later, becoming a seed-shaped @UUID[Compendium.pf2e.equipment-srd.Item.Feather Token (Tree)] that sprouts a tree bearing many kinds of mundane fruit.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "healing",
+      "primal"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Panacea",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This potion appears to shift colors, and no two observers describe it in the same way. When consumed, it attempts to counteract all curses and diseases affecting you, as well as the blinded and deafened conditions from spells affecting you. The potion has a counteract rank of 7 and a [[/r 1d20+20]] modifier for the roll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Panaceatic Salve",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This pungent herbal ointment was originally only intended for use as an analgesic. That being said, popular folklore around this salve claims it can do anything from curing fevers to repelling vampires, a reputation that, if nothing else, is easy to get swept up in. When you activate a dose of panaceatic salve by rubbing it on your skin, you gain 4d8+10 temporary Hit Points for 10 minutes. At the end of this duration, if you still retain at least 1 of these temporary Hit Points, you can attempt a new saving throw against an ongoing disease or poison affliction you're afflicted with; if you fail or critically fail this saving throw, you don't increase the affliction's stage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Panaceatic Salve]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "mental",
+      "oil"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pantograph Gauntlet",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A pantograph gauntlet is a heavy, fist-like weight, mounted on an extendable frame and attached to your outer arm with a series of leather straps. The frame's set of mechanical linkages connected at various hinges allow movements to propagate across the frame based on reshaping parallelograms, further controlled by a crossbar grasped in your hand. A pantograph gauntlet is driven by your own motion and mirrors your arm's movements-a punch thrown with your fist moves the pantograph, extending the weight out at a rapid speed to land blows up to 10 feet away. In some regions, such as Alkenstar and Ustalav, pantograph gauntlets are occasionally constructed entirely of metal and fashioned in the likeness of oversized arms, incorporating a complex system of gears or a miniature steam engine in place of the simpler pantograph mechanism.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d6",
+      "monk",
+      "reach",
+      "shove"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Paper Shredder",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Whether it's a parchment with ominous pentagrams and dangerous magical symbols inscribed upon it, incriminating legal documents, or just simply paper waste, sometimes you just need to make sure a document is completely destroyed in a way that makes it nearly impossible to read afterwards. Enter the paper shredder, a clockwork device that performs exactly this function.</p>\n<p>With 1 minute of wind-up, a paper shredder can function for up to 1 hour of shredding, and it automatically enters standby mode when not in use, meaning the device can typically go for weeks between wind-ups unless you shred an exceptionally large volume of paper.</p>\n<p>Setting a piece of paper or parchment into the paper shredder takes a single Interact action, which means you can shred up to three pages of paper or parchment each round. If the page is longer than normal, it takes longer to shred, as determined by the GM. Additionally, only one person can use the shredder each round, limiting it to shredding three pages per round regardless of how many people are available to feed paper into it. The paper shredders rips and tears the paper or parchment apart into tiny disjointed strips. This is typically sufficient to destroy @UUID[Compendium.pf2e.spells-srd.Item.Rune Trap] and other similar dangerous magical traps on the paper, though the GM might determine that particularly resilient magical traps find some way to survive their shredding. If the paper is magically protected or otherwise has more Hardness than a normal sheet of paper or parchment, the shredder can't shred it. After churning such hardened paper for 1 round, the shredder spits it back out without harming the shredder. This prevents shredding any other paper during that round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Parade armor with flourishes",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Parade Armor",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Parade armor is an armor adjustment that creates a set of pseudo-decorative armor to wear during noncombat functions. Any medium or heavy armor can be fashioned into parade armor, which features custom designs based on the wearer's affiliation, military branch, or rank. A particular faction typically has one uniform appearance for its set of parade armor. While wearing this armor, you gain a +1 item bonus to Diplomacy and Intimidation checks against creatures of the same affiliation as your parade armor, though the bonus to Intimidation doesn't apply when interacting with creatures of higher rank than you. The armor is slightly bulkier, increasing the Bulk by 1.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Paradise Light",
+    "price": {
+      "gp": 1100
+    },
+    "description": "<p>This crystal phial was created from Brilliance, a condensed planar fragment of the plane of Nirvana which is trapped within Gloaming Arbor. A <em>paradise light</em> glows brightly, shedding bright light in a 30-foot radius and dim light to a further 30 feet. A PC that looks into the <em>paradise light</em> sees images of Nirvana, an idyllic pastoral paradise. A <em>paradise light</em> is required to navigate the heart of the forest in Gloaming Arbor.</p>\n<p>A <em>paradise light</em> automatically attempts to counteract any magical darkness that it's light enters. When the <em>paradise light</em> successfully counteracts an area of magical darkness, that area becomes overlain by a reflection of Nirvana, changing the appearance of the area. This illusory transformation lasts for 1 hour.</p>\n<p><strong>Activate—Sanctum</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You conjure a shard of Nirvana in a 30 foot emanation, temporarily altering the landscape into an soothing meadow for 1 minute. Creatures in the area gain a +1 item bonus to Will saves and Wisdom-based skill checks, and have fast healing 2. A creature in the area that attempts to take a hostile action must succeed at a @Check[will|dc:28] save or the hostile action is prevented and the actions they would've spent are wasted.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "light",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Parchment of Direct Message",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>These two sheets resemble ordinary parchment, save for a simple seal burned into the corner. The two sheets are magically linked, though if either of the sheets is burnt, cut in half or smaller, or otherwise destroyed, then the other sheet becomes an ordinary piece of parchment. When you write a message on one of the sheets, the text disappears over the span of 1 minute, leaving no ink, imprint, or any other trace of inscription behind. The message then appears on the linked piece of parchment. The magical link between the sheets only functions while both sheets are within 10 miles of each other. Outside of this range, any writing remains on the sheets as if they were mundane sheets of parchment, though this writing becomes erased if the parchment is activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p><strong>Effect</strong> You utter a specific magical phrase while holding one of the sheets of parchment. All writing disappears from the parchment.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Parchment of Secrets",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p><strong>Access</strong> Member of a secret society</p>\n<hr />\n<p>This parchment is crafted with illusion magic, allowing for the transfer of secret messages. You can fill the parchment with the usual amount of text, encoding your secret message within the innocuous message.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p><strong>Effect</strong> You tap the letters of your secret message one at a time, causing the letters to glow momentarily before fading to their standard ink color, and a symbol of your choice appears at the corner of the page. The next time someone taps the symbol with a writing instrument, the chosen letters glow again, revealing the secret message, and then the power of the parchment is spent.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Parrying Scabbard",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>You can draw this reinforced sheath during the same Interact action you use to draw the weapon it holds, wielding the weapon in one hand and the scabbard in your other. A parrying scabbard can be used for your defense much like a weapon with the parry trait: you can spend an action to position it defensively, gaining a +1 circumstance bonus to AC until the start of your next turn. Parrying scabbards are available for any sword that can be wielded in one hand.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Passage Charm",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This glossy black brooch is made of solidified shadows and is a gift, given by Avathrael Realmshaper to their allies to allow them to navigate the heart of the forest within Gloaming Arbor. While wearing a <em>passage charm</em>, you can cast @UUID[Compendium.pf2e.spells-srd.Item.Darkness] as an innate occult spell twice per day.</p>\n<p><strong>Activate—Shape the Shadows</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're in an area that's dark or dim light</p>\n<hr />\n<p><strong>Effect</strong> You command the shadows to do your bidding, forming a path, a ramp, a wall, or stairs. The <em>passage charm</em> casts 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Wall of Stone], except the spell loses the earth trait, gains the shadow trait, and has a duration of 24 hours, and the wall is created from solid shadows, rather than stone. If any section of the wall is exposed to bright light, that portion of the wall has its Hardness temporarily reduced by half (to Hardness 7).</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "shadow"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Passage Pane",
+    "price": {},
+    "description": "<p>The pane of this large circular mirror has a diameter of 8 feet and a gray cast. The mirror reflects its surroundings in muted colors, and any living creatures that look into the mirror see themselves as preserved corpses with sallow skin, sunken cheeks, and a vacant expression. The mirror is mounted in a bone frame intricately carved with imagery of corvids, keys, and winding roads. These roads represent the Dead Roads, the secret back routes between the Boneyard and all other planes that are under the purview of the psychopomp usher Barzahk the Passage and their followers.</p>\n<p><em>Passage panes</em> are created by incredibly powerful priests of Barzahk using mirrors that have reflected Barzahk during their travels from when Barzahk passes through mortal realms. Through prayer, powerful magic, and exceptional crafting skill, these mirrors form a spiritual connection to the Dead Roads, which can be harnessed to open a gate to the Boneyard.</p>\n<p>To utilize a <em>passage pane</em>, the mirror must be securely mounted on a solid surface. Once mounted, a user must bond with the <em>passage pane</em> by gazing beyond their dead visage into the Dead Roads. Bonding takes patience and can only be accomplished by a living creature who has at least master proficiency in Religion and who succeeds at a @Check[religion|dc:40] check. Attempting to bond with the mirror in this way takes 1 hour. Once a creature is bonded with the mirror, they can use the <em>passage pane</em> to open a portal to a random point along the Dead Roads. A creature with knowledge of a location in the Boneyard can force the mirror to lock onto that location, allowing more pointed travel. Only one creature can be bonded with the mirror at a time. When a creature forms a bond with the mirror, any previous bonds are immediately severed. Undead can't bond with the <em>passage pane</em>.</p>\n<p>When Barzahk themself walks the Dead Roads, a depiction of them appears in the frame's carvings. When Barzahk is depicted in this way, they can prevent the <em>passage pane</em> from Activating or alter the destination of the <em>passage pane</em>, if desired.</p>\n<p><strong>Activate</strong> 1 minute (envision, Interact; divination, divine, scrying)</p>\n<p><strong>Requirements</strong> The <em>passage pane</em> is mounted firmly to a solid surface, and you're bonded with the <em>passage pane</em></p>\n<hr />\n<p><strong>Effect</strong> You focus on a location in the Boneyard that you wish to travel to. You must have either seen or visited this location before or be able to describe the location in detail and its purpose or name, as appropriate. Attempt a @Check[religion|dc:40] check. On a success, the mirror locks onto your desired location, and you (and only you) see this location reflected in the mirror's pane.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact (conjuration, divine, teleportation)</p>\n<p><strong>Frequency</strong> once per week</p>\n<p><strong>Requirements</strong> The <em>passage pane</em> is mounted firmly to a solid surface, and you're bonded with the <em>passage pane</em></p>\n<hr />\n<p><strong>Effect</strong> You urge the mirror to open a rift to the Boneyard. Creatures can travel through this rift in either direction. If you've successfully forced the mirror to lock onto a specific location, the mirror's pane becomes a rift to the Boneyard that opens onto that location. If you haven't forced the mirror to lock onto a specific location, the mirror's pane becomes a rift to a random location on the Dead Roads. This rift remains open until you close it, up to a maximum of 24 hours. As long as the rift is open, the mirror is immovable, no one can form a bond with the mirror, and no one but you can Activate the mirror.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact (conjuration, divine, teleportation)</p>\n<p><strong>Requirements</strong> The <em>passage pane</em> is an active rift to the Boneyard, and you're bonded with the <em>passage pane</em></p>\n<hr />\n<p><strong>Effect</strong> You close the rift.</p>\n<hr />\n<p><strong>Destruction</strong> The <em>passage pane</em> shatters into thousands of pieces if Barzahk the Passage bonds with the mirror and wills its destruction.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "divine",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Pathfinder Chronicle",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>Numerous volumes and editions of the Pathfinder Chronicles exist, each cataloging different adventures. Pathfinder Chronicles are a type of scholarly journal that specifically devotes topics to Pathfinder discoveries, rather than more theoretical academic topics. Because Pathfinders have better access to these chronicles than other scholarly journals, they are particularly common among Pathfinder agents building a library of reference texts.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Pathfinder's Coin",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This coin usually resembles ancient currency. An intricate matrix of gold and platinum wires inside the coin causes it to float an inch in the air and spin if placed on a wayfinder.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<p><strong>Requirements</strong> The coin is levitating above a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder]</p>\n<p><strong>Effect</strong> You give the coin a message of 25 words or fewer. The message repeats in your voice the next time the coin is floated above a <em>wayfinder</em>. A <em>Pathfinder's coin</em> can hold only one message at a time, and it replays its message only once.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Pathfinder's Mentor",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+15]]{+15}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> telepathy (Common and two other common languages)</p>\n<p><strong>Skills</strong> Pathfinder Lore [[/r 1d20+15]]{+15}, Society [[/r 1d20+13]]{+13}, Survival [[/r 1d20+13]]{+13}</p>\n<p><strong>Int</strong> +3, <strong>Wis</strong> +3, <strong>Cha</strong> +1</p>\n<p><strong>Will</strong> [[/r 1d20+14]]{+14}</p>\n<hr />\n<p>A Pathfinder's mentor is a bi-resonant wayfinder that has developed sapience. Most Pathfinder's mentors are eager explorers that object to staying in one location for long, urging their bearers toward ancient ruins to explore, relics to study, and discoveries to make. To this end, the wayfinder acts as a guide, making Survival checks on your behalf during your travels. A Pathfinder's mentor also has the following activations.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, envision</p>\n<p><strong>Effect</strong> The wayfinder casts @UUID[Compendium.pf2e.spells-srd.Item.Know the Way] on you.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The wayfinder casts @UUID[Compendium.pf2e.spells-srd.Item.Wanderer's Guide] on you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "illusion",
+      "intelligent",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Pathfinder's Pouch",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>This unobtrusive belt pouch is popular among Pathfinders who operate in places where the Society is not welcome. It is constantly under the effects of a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Disguise Magic] spell to appear non-magical. The pouch's normal space holds as much as an ordinary belt pouch, but it also has a small extradimensional space that holds up to 1 Bulk of items. A creature actively inspecting the pouch in its ordinary state discovers the existence of the extradimensional space only on a critical success to Search the pouch (see the Concealing an Item action of the Stealth skill), though when the extradimensional space is active, it's obvious to anyone examining the pouch that it is more than it seems.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You switch the pouch to allow access to its extradimensional space instead of its normal space, or vice versa. This lasts until you next activate it. Items in the other space are inaccessible and hard to find until you switch the pouch back.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Peace in Dreams Tea",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact or 10 minutes (concentrate, Interact)</p>\n<hr />\n<p>This creamy tea is made from warm soy milk steeped with whole, dried chrysanthemum flowers and honey and brewed from when the sun first touches the horizon to when it has fully set. Consuming this tea causes mild drowsiness, aids in sleep, and protects from harmful mental effects. You gain a +1 item bonus to all saving throws against mental effects for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Peace in Dreams Tea]</p>\n<hr />\n<p><strong>Tea Ceremony</strong> The effects last for 8 hours, and as long as you're asleep, the item bonus increases to +2.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion",
+      "tea"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Peacemaker",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Usage</strong> affixed to a weapon</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">a</span> envision, manipulate</p>\n<p><strong>Requirements</strong> Your last action was an Interact action to stow the affixed firearm or crossbow.</p>\n<hr />\n<p>This ragged piece of white cloth is wrapped around the grip, stock, or haft of the affixed weapon. When you activate the talisman, you gain the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Sanctuary] spell (DC 20) lasting for 1 minute. If you draw the affixed firearm, the effect ends immediately and the talisman crumbles.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Peachwood Branch",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>Peachwood, often cultivated by Pharasmin priests, can ward against undead—even incorporeal ones. However, the wood loses its magical properties when it comes in contact with metal, requiring advanced carpentry to make full use of it.</p>\n<hr />\n<h2>Peachwood Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Peachwood Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>4</td>\n<td>16</td>\n<td>8</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>8</td>\n<td>32</td>\n<td>16</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>12</td>\n<td>48</td>\n<td>24</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>18</td>\n<td>64</td>\n<td>32</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "uncommon",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Peachwood Lumber",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>Peachwood, often cultivated by Pharasmin priests, can ward against undead—even incorporeal ones. However, the wood loses its magical properties when it comes in contact with metal, requiring advanced carpentry to make full use of it.</p>\n<hr />\n<h2>Peachwood Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Peachwood Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>4</td>\n<td>16</td>\n<td>8</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>8</td>\n<td>32</td>\n<td>16</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>12</td>\n<td>48</td>\n<td>24</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>18</td>\n<td>64</td>\n<td>32</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "uncommon",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Peachwood Talisman",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Access</strong> Tian Xia origin</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p><hr /><p>Symbols of good fortune and luck are carved on this thin, square wooden plaque. It smells of sandalwood from the blessings placed upon it. After activation, for the next minute, you can sense attacks from undead. You aren't @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to @UUID[Compendium.pf2e.conditionitems.Item.Hidden], @UUID[Compendium.pf2e.conditionitems.Item.Undetected], or flanking undead of your level or lower, or undead of your level or lower using surprise attack. However, they can still help their allies flank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pearl, black",
+    "price": {
+      "gp": 50
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Pearl, irregular freshwater",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Pearl, saltwater",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Pelagic Helmet",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Most merfolk have no problem surfacing for a while, but constant existence in the air is exhausting and demoralizing. A clever artisan off the coast of Arcadia came up with this solution—a sturdy frame that goes on the shoulders and supports a bubble-like helmet filled with water. A mouthpiece lets the wearer speak to the outside world, and a plant-based filtration system keeps the water at the appropriate level of freshness or brackishness for the wearer. Over the years, these contraptions have spread to most of the world's oceans, though many merfolk don't use them—some find the devices just too heavy and would rather deal with the dryness. The helms are especially popular with abyssal merfolk, who tint the glass dark to protect from the too-bright surface.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Pendant of the Occult (Greater)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>This amulet is hollow and shaped in the form of an unblinking eye. Its cavity typically holds some fragment of occult text. While wearing the pendant, you gain a +2 item bonus to Occultism checks, and you can cast the @UUID[Compendium.pf2e.spells-srd.Item.Guidance] cantrip as an occult innate spell.</p>\n<p>The pendant can be activated.</p>\n<p><strong>Activate—Dream Message</strong> 10 minutes (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dream Message] spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Pendant of the Occult",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This amulet is hollow and shaped in the form of an unblinking eye. Its cavity typically holds some fragment of occult text. While wearing the pendant, you gain a +1 item bonus to Occultism checks, and you can cast the @UUID[Compendium.pf2e.spells-srd.Item.Guidance] cantrip as an occult innate spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Penetrating Ammunition",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Ammunition</strong> arrow, bolt</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This ammunition has a slender shape and a viciously pointed tip. When you activate and shoot <em>penetrating ammunition</em>, the Strike takes the shape of a @Template[line|distance:60] originating from you.</p>\n<p>Roll one attack roll and compare the result to the AC of each target in the line. The ammunition ignores up to 10 of a target's resistance, and it can penetrate walls up to 1 foot thick with Hardness 10 or less. Each target that takes damage from this ammunition also takes @Damage[1d6[bleed]].</p>\n<p>If your attack roll result is a natural 20, you improve your degree of success only against the first target in the line, but you can still score a critical hit on other targets if your result exceeds their AC by 10 or more.</p>\n<p>If you have access to your bow's critical specialization effect, <em>penetrating ammunition</em> applies that effect only against a target in the last square of the line.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pepperbox",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>This weapon is a specialty of the smiths of Alkenstar. The pepperbox has three barrels that each hold a single shot, and the shooter can manually rotate the whole barrel assembly to align a loaded barrel with the firing mechanism.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "capacity-3",
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Perfect Droplet (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>Intense blue water magically holds its shape-a perfect sphere. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to water effects and attacks by water creatures.</li>\n<li><strong>Weapon</strong> After you cast a water spell by Activating the <em>droplet</em>, your body becomes mistlike. Until the end of the turn, you can move through enemies' spaces. You can't move through creatures that have the water trait in this way.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Perfect Droplet - Armor (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spout].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Aqueous Orb] or @UUID[Compendium.pf2e.spells-srd.Item.Feet to Fins].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "water"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Perfect Droplet (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>Intense blue water magically holds its shape-a perfect sphere. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to water effects and attacks by water creatures.</li>\n<li><strong>Weapon</strong> After you cast a water spell by Activating the <em>droplet</em>, your body becomes mistlike. Until the end of the turn, you can move through enemies' spaces. You can't move through creatures that have the water trait in this way.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Perfect Droplet - Armor (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spout].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Aqueous Orb] or @UUID[Compendium.pf2e.spells-srd.Item.Feet to Fins].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Hydraulic Torrent].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "water"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Perfect Droplet",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>Intense blue water magically holds its shape-a perfect sphere. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to water effects and attacks by water creatures.</li>\n<li><strong>Weapon</strong> After you cast a water spell by Activating the <em>droplet</em>, your body becomes mistlike. Until the end of the turn, you can move through enemies' spaces, treating each square in their spaces as difficult terrain. You can't move through creatures that have the water trait in this way.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Perfect Droplet - Armor]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spout].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "water"
+    ]
+  },
+  {
+    "level": 22,
+    "name": "Perfected Robes",
+    "price": {},
+    "description": "<p>These unadorned white robes, fastened with simple brass pins in the shape of a human hand, can't be soiled or blemished. While wearing <em>perfected robes</em>, you don't need to eat, sleep, or drink, but you can if you choose to. The robes bless you with constant @UUID[Compendium.pf2e.spells-srd.Item.Truesight] (+32 counteract bonus). A creature who dons these robes without earning them is @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 3} while wearing them, gaining the true seeing but otherwise unable to use the robes' magic.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to attempt a d20 roll with which you have legendary proficiency, roll twice and take the better result. This is a fortune effect.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Avatar], gaining the abilities for Irori.</p>\n<p><strong>Destruction</strong> If the wearer ever willingly turns from the path of self-perfection into corruption or overindulgence, their <em>perfected robes</em> crumble to nothing.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "divine",
+      "invested"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Peridot",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Periscope",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This is a 2-foot-long tube with two angled mirrors, one at each end. When the mirrors are aligned correctly, you can look around obstacles while remaining behind cover. This doesn't provide a sufficient line of effect to target creatures around corners.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Periscopic Viewfinder",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This bronze, spherical device slowly rotates around a cluster of angled mirrors and a light-filled orb. When you activate the viewfinder, it spins rapidly and reflects light into the orb at the center. This reveals the area around you up to 30 feet in a burst of light, including objects and areas that aren't in your line of sight. This doesn't grant you any additional information that couldn't otherwise be gathered by your senses.</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Pernicious Spore Bomb (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. You gain a +2 item bonus to attack rolls. The bomb deals 3 poison damage, 3d4 persistent piercing damage, and 3 poison splash damage. Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Pernicious Spore Bomb (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. The bomb deals 1 poison damage, 1d4 persistent piercing damage, and 1 poison splash damage. Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Pernicious Spore Bomb (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. You gain a +3 item bonus to attack rolls. The bomb deals 4 poison damage, 4d4 persistent piercing damage, and 4 poison splash damage. Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Pernicious Spore Bomb (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. You gain a +1 item bonus to attack rolls. The bomb deals 2 poison damage, 2d4 persistent piercing damage, and 2 poison splash damage. Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Persistent Lodestone",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p><strong>Usage</strong> affixed to a firearm with a reload of 1</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You miss on a ranged Strike with the affixed weapon using an ordinary 0-level piece of ammunition.</p>\n<hr />\n<p>This small magnetite block is attached to the barrel of the firearm by a thin metal wire drilled through a hole in its center. When you activate the lodestone, the ammunition from your missed shot is immediately recalled to your firearm, allowing you to fire again without reloading.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  }
+]

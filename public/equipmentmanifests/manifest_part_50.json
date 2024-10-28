@@ -1,0 +1,1027 @@
+[
+  {
+    "level": 15,
+    "name": "Wisp Chain (Major)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a @Check[fortitude|dc:32] save. On a failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a @Template[cone|distance:60]. Creatures in the area take @Damage[12d6[slashing]|options:area-damage] damage with a @Check[fortitude|dc:34|basic|options:area-effect] save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wisp Chain (True)",
+    "price": {
+      "gp": 35000
+    },
+    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a @Check[fortitude|dc:39] save. On a failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a @Template[cone|distance:60]. Creatures in the area take @Damage[16d6[slashing]|options:area-damage] damage with a @Check[fortitude|dc:41|basic|options:area-effect] save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wisp Chain",
+    "price": {
+      "gp": 685
+    },
+    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a @Check[fortitude|dc:23] save. On a failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a @Template[cone|distance:60]. Creatures in the area take @Damage[6d6[slashing]|options:area-damage] damage with a @Check[fortitude|dc:25|basic|options:area-effect] save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Witch Token",
+    "price": {},
+    "description": "<p>When the <em>witch token</em> is invested by a mortal, all of the mortal's spells, except those cast at the highest level the mortal can cast, count as 1 level higher for the purpose of counteracting other spells and being counteracted. The creature can also Activate the <em>witch token</em> to Cast a Spell once per day. This spell is chosen from one of the uniila's arcane spontaneous spells of rank 4 or lower when the uniila creates the token. While a creature has the <em>witch token</em> invested, it treats its saving throws against the uniila's spells as one degree of success worse, and the uniila always knows the distance and direction to the creature. A creature can't have more than one <em>witch token</em> invested, and an uniila can't have more than one <em>witch token</em> in existence. The uniila can destroy their <em>witch token</em> as a free action with the concentrate trait; if the <em>witch token</em> is invested when the uniila does so, the creature that has the <em>witch token</em> invested takes @Damage[9d8[mental]] damage (@Check[will|dc:29|basic]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "arcane",
+      "invested"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Witch's Finger",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Shaped like a pointed, gnarled finger on a stick, witch's finger is a frozen treat imbued with berries that lend it a blood-red hue. A popular tale claims Irriseni winter witches created this dessert, but the story is apocryphal; an enterprising ice cream shop owner in New Stetven invented the treat and, as a marketing ploy, the myth surrounding it. Taking a bite makes you feel warm. For 1 hour, you have cold resistance 3, and for 8 hours, the treat negates the damage you would take from severe environmental cold and reduces the damage you take from extreme cold to that of severe cold.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Witch's Finger]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Witchwarg Elixir (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir warms your core and improves your circulation. For 24 hours, you are protected from the effects of severe cold. You're also protected from extreme and incredible cold.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Witchwarg Elixir (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir warms your core and improves your circulation. For 24 hours, you are protected from the effects of severe cold.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Witchwarg Elixir (Moderate)",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir warms your core and improves your circulation. For 24 hours, you are protected from the effects of severe cold. You're also protected from extreme cold.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Witchwarg Fur",
+    "price": {
+      "gp": 52
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p><hr /><p>The pelt of a witchwarg stays cold long after it leaves the creature's body. A tuft of this fur can freeze a @UUID[Compendium.pf2e.spells-srd.Item.Fire Shield] spell into solid ice, inverting its usual effects. The spell's fire trait is replaced with the cold trait, you gain resistance to fire damage and environmental heat effects (instead of cold effects), the shield is immune to cold damage instead of fire damage, and its Hardness is halved against fire effects. The damage you deal to creatures that touch you or hit you with a melee or unarmed attack has its type changed to cold.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Witchwyrd Beacon",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Made of djezet, orichalcum, and luminous, resonant crystal, a <em>witchwyrd beacon</em> looks like a series of concentric rings mounted on rods that allow the rings to rotate independently of each other. These potent items are used by the Pactmasters of Katapesh to facilitate swift travel and are only rarely entrusted to others.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (command, envision, Interact)</p>\n<p><strong>Effect</strong> By touching the <em>witchwyrd beacon</em> and focusing on it for 10 minutes, you attune yourself to it. Up to four creatures can be attuned to a single <em>witchwyrd beacon</em> at any one time—to attune another creature, one of the previous four must become unattuned. You can break your attunement to a witchwyrd beacon by Dismissing the effect. The attunement automatically ends if the attuned creature dies or if the attuned creature attunes themselves to a different <em>witchwyrd beacon</em>. The effect can also be dispelled normally. You can sense whenever the <em>witchwyrd beacon</em> you are attuned to is activated in any way.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (command, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> you are attuned to the <em>witchwyrd beacon</em></p>\n<p><strong>Effect</strong> You place the <em>witchwyrd beacon</em> on a flat, stable, and immobile surface, then adjust its rings to link it to the site. Once linked, any creature can use a teleportation effect to target the <em>witchwyrd beacon</em> directly, regardless of line of sight. You can @UUID[Compendium.pf2e.spells-srd.Item.Translocate] or @UUID[Compendium.pf2e.spells-srd.Item.Gate] to the beacon as if you could see its location, and if you travel to it via an effect like @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport], the beacon eliminates the imprecision of the spell. The beacon doesn't change the range of effects, only their accuracy. Once the beacon is used in this manner, it loses its link and must be reactivated again to grant this benefit to attuned creatures.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wizard's Tower",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>A wizard's tower is a tiny gaming piece carved into the form of a stone tower.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The gaming piece transforms into a fully furnished stone tower 80 feet high and 30 feet in diameter. The tower is topped by a peaked wooden roof, with a wooden door on the second floor accessed by wooden stairs on the tower's exterior. A spiral staircase in the center of the tower connects its 6 floors. The bottom floor is empty, ideal for storage, and the second floor is a great hall for audiences and guests. The third and fourth floors are divided into servants quarters and guest rooms, while the top two floors feature luxurious personal chambers and an alchemy lab. You can revert the tower back to its original state by climbing to the top floor and using an action to speak a command word.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Wolf Fang",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> You successfully @UUID[Compendium.pf2e.actionspf2e.Item.Trip] a foe</p>\n<hr />\n<p>This wolf canine is bound in a strip of leather and tied to a buckle or strap of a suit of armor.</p>\n<p>When you activate the fang, you deal @Damage[(@actor.abilities.str.mod)[bludgeoning]]{bludgeoning} damage equal to your Strength modifier to the target of your Trip.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wolfjaw Armor",
+    "price": {
+      "gp": 355
+    },
+    "description": "<p>Barbarians, druids and other outlanders are often forced to spend the harsh winter months protecting their communities from one of the deadliest predators to stalk the forests and taiga of the northern reaches, the fearsome winter wolf. This <em>+1 hide armor</em> is assembled from the hide and fur of a trio of winter wolves, and it conveys on the wearer both an attack akin to the winter wolves' deadly jaws and the ability to channel the frigid cold of the winter wolf's Breath Weapon.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (cold)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You breathe a cloud of frost in a @Template[cone|distance:15] that deals @Damage[5d8[cold]] damage (@Check[reflex|dc:23|basic]).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You gain a jaws unarmed attack that you make using your hands. This attack deals 1d8 piercing damage plus 1 cold damage, is in the brawling group, and has the trip and unarmed traits.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wolfjaw Armor]</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the hides of at least three winter wolves.</p>\n<p><em>Note: A duration for the activation effect was not included in the statblock by Paizo. We have assumed a 1 minute duration for the effect</em></p>",
+    "rarity": "common",
+    "traits": [
+      "primal"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wolfsbane",
+    "price": {
+      "gp": 155
+    },
+    "description": "<p>Wolfsbane appears in folklore for its link to werecreatures. If you are afflicted with lycanthropy and survive Stage 3 of wolfsbane, you're immediately cured of the lycanthropy.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[3d10[poison]] damage (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[4d10[poison]] damage (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[5d10[poison]] damage (1 minute)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Wolliped Fleece",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add one action)</p><hr /><p>A small bundle of <em>wolliped fleece</em> contains the memory of winter snows. Adding this catalyst to a casting of @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray] coats all squares within the area of effect with a thin layer of ice. These squares become difficult terrain until the beginning of your next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wondrous Figurine (Bismuth Leopards)",
+    "price": {
+      "gp": 495
+    },
+    "description": "<p>This exquisitely crafted statuette is carved into the form of twin panthers climbing a tree. When activated, it transforms into a pair of beautiful @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Leopard]{Leopards} that are carved out of bismuth and flash hypnotically as they move. Creatures that come within 5 feet of a bismuth leopard or that end their turn within 5 feet of a bismuth leopard become @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round unless they succeed at a @Check[will|dc:24|name:Dazzling Bismuth Leopard|traits:visual|showDC:all] save. A creature that comes within 5 feet of both leopards or ends its turn within 5 feet of both leopards need only attempt one saving throw each time. The leopards can be called on only once per day, and they remain in their leopard form for up to 10 minutes. If either of the leopards is slain, that leopard can't be summoned again until 1 week has passed, but this doesn't prevent you from summoning the other leopard.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wondrous Figurine (Candy Constrictor)",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>Although appearing as a multicolored piece of stick candy, this figurine bears a narrow snake head at one end and is as durable as stone.</p>\n<p>When activated, it becomes a rainbow-striped @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Python]{Ball Python} except it lacks the Stealth skill.</p>\n<p>The snake can be used once per day, and it can remain in snake form for up to 20 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wondrous Figurine (Golden Lions)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p>\n<hr />\n<p>This statuette depicts a pair of gold lions, and when activated, it becomes a pair of adult @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Lion]{Lions}.</p>\n<p>The lions can be called on only once per day, and they remain in lion form for no more than 1 hour.</p>\n<p>If either of the lions is slain, that lion cannot be summoned again until 1 week has passed, but this doesn't prevent you from summoning the other.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wondrous Figurine (Jade Serpent)",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This tiny statue first appears to be a formless lump of jade until closer inspection reveals it to be a serpentine body curled into a snug knot.</p>\n<p>When activated, this figurine becomes a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Giant Viper].</p>\n<p>The figurine can be used only once per day, and it can remain in serpent form for no more than 10 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wondrous Figurine (Marble Elephant)",
+    "price": {
+      "gp": 2700
+    },
+    "description": "<p>Finely carved from a solid piece of marble, this gleaming elephant statuette becomes a fully grown @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Elephant] when activated.</p>\n<p>The elephant can be called upon no more than four times per month. It remains for 24 hours as long as it is being used as a beast of burden or for transport.</p>\n<p>If it attempts an attack or otherwise engages in combat, it reverts to statuette form after [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wondrous Figurine (Obsidian Steed)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This sinister-looking black statuette resembles a horse rearing up on its hind legs.</p>\n<p>When activated, this figurine becomes a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Nightmare].</p>\n<p>It can be called upon once per week for up to 24 hours, though it won't use @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] or its other abilities on behalf of its rider.</p>\n<p>Although evil, it allows itself to be ridden by creatures of any alignment, although if a good creature mounts it, the rider must attempt a @Check[flat|dc:3]. On a failure, the nightmare uses @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] to take the rider to a random location in the Abyss, where it promptly returns to statue form, stranding its rider in that nightmarish place.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Wondrous Figurine (Onyx Dog)",
+    "price": {
+      "gp": 34
+    },
+    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This simple onyx statue transforms into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Guard Dog].</p>\n<p>The dog has a +4 circumstance bonus to Survival checks to Track, and it has darkvision. When the dog senses a hidden creature with its scent, that creature is instead observed and concealed.</p>\n<p>The onyx dog can be activated once per week and remains in its form for up to 6 hours.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wondrous Figurine (Rubber Bear)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This small, stretchable statuette depicts a bear wearing a tutu and a fez and balancing on a ball slightly larger than its head.</p>\n<p>When activated, it becomes a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Grizzly Bear] with similar attire.</p>\n<p>The bear remains balanced upon its rubber ball, and is therefore ungainly: it cannot Climb or Swim, has a -10- foot circumstance penalty to its Speed, and is always off-guard. If the bear leaves its ball, such as if it is repositioned with forced movement or knocked prone, it immediately reverts to statuette form.</p>\n<p>The bear can be used once per day, and it can remain in bear form for up to 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wondrous Figurine (Ruby Hippopotamus)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This roughly hewn ruby figurine shimmers with a deep red hue and is carved into the likeness of an ornery hippopotamus. When activated, it transforms into an enraged @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Hippopotamus] that sees everything within 30 feet of its activation area as its territory. It will relentlessly and ferociously attack anyone within this area except you, but it ignores your commands in favor of defending its area. The hippopotamus is active for 1 minute before reverting to its statue shape, satisfied that it has punished all possible interlopers into its territory. The figurine can be used only once per day.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wondrous Figurine, Stuffed Fox",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>This small toy fox has tufted, fluffy ears and buttons for eyes. When activated, it transforms into a big fox with the statistics of a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Riding Dog]. The stuffed fox always allows you to ride it. While you do, you don't take the -2 penalty to Reflex saves while being mounted, and its jaws Strike gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Knockdown]. The stuffed fox can be activated once a day and remains in its form for up to 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wood-Rotted Root (Greater)",
+    "price": {
+      "gp": 190
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience]. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a @Template[emanation|distance:10]. Creatures in the area must attempt a @Check[fortitude|dc:24|options:area-effect,damaging-effect] save to avoid taking @Damage[1d8[poison]|options:area-damage] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Wood-Rotted Root (Lesser)",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience]. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a @Template[emanation|distance:5]. Creatures in the area must attempt a @Check[fortitude|dc:15|options:area-effect,damaging-effect] save to avoid taking @Damage[1[poison]|options:area-damage] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wood-Rotted Root (Major)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience]. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a @Template[emanation|distance:15]. Creatures in the area must attempt a @Check[fortitude|dc:29|options:area-effect,damaging-effect] save to avoid taking @Damage[2d8[poison]|options:area-damage] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wood-Rotted Root (Moderate)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience]. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a @Template[emanation|distance:5]. Creatures in the area must attempt a @Check[fortitude|dc:21|options:area-effect,damaging-effect] save to avoid taking @Damage[1d4[poison]|options:area-damage] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Wooden Breastplate",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>A suit of carved and tempered wood, a wooden breastplate resembles a metal breastplate in shape and function. Such suits can be carved from large pieces of wood, but they most often come from wood coaxed magically from special trees, whether by druids, elves, fey, or plant creatures such as arboreals or leshys.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Wooden Nickel",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision</p>\n<p><strong>Prerequisites</strong> You are a master in Deception</p><hr /><p>This rough wooden coin hangs from a string drilled through a hole at its center. When you Activate the <em>wooden nickel</em>, for 10 minutes, you can cause any object you touch of 2 Bulk or less to look, feel, and smell like valuables of a similar size crafted from a precious metal of your choice.</p>\n<p>A creature that touches or Interacts with an affected object can attempt a @Check[perception|against:deception|rollerRole:target] check against your Deception DC to disbelieve the illusion, and a successful check against your Deception DC with @Check[crafting|against:deception|rollerRole:target] or an appropriate Lore skill will also reveal the item's true nature. After 10 minutes have elapsed since you Activated the <em>wooden nickel</em>, all affected objects revert to their true form.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical",
+      "talisman",
+      "visual"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Wooden Shield",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>12</td>\n<td>6</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Wooden Taws",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Wooden Taws to be fired from a Taw launcher.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Wordreaper",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>The blade of this <em>+1 sickle</em> is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the base. You can use the <em>wordreaper</em>'s handle as an ink pen and it never runs out of ink.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You use the <em>wordreaper</em> to inscribe the words \"read by\" and your name inside a non-magical literary work (such as a non-magical book, scroll, or play). You immediately gain cursory knowledge of the literary work as though you had skimmed it for 5 minutes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "trip"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Words of Wisdom (Greater)",
+    "price": {
+      "gp": 22000
+    },
+    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are @UUID[Compendium.pf2e.conditionitems.Item.Hidden] within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 1 hour. During this time, you gain a +3 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Words of Wisdom (Lesser)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are @UUID[Compendium.pf2e.conditionitems.Item.Hidden] within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 1 minute. During this time, you gain a +1 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Words of Wisdom (Moderate)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are @UUID[Compendium.pf2e.conditionitems.Item.Hidden] within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 10 minutes. During this time, you gain a +2 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Worldringer (Greater)",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>This <em>+2 greater striking khakkhara</em> is topped by an ornate finial depiction of a small-statured traveler with animal companions. While the rings of a khakkhara are normally meant to alert others of one's presence, the magic of the <em>worldringer</em> enhances the chimes to entreat upon those who hear it.</p>\n<p><strong>Activate—Chimes of Command</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You call upon beings of this plane or another to hear your call. Choose @UUID[Compendium.pf2e.spells-srd.Item.Summon Lesser Servitor] or @UUID[Compendium.pf2e.spells-srd.Item.Command]. You Cast the chosen Spell at 5th rank (DC 33). When casting <em>summon lesser servitor</em> in this way, you must choose to summon a magical animal.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "shove",
+      "two-hand-d10",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Worldringer",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This <em>+1 striking khakkhara</em> is topped by an ornate finial depiction of a small-statured traveler with animal companions. While the rings of a khakkhara are normally meant to alert others of one's presence, the magic of the <em>worldringer</em> enhances the chimes to entreat upon those who hear it.</p>\n<p><strong>Activate—Chimes of Command</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You call upon beings of this plane or another to hear your call. Choose @UUID[Compendium.pf2e.spells-srd.Item.Summon Lesser Servitor] or @UUID[Compendium.pf2e.spells-srd.Item.Command]. You Cast the chosen Spell at 1st rank (DC 19). When casting <em>summon lesser servitor</em> in this way, you must choose to summon a magical animal.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "shove",
+      "two-hand-d10",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Worm Vial",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Opening this vial unleashes its destructive contents: a reconstituted Gargantuan purple worm. The worm has two functions; choose which one to use when you Activate the item.</p>\n<p><strong>Burrow</strong> The worm Burrows up to 80 feet, leaving a tunnel behind it. It can burrow through solid stone, but if it does so it burrows 40 feet instead of 80 feet.</p>\n<p><strong>Eat</strong> The worm attempts to swallow a creature, crush it in its insides, then spit the creature out. The target must be within 15 feet, and it attempts a @Check[reflex|dc:30] save. If it fails, it takes @Damage[(3d6+9)[bludgeoning]] (doubled on a critical failure). The worm then spits the creature out to any empty space on the ground within 30 feet, causing the creature to take damage from a 20-foot fall.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply the corpse of a purple worm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "expandable"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wounding Oil",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Smearing <em>wounding oil</em>, a crimson fluid, on a weapon causes it to smell strongly of blood and gives it the benefits of the @UUID[Compendium.pf2e.equipment-srd.Item.Wounding] rune for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wounding Oil]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wounding",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>Weapons with <em>wounding</em> runes are said to thirst for blood. When you hit a creature with a <em>wounding</em> weapon, you deal an extra 1d6 persistent bleed damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wovenwood Shield (Greater)",
+    "price": {
+      "gp": 2550
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wovenwood Shield (Lesser)",
+    "price": {
+      "gp": 305
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wovenwood Shield (Major)",
+    "price": {
+      "gp": 8500
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wovenwood Shield (Minor)",
+    "price": {
+      "gp": 85
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wovenwood Shield (Moderate)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wovenwood Shield (True)",
+    "price": {
+      "gp": 34000
+    },
+    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wraithweave Patch (Type I)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed light Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wraithweave Patch (Type II)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed 1 Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wraithweave Patch (Type III)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed 2 Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Wrecker",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>The wrecker combines a dwarven dorn-dergar with a heavy, gear-reinforced arm cover that allows it to be fired like an oversized sling, then retrieved and reloaded by manually activating a clockwork spool. A wrecker must be loaded to be switched from its ranged configuration to its melee configuration.</p>",
+    "rarity": "common",
+    "traits": [
+      "combination",
+      "dwarf",
+      "ranged-trip",
+      "razing"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Wrenchgear",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>The ubiquity of clockwork constructs in Alkenstar spurred the development of the wrenchgear (a shortened \"wrench in the gears\") by innovative criminals (\"wrenchers\") to create security exploits and larcenous opportunities. You gain a +2 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device] checks made against clockwork creatures (typically to wind them down).</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Wrestler's Armbands",
+    "price": {
+      "gp": 645
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+17]]{+17}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and one other common or regional language)</p>\n<p><strong>Skills</strong> Intimidation [[/r 1d20+19]]{+19}, Sports Lore [[/r 1d20+17]]{+17}</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +4, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+17]]{+17}</p>\n<hr />\n<p>Wrestler's armbands are a set of @UUID[Compendium.pf2e.equipment-srd.Item.Armbands of Athleticism] that have gained their own boisterous sapience. Often, such items aren't created intentionally but rather are the result of a truly charismatic champion whose heart and body are unusually strong wearing the armbands of athleticism on many adventures as their most important item. Eventually, the essence of their earnest and adventurous spirit has so thoroughly inundated the item it gains a matching spirit and will of its own. Such armbands view themselves as a tough, but fair, trainer for whomever inherits them next, inspiring you to new heights of athleticism. They also spoil for contests, telepathically calling out competitors on your behalf; typically the armbands won't challenge a foe you're unprepared to face, but particularly eager wrestler's armbands might have an unfortunate habit of overestimating your abilities and pushing you into a conflict that's beyond your proven capacity. These armbands have the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You succeed or critically succeed at an Athletics check</p>\n<hr />\n<p><strong>Effect</strong> The armbands taunt a creature you're competing with, boasting of your prowess and attempting an Intimidation check to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] that creature.</p>",
+    "rarity": "rare",
+    "traits": [
+      "intelligent",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Wrist Grappler (Clockwork)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p>This specialized @UUID[Compendium.pf2e.equipment-srd.Item.Grappling Gun (Clockwork)], which attaches to your wrist, connects to a spool of 50 feet of thin metal cord attached to a pack on your back. The wrist grappler and pack are small enough that they can be concealed with a loose jacket or similar piece of clothing. You can deploy or stow the gun from the attached wrist device with an Interact action. Reloading a clockwork wrist grappler uses the same process as reloading a clockwork grappling gun and takes 3 actions.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Wrist Grappler",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This specialized @UUID[Compendium.pf2e.equipment-srd.Item.Grappling Gun], which attaches to your wrist, connects to a spool of 50 feet of thin metal cord attached to a pack on your back. The wrist grappler and pack are small enough that they can be concealed with a loose jacket or similar piece of clothing. You can deploy or stow the gun from the attached wrist device with an Interact action. Reloading a wrist grappler uses the same process as reloading a standard grappling gun and takes 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Wrist Launcher",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This slender tube is attached to a large strap worn on the forearm. You can fire a dart from the tube with a twist of the wrist. The wrist launcher uses @UUID[Compendium.pf2e.equipment-srd.Item.Dart]{Darts} as ammunition.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "concealable",
+      "free-hand"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Writ of Authenticity",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A typical Pathfinder writ of authenticity confirms the holder's status as a member of the Pathfinder Society and their intended business.</p>\n<p>Most writs are pieces of fine parchment folded, bound with gold cord, and sealed with three wax seals. The top seal is always the Glyph of the Open Road and the middle one is the Envoy's Alliance open door emblem. The bottom seal uses the preparer's personal sigil.</p>\n<p>Inside, the text describes a specific instance of a legitimate business activity, with blanks for the Pathfinder to fill in and personalize the writ to the persons and activity desired.</p>\n<p>Presenting a writ of authenticity grants a +2 item bonus to Make a Request for the associated business, assuming the writ is legitimate and the viewer expects to work with the Pathfinder Society for that activity.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Writing Set (Extra Ink and Paper)",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Extra ink and paper to refill your writing set.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Writing Set",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Using a writing set, you can draft correspondence and scribe scrolls. A set includes stationery, including a variety of paper and parchment, as well as ink, a quill or inkpen, sealing wax, and a simple seal. If you've written a large amount, you can refill your kit with extra ink and paper.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 15,
+    "name": "Wyrm Claw (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 10 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 9d6 damage with a @Check[reflex|dc:34|basic|options:area-effect]. Choose the area and type of damage when you use Breath Weapon: a @Template[line|distance:30] that deals acid, electricity, or fire, or a @Template[cone|distance:15] that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wyrm Claw - Armor (Greater)]</p>\n<p>@Damage[9d6[acid]|options:area-damage] @Damage[9d6[cold]|options:area-damage] @Damage[9d6[electricity]|options:area-damage] @Damage[9d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Dragon].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wyrm Claw (Major)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 15 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 12d6 damage with a @Check[reflex|dc:41|basic|options:area-effect]. Choose the area and type of damage when you use Breath Weapon: a @Template[line|distance:30] that deals acid, electricity, or fire, or a @Template[cone|distance:15] that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wyrm Claw - Armor (Major)]</p>\n<p>@Damage[12d6[acid]|options:area-damage] @Damage[12d6[cold]|options:area-damage] @Damage[12d6[electricity]|options:area-damage] @Damage[12d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Draconic Legion].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wyrm Claw",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 5 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 6d6 damage with a @Check[reflex|dc:28|basic|options:area-effect]. Choose the area and type of damage when you use Breath Weapon: a @Template[line|distance:30] that deals acid, electricity, or fire, or a @Template[cone|distance:15] that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wyrm Claw - Armor]</p>\n<p>@Damage[6d6[acid]|options:area-damage] @Damage[6d6[cold]|options:area-damage] @Damage[6d6[electricity]|options:area-damage] @Damage[6d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Dragon].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wyrm Drinker",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>This staff is made from the femur of a gold dragon wrapped in the multicolored scales of every type of chromatic and metallic dragon. When wielding this staff, you gain a +1 circumstance bonus to skill checks to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce], @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression], @UUID[Compendium.pf2e.actionspf2e.Item.Request], or @UUID[Compendium.pf2e.actionspf2e.Item.Lie] to dragons and creatures with strong draconic ties (such as kobolds, dragon instinct barbarians, and draconic sorcerers).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Attempt a melee Strike with Wyrm Drinker. If your target is a dragon or a creature with a strong draconic tie, such as a kobold, and you damage the target, the target is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}, or @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 4} on a critical hit.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from this list.</p>\n<ul>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Illusory Creature]{Illusory Creature (Dragons only)}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Reflective Scales]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Dragon]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Dragon Form], @UUID[Compendium.pf2e.spells-srd.Item.Summon Dragon]</li>\n<li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Dragon]</li>\n</ul>",
+    "rarity": "unique",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wyrm on the Wing (Greater)",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 10 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts @UUID[Compendium.pf2e.spells-srd.Item.Dragon Wings] on you. You can add the @UUID[Compendium.pf2e.spells-srd.Item.Flurry of Claws]{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts @UUID[Compendium.pf2e.spells-srd.Item.Dragon Form] on you, turning you into the type of dragon represented by the tattoo.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wyrm on the Wing (Major)",
+    "price": {
+      "gp": 13500
+    },
+    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 15 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts @UUID[Compendium.pf2e.spells-srd.Item.Dragon Wings] on you. You can add the @UUID[Compendium.pf2e.spells-srd.Item.Flurry of Claws]{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dragon Form] on you, turning you into the type of dragon represented by the tattoo.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wyrm on the Wing",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 5 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts @UUID[Compendium.pf2e.spells-srd.Item.Dragon Wings] on you. You can add the @UUID[Compendium.pf2e.spells-srd.Item.Flurry of Claws]{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wyvern Poison",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>Properly harvested and preserved, the poison from a wyvern's sting is effective and direct.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:26]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d8[poison]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d10[poison]] damage (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Yarrow-Root Bandage",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Administer First Aid]</p>\n<hr />\n<p>This root is often infused into bandages for life-threatening bleeding. Activating the item is part of the same activity you use to Administer First Aid to stop bleeding on a creature who's also dying. When you do, you can Administer First Aid to stop bleeding and dying as part of the same activity with only one Medicine check. However, the DC for the Medicine check is equal to the 5 + the higher of the two DCs to Administer First Aid.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Yellow Musk Poison",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>The powdered pollen from a yellow musk creeper addles the mind.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:16]</p>\n<p><strong>Maximum Duration</strong> 2 rounds</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] by the poison cloud (1 round)</p>\n<p><strong>Stage 2</strong> fascinated by the poison cloud, and can use no actions but to move closer to the cloud's point of origin (1 round)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "inhaled",
+      "mental",
+      "poison"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Zealot Staff",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>A <em>zealot staff</em>'s color, iconography, and materials vary depending on the faith it's dedicated to. An Iomedaean staff might be forged of gold and shaped like an ornamental sword, while a Lamashtan one could instead be made of blackened iron depicting monstrous faces. Used as a weapon, the staff is a <em>+3 greater striking staff</em>. The staff represents vehement support of the deity to whom the staff is dedicated, punishing defiance. When the staff's effects require choosing alignments, you can choose only that deity's alignments. No such staves exist for deities that are true neutral. When you prepare this staff, if you don't worship its deity, you become @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} until your next daily preparations.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You hit with a Strike using the staff</p>\n<p><strong>Effect</strong> Choose one of the represented deity's alignments besides neutral. You expend 1 charge from the staff and deal 1d4 damage per damage die of the staff. This damage is of the alignment type you chose.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Divine Lance]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Bane]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Brand the Impenitent], @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Crisis of Faith], @UUID[Compendium.pf2e.spells-srd.Item.Warding Aggression]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Anathematic Reprisal], @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Divine Wrath]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Zealous Conviction]</li>\n<li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Divine Decree]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> You worship the deity to which the staff is dedicated. Supply one casting of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Zerk",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This bitter paste is used among some gladiatorial rings for its short-term benefits in a fight.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Maximum Duration</strong> 1 hour</p>\n<p><strong>Stage 1</strong> +2 item bonus to Perception rolls for initiative, and if you have an addiction to zerk, your melee weapon and unarmed attacks deal an extra 2 damage during the first round of a combat encounter (1 minute)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Zhuazhi Bang",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This niche close-combat weapon resembles a flail with articulated talons used to hook onto an opponent's clothing or armor.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "grapple",
+      "razing",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Zircon",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Zombie Staff (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead]spells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], you can also cast @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion] on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Bind Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Enervation], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Zombie Staff (Major)",
+    "price": {
+      "gp": 5600
+    },
+    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead]spells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], you can also cast @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion] on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Bind Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Enervation], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice], @UUID[Compendium.pf2e.spells-srd.Item.Necrotize]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Zombie Staff",
+    "price": {
+      "gp": 330
+    },
+    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead]spells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], you can also cast @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion] on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Protect Companion]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Necromancer's Generosity]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Final Sacrifice]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Zuhra's Gloves",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This elaborate metallic webbing feels soft when wrapped around your hands and forearms. It constantly shifts its strands and connections. The name of a zuhra shuyookh is etched in Talican on the only part of the item that's unchanging. You gain a +3 item bonus to your Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] an item you're holding in your hands.</p>\n<p><strong>Activate—Zuhra's Stratagem</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're wielding a weapon made primarily of metal</p>\n<p><strong>Effect</strong> You extend the weapon and call out the zuhra's name. They channel their magic through the gloves to assist you with their choice of offense or defense (as determined by the GM). The zuhra makes any choices for the spell, and any save DC is 30.</p>\n<ul>\n<li><strong>Offense</strong> The metal of the gloves wraps around your weapon and channels the zuhra's magic to cast a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Weapon Storm] spell, replicating the metal weapon.</li>\n<li><strong>Defense</strong> The metal flows off your arms, creating a @UUID[Compendium.pf2e.spells-srd.Item.Wall of Metal]. The wall's surface has the same pattern as the gloves. You lose the gloves' item bonus until the barrier ends, at which point the metal returns to your hands and forearms. You can Dismiss the activation.</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "metal"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Zulfikar",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This curved blade has a bifurcated tip, creating what looks like a second blade. It's a customary practice among zulfikar users to have religious or personal inscriptions upon the blade.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "sweep",
+      "versatile-p"
+    ]
+  }
+]

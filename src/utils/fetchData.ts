@@ -7,7 +7,7 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
     try {
         while (true) {
             // Attempt to fetch the next part of the manifest
-            const manifestFileName = `/equipmentjson/manifests/manifest_part_${partIndex}.json`;
+            const manifestFileName = `/equipmentmanifests/manifest_part_${partIndex}.json`;
             console.log(`Fetching manifest part: ${manifestFileName}`);
             const manifestResponse = await fetch(manifestFileName);
 
@@ -22,6 +22,7 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                 name: string;
                 price: { gp?: number; sp?: number; cp?: number; pp?: number };
                 description: string;
+                rarity: string;
                 traits: string[];
             }[] = await manifestResponse.json();
 
@@ -41,6 +42,7 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                             }
                         },
                         description: item.description,
+                        rarity: item.rarity,
                         traits: item.traits
                     };
                     equipmentData.push(manifestItem);

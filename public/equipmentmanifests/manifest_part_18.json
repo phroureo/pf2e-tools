@@ -1,0 +1,1393 @@
+[
+  {
+    "level": 12,
+    "name": "Four-Tiger Blade",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>When a once-in-a-lifetime alignment of the stars shone through the roof of a secluded blacksmith's forge, the smith took advantage to craft their masterpiece. For two hours, they hammered a lump of ordinary steel into a divine blade, etching constellations and wards down its length, then shared their creation's formula with a small group of close associates before passing away.</p>\n<p>These weapons are the four-tiger blades, and currently, only a dozen are known to exist—one associated with each month of the year. Each weapon is a <em>+2 striking ghost touch longsword</em> that leaves a noticeable trail of light originating from the engraved stars when it's swung. Those who pay close attention to the pattern of stars that shine on the blade might note that the depicted constellations change according to those currently in the night sky above.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact (abjuration, divine, incapacitation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Attempt a Strike against a creature you believe to be possessed. This attack deals no damage on the creature, but if the target is possessed, the possessing creature must attempt a @Check[will|dc:29] save.</p>\n<p><strong>Critical Success</strong> The possessing creature is unaffected, and you remain unaware of if the target is actually possessed or not.</p>\n<p><strong>Success</strong> The possessing creature is unaffected, but you sense that creature's control over the target and confirm that the target is possessed.</p>\n<p><strong>Failure</strong> You confirm that the target is possessed. The possessing creature can't control the target for 1 minute.</p>\n<p><strong>Critical Failure</strong> You confirm the target is possessed an instant before you counteract the possession, causing the possessing creature to vacate the target's body.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Trigger</strong> You attempt a Strike with the <em>four-tiger-blade</em></p>\n<p><strong>Effect</strong> Until the start of your next turn, you gain resistance 10 to void damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Four-Tiger Blade]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Four-Ways Dogslicer",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p>This <em>+2 striking dogslicer</em> is obviously the work of a brilliant but scrappy artisan who valued versatility over safety. Four toothy gems line the blade's cutting edge, three of which glow-one with fiery red light, one with a chill blue, and one that gives off sparks-while the last is a glistening black. Each of these gems embodies a weapon property rune, but only one rune can be active at a time.</p><hr /><p><strong>Activate-Gem Twist</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You twist the gem along the blade corresponding with the desired weapon rune: red for <em>flaming</em>, blue for <em>frost</em>, or yellow for <em>shock</em>. You take @Damage[1d6[untyped]] damage of the type the chosen rune deals. You can instead twist the black gem to disable the active property rune, taking no damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "backstabber",
+      "cold",
+      "electricity",
+      "finesse",
+      "fire",
+      "goblin",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Fox Marble",
+    "price": {},
+    "description": "<p>A gumiho wears a strange green amulet around its neck. This fox marble stores all of the gumiho's knowledge. By focusing on the marble, a gumiho can perfectly recall anything it has experienced in its lifetime. A creature who manages to steal a gumiho's fox marble is lucky indeed, for they can also use it to access the gumiho's memories. However, if the gumiho still lives, the vengeful fox will stop at nothing to recover its marble.</p>\n<p>Whoever wears a fox marble gains a +2 item bonus to all checks to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge].</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Foxglove Token (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>This small piece of wood is finely carved to depict a foxglove. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to poison damage.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the foxglove token, your Strikes with the weapon it's attached to deal an additional 1d6 poison damage until the end of your next turn.</li>\n</ul>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Puff of Poison].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Noxious Vapors].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "poison",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Foxglove Token (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This small piece of wood is finely carved to depict a foxglove. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to poison damage.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the foxglove token, your Strikes with the weapon it's attached to deal an additional 1d8 poison damage until the end of your next turn.</li>\n</ul>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Puff of Poison].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Noxious Vapors].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Petal Storm].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "poison",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Foxglove Token",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This small piece of wood is finely carved to depict a foxglove. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to poison damage.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the foxglove token, your Strikes with the weapon it's attached to deal an additional 1d4 poison damage until the end of your next turn.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Puff of Poison].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "poison",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Freeze Ammunition",
+    "price": {
+      "gp": 28
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Freeze ammunition carries chilling reagents that activate on contact with the target. A creature hit by activated freeze ammunition takes cold damage instead of the weapon's normal damage type, plus @Damage[(2[splash])[cold]] splash damage. Hitting a 5-foot-square surface successfully with freeze ammunition deals 2 cold splash damage and covers the space in a layer of ice. Each creature standing on the icy surface must succeed at a @Check[reflex|dc:20] save or @Check[acrobatics|dc:20] check or else fall @UUID[Compendium.pf2e.conditionitems.Item.Prone]. Creatures using an action to move onto the icy surface must attempt either a Reflex save or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.Balance]. Creatures that Step or @UUID[Compendium.pf2e.actionspf2e.Item.Crawl] don't need to attempt a check or save. The ice melts after 1 minute, although unusually hot or cold temperatures can change this duration at the GM's discretion. Dealing at least 1 point of fire damage to the ice removes it instantly</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Freezing Ammunition",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This chilly ammunition is dark blue and cold to the touch. When activated <em>freezing ammunition</em> hits a target, the target must succeed at a @Check[fortitude|dc:19] save or be @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round by the intense cold (slowed 1 for 1 minute on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Frenzy Oil",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>This oil, which is pressed from vrock spores and mixed with a combination of acacia ash and thistle seeds, seeps into the skin of living creatures, initially inspiring irritability that unpredictably manifests as berserk rage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Contact)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:37]</p>\n<p><strong>Onset</strong> [[/r 1d6]] minutes</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[4d6[mental]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Quickened]{Quickened 1}, attack nearby creatures as if @UUID[Compendium.pf2e.conditionitems.Item.Confused] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[6d6[mental]] damage, attack nearby creatures as if confused (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[8d6[mental]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], attack nearby creatures as if confused (1 round)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Frightful Hag Eye",
+    "price": {
+      "gp": 85
+    },
+    "description": "<p>This item appears to be an ordinary semiprecious stone and is typically mounted on a brooch or ring, but the stone is, in fact, an eyeball. This illusion can be seen through with true seeing or similar magic, and anyone who interacts with the item feels its wet and sticky surface, allowing them to attempt to disbelieve the illusion (DC 19). Many hags claim a hag eye is more effective if plucked from a living, awake creature, but this is likely just a convenient excuse for sadism.</p>\n<p>The hag eye produces no direct benefit for the wearer, but allows the hag who created it, or any member of her coven, can peer through the eye using the Seek action. This has no range limit, provided the hag is on the same plane.</p>\n<p>Any damage dealt to the eye destroys it. If this happens while a hag is looking through it, the hag is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 hour.</p>\n<p>A frightful hag eye is made with the eye of a creature whose gaze inflicts fear, such as some velstracs.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (emotion, enchantment, fear, mental, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You target a creature within 30 feet that must be able to see the frightful hag eye; the target must attempt a @Check[will|dc:19|traits:emotion,enchantment,fear,mental,visual] save. Once a creature attempts this save, it's temporarily immune for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You must be a hag, and the raw materials must include the eye of a creature whose gaze causes fear.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "occult",
+      "scrying"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Frog Chair",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>This clockwork traveler's chair is shaped like a wheeled frog, with springs attached to the bottom and an extensible tongue on the front.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You activate the wheelchair's springs to make hopping leaps. For 1 minute, whenever you @UUID[Compendium.pf2e.actionspf2e.Item.Leap] with the wheelchair, you can jump 30 feet in any direction without touching the ground. You must land on a space of solid ground within 30 feet of you, or else you fall after using your next action.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> Once per minute</p>\n<hr />\n<p><strong>Effect</strong> You activate the wheelchair's tongue to grab a nearby object and bring it to you. @UUID[Compendium.pf2e.actionspf2e.Item.Interact] to pick up an unattended object within 15 feet and bring it to your empty hand. If you don't have a hand to take the object, it falls in your space instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Frogskin Tincture",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Once you imbibe this bitter elixir, your skin exudes a toxin for 1 hour, affecting any creature that hits you with a jaws Strike or other bite attack. If you are Swallowed Whole by another creature, they are automatically exposed to the poison every round and take a –2 penalty to their saving throw against it.</p>\n<p><strong>Frogskin Tincture Poison</strong> (poison)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d4[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "poison"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Frost Brand",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>The blade of this <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Frost (Greater)] greatsword</em> appears to be nothing but icy shards. The <em>frost brand</em> automatically extinguishes non-magical fires in a @Template[emanation|distance:20]. While wielding it, you gain fire resistance 5.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Effect</strong> You swing the <em>frost brand</em> into the area of an ongoing magical fire, and the blade attempts to counteract the fire with a counteract modifier of [[/r 1d20+27 #Counteract]]{+27}. If it fails, it can't attempt to counteract the same fire again.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Frost Breath",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This bottle of frozen vapors is captured in the frozen peaks of the crown of the world. After inhaling frost breath, you gain resistance 5 to cold. You can exhale the frost breath as a single action to release a spray of frigid air in a @Template[cone|distance:15]. Each creature in the area takes @Damage[4d6[cold]|options:area-damage] damage with a @Check[reflex|dc:20|basic|options:area-effect] save. For 10 minutes, surfaces in the area are covered in ice, becoming difficult terrain and uneven ground (@Check[acrobatics|dc:20]).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Frost Breath]</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "bottled-breath",
+      "cold",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Frost Fair Yanyuedao",
+    "price": {},
+    "description": "<p>The <em>Frost Fair Yanyuedao</em> is a <em>+2 greater striking yanyuedao</em> (use statistics for glaive) once wielded by a legendary military general from Goka. This weapon was constructed from pieces harvested from a dragon's body. When in an area of severe cold or colder, the <em>Frost Fair Yanyuedao</em> becomes a <em>+3 major striking yanyuedao</em> with a glowing blue cutting edge and the following ability.</p>\n<p><strong>Activate—Dragon Chill</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> Until the end of your turn, the <em>Frost Fair Yanyuedao</em> gains the effects of a <em>greater frost</em> rune. While under this effect, if you critically succeed at a Strike using this weapon against a creature who has resistance or immunity to cold, that creature must attempt a @Check[fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 minute.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "cold",
+      "deadly-d8",
+      "forceful",
+      "reach"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Frost (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[fortitude|dc:34|name:Frost Rune|showDC:all] save.</p>\n<p>Cold damage dealt by this weapon ignores the target's cold resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Frost Vial (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn.</p>\n<p>You gain a +2 item bonus to attack rolls, the bomb deals 3d6 cold damage and 3 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Frost Vial (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "cold",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Frost Vial (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn.</p>\n<p>The bomb deals 1d6 cold damage and 1 cold splash damage, and the target takes a -5-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Frost Vial (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "cold",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Frost Vial (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn.</p>\n<p>You gain a +3 item bonus to attack rolls, the bomb deals 4d6 cold damage and 4 cold splash damage, and the target takes a -15-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Frost Vial (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "cold",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Frost Vial (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Frost Vial (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "cold",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Frost Worm Snare",
+    "price": {
+      "gp": 115
+    },
+    "description": "<p>The snare takes the form of a Tiny frost worm clockwork toy. When a creature enters its square, the snare activates, causing the worm to let loose a @Template[line|distance:30]{30-foot line} of frost in the direction from which the creature entered the square. For instance, if a creature entered the square coming from the south, the worm would shoot the line south, to hit any allies of the triggering creature. Those within the line must succeed a @Check[reflex|dc:25|basic] save or take @Damage[10d6[cold]]{10d6 cold damage}. After spitting its frost, the snare falls apart.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "cold",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Frost",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[fortitude|dc:24|name:Frost Rune|showDC:all] save.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Frostwalker Pattern",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Northern peoples design magical tattoos to protect against wintry weather, typically in geometric patterns with a combination of straight lines and whorls. This tattoo negates any damage you take from severe environmental cold and reduces damage you take from extreme cold to equal that of severe cold.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Until the end of your next turn, you ignore difficult terrain and greater difficult terrain from ice and snow and don't risk falling when crossing ice.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Frozen Lava of Barrowsiege",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Barrowsiege</em> deals @Damage[19d6[fire]] on a @Check[reflex|dc:43|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Frozen Lava of Blackpeak",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Blackpeak</em> deals @Damage[7d6[fire]] on a @Check[reflex|dc:25|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Frozen Lava of Droskar's Crag",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Droskar's Crag</em> deals @Damage[13d6[fire]] on a @Check[reflex|dc:32|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Frozen Lava of Ka",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Ka</em> deals @Damage[15d6[fire]] on a @Check[reflex|dc:36|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Frozen Lava of Mhar Massif",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Mhar Massif</em> deals @Damage[11d6[fire]] on a @Check[reflex|dc:30|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Frozen Lava of Pale Mountain",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Pale Mountain</em> deals @Damage[9d6[fire]] on a @Check[reflex|dc:27|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Frozen Lava of Sakalayo",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Sakalayo</em> deals @Damage[17d6[fire]] on a @Check[reflex|dc:39|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Frozen Lava",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a @UUID[Compendium.pf2e.spells-srd.Item.Fireball] where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava</em> deals @Damage[5d6[fire]] on a @Check[reflex|dc:21|basic].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Frying Pan",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>The cast-iron frying pan is an essential tool for adventuring halflings, gold panners, and remote tavern owners. Characters with the @UUID[Compendium.pf2e.feats-srd.Item.Halfling Weapon Familiarity] ancestry feat are trained in the frying pan.</p>",
+    "rarity": "common",
+    "traits": [
+      "fatal-d8",
+      "halfling"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Fu Water",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p>Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many fulu items, fu water must be created using divine magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> This potion functions as a bottle of holy water. Like holy water, you throw it as a Strike. It's a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You drink the fu water to counteract ailments within yourself. Attempt a counteract check with a +9 counteract modifier and a counteract rank of 3 against one effect that imposes the @UUID[Compendium.pf2e.conditionitems.Item.Confused], @UUID[Compendium.pf2e.conditionitems.Item.Fascinated], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], or @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition. You are then @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "divine",
+      "good",
+      "potion",
+      "splash"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Fulcrum Lattice",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This silver and copper framework is shaped to hold four focusing lenses, one behind the other, from smallest to largest. It has a socketed base to be mounted into a stand, such as that found in a lighthouse lantern. The Fulcrum Lattice was specifically designed to hold the four fulcrum lenses from smallest to largest (ebon, crimson, ochre, emerald), and it hums slightly while within 10 feet of any fulcrum lens. A fulcrum lens slotted into the Fulcrum Lattice has no Bulk; the lattice remains at 1 Bulk and can be carried easily. Inserting or removing a lens from the Fulcrum Lattice requires a single Interact action.</p>\n<p>The Fulcrum Lattice channels the power of fulcrum lenses joined with it. While you hold the Fulcrum Lattice, lenses socketed into it are considered to be in your hand for the purpose of activating their abilities. When you make a melee spell attack with a lens in the Fulcrum Lattice, you use the highest melee spell attack modifier of any lens in the lattice, or you can use your melee attack modifier with simple weapons if it's greater.</p>",
+    "rarity": "unique",
+    "traits": [
+      "occult"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Full Plate",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of @UUID[Compendium.pf2e.equipment-srd.Item.Padded Armor] and a pair of @UUID[Compendium.pf2e.equipment-srd.Item.Gauntlet]{gauntlets}.</p>",
+    "rarity": "common",
+    "traits": [
+      "bulwark"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Fulminating Spear",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This <em>+1 striking returning spear</em> is warm to the touch. The head of the spear is crafted from gold with ivory inlay and has a ruby set into the shaft. You can make the spear glow like a torch or suppress its light by using an action, which has the concentrate trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You touch the ruby and hurl the spear at a square within 40 feet. When the spear lands, it detonates, dealing @Damage[6d6[fire]|options:area-damage] damage (@Check[reflex|dc:23|basic|name:Fulminating Spear Explosion|showDC:all|options:area-effect]) to all creatures in a @Template[emanation|distance:10]. It then flies back to your hand.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "magical",
+      "monk",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Fulmination Fang",
+    "price": {
+      "gp": 115
+    },
+    "description": "<p>The stock and barrel of this <em>+1 striking gun sword</em> are lined with scales from a storm snake. Their insulating properties grant their wielder some protection against electricity.</p><hr /><p><strong>Activate—Lightning Rod</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Trigger</strong> You take electricity damage</p>\n<p><strong>Effect</strong> You gain resistance 5 to the triggering damage, and the <em>fulmination fang</em> crackles with the absorbed energy. You can Interact to change between the gun sword's current usage (melee to ranged, or ranged to melee). The next melee Strike you make with the <em>fulmination fang</em> within the next minute deals an additional 1d6 electricity damage. After a minute, the absorbed energy dissipates.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Lightning Rod]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the scales of a storm snake.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "kickback",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Fulu Compendium",
+    "price": {
+      "gp": 550
+    },
+    "description": "<p>This pamphlet-sized book records the various symbols seen on fulu and also contains some ready-made magic on a special page that restores itself every day at sunrise. Using the compendium as a reference grants a +2 item bonus to any skill checks to determine a fulu's function or authenticity.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You rip a page from the fulu compendium and cast it in a wide arc; as it flies in that arc, it multiplies into a storm of fulus. All undead creatures in a @Template[emanation|distance:30] are affected by a @UUID[Compendium.pf2e.equipment-srd.Item.Spirit-Sealing Fulu] with a @Check[will|dc:25|name:spirit-sealing fulu|traits:fulu|showDC:all] save DC of 25.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Fulu of Concealment",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Usage</strong> affixed to the ground in four spaces along a 10-foot radius circle</p>\n<p><strong>Duration</strong> 1 hour</p>\n<hr />\n<p>This fulu comes in four pieces, one placed in each cardinal direction. Choose one of the following traits when Activating the fulus: animal, beast, celestial, fey, fiend, humanoid, monitor, plant, or undead. Those within the fulus' circle upon activation (including the fulus themselves) gain the effect of @UUID[Compendium.pf2e.spells-srd.Item.Shared Invisibility]{Invisibility Sphere}, but only against creatures with the chosen trait. If any of the fulus are moved or destroyed after activation, the effect ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Fulu of Fire Suppression",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>The silver ink on this black paper charm ebbs in and out of sight, especially when caught out of the corner of your eye. Usually placed in the kitchen, this fulu slows the spread of fire in a 30-foot radius by half.</p>\n<p>If the fulu itself catches fire, as it burns, it releases a shower of water in a @Template[cone|distance:30], automatically putting out non-magical fires in this area and attempting to counteract any magical fire effects with a +7 counteract modifier and a counteract rank of 2; when this happens, the fulu's duration ends early</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Fulu of Flood Suppression",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This blue fulu bears dark ink that slowly swirls and twists about itself, expanding and contracting on the paper over the course of the day in time with the tides. This fulu is most effective in the lowest area of a building, or near the most valuable or least-waterproof items. They're often seen as the rainy season approaches, with demand spiking just before a particularly large storm hits.</p>\n<p>The fulu slows the spread of flooding water in a 30-foot radius by half, repelling the remaining water away. If the fulu becomes submersed, as the ink dissolves in the water, it releases a rush of heat in a @Template[emanation|distance:10], harmlessly vaporizing non-magical water in this area into steam and attempting to counteract any magical water effects with a +7 counteract modifier and a counteract rank of 2; when this happens, the fulu's duration ends early.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Fulu of the Drunken Monkey",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt a Fortitude save against an ingested poison.</p>\n<hr />\n<p>The monkey on this fulu sits on the point of the armor just over the bearer's stomach, happily drinking any intoxicants that come flowing down. When you activate the fulu, you gain a +2 status bonus on the triggering Fortitude save and on Fortitude saves against the same poison for the next minute. If the triggering poison was normal @UUID[Compendium.pf2e.equipment-srd.Item.Alcohol], you instead automatically succeed at the triggering save and gain a +4 status bonus on saves against alcohol for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Fulu of the Stoic Ox",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt a Fortitude save against a disease.</p>\n<hr />\n<p>The ox on this fulu rests vigilantly on the point of the armor right over the bearer's heart, protecting the bearer against diseases and safeguarding their health. When you activate the fulu, you gain a +2 status bonus on the triggering Fortitude save and on all Fortitude saves against the same disease for the next minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Fundamental Oil",
+    "price": {
+      "gp": 220
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made of elemental salts and essences from the Inner Sphere or where such planes leak onto the Material Plane, fundamental oil is anathema to elementals and other creatures with a weakness to elemental damage. A weapon anointed with this oil acts as @UUID[Compendium.pf2e.equipment-srd.Item.Bane] oil to elementals, but the damage type is the same as the target's greatest weakness if the target has weakness to acid, cold, electricity, fire, or sonic damage. If it has none of these, the additional damage is the same type as the weapon's damage type. These effects last 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Fungal Armor",
+    "price": {
+      "gp": 7200
+    },
+    "description": "<p>This <em>+2 greater resilient @UUID[Compendium.pf2e.equipment-srd.Item.Studded Leather Armor]</em> is made of hardened fungus. Every day the armor grows dozens of unusual mushrooms that can be used for cooking, infused reagents, or common spell material components.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> or <span class=\"action-glyph\">a</span> Envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are hit by a melee, ranged, or spell attack</p>\n<hr />\n<p><strong>Effect</strong> The attack misses you, dealing no damage as you transform into a cloud of spores. You gain the benefits of a @UUID[Compendium.pf2e.spells-srd.Item.Vapor Form] spell for 1 minute.</p>\n<p>For the duration, a cloud of deadly spores surrounds you. Each breathing creature that begins its turn within 10 feet of you takes @Damage[6d8[poison]] damage (@Check[fortitude|dc:35|basic|name:Fungal Armor Spores]).</p>\n<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Dismiss] the cloud form.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Toxic Cloud] and <em>gaseous form</em>.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Fungal Walk Musk",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This foul-smelling unguent dulls the odors and traces that fungus creatures detect. For 1 day after you slather this musk on your body, fungus creatures take a -4 penalty to Perception checks to Seek you or otherwise notice you. If a fungus creature is mindless, it instead has a -6 penalty. The musk also grants you a +1 item bonus to AC against melee attacks from fungus creatures with no vision for the same period of time. The effects of fungal walk musk end immediately if you're submerged in water or subject to another olfactory effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "olfactory"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Furnace of Endings (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Ash Cultists make use of these metal scroll cases to deliver secret messages or as ways to \"smuggle\" stolen documents since initial inspections find an elegant yet empty case. The cases are enchanted to instantly immolate any parchment or document placed inside of it. While invested, you can Interact with the scroll case to recreate the last message that was destroyed this way. For as long as the case is open, ashes will rise into the air, recreating the text of the message exactly as it was written. When you close the case or leave it unattended for 1 minute, the message scatters until the next time you Interact with it.</p>\n<p>In addition to the ability to recreate immolated documents, you can immolate a scroll containing a 3rd-rank spell or lower with the fire or void trait that takes no more than three actions to cast. Doing so stores the scroll's magic inside of the scroll case in order to reuse it later. Only a single spell can be stored this way at a time, and immolating scrolls containing a higher-rank spell simply destroys the scroll without storing the magic. When you immolate a new spell scroll in the case, the previous one is lost. Enough of the scroll's magic is lost in this process that you can't use the case to recreate the scroll for the purposes of Learning a Spell.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span> envision, Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The last object burned was a scroll containing an appropriate spell</p>\n<hr />\n<p><strong>Effect</strong> You cast the stored spell as if you were activating the scroll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Furnace of Endings (Lesser)",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>Ash Cultists make use of these metal scroll cases to deliver secret messages or as ways to \"smuggle\" stolen documents since initial inspections find an elegant yet empty case. The cases are enchanted to instantly immolate any parchment or document placed inside of it. While invested, you can Interact with the scroll case to recreate the last message that was destroyed this way. For as long as the case is open, ashes will rise into the air, recreating the text of the message exactly as it was written. When you close the case or leave it unattended for 1 minute, the message scatters until the next time you Interact with it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Furnace of Endings (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Ash Cultists make use of these metal scroll cases to deliver secret messages or as ways to \"smuggle\" stolen documents since initial inspections find an elegant yet empty case. The cases are enchanted to instantly immolate any parchment or document placed inside of it. While invested, you can Interact with the scroll case to recreate the last message that was destroyed this way. For as long as the case is open, ashes will rise into the air, recreating the text of the message exactly as it was written. When you close the case or leave it unattended for 1 minute, the message scatters until the next time you Interact with it.</p>\n<p>In addition to the ability to recreate immolated documents, you can immolate a scroll containing a 5th-rank spell or lower with the fire or void trait that takes no more than three actions to cast. Doing so stores the scroll's magic inside of the scroll case in order to reuse it later. Only a single spell can be stored this way at a time, and immolating scrolls containing a higher-rank spell simply destroys the scroll without storing the magic. When you immolate a new spell scroll in the case, the previous one is lost. Enough of the scroll's magic is lost in this process that you can't use the case to recreate the scroll for the purposes of Learning a Spell.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span> envision, Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The last object burned was a scroll containing an appropriate spell</p>\n<hr />\n<p><strong>Effect</strong> You cast the stored spell as if you were activating the scroll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Furnace of Endings",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>Ash Cultists make use of these metal scroll cases to deliver secret messages or as ways to \"smuggle\" stolen documents since initial inspections find an elegant yet empty case. The cases are enchanted to instantly immolate any parchment or document placed inside of it. While invested, you can Interact with the scroll case to recreate the last message that was destroyed this way. For as long as the case is open, ashes will rise into the air, recreating the text of the message exactly as it was written. When you close the case or leave it unattended for 1 minute, the message scatters until the next time you Interact with it.</p>\n<p>In addition to the ability to recreate immolated documents, you can immolate a scroll containing a 1st-rank spell with the fire or void trait that takes no more than three actions to cast. Doing so stores the scroll's magic inside of the scroll case in order to reuse it later. Only a single spell can be stored this way at a time, and immolating scrolls containing a higher-rank spell simply destroys the scroll without storing the magic. When you immolate a new spell scroll in the case, the previous one is lost. Enough of the scroll's magic is lost in this process that you can't use the case to recreate the scroll for the purposes of Learning a Spell.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span> envision, Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The last object burned was a scroll containing an appropriate spell</p>\n<hr />\n<p><strong>Effect</strong> You cast the stored spell as if you were activating the scroll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Fury Cocktail (Greater)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A fury cocktail is a fortifying ginger beer spiked with rum and a mixer. It's rumored to have originated from a barbarian-themed festival in a popular mead hall specializing in alchemical beverages.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created. The effects last 1 hour.</p>\n<ul>\n<li><strong>Animalistic</strong> Lemon juice and powdered claws or talons are added to the cocktail. You gain an unarmed attack in the brawling group of your choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the agile trait and deals 1d4 slashing damage.</li>\n<li><strong>Double</strong> This cocktail is just stronger, with more ginger and more rum. You gain resistance 5 to physical damage.</li>\n<li><strong>Mournful</strong> A few flower petals add a powerful aroma to the drink. You gain resistance 10 to void damage, or resistance 10 to vitality damage if you have void healing.</li>\n<li><strong>Skeptical</strong> A splash of bitters gives the drink a more complex flavor. You gain a +3 item bonus to saves against magic.</li>\n<li><strong>Titanic</strong> Yuzu juice and powdered giant hair are added to this cocktail. If you're Medium or smaller, you gain the following effects: you become Large, are @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and increase your reach by 5 feet (or by 10 feet if you started out Tiny).</li>\n<li><strong>Wyrmhide</strong> Pomegranate juice and elemental reagents are added to the cocktail. You gain resistance 10 to acid, cold, electricity, fire, and poison damage.</li>\n</ul>\n<p><strong>Drawback</strong> You take a –1 penalty to AC and a –2 penalty to Reflex saves.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fury Cocktail (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Fury Cocktail (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A fury cocktail is a fortifying ginger beer spiked with rum and a mixer. It's rumored to have originated from a barbarian-themed festival in a popular mead hall specializing in alchemical beverages.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created. The effects lasts 10 minutes.</p>\n<ul>\n<li><strong>Animalistic</strong> Lemon juice and powdered claws or talons are added to the cocktail. You gain an unarmed attack in the brawling group of your choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the agile trait and deals 1d4 slashing damage.</li>\n<li><strong>Double</strong> This cocktail is just stronger, with more ginger and more rum. You gain resistance 1 to physical damage.</li>\n<li><strong>Mournful</strong> A few flower petals add a powerful aroma to the drink. You gain resistance 1 to void damage, or resistance 1 to vitality damage if you have void healing.</li>\n<li><strong>Skeptical</strong> A splash of bitters gives the drink a more complex flavor. You gain a +1 item bonus to saves against magic.</li>\n<li><strong>Titanic</strong> Yuzu juice and powdered giant hair are added to this cocktail. If you're Medium or smaller, you gain the following effects: you become Large, are @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and increase your reach by 5 feet (or by 10 feet if you started out Tiny).</li>\n<li><strong>Wyrmhide</strong> Pomegranate juice and elemental reagents are added to the cocktail. You gain resistance 1 to acid, cold, electricity, fire, and poison damage.</li>\n</ul>\n<p><strong>Drawback</strong> You take a –1 penalty to AC and a –2 penalty to Reflex saves.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fury Cocktail (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Fury Cocktail (Moderate)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A fury cocktail is a fortifying ginger beer spiked with rum and a mixer. It's rumored to have originated from a barbarian-themed festival in a popular mead hall specializing in alchemical beverages.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to melee attack rolls and an additional effect depending on the additive chosen when the brew is created. The effects last 1 hour.</p>\n<ul>\n<li><strong>Animalistic</strong> Lemon juice and powdered claws or talons are added to the cocktail. You gain an unarmed attack in the brawling group of your choice between a jaws attack that deals 1d6 piercing damage or a claw attack that has the agile trait and deals 1d4 slashing damage.</li>\n<li><strong>Double</strong> This cocktail is just stronger, with more ginger and more rum. You gain resistance 2 to physical damage.</li>\n<li><strong>Mournful</strong> A few flower petals add a powerful aroma to the drink. You gain resistance 5 to void damage, or resistance 5 to vitality damage if you have void healing.</li>\n<li><strong>Skeptical</strong> A splash of bitters gives the drink a more complex flavor. You gain a +2 item bonus to saves against magic.</li>\n<li><strong>Titanic</strong> Yuzu juice and powdered giant hair are added to this cocktail. If you're Medium or smaller, you gain the following effects: you become Large, are @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and increase your reach by 5 feet (or by 10 feet if you started out Tiny).</li>\n<li><strong>Wyrmhide</strong> Pomegranate juice and elemental reagents are added to the cocktail. You gain resistance 5 to acid, cold, electricity, fire, and poison damage.</li>\n</ul>\n<p><strong>Drawback</strong> You take a –1 penalty to AC and a –2 penalty to Reflex saves.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fury Cocktail (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gada",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A large spherical head with a spike on top sits mounted to a long shaft.</p>",
+    "rarity": "common",
+    "traits": [
+      "backswing",
+      "two-hand-d12",
+      "vanara"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Gadget Skates",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (move)</p>\n<p>Gadget skates are metal devices that come in pairs and strap onto existing footwear (or a creature's feet).</p>\n<p>When you Activate gadget skates, clockwork gears reveal small wheels that propel you along the ground, moving you up to twice your Speed. During this movement, you must succeed at a @Check[acrobatics|dc:20|name:Control] check to turn up to 90 degrees, and you can't turn more than once or more than 90 degrees. During the activation and after the activation is complete, you can't Stride, Step, or otherwise move on the ground until the end of your next turn. However, you can use this movement instead of a Stride to perform a @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] or @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump] just after the activation ends, in the direction of your last movement using the gadget skates.</p>\n<p>You can Sustain the Activation of your gadget skates for up to 1 minute. Starting on the turn after you Activate the gadget skates, the first time you Sustain the Activation each turn, you gain the effects of the activation again: you move up to twice your Speed in the same direction as your last movement with the gadget skates, and the restrictions continue to apply until you choose to cease Sustaining the Activation or you reach the maximum duration. Once the effect ends, the skates fall away and you can move normally.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gaff",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Many marsh giants fight with oversized gaffs-lengths of wood with a single metal spike affixed to the tip. Used often by fisherfolk to land fish, marsh giants use their gaffs as weapons.</p>",
+    "rarity": "common",
+    "traits": [
+      "trip",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Gaffe Glasses",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>These wire-rim glasses appear to be <em>glasses of sociability</em>, making you think they grant a +1 item bonus to Diplomacy when they grant none. The GM secretly adjusts your Diplomacy checks to ignore the bonus, and if you have multiple +1 item bonuses to Diplomacy, the glasses take precedence, negating those bonuses.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> Like glasses of sociability, with the same limitations, you stare at another creature. If you've met and exchanged names, you expect to instantly remember the target's name. However, you recall the worst possible incorrect name, such as mistaking a famous artist for their hated rival. This blunder doesn't prevent you from realizing the creature's real name after you've been corrected. Once you use this activation, the glasses fuse to you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gakgung",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A gakgung is a type of composite reflex bow that combines speed and power in equal amounts for effective precision shooting.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d8",
+      "monk",
+      "propulsive"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Gallows Tooth",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This grisly molar hangs from a cord threaded through a hole just above its dried, exposed root. When you activate this talisman, make a melee Strike against an adjacent creature. That creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the Strike and until the end of your turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Galvanic Chew",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A galvanic chew is a processed ball of dried electric eel, roasted until chewy and coated in spicy, reagent-infused powder that tingles with electricity as you chew. For up to 1 hour, you have resistance 5 to electricity.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Galvanic Chew]</p>\n<hr />\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">r</span> (electricity)</p>\n<p><strong>Trigger</strong> You're hit by a melee attack or touched by a creature</p>\n<p><strong>Effect</strong> You channel electricity into the triggering creature, which must succeed at a @Check[fortitude|dc:24|traits:electricity] save or be @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 2} on a critical failure). The chew becomes inert. You're then temporarily immune to galvanic chews for 24 hours or until the next time you make your daily preparations.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Galvanic Mortal Coil",
+    "price": {
+      "gp": 970
+    },
+    "description": "<p>This porous steel coil wraps around a shard of onyx, supplementing the closely guarded science of galvaspheres with the magic of necromancy. When embedded in a body comprised of flesh, the blood and other fluids catalyze electrical pulses within the coil, activating the necromantic energies. In living creatures, this causes a dangerous surge that can damage the heart. In corpses, however, this can create a limited window of reanimation, with access to the corpse's final memories. <em>Galvanic mortal coils</em> are even rarer than other galvaspheres, and thought by most to be merely hypothetical.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You drive the coil into a living creature that has 0 HP while attaching the other end to yourself, in order to damage their heart and possibly siphon their life force. The <em>galvanic mortal coil</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Death Knell] on the creature @Check[will|dc:27].</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You implant the coil into a corpse. The coil casts @UUID[Compendium.pf2e.spells-srd.Item.Talking Corpse] on the body.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Galvasphere",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>A <em>galvasphere</em> animates a corpse to motion via electricity, rather than necromancy. When you Activate the <em>galvasphere</em> by inserting it into an adjacent intact Medium or Small humanoid corpse, the corpse animates as a galvaheart zombie for 1 minute. The galvaheart zombie has the statistics of a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Zombie Shambler] except that it is a construct instead of an undead, isn't evil, can't be harmed by vitality energy, and is the same size as the corpse (Medium or Small). The zombie is your minion and performs the actions you choose when you Command it. If you don't Command it, it takes no action, twitching in place as the electricity that animates it slowly expends itself.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Gambler's Staff",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>A small glass orb on the head of a <em>gambler's staff</em> holds a pair of six-sided dice that shift and roll within. Spellcasters who make their living via games of chance use <em>gamblers' staves</em> to encourage the odds in their favor. Most gambling dens ban players they discover using such magic items. A <em>gambler's staff</em> grants you a +2 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income] from gambling (typically using Games Lore). To get this benefit, the staff must be on your person during all the downtime you spend gambling.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Wash Your Luck]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Nudge the Odds]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Lucky Number]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Shift Blame]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Read Omens], @UUID[Compendium.pf2e.spells-srd.Item.Winning Streak]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Nudge the Odds]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Gamepiece Chariot",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This stone figurine of a chariot pulled by two horses was used by Tekritanin adults during strategy game competitions. Sometimes, though, mischievous adolescents snatched pieces like this one for joyriding.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You place the figurine on the ground and roll it forward. As the chariot begins to move, it rapidly expands to the size of a Large heavy chariot pulled by two animated stone war horses. You can board the chariot and drive it up to 80 feet in a straight line. You can move through spaces occupied by creatures of size Medium or smaller, dealing @Damage[(4d8+10)[bludgeoning]] damage to those creatures. Affected creatures must attempt a @Check[reflex|dc:28|basic] save; on a failure, a creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The chariot returns to its figurine form once it stops moving.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Games (Loaded Dice)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A nigh-infinite assortment of games exist in Golarion. Simple games, including dice, a deck of cards, or dominoes, cost 5 sp. Board games vary in cost from 1 gp for dexterity games like Bungle, 3 gp for colorful children's games like Cauldron Quest, and 5 gp for complex strategy games like Kingmaker and Abendego Raiders. Lavish game sets can cost much more than these prices, as they are made of expensive components and are intricately crafted works of art unto themselves.</p>\n<hr />\n<p>These dice are weighted on one side to ensure they always land with the desired number facing up. Loaded dice grant you a +1 item bonus to Games Lore checks to gamble with the dice. You can determine a die is loaded while handling it with a successful secret @Check[perception|dc:20|name:Loaded Dice] check. Determining dice are loaded without handling the dice is more difficult, especially since smart cheaters switch loaded dice in and out so they don't suspiciously roll the same number over and over. In this case, an observer must succeed at a secret Perception check against the roller's Games Lore or Thievery DC to notice the switches or the patterns.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Gamtu Hat",
+    "price": {},
+    "description": "<p>You conjure a magical gamtu hat, which is a magic item of light Bulk. The gamtu persists for 1 hour, and you can give the gamtu to another creature to wear.</p>\n<p><strong>Activate—Hat Trick</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p><strong>Effect</strong> You tap the hat and gain the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility] spell, which lasts for the spell's normal duration, until the hat is removed, or until the hat's normal duration runs out, whichever comes first. After the spell ends, the gamtu disappears.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Ganjay Book (1 bulk book)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This item is a formula book, religious text, or spellbook that has been creased-possibly by Princess Ganjay herself-to fold up into an impossibly small shape. When folded up, the book can't be read or used, but its Bulk is reduced by 1 (a book that is 1 Bulk becomes light Bulk, and a book that is light Bulk becomes negligible in weight).</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (Interact) You fold or unfold the Ganjay book, manipulating the cunning creases.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Ganjay Book (Light bulk book)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This item is a formula book, religious text, or spellbook that has been creased-possibly by Princess Ganjay herself-to fold up into an impossibly small shape. When folded up, the book can't be read or used, but its Bulk is reduced by 1 (a book that is 1 Bulk becomes light Bulk, and a book that is light Bulk becomes negligible in weight).</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (Interact) You fold or unfold the Ganjay book, manipulating the cunning creases.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Garnet",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 15,
+    "name": "Garrote Bolt",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The shaft of this silver bolt is engraved with wiry designs.</p>\n<p>When a <em>garrote bolt</em> hits a target, it transforms into a silver garrote and wraps around one of the target's appendages, dealing an additional @Damage[2d12[persistent,slashing]] damage. On a critical hit, it wraps around the target's throat, and the target can't breathe until the persistent damage ends.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Garrote Shot",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Wiry designs mark the silvery coating on a garrote shot. When the activated ammunition hits a target, it transforms into a silvery garrote that wraps around one of the target's appendages, dealing @Damage[2d12[persistent,slashing]]. On a critical hit, it wraps around the target's throat if it has one, and the target can't breathe until the persistent damage ends. If the persistent damage kills the target, the garrote severs the appendage it's wrapped around.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Gasping Lament (Greater)",
+    "price": {
+      "gp": 14500
+    },
+    "description": "<p>This collar is a silken cord from which hangs a small silver amulet that bears the likeness of a woman with her hand at her throat. A <em>gasping lament</em> is a powerful coda instrument that's worn rather than held. While you sing, you gain a +3 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] and to Performance checks.</p>\n<p><strong>Activate</strong> Cast a Spell</p><hr /><p><strong>Effect</strong> You expend a number of charges from the collar to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Message]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Command]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Sonata Span], @UUID[Compendium.pf2e.spells-srd.Item.Ventriloquism]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Enthrall], @UUID[Compendium.pf2e.spells-srd.Item.Shatter]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Honeyed Words], @UUID[Compendium.pf2e.spells-srd.Item.Infectious Melody]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast], @UUID[Compendium.pf2e.spells-srd.Item.Zealous Conviction]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Shatter], @UUID[Compendium.pf2e.spells-srd.Item.Vibrant Vibrato]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "rare",
+    "traits": [
+      "coda",
+      "invested",
+      "magical",
+      "staff"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Gasping Lament",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This collar is a silken cord from which hangs a small silver amulet that bears the likeness of a woman with her hand at her throat. A <em>gasping lament</em> is a powerful coda instrument that's worn rather than held. While you sing, you gain a +2 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] and to Performance checks.</p>\n<p><strong>Activate</strong> Cast a Spell</p><hr /><p><strong>Effect</strong> You expend a number of charges from the collar to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Message]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Charm], @UUID[Compendium.pf2e.spells-srd.Item.Command]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Sonata Span], @UUID[Compendium.pf2e.spells-srd.Item.Ventriloquism]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Enthrall], @UUID[Compendium.pf2e.spells-srd.Item.Shatter]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Honeyed Words], @UUID[Compendium.pf2e.spells-srd.Item.Infectious Melody]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "rare",
+    "traits": [
+      "coda",
+      "invested",
+      "magical",
+      "staff"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Gate Attenuator (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p><em>Gate attenuators</em> are typically worn near the body's core and are shaped like portals or passageways, making literal the elemental gates kineticists possess within their bodies. The appearance can vary from a simple disk with a hole in the middle to a design matching a city gate of a particular settlement. If you're a kineticist, the attenuator grants you a +2 item bonus to your impulse attack modifier (but not to your impulse DC). When you invest a <em>gate attenuator</em>, attune it to one element of your choice. Designs on the attenuator's surface transform to match that element, and the attenuator gains the element's trait until it's no longer invested or is attuned to a different element.</p>\n<hr />\n<p><strong>Activate - Elemental Spell</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The gate attenuator casts a 5th-rank spell, with a spell attack modifier of +18 and spell DC of 28. If you're a kineticist and the spell's element matches one of your kinetic elements, you can use your impulse attack modifier instead of the spell attack modifier or your impulse DC instead of the spell DC. The spell corresponds to the element the item is attuned to, and it gains that element's trait if it doesn't already have it:</p>\n<p><strong>air</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pressure Zone]</p>\n<p><strong>earth</strong> @UUID[Compendium.pf2e.spells-srd.Item.Sand Form]</p>\n<p><strong>fire</strong> @UUID[Compendium.pf2e.spells-srd.Item.Flames of Ego]</p>\n<p><strong>metal</strong> @UUID[Compendium.pf2e.spells-srd.Item.Impaling Spike]</p>\n<p><strong>water</strong> @UUID[Compendium.pf2e.spells-srd.Item.Freezing Rain]</p>\n<p><strong>wood</strong> @UUID[Compendium.pf2e.spells-srd.Item.Entwined Roots]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Gate Attenuator (Major)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>When you invest the <em>major gate attenuator</em>, you either increase your Constitution modifier by 1 or increase it to +4, whichever would give you a higher score.</p>\n<p><em>Gate attenuators</em> are typically worn near the body's core and are shaped like portals or passageways, making literal the elemental gates kineticists possess within their bodies. The appearance can vary from a simple disk with a hole in the middle to a design matching a city gate of a particular settlement. If you're a kineticist, the attenuator grants you a +2 item bonus to your impulse attack modifier (but not to your impulse DC). When you invest a <em>gate attenuator</em>, attune it to one element of your choice. Designs on the attenuator's surface transform to match that element, and the attenuator gains the element's trait until it's no longer invested or is attuned to a different element.</p>\n<hr />\n<p><strong>Activate - Elemental Spell</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>gate attenuator</em> casts an 8th-rank spell, with a spell attack modifier of +27 and a spell DC of 37.If you're a kineticist and the spell's element matches one of your kinetic elements, you can use your impulse attack modifier instead of the spell attack modifier or your impulse DC instead of the spell DC. The spell corresponds to the element the item is attuned to, and it gains that element's trait if it doesn't already have it:</p>\n<p><strong>air</strong> @UUID[Compendium.pf2e.spells-srd.Item.Whirlwind]</p>\n<p><strong>earth</strong> @UUID[Compendium.pf2e.spells-srd.Item.Earthquake]</p>\n<p><strong>fire</strong> @UUID[Compendium.pf2e.spells-srd.Item.Boil Blood]</p>\n<p><strong>metal</strong> @UUID[Compendium.pf2e.spells-srd.Item.Rust Cloud]</p>\n<p><strong>water</strong> @UUID[Compendium.pf2e.spells-srd.Item.Whirlpool]</p>\n<p><strong>wood</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pollen Pods]</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Gate Attenuator",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><em>Gate attenuators</em> are typically worn near the body's core and are shaped like portals or passageways, making literal the elemental gates kineticists possess within their bodies. The appearance can vary from a simple disk with a hole in the middle to a design matching a city gate of a particular settlement. If you're a kineticist, the attenuator grants you a +1 item bonus to your impulse attack modifier (but not to your impulse DC). When you invest a <em>gate attenuator</em>, attune it to one element of your choice. Designs on the attenuator's surface transform to match that element, and the attenuator gains the element's trait until it's no longer invested or is attuned to a different element.</p>\n<hr />\n<p><strong>Activate - Elemental Spell</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>gate attenuator</em> casts a 1st-rank spell, with a spell attack modifier of +7 and spell DC of 17. If you're a kineticist and the spell's element matches one of your kinetic elements, you can use your impulse attack modifier instead of the spell attack modifier or your impulse DC instead of the spell DC. The spell corresponds to the element the item is attuned to, and it gains that element's trait if it doesn't already have it:</p>\n<p><strong>air</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gust of Wind]</p>\n<p><strong>earth</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pummeling Rubble]</p>\n<p><strong>fire</strong> @UUID[Compendium.pf2e.spells-srd.Item.Dehydrate]</p>\n<p><strong>metal</strong> @UUID[Compendium.pf2e.spells-srd.Item.Thunderstrike]</p>\n<p><strong>water</strong> @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</p>\n<p><strong>wood</strong> @UUID[Compendium.pf2e.spells-srd.Item.Flourishing Flora]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gauntlet Bow",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p>The gauntlet bow is a heavy metal glove with a built-in crossbow and rotating chamber mechanism for easy reloading. A gauntlet bow can be used to make melee attacks like a standard gauntlet. You can't reload a gauntlet bow with the hand wielding it.</p>",
+    "rarity": "common",
+    "traits": [
+      "capacity-4",
+      "free-hand",
+      "parry"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gauntlet Buckler",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This buckler-sized shield is segmented, allowing it to collapse into a housing bound to a gauntlet for easy storage. A small catch enables you to expand the shield quickly in battle when you're in need of defense.</p>",
+    "rarity": "common",
+    "traits": [
+      "foldaway"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Gauntlet",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>A pair of these metal gloves comes with full plate, half plate, and splint armor; they can also be purchased separately and worn with other types of armor. They not only protect your hands but also transform your hands into lethal weapons.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "free-hand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Gauntlight",
+    "price": {},
+    "description": "",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Gearbinder Oil (Greater)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Gearbinder oil comes in a sealed pump that can squirt the oil a short distance. The oil is designed to flow through complex mechanisms and, agitated through mechanical action, foam up and form a paste that binds the works. The oil is effective against articulated constructs and machinery, including many constructs, clockworks, and mechanical hazards. You apply the oil to the target you want to bind, which must be within 10 feet of you. After the oil is applied, at the end of any round during which the target took an action with the attack, manipulate, or move trait, it must attempt a @Check[fortitude|dc:38] save. A mechanism that's @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} or more by gearbinder oil also can't use reactions. Gearbinder oil functions for up to 6 rounds before becoming an inert, oily residue.</p>\n<hr />\n<p><strong>Critical Success</strong> The oil becomes inert, and the effect ends.</p>\n<p><strong>Success</strong> The target reduces its slowed condition by 1. If the slowed condition's value is 0, the effect ends.</p>\n<p><strong>Failure</strong> The target increases its slowed condition by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 3}.</p>\n<p><strong>Critical Failure</strong> The target increases its slowed condition by 2, to a maximum of slowed 3.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "incapacitation"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Gearbinder Oil (Lesser)",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Gearbinder oil comes in a sealed pump that can squirt the oil a short distance. The oil is designed to flow through complex mechanisms and, agitated through mechanical action, foam up and form a paste that binds the works. The oil is effective against articulated constructs and machinery, including many constructs, clockworks, and mechanical hazards. You apply the oil to the target you want to bind, which must be within 10 feet of you. After the oil is applied, at the end of any round during which the target took an action with the attack, manipulate, or move trait, it must attempt a @Check[fortitude|dc:20] save. A mechanism that's @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} or more by gearbinder oil also can't use reactions. Gearbinder oil functions for up to 6 rounds before becoming an inert, oily residue.</p>\n<hr />\n<p><strong>Critical Success</strong> The oil becomes inert, and the effect ends.</p>\n<p><strong>Success</strong> The target reduces its slowed condition by 1. If the slowed condition's value is 0, the effect ends.</p>\n<p><strong>Failure</strong> The target increases its slowed condition by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 3}.</p>\n<p><strong>Critical Failure</strong> The target increases its slowed condition by 2, to a maximum of slowed 3.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "incapacitation"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Gearbinder Oil (Moderate)",
+    "price": {
+      "gp": 390
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Gearbinder oil comes in a sealed pump that can squirt the oil a short distance. The oil is designed to flow through complex mechanisms and, agitated through mechanical action, foam up and form a paste that binds the works. The oil is effective against articulated constructs and machinery, including many constructs, clockworks, and mechanical hazards. You apply the oil to the target you want to bind, which must be within 10 feet of you. After the oil is applied, at the end of any round during which the target took an action with the attack, manipulate, or move trait, it must attempt a @Check[fortitude|dc:29] save. A mechanism that's @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} or more by gearbinder oil also can't use reactions. Gearbinder oil functions for up to 6 rounds before becoming an inert, oily residue.</p>\n<hr />\n<p><strong>Critical Success</strong> The oil becomes inert, and the effect ends.</p>\n<p><strong>Success</strong> The target reduces its slowed condition by 1. If the slowed condition's value is 0, the effect ends.</p>\n<p><strong>Failure</strong> The target increases its slowed condition by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 3}.</p>\n<p><strong>Critical Failure</strong> The target increases its slowed condition by 2, to a maximum of slowed 3.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "incapacitation"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Gearblade",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>Shaped like a blade made from spinning gears, this <em>+2 greater striking</em> weapon can catch enemy weapons and grind up foes. In order to function, the <em>gearblade</em> must be wound for 10 minutes once every 24 hours. During this process, you can reconfigure the weapon to transform into a bastard sword, greatsword, longsword, or shortsword. It then gains all the features of the chosen weapon except that its Bulk is always 2 and it gains the disarm weapon trait and the versatile B weapon trait (which replaces any other versatile trait the weapon might have). If you don't wind the gearblade, it becomes inert and has the statistics of a greatclub.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You've wound the gearblade for 10 minutes within the last 24 hours</p>\n<p><strong>Trigger</strong> You roll a critical success to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] a target with the gearblade</p>\n<hr />\n<p><strong>Effect</strong> The target's weapon is pulled through the gearblade's gears and shoots out the other side, landing 20 feet away in a direction of your choice. The target must attempt a @Check[reflex|dc:36] save. On a failure, the limb holding their weapon is also pulled into the <em>gearblade</em>, and the creature takes @Damage[3d12[bludgeoning]] damage. On a critical failure, they take @Damage[6d12[bludgeoning]] damage and the limb becomes unusable until healed by a @UUID[Compendium.pf2e.spells-srd.Item.Regenerate] spell or a similar effect.</p>",
+    "rarity": "rare",
+    "traits": [
+      "backswing",
+      "clockwork",
+      "invested",
+      "shove"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Gecko Pads (Greater)",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Gecko pads are thin, clockwork devices shaped like palms, which can be strapped onto existing handwear or a creature's hands. When activated, they whir to life and improve your grip on surfaces, while slowly releasing a sticky substance stored within the device's surface to help you @UUID[Compendium.pf2e.actionspf2e.Item.Climb]. The pads give you a climb Speed equal to your Speed for 1 hour as long as your hands are free.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Gecko Pads",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Gecko pads are thin, clockwork devices shaped like palms, which can be strapped onto existing handwear or a creature's hands. When activated, they whir to life and improve your grip on surfaces, while slowly releasing a sticky substance stored within the device's surface to help you @UUID[Compendium.pf2e.actionspf2e.Item.Climb]. The pads give you a climb Speed equal to your Speed for 10 minutes as long as your hands are free.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Gecko Potion",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>gecko potion</em> is a sticky, tawny brown liquid with flecks of sand suspended in it. For 5 minutes after drinking this potion, your fingertips sprout thousands of microscopic, bristled hairs that cling to objects, granting you gain a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Climb] and @UUID[Compendium.pf2e.actionspf2e.Item.Palm an Object] checks and to your Reflex DC against @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] attempts.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Gecko Potion]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Gelid Shard",
+    "price": {},
+    "description": "<p>This crystal shard shimmers with its own light even as it seems to draw the heat out of its surroundings. Plunging it into your heart grants you the tranquil lethality of deepest winter, but the more you draw upon its power, the colder your heart grows. Your frozen heart dulls your emotions. When you gain a bonus from an emotion effect, that bonus is reduced by 1, to a minimum of 0. At 10th level, the bonus is reduced by 2. Your dulled emotions make it hard to relate to others; the DC of checks to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] or @UUID[Compendium.pf2e.actionspf2e.Item.Request] a favor of other creatures, or to Aid in such attempts, is increased by +2. You gain resistance to cold equal to your level and a +2 status bonus to all saves against emotion effects.</p>\n<p><strong>Destruction</strong> The <em>gelid shard</em> must be left exposed in the Plane of Fire for a week and a day, then smashed with an adamantine hammer by someone who felt true love for the shard's creator.</p>",
+    "rarity": "rare",
+    "traits": [
+      "arcane",
+      "artifact",
+      "cold",
+      "invested"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Genealogy Mask",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Access</strong> Alijae ethnicity</p>\n<hr />\n<p>These large masks are forged of precious metals or carved of wood and tasked with guarding the history of a family. Most Alijae are granted a genealogy mask when they come of age, which they bequeath to their next of kin upon death. When a member of the family recounted in the genealogy mask performs a particularly significant event while wearing the mask, its eyes and ears animate, allowing the item to witness and record the deeds for posterity. Different families have different standards for their genealogy masks-some may value accuracy and objective, clinical facts, while others may relish embellishing their stories to the very brink of believability in the name of a good story.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You ask the mask about the deeds of a particular ancestor, and the mask speaks for 10 minutes, recalling the tales it knows about that ancestor. The mask is limited by what information a particular ancestor shared with it.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Ancestral Memories] or @UUID[Compendium.pf2e.spells-srd.Item.Mindlink]. You must be an Alijae elf.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Genius Diadem",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p><strong>Perception</strong> +22; precise vision 30 feet, imprecise hearing 30 feet, constant <em>detect magic</em></p>\n<p><strong>Communication</strong> speech (Common, Draconic, and eight other common languages)</p>\n<p><strong>Skills</strong> Arcana +34, seven Lore skills +28, Occultism +28, Society +28</p>\n<p><strong>Int</strong> +8, <strong>Wis</strong> +0, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +24</p>\n<hr />\n<p>The <em>genius diadem</em> is a <em>@UUID[Compendium.pf2e.equipment-srd.Item.Crown of Intellect]</em> that typically acts like an arrogant professor or mentor, often boasting that it is a certified greater intellect and far superior to your own intelligence, even after the benefits the diadem grants you. The <em>genius diadem</em> encourages you to learn things for yourself rather than actually attempting to Recall Knowledge for you, though you or your allies might be able to play on its arrogance using Deception to trick it into doing so. In addition to allowing you to activate it, the diadem can use the Search Your Mind activation with its own actions, though if it does so, the diadem gains the benefits instead of you. Only the diadem can use the following activation.</p>\n<p><strong>Activate—Brain Drain</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The <em>genius diadem</em> casts 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Never Mind].</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "arcane",
+      "intelligent"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Ghast Stiletto",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>A <em>ghast stiletto</em> is a <em>+1 dagger</em> wrapped in the still-undead skin of a ghast. While you wield the dagger, you gain a +1 status bonus to all saves against paralysis.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact (divine, necromancy, olfactory)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The ghast stiletto afflicts the next living target struck by the dagger with a terrible wound that emits the foul stench of the grave. For the next minute, the target creature, as well as any creatures within a @Template[emanation|distance:10], must succeed at a @Check[fortitude|dc:16|traits:divine,necromancy,olfactory] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (plus @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} as long as it's sickened on a critical failure). While within the emanation, the creature takes a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include skin from a ghast.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Ghastly Cauldron",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This black cooking pot can produce a feast fit for undead.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The cauldron must be filled with water, herbs, bones, and raw meat, and kept at a boil for 1 hour</p><hr /><p><strong>Effect</strong> As you stir the cauldron, its contents transform into 10 meals suitable for undead consumption. Each meal must be ladled from the cauldron individually as a 3-action activity and must be eaten within 1 hour of removal. An undead creature that consumes a meal from the cauldron regains @Damage[5d8[healing]]{5d8 Hit Points} and gains the benefits of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Restoration] that you choose; living creatures who consume a meal from the cauldron take @Damage[5d8[void]] damage (@Check[fortitude|dc:27|basic]) instead. Any meals remaining in the cauldron 24 hours after activation become inedible slurry.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "void"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Ghost Ammunition",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><em>Ghost ammunition</em> is cool to the touch. This ammunition has the benefits of the <em>@UUID[Compendium.pf2e.equipment-srd.Item.Ghost Touch]</em> property rune and can fly through any obstacle except those that can block incorporeal creatures or effects. Though the ammunition penetrates barriers and ignores all cover, the target still benefits from the flat check from being concealed or hidden. You still can't target an undetected creature without guessing.</p>\n<p>After it is launched, the ammunition vanishes into mist. However, in the dead of the night [[/r 1d4 #days]]{1d4 days} later, it reappears in the last quiver or other container it was taken from.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Ghost Ampoule",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>A daub of ectoplasm twitches within this glass container, faintly glowing with ghostly light. When opened it forms the echo of a departed spirit, which looks like a Medium ghost. You can throw the ampoule up to 30 feet when you Activate it. The ghost utters a final lament, forcing each living creature in a @Template[emanation|distance:15] except you to attempt a @Check[will|dc:18] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} (or @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} on a critical failure).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply ectoplasmic residue from a destroyed ghost.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "auditory",
+      "consumable",
+      "divine",
+      "emotion",
+      "expandable",
+      "fear",
+      "mental"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Ghost Charge (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures.</p>\n<p>A <em>ghost charge</em> gives a +2 item bonus to attack rolls, deals 3d8 vitality damage and 3 vitality splash damage, though as usual for vitality damage, this damage harms only undead and creatures with void healing. A primary target that takes damage from a <em>ghost charge</em> becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} until the start of your next turn.</p>\n<p><em>Ghost charges</em> are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Ghost Charge (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures.</p>\n<p>A <em>ghost charge</em> deals 1d8 vitality damage and 1 vitality splash damage, though as usual for vitality damage, this damage harms only undead and creatures with void healing. A primary target that takes damage from a <em>ghost charge</em> becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} until the start of your next turn.</p>\n<p><em>Ghost charges</em> are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Ghost Charge (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures.</p>\n<p>A <em>ghost charge</em> gives a +3 item bonus to attack rolls, deals 4d8 vitality damage and 4 vitality splash damage, though as usual for vitality damage, this damage harms only undead and creatures with void healing. A primary target that takes damage from a <em>ghost charge</em> becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} until the start of your next turn.</p>\n<p><em>Ghost charges</em> are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Ghost Charge (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures.</p>\n<p>A <em>ghost charge</em> gives a +1 item bonus to attack rolls, deals 2d8 vitality damage and 2 vitality splash damage, though as usual for vitality damage, this damage harms only undead and creatures with void healing. A primary target that takes damage from a <em>ghost charge</em> becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} until the start of your next turn.</p>\n<p><em>Ghost charges</em> are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Ghost Courier Fulu",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p>The inscription on a <em>ghost courier fulu</em> leaves space for a message, and a prominent red stamp indicates which ghost delivery fulu this fulu homes in on (see below). When you Activate this fulu, you dictate a message up to 25 words long that then magically appears on the paper in the language you spoke. The fulu then disappears into the Ethereal Plane, arriving at the assigned ghost delivery fulu in [[/r 2d10 #hours]]{2d10 hours}, provided that fulu is within 500 miles. There, the fulu's magic dissipates, but the message remains. If the fulu takes any damage in transit, it has a 50% chance to drop back into the Material Plane, intact but bereft of magic.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Ghost Delivery Fulu",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Duration</strong> 1 week</p>\n<p>A ghost delivery fulu's inscription resembles a dovecote with spirits around it, and it has a prominent stamp in red wax. This fulu activates once affixed, becoming the homing location of ghost courier fulus with a matching stamp. Delivered ghost courier fulu messages stick to the ghost delivery fulu but can be easily removed.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  }
+]

@@ -1,0 +1,1337 @@
+[
+  {
+    "level": 12,
+    "name": "Brass Dragon's Breath Potion (Adult)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p>This liquid contains blood from a brass dragon. For 1 hour after you imbibe the concoction, you can unleash a brass dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of fire which deals @Damage[6d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:29|basic|name:Adult Brass Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Brass Dragon's Breath Potion (Wyrm)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This liquid contains blood from a brass dragon. For 1 hour after you imbibe the concoction, you can unleash a brass dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of fire which deals @Damage[10d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:37|basic|name:Wyrm Brass Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Brass Dragon's Breath Potion (Young)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This liquid contains blood from a brass dragon. For 1 hour after you imbibe the concoction, you can unleash a brass dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of fire which deals @Damage[4d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:23|basic|name:Young Brass Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Brass Ear",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A brass ear is a short, flared tube with one end narrow enough to comfortably fit against the ear canal. When using a brass ear to listen through a door, window, thin wall, or similar barrier, if the barrier would normally increase the DC of your Perception check to hear sounds on the other side, the DC increases by only half as much as normal. It's not suitable for improving your hearing in general, a role better served by a hearing aid.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Brass scepter with amethyst head",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Brass statuette of a bull",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Bravery Baldric (Fleet)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it grass green. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Fleet Step].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bravery Baldric (Flight)",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it light blue. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Fly].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bravery Baldric (Haste)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it silver. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Haste].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bravery Baldric (Restoration, Greater)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it golden. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Restoration].</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bravery Baldric (Restoration)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it golden. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Restoration].</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bravery Baldric (Stoneskin)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>A <em>bravery baldric</em> is a belt that wraps around the shoulder and draws on your well of courage. When you critically succeed on a save against a fear effect or reduce your frightened condition to 0, the baldric gains 1 charge, which slightly alters the color, turning it dark gray. A <em>bravery baldric</em> can hold up to 2 charges, and its charges reset to 0 when you invest it. You can have only one <em>bravery baldric</em> invested at a time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Requirements</strong> The baldric has a charge</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the baldric expires, and you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Mountain Resilience].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Bravo's Brew (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This flask of foaming beer grants courage. For the next hour after drinking this elixir, you gain a +3 item bonus to Will saves, or +4 when attempting Will saves against fear. If you roll a success on a save against fear, you get a critical success instead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bravo's Brew]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mental"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bravo's Brew (Lesser)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This flask of foaming beer grants courage. For the next hour after drinking this elixir, you gain a +1 item bonus to Will saves, or +2 when attempting Will saves against fear.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bravo's Brew]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mental"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Bravo's Brew (Moderate)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This flask of foaming beer grants courage. For the next hour after drinking this elixir, you gain a +2 item bonus to Will saves, or +3 when attempting Will saves against fear.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bravo's Brew]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mental"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Brazier of Harmony",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>The <em>brazier of harmony</em> is a circular, orb-shaped censer etched with celebrating creatures shaking hands and dancing. The brazier contains a pleasant-smelling potpourri of dried flowers and incenses, designed to create a calm atmosphere that encourages meditation, thoughtfulness, and camaraderie. While holding the lit censer, you gain a +1 item bonus to Diplomacy checks, whether the censer is activated or not.</p>\n<hr />\n<p><strong>Activate—Light Incense</strong> <span class=\"action-glyph\">2</span> (aura, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Cost</strong> incense worth at least 1 sp</p>\n<p><strong>Effect</strong> When the incense is lit, pleasant, floral smoke surrounds the censer in a @Template[emanation|distance:20], creating a space of peace and harmony. Each creature that breathes the smoke is affected by 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Calm] and is then temporarily immune for 24 hours. The spell's effects end when the incense burns out.</p>",
+    "rarity": "common",
+    "traits": [
+      "censer",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Breaching Pike",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>Forged with a heavy metal wedge effective at damaging enemy shields, breaching pikes are often used by hobgoblin infantry alongside a tower shield.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "hobgoblin",
+      "razing",
+      "reach"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Breastplate of the Mountain",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>Constructed of dull gray metal, this breastplate is decorated with the symbol of a craggy black mountaintop. This breastplate functions as a <em>+3 greater resilient breastplate</em>. When you're Shoved or otherwise forced to move, you can reduce the amount you move by up to 10 feet. When you invest the breastplate, you either increase your Constitution modifier by 1 or increase it to +4, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You pound a solid and constant rhythm on your breastplate and cast a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Regenerate] spell on yourself.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> With a single tap, you gain immunity to poison for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Breastplate of the Mountain]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a Fortitude saving throw</p>\n<p><strong>Effect</strong> If you failed the saving throw, it becomes a success. If you critically failed, it becomes a failure instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Breastplate",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>Though referred to as a breastplate, this type of armor consists of several pieces of plate or @UUID[Compendium.pf2e.equipment-srd.Item.Half Plate] armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 14,
+    "name": "Breath Blaster (Greater)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>A <em>greater breath blaster</em> is a <em>+2 greater striking blunderbuss</em> most commonly crafted from the trachea of a dragon, though other creatures with breath weapons or the ability to spit energy are occasionally used. The implementation of the dragon's trachea allows the firearm to unleash a torrent of pure energy in the form of gouts of flame or bolts of electricity.</p>\n<p>A <em>breath blaster's</em> Strikes deal either acid, cold, electricity, fire, or poison damage, depending on the dragon type or other creature from which it was made, though it can otherwise be used like a normal blunderbuss. A breath blaster also can be activated to fire a line of energy in a @Template[line|distance:30] or @Template[cone|distance:15], chosen when it's created and typically corresponding to the shape of the breath weapon used by the type of dragon or creature from which the <em>breath blaster was created.</em></p>\n<p>In theory, the foundational techniques required to create a breath blaster would allow for other damage types, but such breath blasters would require the trachea from the correct dragon or creature type and additional creation techniques, making such a breath blaster rare rather than uncommon.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (evocation, magical)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You fire the <em>breath blaster</em>, dealing [[/r 6d6]] damage of the appropriate type in the appropriate area. Creatures in the area must attempt a @Check[reflex|dc:31|basic|name:Breath Blaster|traits:evocation,magical|showDC:owner] save (or @Check[fortitude|dc:31|name:Breath Blaster|traits:evocation,magical|showDC:owner] save if the damage is poison).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the trachea of a ritually hunted dragon or other creature with a breath weapon with the appropriate damage type and area (line or cone) for the <em>breath blaster</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Breath Blaster (Major)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>A <em>major breath blaster</em> is a <em>+3 major striking blunderbuss</em> most commonly crafted from the trachea of a dragon, though other creatures with breath weapons or the ability to spit energy are occasionally used. The implementation of the dragon's trachea allows the firearm to unleash a torrent of pure energy in the form of gouts of flame or bolts of electricity.</p>\n<p>A <em>breath blaster's</em> Strikes deal either acid, cold, electricity, fire, or poison damage, depending on the dragon type or other creature from which it was made, though it can otherwise be used like a normal blunderbuss. A breath blaster also can be activated to fire a line of energy in a @Template[line|distance:30] or @Template[cone|distance:15], chosen when it's created and typically corresponding to the shape of the breath weapon used by the type of dragon or creature from which the <em>breath blaster was created.</em></p>\n<p>In theory, the foundational techniques required to create a breath blaster would allow for other damage types, but such breath blasters would require the trachea from the correct dragon or creature type and additional creation techniques, making such a breath blaster rare rather than uncommon.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (evocation, magical)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You fire the <em>breath blaster</em>, dealing [[/r 10d6]] damage of the appropriate type in the appropriate area. Creatures in the area must attempt a @Check[reflex|dc:38|basic|name:Breath Blaster|traits:evocation,magical|showDC:owner] save (or @Check[fortitude|dc:38|name:Breath Blaster|traits:evocation,magical|showDC:owner] save if the damage is poison).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the trachea of a ritually hunted dragon or other creature with a breath weapon with the appropriate damage type and area (line or cone) for the <em>breath blaster</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Breath Blaster",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A <em>breath blaster</em> is a <em>+1 striking blunderbuss</em> most commonly crafted from the trachea of a dragon, though other creatures with breath weapons or the ability to spit energy are occasionally used. The implementation of the dragon's trachea allows the firearm to unleash a torrent of pure energy in the form of gouts of flame or bolts of electricity.</p>\n<p>A <em>breath blaster's</em> Strikes deal either acid, cold, electricity, fire, or poison damage, depending on the dragon type or other creature from which it was made, though it can otherwise be used like a normal blunderbuss. A breath blaster also can be activated to fire a line of energy in a @Template[line|distance:30] or @Template[cone|distance:15], chosen when it's created and typically corresponding to the shape of the breath weapon used by the type of dragon or creature from which the <em>breath blaster was created.</em></p>\n<p>In theory, the foundational techniques required to create a breath blaster would allow for other damage types, but such breath blasters would require the trachea from the correct dragon or creature type and additional creation techniques, making such a breath blaster rare rather than uncommon.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (evocation, magical)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You fire the <em>breath blaster</em>, dealing [[/r 4d6]] damage of the appropriate type in the appropriate area. Creatures in the area must attempt a @Check[reflex|dc:24|basic|traits:evocation,magical|showDC:owner] save (or @Check[fortitude|dc:24|traits:evocation,magical|showDC:owner] save if the damage is poison).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the trachea of a ritually hunted dragon or other creature with a breath weapon with the appropriate damage type and area (line or cone) for the <em>breath blaster</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Breath of the Mantis God",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>To prevent one of their victims from being brought back to life, Red Mantis assassins often poison targets with the breath of the mantis god. After a creature is poisoned by this concoction, internal hemorrhaging frequently results in blood issuing from the creature's mouth—a condition referred to by the assassins as having \"the breath of the mantis god.\" While a creature can attempt to recover normally from the persistent bleed damage caused by breath of the mantis god, the persistent bleed damage will return if the poison's duration is still ongoing. If a creature dies from the poison's effects, the toxin lingers tenaciously in the creature's flesh for 1 year. During this time, if an attempt is made to bring such a slain creature back to life that doesn't create a new body for the deceased (such as with a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Resurrect] ritual), the lingering effects of breath of the mantis god attempts to counteract the resurrection (counteract modifier [[/br 1d20+17 #Counteract]]{+17}, counteract rank 5). A spell like @UUID[Compendium.pf2e.spells-srd.Item.Extract Poison] can be used to decontaminate a corpse for easier resurrection, but simpler magic such as cleanse cuisine cannot. A 5th-rank or higher @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction] can also attempt to counteract lingering breath of the mantis god.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[3d6[bleed]] and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[3d8[bleed]] and drained 1 (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[3d10[bleed]] and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} (1 minute)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "inhaled",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Breathtaking Vapor",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This colorless mist has a mild, waxy scent that precedes acute shortness of breath. Creatures that don't need to breathe can still take the poison's damage but are immune to its other effects.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:38]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[6d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}, and can't breathe</p>\n<p><strong>Stage 2</strong> @Damage[8d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}, and reduce remaining air by 1 additional round</p>\n<p><strong>Stage 3</strong> @Damage[10d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 3}, and reduce remaining air by 2 additional rounds</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "inhaled",
+      "poison"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Breech Ejectors",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>These spring-loaded inserts can be fitted into the breech of a double-barreled firearm over the course of 10 minutes or during the firearm's daily maintenance. After the weapon is fired, the ejectors hasten the reloading process by ejecting the spent detritus from the fired rounds. This allows you to reload both barrels of the double-barreled weapon as a single Interact action the next time you reload the weapon as long as you do so before the end of your next turn. However, the ejectors are consumed in the process, and you must spend the time to insert a new set to gain the benefit again.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Brewer's Regret (Greater)",
+    "price": {
+      "gp": 625
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +3 item bonus to saves against death and void effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the @UUID[Compendium.pf2e.spells-srd.Item.Restoration] spell that same day (or vice versa).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Brewer's Regret (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Brewer's Regret",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +2 item bonus to saves against death and void effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the @UUID[Compendium.pf2e.spells-srd.Item.Restoration] spell that same day (or vice versa).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Brewer's Regret]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Briar",
+    "price": {},
+    "description": "<p><em>Briar</em> was formed ages ago by the Eldest when they tore from Nyrissa's mind and spirit her capability to love, then solidified this emotional energy into a sword. They entrusted <em>Briar's</em> safe keeping to the Lantern King, who mischievously kept moving the sword from world to world, always near to the regions Nyrissa was focused on but always hidden from her so that he could privately enjoy the delicious irony that the thing she sought so ardently was always kept just out of reach.</p>\n<p>When first recovered by the PCs, Briar is a <em>+3 greater striking cold iron bastard sword</em>, but its additional powers remain dormant. These powers can be awakened as the PCs progress through Chapter 10. The process of awakening Briar requires that the weapon be present when First World blooms are defeated or when powerful creatures from the First World are slain-<em>Briar</em> need not be the weapon that defeats a bloom or slays a monster, but it must be in the immediate area (within 500 feet). Defeating a bloom or slaying a 17th-level or greater monster from the First World- including all creatures closely associated with a bloom-gives <em>Briar</em> a Sharpness Point. As it accumulates these points, it gains additional powers, as detailed below.</p>\n<p>Once <em>Briar</em> gains the capability to speak, it can relate to its partner the sad tale of its creation, including the fact that it was created by the Lantern King using Nyrissa's capacity to love. <em>Briar</em> knows that without love, Nyrissa is as good as dead, and it suspects that only by being used to slay Nyrissa can it be returned to her soul. It doesn't know about the Lantern King's additional machinations, the nature of the <em>Apology</em>, or Nyrissa's reasons for attacking the Stolen Lands, and as such doesn't realize there is another method to be reunited with the nymph queen-see the end of Chapter 10. The first time <em>Briar</em> is brought within 30 feet of Nyrissa, it automatically gains enough Sharpness Points to reach 20 points.</p>\n<hr />\n<p><strong>1 Sharpness Point</strong> <em>Briar</em> becomes a +3 greater striking shifting cold iron bastard sword.</p>\n<hr />\n<p><strong>4 Sharpness Points</strong> <em>Briar</em> becomes a <em>+3 major striking shifting cold iron bastard sword</em>. It gains the Intelligent trait, becomes chaotic neutral, and gains the following statistics.</p>\n<p><strong>Perception</strong> [[/r 1d20+30 #perception]]{+30}, normal vision and hearing within 30 feet</p>\n<p><strong>Communication</strong> empathy (partner only)</p>\n<p><strong>Skills</strong> First World Lore [[/r 1d20+30 #First World Lore]]{+30}, Nature [[/r 1d20+28 #nature]]{+28} Int +0, Wis +0, Cha +3 Will [[/r 1d20+30 #will save]]{+30}</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> <em>Briar</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] on its partner.</p>\n<hr />\n<p><strong>8 Sharpness Points</strong> <em>Briar</em> becomes a <em>+4 major striking shifting cold iron bastard sword</em>. Its statistics improve as follows.</p>\n<p><strong>Perception</strong> [[/r 1d20+32 #perception]]{+32}, normal vision, darkvision, and hearing within 60 feet</p>\n<p><strong>Communication</strong> speech (Aklo, Common, and Sylvan)</p>\n<p><strong>Skills</strong> First World Lore [[/r 1d20+32 #First World Lore]]{+32}, Nature [[/r 1d20+30 #nature]]{+30} Int +2, Wis +2, Cha +5 [[/r 1d20+32 #will save]]{+32}</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> <em>Briar</em> casts a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] on its partner.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> <em>Briar</em> damages a plant creature</p>\n<p><strong>Effect</strong> Briar draws moisture out of the plant creature's body, dealing @Damage[10d10[void]] damage (@Check[fortitude|dc:39|basic])</p>\n<hr />\n<p><strong>14 Sharpness Points</strong> <em>Briar</em> becomes a <em>+4 major striking shifting cold iron bastard sword</em>. Against denizens of the First World, it also functions as a @UUID[Compendium.pf2e.equipment-srd.Item.Vorpal] weapon. Its statistics improve as follows.</p>\n<p><strong>Perception</strong> [[/r 1d20+34 #perception]]{+34}, normal vision, darkvision, and hearing within 120 feet Communication speech and telepathy (Aklo, Common, and Sylvan)</p>\n<p><strong>Skills</strong> First World Lore [[/r 1d20+34 #First World Lore]]{+34}, Nature [[/r 1d20+32 #nature]]{+32} Int +4, Wis +4, Cha +7 [[/r 1d20+34 #will save]]{+34}</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> <em>Briar</em> casts a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] on its partner.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> <em>Briar</em> damages a plant creature</p>\n<p><strong>Effect</strong> <em>Briar</em> draws moisture out of the plant creature's body, dealing @Damage[12d10[void]] damage (@Check[fortitude|dc:41|basic])</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> once per month</p>\n<p><strong>Trigger</strong> <em>Briar's</em> partner would die</p>\n<p><strong>Effect</strong> <em>Briar</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Breath of Life] on its partner.</p>\n<hr />\n<p><strong>20 Sharpness Points</strong> <em>Briar</em> becomes a <em>+4 major striking shifting cold iron vorpal bastard sword</em>. Its statistics improve as follows.</p>\n<p><strong>Perception</strong> [[/r 1d20+36 #perception]]{+36}, normal vision, darkvision, and hearing within 60 feet</p>\n<p><strong>Communication</strong> speech and telepathy (Aklo, Common, and Sylvan)</p>\n<p>First World Lore [[/r 1d20+36 #First World Lore]]{+36}, Nature [[/r 1d20+34 #nature]]{+34} Int +6, Wis +6, Cha +9 [[/r 1d20+36 #will save]]{+36}</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (command)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> <em>Briar</em> casts an 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] on its partner.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> <em>Briar</em> damages a plant creature</p>\n<p><strong>Effect</strong> <em>Briar</em> draws moisture out of the plant creature's body, dealing @Damage[14d10[void]] damage (@Check[fortitude|dc:43|basic])</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Frequency</strong> once per month</p>\n<p><strong>Trigger</strong> <em>Briar's</em> partner dies</p>\n<p><strong>Effect</strong> <em>Briar</em> resurrects its partner. The partner returns to life with full Hit Points and the same spells prepared and points in their pools they had when they died, but still suffering from any long-term debilitations of the old body. The target is also permanently changed in some way that shifts their appearance slightly toward that of Nyrissa's, such as a green streak in the hair, a few thorny growths on the body, or a slight greenish cast to their skin.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Trigger</strong> <em>Briar's</em> partner Strikes Nyrissa with <em>Briar</em> for the first time in a round</p>\n<p><strong>Effect</strong> Nyrissa must make a successful @Check[fortitude|dc:50] save to resist being @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1} (@UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 3} on a critical failure). <em>Briar's</em> partner gains a +4 item bonus to all saving throws against Nyrissa's spells for 1 minute.</p>\n<hr />\n<p><strong>Destruction</strong> The Lantern King can will <em>Briar's</em> destruction if he chooses. Alternately, defeating the Lantern King's aspect causes the sword's destruction. Once <em>Briar</em> is destroyed, Nyrissa regains the capability to love once again, but what she does next will depend on how the PCs treated her-assuming she survives. If Nyrissa is slain, <em>Briar</em> immediately loses [[/r 1d6 #sharpness points]]{1d6 Sharpness points}. It can never again gain Sharpness points, and it continues to lose more at the rate of 1d6 every 24 hours. Once <em>Briar's</em> Sharpness points drop to 0 in this way, the sword is destroyed.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical",
+      "two-hand-d12"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Brightbloom Posy (Greater)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>Appearing as vibrant as the day they were picked, this cluster of flowers is arranged in a small spray, tied with a red satin ribbon. The spell DC of any spell cast by activating this item is 28.</p>\n<ul>\n<li><strong>Armor</strong> You gain the ability to speak with flowers, as @UUID[Compendium.pf2e.spells-srd.Item.Speak with Plants].</li>\n<li><strong>Weapon</strong> (disease) After you cast a plant spell by activating the posy, pollen coats your weapon. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} on a hit (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical hit). If the creature attempts to recover, it sneezes rather than retching (rolling against the spellheart's spell DC). If you don't make a Strike by the end of your next turn, the pollen becomes inert. Plant creatures are immune.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Soothing Blossoms].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Petal Storm].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Brightbloom Posy (Major)",
+    "price": {
+      "gp": 36000
+    },
+    "description": "<p>Appearing as vibrant as the day they were picked, this cluster of flowers is arranged in a small spray, tied with a red satin ribbon. The spell DC of any spell cast by activating this item is 41.</p>\n<ul>\n<li><strong>Armor</strong> You gain the ability to speak with flowers, as @UUID[Compendium.pf2e.spells-srd.Item.Speak with Plants].</li>\n<li><strong>Weapon</strong> (disease) After you cast a plant spell by activating the posy, pollen coats your weapon. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} on a hit (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical hit). If the creature attempts to recover, it sneezes rather than retching (rolling against the spellheart's spell DC). If you don't make a Strike by the end of your next turn, the pollen becomes inert. Plant creatures are immune.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Petal Storm].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Burning Blossoms].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Brightbloom Posy",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>Appearing as vibrant as the day they were picked, this cluster of flowers is arranged in a small spray, tied with a red satin ribbon. The spell DC of any spell cast by activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain the ability to speak with flowers, as @UUID[Compendium.pf2e.spells-srd.Item.Speak with Plants].</li>\n<li><strong>Weapon</strong> (disease) After you cast a plant spell by activating the posy, pollen coats your weapon. Your next Strike causes the target to be @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} on a hit (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical hit). If the creature attempts to recover, it sneezes rather than retching (rolling against the spellheart's spell DC). If you don't make a Strike by the end of your next turn, the pollen becomes inert. Plant creatures are immune.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Soothing Blossoms].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Brightshade",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Brewed from a plant native to the First World, brightshade destroys tissue, living or dead. Victims of this poison take poison damage if they're alive and vitality damage if they're undead.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] or @Damage[1d6[vitality]] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] or @Damage[2d6[vitality]] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison",
+      "vitality"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Brilliant (Greater)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 spirit damage to fiends and 1d4 vitality damage to undead.</p>\n<p>On a critical hit, the target must succeed at a @Check[fortitude|dc:41] or be @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round.</p>\n<hr />\n<p><strong>Activate—Shine Bright!</strong> <span class=\"action-glyph\">1</span> (concentrate, light)</p>\n<hr />\n<p><strong>Effect</strong> You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract rank of 9 and a [[/r 1d20+31 #Counteract]]{+31} counteract modifier to end a magical darkness effect whose area is within reach of the weapon.</p>\n<p>Damage dealt by this weapon ignores the target's resistances to fire, spirit, and vitality.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Brilliant Rapier",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This <em>+2 brilliant greater striking rapier</em> is formed entirely out of radiant energy, even more so than a usual brilliant weapon, and has left its physical form behind entirely. Instead of dealing piercing damage, it deals fire damage, and in addition to a rapier's normal weapon traits, it gains the versatile spirit or vitality trait.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "finesse",
+      "good",
+      "holy",
+      "versatile-spirit",
+      "versatile-vitality"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Brilliant",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 spirit damage to fiends and 1d4 vitality damage to undead.</p>\n<p>On a critical hit, the target must succeed at a @Check[fortitude|dc:29] or be @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round.</p>\n<hr />\n<p><strong>Activate—Shine Bright!</strong> <span class=\"action-glyph\">1</span> (concentrate, light)</p>\n<hr />\n<p><strong>Effect</strong> You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract rank of 5 and a [[/r 1d20+19 #Counteract]]{+19} counteract modifier to end a magical darkness effect whose area is within reach of the weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Brimstone Fumes",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>Fumes from the forges of Hell drain health and strength alike.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:36]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[7d8[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[8d8[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[10d8[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3} (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "evil",
+      "inhaled",
+      "poison"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Brine Dragon Scale",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Usage</strong> affixed to a melee weapon</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Prerequisites</strong> You're an expert with the affixed weapon</p>\n<p><strong>Trigger</strong> A creature in reach of the weapon takes an action with the concentrate trait.</p><hr /><p>Brine dragons are known to distract their foes at just the right moment, and this blue-green scale appears to have come from one of these creatures. When you activate the scale, it cracks open and releases a spray of caustic saltwater at the triggering creature. The creature takes @Damage[2d8[acid]] damage with a @Check[reflex|dc:24|basic] save. If the creature critically fails at its save, its concentration is broken—the triggering action is disrupted.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "consumable",
+      "talisman",
+      "water"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Bring Me Near",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This collapsible fine spyglass consists of 3 leather tubes that slide into one another. The edge of each is trimmed in silver, and the lenses are made of finely crafted glass. While looking through it, you gain a +2 item bonus to any Perception checks made involving sight.</p>\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on any spot you can see within 5 miles through the spyglass and rotate its parts in a meticulous order. You and up to 4 willing creatures adjacent to you are instantly teleported to that spot. If there's not enough room for everyone, only you are transported. If there's not enough room for you, the teleportation fails.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bristling Spines (Greater)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>Your exposed skin is covered in fine, needle-like hairs that you can flick into the eyes of enemies.</p><hr /><p><strong>Activate—Urticating Burst</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You flick tiny spines in a @Template[cone|distance:15], dealing @Damage[5d8[piercing]|options:area-damage] damage to all creatures in the area with a @Check[reflex|dc:23|basic|options:area-effect] save. On a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of their next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Bristling Spines (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>Your exposed skin is covered in fine, needle-like hairs that you can flick into the eyes of enemies.</p><hr /><p><strong>Activate—Urticating Burst</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You flick tiny spines in a @Template[cone|distance:15], dealing @Damage[1d8[piercing]|options:area-damage] damage to all creatures in the area with a @Check[reflex|dc:15|basic|options:area-effect] save. On a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] until the end of their next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bristling Spines (Moderate)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>Your exposed skin is covered in fine, needle-like hairs that you can flick into the eyes of enemies.</p><hr /><p><strong>Activate—Urticating Burst</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You flick tiny spines in a @Template[cone|distance:15], dealing @Damage[2d8[piercing]|options:area-damage] damage to all creatures in the area with a @Check[reflex|dc:18|basic|options:area-effect] save. On a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] until the end of their next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Broadleaf Shield (Greater)",
+    "price": {
+      "gp": 675
+    },
+    "description": "<p>Though it resembles an enormous leaf freshly plucked from a tree, a <em>broadleaf shield</em> is extremely durable. It also regrows rapidly, fully repairing itself when broken if it's left in sunlight for 10 consecutive minutes.</p>\n<p>At each dawn, the leaf transforms to an appearance appropriate for the season. While you're wielding the shield, you gain resistance 4 to a damage type depending on the shield's color. This resistance doubles while you have the shield raised.</p>\n<ul>\n<li><strong>Pink</strong> (void resistance) In spring, the leaf is a delicate blossom-like pink and exudes the energy of life.</li>\n<li><strong>Green</strong> (fire resistance) In summer, the leaf is a deep, rich green with a waxy coating.</li>\n<li><strong>Orange</strong> (poison resistance) In autumn, the leaf turns orange, red, or yellow and dehydrates slightly.</li>\n<li><strong>Brown</strong> (cold resistance) In winter, the leaf turns dead, dry, and brown.</li>\n</ul>\n<hr />\n<p><strong>Activate - Change Season</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The shield transforms as though living through seasons in a moment, becoming the color of your choice for 5 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Broadleaf Shield (Major)",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p>Though it resembles an enormous leaf freshly plucked from a tree, a <em>broadleaf shield</em> is extremely durable. It also regrows rapidly, fully repairing itself when broken if it's left in sunlight for 10 consecutive minutes.</p>\n<p>At each dawn, the leaf transforms to an appearance appropriate for the season. While you're wielding the shield, you gain resistance 5 to a damage type depending on the shield's color. This resistance doubles while you have the shield raised.</p>\n<ul>\n<li><strong>Pink</strong> (void resistance) In spring, the leaf is a delicate blossom-like pink and exudes the energy of life.</li>\n<li><strong>Green</strong> (fire resistance) In summer, the leaf is a deep, rich green with a waxy coating.</li>\n<li><strong>Orange</strong> (poison resistance) In autumn, the leaf turns orange, red, or yellow and dehydrates slightly.</li>\n<li><strong>Brown</strong> (cold resistance) In winter, the leaf turns dead, dry, and brown.</li>\n</ul>\n<hr />\n<p><strong>Activate - Change Season</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The shield transforms as though living through seasons in a moment, becoming the color of your choice for 5 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Broadleaf Shield (True)",
+    "price": {
+      "gp": 13750
+    },
+    "description": "<p>Though it resembles an enormous leaf freshly plucked from a tree, a <em>broadleaf shield</em> is extremely durable. It also regrows rapidly, fully repairing itself when broken if it's left in sunlight for 10 consecutive minutes.</p>\n<p>At each dawn, the leaf transforms to an appearance appropriate for the season. While you're wielding the shield, you gain resistance 6 to a damage type depending on the shield's color. This resistance doubles while you have the shield raised.</p>\n<ul>\n<li><strong>Pink</strong> (void resistance) In spring, the leaf is a delicate blossom-like pink and exudes the energy of life.</li>\n<li><strong>Green</strong> (fire resistance) In summer, the leaf is a deep, rich green with a waxy coating.</li>\n<li><strong>Orange</strong> (poison resistance) In autumn, the leaf turns orange, red, or yellow and dehydrates slightly.</li>\n<li><strong>Brown</strong> (cold resistance) In winter, the leaf turns dead, dry, and brown.</li>\n</ul>\n<hr />\n<p><strong>Activate - Change Season</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The shield transforms as though living through seasons in a moment, becoming the color of your choice for 5 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Broadleaf Shield",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>Though it resembles an enormous leaf freshly plucked from a tree, a <em>broadleaf shield</em> is extremely durable. It also regrows rapidly, fully repairing itself when broken if it's left in sunlight for 10 consecutive minutes.</p>\n<p>At each dawn, the leaf transforms to an appearance appropriate for the season. While you're wielding the shield, you gain resistance 3 to a damage type depending on the shield's color. This resistance doubles while you have the shield raised.</p>\n<ul>\n<li><strong>Pink</strong> (void resistance) In spring, the leaf is a delicate blossom-like pink and exudes the energy of life.</li>\n<li><strong>Green</strong> (fire resistance) In summer, the leaf is a deep, rich green with a waxy coating.</li>\n<li><strong>Orange</strong> (poison resistance) In autumn, the leaf turns orange, red, or yellow and dehydrates slightly.</li>\n<li><strong>Brown</strong> (cold resistance) In winter, the leaf turns dead, dry, and brown.</li>\n</ul>\n<hr />\n<p><strong>Activate - Change Season</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The shield transforms as though living through seasons in a moment, becoming the color of your choice for 5 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Broadspear",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>The spearhead of this weapon is in the shape of a long leaf.</p>",
+    "rarity": "common",
+    "traits": [
+      "reach",
+      "sweep",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Broken Ram's Thorn",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>The thorny growths on a rosethorn ram's horns break off into jagged pieces when these animals fight. When used to enhance the two-action version of a @UUID[Compendium.pf2e.spells-srd.Item.Howling Blizzard] spell, these thorns cause the squares directly adjacent to every creature within the spell's area of effect to become littered with icy caltrops. The first creature that moves into each affected square must succeed at an @Check[acrobatics] check with a DC equal to spell's save DC or take an amount of cold damage equal to the spell's rank. When a creature takes damage from the icy caltrops, enough are damaged that other creatures moving into that square are safe.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Broken Tusk Pendant (Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>The followers of the Broken Tusk have passed down their custom of crafting and gifting these small ivory necklaces for generations. They're typically made from mammoth tusk (though any type of ivory will do), and each is carved to resemble a particular kind of animal-usually a raven, a moose, an ox, or an otter. Because tradition dictates that Broken Tusk followers take ivory only from already-dead animals, <em>Broken Tusk pendants</em> are especially rare; if an individual loses their pendant, it might be years before they acquire the materials necessary to fashion a replacement. <em>Broken Tusk pendants</em> bear no magical powers if they are made for oneself; only gifted pendants have true magical properties.</p>\n<p>You wear a <em>Broken Tusk pendant</em> like jewelry or tie it to your clothing. A <em>Broken Tusk pendant</em> grants you a +2 item bonus to Nature checks; this bonus increases to +3 when you Command an Animal of the specific kind depicted by the pendant.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An animal targets you with a melee attack, and you can see the animal</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 item bonus to AC against the triggering attack, or a +2 item bonus if the animal is the specific kind depicted by the pendant.</p>\n<p>Once per day, when you use the <em>Broken Tusk pendant</em>'s activation, if the animal misses you, the <em>Broken Tusk pendant</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Dominate] on the animal (@Check[will|dc:30|name:Dominate|traits:enchantment,incapacitation,primal,mental|overrideTraits:true]). You can choose whether to use this once-per-day effect after the animal misses you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Broken Tusk Pendant",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>The followers of the Broken Tusk have passed down their custom of crafting and gifting these small ivory necklaces for generations. They're typically made from mammoth tusk (though any type of ivory will do), and each is carved to resemble a particular kind of animal-usually a raven, a moose, an ox, or an otter. Because tradition dictates that Broken Tusk followers take ivory only from already-dead animals, <em>Broken Tusk pendants</em> are especially rare; if an individual loses their pendant, it might be years before they acquire the materials necessary to fashion a replacement. <em>Broken Tusk pendants</em> bear no magical powers if they are made for oneself; only gifted pendants have true magical properties.</p>\n<p>You wear a <em>Broken Tusk pendant</em> like jewelry or tie it to your clothing. A <em>Broken Tusk pendant</em> grants you a +1 item bonus to Nature checks; this bonus increases to +2 when you Command an Animal of the specific kind depicted by the pendant.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An animal targets you with a melee attack, and you can see the animal</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 item bonus to AC against the triggering attack, or a +2 item bonus if the animal is the specific kind depicted by the pendant.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bronze bowl with wave imagery",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Bronze brazier with Asmodean artwork",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Bronze Bull Pendant",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p>This pendant is forged from grainy steel and depicts a snorting bull's face. The pendant must be attached to the chest area or on a shoulder guard. When you activate the pendant, attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Shove] with a +1 item bonus to check. Increase the distance you Shove your target to 10 feet on a success or 20 feet on a critical success.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bronze Bull Pendant]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bronze chalice with bloodstones",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Bronze Dragon's Breath Potion (Adult)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p>This liquid contains blood from a bronze dragon. For 1 hour after you imbibe the concoction, you can unleash a bronze dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of electricity which deals @Damage[6d6[electricity]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:29|basic|name:Adult Bronze Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "electricity",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Bronze Dragon's Breath Potion (Wyrm)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This liquid contains blood from a bronze dragon. For 1 hour after you imbibe the concoction, you can unleash a bronze dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of electricity which deals @Damage[10d6[electricity]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:37|basic|name:Wyrm Bronze Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "electricity",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bronze Dragon's Breath Potion (Young)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This liquid contains blood from a bronze dragon. For 1 hour after you imbibe the concoction, you can unleash a bronze dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of electricity which deals @Damage[4d6[electricity]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:23|basic|name:Young Bronze Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "electricity",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Brooch of Inspiration (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +2 item bonus to checks to Recall Knowledge with Lore skills.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge using Lore. On this check, you roll twice and take the higher result.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Brooch of Inspiration (Major)",
+    "price": {
+      "gp": 12500
+    },
+    "description": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +3 item bonus to checks to Recall Knowledge with any skill.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge with any skill. On this check, you roll twice and take the higher result.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Brooch of Inspiration",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +1 item bonus to checks to Recall Knowledge with Lore skills.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge using Lore. On this check, you roll twice and take the higher result.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Brooch of Shielding",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This piece of silver or gold jewelry is adorned with miniature images of kite shields and can be used to fasten a cloak or cape.</p>\n<p>The brooch automatically absorbs magic missile spells targeting you. A brooch of shielding can absorb 30 individual magic missiles before it melts and becomes useless. Sometimes when found, a brooch of shielding has already absorbed a number of missiles.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bubbling Scale",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This dark, iridescent scale is about the size of a small coin. When you swallow the scale, you immediately grow a patch of scales that cover the majority of your body.</p>\n<p>For 1 hour, you can hold your breath for 15 rounds plus your Constitution modifier (instead of 5 rounds + your Constitution modifier) before drowning. It has no effect in non-aquatic environments that require you to hold your breath.</p>\n<p>After this time, the scales wither and fall off your body.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Buckle Armor",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Absalom style once led famous adventurers to wear clothing with an unusual number of buckles, pouches, and straps. This fashion birthed a trend that led to \"buckle armor,\" a colloquial name for chic armor with spacious tool storage. Buckle armor comes with the storage armor adjustment.</p>",
+    "rarity": "common",
+    "traits": [
+      "adjusted",
+      "noisy"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Buckler",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can @UUID[Compendium.pf2e.actionspf2e.Item.Raise a Shield] with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Bullhook (Greater)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>A <em>bullhook</em> is a stout rod about 4 feet long with a blunt hook on the end. Too dull to be useful as a weapon, a <em>bullhook</em> is instead used to direct animals in training or in performing their tasks. A <em>bullhook</em> grants you a +2 item bonus to Nature checks to Command an Animal while you are holding it.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wave the <em>bullhook</em> to produce the effects of a fifth level @UUID[Compendium.pf2e.spells-srd.Item.Command] spell (DC 30). This spell loses the linguistic trait and can target only animals.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>command</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bullhook",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>A <em>bullhook</em> is a stout rod about 4 feet long with a blunt hook on the end. Too dull to be useful as a weapon, a <em>bullhook</em> is instead used to direct animals in training or in performing their tasks. A <em>bullhook</em> grants you a +2 item bonus to Nature checks to Command an Animal while you are holding it.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wave the <em>bullhook</em> to produce the effects of a first level @UUID[Compendium.pf2e.spells-srd.Item.Command] spell (DC 18). This spell loses the linguistic trait and can target only animals.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>command</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Buoyancy Vest",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This canvas vest has been filled with cork shavings, tightly folded, and sewn shut. Wearing a buoyancy vest allows you to float in water with a lowered risk of sinking. If you end your turn in water while wearing a buoyancy vest and haven't succeeded at a Swim action that turn, attempt a @Check[flat|dc:5].</p>\n<p>On a success, you do not sink, though you can still get moved by the current, as determined by the GM. The GM can also determine whether the vest is more or less effective in different weather conditions, raising the DC in rough waters or lowering the DC in calm water.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Burglar's Rosebud (Greater)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Though originally intended to protect a green man's favorite agents against predation by pesky herbivores, thieves have adapted the design to help them disperse guard animals. The soft flower bud belies the horrible perfume contained within. Activated by cracking open the petals, the rosebud exudes a noxious cloud that has the olfactory trait for 10 minutes. If dropped, it fills a 10-foot-burst. If you carry it in one hand and periodically waft it as a free action, the rosebud instead gives you a @Template[emanation|distance:10]. Creatures that enter or start their turn in the cloud must succeed at a @Check[fortitude|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Animals and beasts that critically fail are also @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round. A creature that successfully saves against the burglar's rosebud becomes temporarily immune to the effects for 24 hours.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "emotion",
+      "mental",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Burglar's Rosebud",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Though originally intended to protect a green man's favorite agents against predation by pesky herbivores, thieves have adapted the design to help them disperse guard animals. The soft flower bud belies the horrible perfume contained within. Activated by cracking open the petals, the rosebud exudes a noxious cloud that has the olfactory trait for 10 minutes. If dropped, it fills a 10-foot-burst. If you carry it in one hand and periodically waft it as a free action, the rosebud instead gives you a @Template[emanation|distance:10]. Creatures that enter or start their turn in the cloud must succeed at a @Check[fortitude|dc:18] save or become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Animals and beasts that critically fail are also @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] for 1 round. A creature that successfully saves against the burglar's rosebud becomes temporarily immune to the effects for 24 hours.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "emotion",
+      "mental",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Burning Badger Guts Snare",
+    "price": {
+      "gp": 170
+    },
+    "description": "<p>When a creature enters the trapped square, putrefied badger guts coated in hyper-flammable oil and several other incendiary reactants catch fire and are dumped in the snare's square, as well as up to two adjacent squares that you choose when you set the snare. The burning oil deals @Damage[5d8[fire]] damage to any creatures in the affected squares. Those creatures must attempt a @Check[fortitude|dc:27|options:damaging-effect|showDC:all] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and @Damage[1d8[persistent,fire]] damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and @Damage[2d8[persistent,fire]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fire",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Burnished Plating",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These highly polished metal plates can be added to any armor. While wearing armor with burnished plating, you gain the Sunshine! reaction. However, you take a -4 circumstance penalty to stealth checks except in darkness, and your armor's Strength entry increases its value by 2, requiring you to have a higher Strength score to overcome the armor's penalties. Even if you meet your armor's new Strength entry, you still take the penalty to Stealth checks. When you are critically hit by an attack that deals bludgeoning damage, burnished plating stops working until someone spends 10 minutes repairing and polishing it; this doesn't require a Crafting check.</p>\n<hr />\n<p><strong>Sunshine!</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Trigger</strong> A creature you can see targets you with an attack</p>\n<p><strong>Requirements</strong> You are in an area of bright light</p>\n<hr />\n<p><strong>Effect</strong> You twist to reflect light in your foe's eyes. The attacking creature must succeed at a @Check[flat|dc:3|name:Sunshine!|traits:visual|showDC:owner] check or the attack fails. The attacker doesn't need to roll this flat check if it has a precise sense other than vision or if it would already need to roll a flat check with a higher DC to target you, such as if you are @UUID[Compendium.pf2e.conditionitems.Item.Concealed] or @UUID[Compendium.pf2e.conditionitems.Item.Hidden].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Burr Shield",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This well-crafted wooden shield is covered in numerous seed pods with long spurs. You can Strike with these burrs as though they were <em>@UUID[Compendium.pf2e.equipment-srd.Item.Shield Spikes]{+1 Striking Shield Spikes}</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> Your previous action was a successful Strike with the burrs</p>\n<hr />\n<p><strong>Effect</strong> One of the burrs catches on the Strike's target, inflicting @Damage[1d10[bleed]].</p>\n<hr />\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>30</td>\n<td>15</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Busine of Divine Reinforcements",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This long, straight, trumpet-like instrument is made of well-polished brass and adorned with imagery of angels fighting demons or religious symbols. When played as an instrument, the busine generates powerful and harmonious notes and grants a +2 item bonus to Performance checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (auditory)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Effect</strong> You play a few notes on the busine. Evil creatures within 60 feet who hear the notes must succeed at a @Check[will|dc:34|traits:auditory,incapacitation] save or be @UUID[Compendium.pf2e.conditionitems.Item.Stunned] for 1 round, or 2 rounds on a critical failure; this is an incapacitation effect.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You blow into the busine and conjure a celestial with the effects of a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Celestial] spell, but there are no alignment restrictions to define which celestials you can call. The celestial will fight only evil creatures and leaves after all present evil creatures have been defeated or the spell's duration ends, whichever comes first. You can Sustain the Activation to extend the spell's duration, as normal. If you have a deity and the conjured celestial's alignment is one of your deity's preferred alignments, the effect functions as a normal 6th-rank <em>summon celestial</em> spell instead, meaning the celestial will fight any creature, not just evil creatures, and will perform other tasks as you command.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Butchering Axe",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>Invented by Belkzen's zealous Steel-Eaters, the butchering axe has an oversized head and a long, thick haft counterbalanced with steel or stone. The weapon's sweeping strokes inflict immense damage, particularly against groups of foes, and can push dangerous opponents away to a safe distance. All of these qualities are particularly useful against the lumbering zombie hordes of the Whispering Tyrant. Correspondingly, butchering axes are often wielded by orc and half-orc Crimson Reclaimers of Lastwall.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "orc",
+      "shove",
+      "sweep"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Butterfly Sword",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This short, single-edged sword typically features a cross guard that helps catch oncoming attacks. It is the preferred weapon of Butterfly Blades-highly skilled Gokan assassins.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "disarm",
+      "finesse",
+      "monk",
+      "parry",
+      "twin"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Buugeng",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>A blade of conrasu design, a buugeng has a unique, curved shape that allows it to rotate smoothly in the hand of a trained warrior. This spinning motion makes it easier to attack multiple foes at once with the weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "conrasu",
+      "sweep",
+      "twin"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Buzzsaw Axe (Greater)",
+    "price": {
+      "gp": 6250
+    },
+    "description": "<p>With an aerodynamic cutting edge and a curved handle, this <em>+2 greater striking battle axe</em> is perfectly suited to whirling motions, and in fact seems like it wants to whirl free from your grip. A Strike with this axe that benefits from the sweep trait's circumstance bonus on attack rolls also gains a +3 circumstance bonus to the damage roll.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You hurl the axe, which spins at great speed as it flies to a distant point and returns to you, leaving a trail of carnage. Each creature in a @Template[line|distance:120] must succeed at a @Check[reflex|dc:34|basic|name:Thrown Buzzsaw Axe|traits:axe|showDC:all] save or take damage equal to the weapon's melee damage, including your Strength modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Buzzsaw Axe (Major)",
+    "price": {
+      "gp": 65000
+    },
+    "description": "<p>With an aerodynamic cutting edge and a curved handle, this <em>+3 major striking battle axe</em> is perfectly suited to whirling motions, and in fact seems like it wants to whirl free from your grip. A Strike with this axe that benefits from the sweep trait's circumstance bonus on attack rolls also gains a +4 circumstance bonus to the damage roll.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You hurl the axe, which spins at great speed as it flies to a distant point and returns to you, leaving a trail of carnage. Each creature in a @Template[line|distance:120] must succeed at a @Check[reflex|dc:43|basic|name:Thrown Buzzsaw Axe|traits:axe|showDC:all] save or take damage equal to the weapon's melee damage, including your Strength modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Buzzsaw Axe",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>With an aerodynamic cutting edge and a curved handle, this <em>+2 striking battle axe</em> is perfectly suited to whirling motions, and in fact seems like it wants to whirl free from your grip. A Strike with this axe that benefits from the sweep trait's circumstance bonus on attack rolls also gains a +2 circumstance bonus to the damage roll.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You hurl the axe, which spins at great speed as it flies to a distant point and returns to you, leaving a trail of carnage. Each creature in a @Template[line|distance:120] must succeed at a @Check[reflex|dc:28|basic|name:Thrown Buzzsaw Axe|traits:axe|showDC:all] save or take damage equal to the weapon's melee damage, including your Strength modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Cage",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Calamity Glass",
+    "price": {},
+    "description": "<p>This mirror appears to give warnings about the future, but subtle and malevolent hands designed the silver-framed glass to lure heroes into bringing doom upon those they hope to save.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per week</p>\n<p><strong>Effect</strong> You activate the <em>calamity glass</em> and obtain a vision related to a likely action or event within the next 48 hours. The <em>calamity glass</em> decides what vision to show, though if you think about a specific event, the vision is typically at least tangentially related.</p>\n<p>No matter what, the mirror shows only tragedies. The mirror's visions are accurate but misleading, as they depict tragedies that could be averted but in so doing might lead to greater suffering.</p>\n<p>For example, a <em>calamity glass</em> might show a family starving as the result of harbor officials turning away a boatload of improperly documented grain. Without intervention, this future will come to pass. What the mirror didn't show is the grain was improperly labeled and carelessly stored, resulting in its contamination with poisonous mold capable of killing hundreds. Purifying and then distributing the grain would avert both the <em>calamity glass</em>'s vision and the greater suffering its curse attempted to create.</p>",
+    "rarity": "common",
+    "traits": [
+      "cursed",
+      "magical",
+      "scrying"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Called (Lastwall)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>A <em>called</em> weapon can be teleported to its owner's hand.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, envision)</p>\n<hr />\n<p><strong>Effect</strong> You imprint upon the weapon, proclaiming yourself as its owner. This allows you to use the rune's second activation until someone else uses this activation or succeeds at a Will save to prevent you from using the second activation.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<hr />\n<p><strong>Effect</strong> You extend your hand and call the weapon. If the weapon is within 100 feet of you, it appears in your hand even if it was @UUID[Compendium.pf2e.conditionitems.Item.Restrained]. If the weapon is in another creature's possession, that creature can attempt a @Check[will|against:will] save against your Will DC. If the creature succeeds, your bond as the owner is broken, and you can't use this activation again until you use the first activation to restore the connection.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Called",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>With this rune, you can instantly retrieve an item in your possession without digging around looking for it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You have a free hand and the <em>called</em> item is in a bag, pack, pouch, or other container on your person, or unattended within 30 feet</p>\n<hr />\n<p><strong>Effect</strong> The item teleports to a free hand.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Caltrop Snare",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This snare consists of a hidden canister of @UUID[Compendium.pf2e.equipment-srd.Item.Caltrops] attached to a trip wire. When the snare is triggered, it flings the caltrops into either the snare's square or a square adjacent to the snare. You choose which square when you set up the snare.</p>\n<p>If the caltrops scatter into the same square as a creature, that creature must attempt the Acrobatics check immediately.</p><hr /><p><strong>Craft Requirements</strong> Supply a container of caltrops.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Caltrops",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>These four-pronged metal spikes can cause damage to a creature's feet. You can scatter caltrops in an empty square adjacent to you with an Interact action. The first creature that moves into that square must succeed at a @Check[acrobatics|dc:14|name:Avoid Caltrops] check or take 1d4 piercing damage and @Damage[1[bleed]] damage. A creature taking persistent bleed damage from caltrops takes a -5-foot penalty to its Speed. Spending an Interact action to pluck the caltrops free reduces the DC to stop the bleeding. Once a creature takes damage from caltrops, enough caltrops are ruined that other creatures moving into the square are safe. Deployed caltrops can be salvaged and reused if no creatures took damage from them. Otherwise, enough caltrops are ruined that they can't be salvaged.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Camouflage Dye (Greater)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Camouflage dye uses a variety of alchemically treated paints and crushed crystals to make the user particularly hard to distinguish from their surroundings. When you Activate the dye by sprinkling it on yourself or a creature within reach, the target and its clothing change colors, blending into their surroundings until the target makes a sudden movement. The target can @UUID[Compendium.pf2e.actionspf2e.Item.Hide] or @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] without cover or concealment for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Camouflage Dye (Lesser)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Camouflage dye uses a variety of alchemically treated paints and crushed crystals to make the user particularly hard to distinguish from their surroundings. When you Activate the dye by sprinkling it on yourself or a creature within reach, the target and its clothing change colors, blending into their surroundings until the target makes a sudden movement. The target can @UUID[Compendium.pf2e.actionspf2e.Item.Hide] or @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] without cover or concealment for 10 minutes. If the target uses a hostile action or moves at more than half its Speed, after that action is completed, the effects of camouflage powder end and the creature ceases to be @UUID[Compendium.pf2e.conditionitems.Item.Hidden] or undetected.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Camouflage Suit (Superb)",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A superb camouflage suit is fashioned from especially well-blended materials grants you a +2 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Prepared Camouflage Suit (Superb)]</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Camouflage Suit",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Prepared Camouflage Suit]</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Camouflaging Chromatophores (Greater)",
+    "price": {
+      "gp": 665
+    },
+    "description": "<p>Special cells in your skin can change color to help you blend in with your environment. You gain a +2 item bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] and @UUID[Compendium.pf2e.actionspf2e.Item.Hide].</p><hr /><p><strong>Activate—Background Adaptation</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> For 1 minute, you can Hide without needing cover or concealment to do so. This doesn't allow you to Sneak without ending your movement in cover or concealment, however, as your skin's attempts to match the background as you move produce noticeable rippling waves of color.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Camouflaging Chromatophores (Lesser)",
+    "price": {
+      "gp": 95
+    },
+    "description": "<p>Special cells in your skin can change color to help you blend in with your environment. You gain a +1 item bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] and @UUID[Compendium.pf2e.actionspf2e.Item.Hide].</p><hr /><p><strong>Activate—Background Adaptation</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> For 1 minute, you can Hide without needing cover or concealment to do so. This doesn't allow you to Sneak without ending your movement in cover or concealment, however, as your skin's attempts to match the background as you move produce noticeable rippling waves of color.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Camp Shroud (Greater)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Knights make use of this magically treated powder to help hide their camps while traveling through the Gravelands or other dangerous regions. When you toss the powder into a campfire or other sizable fire, the fire produces a thin mist that enshrouds everything in a @Template[emanation|distance:25] from the fire. The mist creates protective illusions that remain for up to 12 hours and make it difficult to spot the area from afar. You can end the effect earlier by putting out the fire. Light and smoke produced in the area aren't visible from outside the area. The illusions don't prevent sound from traveling nor prevent the area or its inhabitants from being seen.</p>\n<p>A creature outside the area that uses the @UUID[Compendium.pf2e.actionspf2e.Item.Seek] action or @UUID[Compendium.pf2e.actionspf2e.Item.Search] activity to examine the area or look for smoke and light coming from that direction can attempt a @Check[perception|dc:30|traits:action:seek] check to disbelieve the illusion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Camp Shroud (Lesser)",
+    "price": {
+      "gp": 65
+    },
+    "description": "<p>Knights make use of this magically treated powder to help hide their camps while traveling through the Gravelands or other dangerous regions. When you toss the powder into a campfire or other sizable fire, the fire produces a thin mist that enshrouds everything in a @Template[emanation|distance:15] from the fire. The mist creates protective illusions that remain for up to 12 hours and make it difficult to spot the area from afar. You can end the effect earlier by putting out the fire. Light and smoke produced in the area aren't visible from outside the area. The illusions don't prevent sound from traveling nor prevent the area or its inhabitants from being seen.</p>\n<p>A creature outside the area that uses the @UUID[Compendium.pf2e.actionspf2e.Item.Seek] action or @UUID[Compendium.pf2e.actionspf2e.Item.Search] activity to examine the area or look for smoke and light coming from that direction can attempt a @Check[perception|dc:23|traits:action:seek] check to disbelieve the illusion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Camp Shroud (Major)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>Knights make use of this magically treated powder to help hide their camps while traveling through the Gravelands or other dangerous regions. When you toss the powder into a campfire or other sizable fire, the fire produces a thin mist that enshrouds everything in a @Template[emanation|distance:30] from the fire. The mist creates protective illusions that remain for up to 12 hours and make it difficult to spot the area from afar. You can end the effect earlier by putting out the fire. Light and smoke produced in the area aren't visible from outside the area. The illusions don't prevent sound from traveling nor prevent the area or its inhabitants from being seen.</p>\n<p>A creature outside the area that uses the @UUID[Compendium.pf2e.actionspf2e.Item.Seek] action or @UUID[Compendium.pf2e.actionspf2e.Item.Search] activity to examine the area or look for smoke and light coming from that direction can attempt a @Check[perception|dc:35|traits:action:seek] check to disbelieve the illusion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Camp Shroud (Minor)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>Knights make use of this magically treated powder to help hide their camps while traveling through the Gravelands or other dangerous regions. When you toss the powder into a campfire or other sizable fire, the fire produces a thin mist that enshrouds everything in a @Template[emanation|distance:10] from the fire. The mist creates protective illusions that remain for up to 12 hours and make it difficult to spot the area from afar. You can end the effect earlier by putting out the fire. Light and smoke produced in the area aren't visible from outside the area. The illusions don't prevent sound from traveling nor prevent the area or its inhabitants from being seen.</p>\n<p>A creature outside the area that uses the @UUID[Compendium.pf2e.actionspf2e.Item.Seek] action or @UUID[Compendium.pf2e.actionspf2e.Item.Search] activity to examine the area or look for smoke and light coming from that direction can attempt a @Check[perception|dc:18|traits:action:seek] check to disbelieve the illusion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Camp Shroud (Moderate)",
+    "price": {
+      "gp": 175
+    },
+    "description": "<p>Knights make use of this magically treated powder to help hide their camps while traveling through the Gravelands or other dangerous regions. When you toss the powder into a campfire or other sizable fire, the fire produces a thin mist that enshrouds everything in a @Template[emanation|distance:20] from the fire. The mist creates protective illusions that remain for up to 12 hours and make it difficult to spot the area from afar. You can end the effect earlier by putting out the fire. Light and smoke produced in the area aren't visible from outside the area. The illusions don't prevent sound from traveling nor prevent the area or its inhabitants from being seen.</p>\n<p>A creature outside the area that uses the @UUID[Compendium.pf2e.actionspf2e.Item.Seek] action or @UUID[Compendium.pf2e.actionspf2e.Item.Search] activity to examine the area or look for smoke and light coming from that direction can attempt a @Check[perception|dc:27|traits:action:seek] check to disbelieve the illusion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Campaign Stable",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Used to facilitate the care of mounts during long campaigns or when it's necessary to move camp frequently, this object appears to be a simple, worn wooden horseshoe.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You place the horseshoe on the ground and it unfolds into a spacious stable with a wide central aisle, stalls to accommodate up to eight horses, and sufficient feed and water to sustain the horses for 1 day. The stalls can house other quadrupedal mounts, but the stable provides only horse feed, which might be unsuitable for other creatures. As a 1-minute activity, which has the concentrate trait, you can alter the shape of the stalls to accommodate different mounts, though the space available within the stable never changes, only the layout.</p>\n<p>A metal horseshoe hangs inside the stable near the entrance. You can remove the horseshoe with an Interact action, which causes the stable to fold into the horseshoe, leaving it again looking as if it's made of worn wood.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Candle of Inflamed Passions",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>This blood-red candle is made from wax derived from oil shale found in certain parts of the Plane of Fire. The wick burns with a flame that flickers and dances even if there's no draft to stir it. You activate the candle by lighting it, which causes creatures within 10 feet of the candle to find their emotions running high. Creatures in the area take a -1 status penalty to saving throws against emotion effects. Once lit, the candle burns for 10 minutes. If extinguished, it can't be relit.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Candle of Invocation",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This golden candle bears the symbol of a specific deity emblazoned on its surface, surrounded by the iconography of that deity's faith. Once lit, this candle burns for 1 hour, and it can't be extinguished.</p>\n<p>Characters who cast divine spells and worship the deity emblazoned on the candle can perform their daily preparations within 10 feet of the lit candle to gain two additional spell slots for the day, each at half the highest spell slot they possess (for example, 4th rank slots if the caster can cast 8th-rank spells). Prepared casters must prepare spells in these spell slots as they do for all their other spell slots.</p>\n<p>A caster's additional spell slots from the candle are lost the next time that caster performs their daily preparations. No one can benefit from more than one candle of invocation in a day, but multiple characters can benefit from a single candle's effects.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Candle of Revealing",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>When lit, this black candle's eerie blue flame reveals the presence of @UUID[Compendium.pf2e.conditionitems.Item.Invisible] creatures. Within a 10-foot radius of the lit candle, creatures don't benefit from the invisible condition. Their bodies are outlined, not fully visible, so they're @UUID[Compendium.pf2e.conditionitems.Item.Concealed]. Once lit, the candle burns for 1 minute, after which the effect ends. If extinguished, it can't be relit.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Candle of Truth",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This tapered candle has a golden wick that burns with white fire. You activate the candle by lighting it, which causes creatures within 10 feet of the candle to find it difficult to tell falsehoods. Creatures in the area receive a –4 status penalty to Lie.</p>\n<p>In addition, when first entering the affected area, each creature (including you) must succeed at a @Check[will|dc:26] save or be unable to tell any deliberate lies while within 10 feet of the lit candle. This lasts for as long as the candle is lit. Once lit, the candle burns for 10 minutes, and it cannot be extinguished.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "mental"
+    ]
+  }
+]

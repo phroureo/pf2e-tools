@@ -1,0 +1,1313 @@
+[
+  {
+    "level": 18,
+    "name": "Final Rest",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This <em>+3 @UUID[Compendium.pf2e.equipment-srd.Item.Vitalizing (Greater)] greater striking silver longsword</em> is made from the purest silver. The blade is carefully etched to depict a vast and sprawling necropolis, a place where the dead are laid to rest. Whenever you critically hit an undead creature with <em>final rest</em>, the undead creature takes @Damage[3d6[persistent,spirit]] damage, with a @Check[fortitude|dc:36].</p>\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature takes half the persistent spirit damage.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1} and takes the full persistent spirit damage.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Stunned] and takes double the persistent spirit damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hold the sword aloft, making it cast @UUID[Compendium.pf2e.spells-srd.Item.Sunburst] (@Check[reflex|dc:38]).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Fine gold spyglass",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Fingerprint Kit",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Rarely found outside of major metropolises, fingerprinting kits are a state-of-the-art, non-magical means of linking suspects to the scene of a crime.</p>\n<p>The kit consists of two parts. The first, a delicate brush and a jar of extremely fine dust, is used to reveal fingerprints left behind by most humanoid creatures. The dust sticks to the natural oils left behind on smooth surfaces. When you use the kit to determine whether or not creatures left behind a fingerprint at a crime scene, the GM rolls a secret Thievery check against the Thievery DC of every creature capable of leaving prints that has interacted with the scene. On a success, you locate a clear print from that creature and carefully transfer it to a special sheet of sticky paper. (Note that fingerprints can last for days, and prints collected in this manner often include those of victims, witnesses, and unrelated passersby.) At the GM's discretion, the print-leaving creature might get a bonus to its Thievery DC for taking special precautions. In other cases, finding a print might be impossible (such as if the creature was wearing gloves or if the location has been significantly compromised).</p>\n<p>The second part of the kit is a small sheaf of paper and a pad soaked in ink. By forcing a humanoid creature with fingerprints to roll a finger across the pad and then press it to the paper, you can obtain an image of the unique whorls in that creature's fingerprints. These can then be compared to any prints found at a crime scene. Successfully determining whether or not two prints match requires a @Check[perception|dc:15|traits:action:seek] check-the GM should roll this check secretly as well, since a failed check may result in false information.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Fire and Iceberg (Greater)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 10 to fire and cold for 5 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fire and Iceberg (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Fire and Iceberg (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 15 to fire and cold for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fire and Iceberg (Major)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Fire and Iceberg",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Fire and Iceberg]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Fire Box",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Anyone who opens the box triggers a clockwork mechanism that unleashes a @Template[cone|distance:15]{15-foot cone} of fire. The cone issues forth in a random direction determined by the GM but always including the creature who opened the box. Those within the cone must succeed at a @Check[reflex|dc:17|basic] save or take @Damage[4d6[fire]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "fire",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Fire-Douse Snare",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>You carefully pack rare, heat-absorbing powders into a specially prepared clay vessel, then bury the vessel in the ground up to its neck. When a creature enters the square, the vessel's neck shatters, dispersing the powders into the air. The powder instantly douses non-magical fires the size of a campfire or smaller within 10 feet of the snare. The creature triggering the snare must attempt a @Check[reflex|dc:20] save to avoid getting powder in its face. A creature @UUID[Compendium.pf2e.conditionitems.Item.Blinded] or @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] by the powder can use an Interact action to attempt a @Check[flat|dc:10|showDC:owner] check; on a success, it removes the condition. On a failure, it can try again, with a @Check[flat|dc:5|showDC:owner] check on the next Interact check. If it fails a second time, it automatically removes the condition with a third Interact action.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is blinded until the end of its next turn and dazzled for 1 minute afterwards.</p>\n<p><strong>Critical Failure</strong> The creature is blinded for 1 minute and dazzled for 10 minutes afterwards.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Fire-Jump Ring",
+    "price": {
+      "gp": 940
+    },
+    "description": "<p>This black, metal ring is inset with rubies that occasionally give off wisps of smoke. It grants you a +2 item bonus to Athletics checks.</p>\n<p><strong>Activate—Fire Jump</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You Stride (or Burrow or Fly, if you have the corresponding Speed) into any fire large enough to contain you, including magical fires. You vanish into the fire and take no damage from it. You can sense all sufficiently large fires within 100 feet of where you vanish, and you reemerge from any of those fires, either within the fire or adjacent to it. If you end your movement in the fire, it affects you as normal.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Fire Lance",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This amazingly simple projectile weapon is nothing more than a metal tube packed with black powder and a stopper, attached to the sharpened head of a javelin. A loaded fire lance can be wielded as a normal spear, though it requires an Interact action to regrip the weapon and hold it properly when switching from one use to another. Fire lances are most commonly found in Tian Xia, though occasionally one makes its way all the way to Avistan, typically in the hands of a Tien mercenary or caravan guard.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Fire Poi",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These special poi are made from a rare, light metal or from fire-retardant fibers and can be ignited before being wielded. Igniting a pair of fire poi is an Interact action and requires 1 pint of @UUID[Compendium.pf2e.equipment-srd.Item.Oil (1 pint)]{Oil} for every 10 minutes the poi remain ignited.</p>\n<p>While lit, fire poi cast dim light in a 10-foot radius; in combat, they deal 1d4 bludgeoning plus 1d4 fire damage. On a critical hit with a lit fire poi, the target takes 1 persistent fire damage. The fire can be extinguished using the Interact action.</p>\n<p>When unlit, the poi deal only the listed bludgeoning damage. Regardless of whether it is lit, the poi's 1d4 bludgeoning damage is the weapon damage dice, so <em>striking</em> runes and other effects don't affect the fire damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "backswing",
+      "finesse",
+      "twin"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Firearm Cleaning Kit",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>This kit contains cleaning cloth, oil, small steel brushes, and other minor tools necessary for proper cleaning and maintenance of a firearm. Without a firearm cleaning kit, you can't perform the necessary tasks during your daily preparations to ensure that your firearm isn't at risk of misfiring under normal use conditions.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Firecracker Fulu",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You critically succeed at an attack roll with the affixed weapon.</p>\n<hr />\n<p>The fulu explodes and showers the area with bright sparks. The creature struck takes an additional @Damage[1d4[sonic]] damage and must succeed at a @Check[fortitude|dc:15] save or be @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round (or dazzled for 1 minute on a critical failure).</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Firefoot Popcorn",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you consume firefoot popcorn, for 1 minute, you can @UUID[Compendium.pf2e.actionspf2e.Item.Leap] double the normal distance. You can also attempt to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] or @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump] as a single action. If you do, you don't perform the initial Stride (nor do you fall if you don't Stride 10 feet).</p>\n<p>Each time you Leap 10 feet or more, your feet make a popping sound that can be heard from at least 100 feet, and the space you left fills with waves of intense heat. For 1 minute, that square is hazardous terrain that deals @Damage[1d6[fire]] to any creature that moves into it.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Firestarter Pellets (Greater)",
+    "price": {
+      "gp": 175
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a firestarter pellet to a fireball spell produces clinging flames that deal @Damage[2d6[persistent,fire]] damage to all who fail the saving throw against the effect (@Damage[4d6[persistent,fire]] damage on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Firestarter Pellets (Major)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a firestarter pellet to a fireball spell produces clinging flames that deal @Damage[3d6[persistent,fire]] damage to all who fail the saving throw against the effect (@Damage[6d6[persistent,fire]] damage on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Firestarter Pellets",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a firestarter pellet to a fireball spell produces clinging flames that deal @Damage[1d6[persistent,fire]] damage to all who fail the saving throw against the effect (@Damage[2d6[persistent,fire]] damage on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Fishing Tackle (Professional)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net. Professional fishing tackle grants a +1 item bonus to checks to fish.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Fishing Tackle",
+    "price": {
+      "sp": 8
+    },
+    "description": "<p>This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Five-Feather Wreath (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +14, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Acrobatics checks and resistance 5 to falling damage.</li>\n<li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 25 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Five-Feather Wreath - Armor (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Wall of Wind].</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Five-Feather Wreath (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +19, and the spell DC is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to Acrobatics checks and resistance 10 to falling damage.</li>\n<li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 40 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Five-Feather Wreath - Armor (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th rank @UUID[Compendium.pf2e.spells-srd.Item.Wall of Wind].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Air Walk].</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Five-Feather Wreath",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +8, and the spell DC is 18.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Acrobatics checks and resistance 2 to falling damage.</li>\n<li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 10 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Five-Feather Wreath - Armor]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast].</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flail",
+    "price": {
+      "sp": 8
+    },
+    "description": "<p>This weapon consists of a wooden handle attached to a spiked ball or cylinder by a chain, rope, or strap of leather.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Flame Drake Snare",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>The snare takes the form of a Tiny, drake-like clockwork toy. When a creature enters its square the snare activates, causing the drake to spit a gout of fire in a @Template[cone|distance:15]{15-foot cone} in the direction from which the creature entered.</p>\n<p>For instance, if a creature entered the square coming from the east, the cone would point east, to hit any allies behind the triggering creature. Those within the cone must succeed a @Check[reflex|dc:19|basic] save or take @Damage[6d6[fire]] damage. After spitting its fire, the snare falls apart.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "fire",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Flame Navette",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p><hr /><p>This piece of bronzite is shaped like an oval with points at both ends. It has a carved flame at its center and is traditionally worn over the heart. You can activate only one <em>flame navette</em> per day. When you activate the navette, you gain the benefit of the fighter's @UUID[Compendium.pf2e.feats-srd.Item.Determination] class feat, with a counteract rank of 8 and a counteract modifier of [[/r 1d20+22 #Counteract]]{+22}.</p>\n<p>If you have the Determination feat, you can use your own modifier if it's better.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Flaming (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>A weapon with this rune is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 2d10 persistent fire damage on a critical hit.</p>\n<p>Fire damage dealt by this weapon (including the persistent fire damage) ignores the target's fire resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Flaming Star (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+14 #spell attack roll]]{+14}, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to fire.</li>\n<li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d6 fire damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fireball].</p>\n<p>@Check[reflex|dc:24|basic|name:Fireball|traits:spell|showDC:all]</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Flaming Star (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+19 #spell attack roll]]{+19}, and the spell DC is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to fire.</li>\n<li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d8 fire damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Fireball].</p>\n<p>@Check[reflex|dc:29|basic|name:Flaming Star Spell|traits:spell|showDC:all]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Wall of Fire].</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Flaming Star",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+7 #spell attack roll]]{+7}, and the spell DC is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to fire.</li>\n<li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d4 fire damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flaming Star - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame].</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Flaming",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A weapon with this rune is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Flare Beacon (Greater)",
+    "price": {
+      "gp": 180
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Flare beacons create an incredibly bright light for a brief period of time. They are often used to signal others to the beacon's location, to coordinate assaults, to request rescue, or for other similar reasons. Higher-level beacons have a radius so large that they can be seen from miles away at night. When you Activate a flare beacon, you can either place it on the ground in a space within your reach or toss it up to 60 feet straight up. A flare beacon in the air falls at a rate of 10 feet per round.</p>\n<hr />\n<p>The beacon shines bright light in a 100-foot radius and dim light in the next 100 feet. Creatures within a 20-foot radius of the beacon must succeed at a @Check[fortitude|dc:27|name:Fortitude|traits:dazzle] save or be dazzled until they are no longer within 20 feet of it. Additionally, on a critical failure, they are also blinded for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Flare Beacon (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Flare beacons create an incredibly bright light for a brief period of time. They are often used to signal others to the beacon's location, to coordinate assaults, to request rescue, or for other similar reasons. Higher-level beacons have a radius so large that they can be seen from miles away at night. When you Activate a flare beacon, you can either place it on the ground in a space within your reach or toss it up to 60 feet straight up. A flare beacon in the air falls at a rate of 10 feet per round.</p>\n<hr />\n<p>The beacon then sparks into being, casting bright light in a 20-foot radius and dim light in the next 20 feet for 1 minute. Creatures adjacent to a flare beacon must succeed at a @Check[fortitude|dc:15|name:Fortitude|traits:dazzle] save or be dazzled until they are no longer adjacent to it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Flare Beacon (Major)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Flare beacons create an incredibly bright light for a brief period of time. They are often used to signal others to the beacon's location, to coordinate assaults, to request rescue, or for other similar reasons. Higher-level beacons have a radius so large that they can be seen from miles away at night. When you Activate a flare beacon, you can either place it on the ground in a space within your reach or toss it up to 60 feet straight up. A flare beacon in the air falls at a rate of 10 feet per round.</p>\n<hr />\n<p>The beacon shines bright light in a 180-foot radius and dim light in the next 180 feet. Creatures within a 30-foot radius of the beacon must succeed at a @Check[fortitude|dc:35|name:Fortitude|traits:dazzle] save or be dazzled until they are no longer within 30 feet of it. Additionally, on a critical failure, they are also blinded for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Flare Beacon (Moderate)",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Flare beacons create an incredibly bright light for a brief period of time. They are often used to signal others to the beacon's location, to coordinate assaults, to request rescue, or for other similar reasons. Higher-level beacons have a radius so large that they can be seen from miles away at night. When you Activate a flare beacon, you can either place it on the ground in a space within your reach or toss it up to 60 feet straight up. A flare beacon in the air falls at a rate of 10 feet per round.</p>\n<hr />\n<p>The beacon shines bright light in a 60-foot radius and dim light in the next 60 feet. Creatures within a 10-foot radius of the beacon must succeed at a @Check[fortitude|dc:20|name:Fortitude|traits:dazzle] save or be dazzled until they are no longer within 10 feet of it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Flare Snare",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Using bioluminescent matter or alchemical reagents, you rig a short-lived flare to a trip wire or pressure plate. When a Small or larger creature enters the square, this flare shoots into the sky. To creatures with a clear view of the sky, this flare is visible from up to 2 miles away on a clear day or up to 5 miles away on a clear night.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap",
+      "visual"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Flash Beetle Lantern",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>This unassuming hooded lantern contains a mass of flash beetle eggs suspended in a magical solution. It sheds light on a 45-foot radius (and dim light in the next 45 feet).</p><hr /><p><strong>Activate—Spotlight</strong> <span class=\"action-glyph\">1</span> (light, manipulate, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Flipping a concealed lever in the lantern's handle triggers a small current to pass through the solution. The eggs brighten and emit a series of brilliant flashes in a @Template[cone|distance:30]. Each creature in the area of effect must attempt a @Check[fortitude|dc:18|traits:light,visual] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is blinded for 1 minute.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the eggs of a flash beetle.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Flashblade (Greater)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>A sleek and impossibly lightweight blade attached to a haft scriven with lightning bolts make up this <em>+2 greater striking nodachi</em>.</p>\n<p><strong>Activate—Prepare Flash</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> You concentrate with complete focus on your surroundings, breathing in the flashblade's magic to make you lighter and faster, and the blade of your sword more flexible. You Ready a melee Strike, increasing the flashblade's reach for that Strike to 20 feet. If the trigger doesn't occur, this doesn't count against the flashblade's frequency.</p>",
+    "rarity": "common",
+    "traits": [
+      "brace",
+      "deadly-d12",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Flashblade (Major)",
+    "price": {
+      "gp": 14700
+    },
+    "description": "<p>A sleek and impossibly lightweight blade attached to a haft scriven with lightning bolts make up this <em>+3 greater striking nodachi</em>.</p>\n<p><strong>Activate—Prepare Flash</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> You concentrate with complete focus on your surroundings, breathing in the flashblade's magic to make you lighter and faster, and the blade of your sword more flexible. You Ready a melee Strike, increasing the flashblade's reach for that Strike to 25 feet. If the trigger doesn't occur, this doesn't count against the flashblade's frequency.</p>",
+    "rarity": "common",
+    "traits": [
+      "brace",
+      "deadly-d12",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Flashblade",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>A sleek and impossibly lightweight blade attached to a haft scriven with lightning bolts make up this <em>+1 striking nodachi</em>.</p>\n<p><strong>Activate—Prepare Flash</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> You concentrate with complete focus on your surroundings, breathing in the flashblade's magic to make you lighter and faster, and the blade of your sword more flexible. You Ready a melee Strike, increasing the flashblade's reach for that Strike to 15 feet. If the trigger doesn't occur, this doesn't count against the flashblade's frequency.</p>",
+    "rarity": "common",
+    "traits": [
+      "brace",
+      "deadly-d12",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Flask of Fellowship",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This is a metal drinking flask, 4 inches in diameter and 10 inches tall. Its screw top is covered by four simple metal cups that nest together.</p>\n<hr />\n<p><strong>Activate</strong> Make an Impression</p>\n<hr />\n<p><strong>Effect</strong> If you share drinks from a flask of fellowship as part of your Make an Impression action, the drink that pours from the flask happens to be exactly what the target of your efforts would most like to have a dram or two of-wine, spirits, hot ginger tea, or ice cold water with lemon, for example. You gain a +1 item bonus on your Diplomacy check.</p>\n<p>The GM can disallow the flask's use if it doesn't make sense in the moment for you to pull out a flask and start pouring, if drinks are inappropriate for the occasion, or if your target is absolutely not interested in sharing a drink with you. Drinks from the flask of fellowship are entirely social; they won't intoxicate anyone, nor alleviate serious thirst.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Flask of Fellowship]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Flawed Orb of Gold Dragonkind",
+    "price": {},
+    "description": "<p>Each of the legendary <em>Orbs of Dragonkind</em> contains the essence and personality of a powerful dragon. The <em>Orb of Gold Dragonkind</em> was the most powerful of them all, until it was shattered by Mengkare's draconic breath. Reconstructed at great expense by enslaved spellcasters toiling under the Scarlet Triad's watch, the <em>Flawed Orb of Gold Dragonkind</em> is a shadow of its prior self, yet it remains a potent weapon against dragons of all types.</p>\n<p>While carried, the <em>Flawed Orb of Gold Dragonkind</em> grants its owner resistance 30 to the Breath Weapons of gold dragons. The owner also can sense if there are any dragons within 10 miles, or any gold dragons within 100 miles. When within 1 mile of a dragon, they can determine the direction to the dragon and the dragon's age category (such as young, ancient, or wyrm).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> Three times per day</p>\n<p><strong>Effect</strong> You attempt to overwhelm a dragon's mind-while you cannot control the dragon, you can render it immobile for a short time. Choose a dragon within 60 feet; the dragon can attempt to resist the orb with a @Check[will|dc:30] saving throw (or higher with <em>orb shards</em>). Gold dragons take a -4 circumstance penalty to this saving throw. Any stun from this activation ends if the dragon is attacked or otherwise subject to a hostile act other than that of the orb.</p>\n<hr />\n<p><strong>Critical Success</strong> The dragon is unaffected.</p>\n<p><strong>Success</strong> The dragon is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 3}.</p>\n<p><strong>Failure</strong> The dragon is stunned for as long as the orb's wielder Sustains the Activation.</p>\n<p><strong>Critical Failure</strong> As failure, but hostile actions don't end the dragon's stun.</p>\n<hr />\n<p><strong>Destruction</strong> The <em>Flawed Orb of Gold Dragonkind</em> is resilient, but its imperfect nature leaves it vulnerable. It can be damaged or even destroyed by mundane attacks (Hardness 40, HP 200, BT 100). It has weakness 30 to the Breath Weapons and Strikes of gold dragons.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Flaying Knife",
+    "price": {
+      "gp": 480
+    },
+    "description": "<p>This long, thin +1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Wounding] dagger has a smooth edge on one side and a serrated edge on the other.</p>\n<p>Its persistent bleed damage comes from slicing away long strips of the target's flesh, and it deals @Damage[1d8[bleed]] on a hit instead of 1d6. A creature takes a -2 status penalty to saving throws against diseases for as long as it has persistent bleed damage from this knife.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flayleaf",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>The flayleaf plant is relatively common, though the mildly euphoric effects of smoking its dried leaves increase when it's sourced from plants specifically grown to produce such effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested, Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:12]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> +1 item bonus to saving throws against mental effects (1 hour)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] and +1 item bonus to saving throws against mental effects (1 hour)</p>\n<p><strong>Stage 3</strong> fatigued and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (1 hour)</p>\n<p><strong>Stage 4</strong> fatigued, @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}, @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "inhaled",
+      "poison"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Fleshgem (Combat)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>Originally developed as a body modification by oreads, <em>fleshgems</em> are crystals that can be implanted in the skin of a creature of any ancestry. While a <em>fleshgem</em> can be applied anywhere on the body for cosmetic purposes, the most common usage among adventurers is to implant them at the base of the fingers, to be used like brass knuckles.</p>\n<p>These pointed crystal shards embedded in your fingers grant you a fist Strike that deals @Damage[1d6[piercing]] damage, is in the brawling group, and has the magical and unarmed traits. Combat fleshgems can be enhanced with the effects of <em>handwraps of mighty blows</em>, as normal for an unarmed attack.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Fleshgem (Earthspeaker)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>Originally developed as a body modification by oreads, <em>fleshgems</em> are crystals that can be implanted in the skin of a creature of any ancestry. While a <em>fleshgem</em> can be applied anywhere on the body for cosmetic purposes, the most common usage among adventurers is to implant them at the base of the fingers, to be used like brass knuckles.</p>\n<p>You siphon your <em>fleshgem's</em> power, and the earth around you erupts in crystal stalagmites.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You are standing on the ground</p>\n<hr />\n<p><strong>Effect</strong> The ground around you erupts in a @Template[burst|distance:10] of knee-high crystal shards that remain for 1 round, or 1 minute if you spent two actions. To all creatures other than you, the area is difficult terrain as well as hazardous terrain. Creatures that move through a space containing crystal shards take @Damage[2[piercing]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Fleshrender",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This <em>+3 greater striking animated dawnsilver sawtooth saber</em> has many serrated edges and gleams blinding white in bright light.</p>\n<p>If you're wielding Blood-Drinker in your other hand, increase <em>Fleshrender's</em> attack modifier to +32 instead of +24, and increase its fly Speed to 50 feet when you Set Free <em>Fleshrender</em>.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "twin"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Flickering",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>A flickering rune causes a weapon to shimmer, grow blurry and indistinct, and momentarily turn invisible at random intervals for a second or two. A flickering weapon adds its item bonus from its potency rune to the DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or @UUID[Compendium.pf2e.actionspf2e.Item.Steal] it. On a critical hit, the weapon flashes bright pulses of color into the creature's eyes, @UUID[Compendium.pf2e.conditionitems.Item.Dazzled]{Dazzling} the creature for 1 round (this effect has the visual trait).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The flickering weapon casts @UUID[Compendium.pf2e.spells-srd.Item.Blur] to your specification.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flingflenser",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>A flingflenser is a goblin-designed weapon ending in an ovoid tube with a hatch and handle on the narrow end. A cluster of circular blades held together and attached to a black powder packet with a thin leather strap serves as ammunition and is loaded through the hatch before being fired with a flintlock or other external ignition mechanism. The flingflenser's sturdy design also places it among the more reliable goblin weapons.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backstabber",
+      "fatal-d10",
+      "goblin",
+      "scatter-5"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flint and Steel",
+    "price": {
+      "cp": 5
+    },
+    "description": "<p>Flint and steel are useful in creating a fire if you have the time to catch a spark, though using them is typically too time-consuming to be practical during an encounter. Even in ideal conditions, using flint and steel to light a flame requires using at least 3 actions, and often significantly longer.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Flintlock Musket",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>The most commonly available of firearms in Alkenstar, the flintlock musket includes an external firing mechanism and an efficient and relatively compact frame. Though lacking the range and firing power of the arquebus preferred by Alkenstar and Dongun Hold's military members, the flintlock musket is popular among civilians for its ease of use.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flintlock Pistol",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>Though less accurate and powerful than a flintlock musket, the flintlock pistol is a preferred weapon of privateers thanks to its more compact size and affordability. Pirate captains often wear a brace of such pistols in a bandolier so they can draw and fire without stopping to reload.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Floating Shield (Greater)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>A <em>floating shield</em> is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.</p>\n<p><strong>Activate—Float</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Frequency</strong> at will</p>\n<hr />\n<p><strong>Effect</strong> The shield magically releases itself and floats off your arm into the air next to you, granting you its bonus automatically, as if you had Raised the Shield.</p>\n<p>Because you're not wielding the shield, you can't use reactions such as Shield Block with the shield, but you gain its benefits even when using both of your hands.</p>\n<p>After 1 minute, the shield drops to the ground, ending its floating effect. While the shield is adjacent to you, you can Interact to grasp it, ending its floating effect early.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Floating Shield",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>A <em>floating shield</em> is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.</p>\n<p><strong>Activate—Float</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The shield magically releases itself and floats off your arm into the air next to you, granting you its bonus automatically, as if you had Raised the Shield.</p>\n<p>Because you're not wielding the shield, you can't use reactions such as Shield Block with the shield, but you gain its benefits even when using both of your hands.</p>\n<p>After 1 minute, the shield drops to the ground, ending its floating effect. While the shield is adjacent to you, you can Interact to grasp it, ending its floating effect early.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Floating Tent (Four-Person)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This diamond-shaped tent is designed for sleeping in planar environments without gravity, such as the Plane of Air. Weights are attached at each of its six points, carefully balanced against each other to prevent the tent from leaning too far in any one direction. The tent has an anchor, which can be used to moor the tent and prevent it from floating away from the object or location it is anchored to.</p>\n<p>A standard floating tent is large enough for four creatures and their supplies, containing four hammocks in two rows suspended in the center of the tent and large nets near the top and bottom of the tent for gear.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Floating Tent (Pup)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This diamond-shaped tent is designed for sleeping in planar environments without gravity, such as the Plane of Air. Weights are attached at each of its six points, carefully balanced against each other to prevent the tent from leaning too far in any one direction. The tent has an anchor, which can be used to moor the tent and prevent it from floating away from the object or location it is anchored to.</p>\n<p>A floating pup tent is large enough for one person and their supplies. It contains one hammock suspended in the center of the tent, large enough for a Medium or smaller creature to comfortably sleep, in addition to a net beneath the hammock where gear can be stored.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Floorbell",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p>This surprisingly sturdy 3-foot-by-3-foot clay tile resembles a thick pressure plate. It can support up to 500 pounds of weight atop it before it is destroyed. The <em>floorbell</em>'s nature is obvious at a glance, but mundane or magical means can obscure or camouflage the tile (such as by covering it in scattered leaves or by casting an @UUID[Compendium.pf2e.spells-srd.Item.Illusory Object] spell) to make it harder to detect.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Effect</strong> The <em>floorbell</em> must be activated on level ground. When you do, specify the amount of weight that triggers the <em>floorbell</em>'s alarm system. When the amount of weight you specify (or more) is placed on the <em>floorbell</em>, it emits an ear-piercing wail clearly audible to a range of 150 feet. A <em>floorbell</em> can also ring an alarm if a weight you specify is removed from the <em>floorbell</em>, such as if you activated it while a heavy sack was on it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flower Press",
+    "price": {
+      "sp": 6
+    },
+    "description": "<p>A flower press resembles a book with wooden covers and straps that tighten down to apply pressure. There are individual pages for multiple plants. Pressing flowers and other plants in this way allows them to be preserved for future study or as ornamentation. It can also be used to make impressions of plants for inclusion in journals and guidebooks instead of illustrations. Most flower presses can contain a dozen or so flowers at a time, each one on a different layer.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Flowing Water (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>The Flood Truce is a season of relative peace, and this tattoo of a river can soothe your temper when you might otherwise lash out. You gain a +1 item bonus to Diplomacy checks made against orcs who honor the Flood Truce.</p>\n<p><strong>Activate—Embody the Truce</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A mental effect would compel you to harm an ally or bystander</p><hr /><p><strong>Effect</strong> Attempt a counteract check with a counteract rank of 6 to end the effect.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Flowing Water (Lesser)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>The Flood Truce is a season of relative peace, and this tattoo of a river can soothe your temper when you might otherwise lash out. You gain a +1 item bonus to Diplomacy checks made against orcs who honor the Flood Truce.</p>\n<p><strong>Activate—Embody the Truce</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A mental effect would compel you to harm an ally or bystander</p><hr /><p><strong>Effect</strong> Attempt a counteract check with a counteract rank of 2 to end the effect.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Flowing Water (Moderate)",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>The Flood Truce is a season of relative peace, and this tattoo of a river can soothe your temper when you might otherwise lash out. You gain a +1 item bonus to Diplomacy checks made against orcs who honor the Flood Truce.</p>\n<p><strong>Activate—Embody the Truce</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A mental effect would compel you to harm an ally or bystander</p><hr /><p><strong>Effect</strong> Attempt a counteract check with a counteract rank of 4 to end the effect.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Fluid Form Staff (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>A glass orb atop this metal staff contains fine sand. While wielding the staff, you gain a +2 circumstance bonus to Perception checks to identify morph and polymorph magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pest Form]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Enlarge], @UUID[Compendium.pf2e.spells-srd.Item.Shrink]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Feet to Fins], @UUID[Compendium.pf2e.spells-srd.Item.Insect Form]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Aerial Form], @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Dinosaur Form]</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Fluid Form Staff (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>A glass orb atop this metal staff contains fine sand. While wielding the staff, you gain a +2 circumstance bonus to Perception checks to identify morph and polymorph magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pest Form]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Enlarge], @UUID[Compendium.pf2e.spells-srd.Item.Shrink]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Feet to Fins], @UUID[Compendium.pf2e.spells-srd.Item.Insect Form]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Aerial Form], @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Dinosaur Form]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Insect Form]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cursed Metamorphosis], @UUID[Compendium.pf2e.spells-srd.Item.Dragon Form], @UUID[Compendium.pf2e.familiar-abilities.Item.Plant Form]</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Fluid Form Staff",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>A glass orb atop this metal staff contains fine sand. While wielding the staff, you gain a +2 circumstance bonus to Perception checks to identify morph and polymorph magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Pest Form]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Animal Form], @UUID[Compendium.pf2e.spells-srd.Item.Enlarge], @UUID[Compendium.pf2e.spells-srd.Item.Shrink]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Flurrying",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>When you make a Flurry of Blows using the etched weapon and your first Strike reduces a creature to 0 Hit Points, you can make your second Strike with an echo of the weapon, increasing the reach to 30 feet.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (evocation, force)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The weapon casts a @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon] spell. The ghostly weapon looks like the etched weapon. Use your normal attack bonus and damage for the weapon instead of the damage listed in the spell, but use your Wisdom modifier instead of Strength when determining damage. You can choose to make a Flurry of Blows instead of a Strike when the <em>spiritual weapon</em> attacks; this still counts as your flourish for the turn. You can Sustain this activation in the same manner as the spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Flying Blade Wheel Snare",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>When a creature enters the square, a deadly flying wheel of spinning blades launches at it, making a [[/r 1d20+35]]{Strike} with an attack modifier of +35 and dealing @Damage[8d8[slashing]] damage. Once on each of your turns, you can use an Interact action within 120 feet of the wheel to cause it to Fly up to 60 feet toward the creature it's chasing and make another Strike if it's within 5 feet of its target after it moves. After 1 minute, the spinning ceases and the wheel falls to the ground. Creatures can destroy the wheel to stop it (AC 37, Fort +29, Ref +20, HP 200, Hardness 10, object immunities).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Flying Broomstick",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This broom has a tenuous connection to gravity, and it tends to drift even while stowed. You can ride on the broom using one hand to guide it, and the broom can carry up to one passenger in addition to you.</p>\n<p>The broom moves at a fly Speed of 20 feet. The broom can carry only so much, taking a -10-foot penalty to its Speed if laden with more than 20 Bulk, and crashing to the ground if it carries more than 30 Bulk.</p>\n<p><strong>Activate—Lift Off</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You name a destination on the same plane, and the broom speeds toward it at a fly Speed of 40 feet. You must either clutch the broom with two hands in order to ride it, or you need to release the broom to send it off with no rider. If you don't have a good idea of the location, layout, and general direction of the destination, or if your named destination is on another plane, the broom wanders aimlessly, circling back to its starting location after 30 minutes.</p>\n<p>If the broom carries a rider, this activation lasts until 4 hours pass (typically 16 miles of travel), the broom reaches its destination, or you Dismiss the activation. If the broom doesn't have a rider, the activation lasts until the broom reaches its destination. When the activation ends, the broom floats to the ground and can't be activated again for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Flying Talon",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>This weapon consists of a three-pronged barbed hook attached to a length of chain. It can be used in melee to stab foes or hurled at a range. Some kobolds are particularly fond of using flying talons, especially as a sort of badge of office above those who serve them.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "kobold",
+      "ranged-trip",
+      "tethered",
+      "thrown-10",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Flyssa",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This single-edged blade has a guardless hilt. Often decorated with elaborate etchings, a flyssa is longer than most daggers but shorter than average for most swords, making it useful in close and pitched combat.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Folding Boat (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This simple carved box can fold or unfold into a boat when activated.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> The folding boat can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a @UUID[Compendium.pf2e.vehicles.Actor.Cutter], piloted and crewed by ethereal sailors. The ethereal sailors don't prevent you from activating the boat to return it to a box. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a folding boat can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.</p>\n<p>Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A folding boat with the @UUID[Compendium.pf2e.conditionitems.Item.Broken] condition must be repaired before it can change form again.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Folding Boat",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This simple carved box can fold or unfold into a boat when activated.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> The folding boat can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a @UUID[Compendium.pf2e.vehicles.Actor.Rowboat]. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a folding boat can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.</p>\n<p>Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A folding boat with the @UUID[Compendium.pf2e.conditionitems.Item.Broken] condition must be repaired before it can change form again.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Folding Drums",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>You can unfold this @UUID[Compendium.pf2e.equipment-srd.Item.Musical Instrument (Virtuoso heavy)]{virtuoso percussion instrument} into a hand drum (1 Bulk), a marching drum set with a shoulder harness and back brace (3 Bulk), or a large standing drum set with a built-in stool (16 Bulk). Changing the <em>folding drum</em>'s size is a 3-action Interact activity, and the drums must have sufficient open space to accommodate their new size.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You play a pounding rhythm on the drum. If the next action you use is to cast a composition cantrip that has an emanation, increase the area of the emanation by 30 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Folding Ladder",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Bulk</strong> 1 (3 unfolded)</p>\n<hr />\n<p>This multi-hinged, 10-foot ladder is useful for climbing upward or across dangerous pits. You can fold or unfold the ladder with two total Interact actions, which don't need to consecutive.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Follypops",
+    "price": {
+      "gp": 175
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>These savory breaded snacks stuffed with cheese, peppers, and \"secret ingredients\" of draconic or demonic origin are often offered alongside a challenge-complete a full portion and get a free drink. For 1 hour after consuming follypops, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your <em>follypops</em> end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.</p><hr /><p><strong>Type</strong> hotpops</p>\n<p>You begin to sweat profusely after consuming the serving. When you unleash magic, you breathe out a blast of fire in a @Template[cone|distance:15]. Creatures in the cone take @Damage[4d6[fire]|options:area-damage] damage with the first blast, @Damage[2d6[fire]|options:area-damage] damage with the second blast, and @Damage[1d6[fire]|options:area-damage] damage with the final blast. The creatures must attempt a @Check[reflex|dc:27|basic|traits:fire|options:area-effect|showDC:all] for each blast.</p><hr /><p><strong>Type</strong> rotters</p>\n<p>Your breath smells of rotting garbage after you consume the serving. When you unleash magic, you exhale a noxious breath in a @Template[cone|distance:15]. Creatures in the cone take @Damage[4d6[poison]|options:area-damage] damage with the first breath, @Damage[2d6[poison]|options:area-damage] damage with the second breath, and @Damage[1d6[poison]|options:area-damage] damage with the final breath. The creatures must attempt a @Check[fortitude|dc:27|basic|traits:poison|showDC:all|options:area-effect] for each breath.</p><hr /><p><strong>Type</strong> sizzlers</p>\n<p>Your skin crawls and your hair stands on end after consuming the serving. When you unleash magic, you release a bolt of lightning from your hand that travels in a @Template[line|distance:30]. The first bolt deals @Damage[2d12[electricity]|options:area-damage] damage, the second @Damage[1d12[electricity]|options:area-damage] damage, and the third @Damage[1d6[electricity]|options:area-damage] damage. The targeted creatures must attempt a @Check[reflex|dc:27|basic|traits:electricity|showDC:all|options:area-effect] for each bolt.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Force Shield",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>The edges of this elaborately engraved steel shield (Hardness 8, HP 32, BT 16) bear tiny glass tiles set in mosaic patterns.</p>\n<hr />\n<p><strong>Activate—Force Bubble</strong> <span class=\"action-glyph\">A</span> (concentrate, force)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage for 1 minute. The activation ends if you cease holding the shield.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Force Shield]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "force",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Force Tiles",
+    "price": {
+      "gp": 525
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>Light refracts in strange ways through these precisely ground glass tiles, lengthening the refracted force and causing it to push back. Adding this catalyst to a @UUID[Compendium.pf2e.spells-srd.Item.Wall of Force] spell increases the wall's maximum length to 80 feet and maximum height to 40 feet and causes creatures that try to move into the wall's space (or are Shoved into the wall) to take @Damage[2d6[force]] damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Forensic Dye",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Activating this vial of colorless liquid requires inserting a small amount of another chemical or material, such as blood or mud. The vial reacts rapidly, transforming into a murky, reddish-brown substance.</p>\n<p>Once activated, the dye remains potent for up to 10 minutes, during which time you can spend 1 minute to brush it onto a single object of up to 1 Bulk or across the ground in a single 5-foot square. Where the dye comes in contact with an exact match for the activating chemical, it takes on a bright blue hue, while staying transparent in areas where there is no activating component present.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Forge Warden",
+    "price": {
+      "gp": 975
+    },
+    "description": "<p>The religious symbol of Torag, the forge god-an ornate hammer of dwarven construction-adorns the face of this <em>lesser reinforcing steel shield</em> (Hardness 8, HP 72, BT 36). The shield is a religious symbol of Torag.</p>\n<p>You and any adjacent allies have fire resistance 5 while you have the shield raised. When used for a Shield Block, the <em>forge warden</em> rings out like the hammer strike of a blacksmith, and the symbol glows as if lit by the fires of a furnace.</p>\n<hr />\n<p><strong>Activate—Forge Fires</strong> <span class=\"action-glyph\">F</span> (concentrate, fire)</p>\n<p><strong>Trigger</strong> You use the <em>forge warden</em> to Shield Block an adjacent creature's attack and the shield takes damage</p>\n<p><strong>Effect</strong> The attacking creature takes @Damage[2d6[fire]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 24,
+    "name": "Forgefather's Seal",
+    "price": {},
+    "description": "<p>This rune was created by Torag, god of the forge, protection, and strategy, and shared with his greatest artisans and warriors. Torag designed a small number of these seals as gifts to allied good deities; each one is nearly identical but has a different spell effect when using the reaction activation; for instance, Sarenrae's seal casts @UUID[Compendium.pf2e.spells-srd.Item.Sunburst] instead of <em>earthquake</em>.</p>\n<p>A seal constantly rings with the quiet sound of a hammer striking an anvil when etched onto a <em>runestone</em>. A <em>Forgefather's seal</em> can be etched only onto armor that can bear two or more property runes, and it is so powerful that it takes the place of two property runes. While wearing armor etched with a <em>Forgefather's seal</em>, you gain fire resistance 40. You ignore the armor's check penalty and Speed penalty (if any); if the armor is light or medium, increase its item bonus to AC by 1. In addition, any shield you wield automatically recovers 10 Hit Points at the start of your turn each round.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Forgefather's Seal]</p>\n<hr />\n<p><strong>Activate—Retributive Rebuff</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You are hit by an attack</p>\n<p><strong>Effect</strong> The <em>Forgefather's seal</em> glows and your armor shakes as it absorbs the blow. The attack's damage is reduced by 100 and you cast @UUID[Compendium.pf2e.spells-srd.Item.Earthquake] (DC 40), centered directly on the triggering creature. You decide the area of the <em>earthquake</em> when you Cast the Spell, from as small as the size of the creature and up to a @Template[burst|distance:60].</p>\n<hr />\n<p><strong>Activate—Seal of Mending</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You call upon on the restorative powers of the seal to repair an item within reach. The rune instantly restores the item to full Hit Points, even if the item was destroyed, using the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Remake] spell, so long as the majority of the item is available for the repair. The seal can restore even magic items and artifacts of its level or lower. Once you have used this ability, the seal's ability to automatically repair shields becomes inactive until the next time you make your daily preparations.</p>\n<hr />\n<p><strong>Activate—Stalwart Sacrifice</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> You have not acted yet on your turn</p>\n<p><strong>Effect</strong> You call upon Torag to defend your allies and those around you, sacrificing yourself in the process. Creatures of your choosing within 60 feet recover all their Hit Points. If any of the creatures are dead, they are instead brought back to life with half of their maximum Hit Points. The chosen creatures also gain a +4 status bonus to AC and saving throws, and fast healing 15 for 1 hour. You can use this ability to bring back to life a creature that requires a @UUID[Compendium.pf2e.spells-srd.Item.Wish] ritual or divine intervention to raise from the dead, as long as you choose no other creatures within 60 feet to recover. Once you use this activation, you are turned into a perfect statue made from stone or metal that depicts you in a glorious pose honoring your sacrifice, and you can never be restored. The <em>Forgefather's seal</em> remains on this statue and can be transferred to another suit of armor or a runestone as normal.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Forgefather's Seal (Stalwart Sacrifice)]</p>\n<hr />\n<p><strong>Destruction</strong> Using the <em>Forgefather's seal</em> ability to bring the dead back to life on an evil demigod causes it to shatter in a violent explosion that destroys the seal and the statue made as part of the sacrifice, erasing all knowledge of the user from existence. It does, however, bring the evil demigod back to life.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "divine"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Forgetful Drops",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Access</strong> Member of a secret society</p>\n<hr />\n<p>These innocuous, colorless drops can be poured directly into a victim's mouth, or slipped into their food or drink. They initially haze a victim's mind slightly, making them easier to fool; in later stages, they can lead to the victim entering a murderous @UUID[Compendium.pf2e.conditionitems.Item.Confused] state. Secret societies use these drops to befuddle a target or to frame them for violence.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Onset</strong> 5 minutes;</p>\n<p><strong>Maximum Duration</strong> 1 hour</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (10 minutes)</p>\n<p><strong>Stage 2</strong> stupefied 1 and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (20 minutes)</p>\n<p><strong>Stage 3</strong> stupefied 1, clumsy 1, and @UUID[Compendium.pf2e.conditionitems.Item.Confused] (30 minutes)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Forgetful Ink",
+    "price": {
+      "gp": 32
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Used to write secret messages, a single dose of forgetful ink is enough to pen a page of text, often with flourishes extending to the page's edges. Anyone handling the page is exposed to the poison. This includes casual reading, unless the reader specifically takes precautions not to physically touch it. Unlike other poisons, forgetful ink retains its potency for one year, regardless of the number of victims exposed.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20|traits:secret] (secret)</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Stage 1</strong> The reader forgets the contents of the writing, recalling it as blank or as inconsequential text.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Forgotten Shell",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>This <em>+2 resilient @UUID[Compendium.pf2e.equipment-srd.Item.Full Plate]</em>, crafted from grim plates of iron, covers the entire body except for small holes for the eyes and mouth.</p>\n<p>While wearing the armor, you gain the benefits of a @UUID[Compendium.pf2e.spells-srd.Item.Veil of Privacy] spell. Additionally, creatures attempting to Recall Knowledge about a subject involving you must succeed at a @Check[will|dc:30]. On a success, they can attempt the check normally. On a failure, they can still attempt the check, but even if they successfully Recall Knowledge, they don't remember you (although they might remember other details about the event). Creatures that fail their save can make another attempt to Recall Knowledge about you, but they must wait 24 hours to do so.</p>\n<p>You can spend 1 hour using blacksmithing tools to bind a helpless Medium humanoid inside the suit, which welds the suit shut and makes it impossible to remove without breaking it (Hardness 9, HP 36, BT 18). The humanoid inside the suit counts as being Invested while bound in this fashion and can't break out of the suit on its own. If the suit is welded shut, the creature gains the benefits above but also the following penalties:</p>\n<ul>\n<li>Whenever the humanoid attempts a Deception, Diplomacy, Intimidation, or Performance check, they must roll twice and use the worse result.</li>\n<li>Additionally, creatures the humanoid encounters have an initial attitude toward them of one degree worse than they normally would (for instance, @UUID[Compendium.pf2e.conditionitems.Item.Unfriendly] instead of @UUID[Compendium.pf2e.conditionitems.Item.Indifferent]).</li>\n<li>Good creatures are @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} while carrying, wielding, or wearing this item crafted by the sea-witches.</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>Nondetection</em> and @UUID[Compendium.pf2e.spells-srd.Item.Outcast's Curse].</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 21,
+    "name": "Forgotten Signet",
+    "price": {},
+    "description": "<p>At the center of this silver ring gleams an obsidian gem, its surface emblazoned with a bloodred rune of forgetting. While wearing a <em>forgotten signet</em>, you're subjected to @UUID[Compendium.pf2e.spells-srd.Item.Hidden Mind] (+32 counteract bonus) and easily fade from others' memory. Sapient creatures must attempt a @Check[will|dc:42] save each time you depart from their company or they forget you entirely.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature's memories of you are normal.</p>\n<p><strong>Success</strong> The creature remembers you and your interactions but has difficulty describing either to others. Each time they attempt to share information about these subjects with someone else, they relate only confusing or unclear details about you and this interaction.</p>\n<p><strong>Failure</strong> The creature remembers your existence but no details about you or your interactions. For example, they remember speaking with an individual of your most basic biological traits, such as a human woman, but not your name, appearance, or other specific features.</p>\n<p><strong>Critical Failure</strong> The creature retains no memories of you or this interaction.</p>\n<p><strong>Destruction</strong> If a creature learns the true name of a <em>forgotten signet</em>'s wearer and makes it public knowledge, that <em>forgotten signet</em> tarnishes and breaks in two.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Forked Bipod",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>Developed by Alkenstar scouts who often don't have time to break down a tripod when beset by the chaotic mutant monsters of the Mana Wastes, this two-pronged stabbing weapon can be used as a bipod to stabilize a gun with potent kickback. A forked bipod can be deployed or retrieved for use as a melee weapon as an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "deadly-d6",
+      "finesse"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Formula Book (Blank)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A formula book holds the formulas necessary to make items other than the common equipment from Pathfinder Player Core; characters of the alchemist class typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Formulated Sunlight",
+    "price": {
+      "sp": 40
+    },
+    "description": "<p>A leshy can derive nourishment from specially formulated bottles of sunlight instead of natural sunlight.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Fortification (Greater)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>A <em>greater fortification</em> rune wards against the most deadly attacks. Each time you're critically hit while wearing the etched armor, attempt a @Check[flat|dc:14]. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 1.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Fortification",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>A <em>fortification</em> rune wards against the most deadly attacks. Each time you're critically hit while wearing the etched armor, attempt a @Check[flat|dc:17]. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 1.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Fortifying Pebble",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor, shield, or weapon</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> The affixed object would take damage</p>\n<p>This small pebble is strangely dense and surprisingly durable, affixed to an object by a sturdy steel chain. When you activate the pebble, the affixed object takes 10 less damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Fortress Plate",
+    "price": {
+      "gp": 32
+    },
+    "description": "<p>Dwarves of Dongun Hold developed fortress plate, which is still popular in Alkenstar and Dongun Hold. A trained wearer can adjust the articulated armor's overlapping layers of plates and panels to provide protection from missiles.</p>",
+    "rarity": "common",
+    "traits": [
+      "bulwark",
+      "entrench-ranged",
+      "ponderous"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Fortress Shield",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>Also known as portable walls, these thick and heavy shields are slightly larger than tower shields. Like tower shields, they're typically made from wood reinforced with metal, but many are made from larger amounts of metal or even stone.</p>\n<p>Getting the higher bonus for this shield requires using the @UUID[Compendium.pf2e.actionspf2e.Item.Take Cover] action while the shield is raised.</p>",
+    "rarity": "common",
+    "traits": [
+      "hefty-2"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Fortune Cord",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>In many parts of Tian Xia, it's tradition to mint coins with holes in the centers for the purpose of being able to thread a cord through them and tie them off for security and ease of transaction. This immaculately braided red cord is made in this tradition and can hold up to 100 coins at any given time. As long as you carry a fortune cord, you gain a +2 item bonus to skill checks to @UUID[Compendium.pf2e.actionspf2e.Item.Earn Income].</p>\n<p>If you load up to 100 coins onto a <em>fortune cord</em> as part of your daily preparations, you can Activate the magic item in two different ways until the next time you make your daily preparations, provided all the loaded coins are of the same type.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> you have at least 50 coins loaded onto the <em>fortune cord</em></p>\n<p><strong>Effect</strong> You transform the <em>fortune cord</em> into a <em>+2 striking nunchaku</em> for 1 minute. The type of coin loaded onto the cord determines the additional weapon property rune that manifests on this <em>+2 striking nunchaku</em>, as follows.</p>\n<p><strong>Copper:</strong> @UUID[Compendium.pf2e.equipment-srd.Item.Corrosive] weapon</p>\n<p><strong>Silver:</strong> @UUID[Compendium.pf2e.equipment-srd.Item.Shock] weapon</p>\n<p><strong>Gold:</strong> @UUID[Compendium.pf2e.equipment-srd.Item.Flaming] weapon</p>\n<p><strong>Platinum:</strong> @UUID[Compendium.pf2e.equipment-srd.Item.Frost] weapon</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> manipulate, Interact</p>\n<p><strong>Effect</strong> You whip the fortune cord, causing 10 coins loaded onto it to detach and fire at a creature within 100 feet that you can see. That creature takes 4d6 damage (@Check[reflex|dc:28|basic] save); the damage type depends on the type of coins you've loaded. Copper coins deal @Damage[4d6[acid]] damage, silver coins deal @Damage[4d6[electricity]] damage, gold coins deal @Damage[4d6[fire]] damage, and platinum coins deal @Damage[4d6[cold]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Fortune's Coin (Platinum)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This coin is struck with the image of a beatific seraph in platinum on one side and a fearsome fiend with seven eyes enameled in black on the other. While it may seem nothing more than a curiosity, it's a powerful agent of fortune when activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Trigger</strong> You fail a check or attack</p>\n<hr />\n<p><strong>Effect</strong> Flip the coin. If it lands on the seraph side, you get a 14 on the die instead of what you rolled. If it lands on the fiend side, one of the eyes on the fiend closes. Either way, you're temporarily immune to fortune's coin for 1 hour. When all seven eyes are closed, the coin vanishes into a puff of smoke, disappearing forever. This activation is a fortune effect, regardless of how the coin flip lands.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Fortune's Coin",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This coin is struck with the image of a beatific seraph in gold on one side and a fearsome fiend with seven eyes enameled in black on the other. While it may seem nothing more than a curiosity, it's a powerful agent of fortune when activated.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Trigger</strong> You fail a check or attack</p>\n<hr />\n<p><strong>Effect</strong> Flip the coin. If it lands on the seraph side, you get a 12 on the die instead of what you rolled. If it lands on the fiend side, one of the eyes on the fiend closes. Either way, you're temporarily immune to fortune's coin for 1 hour. When all seven eyes are closed, the coin vanishes into a puff of smoke, disappearing forever. This activation is a fortune effect, regardless of how the coin flip lands.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Fossil Fragment (Amber Mosquito)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p>\n<hr />\n<p>A minuscule insect preserved in fossilized tree sap, this fragment becomes a @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Giant Mosquito] when activated. It can be called upon once per day for up to 10 minutes. The fossil mosquito can't afflict anyone with septic malaria. If the mosquito uses Blood Drain, it doesn't gain temporary Hit Points, but instead collects blood from the victim. The blood stays within the mosquito indefinitely and stays fresh while it does. If the mosquito uses Blood Drain again, any blood from before that use is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Fossil Fragment (Brontosaurus Phalange)",
+    "price": {
+      "gp": 21000
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p><hr /><p>This massive toe bone becomes a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Brontosaurus] when activated. It can be called upon no more than four times per month. The skeleton remains for 24 hours if used as a beast of burden or for transport. If it attempts an attack or otherwise engage in combat, it reverts to its fragment form after [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>\n<p>The skeleton is so massive and sturdy that it can serve as the base of a structure (from an item or spell effect with the structure trait), provided the structure is no larger than 20 feet in width or height. When the brontosaurus reverts to its fragment form, the structure reverts with it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Fossil Fragment (Deinonychus Claw)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p><hr /><p>This curved claw becomes a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Deinonychus] when activated. It can be called upon once per day and can remain in deinonychus form for no more than 10 minutes. The skeleton can serve as a mount for a creature one size smaller than it or smaller.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Fossil Fragment (Eurypterid Paddle)",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p>\n<hr />\n<p>The tip of an oar-like limb specialized for swimming becomes a @UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.Spiny Eurypterid] when activated. It can be called upon once a week for up to 24 hours. The eurypterid can serve as a mount for a creature one size smaller than it or smaller, and when it does, it confers the ability to breathe both air and water upon its rider.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Fossil Fragment (Petrified Wood)",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p>\n<hr />\n<p>This colorful sliver of petrified wood becomes an awakened tree when activated. It doesn't have the normal weaknesses of an awakened tree, but it's rooted in place, @UUID[Compendium.pf2e.conditionitems.Item.Immobilized]. As a single action, it can throw a petrified seed, such as a stone pine cone or acorn, up to 60 feet. A copy of the tree appears there, provided there's an unoccupied space large enough for it. While two trees exist, if either tree throws another seed, one of the existing trees disappears, replaced by the new tree. The tree can be called upon once per day for up to 1 minute. This duration starts when you activate the item, and all trees disappear when it ends.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Fossil Fragment (Triceratops Frill)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p>\n<hr />\n<p>This small piece of triceratops frill turns into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Triceratops] when activated. It can be called upon once per day and can remain in triceratops form for no more than 10 minutes. The skeleton can serve as a mount for a creature one size smaller than it or smaller.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Fossil Fragment (Tyrannosaur Tooth)",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>A fossil fragment is a piece of a fossil creature, typically a smaller bone from a larger specimen.</p>\n<p><strong>Activate—Fossil Metamorphosis</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You activate the fragment by placing it on solid ground and then speaking its name, causing the fragment to form the full fossilized skeleton of a creature. In creature form, the fragment has the minion trait. Because it's an animated fossil instead of a living creature, it has the construct and earth traits and lacks its normal creature type trait (typically animal). It's also immune to bleed, death effects, disease, doomed, drained, @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], healing, nonlethal attacks, @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], poison, sickened, vitality, void, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious]. It can understand your language, and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency, if any, appear in its entry below.</p>\n<hr />\n<p>This dagger-shaped tooth turns into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Tyrannosaurus] when activated. It can be called upon once per day and can remain in tyrannosaurus form for no more than 10 minutes. The skeleton can serve as a mount for a creature one size smaller than it or smaller.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical"
+    ]
+  }
+]

@@ -1,0 +1,1341 @@
+[
+  {
+    "level": 2,
+    "name": "Apparition Gloves",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This set of gloves translates whatever the wearer says into the signed version of that language by projecting a ghostly, translucent version of the wearer's hands in front of them. The apparition is a purely visual illusion used for communication, so it can't move on its own, nor can it hold or manipulate objects, or attack.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Appetizing Flavor Snare",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>You construct this snare around a sealed bladder containing substances that local predators find delicious, such as scent glands from prey animals or fresh carrion. The first creature to enter the square must succeed at a @Check[reflex|dc:15] save or be doused with the substances. For 1 hour, animals attracted to the flavor (such as most predators, at the GM's discretion) can smell the creature from double the usual distance of their scent and are likely to approach to investigate the smell. A creature can wash away the appetizing flavor with 1 minute of vigorous scrubbing.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Applereed Mutagen (Greater)",
+    "price": {
+      "gp": 5000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Athletics checks and you gain a +20 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Applereed Mutagen (Greater)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Applereed Mutagen (Lesser)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Athletics checks and you gain a +10 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Applereed Mutagen (Lesser)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Applereed Mutagen (Moderate)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Athletics checks and you gain a +15 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Applereed Mutagen (Moderate)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Apricot of Bestial Might",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This yellow fruit's soft flesh is covered by waxy, fibrous leaves reminiscent of a pineapple. When you eat an apricot of bestial might, you transform into a boar-faced battle form with scaly skin. You can use feats with this item as if it were a bestial mutagen, improving your tusk unarmed attack as if it were a claw or jaws attack.</p>\n<p><strong>Benefit</strong> You gain 8 resistance to all physical damage and gain a tusk unarmed attack with the deadly d12 trait that deals 1d10 piercing damage.</p>\n<p><strong>Drawback</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}. If you perform an action with the auditory or linguistic traits, you must succeed at a @Check[flat|dc:5] or the action is lost.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Apricot of Bestial Might]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Aquamarine",
+    "price": {
+      "gp": 50
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Aquarium Lamp",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The aquarium lamp is a combination light source and exotic animal aquarium, intended to provide rich nobles amusement and illumination. It takes the shape of a glass cube 50 feet wide and seven feet high filled with sea water, flanked by two much smaller water tanks. A sparse brass frame around the device keeps the tanks themselves from touching the ground and serves as a mounting point for a pair of electrical coils on the top, which are enclosed within separate glass tubes. Six electric eels swim within the central tank, while a number of animals belonging to species considered to be the eels' natural prey swim in the smaller feeding tanks. With the simple pull of a lever attached to either smaller tank, one of the prey animals is released into the eel tank. Within seconds, the eels converge on the hapless animal, using their electrical charges to stun their victims. When this happens, the salty seawater conducts the electrical energy into transfer coils hidden within the brass frame, which send the energy to the top-mounted electrical coils. The end result produces enough light to fully illuminate a room as though it were midday.</p>\n<p>This device is an expression of a recent trend among certain Avistani nobles to blend form and function in their manors' interior decorations. In such circles, ostentatious decorations that serve no functional purpose are derided as \"tacky\" and \"unrefined.\" If a noble in such company wishes not to be ridiculed, they must be sure that each decoration adds something to the room beyond the aesthetic. The aquarium lamp is the latest tool in this social arms race, and it's already proven popular with its target market.</p>\n<p>When active, the aquarium lamp produces bright light in a 60-foot radius (and dim light for the next 60 feet). Each activation provides enough energy for 10 minutes of use, and the two feeding tanks combined carry enough prey animals for 50 activations before needing to be refilled, though electric eels usually need feeding only once per day, and won't go after the prey if they're all full. While electric eels are not aggressive to their aquarium keepers and will gradually learn to associate them with food, they can engage in violent social behavior, especially when they are young. This behavior leads to small fights involving tail slapping, biting, and discharged electricity, the last of which causes the lamp to illuminate without hitting the lever to release prey. The electric eels live around 15 years if kept well-fed.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "electricity",
+      "light"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Arachnid Harness (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This <em>+1 resilient leather armor</em> has four knobbed ribs that wrap around the torso. The armor grants you resistance 5 to poison damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> The ribs from the armor spread into functional spider limbs. For 1 minute, you gain a climb Speed equal to half your land Speed and have your limbs free as you climb. If you use all your free limbs to help you Climb, your climb Speed equals your land Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Arachnid Harness]</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include four intact legs from a goliath spider.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Arachnid Harness",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This <em>+1 leather armor</em> has four knobbed ribs that wrap around the torso. The armor grants you resistance 2 to poison damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The ribs from the armor spread into functional spider limbs. For 1 minute, you gain a climb Speed equal to half your land Speed and have your limbs free as you climb. If you use all your free limbs to help you Climb, your climb Speed equals your land Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Arachnid Harness]</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include four intact legs from an ogre spider.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Arachnolute",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>The strings of this spider-shaped lute are made from the webbing of a goliath spider and the tuning pegs are crafted from the spider's spinnerets. An <em>arachnolute</em> grants you a +2 item bonus to Performance checks while playing music with the instrument.</p><hr /><p><strong>Activate—Web Chord</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> Sticky webbing sprays in a @Template[cone|distance:30] as you strum the lute's strings. Each creature in the area of the webbing is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] unless it succeeds at a @Check[reflex|dc:29] save.</p><hr /><p><strong>Craft Requirements</strong> The initial materials must include the spinnerets of a goliath spider, as well as a spool of its webbing.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Arbalest",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This large and well-made crossbow requires some training to use effectively, but it's assembled with a cutting-edge firing mechanism that maximizes its speed, power, and accuracy.</p>",
+    "rarity": "common",
+    "traits": [
+      "backstabber"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Arboreal Boots (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>These soft leather boots are embossed with simple woodland scenes. The boots grant a +2 item bonus to Acrobatics and allow you to ignore difficult terrain from plants and fungi.</p>\n<p>You also gain a 10-foot climb Speed while climbing plants or fungi and don't need to use your hands to Climb them.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Arboreal Boots",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>These soft leather boots are embossed with simple woodland scenes. The boots grant a +1 item bonus to Acrobatics and allow you to ignore difficult terrain from plants and fungi.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Arboreal Staff",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+25]]{+25}; precise vision (low-light) 60 feet, imprecise hearing 30 feet, imprecise tremorsense 30 feet (only when touching the ground)</p>\n<p><strong>Communication</strong> speech (Arboreal, Common, Sylvan; speak with plants)</p>\n<p><strong>Skills</strong> Diplomacy [[/r 1d20+22]]{+22}, Forest Lore [[/r 1d20+25]]{+25}, Nature [[/r 1d20+25]]{+25}</p>\n<p><strong>Int</strong> +4, <strong>Wis</strong> +6, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+27]]{+27}</p>\n<hr />\n<p>Rather than passing on when they feel their death approaching, a rare few elderly arboreals undergo a ritual of preservation. This rite fuses the arboreal's consciousness into a branch, allowing their spirit to live on within the object. The branch functions as a greater verdant staff, though the arboreal spirit allows only partners willing to safeguard nature to use the staff's spells. An arboreal who decides to become an arboreal staff is more connected to shorter-lived species than others of their kind. Most choose to endure to share their knowledge with future generations, but they take a long view in ways that can be frustrating to their wielders.</p>\n<p>In addition to the activation and spells of a greater verdant staff, an arboreal staff can cast the spells it holds as if it were the staff's wielder, though it usually does so only to benefit a partner. The staff also has @UUID[Compendium.pf2e.spells-srd.Item.Earthbind] available as a 3rd-rank spell.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrips</strong> @UUID[Compendium.pf2e.spells-srd.Item.Tangle Vine]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Shillelagh] (can target the arboreal staff)</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], @UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora], @UUID[Compendium.pf2e.spells-srd.Item.Shape Wood], @UUID[Compendium.pf2e.spells-srd.Item.One with Plants]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns], @UUID[Compendium.pf2e.spells-srd.Item.Earthbind]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], @UUID[Compendium.pf2e.spells-srd.Item.Speak with Plants]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Plant Form], @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns]</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "rare",
+    "traits": [
+      "intelligent",
+      "magical",
+      "primal",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Arboreal Wand (Rank 2)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Arboreal Wand (Rank 3)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Arboreal Wand (Rank 4)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Arboreal Wand (Rank 5)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Arboreal Wand (Rank 6)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Arboreal Wand (Rank 7)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This gnarled wand is made from the branch of an arboreal.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at the indicated rank. After you cast the spell, the raw primal energy stored within the arboreal from which the wand was made washes over one target you choose and tries to purify its essence. The wand attempts to counteract the lowest level affliction affecting your target. It uses your casting modifier and a counteract rank of half the wand's item level rounded up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> of the appropriate rank and a branch freely given by an arboreal.</p>",
+    "rarity": "rare",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Arboreal's Revenge",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This walnut and brass <em>+1 striking blunderbuss</em> has a natural look, with wood worn smooth by time, but left knotted and gnarled. The handgrip beneath the flared muzzle is a well-positioned bulging tree knot, and the long stock looks as if it was grown to fit you. On closer examination, the whorls and rings in the wood resemble eyes.</p>\n<p><em>Arboreal's revenge</em> is a haunted firearm constructed with wood hewn from a living arboreal, slaying the arboreal and trapping its spirit in the firearm. Perhaps a patient wielder could one day put the arboreal's spirit to rest, or at least come to terms with it, abating the drawbacks of the weapon while keeping its advantages.</p>\n<p>When you first fire <em>arboreal's revenge</em>, the blunderbuss fuses with you, after which it's almost impossible to remove it from your possession with a @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction] or similar effect, like many cursed items. You gain weakness 5 to fire and the flat check for you to recover from persistent fire damage increases from 15 to 17, or from 10 to 12 if you receive appropriate help.</p>\n<p>Whenever you wield <em>arboreal's revenge</em>, the arboreal spirit bound to the blunderbuss attempts to overtake you. The wood handgrip sprouts roots which grow around your hand, binding both of your hands to the firearm. You gain a +4 circumstance bonus to your Reflex DC when defending against checks to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] you. However, you can't Release your grip on the blunderbuss until you forcibly tear off the roots, though they do allow you to move your hands enough (and only enough) to reload and fire the blunderbuss. Tearing off the roots takes 1 minute.</p>\n<p>The arboreal haunting the firearm can use the following two effects whenever it wants, often using them at random. You can coax it into performing them each intentionally once per day, with the following activations.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The arboreal haunting the blunderbuss attempts to regrow itself into a new physical body by sprouting from the bodies of all the creatures that the firearm recently harmed. You and all creatures within 60 feet damaged by <em>arboreal's revenge</em> within the last minute must attempt a @Check[fortitude|dc:20|name:arboreal's revenge] saving throw. On a failure, they take a -10-foot circumstance penalty to their Speeds as roots rapidly sprout from their wounds, which lasts until they @UUID[Compendium.pf2e.actionspf2e.Item.Escape] (DC 20).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Arboreal's Revenge (Speed Penalty)]</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] from the blunderbuss as a 2nd- level primal spell. However, the weakness to fire imposed by <em>oaken resilience</em> is cumulative with the weakness to fire imposed by this weapon's curse, for a total of weakness 8 to fire.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Oaken Resilience (Arboreal's Revenge)]</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "cursed",
+      "magical",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Arcane Scroll Case of Simplicity",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>The four different types of <em>scroll cases of simplicity</em> often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a <em>scroll case of simplicity</em> of a corresponding type.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Requirements</strong> The scroll case contains a single scroll of a 1st-rank spell</p>\n<hr />\n<p><strong>Effect</strong> You transfer the scroll's energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case's spells. If you use any action other than to Cast a Spell from the scroll case after activating the <em>scroll case of simplicity</em>, the scroll and its energy are lost.</p>\n<p>The scroll case can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.Alarm] or @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Minion]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Archaic Wayfinder",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>An <em>archaic wayfinder</em> functions as a compass and acts as a repository for one cantrip cast into it. To fill an <em>archaic wayfinder</em>, a spellcaster casts the chosen cantrip into the empty device, providing any necessary cost; the spell cannot be one that is normally cast as a free action or reaction.</p>\n<p>Activating an <em>archaic wayfinder</em> is the same as the casting for the relevant spell. Once it has been activated, it becomes empty again. An <em>archaic wayfinder</em> can hold an aeon stone and activate its resonant power. An archaic wayfinder counts against the limit of one wayfinder with a slotted resonant aeon stone.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Architect's Pattern Book",
+    "price": {
+      "gp": 240
+    },
+    "description": "<p>Typically created by wizards who are hobbyists or professional architects, an architect's pattern book allows the caster to customize certain spells that create magical structures or domiciles, adding recreational areas such as an indoor bathhouse, gaming room, swimming pool, or similar luxury.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per week</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast a @UUID[Compendium.pf2e.spells-srd.Item.Cozy Cabin], @UUID[Compendium.pf2e.spells-srd.Item.Planar Palace], or @UUID[Compendium.pf2e.spells-srd.Item.Resplendent Mansion] spell, you add a room to the structure that is up to 10 feet per side per rank of the spell. This room is outfitted with all the accoutrements for a particular type of recreation, determined by you when you cast the spell. Any character who spends at least 1 hour using this recreational facility and then sleeps a full 8 hours inside the location created by the spell is exceptionally well-rested. They regain double the amount of Hit Points they would normally receive for an 8-hour rest, and when they make the next day's preparations, they gain a +1 circumstance bonus to Athletics checks and Will saves for the next 12 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Architect's Pattern Book]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Archivist's Gaze",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This strange contraption slides over your eyes, supernaturally sharpening your mind. While peering through it, you can feel some entity whispering to you, telling all sorts of things about the subject of your gaze. You gain a +3 item bonus to Occultism (though some entities might grant a bonus to a different skill, as determined by your GM). In addition, when you employ an exploration tactic other than Investigating, you also gain the benefits of Investigating unless you choose not to.</p>\n<p>When you invest the spectacles, you either increase your Intelligence score by 2 or increase it to 18, whichever would give you the higher score. This gives you additional trained skills and languages, as normal for increasing your Intelligence score. You must select skills and languages the first time you invest the item, and whenever you invest the same archivist's gaze, you get the same skills and languages you chose the first time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Pushing the glasses up your nose and asking the entity for help, you cause the spectacles to cast either @UUID[Compendium.pf2e.spells-srd.Item.Truesight] or a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Translate] on you. Because the entity tied to the spectacles chooses which one, the GM picks whichever spell is most immediately useful in your current situation (and chooses the most useful language each time the item casts comprehend language). The spell lasts for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Arctic Vigor (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold. While exposed to incredible cold, you only take minor cold damage every hour, instead of moderate cold damage every minute. You ignore the uneven ground and difficult terrain caused by ice and the difficult terrain caused by snow (reducing greater difficult terrain from ice or snow to normal difficult terrain).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call forth a blast of polar wind in your choice of a @Template[burst|distance:10], @Template[burst|distance:15], or @Template[burst|distance:20] within a range of 60 feet that deals @Damage[12d6[cold]|options:area-damage] damage. All creatures in the area must attempt a @Check[fortitude|dc:27|basic|name:Tattoo Polar Blast|showDC:all|options:area-effect] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "cold",
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Arctic Vigor",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call forth a blast of polar wind in a @Template[burst|distance:10] within a range of 30 feet that deals @Damage[7d6[cold]|options:area-damage] damage. All creatures in the area must attempt a @Check[fortitude|dc:27|basic|name:Tattoo Polar Blast|showDC:all|options:area-effect] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "cold",
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Arctic Worm Chitin Shield",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This tower shield is crafted from interlocking sections of an arctic cave worm's chitin that are rimed with constant frost. It has Hardness 13, HP 104, and BT 52.</p><hr /><p><strong>Activate—Misty Chill</strong> <span class=\"action-glyph\">1</span> (cold, concentrate, manipulate)</p>\n<p><strong>Effect</strong> You Raise the Shield and an icy mist begins to flow off it. Until the beginning of your next turn, you gain resistance 5 to cold and any creature that ends its turn adjacent to you takes @Damage[3d6[cold]] damage (@Check[reflex|dc:29|basic] save).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Misty Chill]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include chitin from an arctic cave worm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Armbands of Athleticism (Greater)",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>Skilled awl work has imprinted images of a muscled weightlifter into these tiered leather bands, which grant you enhanced stamina and skill when performing athletic exercises.</p>\n<p>While fastened to your upper arms, the armbands give you a +3 item bonus to Athletics checks.</p>\n<p>In addition, whenever you use an action to Climb or Swim and you succeed at the Athletics check, add a +10-foot item bonus to the distance you move.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Armbands of Athleticism",
+    "price": {
+      "gp": 645
+    },
+    "description": "<p>Skilled awl work has imprinted images of a muscled weightlifter into these tiered leather bands, which grant you enhanced stamina and skill when performing athletic exercises.</p>\n<p>While fastened to your upper arms, the armbands give you a +2 item bonus to Athletics checks.</p>\n<p>In addition, whenever you use an action to Climb or Swim and you succeed at the Athletics check, add a +5-foot item bonus to the distance you move.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Armbands of the Gorgon",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Each of these shining, bluish-gray metal armbands is adorned with the plated visage of a gorgon's head. When targeted by a spell or effect with the incapacitation effect, you treat the result of your save as if it were one degree of success better, and the result of any check made to inflict such an effect on you as one degree of success worse (as if you were more than twice the rank of the spell or effect targeting you). When you invest the armbands, you either increase your Constitution score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You clap the bracers together and remove a single condition of your choice currently afflicting you. If the condition is permanent, it's instead suppressed for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Armor Latches",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This armor is easily doffed. A set of armor with armor latches gains the noisy trait; you can't add latches to armor that already possesses the noisy trait. You can remove a set of armor with armor latches with a 3-action activity, which has the manipulate trait. This doesn't affect the time it takes to don the armor.</p>",
+    "rarity": "common",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Armor of the Holy Warrior",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>Based on the armors used by the holy warriors who served under General Arnisant in the Shining Crusade, this well-polished <em>+2 greater resilient half plate</em> is decorated with religious motifs and carved with sacred scripture. While wearing armor of the holy warrior, your item bonus from the <em>greater resilient rune</em> increases from +2 to +3; if you upgrade to a <em>major resilient rune</em>, the item bonus instead increases from +3 to +4. An undead that critically fails an unarmed attack against you while you wear this armor takes 1d6 vitality damage.</p>\n<p>If you are evil, you're @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} while wearing the armor. If you're undead, you also take @Damage[2d6[vitality]] damage each round that you wear the armor.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The armor casts the three-action version of a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Heal] spell.</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine",
+      "good",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Armor Polishing Kit",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<hr />\n<p>This kit can be used to clean and polish armor. Creatures wearing armor that has been maintained by this kit gain a +1 circumstance bonus on Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on soldiers, guards, Gorumites, and other martially minded characters. This bonus expires after 24 hours, or if the armor is soiled in some way, such as by walking through a sewer or falling in a mud pit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Armor Potency (+1)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 1. The armor can be etched with one property rune.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>\n<p><strong>Craft Requirements</strong> You are an expert in Crafting.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Armor Potency (+2)",
+    "price": {
+      "gp": 1060
+    },
+    "description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 2. The armor can be etched with two property runes.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>\n<p><strong>Craft Requirements</strong> You are an master in Crafting.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Armor Potency (+3)",
+    "price": {
+      "gp": 20560
+    },
+    "description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 3. The armor can be etched with three property runes.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor using the normal process for upgrading items and runes.</p>\n<p><strong>Craft Requirements</strong> You are an legendary in Crafting.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Armored Cloak",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, giving you greater control over the cloak's movements. Using these straps, you can constantly move the cloak or keep it wrapped around yourself to block and intercept attacks. Many Firebrands favor wearing armored cloaks over traditional armor for style reasons, such as matching the cloak to the rest of their outfit.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort",
+      "flexible"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Armored Coat",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's fashion. While not nearly as protective as heavier armors, the armored coat allows the wearer to blend in more aesthetically during civilian functions. Like other suits of armor, the armored coat is custom-fitted to an individual's body type, ensuring comfort without sacrificing its defensive capabilities.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort",
+      "flexible"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Armored Skirt",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>These armor-plated skirts, which are also known as armored kilts, are favored by Knights of Lastwall for their versatility and aesthetic appeal. An armored skirt can be donned with 2 Interact actions when it's worn with light or medium armor, or as part of donning heavy armor.</p>\n<p>When worn with a breastplate, chain shirt, chain mail, or scale mail, an armored skirt increases the armor's item bonus to AC by 1, worsens the armor's check penalty by 1, reduces the armor's Dex cap by 1, increases the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, and adds the noisy trait. This also makes the armor one step heavier (from light to medium, or medium to heavy), and you use the proficiency bonus appropriate to this adjusted armor type.</p>\n<p>Alternatively, when wearing an armored skirt to replace appropriate portions of a set of half plate or full plate, reduce the armor's item bonus to AC by 1, lessen the check penalty by 1, decrease the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, increase the armor's Dex cap by 1, and add the noisy trait to the armor. An armored skirt grants no benefit when worn by itself or with armors other than those listed here.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Armory Bracelet (Greater)",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>Several small charms shaped like weapons hang from an <em>armory bracelet</em>, which is often brass. The bracelet has one charm each for the groups bow, brawling, club, dart, flail, hammer, knife, pick, polearm, shield, sling, spear, and sword. Rare versions of the armory bracelet include charms for firearms.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull one charm from the bracelet. The charm transforms into a weapon of your choice from the charm's weapon group. If the weapon requires ammunition, it appears with a quiver or pouch with 20 pieces of ammunition for the weapon. The weapon is a <em>+2 greater striking</em> weapon of the type you chose. After 1 minute, the weapon transforms into a <em>+2 striking</em> weapon and remains until your next daily preparations. At that point, the weapon and any remaining ammunition crumble to dust and all the charms reappear on the bracelet. The weapon and ammunition created with the charm are noticeably different from others and can't be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Armory Bracelet (Lesser)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>Several small charms shaped like weapons hang from an <em>armory bracelet</em>, which is often brass. The bracelet has one charm each for the groups bow, brawling, club, dart, flail, hammer, knife, pick, polearm, shield, sling, spear, and sword. Rare versions of the armory bracelet include charms for firearms.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull one charm from the bracelet. The charm transforms into a weapon of your choice from the charm's weapon group. If the weapon requires ammunition, it appears with a quiver or pouch with 20 pieces of ammunition for the weapon. The weapon is a <em>+1 striking</em> weapon of the type you chose. After 1 minute, the weapon transforms into a <em>+1</em> weapon and remains until your next daily preparations. At that point, the weapon and any remaining ammunition crumble to dust and all the charms reappear on the bracelet. The weapon and ammunition created with the charm are noticeably different from others and can't be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Armory Bracelet (Major)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>Several small charms shaped like weapons hang from an <em>armory bracelet</em>, which is often brass. The bracelet has one charm each for the groups bow, brawling, club, dart, flail, hammer, knife, pick, polearm, shield, sling, spear, and sword. Rare versions of the armory bracelet include charms for firearms.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull one charm from the bracelet. The charm transforms into a weapon of your choice from the charm's weapon group. If the weapon requires ammunition, it appears with a quiver or pouch with 20 pieces of ammunition for the weapon. The weapon is a <em>+3 greater striking</em> weapon of the type you chose. After 1 minute, the weapon transforms into a <em>+2 greater striking</em> weapon and remains until your next daily preparations. At that point, the weapon and any remaining ammunition crumble to dust and all the charms reappear on the bracelet. The weapon and ammunition created with the charm are noticeably different from others and can't be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Armory Bracelet (Minor)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Several small charms shaped like weapons hang from an <em>armory bracelet</em>, which is often brass. The bracelet has one charm each for the groups bow, brawling, club, dart, flail, hammer, knife, pick, polearm, shield, sling, spear, and sword. Rare versions of the armory bracelet include charms for firearms.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull one charm from the bracelet. The charm transforms into a weapon of your choice from the charm's weapon group. If the weapon requires ammunition, it appears with a quiver or pouch with 20 pieces of ammunition for the weapon. The weapon is a <em>+1 striking</em> weapon of the type you chose. After 1 minute, the weapon transforms into a non-magical version and remains until your next daily preparations. At that point, the weapon and any remaining ammunition crumble to dust and all the charms reappear on the bracelet. The weapon and ammunition created with the charm are noticeably different from others and can't be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Armory Bracelet (Moderate)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>Several small charms shaped like weapons hang from an <em>armory bracelet</em>, which is often brass. The bracelet has one charm each for the groups bow, brawling, club, dart, flail, hammer, knife, pick, polearm, shield, sling, spear, and sword. Rare versions of the armory bracelet include charms for firearms.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull one charm from the bracelet. The charm transforms into a weapon of your choice from the charm's weapon group. If the weapon requires ammunition, it appears with a quiver or pouch with 20 pieces of ammunition for the weapon. The weapon is a <em>+2 striking</em> weapon of the type you chose. After 1 minute, the weapon transforms into a <em>+1 striking</em> weapon and remains until your next daily preparations. At that point, the weapon and any remaining ammunition crumble to dust and all the charms reappear on the bracelet. The weapon and ammunition created with the charm are noticeably different from others and can't be sold.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Aroden's Hearthstone",
+    "price": {},
+    "description": "<p>This coin-sized gemstone can be used on its own but must be included in the construction of a hearth in order to fully activate its magic.</p>\n<hr />\n<p><strong>Activate</strong> 3 days (Interact)</p>\n<p><strong>Frequency</strong> 4 times per year</p>\n<p><strong>Requirements</strong> You have Legendary proficiency in Crafting</p>\n<hr />\n<p><strong>Effect</strong> You craft a magical weapon or armor of up to 20th level. You must attempt a Crafting check as usual to create the item, but you need supply only raw materials worth a quarter of the item's Price, and you need not pay the remaining portion of the item's Price or spend additional downtime days working on it. While <em>Aroden's Hearthstone</em> is active, the stars in the sky, including Golarion's sun, appear to glow brighter within a 100-mile radius of the hearthstone.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> <em>Aroden's Hearthstone</em> draws in heat from the world itself, causing the ambient temperature within 100 miles to drop below 0°F. Within 1 mile of the <em>Hearthstone</em>, the temperature drops to -200°F, rivaling the frigid cold of outer space and dealing @Damage[4d6[cold]] damage each round to every creature in the area. This effect lasts 1 minute, during which time the nearest moon (probably Golarion's) appears an eerie blue color to any observers within 100 miles of the hearthstone. At the end of 1 minute, the hearthstone emits a blast of concentrated heat that deals @Damage[25d6[fire]] damage to creatures and objects within 150 feet.</p>\n<hr />\n<p><strong>Destruction</strong> Using <em>Aroden's Hearthstone</em> to craft a cursed item results in a failed creation and causes the gemstone to split into five equal-sized but magically impotent pieces. Over the course of a year, four of theses pieces crumble to dust, while the fifth expands to the size of the original artifact and bears its powers anew. To destroy <em>Aroden's Hearthstone</em>, each of the separated pieces must be plunged into one of the five stars that compose the cosmic constellation known as the Follower.</p>",
+    "rarity": "unique",
+    "traits": [
+      "arcane",
+      "artifact"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Aroma Concealer",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p><hr /><p>This oily mix of herbs and natural detergents can be applied to a creature to reduce and cover any ordinary odors they produce. The creature receives a +2 item bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Hide] or @UUID[Compendium.pf2e.actionspf2e.Item.Sneak] against creatures using primarily smell. This bonus also applies to the DC to @UUID[Compendium.pf2e.actionspf2e.Item.Track] the creature by scent. The listed amount is enough to cover one Medium or smaller creature and takes 1 minute to apply. The effect lasts for 1 hour after applying.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "oil"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Aromatic Ammunition",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The components of this ammunition emit a strong smell when combined during its activation. A creature hit by an activated aromatic ammunition gains a distinct odor for up to 1 hour or until the scent is washed off (requiring at least a gallon of water and 10 minutes of scrubbing). Any creatures within 30 feet smell the target, allowing even those with a weak sense of smell to detect its presence, and all creatures gain a +1 item bonus to Track the affected creature for as long as it has the odor. A creature that has imprecise or precise scent doubles the range at which they can detect the target using their scent compared to the normal range of their scent.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Aromatic Ammunition]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Arquebus",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the weapon particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "fatal-d12",
+      "kickback"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Arrow-Catching Shield",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>This wooden shield (Hardness 10, HP 40, BT 20) is carved with images of overlapping fletched arrows.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Trigger</strong> A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack</p>\n<hr />\n<p><strong>Effect</strong> The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] reaction.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Arrows",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Arsenic",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This toxin is a compound of arsenic and other substances. You can't reduce your sickened condition while affected.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 5 minutes</p>\n<p><strong>Stage 1</strong> @Damage[1d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[1d8[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} (1 minute)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Artevil Suspension",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Treat Poison]</p>\n<hr />\n<p>This dried herb is known for its ability to draw toxins from the body, albeit violently. You can administer the suspension orally, Activating the item as part of the same activity you use to Treat Poison. If you succeed at your Medicine check to Treat Poison against an ingested poison, you can reduce the stage of the toxin by one stage, though this can't reduce the stage below stage 1 or cure the poison entirely. If you do, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} as its body purges the toxin. An artevil suspension doesn't work unless the poison was administered through ingestion; for instance, if a poison can be administered through either ingestion or injury and was administered through injury, the suspension won't work.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Artificer Spectacles",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>These seemingly ordinary rectangular eyeglasses feature clear lenses framed in copper. When invested and worn, they rest perfectly on the bridge of the nose and can only be removed by the wearer. You gain a +3 item bonus to Crafting checks and any skill check made to Identify Magic. When you invest the spectacles, you either increase your Intelligence score by 2 or increase it to 18, whichever is higher. You must select the skills and languages the first time you invest the item, and whenever you invest the same artificer spectacles, you get the same skills and languages you chose the first time.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You cast a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Mending]spell on an item you touch.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Artisan's Toolkit (Sterling)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>You need these tools to create items from raw materials with the Craft skill. Sterling artisan's tools give you a +1 item bonus to the check.</p>\n<p>Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Artisan's Toolkit",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Ascendant Dragon Spirit",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This masterfully crafted spirit is mixed into a potent magical cocktail and packaged in a gourd with an engraving of a forest dragon coiling around it. Drinking it imparts an intriguing balance of woodsmoke, honey, and bright floral notes on the back end. When consumed, your arms become infused with the deadly power of a forest dragon. For 1 minute, your unarmed Strikes deal an additional 1d6 poison damage and an additional 1d6 void damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ascendant Dragon Spirit]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Ash Gown (Greater)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><em>Greater ash gowns</em> are formal wear spun from smoke, ash, and char collected from the Plane of Fire. Typically, they're voluminous floor-length dresses or three-piece suits, but regardless of their specific tailoring, <em>greater ash gowns</em> are always an ostentatious display of wealth and loyalty to the powers of the Plane of Fire. They're exceptionally popular in the courts of the Elemental Lords and among the high society of Medina Mudii'a. The gown grants you resistance 10 to fire and a +2 item bonus to Intimidation checks.</p>\n<hr />\n<p><strong>Activate—Blazing Promenade</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> The <em>greater ash gown</em> ignites in a ferocious blaze, flames licking the floor and trailing behind you like a dancing cape. You Stride and make a Strike at the end of your movement. During the Stride, your flames incinerate minor obstacles in your path; you ignore non-magical difficult terrain, and any you move through is destroyed. Creatures that are adjacent to you at any point during your movement take @Damage[4d6[fire]] damage with a @Check[reflex|dc:28|basic] save. A creature doesn't need to attempt this save more than once, even if you move past it multiple times.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Ash Gown",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><em>Ash gowns</em> are formal wear spun from smoke, ash, and char collected from the Plane of Fire. Typically, they're voluminous floor-length dresses or three-piece suits, but regardless of their specific tailoring, <em>ash gowns</em> are always an ostentatious display of wealth and loyalty to the powers of the Plane of Fire. They're exceptionally popular in the courts of the Elemental Lords and among the high society of Medina Mudii'a. The gown grants you resistance 5 to fire and a +1 item bonus to Intimidation checks.</p>\n<hr />\n<p><strong>Activate—Blazing Promenade</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>ash gown</em> ignites in a ferocious blaze, flames licking the floor and trailing behind you like a dancing cape. You Stride and make a Strike at the end of your movement. During the Stride, your flames incinerate minor obstacles in your path; you ignore non-magical difficult terrain, and any you move through is destroyed. Creatures that are adjacent to you at any point during your movement take @Damage[2d6[fire]] damage with a @Check[reflex|dc:23|basic] save. A creature doesn't need to attempt this save more than once, even if you move past it multiple times.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Ashen (Greater)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>In his attempts to recreate the initial feeling of the object he encountered ages ago, the Ash Engineer discovered a different effect, one that would confound his enemies. Ashen weapons are typically coated in a thin layer of ash that gradually returns over the span of a day, even after wiping away. A creature hit by an attack from an ashen weapon becomes surrounded by burning ash, which deals @Damage[1d8[persistent,fire]] damage. This ash clouds the senses, causing the creature to become @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 round unless it succeeds at a @Check[will|dc:35] save. On a critical failure, the effect lasts for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Ashen",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>In his attempts to recreate the initial feeling of the object he encountered ages ago, the Ash Engineer discovered a different effect, one that would confound his enemies. Ashen weapons are typically coated in a thin layer of ash that gradually returns over the span of a day, even after wiping away. A creature hit by an attack from an ashen weapon becomes surrounded by burning ash, which deals @Damage[1d4[persistent,fire]] damage. This ash clouds the senses, causing the creature to become @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 round unless it succeeds at a @Check[will|dc:25] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Ashes of the War God",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><em>Ashes of the war god</em> may be applied to armor, a weapon, or mixed into an elixir or potion.</p>\n<p><strong>Armor</strong> The armor becomes <em>+3 major resilient armor</em> for 1 day. It retains any property runes.</p>\n<p><strong>Elixir or Potion</strong> In addition to the normal effects drinking the elixir or potion grant you, you gain a +3 item bonus to Athletics checks and Fortitude saves for 1 hour.</p>\n<p><strong>Weapon</strong> The weapon becomes a <em>+3 major striking weapon</em> for 1 day. It retains any property runes.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Asp Coil",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>The asp coil, named both for its slithering striking style and its usage among Aspis Consortium agents, has two forms. In sword form, it resembles an elegant, oddly balanced sword. However, with a twist of the pommel, the blade splits into a series of segments connected by elaborate metal cables. Agents of the Aspis Consortium have access to this weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "reach",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Assassin Vine Wine",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Crafting wine from assassin vine berries is a dangerous process, but the resulting ruby-red drink is rich and heady. Alchemical reagents added during fermentation concentrate the vine's connection to its environment and impart them onto the imbiber. For 1 minute after drinking a glass of assassin vine wine, you have tremorsense at a range of 30 feet.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Assassin Vine Wine]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Assassin's Bracers (Type I)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +1 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility] on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Feint] or @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] the designated creature. The designated creature takes a –1 item penalty to saving throws against fear effects.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Assassin's Bracers (Type II)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +2 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility] on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Feint] or @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] the designated creature. The designated creature takes a –2 item penalty to saving throws against fear effects.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Assassin's Bracers (Type III)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +3 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Feint] or @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] the designated creature. The designated creature takes a –3 item penalty to saving throws against fear effects.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Assassin's Skin",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This <em>+2 greater resilient leather armor</em> was made from the flayed hide of an Elysian pegasus, then dyed a bright crimson so that it appears slick with fresh blood. The wearer of <em>assassin's skin</em> gains a +3 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] checks.</p>\n<p><strong>Activate—Blood Revitalization</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You would take persistent bleed damage</p><hr /><p><strong>Effect</strong> You don't take the persistent bleed damage and instead regain Hit Points equal to the bleed damage. The persistent bleed damage ends.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Assisting",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>Your armor provides support for your joints or advanced prostheses for missing limbs, holding your body in place and easing physical symptoms. This replicates the benefits of any number of splints, supports, and prostheses. When you invest the armor, you determine how many such supports you want, and where on your body they assist you.</p>\n<p>In addition, the extra support and structure provided by the armor allows you to transport more than you would otherwise normally be able to. You can carry Bulk equal to 6 + your Strength modifier before becoming encumbered, and you can hold and carry a total Bulk of up to 11 + your Strength modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Astral (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p><em>Astral</em> weapons command powerful spiritual energy from the Astral Plane. This rune has the same effects as a <em>@UUID[Compendium.pf2e.equipment-srd.Item.Ghost Touch]</em> rune, plus Strikes with it deal an extra 1d6 spirit damage. If used to attack a creature that's possessing another creature, this weapon deals no damage to the possessed creature. On a critical hit against a creature possessing another creature, the possessing creature must succeed at a @Check[will|dc:36] save or be expelled and unable to possess a creature for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<p>Spirit damage dealt by this weapon ignores the target's spirit resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spirit"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Astral",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p><em>Astral</em> weapons command powerful spiritual energy from the Astral Plane. This rune has the same effects as a <em>@UUID[Compendium.pf2e.equipment-srd.Item.Ghost Touch]</em> rune, plus Strikes with it deal an extra 1d6 spirit damage. If used to attack a creature that's possessing another creature, this weapon deals no damage to the possessed creature. On a critical hit against a creature possessing another creature, the possessing creature must succeed at a @Check[will|dc:26] save or be expelled and unable to possess a creature for [[/br 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spirit"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Astringent Venom",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>This oily, dark-purple powder gives off the distinct odor of boiled leather. When delivered, the poison acts quickly to constrict the victim's blood flow to their extremities and turn their lungs into a soft jelly. A victim of astringent venom is recognizable by the frostbite-like hue of their hands as they loose circulation to their extremities, making it difficult for them to hold things. Each round at the beginning of their turn, a creature affected by astringent venom must succeed at a @Check[flat|dc:5] or drop one random item they're holding.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[6d6[poison]] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[8d6[poison]] (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[10d6[poison]] and @UUID[Compendium.pf2e.conditionitems.Item.Confused] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Astrolabe of the Falling Stars",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>This astrolabe is fashioned of magically attuned platinum plates and rings and is inset with carefully measured ruby gems. The astrolabe's back is engraved with helpful charts, a calendar, and a maker's mark. An <em>astrolabe of falling stars</em> can be used as a @UUID[Compendium.pf2e.equipment-srd.Item.Mariner's Astrolabe]. In addition, it can produce the following magical effect.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> With a flick of your finger, you set the astrolabe's rule spinning, causing the inset rubies to become a blur. Choose a point within 100 feet. The astrolabe of falling stars calls down a brief rain of meteorites in a @Template[burst|distance:10] centered on that point, dealing @Damage[1d8[bludgeoning],1d8[fire]|options:area-damage]{1d8 bludgeoning and 1d8 fire damage} to creatures in the area (@Check[reflex|dc:19|basic|options:area-effect]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Atlatl",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>Atlatls are long, narrow pieces of shaped wood or antler used as levers to hurl darts faster and farther than would otherwise be possible. An atlatl uses darts as ammunition.</p>",
+    "rarity": "common",
+    "traits": [
+      "propulsive"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Atmospheric Breathing Suit",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>A combination of waterproof leather, durable glass, and a system of copper tubes allows aquatic creatures who wear this suit to be able to spend time on land. They're custom-tailored to fit a wide variety of body types and needs. Part of the system of tubes is set up in a way to allow the wearer to speak and hear as well as they normally would with creatures outside the suit. Water, either fresh or salt, is kept moving throughout the system to keep the wearer moisturized. The moving water allows for easier flow to the gills or breathing apparatus of the creature. It also means that the water will slowly run out. Each suit must be refilled with the proper type of water for a creature every 24 hours. It takes 2 gallons of water to refill a suit.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Atmospheric Staff (Greater)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This staff is made of a dense wood and strikes the ground with an imposing boom. At the top of the staff is a perfectly round obsidian sphere that, when stared at for too long, makes viewers feel as though they're heavier than before. When wielding this staff, you gain a +1 item bonus to saves against forced movement.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list</p>\n<hr />\n<p><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast]</p>\n<p><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Air Bubble], @UUID[Compendium.pf2e.spells-srd.Item.Gravitational Pull]</p>\n<p><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gentle Breeze]</p>\n<p><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gravity Well], @UUID[Compendium.pf2e.spells-srd.Item.Tempest Cloak]</p>\n<p><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Fly], @UUID[Compendium.pf2e.spells-srd.Item.Variable Gravity]</p>\n<p><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] (air only), @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Haul]</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "air",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Atmospheric Staff (Lesser)",
+    "price": {
+      "gp": 95
+    },
+    "description": "<p>This staff is made of a dense wood and strikes the ground with an imposing boom. At the top of the staff is a perfectly round obsidian sphere that, when stared at for too long, makes viewers feel as though they're heavier than before. When wielding this staff, you gain a +1 item bonus to saves against forced movement.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list</p>\n<hr />\n<p><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast]</p>\n<p><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Air Bubble], @UUID[Compendium.pf2e.spells-srd.Item.Gravitational Pull]</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "air",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Atmospheric Staff (Major)",
+    "price": {
+      "gp": 8900
+    },
+    "description": "<p>This staff is made of a dense wood and strikes the ground with an imposing boom. At the top of the staff is a perfectly round obsidian sphere that, when stared at for too long, makes viewers feel as though they're heavier than before. When wielding this staff, you gain a +1 item bonus to saves against forced movement.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list</p>\n<hr />\n<p><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast]</p>\n<p><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Air Bubble], @UUID[Compendium.pf2e.spells-srd.Item.Gravitational Pull]</p>\n<p><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gentle Breeze]</p>\n<p><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gravity Well], @UUID[Compendium.pf2e.spells-srd.Item.Tempest Cloak]</p>\n<p><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Fly], @UUID[Compendium.pf2e.spells-srd.Item.Variable Gravity]</p>\n<p><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] (air only), @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Haul]</p>\n<p><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Zero Gravity], @UUID[Compendium.pf2e.spells-srd.Item.Vacuum]</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "air",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Atmospheric Staff",
+    "price": {
+      "gp": 480
+    },
+    "description": "<p>This staff is made of a dense wood and strikes the ground with an imposing boom. At the top of the staff is a perfectly round obsidian sphere that, when stared at for too long, makes viewers feel as though they're heavier than before. When wielding this staff, you gain a +1 item bonus to saves against forced movement.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list</p>\n<hr />\n<p><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gale Blast]</p>\n<p><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Air Bubble], @UUID[Compendium.pf2e.spells-srd.Item.Gravitational Pull]</p>\n<p><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gentle Breeze]</p>\n<p><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gravity Well], @UUID[Compendium.pf2e.spells-srd.Item.Tempest Cloak]</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "air",
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Auric Noodles",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>Auric noodles are boiled, then pan-fried and tossed with sliced vegetables and a sticky, savory sauce incorporating alchemical reagents. After you eat the noodles, they boost your ability to sense magic for 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to checks to Identify Magic, and you can move at full speed while using the @UUID[Compendium.pf2e.actionspf2e.Item.Detect Magic] exploration activity.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Auric Noodles]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Aurifying Salts",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>You can apply this pale eggshell powder to one outfit, one object of up to Medium size, or up to 10 smaller objects in the same space, such as jewelry, to make them appear gilded for 1 hour. If used as part of Making an Impression on an audience swayed by expensive clothing, it makes most clothing or jewelry seem to be worth 10 times as much as they really are. Only someone who closely inspects an affected item notices it's not real gold. If you apply the salts to an object made of metal, the metal softens like gold, reducing its Hardness by 4 (to a minimum of Hardness 10) for 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Aurochs' Might Tattoo (Greater)",
+    "price": {
+      "gp": 20000
+    },
+    "description": "<p>The aurochs depicted by this tattoo is a powerful symbol of strength and resilience. When upgraded, the tattoo expands to depict an increasingly imposing herd of aurochs.</p>\n<p><strong>Activate—Aurochs Charge</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You Stride twice and make a melee Strike against a creature within your reach at any point during your movement. If the Strike hits and deals damage, the target attempts a @Check[fortitude|dc:38] save to avoid being toppled by the impact.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the beginning of its next turn.</p>\n<p><strong>Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<p><strong>Critical Failure</strong> As failure, but the target also takes @Damage[6d6[bludgeoning]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Aurochs' Might Tattoo (Lesser)",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>The aurochs depicted by this tattoo is a powerful symbol of strength and resilience. When upgraded, the tattoo expands to depict an increasingly imposing herd of aurochs.</p>\n<p><strong>Activate—Aurochs Charge</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You Stride twice and make a melee Strike against a creature within your reach at any point during your movement. If the Strike hits and deals damage, the target attempts a @Check[fortitude|dc:24] save to avoid being toppled by the impact.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the beginning of its next turn.</p>\n<p><strong>Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<p><strong>Critical Failure</strong> As failure, but the target also takes @Damage[2d6[bludgeoning]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Aurochs' Might Tattoo (Moderate)",
+    "price": {
+      "gp": 2575
+    },
+    "description": "<p>The aurochs depicted by this tattoo is a powerful symbol of strength and resilience. When upgraded, the tattoo expands to depict an increasingly imposing herd of aurochs.</p>\n<p><strong>Activate—Aurochs Charge</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You Stride twice and make a melee Strike against a creature within your reach at any point during your movement. If the Strike hits and deals damage, the target attempts a @Check[fortitude|dc:30] save to avoid being toppled by the impact.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the beginning of its next turn.</p>\n<p><strong>Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<p><strong>Critical Failure</strong> As failure, but the target also takes @Damage[4d6[bludgeoning]] damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Auspicious Scepter",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This imperious <em>+1 striking mace</em> has a glowing orb in the shape of an eye set in its flanged head. When you succeed at a check to Recall Knowledge about a creature after you've dealt it damage with the auspicious scepter, you learn one of its resistances in addition to any other information.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command (divination, magical)</p>\n<p><strong>Frequency</strong> once every 10 minutes</p>\n<p><strong>Trigger</strong> You Cast a divination Spell</p>\n<hr />\n<p><strong>Effect</strong> The next attack by a creature who was targeted by the triggering divination spell bypasses an amount of resistance equal to the spell's rank. If the triggering spell targeted an enemy, this benefit instead applies to the next attack against that enemy, regardless of who makes it.</p>\n<p>This benefit is lost if it isn't used by the end of your next turn. If more than one type of resistance would apply against the attack, the attack bypasses only one-whichever would result in the highest amount of damage getting through, as determined by the GM.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "shove"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Authorized",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Sharp needles impale anyone who attempts to wield this weapon other than its rightful owner. Each authorized rune is etched with the blood of a specific creature. If any other creature wields the weapon, needles immediately erupt from the weapon's hilt or shaft, dealing @Damage[1d8[piercing]] damage plus @Damage[1d4[bleed]]{1d4 persistent bleed damage} to the wielder. If the weapon has a striking rune, this damage increases to @Damage[1d8[piercing]] damage per damage die and @Damage[1d4[bleed]]{1d4 persistent damage} per damage die; this counts only the weapon's base die and dice from the striking rune. The persistent bleed damage can't end while the creature still holds the weapon. The spikes retract once the creature lets go.</p>\n<p>When the rune is crafted, the crafter can choose to broaden the criteria for who can safely wield the item, expanding the users to creatures with a particular alignment, bloodline, or patron deity, as the crafter chooses. This criterion must be shared by the creature who contributed the blood for the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Autumn's Embrace",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>Woven by fey seamstresses as rewards for servants of nature, countless leaves continually changing colors in autumnal hues comprise <em>autumn's embrace</em>, a suit of <em>+2 invisibility resilient leaf weave</em>. Leaves shed from the armor as they might fall in autumn. When activating the armor's @UUID[Compendium.pf2e.equipment-srd.Item.Invisibility] property rune, you disappear in a swirl of colorful leaves.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (aura)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You call forth a storm of leaves from <em>autumn's embrace</em>. These leaves swirl in a @Template[emanation|distance:20] for 1 minute. Creatures within the area are @UUID[Compendium.pf2e.conditionitems.Item.Concealed], and creatures outside the area are concealed to creatures within the leaves. However, you can see through this concealment. You can Dismiss the activation.</p>",
+    "rarity": "common",
+    "traits": [
+      "laminar"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Avalanche Boots",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>While the insides of these boots are comfortable, fur-lined leather, the outsides are a jumble of slate plates, giving the impression of a rockslide. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Force Open] and @UUID[Compendium.pf2e.actionspf2e.Item.Shove]. When you invest the boots, you either increase your Strength modifier by 1 or increase it to +4, whichever is higher.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You succeed or critically succeed with a Shove</p>\n<p><strong>Effect</strong> If the Shove was a success, you push your opponent up to 10 feet instead of 5 feet. If the Shove was a critical success, you push your opponent up to 20 feet, and you can then choose to knock them @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Avalanche of Stones Snare",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p>When a creature enters the snare's square, the snare releases countless stones to batter the creature, dealing @Damage[22d8[bludgeoning]] damage (@Check[reflex|dc:40|basic|showDC:all]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Avernal Cape",
+    "price": {},
+    "description": "<p>Made from preserved crimson worm hide, this thick leather cape can deflect incoming blows without serious damage. It functions as a @UUID[Compendium.pf2e.equipment-srd.Item.Dueling Cape] and while moved into a protective position, it also grants you fire resistance equal to twice the relic's number of gifts.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Dueling Cape]</p>",
+    "rarity": "unique",
+    "traits": [
+      "earth",
+      "invested",
+      "magical",
+      "relic"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Awakened Adamantine Shot",
+    "price": {
+      "gp": 3500
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>These bullets are formed from a liquefied high-grade precious metal and enchanted to unlock that metal's true potential.</p>\n<p>The shot is a high-grade adamantine bullet. The awakened adamantine breaks through any resistance. The shot ignores the first 20 resistance a creature has to physical damage, all damage, or piercing or bludgeoning damage. Against a golem or creature who already has a resistance bypassed by adamantine, or a weakness to adamantine, the shot shatters the target's defenses, causing them to become @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 minute instead. Because adamantine is uncommon, this version of awakened metal shot is uncommon even for gunslingers or other characters with access to uncommon guns and bullets from this book.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Awakened Cold Iron Shot",
+    "price": {
+      "gp": 2300
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>These bullets are formed from a liquefied high-grade precious metal and enchanted to unlock that metal's true potential.</p>\n<p>The shot is a high-grade cold iron bullet. The awakened cold iron attempts to disrupt enchantments the target placed on others' minds. You can name a creature you believe to be enchanted by your target or allow the shot to choose an enchanted creature randomly. On a hit, the shot attempts to counteract the enchantment the target is using to manipulate that creature's mind. The counteract rank is 9, and the counteract modifier is [[/r 1d20+27 #Counteract]]{+27}. If you fail (but don't critically fail) the counteract check against a demon or fey, you get a success instead. If you hit a demon or fey with no active enchantment effects on other creatures, the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 minute instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Awakened Silver Shot",
+    "price": {
+      "gp": 2300
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>These bullets are formed from a liquefied high-grade precious metal and enchanted to unlock that metal's true potential.</p>\n<p>The shot is a high-grade silver bullet. The awakened silver gleams with altered celestial moonlight designed to weaken and expose devils and werecreatures. On a hit, it attempts to counteract any polymorph effect on the target. The counteract rank is 9, and the counteract modifier is [[/r 1d20+27 #Counteract]]{+27}. If you fail (but don't critically fail) the counteract check against a devil or a werecreature, you get a success instead. If you counteracted the Change Shape ability, the creature can't use that ability again for 1 round, or 1 minute on a critical success. If you hit a devil or werecreature not under a polymorph effect, the target is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} for 1 minute instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Axe Musket",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This item, favored by firearms-using dwarves and barbarians, takes the form of a sturdy musket that combine the functionality of melee weapons and with an axeblade attached near the muzzle.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 26,
+    "name": "Axe of the Dwarven Lords",
+    "price": {},
+    "description": "<p>The blade of this <em>+4 major striking @UUID[Compendium.pf2e.equipment-srd.Item.Keen] @UUID[Compendium.pf2e.equipment-srd.Item.Returning] @UUID[Compendium.pf2e.equipment-srd.Item.Quickstrike] dwarven waraxe</em> is carved with an intricate design depicting countless generations of great dwarven warriors and leaders.</p>\n<p>The axe has the thrown 30 feet weapon trait, in addition to the normal weapon traits for a dwarven waraxe. Strikes with the axe deal an additional 1d6 damage to orcs.</p>\n<p>While the axe is in your possession, you gain a +4 item bonus when Crafting armor, jewelry, metalworking, stonemasonry, snares, traps, and weapons.</p>\n<p>If you are a dwarf, you gain greater darkvision while holding the axe. If you are not a dwarf, you are @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 4} while holding the axe, and if you are an orc, you are also @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 4} and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 4} while holding it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per week</p>\n<p><strong>Effect</strong> The axe casts a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental] spell to conjure an elite elemental avalanche. The spell is automatically sustained, requiring no action on your part but still allowing you to command the elemental on each of your turns. You can Dismiss the Spell.</p>\n<hr />\n<p><strong>Destruction</strong> If an orc beheads a dwarven king with the <em>Axe of the Dwarven Lords</em>, the axe rusts away to nothing.</p>",
+    "rarity": "unique",
+    "traits": [
+      "dwarf",
+      "magical",
+      "sweep",
+      "thrown-30",
+      "two-hand-d12"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Azarim",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p><strong>Perception</strong>: +12; darkvision 30 feet, hearing 30 feet (imprecise)</p>\n<p><strong>Communication</strong> telepath (Celestial, Common, Dwarven, Sakvroth)</p>\n<p><strong>Skills</strong> Alcohol Lore +13, Deception +15, Diplomacy +13, Religion +13, Society +15</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +2, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +15</p>\n<hr />\n<p>In life, the dwarven rogue Azarim was always something of an outsider among her people for her fast and loose relationship with dwarven tradition. However, she still harbored in her heart a fierce pride in what dwarves had accomplished. She had long fought against the cult of Droskar, seeing it as emblematic of all the worst parts of dwarven culture.</p>\n<p>By the time she infiltrated Droskar's Crucible in 4065 AR, the cult was already in decline. She knew portions of Droskar's Crucible were built by the worshippers of Torag who preceded the cult and that something of great power had been locked away in the Lower Vault, but not what that object was. If she could gain control over the cult, she could simultaneously use them to open the Lower Vault and convince them to set aside their worship of Droskar-if not for her own patron, Cayden Cailean, then any other faith with a more positive leaning.</p>\n<p>Unfortunately, her attempt to seize control of the cult using their own traditions against them backfired when she succumbed to the Soul Smith. Unlike the others who were slain by the Soul Smith, Azarim's soul managed to somewhat escape being bound into the Soul Smith's soul chain by instead seeking shelter in her own magic rapier. Frustrated at the fact her soul slipped away but ignorant of where that soul fled to, the Soul Smith returned to his tasks and soon forgot about Azarim-she was, to the undead dwarf, just another in a long line of failures.</p>\n<p>Today, <em>Azarim</em> is an intelligent <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Shifting] rapier</em>. The rapier has been waiting patiently for centuries for a new, like-minded ally to take her up in arms against her foes.</p>\n<p>While she prefers to exist in the form of a rapier, she can use one of her actions to activate her shifting rune to take the shape of another weapon as needed.</p>\n<p>While <em>Azarim</em> prefers to be wielded by chaotic good characters, particularly those who worship Cayden Cailean, she's open-minded and eager to work with any wielder who seeks to oppose corrupting or toxic traditions in society, particularly those who work against the influence of the cult of Droskar. To wielders she doesn't approve of, she works to convince them to either change their ways or to hand her over to someone who she can work with, resorting to her ability to induce weakness in her carrier as needed when simply having them discard her is the only option left.</p>\n<p><em>Azarim</em> deals an additional @Damage[1d6[spirit]] damage to worshippers of Droskar, to creatures allied with Droskar's faith, and to those who are under the influence of Droskar's faith-which includes the Kobold King Merlokrep for as long as he continues to wear his crown as well as most of the intelligent inhabitants of the deeper levels of Droskar's Crucible.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Trigger</strong> A creature picks up <em>Azarim</em> or begins its turn carrying <em>Azarim</em></p>\n<p><strong>Effect</strong> The creature who carries <em>Azarim</em> becomes @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2}. This condition persists as long as the creature carries <em>Azarim</em>. A non-lawful creature can attempt to resist this effect with a @Check[fortitude|dc:23] save, but lawful creatures don't gain a save to resist.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (command, Interact) <em>Azarim</em> casts 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] on her wielder. This effect ends immediately as soon as the wielder no longer carries <em>Azarim</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (command, Interact)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> <em>Azarim</em> bolsters her user's ability to lie. She can either attempt her own Deception check to resolve her wielder's Lie, or she can assist with her wielder's attempt to Lie and grant a +2 circumstance bonus to the Deception check.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> (command, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> <em>Azarim</em> gains the effects of an <em>anarchic</em> weapon rune for 1 minute. When wielded by a character who's at least 11th level, <em>Azarim</em> becomes a <em>+2 striking anarchic shifting rapier</em>, and instead this activation can be applied to another weapon that's in physical contact with <em>Azarim</em>.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Azarim]</p>",
+    "rarity": "unique",
+    "traits": [
+      "chaotic",
+      "deadly-d8",
+      "disarm",
+      "divine",
+      "finesse",
+      "good",
+      "holy",
+      "intelligent",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Azure Lily Pollen",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Azure lilies are a rare, toxic plant. Once harvested and refined, the effects of the rare azure lily overwhelm the senses with radical swings from torpor to euphoria.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:28]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[mental]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[mental]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d6[mental]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 round)</p>\n<p><strong>Stage 4</strong> @Damage[3d6[mental]] damage, slowed 1, and @UUID[Compendium.pf2e.conditionitems.Item.Confused] (1 round).</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "inhaled",
+      "poison"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Azure Worm Repellent",
+    "price": {
+      "gp": 1100
+    },
+    "description": "<p>Cave worm repellent is a highly noxious oil that can be applied to a creature or sprinkled in a circle around a 10-foot-radius area. In either case, after it is applied, it lasts for 24 hours or until it is scrubbed clean with 1 minute of work.</p>\n<p>When applied to a creature, the repellent causes cave worms of the indicated type to avoid attacking that creature in melee as long as they have something else nearby to attack. The repellent does not deter a cave worm from making ranged attacks against a coated target. If no creatures are within a cave worm's reach and it wants to approach and make a melee attack, it approaches and attacks a non-coated creature if it can without spending more actions to do so.</p>\n<p>If the coated creature is swallowed by the designated type of cave worm, the cave worm must succeed at a Fortitude save or involuntarily regurgitate the swallowed creature on the next round (a single action).</p>\n<p>When sprinkled around an area, cave worm repellent negates any chance of a random encounter with the particular type of cave worm in that area, as the creatures purposefully avoid the affected area.</p>\n<p>Other types of repellent that function similarly to this one might exist at the GM's discretion. Uncommon or rare creatures are typically much harder to repel, and repellent against them might necessitate harvesting ingredients from the creatures themselves (such as the creature's liver or a certain gland).</p>\n<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw ingredients must include an azure worm's scale.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Azurite",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  }
+]

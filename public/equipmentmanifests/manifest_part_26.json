@@ -1,0 +1,1293 @@
+[
+  {
+    "level": 0,
+    "name": "Malachite",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Malleable Clay",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You Strike with the affixed weapon</p>\n<p><strong>Requirements</strong> You're trained in the affixed weapon.</p><hr /><p>This small lump of clay is malleable and can be molded into innumerable shapes and forms. When affixed, the clay takes on the appearance of the affixed weapon. When activated, the affixed weapon gains the versatile bludgeoning, versatile piercing, and versatile slashing weapon traits for the triggering Strike and all other attacks for 1 minute. With each attack, the clay changes shape, taking on the appearance of a different weapon that deals damage of the chosen damage type.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Malleable Clay]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Malleable Mixture (Greater)",
+    "price": {
+      "gp": 750
+    },
+    "description": "<p>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were 2 sizes smaller than your normal size (minimum tiny), and you gain a +3 item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Malleable Mixture (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Malleable Mixture (Lesser)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were 1 size smaller than your normal size (minimum small), and you gain a +2 item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Malleable Mixture (Lesser)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Malleable",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>The metal of your armor can shift and rearrange at a moment's notice, allowing you to manipulate what kind of damage it resists.</p>\n<hr />\n<p><strong>Activate—Reconfigure Armor</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> The armor's composition shifts, changing its specialization group to a different one of your choice. This doesn't change what the armor is made of, and any runes or precious material it's made of apply to the new composition. Any property runes that can't apply to the new form are suppressed until the item takes a composition to which they can apply.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Mambele",
+    "price": {
+      "sp": 6
+    },
+    "description": "<p>Also known as a hunga munga or danisco, this knife-axe hybrid consists of a hilt and blade that curves backward toward the wielder. The blade's curve is such that, after a mambele has struck a victim, more damage is dealt as the weapon is extracted from the victim's body.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Mamlambo Scale",
+    "price": {
+      "gp": 990
+    },
+    "description": "<p>The faint glow beneath the thick, algae-green scales of this suit of <em>+1 resilient scale mail</em> hints at the armor's source.</p><hr /><p><strong>Activate—Luminous Lure</strong> <span class=\"action-glyph\">1</span> (concentrate, light, manipulate, mental, visual)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Effect</strong> The <em>mamlambo scale</em> sheds dim light in a 20-foot emanation. The light has a duration of 1 minute, but you can extinguish the light with an Interact action. A creature that begins its turn in the light must attempt a @Check[will|dc:26] save. Regardless of the save's result, the creature is temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Luminous Lure]</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Fascinated], and for as long as it remains in the light, it must spend at least 1 of its actions on each of its turns to move closer to the source of the light. If the creature ends its movement adjacent to you, it is slowed 1 until it is out of the light or until you make a Strike against it.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the first Strike you make against it while it is slowed.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the scales and hide of a mamlambo.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Mammoth Bow",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This heavy, 12-foot-tall <em>+2 striking Composite Longbow</em> is fashioned from mammoth tusks lashed together. Due to its great size, you can attack with the Mammoth Bow only if you're Large or larger. The Mammoth Bow deals 2d6 additional piercing damage because of its incredible, magically enhanced draw power. Additionally, the Mammoth Bow has a 180-foot range increment instead of a 100-foot range increment, but its volley range increases from 30 feet to 50 feet.</p>",
+    "rarity": "unique",
+    "traits": [
+      "deadly-d10",
+      "magical",
+      "propulsive",
+      "volley-50"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Man-Feller",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This impressive-looking weapon is forged from a single piece of cold iron. Man-Feller is a <em>+1 striking cold iron @UUID[Compendium.pf2e.equipment-srd.Item.Battle Axe]</em> that strikes particularly painful wounds into the flesh of humans it hews. The battle axe deals an additional 1d6 slashing damage to any human it wounds. This benefit doesn't apply against humans disguised as other creatures. It's up to GM discretion whether this effect applies against such a disguised human.</p>\n<p>Those who might find it amusing to point out the awkward and almost comedic duplication in the weapon's name would do well to consider that those who previously mocked the name of King Merlokrep's favorite axe to the kobold's face didn't live long enough to finish their self-congratulatory chuckles.</p>",
+    "rarity": "unique",
+    "traits": [
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Mana-Rattler Liniment",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>According to reports, as well as Emelett's own marketing pitches, this lotion is derived from rare mana rattlesnakes whose oils ward against poison and disease. When applied, you can attempt to counteract a poison or disease effect currently afflicting you. The potion has a counteract rank of 5 and a [[/r 1d20+15 #Counteract]]{+15} modifier for the roll. You also acquire a serpentine appearance, growing fangs and scaly skin. For 1 hour, you gain a fangs unarmed attack that deals 1d6 piercing damage plus 1 poison damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Mana-Rattler Liniment]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "morph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Manacles (Average)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two-legged creature with its legs bound takes a -15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a @Check[flat|dc:5] any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from average manacles requires four successful @Check[thievery|dc:27|traits:action:pick-a-lock] checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Manacles (Good)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two-legged creature with its legs bound takes a -15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a @Check[flat|dc:5] any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from good manacles requires five successful @Check[thievery|dc:32|traits:action:pick-a-lock] checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Manacles of Persuasion",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>These sturdy, average manacles are connected by a thick iron chain that is much heavier than its appearance suggests at a glance. Followers of Zon-Kuthon sometimes employ manacles of persuasion against captured enemies and spies. When the manacles are locked around an immobilized creature's wrists, they begin to sap the life out of the victim, dealing 2 void damage per hour until the creature falls unconscious. The effect is nonlethal, so the damage doesn't cause the creature to become dying. While the creature is unconscious, the manacles deal no damage and allow the creature to recover Hit Points normally to a maximum of 10 Hit Points, at which point the manacles begin to deal damage once more. The manacles have no effect on a creature that is not immobilized.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "nonlethal"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Manacles (Poor)",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two-legged creature with its legs bound takes a -15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a @Check[flat|dc:5] any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful @Check[thievery|dc:17|traits:action:pick-a-lock] checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Manacles (Simple)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two-legged creature with its legs bound takes a -15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a @Check[flat|dc:5] any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from simple manacles requires three successful @Check[thievery|dc:22|traits:action:pick-a-lock] checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 17,
+    "name": "Manacles (Superior)",
+    "price": {
+      "gp": 5000
+    },
+    "description": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two-legged creature with its legs bound takes a -15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a @Check[flat|dc:5] any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from superior manacles requires six successful @Check[thievery|dc:42|traits:action:pick-a-lock] checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 17,
+    "name": "Mantis Embrace (Greater)",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>These stylized red gloves are constructed from plates of leather that have been treated to resemble insect chitin. The gloves grant the wearer a +3 item bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] or @UUID[Compendium.pf2e.actionspf2e.Item.Shove].</p>\n<p><strong>Activate—Crushing Embrace</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You are grappling a creature</p><hr /><p><strong>Effect</strong> You Strike the creature you are grappling with a melee weapon or unarmed attack. This Strike deals an additional 5d6 precision damage and gains the death trait. The body of a creature that is slain by Crushing Embrace is so gruesomely damaged that the creature's body cannot be affected by any effect that requires an intact body to function, such as the @UUID[Compendium.pf2e.spells-srd.Item.Talking Corpse] spell.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Mantis Embrace",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>These stylized red gloves are constructed from plates of leather that have been treated to resemble insect chitin. The gloves grant the wearer a +2 item bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] or @UUID[Compendium.pf2e.actionspf2e.Item.Shove].</p>\n<p><strong>Activate—Crushing Embrace</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You are grappling a creature</p><hr /><p><strong>Effect</strong> You Strike the creature you are grappling with a melee weapon or unarmed attack. This Strike deals an additional 3d6 precision damage and gains the death trait. The body of a creature that is slain by Crushing Embrace is so gruesomely damaged that the creature's body cannot be affected by any effect that requires an intact body to function, such as the @UUID[Compendium.pf2e.spells-srd.Item.Talking Corpse] spell.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Mantis Plate",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>The beautiful plates of this <em>+2 resilient @UUID[Compendium.pf2e.equipment-srd.Item.Ready (Greater)]{Greater Ready} full plate</em> armor are shaped from the carapace of a deadly mantis, providing excellent protection with added flexibility. When wearing a suit of mantis plate, you gain a +1 item bonus to your Athletics DC.</p><hr /><p><strong>Activate—Mandible Vambraces</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> Make a melee Strike. If you succeed, the target is caught by the spikes on the armor's forearms, taking an additional @Damage[6d6[piercing]] damage (@Check[reflex|dc:30|basic] save).</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the arms and carapace of a deadly mantis.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Mantis Shell",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Construction of mantis shell armor originates with the Red Mantis assassins. Authentic mantis shell can be found in some dark markets, but wearing such armor can attract deadly attention from the armor's originators. Mantis shell comes with the weapon harness adjustment, though these special vambraces are meant to hold sawtooth sabers, and attaching anything else is an insult to the Red Mantis. A character who is a member of the Red Mantis assassins has access to this uncommon armor.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjusted"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Mantle of Amazing Health",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This ragged cloak doesn't appear to be anything special at first glance, seemingly made from mangy black bear fur with various rings of blackened iron piercing the edge of the skin. While somewhat off-putting, the mantle grants a +2 status bonus to all Fortitude saving throws against disease and poison. When you invest the mantle, you either increase your Constitution score by 2 or increase it to 18, whichever is higher.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You take damage</p>\n<p><strong>Effect</strong> Drawing the cloak around you, you reduce the damage taken by 10.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> If you're currently afflicted by a poison or a disease, you can hold the cloak tight to your body and immediately attempt a saving throw to end the effect. If that saving throw succeeds, you end the effect of either the poison or disease no matter the stage of the affliction. Furthermore, you gain immunity to that poison or disease for 24 hours.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Mantle of the Grogrisant",
+    "price": {
+      "gp": 22000
+    },
+    "description": "<p>This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of Grogrisant itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The <em>Mantle of the Grogrisant</em> grants you fire resistance 15 and physical resistance 5 (except bludgeoning).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision, Interact (evocation, incapacitation, light, primal, visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull the hood of the mantle over your face, revealing the six eyes of Grogrisant. The mantle gives off a flash of blinding light in a @Template[emanation|distance:60]. All enemies within this area must attempt a @Check[fortitude|dc:38|name:Blinding Flash|traits:evocation,incapacitation,light,visual] saving throw. On a failure, they're @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 minute. On a critical failure, they're permanently blinded.</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Mantle of the Tikbalang",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>This long hide cloak is stitched with patches of the ebony hair of a tikbalang. While wearing this cloak, you take a –2 item penalty to saves against illusions but gain a +2 item bonus to Deception checks.</p><hr /><p><strong>Activate—Illusory Thrash</strong> <span class=\"action-glyph\">2</span> (concentrate, illusion, manipulate, mental)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You wrap the mantle around your body, causing you to briefly appear much larger than you are. Make a melee Strike. This Strike deals an additional 4d6 mental damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the hide of a tikbalang.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Marble altar",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Marbles",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>These tiny round balls are made of polished stone and colorful glass, and come in a bag of 200. You can pour marbles in an empty square adjacent to you with an Interact action. The first creature that moves into that square must succeed at a @Check[acrobatics|dc:13] check or @Check[reflex|dc:13] save (its choice) or fall @UUID[Compendium.pf2e.conditionitems.Item.Prone]. Once a creature enters a space with marbles, enough marbles are scattered that other creatures moving into that space don't need to attempt a roll to avoid falling.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Mariner's Astrolabe",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>Astrolabes can be used for navigation in unfamiliar or featureless locations. To use an astrolabe, the holder must be trained in Survival. By spending 1 minute to measure the height of the stars and planets, a holder who knows the time and date can determine the latitude, and a holder who knows their latitude can determine the date and time. An astrolabe also grants a +1 item bonus to checks to identify celestial bodies.</p>\n<p>A mariner's astrolabe contains additional stabilizers that make it suitable for use on moving surfaces, such as the deck of a ship.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Mariner's Splint",
+    "price": {
+      "gp": 180
+    },
+    "description": "<p>This suit of <em>+1 splint mail</em> is worn by veteran sailors aboard warships who want as much protection as possible but still need to remain mobile enough to climb up rigging or swim should the need arise. The plates are arranged for maximum flexibility and the undercoat of padded armor is often no more than a cotton shrift. The armor grants you a +1 item bonus to Athletics checks to Climb or Swim and increases the distance you move when you successfully Climb or Swim by 5 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Marked Playing Cards",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A deck of marked playing cards appears to be an ordinary deck upon initial inspection but bears specific folds, colors, scratches, or other markings on each card that allow an informed user to know what's on the other side of a card. A deck of marked cards grants you a +1 item bonus to Games Lore checks or other relevant checks to gamble with the cards. You can determine that an unattended deck of cards is marked with a successful @Check[perception|dc:20|traits:action:seek] check. Determining that a deck is marked during play is more difficult and is typically determined by a Perception check against the dealer's Games Lore or Thievery DC.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Marking Snare",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This snare is often used to mark intruders for later tracking or identification. When you create this snare, you must decide whether to make it a dye or a scent marker. Either type of marking grants a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Track] the creature for up to 24 hours or until the dye or scent is washed off (requiring at least a gallon of water and 10 minutes of scrubbing). A creature that enters a square of the snare must attempt a @Check[reflex|showDC:all|dc:17] save.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The snare marks the creature.</p>\n<p><strong>Critical Failure</strong> The snare marks the creature, and the creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of its next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Martyr's Shield",
+    "price": {},
+    "description": "<p><strong>Perception</strong> +12; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and Empyrean)</p>\n<p><strong>Skills</strong> Diplomacy +15, Religion +13</p>\n<p><strong>Int</strong> +0, <strong>Wis</strong> +2, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +15</p>\n<hr />\n<p>A <em>martyr's shield</em> is a <em>lesser sturdy shield</em> imbued with the compassion of a devout champion of a righteous deity, like Iomedae or Vildeis, who sacrificed themself to save an ally. In addition to good-naturedly attempting to convert you to its religion, the <em>martyr's shield</em> can use 1 reaction each round that, when raised, it uses to Shield Block to protect an ally adjacent to you. This follows the rules for Shield Block, but protects your ally instead. The <em>martyr's shield</em> uses this reaction whether you would prefer it did so or not. The <em>martyr's shield</em> can be upgraded to a stronger form of <em>sturdy shield</em> by paying the difference in cost between its current type of <em>sturdy shield</em> and the new type.</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine",
+      "intelligent"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Marvelous Calliope",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This large slide whistle appears to be made of fine brass, the sides of which are engraved with musical notes and dancing clowns.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<p><strong>Effect</strong> You blow a tune upon the slide whistle, causing the whistle to expand. The whistle sprouts from one into several, and then creates a large wooden frame and keyboard. By the time the unfolding is complete, the whistle fully transforms into a calliope, a wagon-sized contraption consisting of several steam whistles played like an organ. The calliope is heavy and anchored in place.</p>\n<p>You have a +1 item bonus to Performance checks to play the calliope. The calliope has a tendency to produce music for a few seconds after you cease playing it, adding a jaunty and overlong conclusion to your music.</p>\n<p>If you use an Interact action to pull the small metal ring on the underside of the <em>marvelous calliope</em>, the calliope collapses back down into a slide whistle.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You play the calliope, causing it to cast @UUID[Compendium.pf2e.spells-srd.Item.Charm] on one of the listeners.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Marvelous Medicines (Greater)",
+    "price": {
+      "gp": 19000
+    },
+    "description": "<p>This healer's toolkit contains a seemingly endless supply of bandages, herbs, and healing items of impeccable quality, granting you a +3 item bonus to Medicine checks.</p>\n<p>If you use the <em>marvelous medicines</em> when you @UUID[Compendium.pf2e.actionspf2e.Item.Treat Poison] or @UUID[Compendium.pf2e.actionspf2e.Item.Treat Disease], before you roll your check, the medicines attempt to counteract the poison or disease you're treating, with a counteract rank of 8 and a counteract modifier of [[/r 1d20+30 #Counteract]]{+30}. This is a healing effect.</p>\n<p>The medicines can't be used to treat the same affliction for that patient again</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Marvelous Medicines",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This healer's toolkit contains a seemingly endless supply of bandages, herbs, and healing items of impeccable quality, granting you a +2 item bonus to Medicine checks.</p>\n<p>If you use the <em>marvelous medicines</em> when you @UUID[Compendium.pf2e.actionspf2e.Item.Treat Poison] or @UUID[Compendium.pf2e.actionspf2e.Item.Treat Disease], before you roll your check, the medicines attempt to counteract the poison or disease you're treating, with a counteract rank of 5 and a counteract modifier of [[/r 1d20+21 #Counteract]]{+21}. This is a healing effect.</p>\n<p>The medicines can't be used to treat the same affliction for that patient again</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Marvelous Miniature (Boat)",
+    "price": {
+      "gp": 76
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Every <em>marvelous miniature</em> is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. <em>Marvelous miniatures</em> sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a <em>marvelous miniature</em> causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.</p>\n<hr />\n<p>This miniature can be activated only when tossed into a large body of water, such as a lake or broad river. It transforms into a @UUID[Compendium.pf2e.vehicles.Actor.Cutter]. The cutter lasts 1 day.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "expandable",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Marvelous Miniature (Campfire)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Every <em>marvelous miniature</em> is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. <em>Marvelous miniatures</em> sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a <em>marvelous miniature</em> causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.</p>\n<hr />\n<p>When activated, this miniature transforms into an active campfire. The campfire doesn't require attending and remains fully lit for 8 hours, though it can be quenched as any other campfire.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "expandable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Marvelous Miniature (Chest)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Every <em>marvelous miniature</em> is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. <em>Marvelous miniatures</em> sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a <em>marvelous miniature</em> causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.</p>\n<hr />\n<p>When you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is closed, it transforms again—this time into a key—taking all of the stored items with it. You can activate this key by spending an Interact action to turn it in an imaginary lock, which causes it to transform back into a chest with all of the items still inside.</p>\n<p>Once it has turned into a chest a second time, it forever remains a wooden chest</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "expandable",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Marvelous Miniature (Horse)",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Every <em>marvelous miniature</em> is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. <em>Marvelous miniatures</em> sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a <em>marvelous miniature</em> causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.</p>\n<hr />\n<p>When activated, this miniature transforms into a horse. The horse can't attack or use reactions, but otherwise uses all the statistics of a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Riding Horse] and follows your basic commands. The horse doesn't need to eat or drink. After 8 hours, it reverts back to miniature form, then crumbles to dust.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "expandable",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Marvelous Miniature (Ladder)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Every <em>marvelous miniature</em> is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. <em>Marvelous miniatures</em> sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a <em>marvelous miniature</em> causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.</p>\n<hr />\n<p>When activated, this miniature transforms permanently into a 20-foot-long wooden ladder.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "expandable",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Marvelous Pigment",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p>Activation 10 minutes (envision, Interact)</p>\n<hr />\n<p>Marvelous pigment comes in a small container of shifting, multicolored paint that can magically create an object painted with it. The pigment is applied with a stick tipped with bristles, hair, or fur. The paint flows as you Activate the marvelous pigment and changes color at your whim as you paint. The paint can cover a 10-foot-square, two-dimensional surface. When you're done painting, attempt a @Check[crafting|dc:30] check.</p>\n<hr />\n<p><strong>Critical Success</strong> The object you painted emerges from the surface as a real, permanent object no larger than 10 feet in any dimension. It's non-magical and inanimate and has no value except to certain art collectors. If you paint a creature, machine, or form of energy (such as a campfire), these depictions appear only as inanimate sculptures. The created object has a painterly appearance that clearly marks its unusual origin, but is as real as any other.</p>\n<p><strong>Success</strong> As critical success, but the object constantly sheds flakes of paint until it falls apart, destroyed, after 24 hours.</p>\n<p><strong>Failure</strong> The pigments leave a painting that doesn't quite look right and doesn't become an object.</p>\n<p><strong>Critical Failure</strong> Is it a dog? Whatever you made is a pretty lousy painting and doesn't resemble what you set out to make.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Mask (Fine)",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A mask helps you use the @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] action to pass yourself off as someone you aren't.</p>\n<p>This well-crafted mask, suitable for a noble at a masquerade, is made with impeccable craftsmanship and expensive material, such as porcelain and gold filigree.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 18,
+    "name": "Mask of Allure",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to Deception, Diplomacy, Intimidation, and Performance checks while wearing the mask.</p>\n<p>When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Mask of Allure]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a Deception, Diplomacy, Intimidation, or Performance check</p>\n<hr />\n<p><strong>Effect</strong> You gain a +4 status bonus to the triggering check. This ability has no effect if you're under the effects of a disguise that hides the mask of allure. Depending on the skill used, the mirrored silver transforms into one of the following appearances.</p>\n<ul>\n<li><strong>Deception</strong> A swirl of silver, which entirely obscures and conceals your normal features.</li>\n<li><strong>Diplomacy</strong> A kind, gentle and inviting expression.</li>\n<li><strong>Intimidation</strong> A monstrous visage that shocks viewers into paying attention.</li>\n<li><strong>Performance</strong> A jovial humanoid face, the mouth cracked wide with a comedic smile or a tragic frown, depending on the nature of the performance.</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Mask of Mercy",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll a variable number of Hit Points you restore from an action with the healing trait</p>\n<hr />\n<p><strong>Effect</strong> Roll twice to determine the number of Hit Points you restore and take the higher result.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Mask of the Cursed Eye",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>A <em>mask of the cursed eye</em> is decorated with at least one wide, staring eye. The first time each day a creature on your plane that you can't perceive targets you with a divination spell, the creature must attempt a @Check[will|dc:24] save. This effect is automatic and does not require you to Activate the item.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is unaffected. You know you've been targeted with a divination spell, but the mask gives you no additional information.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 minute. You know you've been targeted with a divination spell, but the mask gives you no additional information.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} and dazzled for 10 minutes, and the spell is disrupted. You gain a brief mental glimpse of the triggering creature and learn its approximate distance and direction.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Mask of the Mantis (Greater)",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>The traditional headwear for the Red Mantis assassin is the <em>mask of the mantis</em>. Most of these masks are constructed from hard leather helmets that serve to obscure the assassin's identity and give them the appearance of possessing a mantis's head. Some variants, however, consist only of the mask itself, and are meant to be worn over the face. Regardless of the shape and style, all masks of the mantis function the same.</p>\n<p>Members of the Vernai can use any <em>mask of the mantis</em> to enhance their frightening presence—something they often do simply to reveal their standing in the society without speaking a word, as detailed fully in the entry for Vernai's Ire activation below.</p>\n<p>While wearing a <em>mask of the mantis</em>, you gain a +2 item bonus to Perception checks.</p><hr /><p><strong>Activate—Enhance Vision</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast either a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Darkvision] or @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen] on yourself.</p><hr /><p><strong>Activate—Vernai's Ire</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> You are a member of the Vernai</p>\n<p><strong>Effect</strong> You cause the <em>mask of the mantis's</em> eyes to shimmer with crimson light, granting yourself a far more harrowing visage. This light creates illumination equivalent to that of a candle. You can use this ability again to extinguish the frightening glow, but as long as Vernai's Ire remains active, you gain a +2 item bonus to Intimidation checks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Mask of the Mantis (Major)",
+    "price": {
+      "gp": 19000
+    },
+    "description": "<p>The traditional headwear for the Red Mantis assassin is the <em>mask of the mantis</em>. Most of these masks are constructed from hard leather helmets that serve to obscure the assassin's identity and give them the appearance of possessing a mantis's head. Some variants, however, consist only of the mask itself, and are meant to be worn over the face. Regardless of the shape and style, all masks of the mantis function the same.</p>\n<p>Members of the Vernai can use any <em>mask of the mantis</em> to enhance their frightening presence—something they often do simply to reveal their standing in the society without speaking a word, as detailed fully in the entry for Vernai's Ire activation below.</p>\n<p>While wearing a <em>mask of the mantis</em>, you gain a +3 item bonus to Perception checks.</p><hr /><p><strong>Activate—Enhance Vision</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast either a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Darkvision] or @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen] on yourself.</p><hr /><p><strong>Activate—Vernai's Ire</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> You are a member of the Vernai</p>\n<p><strong>Effect</strong> You cause the <em>mask of the mantis's</em> eyes to shimmer with crimson light, granting yourself a far more harrowing visage. This light creates illumination equivalent to that of a candle. You can use this ability again to extinguish the frightening glow, but as long as Vernai's Ire remains active, you gain a +3 item bonus to Intimidation checks.</p><hr /><p><strong>Activate—Locate Target</strong> 10 minutes (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Pinpoint]. If the target of this spell is a creature for which you've accepted a contract to assassinate, you are considered to have seen the creature in person for the purposes of <em>pinpoint's</em> requirements.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Mask of the Mantis",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>The traditional headwear for the Red Mantis assassin is the <em>mask of the mantis</em>. Most of these masks are constructed from hard leather helmets that serve to obscure the assassin's identity and give them the appearance of possessing a mantis's head. Some variants, however, consist only of the mask itself, and are meant to be worn over the face. Regardless of the shape and style, all masks of the mantis function the same.</p>\n<p>Members of the Vernai can use any <em>mask of the mantis</em> to enhance their frightening presence—something they often do simply to reveal their standing in the society without speaking a word, as detailed fully in the entry for Vernai's Ire activation below.</p>\n<p>While wearing a <em>mask of the mantis</em>, you gain a +1 item bonus to Perception checks.</p><hr /><p><strong>Activate—Enhance Vision</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast either @UUID[Compendium.pf2e.spells-srd.Item.Darkvision] or @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen] on yourself.</p><hr /><p><strong>Activate—Vernai's Ire</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> You are a member of the Vernai</p>\n<p><strong>Effect</strong> You cause the <em>mask of the mantis's</em> eyes to shimmer with crimson light, granting yourself a far more harrowing visage. This light creates illumination equivalent to that of a candle. You can use this ability again to extinguish the frightening glow, but as long as Vernai's Ire remains active, you gain a +1 item bonus to Intimidation checks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Mask of Uncanny Breath",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>A thin wooden mask carved in the shape of a skull, monstrous face, or eerily featureless visage, a <em>mask of uncanny breath</em> fully covers your face. While wearing it, each breath you take feels cool and pure, perfectly flowing to feed your ki. You gain resistance 10 to inhaled poisons and can breathe in an airless or toxic environment. When you breathe in, fragments of bizarre knowledge flow through you, granting you a +2 item bonus to Occultism checks. <br /><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast an occult monk ki spell. If not used by the end of your turn, this Focus Point is lost.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your unarmed Strike hits a creature that breathes</p>\n<hr />\n<p><strong>Effect</strong> The mask contorts and inhales, sucking breath from your target's lungs. The target falls @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] but doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.Prone] or drop what it's holding. It wakes up at the end of your turn if it hasn't been woken up already.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a monk with occult ki spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Mask (Ordinary)",
+    "price": {
+      "cp": 5
+    },
+    "description": "<p>A mask helps you use the @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] action to pass yourself off as someone you aren't.</p>\n<p>This ordinary mask is made out of cheap material, such as paper-mâché or simple cloth. This can be specially fitted over another mask.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Mask (Plague)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A mask helps you use the @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] action to pass yourself off as someone you aren't.</p>\n<p>This stylized bird mask is equipped with a basic filter. The plague mask attempts to counteract any inhaled poisons or airborne diseases each round you breathe. The same replacement filters used in @UUID[Compendium.pf2e.equipment-srd.Item.Water Purifier]{Water Purifiers} can be used with a plague mask, granting you the counteract modifier and effects of the filter for 20 minutes.</p>\n<p>Plague masks are uncommon items because the filters they use to protect from inhaled poisons and diseases are themselves uncommon. As such, you can buy a plague mask without a filter as a common item, though it's usually more cost-effective to buy a fine mask in the shape of a plague mask in that case.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Mask (Rubber)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A mask helps you use the @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] action to pass yourself off as someone you aren't.</p>\n<p>Rubber masks are sculpted to resemble the face of another creature. You can use this mask to help decrease the difficulty of Impersonating a specific creature with a very different face than yours.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Masquerade Scarf (Greater)",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>This delicately embroidered scarf matches with every outfit and can even complete a costume or disguise with illusions.</p><hr /><p><strong>Activate—Masquerade</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Effect</strong> You arrange the scarf over your lower face, and it casts a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] spell on you, which ends immediately if the scarf is removed. You can alter the scarf's appearance or make it invisible as part of the <em>illusory disguise</em>, but it can still be felt if touched.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Masquerade Scarf",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This delicately embroidered scarf matches with every outfit and can even complete a costume or disguise with illusions.</p><hr /><p><strong>Activate—Masquerade</strong> 1 minute (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You arrange the scarf over your lower face, and it casts a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] spell on you, which ends immediately if the scarf is removed. You can alter the scarf's appearance or make it invisible as part of the <em>illusory disguise</em>, but it can still be felt if touched.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Master Magus Ring",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>Elegant jewelry such as the <em>master magus ring</em> adorns experienced magi. Each ring has a significant metal and symbol to represent a particular hybrid study, such as a heavy iron ring with an icon of a mountain for @UUID[Compendium.pf2e.classfeatures.Item.Inexorable Iron], or glittering silver with a shield-like emblem for @UUID[Compendium.pf2e.classfeatures.Item.Sparkling Targe]. You gain a +2 item bonus to Arcana checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a magus conflux spell. If not used by the end of your turn, this Focus Point is lost.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The ring transports you and any items you're wearing and holding from your current space to an unoccupied space you can see within a range equal to your Speed. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the activation fails and is used.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a magus.</p>",
+    "rarity": "common",
+    "traits": [
+      "arcane",
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Matchmaker Fulu",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt a Diplomacy check to Make an Impression.</p>\n<hr />\n<p>This red fulu contains blessings for one's relationship from Shelyn, goddess of beauty and love. You get a +2 status bonus to the Diplomacy check, and if you roll a critical failure on the check, you get a failure instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fortune",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Matchstick",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>An alchemical substance applied to one end of this tiny wooden stick ignites when struck against a rough surface. Creating a flame with a matchstick is much faster than creating a flame with flint and steel. You can ignite the matchstick and touch it to a flammable object as part of the same Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Material Essence Disruptor (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>A material essence disruptor emits bursts of disordered energy to break down the structure of a spell that manipulates material essence. Attempt to counteract an active arcane or primal spell within the listed range, with the listed counteract modifier and counteract rank.</p>\n<hr />\n<p>The range is 60 feet, the counteract modifier is +18 [[/r d20+18]], and the counteract rank is 6.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Material Essence Disruptor (Lesser)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>A material essence disruptor emits bursts of disordered energy to break down the structure of a spell that manipulates material essence. Attempt to counteract an active arcane or primal spell within the listed range, with the listed counteract modifier and counteract rank.</p>\n<hr />\n<p>The range is 30 feet, the counteract modifier is +7 [[/r d20+7]], and the counteract rank is 2.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Material Essence Disruptor (Major)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>A material essence disruptor emits bursts of disordered energy to break down the structure of a spell that manipulates material essence. Attempt to counteract an active arcane or primal spell within the listed range, with the listed counteract modifier and counteract rank.</p>\n<hr />\n<p>The range is 90 feet, the counteract modifier is +24 [[/r d20+24]], and the counteract rank is 8.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Material Essence Disruptor (Moderate)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>A material essence disruptor emits bursts of disordered energy to break down the structure of a spell that manipulates material essence. Attempt to counteract an active arcane or primal spell within the listed range, with the listed counteract modifier and counteract rank.</p>\n<hr />\n<p>The range is 40 feet, the counteract modifier is +13 [[/r d20+13]], and the counteract rank is 4.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Matsuki's Medicinal Wine",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Old Matsuki's private brew has quite the kick. In addition to making you tipsy, this medicinal wine works wonders in helping to recover from disease—including (ironically) drug addiction. Matsuki's medicinal wine functions as @UUID[Compendium.pf2e.equipment-srd.Item.Alcohol], except that its saving throw is a @Check[fortitude|dc:18] save. In addition, upon drinking a dose of Matsuki's medicinal wine, you gain a +2 item bonus to Fortitude saving throws against diseases and poisons for 24 hours. This applies to your daily save against a disease's progression; however, the bonus doesn't apply to any checks you attempt against Matsuki's medical wine itself.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Matsuki's Medicinal Wine]</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Mattock of the Titans",
+    "price": {
+      "gp": 36000
+    },
+    "description": "<p>This 15-foot-long adamantine digging tool is far too big for even a Large creature to wield, though if you're a Small or larger creature, you can wield it while wearing a belt of giant strength, as though it were appropriately sized for you and had 2 Bulk. The GM might also allow you to wield the mattock if you have some other means of wielding oversized weapons, such as if you're a Large barbarian with the giant instinct or are a Huge creature. When it's used as a weapon, the mattock of the titans has the statistics of a +3 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Keen] adamantine greatpick.</p>\n<p>While you're wielding the mattock of the titans, you gain a +3 item bonus to Athletics checks. You can use it to loosen or push soft earth at a rate of 1 minute per 5-foot cube or smash through solid stone at the rate of 5 minutes per 5-foot-cube.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You dig furiously with the mattock to non-magically replicate the effects of an @UUID[Compendium.pf2e.spells-srd.Item.Earthquake] spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a titan, and the initial raw materials must include 8,100 gp of adamantine.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fatal-d12",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Maul",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Mauls are massive warhammers that must be swung with two hands.</p>",
+    "rarity": "common",
+    "traits": [
+      "shove"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Maw of Hungry Shadows",
+    "price": {
+      "gp": 21000
+    },
+    "description": "<p>Shadows swirl around this soot-black tome, swallowing up any light that touches them. A faint whispering emanates from the grimoire's pages when opened.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your last action was to cast a spell prepared from this grimoire that has the shadow trait</p>\n<hr />\n<p><strong>Effect</strong> Your shadow, and that of the tome, elongates and reaches hungrily for one foe within 30 feet, who must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} as the shadows scrape across it.</p>\n<p><strong>Failure</strong> The creature is blinded for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} as the shadows seize it.</p>\n<p><strong>Critical Failure</strong> As failure, but the shadows also pull the creature into the tome, teleporting it to the Shadow Plane.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "incapacitation",
+      "magical",
+      "shadow",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Mechanical Torch",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Powered by electricity, you can turn a mechanical torch on and off by toggling a lever on the torch with an Interact action. When active, the torch sheds bright light in either a 20-foot radius (and dim light to the next 40 feet) or a 40-foot cone (and dim light to the next 40 feet). Changing this area requires a single Interact action to flip a switch. The torch carries sufficient charge to operate for ten minutes. You can recharge the torch in 1 minute via an integrated crank-charging mechanism, turning the clockwork gears and generating sparks to power the torch, though doing so requires two hands.</p>",
+    "rarity": "common",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Medusa Armor",
+    "price": {},
+    "description": "<p>This <em>+2 adamantine scale mail</em> appears to have a <em>fortification</em> rune but grants none of its effects. Whenever you are critically hit, after taking damage, you become petrified for 1 round. Once the curse has activated for the first time, the armor fuses to you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Medusa's Scream (Greater)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>The ghastly visage of a slain medusa's head stares out from this steel shield (Hardness 15, HP 60, BT 30). The shield comes with a thick leather cover to conceal the head.</p><hr /><p><strong>Activate—Petrifying Gaze</strong> <span class=\"action-glyph\">2</span> (manipulate, visual)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You reveal the medusa's face, focusing its gaze on one creature within 30 feet. The shield casts a DC 35 @UUID[Compendium.pf2e.spells-srd.Item.Petrify] spell with a range of 30 feet.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the head of a medusa.</p><table class=\"pf2e\"><thead><tr><th>Hardness</th><th>HP</th><th>BT</th></tr></thead><tbody><tr><td>15</td><td>60</td><td>30</td></tr></tbody></table>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Medusa's Scream",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>The ghastly visage of a slain medusa's head stares out from this steel shield (Hardness 5, HP 20, BT 10). The shield comes with a thick leather cover to conceal the head.</p><hr /><p><strong>Activate—Petrifying Gaze</strong> <span class=\"action-glyph\">2</span> (manipulate, visual)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You reveal the medusa's face, focusing its gaze on one creature within 30 feet. The shield casts a DC 30 @UUID[Compendium.pf2e.spells-srd.Item.Petrify] spell with a range of 30 feet.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the head of a medusa.</p><table class=\"pf2e\"><thead><tr><th>Hardness</th><th>HP</th><th>BT</th></tr></thead><tbody><tr><td>5</td><td>20</td><td>10</td></tr></tbody></table>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Membership Cords",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Access</strong> Member of a secret society</p>\n<hr />\n<p>These braided wool cords are threaded with reflective metal threads in patterns specified by the purchaser. No two society's patterns are the same, and purchasers tend to return to the same weaver each time to ensure new cords match previous ones. In a room lit only by dim candlelight, the reflective metal threads shimmer in a specific pattern. Many societies use these cords to prevent outsiders from infiltrating secret meetings and often have someone at the meeting area's entrance checking cords before allowing entry.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Memoir Map",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p>Your journeys and the major events in your life that occur after you obtain this tattoo appear on it, your life story traced upon your skin. Each time you journey somewhere new or accomplish something noteworthy to you, a design or symbol appears, representing the event. The positions of these images are relative in location, but measurements aren't exact. A memoir map starts with an icon representing your location when you receive the tattoo, usually over the heart, and grows from there. Traveling to another plane causes a new portion to appear on a different part of your body to represent that plane. If you want a record of your life before you receive your memoir map, you can have the tattoo artist embellish the map to represent past events.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Memory Guitar",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This simple guitar appears worn and battered from use, but upon close observation, the damage seems to be intentional. From the correct angle, the guitar's scratches and marks seem to form a simple picture, such as an environmental scene or a crude face.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Effect</strong> You play music with the guitar and the instrument's power shares a memory with your audience. When sharing with an audience, you share a memory of yours with anyone within 30 feet. This has the effects of @UUID[Compendium.pf2e.spells-srd.Item.Mindlink] for anyone that can hear the music.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> once per month</p>\n<p><strong>Effect</strong> You play the guitar and the instrument attempts to help you recover a lost memory. You can either have a specific memory in mind, such as trying to remember a childhood event, or let the guitar find a memory for you. You recall the moment with perfect clarity and reestablish it permanently in your mind with the failure effects of modify memory.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Memory Palace",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>A <em>memory palace</em> is an elaborate magical structure that safely stores memories for easy access. It appears to be a miniature Taldan villa small enough to fit in the palm of a human hand.</p>\n<p><strong>Activate</strong> (10 minutes) envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The miniature grows into a building connected to the Astral Plane for 1 hour. The memory palace has a 30-foot-square central courtyard surrounded by 12 10-foot-square chambers. Arranged within these chambers are various items referred to as the palace's nodes-statues, tapestries, fountains, and other works of art are common, but a node can take other forms at the GM's discretion. As a 10-minute activity, you can imprint one extended memory onto a node: the contents of a specific simple book, for example, or the events of a recent adventure. When you do, the node changes its shape and appearance to visually represent the memory you have imprinted onto it. If the node was already imprinted with a memory, the old one can be overwritten to repurpose the node.</p>\n<p>Memories you have imprinted on a node can be mentally accessed at any time by a creature holding the <em>memory palace</em> in its miniature form, regardless of who imprinted them. This grants a +2 item bonus to Recall Knowledge checks relating to details specifically occurring within the memory. What exactly qualifies is up to the GM's discretion, but a node shouldn't grant the benefits for most uses of a given skill. For example, a node dedicated to a book about trees found in the Mwangi Expanse would help with Recall Knowledge checks for such trees, but it wouldn't grant the benefits for all Nature checks to Recall Knowledge.</p>\n<p>A <em>memory palace</em> node can also store the text from a spellbook or magical tome, but these memories aren't a substitute for having the book in your possession. A wizard can't prepare spells from a <em>memory palace</em>, though they could use it as source material to try to Learn a Spell. However, since storing spells in a node would only benefit someone else who later discovers the memory palace, few choose to take such an action. The memories contained within the nodes aren't real, and thus don't cause harmful effects, even if the source of the memory was a mental danger. Many <em>memory palaces</em> have leftover memories from previous users-now long dead-imprinted on their various nodes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Menacing (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Common among brutes who use the magic to scare others into compliance, menacing runes lend you a formidable appearance, granting you a +2 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] others.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The rune casts a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Fear]spell (DC 25).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Menacing",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Common among brutes who use the magic to scare others into compliance, menacing runes lend you a formidable appearance, granting you a +1 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] others.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Mender's Soup",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>This hot, broth-based soup typically contains tubers, leeks, zesty spices, reagents, and if desired, the meat of livestock. Civic authorities commission batches of mender's soup for workers if a tricky job is on the agenda. After you eat the soup, its effects last 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to Crafting checks to Repair and restore an additional 5 Hit Points to items you successfully Repair during this time.</p>\n<p>If you eat mender's soup over the entire period required to attempt a Crafting check to Craft (typically a minimum of eating the soup each day for 4 days), the +1 bonus from the soup can be applied to that check, too.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Mending Lattice",
+    "price": {
+      "gp": 525
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> The affixed item would take damage</p>\n<p><strong>Requirements</strong> You are trained in Crafting</p>\n<hr />\n<p>This lattice of reinforced iron is shaped into a perfect octagon. When you activate it, it negates the damage and instantly and completely repairs the affixed item.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Mentalist's Staff (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mindlink] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Paranoia]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Hypercognition] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Mentalist's Staff (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mindlink] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Paranoia]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Hypercognition] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Rewrite Memory] @UUID[Compendium.pf2e.spells-srd.Item.Telepathy]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Hallucination] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain] @UUID[Compendium.pf2e.spells-srd.Item.Synaptic Pulse]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Mentalist's Staff",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Daze]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Mindlink] @UUID[Compendium.pf2e.spells-srd.Item.Phantom Pain]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Merchant's Guile",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>The band of this ring is made from blue-colored iron and has two sharp, decorative protrusions on each side of the red-stone inlay. It feels quite heavy and reliable. Wearing this ring grants you a +2 item bonus to Deception and Diplomacy checks, but only if the associated checks involve haggling or bargaining over a purchase or trade.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, interact</p>\n<hr />\n<p><strong>Effect</strong> You can determine if an item is magical simply by handling it. You detect no other indication of its power, only whether or not it is magical, granting the effects of a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic] spell that affects only the object.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Merchant's Scale",
+    "price": {
+      "sp": 2
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Merciful Balm",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Smelling strongly of herbs and pine resin, <em>merciful balm</em> is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the nonlethal trait for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Merciful Balm]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Merciful Charm",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You Strike with the affixed weapon</p>\n<p><strong>Requirements</strong> You're trained in the affixed weapon.</p>\n<hr />\n<p>This small limestone pendant is typically carved in the shape of clasped hands. When activated, the affixed weapon gains the nonlethal trait for the triggering attack and all other attacks for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Merciful Charm]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Merciful",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>Merciful weapons are sheathed in an unmistakable wispy green aura recognized by both gladiators and guards around the world. A <em>merciful</em> weapon has the nonlethal trait and can't be used to make a lethal attack. Any persistent damage the weapon would deal is negated.</p>\n<p>On a critical hit, a merciful weapon causes the target to become @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with the weapon's wielder for 1 minute, as the target is bombarded with feelings of guilt and remorse. This is a mental effect. If you have access to the weapon's critical specialization effect, you choose whether to use it or the <em>merciful</em> effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Mercurial Mantle",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to Acrobatics and Stealth, and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement.</p>\n<p>When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An enemy misses you with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You slip around the attacking creature with ease. You Step, without moving away from the triggering enemy, and then make a melee Strike against the triggering enemy if it's within reach. If you do make a Strike, the target attempts a @Check[perception|dc:38|name:Detect Reaction|showDC:all] check before you roll.</p>\n<p><strong>Failure</strong> This creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the Strike.</p>\n<p><strong>Critical Failure</strong> This creature is off-guard against all your attacks until the end of their next turn.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (conjuration, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The cloak hums with power as your whirl it around yourself, disappearing amid a brief flash of light. Teleport up to double your Speed to a location you can see. At the end of the teleportation, you can make a melee Strike against a creature within reach, if there is one.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Mesmerizing Opal",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>This silver-bound opal pendant is afire with iridescence. When you activate it, attempt a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.Feint]. If the outcome is a success, you get a critical success instead. If the outcome is a critical failure, you get a failure instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Messenger Missive (Multiple)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p>A messenger missive sends itself. When composing the missive, you write a location upon it. You can also include an individual creature you expect to be in that location as a recipient; if you don't, the first creature in the location to touch the missive is treated as the recipient. Once you finish composing the missive, it folds itself into the shape of a bird and Flies at a Speed of 45 feet (15 miles per hour) toward the location for up to 24 hours. It alights near its recipient or in their hand. When activated, the missive becomes non-magical but retains its contents. If it fails to reach its recipient in 24 hours, the missive burns to ash.</p>\n<p>You can write up to four locations on the missive, one on each edge of the paper; you can include a recipient for each location, as well. When you finish composing the missive, it folds into four identical missive birds, each one flying to one of the locations carrying the same message.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "missive"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Messenger Missive",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p>A messenger missive sends itself. When composing the missive, you write a location upon it. You can also include an individual creature you expect to be in that location as a recipient; if you don't, the first creature in the location to touch the missive is treated as the recipient. Once you finish composing the missive, it folds itself into the shape of a bird and Flies at a Speed of 45 feet (15 miles per hour) toward the location for up to 24 hours. It alights near its recipient or in their hand. When activated, the missive becomes non-magical but retains its contents. If it fails to reach its recipient in 24 hours, the missive burns to ash.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "missive"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Messenger's Ring (Greater)",
+    "price": {
+      "gp": 13500
+    },
+    "description": "<p>This silver signet ring changes to match the insignia of a lord or organization you serve (or your own face, if you serve no one else). It grants you a +3 item bonus to Diplomacy checks and lets you cast @UUID[Compendium.pf2e.spells-srd.Item.Message] as an arcane innate spell at will.</p>\n<hr />\n<p><strong>Activate—Dispatch Messenger</strong> 1 minute (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The ring casts @UUID[Compendium.pf2e.spells-srd.Item.Animal Messenger] to your specification. The animal is a magical creature that springs from the ring, and its appearance suits the iconography or heraldry of the lord or organization represented by the ring.</p>\n<hr />\n<p><strong>Activate—Sending</strong> <span class=\"action-glyph\">3</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The ring casts @UUID[Compendium.pf2e.spells-srd.Item.Sending] to your specifications.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Messenger's Ring",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This silver signet ring changes to match the insignia of a lord or organization you serve (or your own face, if you serve no one else). It grants you a +2 item bonus to Diplomacy checks and lets you cast @UUID[Compendium.pf2e.spells-srd.Item.Message] as an arcane innate spell at will.</p>\n<hr />\n<p><strong>Activate—Dispatch Messenger</strong> 1 minute (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The ring casts @UUID[Compendium.pf2e.spells-srd.Item.Animal Messenger] to your specification. The animal is a magical creature that springs from the ring, and its appearance suits the iconography or heraldry of the lord or organization represented by the ring.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Metalmist Sphere (Greater)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.</p>\n<hr />\n<p>The radius of the burst is 15 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Metalmist Sphere (Lesser)",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.</p>\n<hr />\n<p>The radius of the burst is 5 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Metalmist Sphere (Moderate)",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.</p>\n<hr />\n<p>The radius of the burst is 10 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Meteor Hammer",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This weapon consists of a long chain connected to a heavy weight at one end. When a wielder swings the weight by the chain, it builds momentum and can serve as a deadly bludgeon with incredible reach.</p>",
+    "rarity": "common",
+    "traits": [
+      "backswing",
+      "disarm",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Meteor Shield",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Shield throw 30 ft.</p>\n<p>Meteor shields are specifically designed with throwing in mind. A meteor shield is made from thin steel and has quick-release straps, allowing for easy, long-distance throws.</p>",
+    "rarity": "common",
+    "traits": [
+      "shield-throw-30"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Meteor Shot (Greater)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This craggy stone ammunition is warm to the touch. When you fire an activated meteor shot, it explodes into a small swarm of meteors as it reaches its target, scorching nearby creatures and littering the ground with rubble. In addition to the weapon's normal damage, the meteor shot deals fire damage and the ground in the area becomes difficult terrain.</p>\n<p>The ammunition deals @Damage[6d6[fire]|options:area-damage] damage in a @Template[emanation|distance:10] around the target (@Check[reflex|dc:29|basic|name:Meteor Shot|options:area-effect] save).</p>\n<p>In addition, the Strike gains the following critical failure effect.</p>\n<hr />\n<p><strong>Critical Failure</strong> The weapon misfires.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire",
+      "magical",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Meteor Shot (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This craggy stone ammunition is warm to the touch. When you fire an activated meteor shot, it explodes into a small swarm of meteors as it reaches its target, scorching nearby creatures and littering the ground with rubble. In addition to the weapon's normal damage, the meteor shot deals fire damage and the ground in the area becomes difficult terrain.</p>\n<p>The ammunition deals @Damage[9d6[fire]|options:area-damage] damage in a @Template[emanation|distance:20] around the target (@Check[reflex|dc:37|basic|name:Meteor Shot|options:area-effect] save).</p>\n<p>In addition, the Strike gains the following critical failure effect.</p>\n<hr />\n<p><strong>Critical Failure</strong> The weapon misfires.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire",
+      "magical",
+      "splash"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Meteor Shot",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This craggy stone ammunition is warm to the touch. When you fire an activated meteor shot, it explodes into a small swarm of meteors as it reaches its target, scorching nearby creatures and littering the ground with rubble. In addition to the weapon's normal damage, the meteor shot deals fire damage and the ground in the area becomes difficult terrain.</p>\n<p>The ammunition deals @Damage[3d6[fire]|options:area-damage] damage in a @Template[emanation|distance:5] around the target (@Check[reflex|dc:23|basic|options:area-effect] save).</p>\n<p>In addition, the Strike gains the following critical failure effect.</p>\n<hr />\n<p><strong>Critical Failure</strong> The weapon misfires.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire",
+      "magical",
+      "splash"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Metronomic Hammer",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>A polished brass metronome ticks rhythmically within the haft of this <em>+1 striking gnome hooked hammer</em>. Gnome adherents of Brigh often attempt to reproduce this item as part of a ritual symbolizing methodical problem-solving and thoughtful craftsmanship.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Trip] a creature with the <em>metronomic hammer</em></p>\n<hr />\n<p><strong>Effect</strong> By timing the sweeping arcs of your Trip attempt to the built-in metronome of a <em>metronomic hammer</em>, you gain a +1 item bonus to your Athletics check to Trip the target. This item bonus increases by 1 with every subsequent Trip attempt you make with the <em>metronomic hammer</em> against the same target this turn, to a maximum of +3 on your third Trip. The bonus resets to +1 if you successfully Trip the target, if you critically fail to Trip the target, or if your turn ends.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "gnome",
+      "trip",
+      "two-hand-d10",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Metuak's Pendant",
+    "price": {
+      "gp": 155
+    },
+    "description": "<p>This black quartz pendant carved in the shape of an angel's feather hangs from a leather cord worn around the neck. Once worn by Metuak of the Burning Mammoths, this family heirloom anchors you to your ancestors, preserving your sense of self and protecting your mind from mental manipulation and demonic possession. You gain a +1 item bonus to saving throws against mental effects that would make you @UUID[Compendium.pf2e.conditionitems.Item.Confused], @UUID[Compendium.pf2e.conditionitems.Item.Controlled], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], or @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]. This bonus increases to +2 if the source of the effect is a fiend.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You succeed or critically succeed at a saving throw against a mental effect that would make you confused, controlled, frightened, or stupefied</p>\n<hr />\n<p><strong>Effect</strong> Empowered by your determination, your ancestors protect you and your nearby allies. For 1 minute, you and each of your allies within 30 feet gains a +1 status bonus to saving throws against mental effects that would make you confused, controlled, frightened, or stupefied.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Metuak's Pendant]</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Midday Lantern (Greater)",
+    "price": {
+      "gp": 3700
+    },
+    "description": "<p>This hooded lantern is made from brilliant, reinforced gold engraved with the image of the sun high in the sky. The lantern uses oil, as a standard lantern, except that any light the lantern emits is magical and similar to sunlight. The lantern doesn't emit dim light, instead only emitting bright light to its normal radius (20 feet for typical lights when using oil). This bright light is close enough to sunlight to open temple doors that require sunlight or similar light, but it doesn't shine direct sunlight, so it doesn't trigger effects such as a vampire's sunlight weakness.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You raise the lantern and unleash a blast of powerful sunlight. The blast has the effects of 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Blazing Bolt] using a spell attack roll of [[/r {1d20+26} #Midday Lantern (Greater)]]{+26}, with its effect determined by the number of actions you used to activate the lantern.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ]
+  }
+]

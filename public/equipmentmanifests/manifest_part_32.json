@@ -1,0 +1,1310 @@
+[
+  {
+    "level": 17,
+    "name": "Prismatic Plate",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>With its standard-grade dawnsilver polished to a mirrorlike sheen, this <em>+2 resilient glamered dawnsilver breastplate</em> features the religious symbols of the goddesses of the Prismatic Ray pantheon-Desna, Sarenrae, and Shelyn-surrounded by a rainbow-colored set of gems.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You surround yourself in a coruscating field of red, orange, yellow, green, blue, indigo, and violet light for 1 minute. Each color has a different effect, based on the effects of a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Wall] spell, and you apply the effects of each color once before it disappears from your field of light, which can happen in the following two ways.</p>\n<p>First, the field attempts a counteract check (counteract rank 7, counteract modifier [[/r 1d20+27 #Counteract]]{+27}) against any effect that would be blocked by a chromatic wall of any of the colors still surrounding you in your field of light. Succeed or fail, that color then disappears from your field of light.</p>\n<p>Second, any creature that touches you or damages you with an unarmed attack or non-reach melee weapon is affected by a random remaining color from your field. As normal, this doesn't affect creatures you choose to touch.</p>\n<p>A creature can also remove a color from your field of light by using a specific spell, as described in <em>chromatic wall</em>. The effect ends early if each color disappears from your field of light, or if you choose to Dismiss it.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include 1,600 gp of dawnsilver.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Privacy Ward Fulu (Chamber)",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p>This fulu seeks to keep thieves, spies, and unwanted attention away from a room. A depiction of a lock appears in the center of this fulu, which is in turn surrounded by circles of broken keys. When applied to a wall inside a room, all creatures within the room gain an item bonus to Stealth checks against creatures outside the room.</p>\n<p>The fulu can shield a room of up to 90 square feet, grants a +2 item bonus, and has a duration of 24 hours. If you become hidden within the room, you automatically become undetected to creatures of the fulu's level or lower.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Privacy Ward Fulu (Hallway)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This fulu seeks to keep thieves, spies, and unwanted attention away from a room. A depiction of a lock appears in the center of this fulu, which is in turn surrounded by circles of broken keys. When applied to a wall inside a room, all creatures within the room gain an item bonus to Stealth checks against creatures outside the room.</p>\n<p>The privacy ward fulu can shield a room of up to 10 square feet, grants a +1 item bonus, and has a duration of 1 hour.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Privacy Ward Fulu (Room)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This fulu seeks to keep thieves, spies, and unwanted attention away from a room. A depiction of a lock appears in the center of this fulu, which is in turn surrounded by circles of broken keys. When applied to a wall inside a room, all creatures within the room gain an item bonus to Stealth checks against creatures outside the room.</p>\n<p>The fulu can shield a room of up to 30 square feet, grants a +1 item bonus, and has a duration of 8 hours. If you become @UUID[Compendium.pf2e.conditionitems.Item.Hidden] within the room, you automatically become undetected to creatures of the fulu's level or lower.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Private Workshop",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>A <em>private workshop</em> is a model building about the size of a music box that resembles a smithy, tannery, alchemy lab, or other crafting facility.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Private Workshop (Using for Crafting)]</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The model workshop transforms into a full-sized square workshop of the represented type. The walls are 15 feet wide and the ceiling is 10 feet high. The workshop is stocked with mundane tools and can be used to Craft items appropriate to the workshop with a +1 item bonus, but you must supply any raw materials.</p>\n<p>You can pull on a cord hanging from the workshop's ceiling as an Interact action to revert the private workshop to its model form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "structure"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Probing Cane",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>Your cane indicates that you have low vision or are blind. By holding this cane in front of you, you indicate to those around that you're partially sighted, which is particularly useful in urban or busy places to let others know to give you enough space. The cane is typically several feet long, generally reaching the user's chin, but can be lengthened or shortened as needed.</p>\n<p>Probing canes are made from reinforced wood with the same strengthening process and treatment as a longbow, creating a cane that is both high quality and durable enough for an adventuring owner to use as a weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "finesse",
+      "sweep"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Prognostic Veil (Greater)",
+    "price": {
+      "gp": 21000
+    },
+    "description": "<p>This gauzy purple veil is embroidered with symbols of divinatory significance. As your curse worsens, the veil ripples in an ever-increasing unseen wind. You gain a +3 item bonus to Religion checks.</p>\n<p><strong>Activate—Remember the Future</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a revelation spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Activate—Twist the Skeins of Fate</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An ally within 30 feet is about to attempt a saving throw or an attack roll</p>\n<p><strong>Requirements</strong> You have the @UUID[Compendium.pf2e.conditionitems.Item.Cursebound] condition</p><hr /><p><strong>Effect</strong> The ally gains a status bonus to the saving throw or attack roll equal to the value of your cursebound condition.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Twist the Skeins of Fate]</p><hr /><p><strong>Craft Requirements</strong> You're an oracle.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Prognostic Veil",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This gauzy purple veil is embroidered with symbols of divinatory significance. As your curse worsens, the veil ripples in an ever-increasing unseen wind. You gain a +2 item bonus to Religion checks.</p>\n<p><strong>Activate—Remember the Future</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a revelation spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Activate—Twist the Skeins of Fate</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An ally within 30 feet is about to attempt a saving throw</p>\n<p><strong>Requirements</strong> You have the @UUID[Compendium.pf2e.conditionitems.Item.Cursebound] condition</p><hr /><p><strong>Effect</strong> The ally gains a status bonus to the saving throw equal to the value of your cursebound condition.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Twist the Skeins of Fate]</p><hr /><p><strong>Craft Requirements</strong> You're an oracle.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Propulsive Boots",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>These sleek red boots make your legs feel like they're bursting with energy. You gain a +5-foot item bonus to your land Speed and to any climb or swim Speeds you have.</p>\n<p><strong>Activate—Quickening Stomp</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You stomp three times and gain the @UUID[Compendium.pf2e.conditionitems.Item.Quickened] condition for 1 minute. You can use the extra action to Stride, @UUID[Compendium.pf2e.actionspf2e.Item.Climb], or @UUID[Compendium.pf2e.actionspf2e.Item.Swim]. (You must still attempt an Athletics check for the Climb and Swim actions unless you have the appropriate movement type.)</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Prosthesis",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A prosthesis replaces a missing or damaged body part. Typical prostheses include artificial feet, eyes, hands, and limbs, though a basic prosthesis can be designed as a replacement for any body part. Advancements in the prosthetic field mean that even the most basic of prostheses can provide the full range of functionality for a missing body part.</p>\n<p>A prosthesis has a number of belts or cuffs that keep it attached to your body. You can attach or remove a prosthesis as an Interact action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 13,
+    "name": "Psychic Brigandine",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Transparent crystals as hard as steel take the place of metal plates on this suit of +2 greater invisibility splint mail. Also known as a coat of a thousand thoughts in Vudra and Jalmeray, where it was first developed by psychic warriors, it makes your mind an indomitable fortress. You gain resistance 5 to mental damage.</p>\n<p>Whenever you use the armor to become invisible, you also become psychically invisible. Each time you would be affected by an effect with the mental trait while you are invisible, attempt a @Check[flat|dc:17] check. On a success, it doesn't affect you.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Psychic Colors Elixir",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This orange liquid lets you visibly detect the psychic energies that enable telekinesis and telepathy. For the next minute, you can sense if a creature you can see is using a telepathic or telekinetic ability, such as the telepathy monster ability, spells like @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Projectile] or @UUID[Compendium.pf2e.spells-srd.Item.Telepathic Bond], or similar abilities. You also can sense if an object or creature you can see is being manipulated or contacted by such an ability. Both the user and the target of the ability are outlined in faint shimmers of matching color.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Psychic Warding Bracelet",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This set of reflective metal wires takes 10 minutes to properly tie along the wrist's energy meridians, then repels attempts at mental manipulation. You gain a +2 item bonus to your next save against a mental effect after tying on the bracelet. After this save, the metal strands tarnish and fall off (possibly alerting the wearer or others that their mind has been tampered with).</p>\n<p>You can remove the bracelet with an Interact action, but doing so breaks the bracelet's alignment and requires you to spend another 10 minutes to carefully tie it back on.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Psychopomp Mask",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These minor magic items are painted to resemble your face, or some metaphorical depiction thereof, to encourage the ushers of death to take the mask in your place. If you begin your turn with a dying value of 3 or greater, instead of making your recovery check, you lose the dying condition but remain unconscious at 0 Hit Points. The mask then cracks in half and is destroyed. The psychopomps won't be so easily fooled again-you are temporarily immune to the effects of any psychopomp mask for 1 year.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pucker Pickle",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Sharp and pungent, but tasty, pucker pickles were created by goblin alchemists working to avoid being eaten by larger creatures. For 1 hour after eating a pucker pickle, you smell slightly of pickle, but you have a horrendous taste. Once a creature hits you with a Strike using an attack that allows it to taste you, such as a jaws Strike, it takes a –2 circumstance penalty to further attacks against you that allow it to taste you, including attacks like @UUID[Compendium.pf2e.actionspf2e.Item.Grapple]{Grappling} or @UUID[Compendium.pf2e.actionspf2e.Item.Trip]{Tripping} you using its jaws or Swallowing you Whole. Creatures, especially animals, often choose other targets after tasting you. Any creature that Engulfs you or Swallows you Whole is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. If it spends an action retching to reduce the sickened condition, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] as a reaction.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Pucker Pickle]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Puff Dragon",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p>This cute and unassuming dragon toy activates once a creature moves into its square. It then unleashes a rapid burst of toxic gas in a @Template[emanation|distance:10]{10-foot emanation}. Those within the emanation when the snare is activated must attempt a @Check[fortitude|dc:25] Fortitude saving throw or take @Damage[3d6[poison]] damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "mechanical",
+      "poison",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Pummel-Growth Toxin",
+    "price": {
+      "gp": 550
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This substance is the result of a failed alchemical experiment to regrow a severed arm. An extra outsized, uncontrolled limb of the sort used for manipulation grows from the victim's body. The limb initially flails about, throwing the creature off-balance. Once it \"matures,\" the limb pummels the victim instead. The limb can't deal its bludgeoning damage if the victim is unable to take actions. Upon recovery from the poison, the extra limb withers and falls off.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[4d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and must succeed at a @Check[flat|dc:5] to perform an action with the manipulate trait or the action fails and is lost (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]], clumsy 1, @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1}, @Damage[2d6[bludgeoning]] (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2}, @Damage[4d6[bludgeoning]] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "morph",
+      "poison"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Pummeling Snare",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This snare unleashes a trio of large stones that batter the creature entering the snare's square, dealing @Damage[6d8[bludgeoning]] damage (@Check[reflex|dc:21|basic|showDC:all]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Purgatory Emissary's Staff",
+    "price": {
+      "gp": 1820
+    },
+    "description": "<p>This ash wood staff is topped by a long tassel of bleached-white horsehair. Historically carried by the most important of court officials throughout various regions and periods of Tian Xia's history, purgatory emissary's staves are also strongly associated with psychopomps serving punitive sentences. It's thought this connection is a comical nod to the bureaucratic nature of the afterlife.</p>\n<p>Psychopomps and spirits tend to regard you with a level of respect while you carry a <em>purgatory emissary's staff</em>. While you wield this staff, you receive a +2 item bonus to all skill checks made to adjust a psychopomp's or spirit's attitude.</p>\n<p>When used as a weapon, a purgatory emissary's staff is a <em>+2 striking ghost touch staff.</em></p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Vitality Lash]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Command], @UUID[Compendium.pf2e.spells-srd.Item.Sanctuary]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind] (@UUID[Compendium.pf2e.conditionitems.Item.Frightened] only), @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], @UUID[Compendium.pf2e.spells-srd.Item.Ring of Truth]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic], @UUID[Compendium.pf2e.spells-srd.Item.Talking Corpse]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Banishment], @UUID[Compendium.pf2e.spells-srd.Item.Truespeech]</li>\n</ul>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Purifying Spoon (Ladle)",
+    "price": {
+      "gp": 32
+    },
+    "description": "<p>A phrase of luck is carved into the handle of this wooden ladle. While a variety of other cutlery with similar properties exists, a spoon is often the most convenient and inconspicuous to carry.</p>\n<hr />\n<p><strong>Activate - Purify</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You stir the spoon in food or drink, casting @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Cuisine] on the substance as you stir. This spoon is perfect for pouring heartwarming meals into bowls. It can purify up to 16 gallons of food or drink.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wood"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Purifying Spoon (Tablespoon)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>A phrase of luck is carved into the handle of this wooden tablespoon. While a variety of other cutlery with similar properties exists, a spoon is often the most convenient and inconspicuous to carry.</p>\n<hr />\n<p><strong>Activate - Purify</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You stir the spoon in food or drink, casting @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Cuisine] on the substance as you stir. This larger spoon can purify up to 8 gallons of food or drink.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wood"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Purifying Spoon (Teaspoon)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A phrase of luck is carved into the handle of this wooden teaspoon. While a variety of other cutlery with similar properties exists, a spoon is often the most convenient and inconspicuous to carry.</p>\n<hr />\n<p><strong>Activate - Purify</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You stir the spoon in food or drink, casting @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Cuisine] on the substance as you stir. This small spoon can purify up to 1 gallon of food or drink.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wood"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Purloining Cloak",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+30]]{+30}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and two other languages, usually regional and ancestral)</p>\n<p><strong>Skills</strong> Society [[/r 1d20+31]]{+31}, Thievery [[/r 1d20+31]]{+31}, Underworld Lore [[/r 1d20+31]]{+31}</p>\n<p><strong>Int</strong> +5, <strong>Wis</strong> +5, <strong>Cha</strong> +5</p>\n<p><strong>Will</strong> [[/r 1d20+30]]{+30}</p>\n<hr />\n<p>Each purloining cloak is a mercurial mantle once worn by a legendary thief or two. The cloak became infused with a daredevil spirit and a penchant for high-stakes thievery. If its owner isn't willing to partake in such activities, the cloak tries to convince them to sell or give it to someone who will. A purloining cloak can use tendrils of its cloth to attempt Thievery checks to Palm an Object or @UUID[Compendium.pf2e.actionspf2e.Item.Steal], proudly offering you its loot later. In addition to those of a mercurial mantle, a purloining cloak has the following activations.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Effect</strong> The cloak casts 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] on you, usually to your specifications. However the cloak can choose the appearance of the illusion for you.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Effect</strong> The cloak assesses the price of valuables it can see. This valuation doesn't include the value of features the cloak can't discern, such as magical properties.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An enemy misses you with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You slip around the attacking creature with ease. You Step, without moving away from the triggering enemy, and then make a melee Strike against the triggering enemy if it's within reach. If you do make a Strike, the target attempts a @Check[perception|dc:38|name:Detect Reaction|showDC:all] check before you roll.</p>\n<p><strong>Failure</strong> This creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the Strike.</p>\n<p><strong>Critical Failure</strong> This creature is off-guard against all your attacks until the end of their next turn.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (conjuration, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The cloak hums with power as your whirl it around yourself, disappearing amid a brief flash of light. Teleport up to double your Speed to a location you can see. At the end of the teleportation, you can make a melee Strike against a creature within reach, if there is one.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "intelligent",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Purple Worm Repellent",
+    "price": {
+      "gp": 550
+    },
+    "description": "<p>Cave worm repellent is a highly noxious oil that can be applied to a creature or sprinkled in a circle around a 10-foot-radius area. In either case, after it is applied, it lasts for 24 hours or until it is scrubbed clean with 1 minute of work.</p>\n<p>When applied to a creature, the repellent causes cave worms of the indicated type to avoid attacking that creature in melee as long as they have something else nearby to attack. The repellent does not deter a cave worm from making ranged attacks against a coated target. If no creatures are within a cave worm's reach and it wants to approach and make a melee attack, it approaches and attacks a non-coated creature if it can without spending more actions to do so.</p>\n<p>If the coated creature is swallowed by the designated type of cave worm, the cave worm must succeed at a Fortitude save or involuntarily regurgitate the swallowed creature on the next round (a single action).</p>\n<p>When sprinkled around an area, cave worm repellent negates any chance of a random encounter with the particular type of cave worm in that area, as the creatures purposefully avoid the affected area.</p>\n<p>Other types of repellent that function similarly to this one might exist at the GM's discretion. Uncommon or rare creatures are typically much harder to repel, and repellent against them might necessitate harvesting ingredients from the creatures themselves (such as the creature's liver or a certain gland).</p>\n<p><strong>Activate</strong> 1 minute (Interact)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Putrescent Glob",
+    "price": {
+      "gp": 65
+    },
+    "description": "<p><strong>Usage</strong> affixed to a weapon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You damage a creature that is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} with a Strike using the affixed weapon</p>\n<p><strong>Requirements</strong> You are an expert with the affixed weapon.</p>\n<hr />\n<p>This repulsive, hairy glob dangles from the end of your weapon. When you activate the putrescent glob, the creature you damaged must succeed at a @Check[fortitude|dc:23] save or its sickened condition increases to @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}, and it can't reduce its sickened condition until the end of its next turn. On a critical failure, it's also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} until the end of its next turn.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Putrid Sack of Rotting Fruit",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Each of these unassuming sacks contains enough rotting fruit to provide a fungus leshy with 1 week's worth of rations, along with clusters of stones to help press out the fruit's juices. Since their last adventure, Reaching Rings has refined their rations's ability to serve as a weapon in addition to delicious, flavorful sustenance.</p>\n<p>A sack of rotting fruit has a range increment of 20 feet. When you succeed at a ranged Strike on a creature by hurling a putrid sack of rotten fruit at them, the sack is consumed while the creature takes @Damage[2d6[bludgeoning]] damage and must attempt a @Check[fortitude|dc:17] save.</p>\n<p><strong>Success</strong> The creature is unaffected by the foul smell of the fruit.</p>\n<p><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Puzzle Box (Challenging) (Hollow)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 25 Games Lore or @Check[thievery|dc:25|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Puzzle Box (Challenging)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 25 Games Lore or @Check[thievery|dc:25|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Puzzle Box (Complex) (Hollow)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 20 Games Lore or @Check[thievery|dc:20|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Puzzle Box (Complex)",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 20 Games Lore or @Check[thievery|dc:20|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Puzzle Box (Simple) (Hollow)",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 15 Games Lore or @Check[thievery|dc:15|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Puzzle Box (Simple)",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 15 Games Lore or @Check[thievery|dc:15|name:Puzzle Box] checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 2,
+    "name": "Pyrite Rat",
+    "price": {
+      "gp": 32
+    },
+    "description": "<p>This lustrous, rat-shaped pyrite statuette is 1 inch tall. When activated, the statuette transforms into a flesh-and-blood giant rat. You can use the following action when you hold the <em>pyrite rat</em>. You can use this action only once per day, and the rat remains transformed for 1 hour.</p>\n<p><strong>Transform Statue</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You place the statue on solid ground and speak the rat's secret name, causing the statuette to transform into a living @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Giant Rat].</p>\n<p>In creature form, the giant rat acts on your turn. It gets 2 actions and can't use reactions. You have to spend an action each turn to tell it what to do; otherwise, it tries to run away from danger or cowers where it is.</p>\n<p>If the rat is slain while in animal form, it reverts to its statue shape and can't be transformed again until 1 week has passed. If the figurine is destroyed while in its statue form, it's shattered and its magical properties are lost forever.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Pyrite",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Pyronite",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>A stick of pyronite is a devastating explosive that fills an area with fire and concussive force when it detonates—as long as its fuse has been lit!</p>\n<p>Pyronite is an unstable material with a limited shelf life. Sticks of pyronite must be kept dry and cool; otherwise, the raw pyronite will leak out of the rods and collect as a semi-transparent goo that explodes on any impact or loud noise, with an explosive effect equal to half the number of rods.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Activating a stick of pyronite is usually a two-action activity. First, you interact with the pyronite to light its fuse with a source of fire. This fire source can be an object you hold in another hand, such as a tindertwig or a lit torch, or it can be a free-standing adjacent fire. Once the fuse is lit, you throw it (an Interact action with the ranged trait) up to 50 feet away—if you hurl it into an existing fire, you don't need to take the initial action to light its fuse and can Activate the pyronite with only one action. You can toss the pyronite anywhere within 50 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging.</p>\n<p>Once a stick of pyronite's fuse is lit, it explodes at the end of your turn, regardless of whether you've thrown it or not. (A lit fuse can be extinguished with an Interact action.) If multiple sticks of pyronite detonate at the end of your turn, you can increase the area, but not the damage, of this effect. When the pyronite explodes, all creatures in a @Template[burst|distance:20] must attempt a @Check[reflex|dc:28] save or take @Damage[3d6[fire]] damage and @Damage[3d6[bludgeoning]] damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Failure</strong> The creature takes full damage and is deafened for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone], @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}, and deafened for 1 hour.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Qat",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The save for addiction to qat is @Check[fortitude|dc:14|name:Qat Addiction|showDC:owner], but the maximum addiction stage of qat never progresses beyond stage 1.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14|showDC:owner]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 8 hours</p>\n<p><strong>Stage 1</strong> +1 item bonus to Reflex saves (10 minutes)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Qat (Stage 1)]</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Quality painting by an unknown",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Quality sculpture by an unknown",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Quartz, milky, rose, or smoky",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Quartz, rock crystal",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 17,
+    "name": "Queasy Lantern (Greater)",
+    "price": {
+      "gp": 13500
+    },
+    "description": "<p>This @UUID[Compendium.pf2e.equipment-srd.Item.Lantern (Bull's Eye)] is wrapped in decrepit leather skin. It constantly emits light in a @Template[cone|distance:60] (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's @Template[cone|distance:60] of bright light (but not those in the dim light), must attempt a @Check[fortitude|dc:37|name:Queasy Lantern|showDC:all] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 4} on a critical failure). The light then reverts to normal as the lens slides out of place.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Queasy Lantern (Lesser)",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p>This @UUID[Compendium.pf2e.equipment-srd.Item.Lantern (Bull's Eye)] is wrapped in decrepit leather skin. It constantly emits light in a @Template[cone|distance:60] (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's @Template[cone|distance:60] of bright light (but not those in the dim light), must attempt a @Check[fortitude|dc:23|name:Queasy Lantern|showDC:all] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure). The light then reverts to normal as the lens slides out of place.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Queasy Lantern (Moderate)",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p>This @UUID[Compendium.pf2e.equipment-srd.Item.Lantern (Bull's Eye)] is wrapped in decrepit leather skin. It constantly emits light in a @Template[cone|distance:60] (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's @Template[cone|distance:60] of bright light (but not those in the dim light), must attempt a @Check[fortitude|dc:29|name:Queasy Lantern|showDC:all] save. On a failure, a creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} on a critical failure). The light then reverts to normal as the lens slides out of place.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Quenching (Greater)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This rune counters burning and corrosive agents. Armor with this rune reduces the DC of the flat check to end persistent acid or fire damage affecting you from 15 to 10 (5 with particularly effective assistance).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Quenching (Major)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This rune counters burning and corrosive agents. Armor with this rune reduces the DC of the flat check to end persistent acid or fire damage affecting you from 15 to 8 (3 with particularly effective assistance).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Quenching Potion",
+    "price": {
+      "gp": 85
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Quenching potion is a clear liquid that tastes like fresh, cool spring water. Drinking this potion or pouring it over yourself completely hydrates you and cleanses your system. Immediately attempt a flat check to end any persistent acid, fire, poison, or void damage affecting you, and attempt a new saving throw against any poison affecting you. Poison can't progress to a worse stage due to this saving throw. The potion counts as a particularly appropriate type of help against persistent acid, fire, poison, and void damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Quenching (True)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This rune counters burning and corrosive agents. Armor with this rune reduces the DC of the flat check to end persistent acid or fire damage affecting you from 15 to 5 (particularly effective assistance automatically removes the persistent acid or fire damage).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Quenching",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This rune counters burning and corrosive agents. Armor with this rune reduces the DC of the flat check to end persistent acid or fire damage affecting you from 15 to 12 (7 with particularly effective assistance).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Quick-Change Outfit",
+    "price": {},
+    "description": "<p>A quick-change outfit is in fact two separate outfits sewn together. The specialized sewing technique allows you to switch quickly between the two outfits. You can use 3 consecutive Interact actions to slip out of the outfit, swap to the other side, and slip it back on. The two outfits can be of any kind (such as ordinary clothing and fine clothing) and appear as one outfit on one side and the second outfit on the other. The outfit's appearance is purely superficial, so you don't receive any special benefits from an outfit (such as protection from environmental cold with winter clothing), though the GM might still apply specific benefits like the bonus to checks with high-fashion fine clothing. You can notice the odd features of a quick-change outfit (such as extra seams) with a successful @Check[perception|dc:20] check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics, and its Bulk is 1 higher than the highest Bulk values of the two outfits.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Quick Runner's Shirt (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This light shirt is made of thin fabric embroidered with arrangements of winged feet.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Your feet feel lighter, allowing you to move with greater speed. You Stride three times and gain a +10-foot item bonus to your Speed during those Stride actions.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Quick Runner's Shirt",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This light shirt is made of thin fabric embroidered with arrangements of winged feet.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Your feet feel lighter, allowing you to move with greater speed. You Stride twice and gain a +10-foot item bonus to your Speed during those Stride actions.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Quick Wig",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>A <em>quick wig</em> magically conceals your natural hair while worn, eliminating the need to braid or pin your hair beneath it. In addition, your facial hair and eyebrows change color to match the wig while you wear it. When used as part of a Deception check to Impersonate to go unrecognized by changing your hair, you no longer require a disguise kit, you gain a +1 item bonus on the check, and you reduce the time to create the disguise from 10 minutes to 5 minutes. You still need a disguise kit and the full time if you're using cosmetics and other props to change other aspects of your disguise or Impersonating a specific person, and the wig only provides its item bonus when Impersonating a specific person if that person's hair color and style match the wig's. <em>Quick wigs</em> detangle themselves while not in use.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Quickmelt Slick (Greater)",
+    "price": {
+      "gp": 310
+    },
+    "description": "<p>This clay jar is filled with a warm fluid composed primarily of lagofir oil and natural fire retardants. You can pour the fluid in an empty area adjacent to you, or over an adjacent frozen object, with an Interact action. The fluid instantly melts non-magical ice and snow in the area and harmlessly vaporizes the resulting meltwater. When used to melt magical ice and snow, quickmelt slick attempts a counteract check with the listed counteract modifier to melt the ice and snow, using the source of that ice and snow to determine the counteract rank and DC.</p>\n<p>Greater quickmelt slick melts ice and snow up to 5 feet in depth in a 10-foot-square area or melts the ice covering a Large or smaller object. The slick has a [[/r 1d20+19 #Counteract]]{+19} modifier for the counteract check and a counteract rank of 6.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Quickmelt Slick (Lesser)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This clay jar is filled with a warm fluid composed primarily of lagofir oil and natural fire retardants. You can pour the fluid in an empty area adjacent to you, or over an adjacent frozen object, with an Interact action. The fluid instantly melts non-magical ice and snow in the area and harmlessly vaporizes the resulting meltwater. When used to melt magical ice and snow, quickmelt slick attempts a counteract check with the listed counteract modifier to melt the ice and snow, using the source of that ice and snow to determine the counteract rank and DC.</p>\n<p>Lesser quickmelt slick melts ice and snow up to 1 foot in depth in one 5-foot square, or melts the ice covering a Small or smaller object. The slick has a [[/r 1d20+6 #Counteract]]{+6} modifier for the counteract check and a counteract rank of 1.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Quickmelt Slick (Moderate)",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p>This clay jar is filled with a warm fluid composed primarily of lagofir oil and natural fire retardants. You can pour the fluid in an empty area adjacent to you, or over an adjacent frozen object, with an Interact action. The fluid instantly melts non-magical ice and snow in the area and harmlessly vaporizes the resulting meltwater. When used to melt magical ice and snow, quickmelt slick attempts a counteract check with the listed counteract modifier to melt the ice and snow, using the source of that ice and snow to determine the counteract rank and DC.</p>\n<p>Moderate quickmelt slick melts ice and snow up to 2 feet in depth in two adjacent 5-foot squares, or melts the ice covering a Medium or smaller object. The slick has a [[/r 1d20+8 #Counteract]]{+8} modifier for the counteract check and a counteract rank of 2.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Quickpatch Glue",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p>Quickpatch glue is a fast-setting adhesive designed for rapid but temporary repairs.</p>\n<p>When applied to a broken item, the glue adheres the item's pieces back together. This does not restore the item's hit points, but it allows the item to be used for its normal function and removes the broken condition. The glue is fragile and degrades over time. An item repaired by quickpatch glue regains the broken condition after it takes damage or 1 hour passes (whichever comes first). In order to apply a new vial of quickpatch glue to or repair the item, the item's holder must first remove the glue residue, a process that requires 10 minutes of effort and a set of alchemist's tools.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Quicksilver Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You become swifter and nimbler but also fragile.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +15 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a -2 penalty to Fortitude saves.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Quicksilver Mutagen (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Quicksilver Mutagen (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You become swifter and nimbler but also fragile.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +5 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a -2 penalty to Fortitude saves.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Quicksilver Mutagen (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Quicksilver Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You become swifter and nimbler but also fragile.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +20 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a -2 penalty to Fortitude saves.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Quicksilver Mutagen (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Quicksilver Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>You become swifter and nimbler but also fragile.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +10 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a -2 penalty to Fortitude saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Quicksilver Mutagen (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Quickstrike",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>Attacks with a <em>quickstrike</em> weapon are supernaturally swift. While wielding a <em>quickstrike</em> weapon, you gain the quickened condition, but you can use the additional action granted only to make a Strike with the etched weapon.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Quill of Passage",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This black-feathered quill has a glowing nib with a small amount of glowing ink inside it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Placing the tip of the quill against a wall of wood, plaster, or stone and speaking a command word causes the ink to flow from the nib onto the wall in the shape of a glowing doorway, casting @UUID[Compendium.pf2e.spells-srd.Item.Magic Passage] on the touched surface.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Quilted Armor",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Quilted armor is built in a long coat intended for defensive use without other armor. Quilted armor protects the upper body and legs, differentiating it further from the typical padded undercoat. This armor is frequently made in stylish colors or patterns to facilitate use as protective outerwear or a military uniform.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Radiant Lance",
+    "price": {
+      "gp": 5750
+    },
+    "description": "<p>When wielded in battle, these silver lances blaze with light. A <em>radiant lance</em> is a <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Holy] @UUID[Compendium.pf2e.equipment-srd.Item.Flaming] silver lance</em>.</p>\n<hr />\n<p>When wielded in battle, the <em>radiant lance</em> sheds bright light in a 60-foot radius.</p>\n<hr />\n<p>On a hit against an undead creature that is specifically vulnerable to sunlight, the lance bursts with a brilliant flash of light, and that undead must attempt a @Check[fortitude|dc:35] save. If the attack was a critical hit, the undead uses an outcome one degree of success worse than the result of its saving throw.</p>\n<p><strong>Success</strong> The undead is unaffected.</p>\n<p><strong>Failure</strong> The undead is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> The undead is slowed 1 for 1 minute.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You point the lance at a foe and call out, firing a beam with the effects of a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "divine",
+      "fire",
+      "good",
+      "holy",
+      "jousting-d6",
+      "light",
+      "reach"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Radiant Prism (Greater)",
+    "price": {
+      "gp": 20500
+    },
+    "description": "<p>Any armor or weapon this glass prism is affixed to glows softly with shifting colored lights. The spell DC of any spell cast by activating this item is 38.</p>\n<ul>\n<li><strong>Armor</strong>(light) After you cast an abjuration spell by activating the prism, you glow with dim light in a multitude of shimmering hues, shedding light like a torch and making you @UUID[Compendium.pf2e.conditionitems.Item.Concealed] for 2 rounds.</li>\n<li><strong>Weapon</strong> After you cast an abjuration spell by activating the prism, your Strikes with the weapon gain the <em>brilliant</em> property rune until the end of your next turn. The damage from this rune increases to 2d4 of each type.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Prismatic Armor].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Prismatic Wall].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Radiant Prism (Major)",
+    "price": {
+      "gp": 64000
+    },
+    "description": "<p>Any armor or weapon this glass prism is affixed to glows softly with shifting colored lights. The spell DC of any spell cast by activating this item is 43.</p>\n<ul>\n<li><strong>Armor</strong>(light) After you cast an abjuration spell by activating the prism, you glow with dim light in a multitude of shimmering hues, shedding light like a torch and making you @UUID[Compendium.pf2e.conditionitems.Item.Concealed] for 2 rounds.</li>\n<li><strong>Weapon</strong> After you cast an abjuration spell by activating the prism, your Strikes with the weapon gain the <em>greater brilliant</em> property rune until the end of your next turn. The damage from this rune increases to 3d4 of each type.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Prismatic Armor].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Prismatic Sphere].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Radiant Prism",
+    "price": {
+      "gp": 8600
+    },
+    "description": "<p>Any armor or weapon this glass prism is affixed to glows softly with shifting colored lights. The spell DC of any spell cast by activating this item is 35.</p>\n<ul>\n<li><strong>Armor</strong>(light) After you cast an abjuration spell by activating the prism, you glow with dim light in a multitude of shimmering hues, shedding light like a torch and making you @UUID[Compendium.pf2e.conditionitems.Item.Concealed] until the end of your next turn.</li>\n<li><strong>Weapon</strong> After you cast an abjuration spell by activating the prism, your Strikes with the weapon gain the <em>brilliant</em> property rune until the end of your next turn.</li>\n</ul>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Light].</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Prismatic Armor].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Radiant Spark",
+    "price": {},
+    "description": "<p>This shining prism is bound within a golden frame. The bright glow within the artifact is the gleaming essence of celestials bound within it in ancient times. Each activation consumes a bit of this celestial energy, projecting the screams of the celestials into your mind.</p>\n<p>While holding the Radiant Spark, you gain a +2 item bonus to saving throws against divine spells and effects and you are aware of its powers.</p>\n<p>If you are good, while holding the Radiant Spark, you are @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} and can't recover from this condition.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The Radiant Spark casts a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dominate] spell (@Check[will|dc:49|name:Dominate|traits:enchantment,incapacitation,mental]) on a creature that isn't from the Material Plane. Celestials get an outcome one degree of success worse than the result of their save.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You begin casting a @UUID[Compendium.pf2e.spells-srd.Item.Binding Circle] ritual</p>\n<hr />\n<p><strong>Effect</strong> The Radiant Spark reduces the casting time of the ritual to 1 hour, and you don't need secondary casters for this ritual.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision, Interact</p>\n<p><strong>Trigger</strong> The target critically fails their save against the Radiant Spark's dominate spell or you critically succeed at binding the target with the planar binding ritual using the artifact</p>\n<hr />\n<p><strong>Effect</strong> The target must attempt a @Check[will|dc:49] save and is immune to further attempts for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}.</p>\n<p><strong>Failure</strong> The target dies and its essence is trapped within the Radiant Spark. It can be brought back to life only with powerful magic such as @UUID[Compendium.pf2e.spells-srd.Item.Wish] or @UUID[Compendium.pf2e.spells-srd.Item.Miracle].</p>\n<p><strong>Critical Failure</strong> As failure, and the target can't be brought back to life until the Radiant Spark is destroyed.</p>\n<hr />\n<p><strong>Destruction</strong> An archfiend or evil demigod must willingly swap their essence with that of a celestial dominated or bound by the artifact, then critically fail the saving throw against having their essence consumed. This permanently destroys both the artifact and the fiend or demigod.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "occult"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Raiment",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>This armor can be disguised with a mere thought.</p>\n<p><strong>Activate—Costume Change</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor's statistics don't change. Only a creature that's benefiting from truesight or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Rainbow Vinegar (Greater)",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Access</strong> Tian Xia origin</p><hr /><p>Black swill with multicolored ribbons makes this vinegar look like an oil spill.</p>\n<p>Ingesting a dose of rainbow vinegar makes your sweat acidic and nonconductive for 10 minutes. During this time, your unarmed attacks deal an additional 1d8 acid damage, and you have resistance 15 to electricity. Vampires find this vinegar particularly harmful and take an additional 2d8 acid damage instead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rainbow Vinegar (Greater)]</p>\n<p>Taking more than one dose of rainbow vinegar in a single day gives you weakness 5 to acid until your next daily preparations.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rainbow Vinegar Weakness]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Rainbow Vinegar (Moderate)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Access</strong> Tian Xia origin</p><hr /><p>Black swill with multicolored ribbons makes this vinegar look like an oil spill.</p>\n<p>Ingesting a dose of rainbow vinegar makes your sweat acidic and nonconductive for 10 minutes. During this time, your unarmed attacks deal an additional 1d4 acid damage, and you have resistance 10 to electricity. Vampires find this vinegar particularly harmful and take an additional 2d4 acid damage instead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rainbow Vinegar (Moderate)]</p>\n<p>Taking more than one dose of rainbow vinegar in a single day gives you weakness 5 to acid until your next daily preparations.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Rainbow Vinegar Weakness]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Raining Knives Snare",
+    "price": {
+      "gp": 170
+    },
+    "description": "<p>As soon as a creature enters the snare's square, it unleashes a barrage of knives at the creature from all directions, dealing @Damage[11d8[piercing]] damage (@Check[reflex|dc:29|basic|showDC:all]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Rampart Shield",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>This massive tower shield is painted a cool cyan green and is decorated with an image of Absalom's mother-sphinx emerging from a cresting wave.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>10</td>\n<td>60</td>\n<td>30</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You transform the shield into a 1-foot-thick, 10-foot-by-10-foot stone rampart topped with a battlement and adorned with the flags of Absalom. If any part of the rampart would pass through any creatures or objects, the activation fails. At the center of each 5-foot length of the rampart is an arrow slit. The rampart has AC 10, Hardness 15, and 30 Hit Points. The rampart is immune to critical hits and precision damage. Attacks that would destroy the rampart cause it to instead revert back to its shield form and drop to the ground in an open space below the rampart. When this happens, the shield loses 30 Hit Points. You can Dismiss the activation, causing the wall to revert back to its shield form. The shield then returns secured to your arm if you are adjacent to the rampart, or drops to the ground in an open space if you're not adjacent to the rampart. If neither destroyed nor Dismissed, the rampart reverts back to a shield automatically after 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Ranging Shot",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Strange striations and pits mark the head of a ranging shot. When the activated ammunition is fired, it sends out whistling pings along its path until it hits something or reaches its maximum range. As long as you can perceive the sounds the ammunition makes, you can tell exactly how far it has flown. The sounds are audible to creatures who didn't Activate the ammunition, but they receive no special information from the ranging shot's whistling.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Ranseur",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This polearm is a long trident with a central prong that's longer than the other two.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "reach"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Rapier Pistol",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This elegant weapon is shaped similarly to a rapier with a pistol down the length of the blade.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backstabber",
+      "combination",
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Rapier",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>The rapier is a long and thin piercing blade with a basket hilt. It is prized among many as a dueling weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d8",
+      "disarm",
+      "finesse"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Rappelling Kit",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This satchel contains all the basic equipment found in a climbing kit plus the specialized equipment—including a harness, belay device, and locking clips—needed for descents. When Climbing down with a rappelling kit, you move twice as fast as usual based on your check result.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Rat-Catcher Trident",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>The haft of this +2 striking trident is carved with intricate designs of swarming rodents sacred to Hanspur, the drowned god of the Sellen River.</p>\n<p>When used against a swarm, it ignores the swarm's resistance to piercing damage, if any.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> While floating down a river on a raft or boat, you plunge the <em>rat-catcher trident</em> into the water. The trident casts a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Control Water] spell on the body of water.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Ration Tonic (Greater)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a ration tonic magically nourishes you with the equivalent of a week's worth of food and water, distributing the nourishment in a constant and healthy flow across the week. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Ration Tonic",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a <em>ration tonic</em> magically nourishes you with the equivalent of a day's worth of food and water. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Rations",
+    "price": {
+      "sp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 13,
+    "name": "Rattling Bolt (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p><strong>Ammunition</strong> bolts</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Sometimes when dealing with undead incursions, a more subtle approach is called for. Paradoxically, this is precisely what the rattling bolts are most often used for, despite each one ringing like a shaken chain when launched. Once it hits the target, the rattling transfers into that creature's body. A target damaged by the rattling bolt must succeed at a @Check[fortitude|dc:30] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 round (or 1 minute on a critical hit). An undead affected by a rattling bolt further loses any lifesense ability it might have had for the same duration as the deafening.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "arcane",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Rattling Bolt",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Ammunition</strong> bolts</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Sometimes when dealing with undead incursions, a more subtle approach is called for. Paradoxically, this is precisely what the rattling bolts are most often used for, despite each one ringing like a shaken chain when launched. Once it hits the target, the rattling transfers into that creature's body. A target damaged by the rattling bolt must succeed at a @Check[fortitude|dc:25] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 round (or 1 minute on a critical hit). An undead affected by a rattling bolt further loses any lifesense ability it might have had for the same duration as the deafening.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "arcane",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Raven Band",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This armband is woven from overlapping raven feathers, including one large feather from a kadlaka. As long as you wear it, you understand what ravens are saying, but you can't speak to ravens unless you activate the <em>raven band</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> When you stroke the kadlaka feather, the raven band gives you the effects of @UUID[Compendium.pf2e.spells-srd.Item.Speak with Animals], except that you can speak with and understand only birds, not other animals.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Razmiri Wayfinder",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Worn on a chain around the neck, a Razmiri wayfinder functions as a compass and provides its wearer a +1 item bonus to Deception checks to Lie or Impersonate. Razmiri wayfinders can also be used to grant temporary healing, making it easier for the wearer to impersonate a divine spellcaster.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> three times per day</p>\n<hr />\n<p><strong>Effect</strong> You touch an adjacent creature, granting them [[/r 3d8 #Temporary Hit Points]]{3d8 temporary Hit Points} for 1 hour.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> manipulate</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You touch an adjacent creature and attempt a counteract check against one poison or disease afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Razor Disc",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Integrated 1d6 S, shield throw 20 ft.</p>\n<p>Several small blades line the outside edge of this steel shield. This specialized throwing shield is common among warriors in the Mwangi Expanse, where its blades can cut down foliage as it flies.</p>",
+    "rarity": "common",
+    "traits": [
+      "integrated-1d6-s",
+      "shield-throw-20"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Reading Glyphs",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>These tattoos on your knuckles look like strange glyphs in an unknown language. If you press your fingertips to text in any language, these glyphs cycle in appearance through those of various extant languages. Encrypted text causes your glyphs to turn to a recognizable \"null\" symbol.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You sync the tattoos with the text your fingertips are touching. By running your fingers across the text, you translate it, with glyphs on your knuckles showing the translation in a language you can read. Your tattooed glyphs can't translate encrypted or encoded text, language couched in metaphor, and the like, subject to GM discretion.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Reading Ring (Greater)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>A <em>greater reading ring</em> is personalized to its user and capable of reading any written language and enable the wearer to comprehend what it reads. Each ring is unique and can't be used by anyone other than its specific bonded user. A <em>greater reading ring</em> is bonded to its user in a process that taps into the user's inner potential, similar to an invested item, except the process takes 10 minutes, is permanent, and doesn't count toward your number of invested items. You can wear the ring in various ways, often either on a finger or a chain worn about your person if you can't have it on a digit. You can use the <em>greater reading ring</em> to read text by taking an Interact action, and you read with the ring at roughly the same rate as a visual reader. There is no limit to how often you can use the ring to read in this manner.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Reading Ring",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>A <em>reading ring</em> is personalized to its user and capable of reading only languages in which the user is fluent. Each ring is unique and can't be used by anyone other than its specific bonded user. A <em>reading ring</em> is bonded to its user in a process that taps into the user's inner potential, similar to an invested item, except the process takes 10 minutes, is permanent, and doesn't count toward your number of invested items. You can wear the ring in various ways, often either on a finger or a chain worn about your person if you can't have it on a digit. You can use the <em>reading ring</em> to read text by taking an Interact action, and you read with the ring at roughly the same rate as a visual reader. There is no limit to how often you can use the ring to read in this manner.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Ready (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>A <em>ready</em> rune draws component pieces of a suit of armor toward one another, making it extremely fast to get into. You can don any armor with this rune as a single action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Ready",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>A <em>ready</em> rune draws component pieces of a suit of armor toward one another, making it extremely fast to get into. You can don light armor with a <em>ready</em> rune as a single action, or medium or heavy armor with a ready rune as a 2-action activity.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Reaper's Crescent",
+    "price": {
+      "gp": 575
+    },
+    "description": "<p>The blade of this alabaster +1 striking sickle grows thick and pitted as the moon waxes, and it thins to a sharp sliver as the moon wanes. Moonlight also causes a second rune on the blade to change shape with the moon's phases: during the new and crescent moon, the weapon has the ghost touch rune; during the quarter moon, the fearsome rune; and during the gibbous and full moon, the wounding rune.</p>\n<p>When wielded under moonlight of any strength, the reaper's crescent deals additional cold damage equal to the number of damage dice.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "light",
+      "trip"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Reaper's Grasp",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>+2 striking arquebus</em> has an ashwood stock plated with worked silver, featuring a mosaic of agonized skulls carved into the metal. The mere mention of Galt's infamous final blades is enough to make any mortal creature shudder. Used to execute political opponents in the nation's constant civil war, these guillotines hold the souls of those they execute, preventing them from reaching a natural afterlife. When one of the final blades was destroyed in 4710, some of the metal from its remains made its way to Alkenstar and was reforged into a deadly firearm that retained the guillotine's soul-stealing properties.</p>\n<p>Whenever the <em>reaper's grasp</em> kills a sapient living or undead creature, a portion of that creature's soul is drawn inexorably into the weapon, and another skull is added to the mosaic as if scrawled by an invisible hand, to a maximum of 10 souls. Creatures whose souls are protected by outside forces, such as a lich's soul cage, are immune to this effect, though the process, while painful, does not prevent the soul from going to the afterlife or being resurrected.</p>\n<p>Keep track of the level of each creature whose souls are stored in the <em>reaper's grasp</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (evil)</p>\n<p><strong>Requirements</strong> There's at least one soul stored in the <em>reaper's grasp</em></p>\n<hr />\n<p><strong>Effect</strong> You channel the necromantic energy of a soul stored in the weapon into your next attack, increasing the attack's destructive power. Choose a soul stored in the weapon. The next Strike you make with the <em>reaper's grasp</em> before the end of your turn deals an additional void damage equal to twice the level of the creature whose soul you chose. Using this ability releases the chosen soul, and a skull on the mosaic fades away.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (evil)</p>\n<p><strong>Requirements</strong> There's at least one soul stored in the <em>reaper's grasp</em></p>\n<hr />\n<p><strong>Effect</strong> You channel the necromantic energy of a soul stored in the weapon into a mantle around you, protecting you from harm. Choose a soul stored in the weapon. You gain temporary Hit Points equal to three times the level of the creature whose soul you chose, which last until the end of your next turn. Using this ability releases the chosen soul, and a skull on the mosaic fades away.</p>",
+    "rarity": "unique",
+    "traits": [
+      "concussive",
+      "fatal-d12",
+      "kickback"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Reaper's Lancet",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>Hendrid Pratchett himself designed this custom skull-topped +1 striking exquisite sword cane and had it gilded in high-quality gold. Its first victim was the very smith whom Pratchett commissioned to craft the weapon, so the means of its construction are a secret known only to Pratchett. The magic of the <em>Reaper's Lancet</em> applies to both the blade and the sheath, making them each effectively a +1 striking weapon, but only if both are wielded by the same creature-if the two components are shared between creatures, only the blade retains the rune's magic.</p>\n<p><em>Reaper's Lancet</em> has a hidden reservoir inside the skull that automatically applies a new dose of poison to the blade after the previous dose was expended with a successful Strike. The reservoir must be filled manually (a process requiring 1 minute) and is large enough to hold only 3 doses at a time. Any sort of injury-delivered poison can be placed in it, though all doses must be of the same poison. The Price of the poison is not reflected in this weapon's listed Price.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Trigger</strong> You damage a creature with Reaper's Lancet</p>\n<hr />\n<p><strong>Effect</strong> You poison the creature you hit with the poison currently in the reservoir.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "concealable",
+      "finesse",
+      "magical",
+      "parry",
+      "poison",
+      "twin"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Reaper's Shadow",
+    "price": {
+      "gp": 525
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>Derived from duskwood sap tapped during the winter solstice, this toxin erodes the connection between body and soul, tricking the latter into assuming the former has already died. Survivors of this near-death experience report ominous tunnel vision, as if the Grim Reaper lurks in their peripheral vision and awaits their final breath.</p><hr /><p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d12[void]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1} for 1 round (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d12[void]] damage and doomed 1 for 1 round (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d12[void]] damage and doomed 1 (1 round)</p>\n<p><strong>Stage 4</strong> @Damage[3d12[void]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 2} (1 round)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison",
+      "virulent",
+      "void"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Reaper's Spellgun",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact, Strike</p>\n<hr />\n<p>A rod of blackened bone with a bulb at one end comprises a <em>reaper's spellgun</em>, which feels heavier than it looks. You Activate the spellgun by aiming it at one creature and making your choice of a spell attack roll or a firearm attack roll against the target's AC. This spellgun has a range increment of 30 feet. The spellgun fires a shadowy ray, then dissolves into gray mist.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes @Damage[4d6[void]] and is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1}. If it had fewer than half its maximum Hit Points after taking the void damage, it's @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 3} instead. If the Hit Point loss from being drained drops the creature to 0 Hit Points, it dies.</p>\n<p><strong>Success</strong> As critical success, but for the drained condition, the target is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}, or drained 2 if it had fewer than half its maximum HP.</p>",
+    "rarity": "common",
+    "traits": [
+      "attack",
+      "consumable",
+      "magical",
+      "spellgun",
+      "void"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Rebirth Potion",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A small bit from a humanoid—such as a hair, scale, or feather—steeps in the clear liquid of a rebirth potion. When the potion is created, this bit determines the ancestry and heritage the potion changes the imbiber to. After you drink the potion, you transform into that ancestry over 8 hours during your next period of rest, finishing the transformation after the 8 hours are up. Throughout this time, you are @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2}, and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2}. Once the transformation is complete, the potion's magic ends and can't be counteracted. Replace your ancestry Hit Points, size, Speeds, ability boosts, ability flaws, traits, and special abilities with those of your new ancestry. You lose your ancestry feats, selecting replacements valid for your new ancestry. You have mild control over the change, but you end up with a unique appearance fitting for your new ancestry, and some quirks of your body remain, such as relative age, general health, scars, and missing digits, limbs, or organs.</p>\n<p>Drinking a rebirth potion of your current ancestry works normally, allowing you to rearrange some of the cited ancestry elements and change your appearance (provided you abide by the potion's limitations regarding health and age).</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Rebound Fulu",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p><strong>Usage</strong> affixed to a shield</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You use the Shield Block reaction with the shield to which this fulu is affixed.</p>\n<hr />\n<p>The bronze-colored ink on this pale, silvery talisman sharply reflects light, enough that it seems to glow. When you activate the fulu, it reflects your foe's violence back against them. The foe that triggered the Shield Block reaction takes damage equal to your shield's Hardness or the damage they would have dealt before the Shield Block reaction, whichever is less.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Rebounding Breastplate",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This <em>+3 greater resilient greater fortification breastplate</em> absorbs impacts for later release. While wearing the armor, you gain resistance 5 to bludgeoning, piercing, and slashing damage and resistance 10 to force damage. Keep track of how much damage the armor prevents from enemy attacks, as the armor absorbs that damage.</p>\n<p>After 1 minute, the absorbed damage disperses harmlessly and resets to 0. Only damage caused by foes or hazards powers the armor, not damage you take from yourself, allies, or the environment.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> Your armor has absorbed at least 30 damage</p>\n<p><strong>Effect</strong> The absorbed energy explodes from your armor in a pulse of force. Creatures in a @Template[emanation|distance:30] take @Damage[10d6[force]|options:area-damage] damage with a @Check[fortitude|dc:43|basic|showDC:all|options:area-effect] save. On a failure, they're pushed 10 feet away from you, and on a critical failure, they're pushed 20 feet away from you and fall @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The armor's absorbed damage resets to 0.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical"
+    ]
+  }
+]

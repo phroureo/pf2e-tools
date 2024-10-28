@@ -1,0 +1,1441 @@
+[
+  {
+    "level": 1,
+    "name": "Bioluminescence Bomb",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This vial of glowing goo constantly sheds dim light in a 10-foot radius. When a bioluminescence bomb strikes a creature or a hard surface, it shatters and releases the bioluminescent fluid's energy in a flare of light. Each creature within @Template[burst|distance:10]{10 feet} of where the bomb exploded must succeed at a @Check[reflex|dc:17] or be marked with dye that continues to glow for 24 hours. An affected creature must also attempt a @Check[fortitude|dc:17] saving throw against the overwhelming burst of light.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, then dazzled for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "light"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Bioluminescent Stripes",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A line of glands embedded in your skin secretes a chemical that glows when it interacts with the air. As a single action, you can activate your bioluminescent stripes to glow with a bright light in a 20-foot radius and dim light for the next 20 feet. While you are glowing, you can't be @UUID[Compendium.pf2e.conditionitems.Item.Undetected] and you take a –4 item penalty to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Hide] and @UUID[Compendium.pf2e.actionspf2e.Item.Sneak]. You can Dismiss the glow as a free action.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "light",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Biting Snare",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>This snare closes shut on the leg of a creature. The snare deals @Damage[5d6[piercing]] damage to the first creature that enters its square; that creature must attempt a @Check[reflex|showDC:all|dc:21] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bitter",
+    "price": {
+      "gp": 135
+    },
+    "description": "<p>While you wear this acrid armor, any creature that Engulfs you or Swallows you Whole is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}; if it spends an action retching to reduce the sickened condition, you can attempt to Escape as a reaction.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "poison"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Black Adder Venom",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>Adder venom is a simple but effective way to enhance a weapon.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 3 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d4[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[1d8[poison]] damage (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Black Dragon's Breath Potion (Adult)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p>This liquid contains blood from a black dragon. For 1 hour after you imbibe the concoction, you can unleash a black dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of acid which deals @Damage[6d6[acid]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:29|basic|name:Adult Black Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Black Dragon's Breath Potion (Wyrm)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This liquid contains blood from a black dragon. For 1 hour after you imbibe the concoction, you can unleash a black dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of acid which deals @Damage[10d6[acid]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:37|basic|name:Wyrm Black Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Black Dragon's Breath Potion (Young)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This liquid contains blood from a black dragon. For 1 hour after you imbibe the concoction, you can unleash a black dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a @Template[line|distance:30] of acid which deals @Damage[4d6[acid]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:23|basic|name:Young Black Dragon's Breath Potion|options:area-effect] save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Black Hole Armor",
+    "price": {
+      "gp": 8500
+    },
+    "description": "<p>The joints of this black <em>+2 greater resilient fortification fortress plate</em> look like swirling vortices of silver. Non-magical ammunition and thrown weapons aimed at you are destroyed after they hit you and deal damage or miss you. You also have resistance 10 to physical damage from ranged attacks.</p>\n<p>When an enemy's ranged attack misses you or hits you and deals no damage, the armor absorbs the projectile. When it has absorbed six projectiles, the armor glows at the joints.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> A ranged weapon Strike targets a creature within 20 feet of you and the attacker hasn't yet rolled its attack</p>\n<p><strong>Effect</strong> The triggering Strike targets you instead of its intended target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> The <em>black hole armor</em> has absorbed six or more projectiles</p>\n<p><strong>Effect</strong> All the projectiles absorbed by the armor appear out of thin air, as though transported there, falling in a @Template[burst|distance:10] within 120 feet of you. Each creature in the burst takes @Damage[10d8[piercing]|options:area-damage] with a @Check[reflex|dc:35|options:area-effect,damaging-effect] save. The absorbed projectiles are all expended, and the armor's joints stop glowing.</p>",
+    "rarity": "common",
+    "traits": [
+      "bulwark",
+      "entrench-ranged",
+      "ponderous"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Black King",
+    "price": {
+      "gp": 6250
+    },
+    "description": "<p>The <em>black king</em> is a <em>+2 greater striking ashen blunderbuss</em>. While the dark metal frame is still pleasant to look at, this design prioritizes destructive power over aesthetic appeal. This specialized blunderbuss has a scatter radius of 20 feet instead of 10, and all splash damage it deals is void damage instead of physical. Due to the risk of collateral damage, this weapon is typically only used by the especially foolhardy or reckless.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You unleash a blast of draining flame, dealing @Damage[5d6[fire],5d6[void]|options:area-damage] damage to all creatures in a 60 foot cone (@Check[reflex|dc:34|basic|options:area-effect] save). Creatures who fail their saving throw are knocked back 5 feet. Creatures who critically fail are knocked back 10 feet and fall @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "magical",
+      "scatter-20",
+      "void"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Black Lotus Extract",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Black lotus extract causes severe internal bleeding.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:42]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[13d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[15d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[17d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Black Powder (Dose or Round)",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.</p>\n<p>The smallest unit of black powder that still has a simple use, a dose can be a simple package paper parcel around black powder or it can be packaged with a metal bullet or pellet to be used as ammunition. When ignited with a fuse or exposed to direct flame, a dose of black powder explodes. This isn't powerful enough to deal damage but makes a loud sound and could trigger further explosions. A fuse for a dose can be created with a few twists of paper and causes the dose to explode the round after it's lit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Black Powder (Horn)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.</p>\n<p>A horn contains 500 doses worth of black powder. A horn can be detonated by leaving a small trail of black powder and then lighting it. Each 5-foot square requires one dose of black powder to create a trail through. As long as the horn is mostly full (at least 400 doses remaining) it can be detonated to deal @Damage[1d6[fire]] damage in a @Template[burst|distance:5] (@Check[reflex|dc:16|basic|name:Gunpowder Detonation] save). It takes 1 round per 15 feet of powder trail laid down for a horn to detonate after the trail is lit. If multiple horns detonate simultaneously, it can increase the area of the explosion, but the damage in overlapping areas doesn't increase.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Black Powder (Keg)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.</p>\n<p>A keg contains 5,000 doses of black powder and can be detonated in the same way as a @UUID[Compendium.pf2e.equipment-srd.Item.Black Powder (Horn)]. As long as the keg is mostly full (at least 4,000 doses remaining) this deals @Damage[3d6[fire]] damage in a @Template[burst|distance:20] (@Check[reflex|dc:20|basic|name:Gunpowder Detonation] save). Detonating multiple kegs can increase the area, but not the damage, of this effect; detonating a keg and any horns at the same time in an overlapping area also doesn't increase the damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Black Powder Knuckle Dusters",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This pair of knuckle dusters is fitted with an explosive charge of black powder within the hollowed spikes of the weapon and a firing mechanism you hold in your hand while in use.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "fatal-d8",
+      "monk"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Black Scorpion Stingmace",
+    "price": {
+      "gp": 6250
+    },
+    "description": "<p>The massive stinger of a black scorpion adds significant weight to this <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Fearsome] mace</em>. On a critical hit, the target is exposed to black scorpion venom.</p><hr /><p><strong>Black Scorpion Venom</strong> (poison)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:36]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d12[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d12[poison]] damage, clumsy 2, and @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d12[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 4}, and @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} (1 round).</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the intact stinger of a black scorpion.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "poison",
+      "shove"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Black Smear Poison",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Many calignis use a debilitating poison crafted from subterranean fungi.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> As stage 1</p>\n<p><strong>Stage 3</strong> @Damage[1d6[poison]] damage, and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} (1 round)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Black Tendril Shot (Greater)",
+    "price": {
+      "gp": 2160
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>A glistening, tar-like substance that's displeasing to the touch coats a black tendril shot. When the activated ammunition hits a target, it exudes tendrils that encase the target, which must attempt a @Check[fortitude|dc:39] saving throw. The ammunition's effects last until the target Escapes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} but gains a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] the ammunition's effect.</p>\n<p><strong>Failure</strong> The target is slowed 1.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Black Tendril Shot (Lesser)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>A glistening, tar-like substance that's displeasing to the touch coats a black tendril shot. When the activated ammunition hits a target, it exudes tendrils that encase the target, which must attempt a @Check[fortitude|dc:25] saving throw. The ammunition's effects last until the target Escapes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} but gains a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] the ammunition's effect.</p>\n<p><strong>Failure</strong> The target is slowed 1.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Black Tendril Shot (Moderate)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>A glistening, tar-like substance that's displeasing to the touch coats a black tendril shot. When the activated ammunition hits a target, it exudes tendrils that encase the target, which must attempt a @Check[fortitude|dc:31] saving throw. The ammunition's effects last until the target Escapes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} but gains a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Escape] the ammunition's effect.</p>\n<p><strong>Failure</strong> The target is slowed 1.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2}.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Blackaxe",
+    "price": {},
+    "description": "<p>This potent weapon used by Treerazer is a <em>+4 greater corrosive major striking obsidian greataxe</em> that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine. It deals an additional die of damage when wielded by Treerazer.</p>\n<hr />\n<p><strong>Activate—Owner's Authority</strong> <span class=\"action-glyph\">1</span> (concentrate, scrying)</p>\n<p><strong>Requirements</strong> You aren't wielding Blackaxe and you are its true owner</p>\n<hr />\n<p><strong>Effect</strong> You sense the world around Blackaxe as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a @Check[will|dc:50] save or be @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} until it relinquishes the weapon.</p>\n<hr />\n<p><strong>Activate—Owner's Reclamation</strong> <span class=\"action-glyph\">F</span> (concentrate, teleportation)</p>\n<p><strong>Requirements</strong> You aren't wielding Blackaxe and you are its true owner</p>\n<hr />\n<p><strong>Effect</strong> Blackaxe appears in your hands, teleporting instantly from its prior location.</p>\n<hr />\n<p><strong>Activate—Rejuvenating Deforestation</strong> <span class=\"action-glyph\">1</span> (concentrate, death, healing, positive)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> Make a Strike against a living tree with Blackaxe. If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Restoration] (6th) and @UUID[Compendium.pf2e.spells-srd.Item.Sound Body] spell.</p>\n<hr />\n<p><strong>Destruction</strong> Chop a powerful magical tree with Blackaxe, and while the sap is still fresh, sever one of Cyth-V'sug's limbs. This makes Blackaxe explode violently.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "cursed",
+      "primal",
+      "sweep",
+      "unholy"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Blackfinger Blight",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This oily, dark purple powder gives off the distinct odor of boiled leather. When delivered, the poison acts quickly to constrict the victim's blood flow to their extremities and turn their lungs into a soft jelly. A victim of blackfinger blight is recognizable by the pores of their fingertips weeping an inky oil that coats their hands and makes it difficult to hold things. Each round, at the beginning of their turn, a creature affected by blackfinger blight must succeed at a flat DC 5 check or drop one random item they're holding.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[6d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[8d6[poison]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[10d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Confused](1 round)</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Blade Byrnie (Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Instead of chain links, this <em>+2 resilient chain shirt</em> is assembled from metal \"leaves\" that each resemble a small blade.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You pull a link from the armor, which transforms into a <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Dagger]</em>. The dagger disappears and reappears as a link in the armor after you Strike with it, or at the end of this turn if you don't make a Strike. You can Activate the blade byrnie in place of an Interact action to draw a weapon for abilities such as the @UUID[Compendium.pf2e.feats-srd.Item.Quick Draw] feat.</p>\n<p>Upgrading the runes on the blade byrnie makes the daggers pulled from it more powerful. The daggers have a <em>+3 weapon potency</em> rune if the armor has a <em>+3 armor potency</em> rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "flexible",
+      "noisy"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Blade Byrnie (Major)",
+    "price": {
+      "gp": 35000
+    },
+    "description": "<p>Instead of chain links, this <em>+3 greater resilient chain shirt</em> is assembled from metal \"leaves\" that each resemble a small blade.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You pull a link from the armor, which transforms into a <em>+3 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Dagger]</em>. The dagger disappears and reappears as a link in the armor after you Strike with it, or at the end of this turn if you don't make a Strike. You can Activate the blade byrnie in place of an Interact action to draw a weapon for abilities such as the @UUID[Compendium.pf2e.feats-srd.Item.Quick Draw] feat.</p>\n<p>Upgrading the runes on the blade byrnie makes the daggers pulled from it more powerful. The daggers have a <em>+3 weapon potency</em> rune if the armor has a <em>+3 armor potency</em> rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "flexible",
+      "noisy"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Blade Byrnie",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>Instead of chain links, this <em>+1 chain shirt</em> is assembled from metal \"leaves\" that each resemble a small blade.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You pull a link from the armor, which transforms into a <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Dagger]</em>. The dagger disappears and reappears as a link in the armor after you Strike with it, or at the end of this turn if you don't make a Strike. You can Activate the blade byrnie in place of an Interact action to draw a weapon for abilities such as the @UUID[Compendium.pf2e.feats-srd.Item.Quick Draw] feat.</p>\n<p>Upgrading the runes on the blade byrnie makes the daggers pulled from it more powerful. The daggers have a <em>+2 weapon potency</em> rune if the armor has a <em>+2 armor potency</em> rune, or a <em>+3 weapon potency</em> rune if the armor has a <em>+3 armor potency</em> rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "flexible",
+      "noisy"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blade Launcher",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p>A blade launcher has a bow-like assembly mounted on a handled frame. The frame can be configured to fire either a dagger, dart, shuriken, or starknife. Configuring a blade launcher requires three Interact actions. Once properly configured, loading an appropriate thrown weapon into a blade launcher requires a single Interact action. A blade launcher can't fire weapons for which it's not currently configured. A weapon fired with a blade launcher loses the agile, monk, thrown, and versatile traits, if it has them, and has a range increment of 40 feet. Due to losing the thrown weapon trait, returning and most other effects that allow a weapon to return don't function; even if a launched weapon did return, you'd still need to load it into the blade launcher with an Interact action to fire the blade launcher again.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 22,
+    "name": "Blade of Fallen Stars",
+    "price": {
+      "gp": 46500
+    },
+    "description": "<p>This <em>+4 major striking greater frost gun sword</em> is made from high-grade cold siccatite. This gun sword's elegant, silvery blade is double-edged and etched with stars and constellations that move and mirror the night sky. The blade absorbs starlight, and prolonged exposure causes it to form a layer of glittering residue. Smiths in Dongun Hold forged this weapon by combining the cracked remains of a skymetal arquebus and the shards of an exceptional elven greatsword. Some tales of the forging report that the sword was Tear of Eventide, a great blade forged out of starlight for the battle between Desna and Aolar. Whether or not that was the case, dwarven curators who examined the shards simply noted that the blade's material was compatible with the cracked gun. After an extremely tense diplomatic brunch, the weapon is now regarded as a miracle of elven artistry and dwarven engineering, and a powerful symbol of allyship between their kingdoms.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> You unfold the parrying hooks extending from the blade to form a bipod, which has the same benefits as a typical @UUID[Compendium.pf2e.equipment-srd.Item.Tripod]. This negates the –2 penalty from kickback but must be reversed by a subsequent Interact action before the weapon can be repositioned or wielded in melee.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> The blade of fallen stars was exposed to starlight for at least one hour since the last time this ability was used</p>\n<p><strong>Effect</strong> The coating on the blade seeps into the engravings and is collected in the barrel. On your next ranged Strike, the weapon fires a glowing white projectile with a blazing blue tail that explodes on impact. In addition to the normal Strike damage, the projectile also deals @Damage[6d8[cold]] damage and creates a @UUID[Compendium.pf2e.spells-srd.Item.Faerie Fire] effect in a @Template[emanation|distance:5] centered on the target.</p>\n<hr />\n<p><strong>Destruction</strong> Depriving the weapon of all light, natural or otherwise, for seven years, seven months, and seven days will cause it to crumble and erode irreparably.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "kickback"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Blade of Four Energies (Greater)",
+    "price": {
+      "gp": 20000
+    },
+    "description": "<p>This <em>+2 greater striking shifting shortsword</em> is formed of rapidly vibrating air and magical energy, though it uses the same statistics as iron. The wooden hilt is adorned with four gems, representing the energies of acid, cold, fire, and electricity, that sparkle in sequence at random intervals.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You draw magical energy from one of the gems. Roll [[/r 1d4]]. Until the start of your next turn, the weapon gains the corresponding rune:</p>\n<ol>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Corrosive (Greater)]{Greater Corrosive}</em>,</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Flaming (Greater)]{Greater Flaming}</em>,</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Frost (Greater)]{Greater Frost}</em>, or</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Shock (Greater)]{Greater Shock}</em>.</li>\n</ol>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The blade has an energy rune from the first activation</p>\n<hr />\n<p><strong>Effect</strong> You call upon the energy stored in the blade to explode outward. The blade of four energies casts a 7th-rank spell with a DC of 38 that depends on the active rune:</p>\n<ol>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] for corrosive,</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Fireball] for flaming,</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold] for frost, or</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] for shock.</li>\n</ol>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Blade of Four Energies",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This <em>+2 greater striking shifting shortsword</em> is formed of rapidly vibrating air and magical energy, though it uses the same statistics as iron. The wooden hilt is adorned with four gems, representing the energies of acid, cold, fire, and electricity, that sparkle in sequence at random intervals.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You draw magical energy from one of the gems. Roll [[/r 1d4]]. Until the start of your next turn, the weapon gains the corresponding rune:</p>\n<ol>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Corrosive]</em>,</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Flaming]</em>,</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Frost]</em>, or</li>\n<li><em>@UUID[Compendium.pf2e.equipment-srd.Item.Shock]</em>.</li>\n</ol>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The blade has an energy rune from the first activation</p>\n<hr />\n<p><strong>Effect</strong> You call upon the energy stored in the blade to explode outward. The blade of four energies casts a 5th-rank spell that depends on the active rune:</p>\n<ol>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] for corrosive,</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Fireball] for flaming,</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold] for frost, or</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] for shock.</li>\n</ol>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Blade of the Black Sovereign",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Shock] greatsword</em> is forged from standard-grade adamantine, with inlays of broken circuitry and a robot's ocular lens on the cross guard. A soft thrum comes from the blade, which you feel as a subtle pulse through the grip when wielding it. It sparks when unsheathed, emitting dim light within 5 feet.</p>\n<p>On a hit against a foe made of metal, wearing metal armor, or using a metal shield, if the foe takes electricity damage from the blade, the makes the foe @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round; if the Strike was a critical hit, it also makes them @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} for 1 round.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Effect</strong> You cast the @UUID[Compendium.pf2e.spells-srd.Item.Electric Arc] cantrip from the sword as an 8th-rank primal spell, using 10 + your melee attack modifier with the <em>Blade of the Black Sovereign</em> as your spell DC.</p>",
+    "rarity": "unique",
+    "traits": [
+      "electricity",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Blade of the Rabbit Prince",
+    "price": {
+      "gp": 6250
+    },
+    "description": "<p>This +2 greater striking @UUID[Compendium.pf2e.equipment-srd.Item.Animated]{Dancing} shortsword has a golden handguard resembling a bird with outstretched wings. The sword's blade is broken halfway up its length, but this doesn't impair the sword's function.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Trip] or @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] an opponent using Thievery instead of Athletics, and you add the <em>blade of the Rabbit Prince's</em> item bonus to the check. You do not need to have a hand free if you're wielding the <em>blade of the Rabbit Prince</em>, and your target can be up to two sizes larger than you.</p>\n<p><strong>Craft Requirements</strong> You must craft the blade in the Harrowed Realm.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bladed Diabolo",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This weapon consists of two bladed discs joined by a central axel, and is spun on a rope whose ends are attached to wand-like sticks. The wielder can hurl the diabolo from the rope like a stone from a sling, or swing it on the rope in melee.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing",
+      "disarm",
+      "finesse",
+      "thrown-40",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bladed Gauntlet",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A dagger attached to a retractable mechanism is integrated in this gauntlet's dorsum, so a combatant can quickly arm themself with a blade to exploit the weak points in an enemy's armor. Switching configurations on the gauntlet reveals or retracts the contained dagger as appropriate. The dagger isn't removable, and thus can't be wielded or etched with runes separately from the gauntlet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "free-hand",
+      "modular"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bladed Hoop",
+    "price": {
+      "sp": 25
+    },
+    "description": "<p>This circular hoop has blades along its outer edge. You can wield it in two hands (using the two-hand damage) or by spinning it around an arm. While you spin the hoop, it gains the free-hand trait. Setting the hoop spinning takes 1 Interact action. In addition to the normal restrictions of the free-hand trait, extended use of the arm for locomotion (such as to @UUID[Compendium.pf2e.actionspf2e.Item.Climb]) interferes with the hoop's spinning and forces you to Release the hoop. You can't spin a hoop underwater. Keeping the hoop spinning requires a free action each round, which has the concentrate and manipulate traits. You can keep a hoop spinning as an exploration activity, but doing so for more than 10 minutes makes you fatigued, similarly to @UUID[Compendium.pf2e.actionspf2e.Item.Hustle].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "finesse",
+      "sweep",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bladed Scarf",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>The thin metal plates interwoven throughout this long scarf turn a fashion accessory into a deadly weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "finesse",
+      "reach",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Blast Boots (Greater)",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>These sets of rockets come in pairs and strap onto existing footwear (or a creature's feet). Inserting them and aligning them properly takes 1 minute. When you Activate the greater blast boots to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump], you can increase the vertical distance of your High Jump by up to 50 feet. When you Activate them to @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump], you can increase the horizontal distance of your Long Jump by up to 75 feet. Additionally, for 1 minute, the greater blast boots continue to boost your jumps. Every time you @UUID[Compendium.pf2e.actionspf2e.Item.Leap] during the duration, you can move 30 feet in any direction, or your normal Leap distance, whichever is further.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blast Boots (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>These sets of rockets come in pairs and strap onto existing footwear (or a creature's feet). Inserting them and aligning them properly takes 1 minute. When you Activate the blast boots, you can @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] or @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump], without the need to Stride first.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Blast Boots (Major)",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>These sets of rockets come in pairs and strap onto existing footwear (or a creature's feet). Inserting them and aligning them properly takes 1 minute. When you Activate the major blast boots to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump], you can increase the vertical distance of your High Jump by up to 80 feet. When you Activate them to @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump], you can increase the horizontal distance of your Long Jump by up to 120 feet. Additionally, for 1 minute, the major blast boots remain active, allowing you to clumsily fly through the air for the duration. You gain a 30-foot Fly speed for the duration, but any time you @UUID[Compendium.pf2e.actionspf2e.Item.Fly], you are @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blast Boots (Major)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blast Boots (Moderate)",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>These sets of rockets come in pairs and strap onto existing footwear (or a creature's feet). Inserting them and aligning them properly takes 1 minute. When you Activate the moderate blast boots to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump], you can increase the vertical distance of your High Jump by up to 30 feet. When you Activate them to @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump], you can increase the horizontal distance of your Long Jump by up to 45 feet.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Blast Foot (Greater)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>These prosthetic feet and legs, created by dwarven alchemists and spellcasters together, are engraved with simple but effective evocation symbols on the ball and heel, empowering you to leap to great heights and blast foes with your feet.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You blast off from the ground, using the force to leap through the air. The <em>blast feet</em> cast @UUID[Compendium.pf2e.spells-srd.Item.Jump] on you.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You blast from your feet, dealing @Damage[8d6[force]|options:area-damage] damage to all creatures in a @Template[cone|distance:30], with a @Check[reflex|dc:27|basic|name:Blast Foot|traits:magical|options:area-effect] save.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Blast Foot",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>These prosthetic feet and legs, created by dwarven alchemists and spellcasters together, are engraved with simple but effective evocation symbols on the ball and heel, empowering you to leap to great heights and blast foes with your feet.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> You blast off from the ground, using the force to leap through the air. The <em>blast feet</em> cast @UUID[Compendium.pf2e.spells-srd.Item.Jump] on you.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You blast from your feet, dealing @Damage[4d6[force]|options:area-damage] damage to all creatures in a @Template[cone|distance:15], with a @Check[reflex|dc:22|basic|traits:magical|options:area-effect] save.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Blast Lance (Greater)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This weapon is a long <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Lance]</em> with a muzzle built into the pointed tip, allowing the user to fire the chamber after a successful melee attack. A barrel running down the length of the lance allows you to load firearm ammunition into the base of the weapon more easily than it might seem from the design. It takes 2 actions to reload a <em>blast lance</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Trigger</strong> You strike a foe with the <em>blast lance</em></p>\n<p><strong>Requirements</strong> The <em>blast lance</em> is loaded with a round</p>\n<p><strong>Effect</strong> You fire a blast of gunpowder through the weapon that deals @Damage[3d8[fire]] damage. The foe must attempt a @Check[fortitude|dc:24] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected by the blast of gunpowder and the <em>blast lance</em> misfires and jams.</p>\n<p><strong>Success</strong> The target takes half the fire damage.</p>\n<p><strong>Failure</strong> The target takes the full fire damage and is pushed back 5 feet. You can Stride after it, but you must move the same distance and in the same direction.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is pushed back 10 feet. You can Stride after it, but you must move the same distance and in the same direction.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "fire",
+      "jousting-d6",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Blast Lance",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This weapon is a long <em>+1 @UUID[Compendium.pf2e.equipment-srd.Item.Lance]</em> with a muzzle built into the pointed tip, allowing the user to fire the chamber after a successful melee attack. A barrel running down the length of the lance allows you to load firearm ammunition into the base of the weapon more easily than it might seem from the design. It takes 2 actions to reload a <em>blast lance</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Trigger</strong> You strike a foe with the <em>blast lance</em></p>\n<p><strong>Requirements</strong> The <em>blast lance</em> is loaded with a round</p>\n<p><strong>Effect</strong> You fire a blast of gunpowder through the weapon that deals @Damage[2d8[fire]] damage. The foe must attempt a @Check[fortitude|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected by the blast of gunpowder and the <em>blast lance</em> misfires and jams.</p>\n<p><strong>Success</strong> The target takes half the fire damage.</p>\n<p><strong>Failure</strong> The target takes the full fire damage and is pushed back 5 feet. You can Stride after it, but you must move the same distance and in the same direction.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is pushed back 10 feet. You can Stride after it, but you must move the same distance and in the same direction.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "fire",
+      "jousting-d6",
+      "magical",
+      "reach"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Blast Suit",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Crafted from heavy steel plating and riveted together with cunning precision, this suit of +1 resilient @UUID[Compendium.pf2e.equipment-srd.Item.Full Plate] is specifically designed to protect against sudden explosions. This added layer of security comes at the cost of movement, however.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Trigger</strong> You're affected by an area effect that requires a Reflex save, or you would take splash damage from a scatter weapon</p>\n<hr />\n<p><strong>Effect</strong> The <em>blast suit</em> locks together into a rigid bulwark, protecting you from the blast but preventing you from moving from your position under any circumstances.<br />You become @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], gain a +2 circumstance bonus to your Reflex save against area effects, and gain resistance 5 to all damage you would normally take from area effects and scatter splash damage (this doesn't damage the <em>blast suit</em>). These effects persist for as long as the suit remains in the locked position. You can Interact with the suit to unlock it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blast Suit]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blasting Stone (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals the listed sonic damage and sonic splash damage, and each creature within 10 feet of the space in which the stone exploded must succeed at a @Check[fortitude|dc:28|name:Greater Blasting Stone|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of its next turn.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 3d4 sonic damage and 3 sonic splash damage, and the DC is 28.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blasting Stone (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals the listed sonic damage and sonic splash damage, and each creature within 10 feet of the space in which the stone exploded must succeed at a @Check[fortitude|dc:17|name:Lesser Blasting Stone|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of its next turn.</p>\n<p>The bomb deals 1d4 sonic damage and 1 sonic splash damage, and the DC is 17.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Blasting Stone (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals the listed sonic damage and sonic splash damage, and each creature within 10 feet of the space in which the stone exploded must succeed at a @Check[fortitude|dc:36|name:Major Blasting Stone|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of its next turn.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 4d4 sonic damage and 4 sonic splash damage, and the DC is 36.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blasting Stone (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr /><p>When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals the listed sonic damage and sonic splash damage, and each creature within 10 feet of the space in which the stone exploded must succeed at a @Check[fortitude|dc:20|name:Moderate Blasting Stone|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] until the end of its next turn.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2d4 sonic damage and 2 sonic splash damage, and the DC is 20.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "sonic",
+      "splash"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Blaze",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This acrid blend of black powder, honey, saltpeter, sulfur, and stranger ingredients sees plenty of use in the Mana Wastes, where magical environmental protection is unreliable. Users experience euphoric feelings of warmth and wellbeing followed by intense bouts of dehydration and disorientation.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> +1 item bonus to saves versus fire effects, and you treat severe or extreme environmental heat effects as if they were one step lower (1 hour)</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blaze]</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1}, and you treat severe or extreme environmental heat effects as if they were one step lower (1 hour)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 hour)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blazons of Shared Power (Greater)",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. <em>Blazons of shared power</em> come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.</p>\n<p>A set of <em>greater blazons of shared power</em> also replicates property runes from the primary weapon, so long as the secondary weapon meets all the prerequisites for a given rune and isn't a specific weapon. The secondary weapon gains the benefits of those runes. All of its own runes are suppressed. When you invest the blazons, you can elect for them to transfer only fundamental runes, in which case they function as standard <em>blazons of shared power</em>.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blazons of Shared Power",
+    "price": {
+      "gp": 52
+    },
+    "description": "<p>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. <em>Blazons of shared power</em> come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bleachguard Doll",
+    "price": {},
+    "description": "<p><strong>Perception</strong> [[/r 1d20+16]]{+16}; precise vision (low-light) 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (one language spoken by the doll's creator)</p>\n<p><strong>Skills</strong> One Intelligence-, Wisdom-, or Charisma-based skill chosen by the creator at [[/r 1d20+16]]{+16}</p>\n<p><strong>Int</strong> +3, <strong>Wis</strong> +3, <strong>Cha</strong> +3</p>\n<p><strong>Will</strong> [[/r 1d20+16]]{+16}</p>\n<hr />\n<p>Rather than seeking out new experiences to stave off the Bleaching, gnome spellcasters with the right know-how can infuse a small fragment of their consciousness into a doll, then send the doll off with a crew of adventurers to experience new things. Such gnomes might have difficulties that keep them from exploring or might be preoccupied with other pursuits, but the doll acts as an intermediary, transmitting the benefits of new experiences to its creator via a potent, but passive, psychic link. A bleachguard doll has the alignment and demeanor of its creator, but new experiences can cause the two to diverge. The doll's creator is neither able to control it nor are they constantly aware of its activities. If the original creator perishes, the doll sometimes becomes inert (essentially dying as well), sometimes remains an intelligent item, and sometimes becomes a normal soulbound doll, diminished in power but with some of the item's capabilities.</p>\n<p>Once per day, the doll sends its creator a dream of the day's events. Each bleachguard doll can cast the cantrips light (3rd level), prestidigitation, and one other 3rd-rank cantrip, along with one spell (at 3rd level) that can be cast once per day. The creator chooses the cantrip and spells, which can't require an attack roll or saving throw, during the doll's creation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> The bleachguard doll casts one of its available cantrips or spells.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The bleachguard doll animates per summon construct as a soulbound doll, retaining pertinent item statistics, cantrips, and its spell instead of those of the soulbound doll. The soulbound doll can Cast a Spell only if the bleachguard doll has a use of that spell remaining for the day. When reduced to 0 Hit Points or this activation ends, the bleachguard doll becomes inert but repairs itself at the rate of 1 Hit Point per hour. This activation is unavailable until the doll has 23 Hit Points again.</p>",
+    "rarity": "rare",
+    "traits": [
+      "intelligent",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bleeding Canines",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>Some of your teeth have been replaced with those of a larger meat-eating predator. You gain a jaws unarmed attack that deals 1d8 piercing damage. These jaws are in the brawling group. Whenever you score a critical hit with your jaws, your target takes 1 persistent bleed damage per weapon damage die.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Bleeding Spines Snare",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>When a creature enters the square, thorny spines protrude out to stab it, dealing @Damage[8d8[piercing],2d8[bleed]]{8d8 piercing damage and 2d8 persistent bleed damage}. The creature must attempt a @Check[reflex|showDC:all|dc:31|basic]. After the initial trigger, the spines retract and protrude again repeatedly for 1 minute, forcing any creature that enters the space or ends its turn in the space to take damage from the spines (attempting the same basic Reflex save).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blending Brooch",
+    "price": {
+      "gp": 275
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You roll initiative using Stealth and can see a creature</p>\n<p><strong>Requirements</strong> You are a master in Stealth.</p>\n<hr />\n<p>This small, matte-black pin always seems to be on the periphery of your vision, even when you stare directly at it. When you Activate the talisman, choose one creature you can see. You become @UUID[Compendium.pf2e.conditionitems.Item.Invisible] to that creature unless it succeeds at a @Check[will|dc:28] save. This effect lasts for 1 minute or until the target hits you with an attack, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Blessed Ampoule",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> Your Strike with the affixed weapon hits a target</p>\n<p><strong>Requirements</strong> You're an expert with the affixed weapon.</p>\n<hr />\n<p>This small glass vial contains a drop of holy water. When activated, the weapon's physical damage for the Strike becomes spirit damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Blessed Reformer",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>The Celestial word for \"repent\" is etched in golden lettering on the shaft of this <em>+2 greater striking merciful dawnsilver warhammer</em>. An evil-aligned creature is @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} when carrying or wielding this weapon.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You hold your weapon aloft, calling on righteousness to steel your resolve. You cast @UUID[Compendium.pf2e.spells-srd.Item.Protection] on yourself and you must select evil as the chosen alignment.</p>\n<hr />\n<p><strong>Redeemer Wielder</strong> If you're a champion of the redeemer cause, you also gain the following two benefits.</p>\n<ul>\n<li>When you critically hit an evil creature with the <em>blessed reformer</em>, until the end of your next turn, the target takes a –10-foot penalty to its Speeds and can't Step.</li>\n<li>You can Activate the weapon in the following way.</li>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You hit a creature using the <em>blessed reformer</em> as your last action</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Calm] at the same level as your champion focus spells. It must target the creature you hit, and the creature takes a status penalty on its save against the spell equal to the <em>blessed reformer</em>'s number of weapon damage dice.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You're a champion with the redeemer cause. The initial materials must include 140 gp of dawnsilver.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "good",
+      "holy",
+      "shove"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Blessed Tattoo",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain the effect of @UUID[Compendium.pf2e.spells-srd.Item.Protection] against evil.</p>\n<p>You can activate the tattoo as a reaction instead of a two-action activity, triggered when a demon attacks you or you attempt a saving throw against a demon's ability.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blight Bomb (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals 3d4 poison damage, 3d4 persistent poison damage, and 3 poison splash damage. You gain a +2 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blight Bomb (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals 1d4 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Blight Bomb (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals 4d4 poison damage, 4d4 persistent poison damage, and 4 poison splash damage. You gain a +3 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blight Bomb (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals 2d4 poison damage, 2d4 persistent poison damage, and 2 poison splash damage. You gain a +1 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Blight Breath",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>This foul-smelling bottle contains compressed, noxious fumes. After you inhale the odious gases of the <em>blight breath</em>, you gain resistance 10 to poison for as long as you hold your breath. You can exhale the <em>blight breath</em> as a single action. The resulting spray of noxious fumes deals @Damage[10d6[poison]|options:area-damage] damage to each creature in a @Template[cone|distance:15], with a @Check[reflex|dc:29|basic|options:area-effect] save</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blight Breath]</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "bottled-breath",
+      "consumable",
+      "magical",
+      "poison"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Blightburn Bomb (Greater)",
+    "price": {
+      "gp": 12000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Blightburn bombs have radioactive materials sealed inside flasks treated with lead. The bomb grants a +3 item bonus to attack rolls and deals 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage, according to the bomb's type. A creature that takes the persistent poison damage deals the splash damage again from its current position as the radiation continues to harm nearby creatures. The persistent damage can last up to 1 minute. Blightburn bombs also expose the primary target to blightburn sickness.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:43]</p>\n<p><strong>Onset</strong> [[/r 1d4 #days]]{1d4 days}</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 day)</p>\n<p><strong>Stage 2</strong> drained 1 and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 week)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 3} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} (1 month)<strong><br /></strong></p>\n<p><strong>Stage 5</strong> increase drained condition by 1 (1 year)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "disease",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Blightburn Bomb",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Blightburn bombs have radioactive materials sealed inside flasks treated with lead. The bomb grants a +2 item bonus to attack rolls and deals 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage, according to the bomb's type. A creature that takes the persistent poison damage deals the splash damage again from its current position as the radiation continues to harm nearby creatures. The persistent damage can last up to 1 minute. Blightburn bombs also expose the primary target to blightburn sickness.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:34]</p>\n<p><strong>Onset</strong> [[/r 1d4 #days]]{1d4 days}</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 day)</p>\n<p><strong>Stage 2</strong> drained 1 and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 week)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 3} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} (1 month)<strong><br /></strong></p>\n<p><strong>Stage 5</strong> increase drained condition by 1 (1 year)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "disease",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Blightburn Necklace",
+    "price": {
+      "gp": 2300
+    },
+    "description": "<p>This heavy iron necklace is decorated with tiny gems that resemble the stars in the ceiling high above the Vault of the Black Desert. While you have invested this item, you cannot contract blightburn sickness. It doesn't cure blightburn sickness if you already have it, but the disease's stage can't progress while you wear it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blightburn Resin",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>This tacky, hardened sap is harvested from trees infected by fungal blights and exposed to open flames.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[6d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[7d6[poison]] damage (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[9d6[poison]] damage (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Blightburn Ward",
+    "price": {
+      "gp": 2300
+    },
+    "description": "<p>This heavy iron necklace is decorated with tiny gems that resemble the stars in the ceiling high above the Vault of the Black Desert. While you have invested this item, you cannot contract blightburn sickness. It doesn't cure blightburn sickness if you already have it, but the disease's stage can't progress while you wear it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blindpepper Bolt",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Ammunition</strong> bolt</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>The head of this bolt is a vented container that smells strongly of caustic pepper. When an activated blindpepper bolt hits a target, it deals no damage; instead the creature must attempt a @Check[fortitude|dc:17|showDC:all] save. If the Strike was a critical success, the target takes a -2 circumstance penalty to its Fortitude save. At the GM's discretion, a creature with no eyes or olfactory organs might not be affected by this item.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] until the end of your next turn. It can end the effect early if it spends an action, which has the manipulate trait, to wipe down its eyes.</p>\n<p><strong>Failure</strong> The target is dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] until the end of your next turn and dazzled for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Blindpepper Bomb",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<p>Though expensive, these single-use alchemical bombs are often used by police forces to disperse unruly crowds and quell riots without risking permanent physical injury to either officers or civilians.</p>\n<p>The bomb can be thrown up to 30 feet, causing it to explode, spraying the aerosolized pepper dust in a @Template[burst|distance:15]{15-foot-radius burst}. All creatures in the area must succeed at a @Check[reflex|dc:18|showDC:all] save to avoid inhaling the dust or getting it in their eyes.</p>\n<p>On a failed save, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and then @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p>On a critical failure, the creature is blinded for 1 round, @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}, and dazzled until it removes the sickened condition.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "visual"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blindpepper Tube",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This single-use pacification device consists of finely ground hot pepper loaded into a sealed, blowgun-style tube with a one-way valve and a range of 5 feet. To use it, the wielder must tear open the tube's seal as an Interact action, then spend another action to blow the hot pepper into an adjacent creature's face. These actions don't have to be taken in the same round. The target must attempt a @Check[reflex|dc:15] save to avoid inhaling the pepper or getting it in their eyes. On a failed save, the creature is blinded for 1 round and then dazzled for 1 round. On a critical failure, the creature is blinded for 1 round, sickened 1, and dazzled until it removes the sickened condition.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "visual"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Blink Blade",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>The blade of this <em>+2 striking dagger</em> is etched with whirling portals, and a single blue sapphire adorns its hilt. It feels lightweight and is always slightly warm to the touch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Translocate]. The space you leave and the one you appear in are filled with puffs of smoke that make anyone within @UUID[Compendium.pf2e.conditionitems.Item.Concealed] until they leave the smoke or until the end of your next turn, at which point the smoke dissipates. When used in strong winds, the smoke disperses immediately.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your melee attack roll with the <em>blink blade</em> is a critical success</p>\n<p><strong>Effect</strong> You and your target teleport to a space within 10 feet. The target arrives in a safe, open space of your choosing adjacent to your arrival space. This teleportation also creates puffs of smoke, as noted with the activation above.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "teleportation",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Blister Ammunition (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Blister ammunition is loaded with alchemically processed irritants, such as pollen, pepper, and formic acid. A creature hit by activated blister ammunition must attempt a @Check[fortitude|dc:35] save or begin to itch uncontrollably for 10 rounds in addition to damage the attack normally deals. On a critical hit, increase the Fortitude DC by 2 (@Check[fortitude|dc:37]), and the target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round. For the duration, each time the target attempts a concentrate action, it must attempt a @Check[flat|dc:8], losing the action on a failure. An affected creature can use a single Interact action to scratch and sneeze, allowing it to automatically pass the flat check. The effect ends early once an affected creature spends 3 Interact actions scratching and sneezing. These Interact actions don't need to be consecutive.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Blister Ammunition (Lesser)",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Blister ammunition is loaded with alchemically processed irritants, such as pollen, pepper, and formic acid. A creature hit by activated blister ammunition must attempt a @Check[fortitude|dc:19] save or begin to itch uncontrollably for 3 rounds in addition to damage the attack normally deals. On a critical hit, increase the Fortitude DC by 2 (@Check[fortitude|dc:21]), and the target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round. For the duration, each time the target attempts a concentrate action, it must attempt a @Check[flat|dc:8], losing the action on a failure. An affected creature can use a single Interact action to scratch and sneeze, allowing it to automatically pass the flat check. The effect ends early once an affected creature spends 3 Interact actions scratching and sneezing. These Interact actions don't need to be consecutive.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blister Ammunition (Moderate)",
+    "price": {
+      "gp": 210
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Blister ammunition is loaded with alchemically processed irritants, such as pollen, pepper, and formic acid. A creature hit by activated blister ammunition must attempt a @Check[fortitude|dc:28] save or begin to itch uncontrollably for 6 rounds in addition to damage the attack normally deals. On a critical hit, increase the Fortitude DC by 2 (@Check[fortitude|dc:30]), and the target is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round. For the duration, each time the target attempts a concentrate action, it must attempt a @Check[flat|dc:8], losing the action on a failure. An affected creature can use a single Interact action to scratch and sneeze, allowing it to automatically pass the flat check. The effect ends early once an affected creature spends 3 Interact actions scratching and sneezing. These Interact actions don't need to be consecutive.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blisterwort",
+    "price": {
+      "gp": 280
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This clear, viscous liquid causes lesions and blisters that spread quickly. The victim's pain response increases and flesh breaks easily under physical stress.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[4d6[poison]] and weakness 2 to physical and force damage</p>\n<p><strong>Stage 2</strong> @Damage[5d6[poison]] and weakness 4 to physical and force damage</p>\n<p><strong>Stage 3</strong> @Damage[7d6[poison]] and weakness 6 to physical and force damage</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Blocks",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>These wooden blocks can be stacked to build flimsy structures. A standard set comes in a small sack with 12 blocks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Blood Bomb (Greater)",
+    "price": {
+      "gp": 275
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals 1 slashing, 3d6 persistent bleed damage and 3 slashing splash damage. You gain a +2 item bonus to attack rolls.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blood Bomb (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals 1 slashing, 1d6 persistent bleed damage and 1 slashing splash damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Blood Bomb (Major)",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals 1 slashing, 6d6 persistent bleed damage and 4 slashing splash damage. You gain a +3 item bonus to attack rolls.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blood Bomb (Moderate)",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals 1 slashing, 2d6 persistent bleed damage and 2 slashing splash damage. You gain a +1 item bonus to attack rolls.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Blood Booster (Greater)",
+    "price": {
+      "gp": 3400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This elixir bolsters your body's natural defenses and ability to resist maladies that travel through or affect blood. For 10 minutes you receive resistance 20 to persistent bleed and persistent poison damage, and you lower the DC for any flat checks to end persistent bleed or persistent poison damage as if you received particularly appropriate aid.</p>\n<p>At the GM's discretion, blood booster elixirs can also automatically counteract non-magical effects that specifically rely on thinning the drinker's blood, such as a skull peeler's anticoagulant.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blood Booster]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blood Booster (Lesser)",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This elixir bolsters your body's natural defenses and ability to resist maladies that travel through or affect blood. For 10 minutes you receive resistance 5 to persistent bleed and persistent poison damage, and you lower the DC for any flat checks to end persistent bleed or persistent poison damage as if you received particularly appropriate aid.</p>\n<p>At the GM's discretion, blood booster elixirs can also automatically counteract non-magical effects that specifically rely on thinning the drinker's blood, such as a skull peeler's anticoagulant.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blood Booster]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Blood Booster (Moderate)",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This elixir bolsters your body's natural defenses and ability to resist maladies that travel through or affect blood. For 10 minutes you receive resistance 10 to persistent bleed and persistent poison damage, and you lower the DC for any flat checks to end persistent bleed or persistent poison damage as if you received particularly appropriate aid.</p>\n<p>At the GM's discretion, blood booster elixirs can also automatically counteract non-magical effects that specifically rely on thinning the drinker's blood, such as a skull peeler's anticoagulant.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Blood Booster]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Blood-Drinker",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This <em>+3 greater striking keen sawtooth saber</em> has a black blade that always seems freshly smeared with blood.</p><hr /><p><strong>Activate—Drink Blood</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with the weapon</p>\n<p><strong>Effect</strong> You gain a number of temporary Hit Points equal to twice the creature's level. If you're also wielding Fleshrender in your other hand, you instead gain temporary Hit Points equal to three times the creature's level. These Hit Points remain for 1 minute.</p><hr /><p><strong>Activate—Wall of Sabers</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> Fleshrender is within 30 feet and isn't currently held by you</p>\n<p><strong>Effect</strong> A whirling wall of sawtooth sabers appear in the air between the paired weapons. All creatures in a line between you and Fleshrender take @Damage[10d6[slashing]] damage and @Damage[4d6[bleed]] damage (@Check[reflex|dc:38|basic] save).</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "twin"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Blood Sap",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This potent drug is distilled from a certain tropical vine into a deep-red syrup that, over time, stains the user's lips and teeth a vivid shade of red.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 3 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}, +1 item bonus to weapon and unarmed attack rolls, Acrobatics checks, and Athletics checks (10 minutes)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Blood Sight Elixir (Greater)",
+    "price": {
+      "gp": 115
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thick, blood-red elixir sharpens your senses and makes you more acutely aware of blood. You gain blood sight as a precise sense with a duration of 1 hour. Blood sight has a range of 60 feet and allows you to detect living creatures who are taking persistent bleed damage or who have the dying or wounded conditions. You also detect free-standing puddles or droplets of recently spilled blood. At the GM's discretion, living creatures without blood can't be detected with your blood sight.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blood Sight Elixir (Lesser)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thick, blood-red elixir sharpens your senses and makes you more acutely aware of blood. You gain blood sight as an imprecise sense with a duration of 10 minutes. Blood sight has a range of 60 feet and allows you to detect living creatures who are taking persistent bleed damage or who have the dying or wounded conditions. You also detect free-standing puddles or droplets of recently spilled blood. At the GM's discretion, living creatures without blood can't be detected with your blood sight.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Blood Sight Elixir (Major)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thick, blood-red elixir sharpens your senses and makes you more acutely aware of blood. You gain blood sight as a precise sense with a duration of 1 hour. Blood sight has a range of 60 feet and allows you to detect living creatures who are taking persistent bleed damage or who have the dying or wounded conditions. You also detect free-standing puddles or droplets of recently spilled blood. At the GM's discretion, living creatures without blood can't be detected with your blood sight.</p>\n<p>Your blood sight is especially accurate, allowing you to also detect creatures whose Hit Points are currently at half or less of their maximum. When you detect a creature with blood sight, you get a vague approximation of the value of the creature's bleed damage, dying condition, or wounded condition. This approximation can be noticed as \"excessive bleeding,\" a creature being \"near death,\" or some other general sense that doesn't give the exact value.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Blood Sight Elixir (Moderate)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thick, blood-red elixir sharpens your senses and makes you more acutely aware of blood. You gain blood sight as an imprecise sense with a duration of 1 hour. Blood sight has a range of 60 feet and allows you to detect living creatures who are taking persistent bleed damage or who have the dying or wounded conditions. You also detect free-standing puddles or droplets of recently spilled blood. At the GM's discretion, living creatures without blood can't be detected with your blood sight.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Bloodbane (Greater)",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>A <em>bloodbane</em> clan dagger is especially vicious against the ancestral enemies of the clan. When you damage an appropriate type of creature with the weapon, that creature takes @Damage[1d4[bleed]]. The type of creature depends on the clan that made the dagger, but is typically drow, duergar, giant, or orc.</p>\n<p>In addition, whenever you inflict persistent bleed damage with a <em>bloodbane</em> weapon (whether from its innate ability or in some other way), the weapon leaves ragged wounds. The bleeding creature must succeed at a @Check[fortitude|dc:30|name:Greater Bloodbane] save or become sickened 1. The creature is then temporarily immune for 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "dwarf",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bloodbane",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>A <em>bloodbane</em> clan dagger is especially vicious against the ancestral enemies of the clan. When you damage an appropriate type of creature with the weapon, that creature takes @Damage[1[bleed]] damage. The type of creature depends on the clan that made the dagger, but is typically drow, duergar, giant, or orc.</p>\n<p>In addition, whenever you inflict persistent bleed damage with a <em>bloodbane</em> weapon (whether from its innate ability or in some other way), the weapon leaves ragged wounds. The bleeding creature must succeed at a @Check[fortitude|dc:25] save or become sickened 1. The creature is then temporarily immune for 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "dwarf",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Bloodburn Censer",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p>The exterior of this egg-shaped brass censer is polished to a mirror-like sheen. Several rings are attached to its sides at regular intervals. The top of the censer's lid is decorated with a pair of intertwining snakes.</p>\n<hr />\n<p><strong>Activate—Light Incense</strong> <span class=\"action-glyph\">2</span> (aura, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Cost</strong> incense worth at least 5 gp</p>\n<p><strong>Effect</strong> A piping, reddish smoke pours from the censer in a @Template[emanation|distance:20]. You choose whether the smoke causes the target's blood to turn extremely hot or transmutes to poison; the smoke deals your choice of fire or poison damage. Each living creature that's in the area or enters it attempts a @Check[fortitude|dc:34] saving throw, then becomes temporarily immune for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature breathes in a small amount of the poisonous smoke and takes @Damage[2d6[persistent,fire]] or @Damage[2d6[persistent,acid]] damage.</p>\n<p><strong>Failure</strong> The creature gulps down a lungful of the smoke, taking @Damage[4d6[persistent,fire]] or @Damage[4d6[persistent,acid]] damage and becoming @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} until the persistent damage ends.</p>\n<p><strong>Critical Failure</strong> The creature inhales a large amount of the smoke, taking @Damage[6d6[persistent,fire]] or @Damage[6d6[persistent,acid]] damage and becoming @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3} until the persistent damage ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "censer",
+      "fire",
+      "magical",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bloodeye Coffee",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A strong blend including several spices common in the Padishah Empire of Kelesh, bloodeye coffee is a favorite morning drink across the Inner Sea region. The maximum addiction stage of bloodeye coffee never progresses beyond stage 1.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 8 hours</p>\n<p><strong>Stage 1</strong> +1 item bonus to AC and saves to which you are taking penalties caused by the @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] condition (10 minutes)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (1 hour)</p>\n<p><strong>Stage 3</strong> can't recover from fatigued (1 day, after which the drug ends)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bloodgorger Scythe",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>This <em>+1 striking scythe</em> is made from the cruel, blackened branches of the carnivorous scythe tree, which hungrily drink up spilled blood.</p><hr /><p><strong>Activate—Root in Blood</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike with this weapon and your target isn't currently taking any persistent bleed damage</p>\n<p><strong>Effect</strong> You break off a piece of the <em>bloodgorger scythe</em> inside your enemy to feed on their blood and sprout into a new tree. The target takes @Damage[1[bleed]] damage at the end of their turn. Each failure to stop the bleeding increases this bleed damage by 1 as a small scythe tree grows from the wound, to a maximum of 3 persistent bleed damage.</p><hr /><p><strong>Activate—Sapling Slash</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> A target has a piece of the <em>bloodgorger scythe</em> broken off inside them and has failed to recover from the persistent bleed damage for 3 consecutive turns</p>\n<p><strong>Effect</strong> The sprouted scythe tree grows large enough to be commanded. It makes a melee Strike against the target or a creature adjacent to the target, with a [[/r 1d20+18 #Sprouted Scythe Tree]]{+18} to hit and dealing @Damage[1d10[slashing]] damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include branches and roots from a scythe tree.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d10",
+      "magical",
+      "trip"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bloodhammer Reserve Black Label",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] except you can't Dismiss the effect. When you consume the brew, you gain the effects of 4th-rank <em>animal form</em>, can choose which battle form you take, and the temporary Hit Points you gain from the battle form increase to 20. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Bloodhammer Reserve Select",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] except you can't Dismiss the effect. When you consume the brew, you can choose which battle form you take and the temporary Hit Points you gain from the battle form increase to 10. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bloodhammer Reserve",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.Animal Form] except you can't Dismiss the effect, and you transform into a random animal battle form. To determine the battle form, roll [[/r 1d10 #Animal Form]] (1 = ape, 2 = bear, 3 = bull, 4 = canine, 5 = cat, 6 = deer, 7 = frog, 8 = shark, 9 = snake, 10 = reroll). Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bloodhound Mask (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 8 hours</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 60 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to @UUID[Compendium.pf2e.actionspf2e.Item.Track] a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +3 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodhound Mask (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bloodhound Mask (Lesser)",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 10 minutes</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 15 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to @UUID[Compendium.pf2e.actionspf2e.Item.Track] a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +1 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodhound Mask (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  }
+]

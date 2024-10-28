@@ -1,0 +1,1335 @@
+[
+  {
+    "level": 20,
+    "name": "The Peacock",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Keys (Dex)</p>\n<p><strong>Alignment</strong> neutral</p>\n<hr />\n<p><em>The Peacock</em> represents a sudden shift in attitude or societal change, often represented by a colorful but ugly creature that serves as a reminder as to what happens if something beautiful refuses to change with the times. As long as you have <em>The Peacock</em> invested, you can react to sudden changes more swiftly, and gain @UUID[Compendium.pf2e.feats-srd.Item.Incredible Initiative] as a bonus feat. If you already possess this feat, you gain a +2 item bonus on all initiative checks. This item bonus increases to +3 if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You freeze your appearance as it exists in this very moment by tapping The Peacock to your lips. You cast @UUID[Compendium.pf2e.spells-srd.Item.Mountain Resilience] on yourself, but with a duration of 30 minutes instead of 20 minutes. The rank of the spell is one-half your level rounded down (minimum 6th level).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Publican",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Star (Wis)</p>\n<p><strong>Alignment</strong> chaotic good</p>\n<hr />\n<p><em>The Publican</em> represents friendship, shelter, and insight. As long as you have <em>The Publican</em> invested, treat critically failed checks made to Aid as regular failures instead. If you are at least 14th level, the circumstance bonus you provide for succeeding or critically succeeding at checks to Aid increases by 1.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You improve a creature's attitude to you</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You improve the creature's attitude by an additional step more than you would normally. If you're at least 18th level, you improve the creature's attitude by two additional steps.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Queen Mother",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Stars (Wis)</p>\n<p><strong>Alignment</strong> lawful neutral</p>\n<hr />\n<p><em>The Queen Mother</em> is knowledge manifest, but she only shares this knowledge with loyal subjects. When you first invest <em>The Queen Mother</em>, choose a Lore skill in which you have no proficiency. As long as you continue to have the Queen Mother invested, you treat that Lore skill as if your proficiency rank with it were a master. If you're at least 15th level, you treat that Lore skill as if you were legendary with it instead. You can change your selected Lore once per day as part of your daily preparations, as long as you have <em>The Queen Mother</em> invested.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call upon a loyal subject to aid you by holding The Queen Mother out and asking her to send help. You cast @UUID[Compendium.pf2e.spells-srd.Item.Summon Animal] or @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct], but with a range of 90 feet. The rank of the spell is one-half your level rounded down.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Rabbit Prince",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Key (Dex)</p>\n<p><strong>Alignment</strong> chaotic neutral</p>\n<hr />\n<p><em>The Rabbit Prince</em> represents the unreliability of hand-to-hand combat, and how even cunning foes can lose to lucky novices. As long as you have <em>The Rabbit Prince</em> invested, it grants you a +1 status bonus to attack rolls you make as a readied action.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> (fortune) envision</p>\n<p><strong>Trigger</strong> You miss a creature with a melee weapon Strike</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Reroll the triggering Strike with a +1 status bonus. If you hit, attempt a @Check[flat|dc:15]; on a failure, your weapon gains the broken condition (if your weapon is already broken, it's destroyed). If you're at least 14th level, this flat check is @Check[flat|dc:10]. If you're at least 17th level, this flat check is @Check[flat|dc:5].</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Rakshasa",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Book (Int)</p>\n<p><strong>Alignment</strong> lawful evil</p>\n<hr />\n<p><em>The Rakshasa</em> represents domination of others to support your own schemes. When you invest <em>The Rakshasa</em>, identify a single willing creature within 30 feet as your pledged follower. If you're at least 15th level, you can have up to two pledged followers at once. At 18th level, you can have up to three pledged followers. If you have the maximum pledged followers active and select a new one, a previous pledged follower of your choice is no longer your pledged follower. You gain an item bonus equal to your current number of pledged followers to all @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] attempts.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that would decrease this Hit Point loss). If this loss kills your pledged follower, you also gain temporary Hit Points equal to your level. The pledged follower is temporarily immune to this activation for 24 hours.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Sickness",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shields (Con)</p>\n<p><strong>Alignment</strong> neutral evil</p>\n<hr />\n<p><em>The Sickness</em> represents disease of the body or soul. As long as <em>The Sickness</em> is invested, it grants you a +2 item bonus to saving throws against disease. If you roll a success on a save against a disease, you get a critical success instead. If you are 20th-level, the item bonus increases to +3.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You flick a corner of the card, as if casting aside a tiny pest or fleck of filth from its surface; you cast @UUID[Compendium.pf2e.spells-srd.Item.Abyssal Plague]. If you are at least 15th-level, you can instead choose to cast @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Epidemic]. Regardless of which spell you cast, the rank of the spell is half your level, rounded down (minimum 6th level), and the save DC is equal to your class DC or spell DC.</p>\n<p><em>Abyssal Plague</em> @Check[fortitude|against:class-spell|traits:chaotic,disease,evil,necromancy,spell]</p>\n<p><em>Spiritual Epidemic</em> @Check[fortitude|against:class-spell|traits:curse,necromancy,spell]</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Silent Hag",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Star (Wis)</p>\n<p><strong>Alignment</strong> neutral evil</p>\n<hr />\n<p><em>The Silent Hag</em> represents insight, treacherous secrets, and strife. As long as you have <em>The Silent Hag</em> invested, it grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks to Recall Knowledge—when you invest the card, choose which of these four skills gains the bonus. You can change the skill by investing the card again. This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You choose to lose one of your senses and gain another until you use this activation again. Choose from one of the following:</p>\n<ul>\n<li>Your eyes are replaced by dark pits that see only death. You become @UUID[Compendium.pf2e.conditionitems.Item.Blinded] and gain lifesense, an imprecise sense out to 60 feet. Lifesense allows you to see the vital essence of living and undead creatures, distinguishing between the vitality energy animating living creatures and void energy animating undead creatures, much as sight distinguishes colors.</li>\n<li>Your ears close up then become covered with hairs that are sensitive to movement. You become @UUID[Compendium.pf2e.conditionitems.Item.Deafened], but you can't be flanked.</li>\n<li>Your mouth seals over with flesh. You lose the ability to speak, but you do not need to breathe.</li>\n</ul>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Snakebite",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Book (Int)</p>\n<p><strong>Alignment</strong> chaotic evil</p>\n<hr />\n<p><em>The Snakebite</em> represents poison, assassination, and disharmony. As long as you have <em>The Snakebite</em> invested, it grants you a +2 item bonus to Deception and Stealth checks you make for initiative. This increases to a +3 item bonus if you're at least 17th level. The DCs of your poison effects have a +1 item bonus to targets that are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to you when you afflict the target with the poison (the DC retains this bonus for the target's subsequent saves against the affliction, even if the target is no longer off-guard to you).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Purple Worm Sting] on a creature within your reach, with a DC equal to your class DC or spell DC (@Check[fortitude|against:class-spell|traits:necromancy,poison,spell]).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical",
+      "poison"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Survivor",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shields (Con)</p>\n<p><strong>Alignment</strong> neutral good</p><hr /><p><em>The Survivor</em> represents rebirth through ordeal. When you have <em>The Survivor</em> invested, you gain @UUID[Compendium.pf2e.feats-srd.Item.Diehard] as a bonus feat. If you already possess this feat, you gain a +2 item bonus to all recovery checks. This item bonus increases to +3 if you are at least 17th-level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> you are reduced to 0 Hit Points</p><hr /><p><strong>Effect</strong> You somehow manage to survive what could have been a fatal blow. Instead of being reduced to 0 Hit Points, you drop to 1 Hit Point instead and immediately restore an additional @Damage[(4d8+16)[healing]] Hit Points. The amount of Hit Point restored increases to @Damage[(5d8+20)[healing]] if you are at least 15th level, @Damage[(6d8+24)[healing]] if you're at least 17th level, and @Damage[(7d8+28)[healing]] if you're at least 19th level.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Tangled Briar",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shields (Con)</p>\n<p><strong>Alignment</strong> lawful evil</p>\n<hr />\n<p><em>The Tangled Briar</em> signifies the return of ancient triumphs. As long as you have <em>The Tangled Briar</em> invested, you gain @UUID[Compendium.pf2e.feats-srd.Item.Toughness] as a bonus feat. If you already possess this feat, increase your maximum Hit Points by twice your level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the card up above your head and invoke the thorns and briars of the tangled parts of the world; you cast @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns]. The rank of the spell is half your level, rounded down (minimum 6th level). The brambles within this particular wall of thorns are treated as greater difficult terrain.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Teamster",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shield (Con)</p>\n<p><strong>Alignment</strong> neutral</p>\n<hr />\n<p><em>The Teamster</em> represents the driving force to push on, no matter the circumstance. As long as you have <em>The Teamster</em> invested, all single-target effects that target you and require a saving throw gain the incapacitation trait. If the effect originates from a creature or effect of a level higher than yours, it doesn't gain the incapacitation trait in this way.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> you are affected by an ongoing condition</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You push through your largest hindrance. Select one of the following conditions currently affecting you: @UUID[Compendium.pf2e.conditionitems.Item.Blinded], @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Confused], @UUID[Compendium.pf2e.conditionitems.Item.Controlled], @UUID[Compendium.pf2e.conditionitems.Item.Dazzled], @UUID[Compendium.pf2e.conditionitems.Item.Deafened], @UUID[Compendium.pf2e.conditionitems.Item.Doomed], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Dying], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], @UUID[Compendium.pf2e.conditionitems.Item.Fascinated], @UUID[Compendium.pf2e.conditionitems.Item.Fatigued], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], @UUID[Compendium.pf2e.conditionitems.Item.Immobilized], @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed], @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage], @UUID[Compendium.pf2e.conditionitems.Item.Petrified], @UUID[Compendium.pf2e.conditionitems.Item.Restrained], @UUID[Compendium.pf2e.conditionitems.Item.Sickened], @UUID[Compendium.pf2e.conditionitems.Item.Slowed], @UUID[Compendium.pf2e.conditionitems.Item.Stunned], @UUID[Compendium.pf2e.conditionitems.Item.Stupefied], @UUID[Compendium.pf2e.conditionitems.Item.Unconscious], or @UUID[Compendium.pf2e.conditionitems.Item.Wounded]. If the source of the condition is more than 4 levels lower than your current level, The Teamster automatically counters the condition. Otherwise, The Teamster attempts to counter the condition, with a counteract modifier of [[/r 1d20+31 #Counteract]]{+31}.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Theater",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Crown (Cha)</p>\n<p><strong>Alignment</strong> neutral good</p>\n<hr />\n<p><em>The Theater</em> represents prophecy and how prophets can't change the unfolding pageantry of fate. As long as you have <em>The Theater</em> invested and as long as you are not already @UUID[Compendium.pf2e.conditionitems.Item.Doomed], when you would gain the doomed condition, attempt a @Check[flat|dc:10]. On a success, you do not gain the doomed condition.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> (fortune) envision</p>\n<p><strong>Trigger</strong> You are targeted by a misfortune effect</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The Theater attempts to counter the misfortune effect before it affects you. It has a counteract rank equal to your level divided by 2 (rounded up), and a counteract modifier of your Class DC – 10.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Trader",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Books (Int)</p>\n<p><strong>Alignment</strong> neutral</p>\n<hr />\n<p><em>The Trader</em> represents trades and exchanges of information. As long as you have <em>The Trader</em> invested, you gain a +2 item bonus to Diplomacy checks made to @UUID[Compendium.pf2e.actionspf2e.Item.Gather Information]. This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The Trader allows you to make an exchange with yourself. Press the card to your brow, and then select two skills. Your proficiency rank with those two skills swaps for 1 hour. For example, if you were a master in Athletics and untrained in Crafting, you would become untrained in Athletics and a master in Crafting. If making this swap would break prerequisites to feats, you lose access to those feats until your skill proficiencies change back in an hour.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Trumpet",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shield (Con)</p>\n<p><strong>Alignment</strong> lawful good</p><hr /><p><em>The Trumpet</em> represents timely warning. As long as you have <em>The Trumpet</em> invested, you (and only you) hear the sound of trumpets when you're about to be attacked. This grants you a +2 item bonus to initiative checks made with hearing-based Perception checks. This bonus increases to +3 if you're at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> A blast of inspiring noise erupts from the card in a @Template[cone|distance:60]. Creatures in the area take @Damage[14d6[sonic]|options:area-damage] damage (with a @Check[fortitude|against:class-spell|basic|options:area-effect] save equal to your class DC or spell DC). Creatures that fail the save are @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round (1 minute on a critical failure). The damage increases to @Damage[16d6[sonic]|options:area-damage|shortLabel] if you're at least 13th level, to @Damage[18d6[sonic]|options:area-damage|shortLabel] if you're at least 15th level, to @Damage[20d6[sonic]|options:area-damage|shortLabel] if you're at least 17th level, and to @Damage[22d6[sonic]|options:area-damage|shortLabel] if you're at least 19th level.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Twin",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Crowns (Cha)</p>\n<p><strong>Alignment</strong> neutral</p>\n<hr />\n<p><em>The Twin</em> represents a duality of purpose or identity. As long as you have <em>The Twin</em> invested, it helps to defend you against damage to your mind or your body. When you invest <em>The Twin</em>, the card's artwork changes to look like you, and as you are exposed to afflictions, your card twin helps to protect you by absorbing them into itself. You gain a +1 item bonus to saves against curses, diseases, poison, and transmutation effects. This bonus increases to +2 if you're at least 14th level, and to +3 if you're 20th level. As you resist these afflictions, they begin to manifest on one of the twins depicted on the card art.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You twirl The Twin between your fingers and create a shadowy duplicate of yourself that mirrors your actions. The duplicate appears adjacent to you and has the same statistics as you do when you activate the card. You can sustain this effect for up to one minute. When you sustain the effect, your twin gains 2 actions. It always acts immediately after your turn, and must use identical actions to the ones you used, in exactly the same order. However, it can use the actions differently, such as Striding to a different position or selecting a different target for a Strike. If the twin is unable to mimic an action, it attempts the action without result and the action is wasted. The duplicate can't use any actions that can be used only a limited number of times per day (including casting any spell other than a cantrip). The duplicate isn't truly alive and can't be healed in any way. If the duplicate ever reaches 0 Hit Points, it is instantly destroyed and the effect immediately ends, and you take @Damage[10d6[mental]] damage (@Check[will|dc:38|basic] save).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Tyrant",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Crowns (Cha)</p>\n<p><strong>Alignment</strong> lawful evil</p>\n<hr />\n<p>As long as you have The Tyrant invested, you gain a +2 item bonus to Intimidation checks made to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize]. This bonus increases to +3 if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You hold the card up to your lips and exhale onto it; you cast @UUID[Compendium.pf2e.spells-srd.Item.Dragon Form]. The rank of the spell is half your level, rounded down (minimum 6th level).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Unicorn",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Crowns (Cha)</p>\n<p><strong>Alignment</strong> chaotic good</p>\n<hr />\n<p><em>The Unicorn</em> represents finding what one seeks. As long as you have <em>The Unicorn</em> invested, you gain a +2 item bonus on Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Seek]. This increases to a +3 item bonus if you're at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pass <em>The Unicorn</em> across an adjacent closed container and then open the container. Inside, you'll find a Common consumable alchemical or magic item you need to solve a problem or deal with a situation close at hand. For example, if you're badly wounded, you might find a greater healing potion. If you've been poisoned, you could discover a panacea. If you're faced with a written clue in a language you don't understand, the container might hold a comprehension elixir. The GM always decides what consumable item is discovered, and it must be equal to or lower than your level. If the consumable isn't used within 1 minute of being discovered, the item vanishes. If there's no appropriate item to solve your situation, the GM can rule that no object is found; in this case, the daily use of The Unicorn is not expended.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Uprising",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Hammers (Str)</p>\n<p><strong>Alignment</strong> chaotic neutral</p>\n<hr />\n<p>When you have The Uprising invested, you gain a +2 item bonus to all saving throws against affects that attempt to control you or restrain you. This item bonus increases to +3 if you are 20th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The card calls forth a mob of shadowy figures who batter and hinder your enemies. Target a @Template[burst|distance:20] at any point on solid ground with 120 feet, and the mob of figures rises up from the ground, persisting for 1 minute. Make an unarmed Strike against the Fortitude DC of any number of creatures in this burst (you can choose to not attack some creatures in the area if you wish). Any creature you succeed against is @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] and takes @Damage[3d6[bludgeoning]] damage. Whenever a creature ends its turn in the area, the figures attempt to Grab that creature if they haven't already, and they deal @Damage[1d6[bludgeoning]] damage to any creature already grabbed. The mob's @UUID[Compendium.pf2e.actionspf2e.Item.Escape] DC is equal to your class DC. A creature can attack a figure in an attempt to release its grip. It's AC is equal to your class DC, and it's destroyed if it takes 12 or more damage. Even if destroyed, additional figures continue to rise up in the area until the effect's duration ends. You can Dismiss this effect. If you are at least 15th level, you can use a two-action activity, which has the concentrate trait, to move the burst up to 30 feet, which causes any currently grabbed creatures to be released and left behind. If part of the burst appears or moves into an area that can't support it on the ground, that portion of the burst disappears until it is supported.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Vision",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Book (Int)</p>\n<p><strong>Alignment</strong> chaotic neutral</p>\n<hr />\n<p><em>The Vision</em> represents arcane knowledge. As long as you have <em>The Vision</em> invested, it grants you a +2 item bonus to all checks made to @UUID[Compendium.pf2e.actionspf2e.Item.Identify Magic]. This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> A visible bolt of blue energy bursts from your head. Attempt to Recall Knowledge about a subject, rolling the check with the most appropriate Lore skill check. This check always resolves as if you were master in the most appropriate Lore skill to Recall Knowledge on the subject (or if you're at least 15th level, as if you were legendary in that Lore skill). If you're already master (or legendary) in that Lore, the result of your Recall Knowledge check is one degree of success better than it would otherwise be.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Wanderer",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Books (Int)</p>\n<p><strong>Alignment</strong> neutral good</p>\n<hr />\n<p><em>The Wanderer</em> represents the art of collecting and finding the value in even the simplest items. As long as <em>The Wanderer</em> is invested, you don't trigger reactions when you Interact to draw or use an item.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You do a quick bit of legerdemain with <em>The Wanderer</em>. As the card appears to disappear from your hand, it's immediately replaced by an object of Light bulk in your hand. The object can be any Common permanent magic item, weapon, or piece of gear of a level no higher than your level –2. The item exists for 1 minute, or until it is no longer attended by you, at which point the item vanishes and The Wanderer reappears in your possession.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Waxworks",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Shield (Con)</p>\n<p><strong>Alignment</strong> chaotic evil</p>\n<hr />\n<p>The Waxworks represents helplessness and entropy. As long as you have this card invested, you gain a +2 item bonus to saving throws against effects that render you @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Doomed], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], or @UUID[Compendium.pf2e.conditionitems.Item.Fatigued]. The item bonus increases to +3 if you are 20th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cause two @Template[line|distance:30]s of hot wax to extend out of the card as you present it. The two lines must both start at you and extend in different directions. If you are at least 15th level, you can create a third line, and if you're at least 19th level you can create a fourth line. All creatures in the area must attempt a @Check[fortitude|against:class-spell] save against your class DC or spell DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes [[/r 2d6[persistent,fire],2d6[persistent,mental]]]{2d6 persistent fire damage and 2d6 persistent mental} damage. An affected creature or adjacent ally can reduce both of these values by 1d6 by spending an Interact action to scrape off the goo. Until the damage is reduced to 1d6 per type, the affected creature is also @UUID[Compendium.pf2e.conditionitems.Item.Confused] (this is an emotion and mental effect).</p>\n<p><strong>Failure</strong> As success, but [[/r 4d6[persistent,fire],4d6[persistent,mental]]]{4d6 persistent fire damage and 4d6 persistent mental} damage.</p>\n<p><strong>Critical Failure</strong> As success, but [[/r 6d6[persistent,fire],6d6[persistent,mental]]]{6d6 persistent fire damage and 6d6 persistent mental} damage, and the creature's speed is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} until the damage is reduced to 1d6 per type.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "The Whispering Reeds",
+    "price": {},
+    "description": "<p>This hefty tome was compiled centuries ago by an anonymous author who sought to collect all parables, myths, stories, and encounters with the Outer Goddess Nhimbaloth. According to the introduction, the author's original intent was to create a work that foes of the Empty Death could use to fight against her influence, but as one reads through the book, it becomes apparent that the opposite effect has been achieved—by compiling these stories, the author inadvertently generated a work that made it easier for Nhimbaloth to influence the world. Those who venerate the Empty Death seek copies of this book to use as a guide and religious text, while those who don't know better and peruse the book as though it were merely an anthology of stories find themselves unwittingly falling prey to Nhimbaloth's cult or agents of the entity herself. Those who study from <em>The Whispering Reeds</em> for too long are often cursed to rise as ghosts after death—though their existence never lasts for long, as they are inevitably consumed by Nhimbaloth.</p>\n<p>The anonymous compiler wanted to produce an enormous print run of <em>The Whispering Reeds</em>, but after the initial run they realized the danger and scuttled those plans, instead attempting to destroy those copies already created. This crusade caught the attention of Nhimbaloth's cult, who swiftly assassinated the compiler. Fewer than two dozen copies of this rare tome are believed to still exist. The book's sinister nature causes all attempts to transcribe it to fail, resulting in bodies of gibberish, nonsense text.</p>\n<p><em>The Whispering Reeds</em> provides several abilities, but you can't activate any of them while you are @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] unless you are a follower of Nhimbaloth.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (Investigate)</p>\n<p><strong>Effect</strong> You gain a +2 item bonus to skill checks to Recall Knowledge about Nhimbaloth, her faith, or creatures associated with her (such as incorporeal undead, vampiric mists, wisps, and other incorporeal creatures associated with death).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You read aloud a phrase from the book and target a single incorporeal undead creature within 30 feet. That undead creature takes @Damage[5d6[vitality]] damage (@Check[will|dc:27|basic] save) as portions of their incorporeal being are consumed in patches of seven equally spaced holes.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You invoke a tale from <em>The Whispering Reeds</em> that parallels the situation, environment, or creatures nearby. Eerie mists and indistinct whispers rise in a @Template[emanation|distance:20] around you, and clusters of seven perfectly spaced divots manifest in the ground, vegetation, and flesh of creatures in the emanation other than yourself and up to three creatures you designate at the time of activation. Creatures afflicted with these divots suffer from agonizing mental anguish in the form of crippling despair and take @Damage[4d6[mental]] damage (@Check[will|dc:27|basic] save). The mists, whispers, and strange divots fade away at the end of the round, but any creature that takes mental damage from the effect also takes a -1 penalty to saving throws against effects with the emotion trait for 1 minute.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> You cast one of the following spells at the lowest level possible (unless otherwise specified): @UUID[Compendium.pf2e.spells-srd.Item.Wave of Despair] (one target within 30 feet only), @UUID[Compendium.pf2e.spells-srd.Item.Fear] (3rd), @UUID[Compendium.pf2e.spells-srd.Item.Paranoia], or @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Killer].</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "occult"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "The Winged Serpent",
+    "price": {},
+    "description": "<p><strong>Suit</strong> Stars (Wis)</p>\n<p><strong>Alignment</strong> lawful good</p>\n<hr />\n<p><em>The Winged Serpent</em> represents the wisdom of knowing when to act. As long as you have <em>The Winged Serpent</em> invested, you gain a +2 item bonus on initiative checks made with sight-based Perception checks. This bonus increases to +3 if you are 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You swipe <em>The Winged Serpent</em> across your eyes to gain insight on when to strike. You cast @UUID[Compendium.pf2e.spells-srd.Item.Foresight] on yourself, but the duration is only 10 minutes. If you're at least 17th level, the duration extends to 1 hour and you can cast <em>foresight</em> on another creature by touch. The level of this spell is one-half your level rounded down (minimum 9th).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "harrow-court",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Theatrical Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 10 minutes.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.Perform], Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Theatrical Mutagen (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Theatrical Mutagen (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 minute.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.Perform], Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Theatrical Mutagen (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Theatrical Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 hour.</p>\n<p>Benefit You gain a +4 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.</p>\n<p>Drawback You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.Perform], Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Theatrical Mutagen (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Theatrical Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 minute.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.Perform], Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Theatrical Mutagen (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Therapeutic Snap Peas",
+    "price": {
+      "gp": 85
+    },
+    "description": "<p>Affectionately called \"the healer's kit of the Plane of Wood,\" <em>therapeutic snap peas</em> are specially cultivated snap pea pods overflowing with restorative magic.</p><hr /><p><strong>Activate—Healing Pod</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> You break the snap pea pod in half, unleashing its restorative healing energy. Up to 5 creatures of your choice within 30 feet regain @Damage[(4d8+10)[healing]]{4d8+10 Hit Points} and gain a +2 item bonus to all saves against poisons or diseases for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Therapeutic Snap Peas]</p><hr /><p><strong>Activate—Beanstalk</strong> 10 minutes (manipulate)</p>\n<p><strong>Effect</strong> You plant the <em>therapeutic snap peas</em> in a square of open ground, after which they rapidly grow into a 10-foot-tall beanstalk that remains in place for 8 hours. The beanstalk's enormous pea pods provide a full day's food for up to 8 living creatures of size Large or smaller, which must be eaten before the beanstalk expires. Any creature that eats the pea pods also immediately heals @Damage[30[healing]] Hit Points and can attempt a new saving throw against one poison or disease afflicting them.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Thieves' Toolkit (Infiltrator Picks)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>These are replacement picks for @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit (Infiltrator)].</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Thieves' Toolkit (Infiltrator)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>You need a thieves' toolkit to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock]{Pick Locks} or @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device]{Disable Devices} (of some types) using the Thievery skill. An infiltrator thieves' toolkit add a +1 item bonus to checks to Pick Locks and Disable Devices.</p>\n<p>If your thieves' toolkit is broken, you can repair it by replacing the lock picks with @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit (Infiltrator Picks)]{Replacement Picks} appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' toolkit, you can draw and replace it as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Thieves' Toolkit (Replacement Picks)",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>These are replacement picks for a @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit].</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Thieves' Toolkit",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>You need a thieves' toolkit to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock]{Pick Locks} or @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device]{Disable Devices} (of some types) using the Thievery skill.</p>\n<p>If your thieves' toolkit is broken, you can repair it by replacing the lock picks with @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit (Replacement Picks)]{Replacement Picks} appropriate to your toolkit; this doesn't require using the Repair action. If you wear your thieves' toolkit, you can draw and replace it as part of the action that uses it.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Thieves' Tools (Concealable Picks)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>These are replacement picks for @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Tools (Concealable)].</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Thieves' Tools (Concealable)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>You need thieves' tools to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock]{Pick Locks} or @UUID[Compendium.pf2e.actionspf2e.Item.Disable a Device]{Disable Devices} (of some types) using the Thievery skill. Infiltrator thieves' tools add a +1 item bonus to checks to Pick Locks and Disable Devices.</p>\n<p>Smaller and made of stronger materials than most sets of thieves' tools, the items in this kit are much easier to conceal. You gain a +1 item bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.Conceal an Object]{Conceal} these tools.</p>\n<p>If your thieves' tools are broken, you can repair them by replacing the lock picks with @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Tools (Concealable Picks)]{Replacement Picks} appropriate to your tools; this doesn't require using the Repair action.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 19,
+    "name": "Third Eye",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>When invested, this ornate crown and its incandescent gemstone meld into your head and take the form of a tattoo. This grants you otherworldly sight and allows you to read auras. No one but you can manipulate the <em>third eye</em> while it's invested by you. Your heightened senses and ability to sense emotional auras grant you a +3 item bonus to Perception checks.</p>\n<p>You continuously see magic auras, as a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic] spell, except you see the location of all auras within 30 feet, not just the strongest. If you use a Seek action to study a creature you can see, you can perceive an aura that conveys knowledge of that creature's health, including all conditions and afflictions it has and an approximate percentage of its remaining Hit Points.</p>\n<p><strong>Activate—Truesight</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain the effects of an 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Truesight] spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Thorn Brush",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This <em>+2 greater striking holy shifting morningstar</em> has a head that appears to be a deep crimson metal rose with thorny petals. When you activate a <em>thorn brush</em> to Shift Weapon, you can cause it to take the shape of a painter's brush. While in this shape, it can't be used as a weapon (it can still be activated to Shift Weapon back into a morningstar), but it does grant a +2 item bonus to Crafting checks to paint or otherwise use the tool while creating artwork.</p>\n<p><strong>Activate—Splatter Paint</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You swing the weapon in an arc, causing a spray of paint of a color of your choice (chosen from black, blue, green, orange, white, or yellow) to splatter all creatures in a @Template[type:cone|distance:30]. Each creature takes 14d6 energy damage based on the color of the paint (@Damage[14d6[void]] for black, @Damage[14d6[cold]] for blue, @Damage[14d6[acid]] for green, @Damage[14d6[fire]] for orange, @Damage[14d6[vitality]] for white, or @Damage[14d6[electricity]] for yellow) and must attempt a @Check[reflex|dc:34] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] by paint in its eyes for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] by paint in its eyes for 1 round and then dazzled for 1 minute.</p>",
+    "rarity": "rare",
+    "traits": [
+      "holy",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Thorn Triad (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>From each corner of this carved, triangular badge extends a long, sharp thorn. The spell DC of any spell cast by activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> After you cast a plant spell by activating the triad, you gain resistance 4 to bludgeoning and piercing damage and weakness 3 to fire until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the triad, thorns erupt from the weapon. Your Strikes with the weapon deal an additional 1d6 persistent bleed damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Timber].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "wood"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Thorn Triad (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>From each corner of this carved, triangular badge extends a long, sharp thorn. The spell DC of any spell cast by activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> After you cast a plant spell by activating the triad, you gain resistance 6 to bludgeoning and piercing damage and weakness 3 to fire until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the triad, thorns erupt from the weapon. Your Strikes with the weapon deal an additional 1d8 persistent bleed damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Timber].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Wall of Thorns].</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Petal Storm].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "wood"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Thorn Triad",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>From each corner of this carved, triangular badge extends a long, sharp thorn. The spell DC of any spell cast by activating this item is 18.</p>\n<ul>\n<li><strong>Armor</strong> After you cast a plant spell by activating the triad, you gain resistance 2 to bludgeoning and piercing damage and weakness 3 to fire until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast a plant spell by activating the triad, thorns erupt from the weapon. Your Strikes with the weapon deal an additional 1d4 persistent bleed damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thorn Triad - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Timber].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "wood"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Thorn Whip",
+    "price": {
+      "sp": 6
+    },
+    "description": "<p>Carefully woven from plant fibers, the thorn whip sports small spikes that protrude from various locations.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "finesse",
+      "ghoran",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Thought Lens of Astral Essence",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Thoughtwhip Claw",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>Abraxas teaches that minds can be robbed as surely as pockets. This tattoo of a clenched fist provides a +2 item bonus to Thievery checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Abraxas reaches through your hands and creates threads to yank thoughts from the mind of another. The thoughtwhip claw casts @UUID[Compendium.pf2e.spells-srd.Item.Mind Probe] on a creature within range, with a DC of 28.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Thousand-Blade Thesis",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This collection of lacquered rice paper scrolls mounted on flexible bamboo contains a wealth of calligraphic essays and paintings on the art of war, specifically focused on the use of various weapons in warfare and how to tactically deploy warriors using those weapons to the best possible advantage. Consulting the thesis grants a +2 item bonus to Warfare Lore checks. Like most scholarly compendiums, this usage requires holding the thesis in one hand.</p>\n<p>The thesis also serves as an extradimensional armory for weapons and ammunition. The thesis has a capacity of 5 Bulk, and only weapons and ammunition can be stored within it. You and others can Interact with the thesis to store or retrieve a weapon or piece of ammunition in it, like a mundane container.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The thousand-blade thesis dramatically unfurls, and the weapons contained within it spring forth and array themselves impressively in the air, floating within easy reach. For 1 minute, you can use a free action to Interact to draw one of the floating weapons. Others can attempt to nab them out of the air, but to do so they must critically succeed at a Disarm check. You can't place weapons back into the thesis until the minute elapses.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Thousand-Pains Fulu (Blade)",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:23|basic]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>This red fulu feels rigid, its edges sharp, and looking at it makes you feel feverish. The fulu deals @Damage[5d6[slashing]] as meridians burst and cut through flesh. On a failure or critical failure, if the target fails to take an action with the manipulate or move trait on each of its turns, it takes @Damage[1d6[persistent,slashing]].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Thousand-Pains Fulu (Burl)",
+    "price": {
+      "gp": 2700
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:35|basic|traits:poison]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>Though this green fulu looks inviting, it has a foreboding aura. The fulu deals @Damage[10d8[poison]], causing the target's body to respond adversely to their ki. On a failure or critical failure, if the target takes fire damage, it takes @Damage[2d8[persistent,poison]] as well. These effects have the poison trait.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Thousand-Pains Fulu (Icicle)",
+    "price": {
+      "gp": 630
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:30|basic|traits:cold]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>Looking at this black fulu leaves you queasy and cold. The fulu deals @Damage[10d6[cold]] as the target's ki warps and drains. On a failure or critical failure, if the target takes damage from a poison or disease effect or becomes sickened, it takes @Damage[2d6[persistent,cold]]. These effects have the cold trait.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Thousand-Pains Fulu (Needle)",
+    "price": {
+      "gp": 270
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:27|basic]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>Picking up this white fulu feels like you've stabbed your hand with a pin. The fulu deals @Damage[7d6[piercing]] as hair, nails, and connective tissues stab inward. On a failure or critical failure, if the target then takes an action with the move trait, it takes @Damage[2d6[persistent,piercing]].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Thousand-Pains Fulu (Stone)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:19|basic]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>This fulu's yellow parchment feels dusty and stiff. The fulu deals @Damage[3d6[bludgeoning]] as muscles swell to crush joints and bones. On a failure or critical failure, if the target takes electricity damage, it takes @Damage[1d6[persistent,bludgeoning]] as well.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Thousand-Pains Fulu (Void)",
+    "price": {
+      "gp": 8100
+    },
+    "description": "<p><strong>Duration</strong> 1 minute</p>\n<p>Created by a chirurgeon who threw away morality in search of endless life, a <em>thousand-pains fulu</em> blocks the natural flow of elements in the body. A creature to which the fulu is affixed must attempt a @Check[fortitude|dc:38|basic]. Failure or critical failure primes the target for persistent damage triggered by a specific condition that must be met within the fulu's duration.</p>\n<p>The black dot at the center of this purple fulu draws in energy like a bottomless hole. The fulu deals @Damage[12d10[void]] by dissipating the target's ki. On a failure or critical failure, if the target takes any other damage within 1 minute, it takes @Damage[2d10[persistent,void]] as well. These effects have the death and void traits. Each time the target takes this persistent damage, any creature within 30 feet of it can use a reaction to gain temporary Hit Points equal to the persistent damage taken, distributing the available temporary Hit Points among those that take the reaction. If the creature that affixed the fulu is within 30 feet, it instead gains all the available temporary Hit Points, if it wishes. These temporary Hit Points disappear after 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Thousand-Year Dragonroot",
+    "price": {
+      "gp": 180
+    },
+    "description": "<p>Dragonroots are pale, golden-rooted plants that grow throughout Tian Xia. Just as mandrake roots or ginseng roots are sometimes regarded to have almost humanoid shapes, these roots appear as if they were dragons. They're commonly used in the formulation of healing potions, but the most sought-after have grown for centuries, for they're viable for enchantment into thousand-year dragonroots.</p>\n<p>When you activate a thousand-year dragonroot, your body shimmers with golden light, providing illumination as a torch. You gain a fly Speed of 40 feet and fire resistance 5 for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thousand-Year Dragonroot]</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Thrasher Tail",
+    "price": {
+      "gp": 620
+    },
+    "description": "<p>Kobolds admire well-designed objects, especially if it gives them an opportunity to pack it with traps and surprises. This prosthetic tail hides numerous blades and spikes, tensioned and wound around a spring-loaded trigger at the base of the prosthesis. Resetting and reattaching a sprung thrasher tail takes 10 minutes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span></p>\n<p><strong>Trigger</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.Grabbed]</p>\n<hr />\n<p><strong>Effect</strong> Your tail comes off in your opponent's hand, and the mechanism unwinds, causing the blades and spikes to protrude and the tail to spin and thrash. The tail deals @Damage[8d6[slashing]] to the opponent who has you grabbed with a @Check[reflex|dc:25|basic]. Regardless of the result of their save, you're no longer grabbed.</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "kobold",
+      "mechanical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Three Peaked Tree",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>A recently developed weapon created for an elven champion from Jinin, the three-peaked tree can be used as both a @UUID[Compendium.pf2e.equipment-srd.Item.Trident] and a @UUID[Compendium.pf2e.equipment-srd.Item.Mithral Tree]. A three-peaked tree has a length of silken rope attached to the butt of its haft, allowing it to be quickly retrieved after thrown.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "elf",
+      "fatal-d10",
+      "parry"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Three-Section Naginata",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>A fusion of a naginata and sansetsukon, this three-section weapon has a sweeping, curved blade along each of the outer sections. Though difficult for anyone but an expert weapon master to use effectively, the three-section naginata can be wielded at devastating speed to slice or smash apart a foe.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "forceful",
+      "sweep",
+      "versatile-b"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Thresholds of Truth",
+    "price": {},
+    "description": "<p>Zarmavdian's spellbook, <em>Thresholds of Truth</em>, was once a straightforward treatise on arcane and occult lore containing several useful spells. It's been so heavily annotated, however, that the original text is hard to read. It's clear that Zarmavdian wanted to prevent eldritch creatures from manipulating innocent minds, but his spellbook is a treasure trove for those seeking dangerous or inscrutable lore. The bookseller Morlibint currently keeps this book in his collection at Odd Stories.</p>\n<p>Thresholds of Truth provides access to the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.JBPXisA4IdXI9gVn]{Eldritch Researcher} archetype and contains the following spells:</p>\n<hr />\n<p>Cantrips</p>\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Void Warp]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Light]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Daze]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Detect Magic]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Electric Arc]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Hand]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Light]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Prestidigitation]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Read Aura]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Shield]</li>\n</ul>\n<p>1st Level</p>\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Alarm]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Charm]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Dizzying Colors]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Mystic Armor]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Force Barrage]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Sure Strike]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Minion]</li>\n</ul>\n<p>2nd Level</p>\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Translate]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.False Vitality]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Revealing Light]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Web]</li>\n</ul>\n<p>3rd Level</p>\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Haste]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Locate]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Paralyze]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Slow]</li>\n</ul>\n<p>4th Level</p>\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Clairvoyance]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Daydreamer's Curse]</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Containment]</li>\n</ul>",
+    "rarity": "unique",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Thrice-Fried Mudwings",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Frying mudwings-the remains of magical winged creatures found in blighted swamps-is a delicate balance. Cooked for too long and they lose their potency; cooked too briefly and the toxins in their system could end up harming whoever eats them. When you consume a perfectly cooked tapas, you grow two sets of mudwings that grant you a fly Speed of 30 feet or your Speed, whichever is lower, for 10 minutes. You can also use the following Activation.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You would take damage from a physical attack</p>\n<hr />\n<p><strong>Effect</strong> You intercept the attack with a pair of your wings. You gain resistance 15 against physical damage for the triggering attack only, shattering one set of your wings in the process. The first time you use this Activation, your fly Speed becomes 15 feet, or half your Speed, whichever is lower, for the duration. After the second time, your mudwings are shattered entirely, ending the effect.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Thrower's Bandolier",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This bandolier is covered in straps and pouches capable of holding up to 2 Bulk of one-handed thrown weapons. A thrower's bandolier has a <em>+1 weapon potency rune</em> etched into it, and it can be etched with runes as though it were a one-handed thrown weapon. When you invest the thrower's bandolier, you can attune it to all the weapons sheathed in it (this ends any previous attunements made with the bandolier). Whenever you draw a weapon from the bandolier, the bandolier's runes are replicated onto that weapon. Any runes already on the weapon are suppressed, and any runes previously replicated to a different weapon in this way are removed, returning it to normal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> All weapons attuned to the bandolier, not including any weapons you're currently wielding, return to the bandolier.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Throwing Knife (Extinction Curse)",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>This light knife is optimally balanced to be thrown accurately at a greater distance than a common dagger. While this comes at the cost of a significant cutting edge, the difference is worth it for characters focused on thrown weapons.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "thrown-20",
+      "twin"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Throwing Knife",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>This light knife is optimally balanced to be thrown accurately at a greater distance than a common dagger. While this comes at the cost of a significant cutting edge, the difference is worth it for throwing specialists.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Throwing Shield",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These special straps and weightings fit over a shield or buckler, but not a tower shield. They are designed to let you doff and throw the shield in one swift movement. You can quickly remove the shield by spending a free action as part of the Strike to throw the shield. When thrown in this way, the shield is a martial thrown weapon that deals 1d6 bludgeoning damage and has the thrown 20 feet trait. A shield with the throwing shield attachment can't have any attached weapons, such as shield spikes or a shield boss, and the adjustments to make it more aerodynamic make it slightly less sturdy, reducing its Hardness by 1.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Thumper Snare",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This small box contains a clockwork mechanism that rhythmically thumps the ground, allowing creatures with tremorsense to detect it at up to double their usual range. The mechanism can be wound to thump anywhere from 1 round to 1 minute before falling into useless components.</p>",
+    "rarity": "rare",
+    "traits": [
+      "auditory",
+      "clockwork",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Thunder Helm",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>The creator of the original <em>thunder helm</em> tried and failed time and again to craft a reliable, helmet-mounted firearm that enabled hands-free gunplay, but even after resorting to magical enhancements, they were never quite able to realize their vision. The allure of the <em>thunder helm</em> continues to compel certain mindsets in the Mana Wastes, and these items continue to be crafted to this day.</p>\n<p>A <em>thunder helm</em> appears as a cylindrical iron helmet adorned with a crown-like display of gun barrels extending out in all directions. A slit in the front allows for limited visibility, while sound is muffled by the inner lining. As long as a creature wears a <em>thunder helm</em>, it takes a -1 circumstance penalty to auditory and visual Perception checks but also gain a +1 circumstance bonus to saving throws against auditory and visual effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The helm's gun barrels swivel and aim randomly, then conjure enough gunpowder and bullets to fire in all directions around you. Every creature within a @Template[emanation|distance:20] takes @Damage[4d6[piercing]|options:area-damage] damage (@Check[reflex|dc:19|basic|options:area-effect]). When determining a creature's resistance or immunity to this damage, use the weaker of the target's resistance or immunity to piercing or bludgeoning.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Thunder Sling",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Tengu use these specialized slings to fire darts further and with greater force than when thrown by hand. A thunder sling uses darts as ammunition. It can also hurl blowgun darts as ammunition but deals @Damage[(1d4)[piercing]] damage instead of 1d6 when used this way.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "propulsive",
+      "tengu"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Thunder Snare",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>The snare makes a thunderous noise when a creature enters the snare's square, which can be heard up to 1,000 feet away. The creature must attempt a @Check[fortitude|dc:18] saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is deafened until the end of its next turn.</p>\n<p><strong>Failure</strong> As success, and the target also takes 1 sonic damage.</p>\n<p><strong>Critical Failure</strong> As success, and the target also takes 1d4 sonic damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> 1 lesser thunderstone</p>",
+    "rarity": "common",
+    "traits": [
+      "auditory",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Thunderbird Tuft (Greater)",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a @UUID[Compendium.pf2e.spells-srd.Item.Shocking Grasp] spell, <em>thunderbird tuft</em> funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes @Damage[2d4[electricity]] damage, or @Damage[2d6[electricity]] damage if the creature is using a metal weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Thunderbird Tuft (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a @UUID[Compendium.pf2e.spells-srd.Item.Shocking Grasp] spell, <em>thunderbird tuft</em> funnels electricity back into the spellcaster in a defensive nimbus. For 1 round, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes @Damage[1d4[electricity]] damage, or @Damage[1d6[electricity]] damage if the creature is using a metal weapon, but the nimbus only lasts 1 round, rather than the full minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Thunderbird Tuft (Major)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a @UUID[Compendium.pf2e.spells-srd.Item.Shocking Grasp] spell, <em>thunderbird tuft</em> funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes @Damage[3d4[electricity]] damage, or @Damage[3d6[electricity]] damage if the creature is using a metal weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Thunderbird Tuft (Moderate)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a @UUID[Compendium.pf2e.spells-srd.Item.Shocking Grasp] spell, <em>thunderbird tuft</em> funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes @Damage[1d4[electricity]] damage, or @Damage[1d6[electricity]] damage if the creature is using a metal weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Thunderblast Slippers (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Unassuming in appearance, these slippers indicate their nature only with a signature strip of yellow stitching. You gain a +2 item bonus to Acrobatics checks.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You move like the wind, with precision and speed. You Stride up to 120 feet; this movement doesn't trigger reactions. When you stop, if you've moved at least 30 feet from where you started, you release a thunderous @Template[emanation|distance:5] that deals @Damage[3d6[bludgeoning],3d6[sonic]|options:area-damage]{3d6 bludgeoning damage and 3d6 sonic damage} with a @Check[fortitude|dc:34|basic|options:area-effect]. A creature that critically fails its save is also knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Thunderblast Slippers",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Unassuming in appearance, these slippers indicate their nature only with a signature strip of yellow stitching. You gain a +2 item bonus to Acrobatics checks.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You move like the wind, with precision and speed. You Stride up to 60 feet; this movement doesn't trigger reactions. When you stop, if you've moved at least 30 feet from where you started, you release a thunderous @Template[emanation|distance:5] that deals @Damage[2d6[bludgeoning],2d6[sonic]|options:area-damage]{2d6 bludgeoning damage and 2d6 sonic damage} with a @Check[fortitude|dc:25|basic|options:area-effect]. A creature that critically fails its save is also knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Thundercrasher",
+    "price": {
+      "gp": 155
+    },
+    "description": "<p>While looking straight down the barrel of this <em>+1 striking blunderbuss</em>, the spark gun's magical core is visible amid several reflectors. All damage dealt by a thundercrasher is sonic damage. On a critical hit, the target must succeed at a Fortitude save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You overload the <em>thundercrasher</em> to emit chaotic sonic frequencies that soften earth and stone. When you next fire the <em>thundercrasher</em> it also partially liquefies any natural earth or stone surfaces within range of its scatter trait, making the area difficult terrain.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Thundering Fury Dadao",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This massive, curved blade roars when it crashes down on opponents, seemingly intent on subduing them with sheer force. It's said materials for the first thundering fury dadaos came from the hide of Yorak, the Horned Thunder, a legendary kaiju that roams the Shanguang desert. The lack of embellishments on this <em>+2 striking thundering greatsword</em> belies a weapon of deadly efficacy.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You infuse the <em>thundering fury dadao</em> with the speed of lightning and the force of thunder. The weapon gains the agile and forceful traits for one round. You can Sustain this activation for up to 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thundering Fury Dadao]</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "sonic",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Thundering (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>A <em>thundering</em> weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] permanently.</p>\n<p>Sonic damage dealt by this weapon ignores the target's sonic resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Thundering",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A <em>thundering</em> weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute (or 1 hour on a critical failure).</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "sonic"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Thundermace",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>This deceptively dangerous weapon is essentially a mace with a longer haft and larger, often flanged head.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Thurible of Revelation (Greater)",
+    "price": {
+      "gp": 19000
+    },
+    "description": "<p>This brass censer dangles on a length of chain. Most <em>thuribles of revelation</em> are adorned with swirling Empyrean text, though some are iron and feature Diabolic or Chthonian text.</p>\n<p><strong>Activate—Burn Incense</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Cost</strong> incense worth at least 5 gp</p>\n<hr />\n<p><strong>Effect</strong> You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +3 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.</p>\n<p>Once per day, when you activate the thurible, you can increase its revelations. During that activation, you can hold the thurible up to your eyes with an Interact action to gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen] and @UUID[Compendium.pf2e.spells-srd.Item.Truesight] for 1 round by peering through the smoke.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thurible of Revelation (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "divine"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Thurible of Revelation (Lesser)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This brass censer dangles on a length of chain. Most <em>thuribles of revelation</em> are adorned with swirling Empyrean text, though some are iron and feature Diabolic or Chthonian text.</p>\n<p><strong>Activate—Burn Incense</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Cost</strong> incense worth at least 5 gp</p>\n<hr />\n<p><strong>Effect</strong> You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +1 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thurible of Revelation]</p>",
+    "rarity": "common",
+    "traits": [
+      "divine"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Thurible of Revelation (Moderate)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This brass censer dangles on a length of chain. Most <em>thuribles of revelation</em> are adorned with swirling Empyrean text, though some are iron and feature Diabolic or Chthonian text.</p>\n<p><strong>Activate—Burn Incense</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Cost</strong> incense worth at least 5 gp</p>\n<hr />\n<p><strong>Effect</strong> You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +2 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.</p>\n<p>Once per day, when you activate the thurible, you can increase its revelations. During that activation, you can hold the thurible up to your eyes with an Interact action to gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.See the Unseen] for 1 round by peering through the smoke.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Thurible of Revelation (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "divine"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Tidal Crossbow",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>The beak and talons of a tidehawk form the triggering mechanism of this <em>+2 greater striking crossbow</em>. Its grip is constantly damp, though this doesn't affect your ability to keep ahold of the weapon. When used in aquatic combat, a <em>tidal crossbow</em> doesn't have its range increments halved. A <em>tidal crossbow</em> deals 1d4 additional bludgeoning damage on a successful Strike. On a critical hit, the bow's additional damage is instead 1d4 bludgeoning splash damage, and the target must succeed at a @Check[reflex|dc:31] save or be pushed back 5 feet. The bow critical specialization effect applies to creatures with the water trait even if it wouldn't normally.</p><hr /><p><strong>Activate—Typhoon Swell</strong> <span class=\"action-glyph\">2</span> (manipulate, water)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>tidal crossbow</em> produces a torrent of water in a @Template[line|distance:30], dealing @Damage[8d6[bludgeoning]|options:area-damage] damage (@Check[fortitude|dc:30|basic|options:area-effect] save). Creatures that fail the save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the beak, talons, and several watery feathers of a tidehawk.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Tidal Fishhook",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p>This <em>+2 greater striking returning</em> @UUID[Compendium.pf2e.equipment-srd.Item.Combat Grapnel] takes the form of a fishhook made of scavenged bones and stone with a cord of braided water. Attacks with a tidal fishhook don't take any of the normal penalties for fighting underwater. A broken (but not destroyed) tidal fishhook can be fully repaired by submerging it in an ocean for 1 minute.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> Interact (teleportation, water)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> A tidal fishhook can travel between bodies of water to strike distant foes. You throw the fishhook into a 5-foot square that's fully covered with water, and it emerges to Strike or @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a target from another such square within 60 feet; the squares can be part of the same body of water or different ones. The distance between the bodies of water doesn't count toward the fishhook's range increment. If you successfully Grapple the target as part of this Strike, you can pull yourself along the fishhook's line, teleporting to the secondary body of water.</p>",
+    "rarity": "rare",
+    "traits": [
+      "finesse",
+      "grapple",
+      "tethered",
+      "thrown-20",
+      "water"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Tideplate",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Rippling water motifs decorate this simple suit of +1 <em>resilient full plate</em>. The plate has been altered for underwater use, so it's check penalty doesn't apply to Acrobatics or Athletics checks in water or similar liquids. While wearing the armor, you gain a +2 item bonus to Athletics checks to Swim, and you can breathe underwater.</p>\n<p><strong>Activate—Ride the Waves</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The ripples on the armor begin to undulate, matching the movement of any nearby water. The armor casts @UUID[Compendium.pf2e.spells-srd.Item.Water Walk] on you.</p>\n<p><strong>Activate—Submerge</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, polymorph)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're in water that covers at least half of your body.</p>\n<hr />\n<p><strong>Effect</strong> You merge with the water for 10 minutes. While merged, you can't move, you can see through the water if it's clear enough, and you can hear what's going on outside of the water. Water typically can't take damage, but if the water you're merged in is subject to electricity damage or an ability or effect that destroys or dries water, you're expelled from the water and take @Damage[10d6] damage. <em>Control water</em> expels you without dealing damage.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Tiger Fork",
+    "price": {
+      "gp": 275
+    },
+    "description": "<p>The tiger fork is a <em>+1 trident</em> with the disarm and grapple traits. It has wide, flaring prongs that can be used to fend off deadly beasts and entrap opponents during combat. While you have another creature Grabbed with the <em>tiger fork</em>, you gain a +1 circumstance bonus to saves against forced movement effects.</p>\n<p><strong>Activate—Fork Grip</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike against a creature</p><hr /><p><strong>Effect</strong> You can activate the <em>tiger fork</em> to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] the creature. This attempt uses the same multiple attack penalty as the required Strike.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "grapple",
+      "magical",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Tiger Menuki",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> You Strike with the affixed weapon</p><hr /><p>This tiger formed of pewter snarls viciously from your weapon's grip. When you activate the tiger, the weapon gains the forceful and sweep traits on the triggering Strike and all other Strikes for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Tiger Menuki]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Tiger's Claw",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This <em>+2 striking fearsome dueling pistol</em> is made from fine tigerwood, with the head of a tiger as the muzzle. Beneath the tiger head is a claw shaped bayonet. One of a set of four guns crafted as a gift to a Zenj family for delivery of rare healing and disease- abating herbs during an outbreak of a deadly disease in the Grand Duchy of Alkenstar, these firearms are now passed down to those who have done brave acts in service to the Zenj people. The flintlock sparks thrown by this weapon take the shape of pouncing tigers and the firearm's report sounds like a tiger's growl. Clever wielders use the firearm's report to panic their prey into mistakes and then pounce for the kill.</p>\n<p>This firearm's bullets deal slashing damage instead of piercing and add an additional @Damage[1d6[bleed]] on a critical hit. This persistent bleed damage causes tiger-claw-shaped wounds to appear on the target.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You capitalize on the fears your firearm engenders, terrifying your foes. Make a ranged Strike with this firearm against a target. If you successfully deal damage to your target, the target is also affected by a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Phantasmal Killer] with a spell DC of 28 (@Check[will|dc:28|showDC:all]). While phantasmal killer typically takes the shape of the target's worst fear, this effect always appears to the target in the form of a majestic and ferocious tiger.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concealable",
+      "concussive",
+      "fatal-d10",
+      "illusion",
+      "primal"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Tiger's‑eye",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 13,
+    "name": "Time Shield Potion",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This purple potion has a bitter taste and seems to blur with motion. When you drink a <em>time shield</em> potion, you are frozen in time for [[/br 2d4 #rounds]]{2d4 rounds}. You can't act or be targeted, you become immune to all effects, and you vanish from your space; as far as the universe is concerned, you simply don't exist as long as the potion lasts. The durations of any effects targeting you when you drink the potion are suspended until it wears off.</p>\n<p>Once the potion's duration expires, you return to the normal flow of time and your former space; if that space is now occupied, you get shunted to the nearest unoccupied space. Effects with durations immediately resume affecting you, elapsing as though no time has passed. If you are within the area of an effect created while you were outside of time, you immediately take those effects upon returning. The GM might determine that other changes that occurred while you were outside of time (such as the ground beneath you crumbling) also affect you upon your return.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Timeless Salts",
+    "price": {
+      "gp": 14
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>You sprinkle these salts onto a single object up to 10 cubic feet in volume and no more than 40 Bulk to preserve it for 1 week. The object doesn't decay, and effects that require the object to be fresh don't count the time passing during this duration as having elapsed. When sprinkled on a corpse, this extends the period in which a creature can be revived by magic, as well as the wait time required before a corpse can be targeted again with @UUID[Compendium.pf2e.spells-srd.Item.Talking Corpse]. The salts prevent ordinary pests from consuming the target (such as maggots for a corpse or moths for a piece of clothing). Any creature can use an Interact action to disperse the salts from an unattended object and end this effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Timepiece (Desktop Clock)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.</p>\n<p>Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.</p>\n<p>Desktop clocks have been designed to be small enough to only take up a quarter of a typical writing desk's surface area, but they're still too bulky and heavy to be lugged around casually.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Timepiece (Grand Clock)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.</p>\n<p>Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.</p>\n<p>These towering, ten-foot-tall clocks have been painstakingly handcrafted by skilled artisans and feature loud chimes that can be heard hourly throughout a manor. Owners of grand clocks usually tend to display them prominently in a study, lounge area, or foyer.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Tin Cobra",
+    "price": {
+      "gp": 23
+    },
+    "description": "<p>This clockwork cobra activates when a creature enters its square, at which point it lashes out and spits venom, dealing @Damage[3d6[poison]] damage. The target must attempt a @Check[fortitude|dc:21|traits:poison] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Sickened] 1.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage is @UUID[Compendium.pf2e.conditionitems.Item.Sickened] 2.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "mechanical",
+      "poison",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Titan Nagaji Scales",
+    "price": {},
+    "description": "<p><strong>Note</strong> Titan Nagaji heritage only</p>\n<hr />\n<p>Your scales are medium armor in the plate armor group that grant a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, a Speed penalty of –5 feet, a Strength value of +3, and have the comfort trait.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Titan's Grasp",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>These bronze gauntlets each have a small red gem embedded in the wrist. You gain a +3 item bonus to Athletics checks and a +1 circumstance bonus to Athletics checks to Grapple. If you successfully Grapple an enemy that's at least one size category larger than you, the gauntlets dig into it, dealing bludgeoning damage equal to your Strength modifier, plus an additional @Damage[2d6[bludgeoning]] damage on a critical success.</p>\n<p>When you invest the gloves, you either increase your Strength modifier by 1 or increase it to +4, whichever would give you a higher score.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (sonic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have two hands free</p>\n<hr />\n<p><strong>Effect</strong> You clap the gauntlets together with a thunderous crack that deals @Damage[6d10[sonic]|options:area-damage] damage in a @Template[emanation|distance:30]. Each creature in the area must attempt a @Check[fortitude|dc:35|name:Titan's Grasp Sonic Clap|traits:sonic|showDC:all||options:area-effect,damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is deafened for 1 minute, and is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Tlil Mask (Greater)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>Colorful, beaded <em>till masks</em> are commonly found on the distant continent of Arcadia, but trade between the two regions means that they can also be found in the Mwangi Expanse as curiosities. These masks usually bear floral patterns and attune your senses to plants of all varieties.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Your vision up to 60 feet sees through small amounts of living plant matter as though it were transparent. While this effect is active, creatures can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from you due to living plants, such as small trees, vines, and grass. This also prevents them from Hiding or Sneaking past you using only living plants for concealment or cover. Other than the inability to use the cover to Hide or Sneak, this ability doesn't prevent plants from providing cover to creatures or blocking line of effect. It also doesn't allow you to see through dead plant matter, such as the wooden walls of a building, or thick plant matter, such as the walls of a dungeon built entirely inside an enormous living tree. The effect lasts for 10 minutes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Tlil Mask",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p>Colorful, beaded <em>tlil masks</em> are commonly found on the distant continent of Arcadia, but trade between the two regions means that they can also be found in the Mwangi Expanse as curiosities. These masks usually bear floral patterns and attune your senses to plants of all varieties.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Your vision up to 60 feet sees through small amounts of living plant matter as though it were transparent. While this effect is active, creatures can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from you due to living plants, such as small trees, vines, and grass. This also prevents them from Hiding or Sneaking past you using only living plants for concealment or cover. Other than the inability to use the cover to Hide or Sneak, this ability doesn't prevent plants from providing cover to creatures or blocking line of effect. It also doesn't allow you to see through dead plant matter, such as the wooden walls of a building, or thick plant matter, such as the walls of a dungeon built entirely inside an enormous living tree. The effect lasts for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Toad Tears",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>Toad tears can be mixed with any other foodstuff or drink, but the poison can also be ingested as is. The process of refining giant toad poison lessens its deadly qualities, and as a result, toad tears are rarely directly fatal. Yet those who are exposed to toad tears often lose control of their actions, making it a dangerous poison nevertheless.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Onset</strong> 5 minutes</p>\n<p><strong>Maximum Duration</strong> 30 minutes</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (10 minutes)</p>\n<p><strong>Stage 2</strong> stupefied 1 and @UUID[Compendium.pf2e.conditionitems.Item.Confused] (1 minute)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Toadskin Salve (Greater)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You hit a creature with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You fling mucus on the creature, dealing @Damage[2d4[persistent,poison]].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You are hit with a melee attack that deals physical damage</p>\n<hr />\n<p><strong>Effect</strong> The mucus dulls the blow, granting you resistance 5 to physical damage against the triggering attack.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Toadskin Salve (Major)",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 1 hour, the mucus flakes away and the effect ends.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You hit a creature with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You fling mucus on the creature, dealing @Damage[3d4[persistent,poison]].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You are hit with a melee attack that deals physical damage</p>\n<hr />\n<p><strong>Effect</strong> The mucus dulls the blow, granting you resistance 8 to physical damage against the triggering attack.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Toadskin Salve",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You hit a creature with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You fling mucus on the creature, dealing @Damage[1d4[persistent,poison]].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You are hit with a melee attack that deals physical damage</p>\n<hr />\n<p><strong>Effect</strong> The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "poison"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Tome of Dripping Shadows",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This book constantly drips evanescent tendrils of shadow that seethe and writhe. The tendrils have a will of their own, retreating from light sources and curling toward darkness. While you hold the tome, you gain darkvision; if you already have darkvision, you gain greater darkvision instead. Preparing spells from this tome strengthens your shadow magic and gives you a greater understanding of shadow spells you add to this tome. Any shadow spells you prepare from this tome that are at least 2 levels lower than the highest-rank spell you can cast are treated as 1 level higher for the purposes of counteracting them. When you add a shadow spell to this tome, you can prepare heightened versions of that spell up to the highest level of that spell that you are able to cast.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A target of a shadow spell you prepared from the grimoire critically fails a saving throw against the spell</p>\n<hr />\n<p><strong>Effect</strong> You recall a fragment of the shadow magic that suffuses your target and wrap it around yourself like a caul. The triggering creature's saving throw result is a failure, not a critical failure. For the next minute, you become @UUID[Compendium.pf2e.conditionitems.Item.Concealed] to all creatures and you are @UUID[Compendium.pf2e.conditionitems.Item.Hidden] from the triggering creature, regardless of what precise sense it has. If you use a hostile action against the triggering creature, you become only concealed to it (rather than hidden) at the end of the hostile action.</p>",
+    "rarity": "rare",
+    "traits": [
+      "grimoire",
+      "illusion",
+      "magical",
+      "shadow"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Tome of Restorative Cleansing (Greater)",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p>This book is dark blue on the night of the new moon, gradually shifting to bright red as the moon waxes.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (healing, necromancy, vitality)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your last action was to cast a spell prepared from this grimoire, and the spell removed a harmful condition or affliction from yourself or an ally</p>\n<p><strong>Effect</strong> Choose one creature whose condition was removed by the required spell. That creature gains 3d8 temporary Hit Points that last for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Tome of Restorative Cleansing (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Tome of Restorative Cleansing (Lesser)",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p>This book is dark blue on the night of the new moon, gradually shifting to bright red as the moon waxes.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (healing, necromancy, vitality)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your last action was to cast a spell prepared from this grimoire, and the spell removed a harmful condition or affliction from yourself or an ally</p>\n<p><strong>Effect</strong> Choose one creature whose condition was removed by the required spell. That creature gains 1d8 temporary Hit Points that last for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Tome of Restorative Cleansing (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  }
+]

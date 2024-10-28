@@ -1,0 +1,1409 @@
+[
+  {
+    "level": 10,
+    "name": "Voice From The Grave",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p>This onyx skull emits eerie whispers when on its own, but when held the skull enables you to speak with spirits and haunts you can see, even if you don't share a language. The voice from the grave translates anything the spirit or haunt says, using a language you understand, and translates your words for the spirit or haunt in kind. This doesn't make the target friendly or even cooperative, but it does enable communication. The GM determines the language in the case of a haunt. You can't communicate with mindless spirits using the skull.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The onyx skull casts a DC 27 @UUID[Compendium.pf2e.spells-srd.Item.Charm] spell on one spirit or haunt you can communicate with using the skull. If you target a haunt that doesn't have a Will modifier, it automatically gets a failure on its save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Voicebox",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>This box contains small, magical amplifiers that allow a nonverbal character to translate thought into speech, which emits from the necklace. The speech produced matches any language you understand.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Void Fragment",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Hovering midair, thrumming and whispering of its power, a <em>void fragment</em> is a crystalline fragment of swirling colors, reminiscent of stars and deep darkness. It thrums intermittently with a beckoning vibration, drawing attention from and pulling at nearby creatures with a tangible sense of gravity. A chill hangs in the air around it. At a touch, the wisp vanishes, giving the point of contact a gangrenous color. If the partaker succeeds at the initial save, the wisp reappears somewhere on the same planet.</p><hr /><p><strong>Stage 1 (8 Days)</strong> The first time you enter this stage from a given <em>void fragment</em>, you gain the effect of a @UUID[Compendium.pf2e.equipment-srd.Item.Potion of Truespeech] for 3 days. The wisp grants you telepathy with a range of 30 feet. Also, you are under the effects of @UUID[Compendium.pf2e.spells-srd.Item.Hidden Mind], except that its status bonus is +1 and it counteracts with a bonus equal to your class DC – 9. The wisp grants you resistance to mental damage equal to half your level. You also have access to the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision; or <span class=\"action-glyph\">2</span> command, envision (teleportation)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You teleport up to 30 feet to an unoccupied space you can see. If you used 2 actions, you can teleport up to 60 feet.</p><hr /><p><strong>Stage 2 (24 Days)</strong> You gain imprecise thoughtsense to half your telepathy's range, which increases to 60 feet. However, you have a tough time filtering the mental noise. If any creatures can be detected by your thoughtsense, you take a –1 penalty to Perception checks. When you arrive in a space after using the activation to teleport, you create a @Template[emanation|distance:10] that works like @UUID[Compendium.pf2e.spells-srd.Item.Strange Geometry] for 1 round. This emanation can affect you.</p>\n<p>If you die at this stage or higher, your body implodes. Your soul reincarnates as an aberration of a level close to yours, which extrudes from the location of your implosion. Common forms include amalgamite, brain collector, gibbering mouther, gosreg, intellect devourer, quelaunt, or shoggoth. This creature isn't you, but fleeting memories of your former existence remain with it. You can't be raised from the dead while this monster endures. Its alignment is chaotic evil. The <em>void fragment</em> reappears somewhere on the same planet.</p><hr /><p><strong>Stage 3 (32 Days)</strong> Your telepathy range increases to 100 feet, and the wisp grants you resistance to mental damage equal to your level. The mental noise increases the penalty to Perception to –2. Whenever you roll initiative, you become @UUID[Compendium.pf2e.conditionitems.Item.Confused] for up to [[/r 1d4 #rounds]]{1d4 rounds}.</p><hr /><p><strong>Stage 4</strong> You die.</p><hr /><p><strong>Purging</strong> You must find and slay a chaotic evil aberration or a servant of such creatures the GM deems appropriate. The creature must be of your level or higher. Then, someone must cast a @UUID[Compendium.pf2e.spells-srd.Item.Rest Eternal] ritual on you and the dead being; you must be anointed with the same oils the ritual normally requires. If the ritual results in a success, it casts the slain creature into the void along with the <em>void fragment</em> inside you, ending its effects on you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical",
+      "occult"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Void Mirror",
+    "price": {},
+    "description": "<p><strong>Usage</strong> Mounted in frame</p>\n<hr />\n<p>The <em>Void Mirror</em> was created on a distant planet by a now-extinct alien cult to aid in unlocking the secrets of the Dark Tapestry. It appears as a 5-foot-tall, 2-foot-wide mirror of dark glass. As long as it's unmounted in a frame, the <em>Void Mirror</em> functions only as a mirror, save that it always reflects the sky as if it were night, regardless of the time of day. When the <em>Void Mirror</em> is mounted in a frame, it instead serves as a window into space, displaying a star field in its glass rather than a reflection. This frame can be of any quality, but stouter frames help to prevent the frame's destruction and thus help to keep the <em>Void Mirror</em> functional.</p>\n<p>The view presented by the <em>Void Mirror</em> is any view of the night sky possible from its current physical location, regardless of time of day. Observations of the sky in this way add a +3 item bonus to Astronomy Lore or Perception checks made while using the mirror. The point of view can be shifted through hand gestures, causing the scene within the mirror to reorient in any direction desired.</p>\n<p>A character who peers into the starscape within the <em>Void Mirror</em> must attempt a @Check[will|dc:41] save. On a <strong>failure</strong>, the character feels something looking back at them from the dark places between the stars. On a <strong>critical failure</strong>, this sensation causes the character to become @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}. The character is then temporarily immune to this effect for 24 hours.</p>\n<p>By placing the <em>Void Mirror</em> in a specially-constructed frame, it can halt the ongoing transformation of a creature that has performed the apotheosis activation. Building such a frame is beyond the skill of low-level characters, as it requires an artisan with legendary proficiency in Crafting.</p>\n<p>The <em>Void Mirror</em> can be utilized in other ways, but before a character can activate these effects the occult methods to access these ritual-like effects must be Researched separately. Since the specific methods for these activations vary slightly from person to person, these methods can't be taught; each person who seeks to activate the <em>Void Mirror</em> in one of the following ways must complete their own research to unlock the artifact's secrets. Each requires a separate number of Occultism checks to Research, as detailed below for each activation.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:20] (expert) checks when Researching (1 week per attempt)</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> The first activation ritual is known as \"Speak to the Void\" and allows the user to contact an intelligence in a distant part of the universe, provided the mirror shows that location (regardless of distance). This alien intelligence infuses the user's mind with answers, allowing the user to Recall Knowledge using Nature or Occultism as if they were legendary proficiency with the skill (including the +8 proficiency bonus). If this check fails, the character takes @Damage[10d6[mental]] damage (100 mental damage on a critical failure) as the imparted knowledge does more harm than good.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:30] (master) checks when Researching (1 month per attempt)</p>\n<p><strong>Frequency</strong> once per year</p>\n<hr />\n<p><strong>Effect</strong> The second activation ritual is known as \"Call from the Void.\" The user performs a 1-hour-long rite before the <em>Void Mirror</em>, during which they indicate a type of aberration, beast, fungus, ooze, or plant creature that's an alien life form from the planet the user is currently located on. The target creature must be a level equal to or less than the user's level +4. As the rite ends, the user attempts an @Check[occultism|defense:will] check against the target creature's Will DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is drawn across the universe to appear in a space adjacent to the <em>Void Mirror</em>. The creature's initial attitude toward the user is helpful, but this attitude can shift quickly if the creature realizes its goals and personality differs dramatically from the user's, or if the user makes a request of the creature that's against its nature. As long both the creature and the user are within 30 feet of the <em>Void Mirror</em>, the user can return the creature to its original location by Dismissing this activation. The creature can attempt a Will save against the user's Occultism DC to resist being returned; if it succeeds, it's temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> As critical success, but the creature is indifferent upon arrival.</p>\n<p><strong>Failure</strong> As critical success, but the creature is hostile upon arrival.</p>\n<p><strong>Critical Failure</strong> As failure, but magical feedback from the failed activation causes the user to become @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 3}.</p>\n<hr />\n<p><strong>Activate</strong> 7 days (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:40] (legendary) checks when Researching (1 year per attempt)</p>\n<p><strong>Frequency</strong> once per century</p>\n<hr />\n<p><strong>Effect</strong> The third activation ritual is known as \"Become the Void\" and requires the user to continue performing the rite for 7 consecutive days (as if they were performing a multi-day ritual). If the user fails to perform this rite for one of these 7 consecutive days, they immediately suffer the critical failure effect below.</p>\n<hr />\n<p><strong>Critical Success</strong> The user's body, mind, and soul are infused with alien energies drawn from the Dark Tapestry, which transforms the user into an aberration of a level no higher than their current level +4. This new form could be an existing aberration or a unique one of the GM's creation. The user retains their memories and spellcasting ability (including any rituals they know) but becomes chaotic evil and loses all other abilities they possessed in their previous form.</p>\n<p><strong>Success</strong> As critical success, but the aberration the user transforms into can be of a level no higher than half the user's current level.</p>\n<p><strong>Failure</strong> The user's attempt to change is a painful mistake that deals @Damage[(10d6+40)[bludgeoning]] damage as their body twists, bends and breaks. Ultimately, they are not transformed.</p>\n<p><strong>Critical Failure</strong> The user is slain, but their body shifts and transforms into a brand new creature as the bodiless alien intelligence Tchekuth incubates within the user's flesh, mind and soul. This transformation takes another 7 days to complete but can be halted indefinitely if the <em>Void Mirror</em> is placed in a specially constructed frame aimed at the body's location (regardless of any solid object between the mirror and the body). Slowing or stopping this transformation via other means requires complex rituals or divine intervention, subject to the GM's whim. After 7 days, the body completes its transformation and Tchekuth rises once more as a physical threat.</p>\n<hr />\n<p><strong>Destruction</strong> A creature that completes the apotheosis of Becoming the Void can destroy the <em>Void Mirror</em> by smashing it, though doing so also destroys the creature performing this action in a violent burst of occult energy.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Void Salts",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p>This sachet is filled with a fine powder that seethes with energy distilled directly from the Void. When used in casting a @UUID[Compendium.pf2e.spells-srd.Item.Grim Tendrils] spell, void salts allow you to split the area of the spell, creating any number of lines originating from you that total 30 feet in length. A creature that multiple lines pass through is only affected once.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Volcanic Vigor (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This tattoo takes the shape of a muscular orc, with molten flesh and hollow eye sockets that seep smoke. You don't take damage from extreme heat or severe heat. While exposed to incredible heat, you take only minor heat damage every hour, instead of moderate heat damage every minute. You can see through ash and smoke.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You stomp on the ground, causing a @Template[burst|distance:5]{5-foot radius}, 30- foot tall cylinder of lava to erupt from the ground within a range of 60 feet. You can choose to increase the radius of the cylinder to @Template[burst|distance:10]{10 feet}. Similarly, the height of the cylinder increases to 60 feet. The cylinder deals @Damage[12d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:34|basic|options:area-effect] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Volcanic Vigor",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This tattoo takes the shape of a muscular orc, with molten flesh and hollow eye sockets that seep smoke. You don't take damage from extreme heat or severe heat.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You stomp on the ground, causing a @Template[burst|distance:5]{5-foot radius}, 30- foot tall cylinder of lava to erupt from the ground within a range of 30 feet. The cylinder deals @Damage[7d6[fire]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:27|basic|options:area-effect] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Vorpal",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Originally created as a means of slaying the legendary jabberwock, <em>vorpal</em> weapons prove equally effective against nearly any foe with a head.</p>\n<hr />\n<p><strong>Activate—Snicker-Snack</strong> <span class=\"action-glyph\">R</span> (concentrate, death, incapacitation)</p>\n<p><strong>Trigger</strong> You roll a natural 20 on a Strike with the weapon against a creature that has a head, critically succeed, and deal slashing damage.</p>\n<p><strong>Effect</strong> The target must succeed at a @Check[fortitude|dc:37|traits:death,incapacitation] save or be decapitated. This kills any creature except ones that don't require a head to live. For creatures with multiple heads, this usually kills the creature only if you sever its last head.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Voyager's Pack",
+    "price": {
+      "gp": 14800
+    },
+    "description": "<p>This leather rucksack has icons burned into it, and every time it's taken to a plane it hasn't been to before, a new icon representing that plane scorches into the surface.</p>\n<p>The pack grants you a +3 bonus to Survival checks.</p>\n<p>It also enables you to see the magical traces of creatures' passage, allowing you to Track a creature that has teleported. The GM sets the DC of this check, usually using the level and DC of the teleportation spell. This lets you find the location of the creature's destination, and you can use that destination when casting @UUID[Compendium.pf2e.spells-srd.Item.Teleport] or activating the pack, even though you don't know what it looks like.</p>\n<p>The pack contains an extradimensional space with the same properties as a <em>@UUID[Compendium.pf2e.equipment-srd.Item.Spacious Pouch (Type II)]</em>.</p>\n<p>This space contains the contents of a climber's kit. If any components of that kit are removed and not returned, they return to the pack at dawn each day.</p>\n<p><strong>Activate—Group Voyage</strong> 10 minutes (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> As you activate the pack, you can harness up to four willing creatures to the ropes on the pack. At the end of the activation time, the pack casts a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] or @UUID[Compendium.pf2e.spells-srd.Item.Teleport] spell, transporting you and everyone attached to the pack. Attempt a @Check[survival|dc:45] check. On a success, you arrive 25 miles off target using <em>interplanar teleport</em> or halve the distance you're off-target with <em>teleport</em>. On a critical success, you arrive exactly on target</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Vulture's Wing",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Cast a Spell</p>\n<hr />\n<p>This fan of vulture feathers scatters on an unnatural gust of wind. If this catalyst is used to cast a @UUID[Compendium.pf2e.spells-srd.Item.Enfeeble] spell that has been heightened to at least 5th level, instead of targeting a single creature, you cast the spell in a 30-foot-area cone. You don't make a spell attack roll, instead affecting all creatures within the area with the effect the spell would normally have on a hit. This means creatures within the area must attempt a Fortitude save to determine whether they're enfeebled.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Vyre's Bliss",
+    "price": {
+      "gp": 8500
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Vyre's Bliss is a toxin that looks and tastes like fine wine.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:43]</p>\n<p><strong>Maximum Duration</strong> 24 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (1 round)</p>\n<p><strong>Stage 2</strong> off-guard, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 round)</p>\n<p><strong>Stage 3</strong> off-guard, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2}, and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 3} (1 round)</p>\n<p><strong>Stage 4</strong> clumsy 2, stupefied 3, and @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] (8 hours)</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison",
+      "virulent"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Waffle Iron (High-grade Mithral)",
+    "price": {
+      "gp": 6005
+    },
+    "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>Truly fit for emperors and demigods, this waffle iron is made of high-grade dawnsilver. Although most metallurgists are certain that the much more affordable standard-grade dawnsilver waffle iron maintains dawnsilver's full non-stick properties, the super elite insist that only waffles made from high-grade dawnsilver waffle irons conform to the most perfect shape and texture.</p>\n<p>Nadian has one high-grade dawnsilver waffle iron for sale emblazoned with an archaic symbol associated with Milani from before she became a deity, supposedly used to make Milani herself waffles during her mortal life. As it's made of dawnsilver, this is an uncommon item.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Waffle Iron (Imprint)",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>The plates of this waffle iron feature a noble insignia, a religious symbol, or other design to imprint onto the pastry.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Waffle Iron (Mithral)",
+    "price": {
+      "gp": 355
+    },
+    "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>The plates of this waffle iron are made of standard-grade dawnsilver rather than iron and might bear an imprint on the plates. As with other dawnsilver cookware, food rarely sticks to a dawnsilver waffle iron. As it's made of dawnsilver, this is an uncommon item.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Waffle Iron",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Wakizashi",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This short-bladed, single-edged sword is typically carried as part of a pair alongside a @UUID[Compendium.pf2e.equipment-srd.Item.Katana].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "deadly-d8",
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Walking Cauldron",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>This iron cauldron stands upon sturdy iron crow's feet. A <em>walking cauldron</em> has a land Speed of 25 feet and can be used as a suitable tool to <em>Craft</em> potions, oils, or other liquids.</p>\n<p>As a single action, which has the <em>auditory</em> and <em>concentrate</em> traits, you can command the cauldron to either follow you or to stand in place. When following you, the cauldron does its best to remain within 30 feet of you, but its ungainly movements are too imprecise to predictably direct in a combat encounter or other situation where seconds and precise locations count. It can carry up to 2 Bulk of ingredients for potions or other liquids inside of itself while following you, but if overloaded or if you put anything else inside it, it stands in place and refuses to move until 10 minutes after you remove the excess.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand Cane",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>Though it appears to be a basic cane, the inner workings of the <em>wand cane</em> are an intricate network of lenses and magical circuits, with a slot at the top to insert a wand. The <em>wand cane</em> then spends 1 minute attuning to the wand, after which the wand can be used through the cane.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wand of Caustic Effluence",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This dirty metal wand is covered in an oily acrid smelling film.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Grease], but the grease is caustic. If you cast this spell on an area, any creature that fails their Reflex save and falls @UUID[Compendium.pf2e.conditionitems.Item.Prone], or that begins their turn prone, takes @Damage[1d6[acid]] damage. If you cast this spell on an unattended object, the first creature to pick up the object during the duration takes @Damage[1d6[persistent,acid]] damage. If you cast this spell on an attended object and the holder or wielder fails their Acrobatics or Reflex save, the holder or wielder takes @Damage[1d6[persistent,acid]] damage. If you cast this spell on a worn object, any creature who @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] s or Grabs the wearer takes @Damage[1d6[acid]] damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>grease</em></p>",
+    "rarity": "rare",
+    "traits": [
+      "acid",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Choking Mist (Obscuring Mist)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This blackened wood wand has a smoldering tip, emitting a slight trail of steam.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Mist], but the mist prevents creatures from being able to breathe in its area. They must hold their breath or start suffocating.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Mist].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand",
+      "water"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Choking Mist (Solid Fog)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This blackened wood wand has a smoldering tip, emitting a slight trail of steam.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Solid Fog] but the mist prevents creatures from being able to breathe in its area. They must hold their breath or start suffocating.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Solid Fog].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand",
+      "water"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Chromatic Burst (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This intricately carved quartz wand changes color, cycling through the colors of the rainbow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor]. Additionally, the target can use the Chromatic Armor Burst action.</p>\n<hr />\n<p><strong>Chromatic Armor Burst</strong> <span class=\"action-glyph\">1</span> (concentrate, evocation, light, magical)</p>\n<p><strong>Requirements</strong> You're affected by @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] created by the <em>wand of chromatic burst</em></p>\n<hr />\n<p><strong>Effect</strong> Choose one color of the @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] the wand created for you. The spell ends and light of that color flashes brightly in a @Template[emanation|distance:20]. Creatures in the area take [[/r 4d6]] damage of the type associated with the color you chose, with a basic Reflex save against your spell DC. This action has the trait corresponding to the damage type you chose.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Chromatic Burst (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This intricately carved quartz wand changes color, cycling through the colors of the rainbow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor]. Additionally, the target can use the Chromatic Armor Burst action.</p>\n<hr />\n<p><strong>Chromatic Armor Burst</strong> <span class=\"action-glyph\">1</span> (concentrate, evocation, light, magical)</p>\n<p><strong>Requirements</strong> You're affected by @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] created by the <em>wand of chromatic burst</em></p>\n<hr />\n<p><strong>Effect</strong> Choose one color of the @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] the wand created for you. The spell ends and light of that color flashes brightly in a @Template[emanation|distance:20]. Creatures in the area take [[/r 8d6]] damage of the type associated with the color you chose, with a basic Reflex save against your spell DC. This action has the trait corresponding to the damage type you chose.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Armor] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Clinging Rime (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>A thin layer of frost coats this gnarled holly wand.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry]. After you cast the spell, the ice crystals freeze to flesh and other surfaces, clinging to the creatures in the area. Each creature that fails its save takes @Damage[1d6[persistent,cold]] damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "wand",
+      "water"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Clinging Rime (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>A thin layer of frost coats this gnarled holly wand.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry]. After you cast the spell, the ice crystals freeze to flesh and other surfaces, clinging to the creatures in the area. Each creature that fails its save takes @Damage[2d6[persistent,cold]] damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "wand",
+      "water"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Clinging Rime (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>A thin layer of frost coats this gnarled holly wand.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry]. After you cast the spell, the ice crystals freeze to flesh and other surfaces, clinging to the creatures in the area. Each creature that fails its save takes @Damage[3d6[persistent,cold]] damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "wand",
+      "water"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wand of Contagious Frailty",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>Cracks and healed fractures spiderweb the shaft of this bone wand, worsening each time the wand is used. The bone's worn epiphysis forms the wand's pommel, and black leather wraps around the handle.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Enfeeble]. After you cast the spell, if the target is enfeebled, it releases a @Template[emanation|distance:10] that doesn't include itself. Each creature in that area must attempt a Fortitude save as if struck by the @UUID[Compendium.pf2e.spells-srd.Item.Enfeeble] but gets an outcome one degree of success better than it rolled.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Enfeeble].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wand of Continuation (1st-Rank Spell)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wand of Continuation (2nd-Rank Spell)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wand of Continuation (3rd-Rank Spell)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of Continuation (4th-Rank Spell)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wand of Continuation (5th-Rank Spell)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Continuation (6th-Rank Spell)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wand of Continuation (7th-Rank Spell)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wand of Continuation (8th-Rank Spell)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This wand increases a spell's duration. Yellow embers spiral over its surface until the spell ends.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and its duration is increased by half.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> and a duration no less than 10 minutes and no greater than 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Crackling Lightning (3rd-Rank Spell)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This wand is made of two copper plates and a ceramic center.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] at 3rd-rank, but the spell's area is twice as wide (two adjacent and parallel @Template[line|distance:120|width:10]{120-foot lines}) and creatures that fail their save are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>lightning bolt</em> at 3rd-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Crackling Lightning (4th-Rank Spell)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This wand is made of two copper plates and a ceramic center.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] at 4th-rank, but the spell's area is twice as wide (two adjacent and parallel @Template[line|distance:120|width:10]{120-foot lines}) and creatures that fail their save are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>lightning bolt</em> at 4th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Crackling Lightning (6th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wand is made of two copper plates and a ceramic center.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] at 6th-rank, but the spell's area is twice as wide (two adjacent and parallel @Template[line|distance:120|width:10]{120-foot lines}) and creatures that fail their save are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>lightning bolt</em> at 6th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Crackling Lightning (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This wand is made of two copper plates and a ceramic center.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt] at 8th-rank, but the spell's area is twice as wide (two adjacent and parallel @Template[line|distance:120|width:10]{120-foot lines}) and creatures that fail their save are @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] for 1 round.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>lightning bolt</em> at 8th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Crushing Leaps",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>This supple, light wooden wand drifts to the ground like a feather or leaf when dropped, landing unharmed. A thin coil of metal wraps around the wand's handle.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Jump], but can jump up to 60 feet. When you land you shatter the ground, making each creature in a @Template[emanation|distance:5] @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of its next turn. In addition, the space you land in and all squares in the emanation become difficult terrain for 1 minute.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Jump].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Dazzling Rays (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Dazzling Rays (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Dazzling Rays (5th-level)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Dazzling Rays (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Dazzling Rays (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Dazzling Rays (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Dazzling Rays (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>Solidified radiance comprises this slender, featureless wand. It sheds bright light in a 20-foot radius and dim light for the next 20 feet. After you Activate the wand, the light fades, so it only sheds dim light in a 20-foot radius. The wand returns to its original brightness each dawn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Holy Light], dazzling your target with the beam's intensity. A creature that takes damage from the spell is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target is also blinded for as long as it's dazzled from the spell. However, it can attempt a @Check[fortitude] saving throw against your spell DC at the end of each of its turns, ending the blinded condition on a success (but remaining dazzled).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Holy Light] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "good",
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Dumbfounding Doom (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Dumbfounding Doom (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Dumbfounding Doom (5th-level)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Dumbfounding Doom (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Dumbfounding Doom (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Dumbfounding Doom (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Dumbfounding Doom (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>Carvings of skulls, monsters, and all manner of violence decorate this wand of blackened bone, but it makes absurd sounds when Activated, such as a honking horn, a manic giggle, or a daydreamy sigh.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom], showing the target a potential death that's gruesome and absurd. If the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened] by the spell, it also becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] with a value 1 higher than the frightened value. This lasts for the duration of the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Impending Doom] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "fear",
+      "incapacitation",
+      "magical",
+      "mental",
+      "prediction",
+      "wand"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wand of Fey Flames",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This red maple wand carved into a tongue of flame feels warm in your hand.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Faerie Fire]. For the duration of the spell, you can use the limning flames as a source for your magic. Creatures affected by your <em>faerie fire</em> must succeed at a Will save against your spell DC or take a - 2 status penalty to their Will saves against enchantment and illusions spells as long as they are affected by <em>faerie fire</em>. You can cast an enchantment or illusion spell on such a creature up to a distance twice the spell's normal range. If the spell has a range of touch, or doesn't have a range, it is unaffected by the increase in range from the <em>faerie fire</em>.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Wand of Fey Flames]</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of faerie fire.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Hawthorn (2nd-level)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], and the target sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] lasts, any creature that hits the target with an unarmed Strike or otherwise touches it takes @Damage[1d4[piercing]] damage from the thorns. A creature that has engulfed or swallowed the target takes this damage as well at the start of each of the target's turns.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Hawthorn (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], and the target sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] lasts, any creature that hits the target with an unarmed Strike or otherwise touches it takes @Damage[2d4[piercing]] damage from the thorns. A creature that has engulfed or swallowed the target takes this damage as well at the start of each of the target's turns.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Hawthorn (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], and the target sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] lasts, any creature that hits the target with an unarmed Strike or otherwise touches it takes @Damage[3d4[piercing]] damage from the thorns. A creature that has engulfed or swallowed the target takes this damage as well at the start of each of the target's turns.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Hawthorn (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience], and the target sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] lasts, any creature that hits the target with an unarmed Strike or otherwise touches it takes @Damage[4d4[piercing]] damage from the thorns. A creature that has engulfed or swallowed the target takes this damage as well at the start of each of the target's turns.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Hopeless Night (2nd-Rank Spell)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This wand is a length of wrought black iron.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Darkness] at 2nd-rank. Each creature that ends its turn within the spell's area must succeed at a @Check[will|dc:20] save or become @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} (@UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} on a critical failure).</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>darkness</em> at 2nd-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "darkness",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Hopeless Night (4th-Rank Spell)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This wand is a length of wrought black iron.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Darkness] at 4th-rank. Each creature that ends its turn within the spell's area must succeed at a @Check[will|dc:27] save or become @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} (@UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} on a critical failure).</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>darkness</em> at 4th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "darkness",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Hybrid Form (2nd-level)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Hybrid Form (3rd-level)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Hybrid Form (4th-level)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Hybrid Form (5th-level)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Hybrid Form (6th-level)",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Hybrid Form (7th-level)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Hybrid Form (8th-level)",
+    "price": {
+      "gp": 19000
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Hybrid Form (9th-level)",
+    "price": {
+      "gp": 55000
+    },
+    "description": "<p>The grain of this simple wooden wand forms shifting images of sharp claws, snapping jaws, and countless creatures.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, selecting two forms from among those you can normally choose. You gain the benefits of both forms. For example, if one form can breathe air and the other can breathe underwater, you can breathe in both situations. If there's overlap in abilities, you gain the better one. For instance, if both have a fly Speed, you get the higher one, and if both forms have claws, you gain only the claw Strike you prefer. The GM determines which abilities overlap and which are cumulative.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, must have the polymorph trait, and must allow more than one choice of battle form.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "polymorph",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Legerdemain (1st-level)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Legerdemain (2nd-level)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Legerdemain (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Legerdemain (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Legerdemain (5th-level)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Legerdemain (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Legerdemain (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Legerdemain (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Legerdemain (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This wand of lacquered black wood has a handle wrapped in interwoven colorful ribbons. A silver bell caps the wand's tasseled pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, illusion, light, mental, visual)</p>\n<p><strong>Requirements</strong> The last action you took this turn was to Cast a Spell from the wand</p>\n<hr />\n<p><strong>Effect</strong> You make yourself the center of attention. An illusory spotlight shines bright light upon your space as you pull inane objects from the wand's tip, such as confetti, silk flowers, streamers, or a long string of colorful kerchiefs knotted end to end. Each enemy within 30 feet must attempt a Will save against your spell DC, receiving a +4 circumstance bonus to the save if you or any of your allies recently threatened it or used hostile actions against it. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Fascinated] with you until the end of your next turn. The fascination ends if the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it. The spotlight follows you wherever you move. You can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while in the spotlight. The effect ends if you become @UUID[Compendium.pf2e.conditionitems.Item.Invisible], attempt a Stealth check, or Dismiss the activation. You can Sustain this Activation for up to 1 minute. Since you need to keep performing tricks, Sustain an Activation has the manipulate trait. Sustaining extends the spotlight, and keeps fascinated creatures fascinated, but doesn't cause creatures not already fascinated to become fascinated.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Mental Purification (1st-level)",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Mental Purification (2nd-level)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Mental Purification (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Mental Purification (4th-level)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Mental Purification (5th-level)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Mental Purification (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Mental Purification (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Mental Purification (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Mental Purification (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>Red feathers hang from the handle of this ivory wand. Holding it brings a sense of gentle calm.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Soothe], and can attempt to counteract one mental effect on the same target. Treat the @UUID[Compendium.pf2e.spells-srd.Item.Soothe] spell's rank as 1 higher for this counteract check.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>soothe</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "emotion",
+      "healing",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Mercy (1st-level)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Mercy (2nd-level)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Mercy (3rd-level)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Mercy (4th-level)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Mercy (5th-level)",
+    "price": {
+      "gp": 1650
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Mercy (6th-level)",
+    "price": {
+      "gp": 3600
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Mercy (7th-level)",
+    "price": {
+      "gp": 7900
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Mercy (8th-level)",
+    "price": {
+      "gp": 19000
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Mercy (9th-level)",
+    "price": {
+      "gp": 52000
+    },
+    "description": "<p>The pommel of this rose quartz wand resembles the stylized wings of an angel. When you cast its spell and choose not to make it nonlethal, the crystal deepens to blood red. The color reverts to rose when you cast the spell from the wand nonlethally.</p>\n<p><strong>Activate</strong> Cast a Spell; the activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and can choose to give it the nonlethal trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, it must deal damage, and it can't have the death, void, or nonlethal traits.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Noisome Acid (2nd-Rank Spell)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This greasy stick emits a stomach-churning scent when held in a hand.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] at 2nd rank. A creature that takes initial acid damage from this spell become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Use your spell DC if the creatures attempts to recover from this sickness. This is an olfactory effect.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of Acid Arrow at 2nd level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Noisome Acid (4nd-Rank Spell)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This greasy stick emits a stomach-churning scent when held in a hand.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] at 4th rank.A creature that takes initial acid damage from this spell become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Use your spell DC if the creatures attempts to recover from this sickness. This is an olfactory effect.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of Acid Arrow at 4th rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Noisome Acid (6th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This greasy stick emits a stomach-churning scent when held in a hand.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] at 6th rank. A creature that takes initial acid damage from this spell become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Use your spell DC if the creatures attempts to recover from this sickness. This is an olfactory effect.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of Acid Arrow at 6th rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Noisome Acid (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This greasy stick emits a stomach-churning scent when held in a hand.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow] at 8th rank. A creature that takes initial acid damage from this spell become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}. Use your spell DC if the creatures attempts to recover from this sickness. This is an olfactory effect.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of Acid Arrow at 8th rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "acid",
+      "magical",
+      "wand"
+    ]
+  }
+]

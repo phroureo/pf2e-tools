@@ -1,0 +1,1338 @@
+[
+  {
+    "level": 20,
+    "name": "Soulspark Candle",
+    "price": {},
+    "description": "<p>This thick, white pillar candle has flecks of ash and bone mixed amid the wax. When lit, the candle sheds bright light for 20 feet and dim light for a further 20 feet. The candle can't be snuffed by weather, water, or accident but can be purposefully snuffed through ritual prayer. The candle doesn't release heat and can't be used to start a fire. The candle is never exhausted, regardless of how long it burns.</p>\n<p>The area within the candle's light is a consecrated space. Worshippers of Pharasma within this area gain a +3 status bonus to attack rolls, skill checks, saving throws, and Perception checks. Undead creatures and worshippers of Urgathoa within this area take a –3 status penalty to those checks.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Soulspark Candle]</p>\n<p>When an undead creature or a haunt comes within the light of a <em>soulspark candle</em>, the candle's flame turns from red to black, makes a loud crackling sound, and releases a flash of bright sparks. The candle continues to burn black and crackle for as long as a haunt or undead remains in the area.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You light the candle.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Requirements</strong> The candle is lit</p>\n<hr />\n<p><strong>Effect</strong> You put out the candle with ritual prayers to Pharasma.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command (evocation, light)</p>\n<p><strong>Requirements</strong> The candle is lit, and an undead is within the light's area</p>\n<hr />\n<p><strong>Effect</strong> You command the candle to illuminate the dead. All undead creatures in the area are limned in blue, heatless fire for as long as they remain in the area, plus 1 minute after they leave the area or the light goes out. Visible undead can't be @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while limned in these flames. Invisible undead are concealed while limned in these flames, rather than being undetected. Haunts are unaffected by this light.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command (divine, evocation, fire)</p>\n<p><strong>Requirements</strong> The candle is lit, and an undead or haunt is within the light's area</p>\n<hr />\n<p><strong>Effect</strong> You command the candle to destroy the undead. The candle's flame erupts into a mass of fire that burns away undead and haunts. Any undead within the candle's light takes @Damage[20d8[fire]] damage (@Check[fortitude|dc:45|basic|traits:evocation,fire]). Pharasma empowers these flames, allowing them to ignore fire resistance or immunity. Any haunts in the area are instead subject to Pharasma's banishing light. The candle attempts a check to disable each haunt with a +35 modifier. This check applies to any skills applicable to disable the haunt and always has legendary proficiency. Once the candle is Activated in this way, its light immediately goes out, and the candle can't be relit for 1 hour.</p>\n<p><strong>Destruction</strong> If a <em>soulspark candle</em> is lit by an undead of at least 20th level that worships Urgathoa, the candle burns down as if it were a normal candle over the course of 48 hours. At the end of this time, if the candle is still burning, it burns away completely and is destroyed.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "consecration",
+      "divine"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Soulspeaker",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This grotesque, amulet-like shrunken head is said to hold a shard of its owner's psyche. The head is often that of a humanoid, but any creature capable of speaking in life can provide the grisly component needed for this magic item's creation. The head can contain a short message whispered to it and can then be commanded to repeat the message later. While a <em>soulspeaker</em> carries a message, the eyes of the shrunken head open, and they close as soon as its message is delivered.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Message], but instead of your message being transferred directly to a target's ears, the message is stored in the <em>soulspeaker</em>. The <em>soulspeaker's</em> eyes open, and the next time it's activated, the <em>soulspeaker</em> repeats the message you spoke to it with a rasping whisper before its eyes close again, the message expended.</p>",
+    "rarity": "rare",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "South Wind's Scorch Song",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This <em>+1 striking flaming scimitar</em> is always warm to the touch, nearly unbearably so. Lines of crackling flame radiate from carnelians affixed to its curved and blackened blade, and its pommel ends in a brilliant tassel of phoenix feathers. While you have a status bonus to at least one of your Speeds, your Strikes with this scimitar that deal fire damage gain a +2 status bonus to their fire damage. The status bonus increases to +3 if the weapon has a greater striking rune and +4 for major striking.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: South Wind's Scorch Song (Damage)]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command (evocation, fire, magical)</p>\n<p><strong>Trigger</strong> Your spell deals fire damage to a creature</p>\n<hr />\n<p><strong>Effect</strong> You gain a +10-foot status bonus to your Speed until the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: South Wind's Scorch Song (Speed Boost)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "fire",
+      "forceful",
+      "magical",
+      "sweep"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Sovereign Steel Chunk",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Created by Black Sovereign Kevoth-Kul, this unique alloy of <em>cold iron</em> and the skymetal noqual can provide protection from magical assault. The process of cold-forging the two materials together is quite complicated and precise. Characters in search of sovereign steel weapons and armor will almost assuredly have to travel to Starfall to procure gear made from this rare alloy. While some believe it possible to craft shields of sovereign steel as well, in one of his fits, Kevoth-Kul yelled that he had no use for them and banned anyone from making such a thing. So far, his smiths have been too afraid to confirm whether or not it was a joke. All sovereign steel items (including weapon and armor below) have a +4 circumstance bonus on saves against magic that the item makes, and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the <em>rusting grasp</em> spell).</p><h2>Sovereign Steel Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Sovereign Steel Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thin Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td>Structure</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "rare",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Sovereign Steel Ingot",
+    "price": {
+      "gp": 7000
+    },
+    "description": "<p>Created by Black Sovereign Kevoth-Kul, this unique alloy of <em>cold iron</em> and the skymetal noqual can provide protection from magical assault. The process of cold-forging the two materials together is quite complicated and precise. Characters in search of sovereign steel weapons and armor will almost assuredly have to travel to Starfall to procure gear made from this rare alloy. While some believe it possible to craft shields of sovereign steel as well, in one of his fits, Kevoth-Kul yelled that he had no use for them and banned anyone from making such a thing. So far, his smiths have been too afraid to confirm whether or not it was a joke. All sovereign steel items (including weapon and armor below) have a +4 circumstance bonus on saves against magic that the item makes, and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the <em>rusting grasp</em> spell).</p><h2>Sovereign Steel Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Sovereign Steel Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thin Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td>Structure</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "rare",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Spacious Pouch (Type I)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr />\n<p><strong>Capacity</strong> 25 Bulk</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Spacious Pouch (Type II)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr />\n<p><strong>Capacity</strong> 50 Bulk</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Spacious Pouch (Type III)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr />\n<p><strong>Capacity</strong> 100 Bulk</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spacious Pouch (Type IV)",
+    "price": {
+      "gp": 2400
+    },
+    "description": "<p>Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr />\n<p><strong>Capacity</strong> 150 Bulk</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spangled Rider's Suit",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This <em>+1 resilient</em> studded leather is adorned with colorful sequins that sparkle in even the faintest light.</p>\n<p>While wearing the spangled rider's suit, you gain a +2 item bonus to Command an Animal you are riding.</p>\n<p>Any animal you ride automatically knows the Drop Prone and Step basic actions, in addition to any other basic actions it knows (normally only Leap, Seek, Stand, Stride, and Strike).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (move)</p>\n<p><strong>Trigger</strong> You take damage while mounted or your mount Drops Prone</p>\n<hr />\n<p><strong>Effect</strong> You dismount, moving off your mount into a space adjacent to it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Spare Wax Cylinder",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>A spare recording cylinder for the @UUID[Compendium.pf2e.equipment-srd.Item.Clockwork Recorder].</p>",
+    "rarity": "rare",
+    "traits": []
+  },
+  {
+    "level": 13,
+    "name": "Spark Dancer",
+    "price": {
+      "gp": 2900
+    },
+    "description": "<p>This <em>+2 greater striking pepperbox</em> cycles through several magical cores, swapping in new ones while the previous ones cool. The gun deals fire or electricity damage, alternating with each attack as it rotates cores. Arcadian gunslingers liken the rotating cores to a group of dancers, each taking their turn in the spotlight.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The <em>spark dancer</em> casts either @UUID[Compendium.pf2e.spells-srd.Item.Fireball] or @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt], depending on whether the current core would deal fire or electricity damage, as a 7th-rank arcane spell (@Check[reflex|dc:30|basic]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "capacity-3",
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Sparkblade",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>Faint, delicate etchings of lightning trace across the blade of this +1 cold iron shortsword. Cold iron is made from particularly pure sources of iron and shaped with little to no heat, resulting in weapons deadly to demons and fey alike.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>Once per day, you can spend 1 action to point the sparkblade at a foe within 30 feet of you and shoot an arc of lightning from the blade. This lightning can leap from your chosen foe to another creature you choose within 30 feet, dealing @Damage[(2d4+4)[electricity]] damage to each creature (@Check[reflex|dc:19|basic]).</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Sparking Spellgun (Greater)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact, Strike</p><hr /><p>A broad wooden tube with a handle, a <em>sparking spellgun</em> radiates warmth. You Activate the spellgun by aiming it at one creature and making your choice of a spell attack roll or a firearm attack roll against the target's AC. This spellgun has a range increment of 30 feet. The spellgun fires a small ball of sparks and fire, then crumbles to ash. The ball explodes in a flash when it hits, dealing @Damage[10d6[fire]] damage and @Damage[5d4[persistent,fire]] damage.</p><hr /><p><strong>Critical Success</strong> The target takes double damage, takes double persistent damage, is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] while the persistent damage lasts.</p>\n<p><strong>Success</strong> The target takes full damage, full persistent damage, and is dazzled while the persistent damage lasts.</p>",
+    "rarity": "common",
+    "traits": [
+      "attack",
+      "consumable",
+      "fire",
+      "magical",
+      "spellgun"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Sparking Spellgun (Lesser)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact, Strike</p><hr /><p>A broad wooden tube with a handle, a <em>sparking spellgun</em> radiates warmth. You Activate the spellgun by aiming it at one creature and making your choice of a spell attack roll or a firearm attack roll against the target's AC. This spellgun has a range increment of 30 feet. The spellgun fires a small ball of sparks and fire, then crumbles to ash. The ball explodes in a flash when it hits, dealing @Damage[4d6[fire]] damage and @Damage[1d4[persistent,fire]] damage.</p><hr /><p><strong>Critical Success</strong> The target takes double damage, takes double persistent damage, is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] while the persistent damage lasts.</p>\n<p><strong>Success</strong> The target takes full damage, full persistent damage, and is dazzled while the persistent damage lasts.</p>",
+    "rarity": "common",
+    "traits": [
+      "attack",
+      "consumable",
+      "fire",
+      "magical",
+      "spellgun"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Sparking Spellgun (Moderate)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact, Strike</p><hr /><p>A broad wooden tube with a handle, a <em>sparking spellgun</em> radiates warmth. You Activate the spellgun by aiming it at one creature and making your choice of a spell attack roll or a firearm attack roll against the target's AC. This spellgun has a range increment of 30 feet. The spellgun fires a small ball of sparks and fire, then crumbles to ash. The ball explodes in a flash when it hits, dealing @Damage[7d6[fire]] damage and @Damage[3d4[persistent,fire]] damage.</p><hr /><p><strong>Critical Success</strong> The target takes double damage, takes double persistent damage, is @UUID[Compendium.pf2e.conditionitems.Item.Blinded] for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] while the persistent damage lasts.</p>\n<p><strong>Success</strong> The target takes full damage, full persistent damage, and is dazzled while the persistent damage lasts.</p>",
+    "rarity": "common",
+    "traits": [
+      "attack",
+      "consumable",
+      "fire",
+      "magical",
+      "spellgun"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Sparkler",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p><strong>Access</strong> Sparklers are common in Tian Xia and Vudra and can be Crafted by those who can specifically Craft fireworks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A sparkler gives off colorful sparks, burning for 1 minute. It provides bright light in a 10-foot radius (and dim light for the next 10 feet). While the sparkler burns, you can use it as an improvised weapon, dealing @Damage[1[fire]] on a hit. On a critical hit, you cause the target to become @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p>You can touch a sparkler to a flammable object as part of the same Interact action you use to Activate it or as an Interact action while the sparkler is already activated. If you do so, the sparkler can ignite flammable objects the way a tindertwig does.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Sparkler]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fire"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Sparkshade Parasol",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This large magical parasol shields you from the heat in hot environments, no matter whether the heat comes from above, like the beating sun, or below, like roiling lava. While holding the <em>sparkshade parasol</em>, you gain resistance 10 to fire and are protected from mild, severe, and extreme environmental heat.</p>\n<hr />\n<p><strong>Activate—Parasol's Protection</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You're targeted by or inside the area of an effect that deals fire damage</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> You hold your parasol between yourself and the incoming flames, gaining fire resistance 20 against the triggering effect. (This applies only to any damage the effect deals.) For the next 1 minute, flames dance harmlessly along the parasol's brim, letting you use Parasol's Pyrotechnics.</p>\n<hr />\n<p><strong>Activate—Parasol's Pyrotechnics</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> Flames are dancing on the <em>sparkshade parasol</em> due to you using Parasol's Protection</p>\n<p><strong>Effect</strong> You release captured flames out from your parasol, shooting fire in a @Template[line|distance:30]. Each creature in the line takes @Damage[10d6[fire]] damage (@Check[reflex|dc:28|basic] save). This activation loses its charge.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Sparkwarden",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>The geometric designs of this <em>@UUID[Compendium.pf2e.equipment-srd.Item.Warding Tattoo]</em> extend the length of your arm, resembling an armored sleeve. The crimson ink sometimes glows softly like warm coals when you're excited or building something new.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically</p>\n<hr />\n<p><strong>Effect</strong> Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "magical",
+      "relic",
+      "shadow",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Spear Frog Poison",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>A single spear frog yields enough toxin to Craft 1 dose of spear frog poison.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:15]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d4[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Spear of the Destroyer's Flame",
+    "price": {},
+    "description": "<p>The tip of this <em>+3 major striking greater flaming returning speed longspear</em> is edged with several razor-sharp obsidian blades. The spear has the thrown 30 feet weapon trait, in addition to the normal weapon traits for a longspear.</p>\n<p>While the <em>Spear of the Destroyer's Flame</em> is in your possession, you gain fire resistance 20. When you critically hit a creature with the spear, the creature's blood begins to boil, unleashing blasts of heat from the wound. The creature takes @Damage[2d8[persistent,fire]] damage, in addition to the persistent fire damage from the greater flaming rune; all creatures adjacent to the creature when it takes the persistent fire damage take an equal amount of fire damage. Like the fire damage from the greater flaming rune, this fire damage ignores a creature's fire resistance, though it doesn't ignore fire immunity.</p>\n<p>In addition to its deadliness as a weapon, the <em>Spear of the Destroyer's Flame</em> gives its wielder full control over the Army of Fire, though the orders of the Commander of Flame supersede the orders of anyone wielding the spear, as noted on page 17. While the spear is in your possession, you're aware of the location of the Army of Fire and the army's distance from you. In addition, you can give orders to the Army of Fire, and the army's members will understand and obey you, regardless of what language you speak. If you're within 1 mile of the Army of Fire, the army and its members gain a +10 circumstance bonus to their Speeds. Any members of the Army of Fire within 100 feet of you become @UUID[Compendium.pf2e.conditionitems.Item.Quickened] and can use the additional action to Step, Stride, or Strike. The army remains quickened for 1 minute after moving further than 100 feet from you.</p>\n<p>The Army of Fire has unwavering loyalty to the Commander of Flame, an individual who has completed a special activation that ties their soul to the spear. As long as the Army of Fire can see and hear the Commander of Flame, the army will follow the Commander's orders. The Commander of Flame can sense the presence of the Army of Fire and issue orders, regardless of language, with the same effects as for someone in possession of the spear. The Commander of Flame still needs the spear in hand to muster the Army of Fire, however.</p>\n<p>If the Commander of Flame doesn't hold the <em>Spear of the Destroyer's Flame</em> for 1 week, it returns to Cuetzmonquali's gut, instantly teleporting to the creature's location. If Cuetzmonquali is dead at this time, the spear also resurrects the creature, using the effects of a critical success on a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.Resurrect] ritual.</p>\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You attempt to tie your soul to the spear. If the current Commander of Flame still lives, you must attempt either a Will save, Diplomacy check, Intimidation check, or Warfare Lore check. The DC of this check is equal to the current Commander's Will DC, Diplomacy DC, Intimidation DC, or Warfare Lore DC, whichever is highest. On a success, you become the Commander of Flame. On a failure, the current Commander knows your name and appearance and is aware of your exact location for 24 hours. Activate 1 hour (envision, Interact)</p>\n<p><strong>Frequency</strong> once per week</p>\n<hr />\n<p><strong>Effect</strong> You use the spear's power to muster the Army of Fire. You can choose to either call the Army of Fire to your location or move yourself to the army's location. When calling the army, you select an area you can see within 500 feet. The army is instantly teleported to the location you select, spreading out as necessary to arrive safely. When moving yourself, you instantly teleport yourself to a location within 500 feet of the army. The army is composed of souls given form as burning humanoids, elementals, spirits, and undead.</p>\n<p><strong>Destruction</strong> If the entire Army of Fire is destroyed and the Commander of Flame is slain with the <em>Spear of the Destroyer's Flame</em>, the spear shatters into a massive explosion of flame, dealing @Damage[20d10[fire]] damage in a @Template[burst|distance:30] (@Check[reflex|dc:43|basic|name:Spear of the Destroyer's Flame Destruction|traits:evocation,magical,fire] save). In addition, the Commander's soul burns away to nothing, destroying the Commander forever and releasing the bound souls of the Army of Fire to the River of Souls.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "reach"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spear",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>A long metal shaft ending with a metal spike, a spear can be used one-handed as a melee weapon and can be thrown.</p>",
+    "rarity": "common",
+    "traits": [
+      "monk",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Special Ingredient",
+    "price": {},
+    "description": "<p>Special ingredients are exceptionally rare or dangerous to gather.</p>\n<p>Used for cooking meals during camping.</p>",
+    "rarity": "rare",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Abjuration)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the abjuration school of magic, and the ring is covered in symbols and glyphs related to the abjuration school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the abjuration school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the abjuration school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Conjuration)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the conjuration school of magic, and the ring is covered in symbols and glyphs related to the conjuration school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the conjuration school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the conjuration school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Divination)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the divination school of magic, and the ring is covered in symbols and glyphs related to the divination school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the divination school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the divination school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Enchantment)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the enchantment school of magic, and the ring is covered in symbols and glyphs related to the enchantment school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the enchantment school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the enchantment school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Evocation)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the evocation school of magic, and the ring is covered in symbols and glyphs related to the evocation school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the evocation school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the evocation school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Illusion)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the illusion school of magic, and the ring is covered in symbols and glyphs related to the illusion school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the illusion school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the illusion school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Necromancy)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the necromancy school of magic, and the ring is covered in symbols and glyphs related to the necromancy school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the necromancy school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the necromancy school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring (Transmutation)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This <em>specialist's ring</em> is dedicated to the transmutation school of magic, and the ring is covered in symbols and glyphs related to the transmutation school according to the creator's arcane studies. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the transmutation school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the transmutation school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Specialist's Ring",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Each <em>specialist's ring</em> is dedicated to a single school of magic, and the ring is covered in symbols and glyphs related to that school according to the creator's arcane studies. A specialist's ring has the trait corresponding to its school of magic. You gain a +2 item bonus to Arcana checks, and a +1 circumstance bonus to recognize magical effects and items of the specific school of magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a wizard school spell of the corresponding school. If not used by the end of your turn, this Focus Point is lost.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spectacles of Discernment",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Designed for a frequent sponsor of theatrical productions who liked to stay informed of all the off-stage drama, these silver opera glasses are affixed to a slender redwood handle. They can't be worn on the face but must be raised to the eyes and held there, at which point the spectacles of discernment grant a +2 item bonus to Perception checks to notice details at a distance.</p>\n<p><strong>Activate—Reveal the Truth</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You raise the spectacles to regard a target creature through them; the target must be within 60 feet. You immediately gain the ability to speak and understand the language the target creature is currently speaking, or its native language if it's not currently talking, for 24 hours. During this time, you can Interact with the spectacles of discernment to flip down a pair of supplementary lenses. When you do so, if you're observing the creature you originally targeted, roll a secret counteract check with a counteract modifier of [[/r 1d20+23 #Counteract]]{+23} against any illusion, morph, or polymorph effect affecting the target, but only for the purpose of determining whether you see through the disguise or not.</p>",
+    "rarity": "unique",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spectacles of Inquiry",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>Anything viewed through these thin spectacles looks crisp and clear, and the earpieces accentuate sounds around you. You gain a +2 item bonus to Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The spectacles key in on someone to show you their social cues in perfect clarity. Choose a creature you can see. You gain a +3 item bonus on Perception checks you make to use @UUID[Compendium.pf2e.actionspf2e.Item.Sense Motive] against that creature. This benefit lasts until you Activate the item again in this way. If you're an investigator, you can use this activation as part of the action you take to @UUID[Compendium.pf2e.actionspf2e.Item.Devise a Stratagem] or @UUID[Compendium.pf2e.actionspf2e.Item.Pursue a Lead], and you can do the latter even though you can't see the creature. You must choose the same creature you chose for Devise a Stratagem or Pursue a Lead.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are an investigator.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Spectacles of Piercing Sight",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>With lenses set in a silver frame, spectacles of piercing sight grant you a +3 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You can see into and through solid matter for 1 minute. This vision can pierce through solid materials up to 20 feet away as if looking at something in normal light even if no illumination is available. You can see through up to 1 foot of stone, 1 inch of metal, or 3 feet of wood or dirt. A thin sheet of lead blocks this vision entirely.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Spectacles of Understanding (Greater)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>These folding, wood-framed spectacles hold flat discs of cut crystal as lenses and are held in place with thin cords that wrap around each ear, with another strap holding them around the neck while not in use. While you are wearing the spectacles, you gain a +2 item bonus to checks to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Unfolding the spectacles onto the bridge of the nose, you gain the effects of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Translate] until you fold up the spectacles or the item is no longer invested by you, whichever comes first, except that it applies to all languages you see rather than a single language, and it does not apply to language you hear.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Spectacles of Understanding",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p>These folding, wood-framed spectacles hold flat discs of cut crystal as lenses and are held in place with thin cords that wrap around each ear, with another strap holding them around the neck while not in use. While you are wearing the spectacles, you gain a +1 item bonus to checks to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Unfolding the spectacles onto the bridge of the nose, you gain the effects of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Translate] for one hour except that it applies to all languages you see rather than a single language, and it does not apply to language you hear.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spectral Nightshade",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Belladonna cultivated in planes hazardous to living visitors, such as the Shadow Plane or the Boneyard, grow with a strange, skeletal look to their branches. The leaves and berries of these extraplanar plants are partly incorporeal and significantly more toxic than belladonna grown on the Material Plane. When imbued with spirit-twisting magic, spectral nightshade quickly drains away the victim's vitality and makes colors painfully bright and bewildering. Spectral nightshade doesn't affect creatures that have no spirit; if a possessing spirit inhabits a body that takes poison damage from spectral nightshade, the possessor takes an equal amount of force damage, even if the possessor can't be affected directly by poisons.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:33]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[10d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Dazzled](1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[13d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1} (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[15d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Confused], and @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} (1 minute)</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of @UUID[Compendium.pf2e.spells-srd.Item.Spirit Blast].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Spectral Opera Glasses",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>These bulky opera glasses are attached to a rod for ease of use. When held up to the eyes, which requires a free hand, you can see up to four times further than normal, and the glasses provide you a +2 item bonus to Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> For 1 hour, anyone who looks through the glasses can see @UUID[Compendium.pf2e.conditionitems.Item.Invisible] creatures and objects, and sees creatures with the spirit trait as solid and substantial (rather than ghostly).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spell Bastion",
+    "price": {
+      "gp": 2700
+    },
+    "description": "<p>A <em>spell-bastion</em> rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell] of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect-it's instead stored for later. When you invest a <em>spell-bastion</em> shield, you immediately know the name and level of the stored spell. A <em>spell-bastion</em> shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Requirements</strong> Your <em>spell-bastion</em> shield is storing a spell, and you have your shield raised</p>\n<hr />\n<p><strong>Effect</strong> You prepare to unleash the stored spell on any foe that hits you until your next turn.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Requirements</strong> You have a spell stored in your <em>spell-bastion</em> shield, and you've activated the shield since your last turn in preparation for unleashing the spell</p>\n<p><strong>Trigger</strong> You use the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] reaction against a foe that the stored spell can target</p>\n<hr />\n<p><strong>Effect</strong> You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the shield and allows a spell to be cast into it again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p><strong>Effect</strong> You harmlessly expend the stored spell. This frees the shield to have a new spell cast into it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spell Duelist's Siphon",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>Metal clasps line the spine of this book, and diagrams displaying proper somatic casting forms are etched into its cover.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're targeted with an arcane spell attack and you have this grimoire raised</p>\n<p><strong>Requirements</strong> You have the @UUID[Compendium.pf2e.feats-srd.Item.Raise a Tome] feat</p>\n<hr />\n<p><strong>Effect</strong> The grimoire attempts to absorb knowledge of the spell targeting you. You attempt to counteract the triggering spell. If you succeed, the spell is absorbed into the grimoire, and the diagrams on the cover change to indicate the somatic gestures and sigils for the counteracted spell. While the grimoire contains a spell, you can spend a spell slot of the same or higher level as the spell in the grimoire to cast that spell instead, heightened to the appropriate level (if you spent a higher-rank spell slot). After you cast the spell, it's expended from the grimoire.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spell-Eating Pitch",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This gummy resin contains sparkling motes of magical energy that dramatically impair your cognitive functions and dispel spells as you cast them. Spell energy manifests but then sputters out, as though drained away by the sparkling motes. While you're @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] by this poison, the DC of flat checks to avoid disruption from the stupefied condition when you Cast a Spell is 5 + twice the stupefied value, rather than 5 + the stupefied value.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:31]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[5d6[poison]] damage and stupefied 1 (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 3} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[7d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 4} (1 round)</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Spell Echo Shot",
+    "price": {
+      "gp": 5500
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Generous amounts of djezet and orichalcum mix in a spell echo shot. When you Activate it, you name up to four creatures, in addition to you, that the ammunition's magic works for. When spell echo shot strikes a target, which can be a square, it remains intact. It moves with a creature it struck, unless the GM determines otherwise, until that creature regains any Hit Points. If it doesn't stick to the target, the active ammunition instead falls into the target's space, remaining active. If you or one of the four selected creatures include the ammunition in the area of a spell that is 5th level or lower; has an area of a burst, cone, or line; and does not have a duration, the materials in the ammunition immediately duplicate that spell with the same parameters. A duplicated spell can't be duplicated again by another effect. Duplicating a spell destroys the ammunition, which otherwise remains active for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spell Reservoir",
+    "price": {
+      "gp": 2700
+    },
+    "description": "<p>A <em>spell reservoir</em> rune creates a pool of eldritch energy within the etched weapon. A spellcaster can spend 1 minute to cast a spell of 3rd rank or lower into the weapon. The spell must require 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it is instead stored for later.</p>\n<p>When you wield a <em>spell reservoir</em> weapon, you immediately know the name and rank of the stored spell. A <em>spell reservoir</em> weapon found as treasure has a 50% chance of having a spell of the GM's choice stored in it.</p>\n<p><strong>Activate—Channeled Release</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Requirements</strong> A spell is stored in the weapon</p><hr /><p><strong>Effect</strong> Make a Strike with the weapon. You expend the stored spell as part of this Strike; this empties the spell from the weapon and allows a spell to be cast into it again. If the Strike hits, the spell targets the target of the attack. If the spell requires a spell attack roll, the result of your attack roll with the weapon determines the degree of success of the spell, and if the spell requires a saving throw, the DC is 30.</p>\n<p><strong>Activate—Safe Release</strong> <span class=\"action-glyph\">A</span> (concentrate)</p><hr /><p><strong>Effect</strong> Harmlessly expend the stored spell. This frees the weapon to have a new spell cast into it.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spellbook (Blank)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A spellbook holds the written knowledge necessary to learn and prepare various spells, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional spells. Each spellbook can hold up to 100 spells. The Price listed is for a blank spellbook.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Spellbook of Redundant Enchantment",
+    "price": {
+      "gp": 420
+    },
+    "description": "<p>When opening the book, whispers can be heard on the wind, or laughter rings in the distance.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You cast an enchantment spell prepared from this grimoire that has no effect because all targets critically succeeded on their saving throws</p>\n<hr />\n<p><strong>Effect</strong> You quickly divert the failed enchantment energy into yourself to retain your favored spell in place of another. You lose another spell you prepared of an equal or higher level to the triggering enchantment spell but retain the ability to cast the enchantment spell again.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Abjuration)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Conjuration)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Divination)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Enchantment)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Evocation)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Illusion)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Necromancy)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellbreaking (Transmutation)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Counter-runes specific to a particular school of magic provide protections against that school. You gain a +1 status bonus to saving throws and AC against one school of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The crafter chooses the school when creating the rune.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Spellcutter",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>The blade of this <em>+2 greater striking adamantine longsword</em> seems to absorb light from the air around it, giving the impression the wielder is standing in the shadow of a much larger creature.</p>\n<p>While <em>Spellcutter</em> is a potent weapon for battling undead and constructs, an ancient restriction on the blade prevents it from harming living creatures; attacks against living beings deal no damage. This restriction doesn't apply to dhampirs or creatures with the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Void Healing] ability who are otherwise living; the magic of the blade can't distinguish between such beings and undead.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Trigger</strong> You're targeted by a spell while wielding <em>Spellcutter</em></p>\n<p><strong>Effect</strong> <em>Spellcutter</em> attempts to absorb the magic of the triggering spell, giving you a +4 status bonus to your AC and saves against the effect.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> Touching <em>Spellcutter</em> to any light source of 12th level or lower (including 6th-rank spells with the light trait) instantly extinguishes the effect. If the source of the light is a large flame, such as a forest fire or bonfire, it only extinguishes the light source in a 5-foot radius burst from the point of contact.</p>",
+    "rarity": "unique",
+    "traits": [
+      "cursed",
+      "magical",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spellender",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This knife is a <em>+1 striking returning dagger</em> with a wide blade and thick wooden handle. A prayer for protection from evil magic is carved into the handle in tiny script, running around the handle in a spiral. The grooves of the carved prayer provide a good grip on the knife and make it easy to catch when it returns to your hand.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You critically hit with the weapon</p>\n<hr />\n<p><strong>Effect</strong> The dagger casts a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic] targeting the most powerful spell effect affecting the creature you critically hit. The counteract check is +15.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Spellguard Blade",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>The guard of this <em>+1 striking main-gauche</em> is inscribed with eldritch glyphs that guard against magic.</p>\n<p>When you are benefiting from the +1 circumstance bonus to AC from this weapon's parry trait, you also apply that circumstance bonus to your saving throws against spells that target you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spellguard Blade]</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "disarm",
+      "finesse",
+      "magical",
+      "parry",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Spellguard Shield",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This shield bears eldritch glyphs to guard against magic. While you have this steel shield (Hardness 6, HP 24, BT 12) raised, you gain its circumstance bonus to saving throws against spells that target you (as well as to AC), and you can Shield Block spells that target you if you have that action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Spellsap Grenade (Greater)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The mixture of reagents, liquid djezet, and solid metal shrapnel inside this grenade explodes on contact with air. A <em>spellsap grenade</em> deals@Damage[4d4[slashing]] damage and @Damage[4[splash]] damage. You gain a +3 item bonus to attack rolls. On a hit against a prepared or spontaneous spellcaster, the target must succeed at a @Check[will|dc:38] or lose one prepared spell or one spontaneous spell slot. The spell is randomly selected from among the caster's highest three spell ranks (and then from among the spells prepared in that rank, for a prepared spellcaster).</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spellsap Grenade",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The mixture of reagents, liquid djezet, and solid metal shrapnel inside this grenade explodes on contact with air. A <em>spellsap grenade</em> deals@Damage[3d4[slashing]] damage and @Damage[3[splash]] damage. You gain a +2 item bonus to attack rolls. On a hit against a prepared or spontaneous spellcaster, the target must succeed at a @Check[will|dc:30] or lose one prepared spell or one spontaneous spell slot. The spell is randomly selected from among the caster's highest three spell ranks (and then from among the spells prepared in that rank, for a prepared spellcaster).</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Spellstrike Ammunition (Type I)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 1st</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Spellstrike Ammunition (Type II)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 2nd</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Spellstrike Ammunition (Type III)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 3rd</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spellstrike Ammunition (Type IV)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 4th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Spellstrike Ammunition (Type IX)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 10th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Spellstrike Ammunition (Type V)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 5th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Spellstrike Ammunition (Type VI)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 6th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Spellstrike Ammunition (Type VII)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 7th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Spellstrike Ammunition (Type VIII)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Cast a Spell</p>\n<hr />\n<p>Mystic patterns create a magic reservoir within this ammunition. You activate <em>spellstrike ammunition</em> by Casting a Spell into the ammunition. The spell must be of a spell rank the ammunition can hold, and the spell must be able to target a creature other than the caster. A creature hit by activated <em>spellstrike ammunition</em> is targeted by the spell. If the creature isn't a valid target for the spell, the spell is lost.</p>\n<p>The ammunition affects only the target hit, even if the spell would normally affect more than one target. If the spell requires a spell attack roll, use the result of your ranged attack roll with the ammunition to determine the degree of success of the spell. If the spell requires a saving throw, the target attempts the save against your spell DC.</p>\n<p>The maximum rank of spell the ammunition can hold determines its item level and Price.</p>\n<p>Maximum Spell Rank 8th</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Spellstriker Staff (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>A <em>spellstriker staff</em> is wrought iron with gleaming arcane sigils etched into its surface and a sharp point at the bottom. Used as a weapon, the staff is a <em>+2 striking shifting staff</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p>\n<p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d6 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Sure Strike]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Maneuver]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Haste]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Weapon Storm]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> You have the magus's Spellstrike activity. Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Spellstriker Staff (Major)",
+    "price": {
+      "gp": 8500
+    },
+    "description": "<p>A <em>spellstriker staff</em> is wrought iron with gleaming arcane sigils etched into its surface and a sharp point at the bottom. Used as a weapon, the staff is a <em>+2 greater striking shifting staff</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p>\n<p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d6 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Sure Strike]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Maneuver]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Haste]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Weapon Storm]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Blink Charge], @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Vampiric Feast]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Weapon Storm]</li>\n<li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Blink Charge], @UUID[Compendium.pf2e.spells-srd.Item.True Target]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> You have the magus's Spellstrike activity. Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Spellstriker Staff",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>A <em>spellstriker staff</em> is wrought iron with gleaming arcane sigils etched into its surface and a sharp point at the bottom. Used as a weapon, the staff is a <em>+1 striking shifting staff</em>.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p>\n<p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d6 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Produce Flame]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Echoing Weapon], @UUID[Compendium.pf2e.spells-srd.Item.Sure Strike]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Acid Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Telekinetic Maneuver]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> You have the magus's Spellstrike activity. Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 27,
+    "name": "Sphere of Annihilation",
+    "price": {},
+    "description": "<p>A <em>sphere of annihilation</em> is a floating black sphere that pulls any matter that comes into contact with it into a void, destroying it utterly. Anything or anyone destroyed by the sphere can be brought back only by a deity's direct intervention. The sphere can't be counteracted by dispel magic or similar effects.</p>\n<p>The sphere stays entirely still until caused to move by a creature controlling it. Taking control of the sphere requires succeeding at an attempt to activate it. A talisman of the sphere makes it easier to control the sphere.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<p><strong>Requirements</strong> You are within 40 feet of the sphere</p>\n<hr />\n<p><strong>Effect</strong> You attempt a @Check[arcana|dc:30|name:Control Sphere of Annihilation] or @Check[occultism|dc:30|name:Control Sphere of Annihilation] check to take control of the sphere. If someone else already controls the sphere, this check uses their Will DC if higher. If you succeed, you take control of the sphere. If you fail, the sphere moves 10 feet closer to you (or 20 feet on a critical failure). You keep control as long as you remain within 80 feet of the sphere and Sustain the Activation each round. When you Sustain the Activation, you must attempt a @Check[arcana|dc:30|name:Sustain Control of Sphere] or @Check[occultism|dc:30|name:Sustain Control of Sphere] check. If you succeed, you direct the sphere to move up to 10 feet in a straight line (or up to 20 feet on a critical success). On a failure, you lose control of the sphere, and it moves 10 feet closer to you in a straight line (or 20 feet on a critical failure).</p>\n<p><strong>Destruction</strong> When a gate spell is cast such that its rift overlaps a <em>sphere of annihilation</em>, roll d%. On a result of 1-50, the sphere is destroyed; on a 51-85, the spell is disrupted; and on a 86-100, everything within an @Template[emanation|distance:180] of the sphere is pulled to another plane through a tear in the spatial fabric. If a <em>rod of cancellation</em> touches the sphere, both items explode, dealing 14d6 bludgeoning damage (@Check[reflex|dc:35|basic] save) to everything in a @Template[burst|distance:60] from the point of their destruction.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spider Chair",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This clockwork traveler's chair has spinnerets and spider legs that allow it to roll up walls, fire web lines to pull you to a location, and obstruct foes with webs. While using the chair, you gain a climb Speed equal to your Speed.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> Once per minute</p>\n<hr />\n<p><strong>Effect</strong> The chair shoots a web line at a solid wall, floor, or ceiling up to 60 feet away and then pulls itself and you to that location.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> Once per hour</p>\n<hr />\n<p><strong>Effect</strong> You cause the chair to launch an enormous web to hinder your foes, with the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Web] spell.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spider Gun (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>A <em>greater spider gun</em> is a <em>+1 striking weapon</em>. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals @Damage[1d10[poison]] damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Poison Damage} equal to @Damage[(1d4+@item.system.damage.dice)[persistent,poison]]. A <em>spider gun</em> does not add critical specialization effects. The gun can be activated to fire webbing that hampers other creatures.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (conjuration, magical)</p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> You fire a mass of webbing at a square within 30 feet. That square becomes covered in webbing for 1 minute. A square covered with the webbing from a <em>spider gun</em> can be cleared by a single attack or effect that deals at least 15 slashing damage or 5 fire damage. A square has AC 5, and it automatically fails its saving throws. The first time each turn a creature in the webbing begins to use a move action or enters the webbing during a move action, it must attempt an @Check[athletics|dc:25|name:Spider Gun Athletics|traits:conjuration] check or @Check[reflex|dc:25|name:Spider Gun Reflex|traits:conjuration] save against DC 25. On a success, it moves normally through the webbing and clears away the webbing from any squares it enters this turn. On a failure, it treats squares of webbing as difficult terrain this turn, and on a critical failure, it's @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round or until it @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escapes} (DC 25) or destroys the webbing.</p>\n<p><strong>Craft Requirements</strong> The initial raw materials for the <em>spider gun</em> must include the fangs and spinneret of a giant spider or other Large spider.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Spider Gun (Major)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>A <em>major spider gun</em> is a <em>+2 greater striking weapon</em>. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals @Damage[1d10[poison]] damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Poison Damage} equal to@Damage[(1d4+@item.system.damage.dice)[persistent,poison]]. A <em>spider gun</em> does not add critical specialization effects. The gun can be activated to fire webbing that hampers other creatures.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (conjuration, magical)</p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> You fire a mass of webbing at a square within 30 feet. That square becomes covered in webbing for 1 minute. A square covered with the webbing from a <em>spider gun</em> can be cleared by a single attack or effect that deals at least 25 slashing damage or 15 fire damage. A square has AC 5, and it automatically fails its saving throws. The first time each turn a creature in the webbing begins to use a move action or enters the webbing during a move action, it must attempt an @Check[athletics|dc:34|name:Spider Gun Athletics|traits:conjuration] check or @Check[reflex|dc:34|name:Spider Gun Reflex|traits:conjuration] save against DC 34. On a success, it moves normally through the webbing and clears away the webbing from any squares it enters this turn. On a failure, it treats squares of webbing as difficult terrain this turn, and on a critical failure, it's @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round or until it @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escapes} (DC 34) or destroys the webbing.</p>\n<p><strong>Craft Requirements</strong> The initial raw materials for the <em>spider gun</em> must include the fangs and spinneret of a giant spider or other Large spider.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Spider Gun",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>A <em>spider gun</em> is a <em>+1 striking weapon</em>. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals @Damage[1d10[poison]] damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent Poison Damage} equal to @Damage[(1d4+@item.system.damage.dice)[persistent,poison]]. A <em>spider gun</em> does not add critical specialization effects. The gun can be activated to fire webbing that hampers other creatures.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (conjuration, magical)</p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> You fire a mass of webbing at a square within 30 feet. That square becomes covered in webbing for 1 minute. A square covered with the webbing from a <em>spider gun</em> can be cleared by a single attack or effect that deals at least 5 slashing damage or 1 fire damage. A square has AC 5, and it automatically fails its saving throws. The first time each turn a creature in the webbing begins to use a move action or enters the webbing during a move action, it must attempt an @Check[athletics|dc:20|name:Spider Gun Athletics|traits:conjuration] check or @Check[reflex|dc:20|name:Spider Gun Reflex|traits:conjuration] save against DC 20. On a success, it moves normally through the webbing and clears away the webbing from any squares it enters this turn. On a failure, it treats squares of webbing as difficult terrain this turn, and on a critical failure, it's @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round or until it @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escapes} (DC 20) or destroys the webbing.</p>\n<p><strong>Craft Requirements</strong> The initial raw materials for the <em>spider gun</em> must include the fangs and spinneret of a giant spider or other Large spider.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Spider Lily Tattoo",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>The spider lily tattoo marks you as a trusted member of Granny Hu's network. This crimson tattoo fades and becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible] within a day of being applied, reappearing only when you Activate it, when you gain the @UUID[Compendium.pf2e.conditionitems.Item.Doomed] condition, or when you die. The higher the doomed value, the more vivid the color.</p>\n<p>If your tattoo is plainly visible, you gain a +1 item bonus to Intimidation checks against all creatures that can see the tattoo, but you take a –1 item penalty to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on those who understand the actual meaning of the spider lily tattoo (including all of Willowshore's citizens).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (concentrate)</p>\n<p><strong>Requirements</strong> Your tattoo isn't currently visible</p>\n<p><strong>Effect</strong> You make the tattoo visible. You can use this activation again to make the tattoo not visible, unless you have the doomed condition.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An undead creature detects you for the first time</p>\n<p><strong>Effect</strong> The spider lily tattoo manipulates your life force to make you appear to be undead for a short time. Attempt a @Check[deception|defense:perception] check against the triggering undead creature's Perception DC. On a success, the triggering undead believes you're undead as well—a mindless undead is likely to ignore you, while a sapient undead might react with curiosity or confusion. You can continue attempting Deception checks each round as a single action to Sustain the effect for up to 1 minute.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Spider Mold",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This gray mold can be found growing on the remains of venomous arachnids - particularly, giant spiders. Its lack of color and faint taste make it particularly suited for mixing into meals meant to poison an unwary feaster.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20|basic]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 8 hours</p>\n<hr />\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} (1 round)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed] and Stupefied 1 (1 round)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] with no Perception check to wake up ([[/r 1d4 #hours]]{1d4 hours}).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spider Root",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p>A paste made by mashing the fine, threadlike roots of a certain creeper vine, spider root renders a victim clumsy and maladroit.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:28]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1} (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 3} (1 minute)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spider Satchel (Greater)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>The Verduran Forest's tiny tent-trap spider lays her eggs in a pyramidal web, and her young hatch only in response to intense vibration, such as the struggles of an ensnared insect or even songbird. Sadistic alchemists gather and augment these eggs, packing them in silken satchels that disgorge thousands of biting spider babies on impact.</p>\n<p>Until shaken off—or for the desperate target, incinerated—these spiders make it difficult to concentrate on anything other than escaping the swarm. The fascination effect ends automatically if a creature uses further hostile actions against the target, but hostile actions against the target's allies don't automatically end the effect.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 3d6 persistent poison damage, 3 poison splash damage, and fascinates the target while the persistent damage lasts.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Spider Satchel (Lesser)",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>The Verduran Forest's tiny tent-trap spider lays her eggs in a pyramidal web, and her young hatch only in response to intense vibration, such as the struggles of an ensnared insect or even songbird. Sadistic alchemists gather and augment these eggs, packing them in silken satchels that disgorge thousands of biting spider babies on impact.</p>\n<p>Until shaken off—or for the desperate target, incinerated—these spiders make it difficult to concentrate on anything other than escaping the swarm. The fascination effect ends automatically if a creature uses further hostile actions against the target, but hostile actions against the target's allies don't automatically end the effect.</p>\n<p>The bomb deals 1d6 persistent poison damage, 1 poison splash damage, and fascinates the target while the persistent damage lasts.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Spider Satchel (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>The Verduran Forest's tiny tent-trap spider lays her eggs in a pyramidal web, and her young hatch only in response to intense vibration, such as the struggles of an ensnared insect or even songbird. Sadistic alchemists gather and augment these eggs, packing them in silken satchels that disgorge thousands of biting spider babies on impact.</p>\n<p>Until shaken off—or for the desperate target, incinerated—these spiders make it difficult to concentrate on anything other than escaping the swarm. The fascination effect ends automatically if a creature uses further hostile actions against the target, but hostile actions against the target's allies don't automatically end the effect.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 4d6 persistent poison damage, 4 poison splash damage, and fascinates the target while the persistent damage lasts.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Spider Satchel (Moderate)",
+    "price": {
+      "gp": 16
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>The Verduran Forest's tiny tent-trap spider lays her eggs in a pyramidal web, and her young hatch only in response to intense vibration, such as the struggles of an ensnared insect or even songbird. Sadistic alchemists gather and augment these eggs, packing them in silken satchels that disgorge thousands of biting spider babies on impact.</p>\n<p>Until shaken off—or for the desperate target, incinerated—these spiders make it difficult to concentrate on anything other than escaping the swarm. The fascination effect ends automatically if a creature uses further hostile actions against the target, but hostile actions against the target's allies don't automatically end the effect.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 persistent poison damage, 2 poison splash damage, and fascinates the target while the persistent damage lasts.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Spider Venom",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This venom erodes its target's defenses, aiding the spider in securing prey.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d10[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d12[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2}, and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Spiderfoot Brew (Greater)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This gelatinous, sticky fluid is made from the silk glands of giant spiders. When you drink a spiderfoot brew, tiny clinging hairs grow on your hands and feet, granting you a climb Speed of 25 feet and a +3 item bonus to athletics checks made to climb for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiderfoot Brew (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Spiderfoot Brew (Lesser)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This gelatinous, sticky fluid is made from the silk glands of giant spiders. When you drink a spiderfoot brew, tiny clinging hairs grow on your hands and feet, granting you a climb Speed of 15 feet and a +1 item bonus to athletics checks made to climb for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiderfoot Brew (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Spiderfoot Brew (Moderate)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This gelatinous, sticky fluid is made from the silk glands of giant spiders. When you drink a spiderfoot brew, tiny clinging hairs grow on your hands and feet, granting you a climb Speed of 20 feet and a +2 item bonus to athletics checks made to climb for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiderfoot Brew (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Spike Launcher",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Built from the spiked tail of a manticore, a <em>spike launcher</em> is designed to launch large, spear-like projectiles. A <em>spike launcher</em> is a <em>+1 striking</em> weapon. It's a distinct type of martial firearm that deals @Damage[1d8[piercing]] damage. It has the backstabber, fatal aim d12, and kickback traits with a range increment of 120 feet and reload 2. It uses the critical specialization of the bow weapon group, rather than the firearm critical specialization.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (evocation, magical)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The <em>spike launcher</em> is loaded</p>\n<hr />\n<p><strong>Effect</strong> The <em>spike launcher</em> fires a volley of smaller spikes in a @Template[burst|distance:10] centered anywhere within its range. Make a Strike with the <em>spike launcher</em> against each creature in the area. Your multiple attack penalty does not increase until you've completed all granted Strikes. On a success, the spike causes the creature to take a -5-foot status penalty to their Speed. On a critical success, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] instead. In either case, the creature, or an adjacent creature, can use an Interact action to remove the spike and end the penalty or immobilized condition.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the tail of a manticore.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backstabber",
+      "fatal-aim-d12",
+      "kickback"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Spike Snare",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This basic snare consists of hidden spikes that rely on a creature's momentum to lacerate or potentially impale it as it enters the snare's square, dealing @Damage[2d8[piercing]] damage. The creature must attempt a @Check[reflex|showDC:all|dc:17|basic] saving throw.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spiked Chain",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This 4-foot-long length of chain is covered with barbs and has spikes on one or both ends. Some feature metal hoops used as handgrips.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "finesse",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spiked Gauntlet",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>Providing the same defensive function as a standard gauntlet, this version has a group of spikes protruding from the knuckles.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "free-hand"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spikes",
+    "price": {},
+    "description": "<p>Ammunition for a @UUID[Compendium.pf2e.equipment-srd.Item.Spike Launcher]</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Spined Shield",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>Five jagged spines project from the surface of this steel shield (Hardness 6, HP 24, BT 12). The spines are +1 striking shield spikes.</p>\n<p>When you use the Shield Block reaction with this shield, the spines take the damage before the shield itself does. When the shield would take damage (after applying Hardness), one spine snaps off per 6 damage, reducing the damage by 6. The shield takes any remaining damage. When there are no spines left, the shield takes damage as normal.</p>\n<p>When all the spines are gone, you lose the ability to attack with them until the spines regenerate the next day.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spined Shield Spines]</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You shoot one of the shield's spines at a target. A fired spine uses the spikes' statistics, but it is a martial ranged weapon with a range increment of 120 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Spinel, deep blue",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Spinel, red or green",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Spiny Lodestone (Greater)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>This perfectly octahedral magnetite crystal is covered in a hair-like layer of iron sand that always finds its way back to shape if wiped away. The spell attack modifier of any spell cast by Activating this item is +14, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Athletics checks and resistance 5 to nonlethal damage.</li>\n<li><strong>Weapon</strong> After you cast a spell by Activating the <em>spiny lodestone</em>, your Strikes with the weapon deal an additional 1d6 piercing damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Weapon (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Needle Darts]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Magnetic Acceleration]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Spiny Lodestone (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This perfectly octahedral magnetite crystal is covered in a hair-like layer of iron sand that always finds its way back to shape if wiped away. The spell attack modifier of any spell cast by Activating this item is +19, and the spell DC is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +2 item bonus to Athletics checks and resistance 10 to nonlethal damage.</li>\n<li><strong>Weapon</strong> After you cast a spell by Activating the spiny lodestone, your Strikes with the weapon deal an additional 1d8 piercing damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Weapon (Major)]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Needle Darts]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Magnetic Acceleration]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Rust Cloud]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Spiny Lodestone",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This perfectly octahedral magnetite crystal is covered in a hair-like layer of iron sand that always finds its way back to shape if wiped away. The spell attack modifier of any spell cast by Activating this item is +8, and the spell DC is 18.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Athletics checks and resistance 2 to nonlethal damage.</li>\n<li><strong>Weapon</strong> After you cast a spell by Activating the <em>spiny lodestone</em>, your Strikes with the weapon deal an additional 1d4 piercing damage until the end of your next turn.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Spiny Lodestone - Weapon]</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Needle Darts]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 22,
+    "name": "Spiral Athame",
+    "price": {},
+    "description": "<p>The pommel of this <em>+4 major striking disruptive ghost touch high-grade silver dagger</em> is a black glass orb that contains a tiny blue comet that spirals through the orb's interior. Strikes with the dagger deal an additional @Damage[1d8[vitality]] damage to worshippers of Urgathoa and to anyone who has ever created or summoned an undead creature. While the dagger is in your possession, you gain a +4 circumstance bonus to Medicine checks and to Midwifery Lore checks. If you're a worshipper of Pharasma, you gain imprecise lifesense with a range of 60 feet while holding the dagger. If you're undead or a worshipper of Urgathoa, you're @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 4} while holding the dagger.</p>\n<p>Despite its utility in combat, the <em>Spiral Athame</em> is intended as a ritual implement, meant to bless newborns and protect them from the predations of undead. If you use the <em>Spiral Athame</em> to cut the umbilical cord of a newly born creature, that creature gains resistance to void damage equal to their level (minimum 1) and gains a +2 status bonus to saving throws against death effects and necromancy. These bonuses are permanent. Additionally, that creature can never become an undead creature.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact (divine, necromancy)</p>\n<hr />\n<p><strong>Effect</strong> You point the <em>Spiral Athame</em> at a corpse within 30 feet, shielding it from corruption. The <em>Spiral Athame</em> casts 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Peaceful Rest] on the corpse.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, interact (divine, necromancy)</p>\n<hr />\n<p><strong>Effect</strong> You point the <em>Spiral Athame</em> to the sky and pray, warding creatures against undead. This has the effect of 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Circle of Protection], except it wards against undead creatures rather than creatures of a specified alignment, and the emanation is centered on the <em>Spiral Athame</em>.</p>\n<p><strong>Destruction</strong> If an undead creature uses the <em>Spiral Athame</em> to slay a psychopomp usher while within the Boneyard, the <em>Spiral Athame</em>'s pommel shatters and the <em>Spiral Athame</em> becomes a mundane, high-grade silver dagger with no special abilities.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "artifact",
+      "finesse",
+      "thrown-10",
+      "versatile-s"
+    ]
+  }
+]

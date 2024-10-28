@@ -1,0 +1,1399 @@
+[
+  {
+    "level": 9,
+    "name": "Wand of Overflowing Life (3rd-Rank Spell)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 3rd-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 3rd-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 3rd-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of Overflowing Life (4th-Rank Spell)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 4th-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 4th-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 4th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wand of Overflowing Life (5th-Rank Spell)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 5th-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 5th-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 5th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Overflowing Life (6th-Rank Spell)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 6th-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 6th-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 6th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wand of Overflowing Life (7th-Rank Spell)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 7th-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 7th-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 7th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wand of Overflowing Life (8th-Rank Spell)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This alabaster wand has a clear crystal at the tip.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Heal] at 8th-rank.</p>\n<p>After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of <em>heal</em> on yourself at 8th-rank. You gain this benefit only once per turn, even if you cast multiple <em>heal</em> spells from <em>wands of overflowing life</em> in the same turn.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>heal</em> at 8th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "healing",
+      "magical",
+      "vitality",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Paralytic Shock (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A two-pronged metal rod, this wand has a handle coated in thick rubber. Each prong ends in a copper coil. When Activated, the wand produces a loud zapping sound.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Paralyze], electrocuting the target into immobility. Each target takes @Damage[1d12[electricity]] damage at the start of its turns while it remains stunned or @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed] due to the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Paralyze]of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Paralytic Shock (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>A two-pronged metal rod, this wand has a handle coated in thick rubber. Each prong ends in a copper coil. When Activated, the wand produces a loud zapping sound.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Paralyze], electrocuting the target into immobility. Each target takes @Damage[2d12[electricity]] damage at the start of its turns while it remains stunned or @UUID[Compendium.pf2e.conditionitems.Item.Paralyzed] due to the spell.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Paralyze]of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "electricity",
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Pernicious Poison (Purple Worm Sting)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wand is made of chitin, topped with a hooked barb that weeps droplets of foul-smelling, green fluid when you Activate the wand.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Purple Worm Sting]. The poison the spell delivers gains the virulent trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Purple Worm Sting].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Pernicious Poison (Spider Sting)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This wand is made of chitin, topped with a hooked barb that weeps droplets of foul-smelling, green fluid when you Activate the wand.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting]. The poison the spell delivers gains the virulent trait.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Purification (2nd-Rank Spell)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Purification (3rd-Rank Spell)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Purification (4th-Rank Spell)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Purification (5th-Rank Spell)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Purification (6th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Purification (7th-Rank Spell)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Purification (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Purification (9th-Rank Spell)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This cypress onusa rod is decorated with a number of paper streamers that rustle when shaken to direct purification magic. Wands of purification contain either @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Affliction], @UUID[Compendium.pf2e.spells-srd.Item.Clear Mind], or @UUID[Compendium.pf2e.spells-srd.Item.Sound Body], decided when the wand is created.</p>\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p><hr /><p><strong>Effect</strong> You cast <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em> of the indicated level. If your counteract check would be sufficient only to suppress the effect until the beginning of your next turn, instead of to fully counteract it, then you can Sustain the Activation of the wand each round to suppress the effect for an additional round, to a maximum of 1 minute. You Sustain the Activation by shaking the wand, so if at any point you release or otherwise drop the wand, the effect immediately stops being suppressed and resumes on the target as normal.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>cleanse affliction</em>, <em>clear mind</em>, or <em>sound body</em>, as appropriate.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Reaching (1st-level)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Reaching (2nd-level)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Reaching (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Reaching (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Reaching (5th-level)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Reaching (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Reaching (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Reaching (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Reaching (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This long, slender wand is constructed of silver, polished to a mirror shine.</p>\n<p><strong>Activate</strong> Cast a Spell; This activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally takes <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell. Its range increases by 30 feet. As normal for increasing ranges, if the spell normally has a range of touch, its range extends to 30 feet.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, and must have a range.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of Refracting Rays (4th-level)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This wand is short and wide with a hexagonal, crystal shaft and a leather-wrapped handle. The wand refracts direct bright light into a rainbow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Ray]. After you cast the spell, if you hit the target, the light refracts to another creature within 30 feet of the first target. Roll your spell attack roll and to determine the ray's color separately for each target. The ray continues to refract each time it hits. The refraction ceases if you miss any target, and you can end the refraction at any point. You can't target the same creature more than once, and you must have line of effect to all targets.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Ray] of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Refracting Rays (7th-level)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This wand is short and wide with a hexagonal, crystal shaft and a leather-wrapped handle. The wand refracts direct bright light into a rainbow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Ray]. After you cast the spell, if you hit the target, the light refracts to another creature within 30 feet of the first target. Roll your spell attack roll and to determine the ray's color separately for each target. The ray continues to refract each time it hits. The refraction ceases if you miss any target, and you can end the refraction at any point. You can't target the same creature more than once, and you must have line of effect to all targets.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Chromatic Ray] of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Rolling Flames (2nd-level)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[1[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Rolling Flames (3rd-level)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[2[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Rolling Flames (4th-level)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[3[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Rolling Flames (5th-level)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[4[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Rolling Flames (6th-level)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[5[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Rolling Flames (7th-level)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[6[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Rolling Flames (8th-level)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[7[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Rolling Flames (9th-level)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>The luminous design of red-orange cracks on this black obsidian wand suggests cooling lava.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame]. The ground in the sphere's square and all adjacent squares are coated in rolling flames until the start of your next turn. These are difficult terrain and hazardous terrain. A creature that moves on the ground takes @Damage[8[fire]] damage for every square of rolling flames it moves into. If a creature in the flames doesn't move on its turn, it takes the damage for each of the squares it's in at the end of its turn. The first time you Sustain the Spell each round, the sphere creates rolling flames again in its new location (or the same location if you chose not to move it).</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Floating Flame] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Wand of Shardstorm (1st-Rank Spell)",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This wand features a carved dragon's head at its top and a polished metal sphere set in its midsection.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Force Barrage] at 1st rank.</p>\n<p>After you cast the spell, an additional shard or shards are released from the wand at the start of each of your turns, as though you cast the 1-action version of <em>force barrage</em>. Choose targets each time. This lasts for 1 minute, until you're no longer wielding the wand, or until you try to activate the wand again.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>force barrage</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wand of Shardstorm (3rd-Rank Spell)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>This wand features a carved dragon's head at its top and a polished metal sphere set in its midsection.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Force Barrage] at 3rd rank.</p>\n<p>After you cast the spell, an additional shard or shards are released from the wand at the start of each of your turns, as though you cast the 1-action version of <em>force barrage</em>. Choose targets each time. This lasts for 1 minute, until you're no longer wielding the wand, or until you try to activate the wand again.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>force barrage</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wand of Shardstorm (5th-Rank Spell)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This wand features a carved dragon's head at its top and a polished metal sphere set in its midsection.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Force Barrage] at 5th rank.</p>\n<p>After you cast the spell, an additional shard or shards are released from the wand at the start of each of your turns, as though you cast the 1-action version of <em>force barrage</em>. Choose targets each time. This lasts for 1 minute, until you're no longer wielding the wand, or until you try to activate the wand again.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>force barrage</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wand of Shardstorm (7th-Rank Spell)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This wand features a carved dragon's head at its top and a polished metal sphere set in its midsection.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Force Barrage] at 7th rank.</p>\n<p>After you cast the spell, an additional shard or shards are released from the wand at the start of each of your turns, as though you cast the 1-action version of <em>force barrage</em>. Choose targets each time. This lasts for 1 minute, until you're no longer wielding the wand, or until you try to activate the wand again.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>force barrage</em> of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Shattering Images",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Shattered pieces of a glass mirror, formed into a reflective mosaic, comprise the irregular shaft of this wand. The handle is black and polished smooth, the pommel capped with a tiny reflective orb.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Mirror Image]. Each time an image is destroyed, the image shatters into sharp fragments of glass. If the creature that destroyed the image is adjacent to you, it takes @Damage[5[slashing]].</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Mirror Image]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "visual"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Shrouded Step",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>When you move this delicately carved poplar wand, it looks indistinct, leaving a trail of afterimages in its wake.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fleet Step]. For the duration of the spell, you're also @UUID[Compendium.pf2e.conditionitems.Item.Concealed] while you Stride.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Fleet Step].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Slaughter (7th-Rank Spell)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Execute] at 7th-rank. If the spell slays a living target, the corpse releases grim energy in a @Template[emanation|distance:20], dealing @Damage[14[void]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>execute</em> at 7th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "void",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Slaughter (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Execute] at 8th-rank. If the spell slays a living target, the corpse releases grim energy in a @Template[emanation|distance:20], dealing @Damage[16[void]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>execute</em> at 8th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "void",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Slaughter (9th-Rank Spell)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Execute] at 9th-rank. If the spell slays a living target, the corpse releases grim energy in a @Template[emanation|distance:20], dealing @Damage[18[void]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>execute</em> at 9th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "void",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Smoldering Fireballs (3rd-Rank Spell)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This blackened, heavily burned stick smells faintly of saltpeter.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fireball] at 3rd-rank. Each creature that fails its save takes @Damage[1d6[persistent,fire]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>fireball</em> at 3rd-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Smoldering Fireballs (5th-Rank Spell)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This blackened, heavily burned stick smells faintly of saltpeter.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fireball] at 5th-rank. Each creature that fails its save takes @Damage[2d6[persistent,fire]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>fireball</em> at 5th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Smoldering Fireballs (7th-Rank Spell)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This blackened, heavily burned stick smells faintly of saltpeter.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fireball] at 7th-rank. Each creature that fails its save takes @Damage[3d6[persistent,fire]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>fireball</em> at 7th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Smoldering Fireballs (9th-Rank Spell)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This blackened, heavily burned stick smells faintly of saltpeter.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Fireball] at 9th-rank. Each creature that fails its save takes @Damage[4d6[persistent,fire]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>fireball</em> at 9th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "fire",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wand of Spiritual Warfare (2nd-Rank Spell)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This wand juts from an ornate hilt like a short, wooden dagger blade.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon] at 2nd-rank. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, <em>thundering</em>, or their respective greater versions. The <em>spiritual weapon's</em> Strikes gain the effects of this rune.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of spiritual weapon of 2nd-rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of Spiritual Warfare (4th-Rank Spell)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>This wand juts from an ornate hilt like a short, wooden dagger blade.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon] at 4th-rank. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, <em>thundering</em>, or their respective greater versions. The <em>spiritual weapon's</em> Strikes gain the effects of this rune.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of spiritual weapon of 4th-rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Spiritual Warfare (6th-Rank Spell)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This wand juts from an ornate hilt like a short, wooden dagger blade.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon] at 6th-rank. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, <em>thundering</em>, or their respective greater versions. The <em>spiritual weapon's</em> Strikes gain the effects of this rune.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of spiritual weapon of 6th-rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wand of Spiritual Warfare (8th-Rank Spell)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This wand juts from an ornate hilt like a short, wooden dagger blade.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Spiritual Weapon] at 8th-rank. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, <em>thundering</em>, or their respective greater versions. The <em>spiritual weapon's</em> Strikes gain the effects of this rune.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of spiritual weapon of 8th-rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "force",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand Of Splintered Sorrows (Rank 2)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This wooden wand is roughly cut, as if it had been crudely chopped from a tree and left forgotten. When held, the wand imparts feelings of deep sorrow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Splinter Volley] of the indicated rank. Each splinter contains some of the despair felt by cruelly harvested trees, causing any creature damaged by this spell to become @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target also weeps, becoming @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for the same duration.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>splinter volley</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "attack",
+      "concentrate",
+      "magical",
+      "manipulate",
+      "wand",
+      "wood"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand Of Splintered Sorrows (Rank 4)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This wooden wand is roughly cut, as if it had been crudely chopped from a tree and left forgotten. When held, the wand imparts feelings of deep sorrow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Splinter Volley] of the indicated rank. Each splinter contains some of the despair felt by cruelly harvested trees, causing any creature damaged by this spell to become @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target also weeps, becoming @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for the same duration.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>splinter volley</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "attack",
+      "concentrate",
+      "magical",
+      "manipulate",
+      "wand",
+      "wood"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand Of Splintered Sorrows (Rank 6)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wooden wand is roughly cut, as if it had been crudely chopped from a tree and left forgotten. When held, the wand imparts feelings of deep sorrow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Splinter Volley] of the indicated rank. Each splinter contains some of the despair felt by cruelly harvested trees, causing any creature damaged by this spell to become @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target also weeps, becoming @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for the same duration.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>splinter volley</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "attack",
+      "concentrate",
+      "magical",
+      "manipulate",
+      "wand",
+      "wood"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand Of Splintered Sorrows (Rank 8)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This wooden wand is roughly cut, as if it had been crudely chopped from a tree and left forgotten. When held, the wand imparts feelings of deep sorrow.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Splinter Volley] of the indicated rank. Each splinter contains some of the despair felt by cruelly harvested trees, causing any creature damaged by this spell to become @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} for a number of rounds equal to the spell rank. On a critical success on the attack roll, the target also weeps, becoming @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for the same duration.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>splinter volley</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "attack",
+      "concentrate",
+      "magical",
+      "manipulate",
+      "wand",
+      "wood"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Teeming Ghosts (2nd-Rank Spell)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 2nd rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 2nd level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Teeming Ghosts (3rd-Rank Spell)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 3rd rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 3rd level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Teeming Ghosts (4th-Rank Spell)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 4th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 4th level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Teeming Ghosts (5th-Rank Spell)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 5th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 5th level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Teeming Ghosts (6th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 6th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 6th level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Teeming Ghosts (7th-Rank Spell)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 7th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 7th level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Teeming Ghosts (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 8th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 8th level</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Teeming Ghosts (9th-Rank Spell)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.False Vitality] at 9th rank. During the duration of the spell, wisps that resemble spirits flit around you as long as you have any temporary Hit Points from false life, and you can use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} condition to a creature</p>\n<p><strong>Requirements</strong> You have at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Effect</strong> You end false life and increase the creature's frightened condition value to 2.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of False Life at 9th rank</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of the Ash Puppet",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wand is composed of ash that has been compressed, shaped, and sealed with a clear lacquer. When you trace the wand's tip along a solid surface, it leaves a black trail of charcoal. Writing with the wand in this way never damages or wears the wand down.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Disintegrate]. If the spell reduces a living creature to fine powder, you animate that creature's ashes into a @UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.Sulfur Zombie] with the same general appearance as the disintegrated creature. You control this sulfur zombie, which gains the minion and summoned traits. You can issue a verbal command to the sulfur zombie as a single action with the auditory and concentrate traits. The sulfur zombie crumbles into inanimate ash when reduced to 0 Hit Points or after 1 minute, whichever comes first.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Disintegrate].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of the Pampered Pet",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>This extravagant wand is made of gold and capped with a large, sparkling gemstone. Its handle is wrapped in plush, padded fabric.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Pet Cache] but the accommodations inside the extradimensional space are luxurious and spacious. The food is delicious gourmet cuisine tailored to the pet's palate, the habitat is the perfect temperature and environment for the pet, complete with comfortable bed or lounging area. A pair of phantom hands pamper the pet, patting, grooming, or playing with it at the creature's whim.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Pet Cache].</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of the Snowfields (5th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>This wand is a slender length of ice-blue glass.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Howling Blizzard] at 5th-rank. Snow lingers in the spell's area, remaining as difficult terrain for 1 minute.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>howling blizzard</em> at 5th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of the Snowfields (7th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This wand is a slender length of ice-blue glass.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Howling Blizzard] at 7th-rank. Snow lingers in the spell's area, remaining as difficult terrain for 1 minute.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>howling blizzard</em> at 7th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "cold",
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Wand of the Spider (2nd-Rank Spell)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>The length of this wand is a pair of twisted giant spider legs.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Web] at 2nd-rank, but the strands of webbing are toxic. Any creature that fails its Athletics check or Reflex save to navigate the web takes @Damage[1d6[poison]] damage.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>web</em> at 2nd-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of the Spider (4th-Rank Spell)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>The length of this wand is a pair of twisted giant spider legs.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Web] at 4th-rank, but the strands of webbing are toxic. Any creature that fails its Athletics check or Reflex save to navigate the web takes @Damage[2d6[poison],1d6[persistent,poison]]{2d6 poison damage plus 1d6 persistent poison damage}.</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of <em>web</em> at 4th-rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Wand of Thundering Echoes (3rd-Rank Spell)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Wand of Thundering Echoes (4th-Rank Spell)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Wand of Thundering Echoes (5th-Rank Spell)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Thundering Echoes (6th-Rank Spell)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wand of Thundering Echoes (7th-Rank Spell)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wand of Thundering Echoes (8th-Rank Spell)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Noise Blast] of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>sound burst</em> of the appropriate rank.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "sonic",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Tormented Slumber",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The carved talon of an unidentifiable beast comprises this wand. Blood-stained cloth wraps the thicker part of the talon, which acts as a handle.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Sleep], but the slumbering creatures have terrifying nightmares. A creature knocked @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] by this spell takes @Damage[1d6[persistent,mental]]. This damage wakes the creature from unconsciousness only if it deals 4 or more damage on a single roll. If the creature awakens from its unconsciousness due to damage (whether it was the persistent mental damage or not), it's @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}. If it awakens from damage on its own turn, the creature doesn't reduce its frightened condition automatically on that turn.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Sleep].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "mental",
+      "sleep",
+      "wand"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Wand of Toxic Blades (6th-level)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>This slender metal wand is tinted green and small images of bladed weapons are etched on its surface.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier]. Damage from the wall also exposes the damaged creature to @UUID[Compendium.pf2e.equipment-srd.Item.Cave Worm Venom]{Purple Worm Venom}. The poison uses its normal DC. A creature can be exposed to the poison no more than once per turn.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Wand of Toxic Blades (7th-level)",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>This slender metal wand is tinted green and small images of bladed weapons are etched on its surface.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier]. Damage from the wall also exposes the damaged creature to @UUID[Compendium.pf2e.equipment-srd.Item.Dragon Bile]. The poison uses its normal DC. A creature can be exposed to the poison no more than once per turn.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Wand of Toxic Blades (8th-level)",
+    "price": {
+      "gp": 37500
+    },
+    "description": "<p>This slender metal wand is tinted green and small images of bladed weapons are etched on its surface.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier]. Damage from the wall also exposes the damaged creature to @UUID[Compendium.pf2e.equipment-srd.Item.Cerulean Scourge]. The poison uses its normal DC. A creature can be exposed to the poison no more than once per turn.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Blade Barrier] of the appropriate rank.</p>",
+    "rarity": "common",
+    "traits": [
+      "force",
+      "magical",
+      "poison",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Traitorous Thoughts",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>When you hold this sleek, shiny gray wand, you hear a faint chorus of overlapping whispers.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Mind Probe]. The first time the target rolls a success at a Deception check to mislead your probe, it gets a result one step worse than it rolled. This means you learn the answer if the target's Deception check would have succeeded, and you learn nothing rather than believing a falsehood if the check would have been a critical success.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Mind Probe].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Wearing Dance",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This colorfully painted wand has a few jingling bells tied to the pommel.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Uncontrollable Dance]. When the spell's duration ends, if the target was forced to dance for 1 minute, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Fatigued].</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.Uncontrollable Dance].</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "mental",
+      "wand"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Wand of Widening (1st-Rank Spell)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Wand of Widening (2nd-Rank Spell)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Wand of Widening (3rd-Rank Spell)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Wand of Widening (4th-Rank Spell)",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Wand of Widening (5th-Rank Spell)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Wand of Widening (6th-Rank Spell)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Wand of Widening (7th-Rank Spell)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Wand of Widening (8th-Rank Spell)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Wand of Widening (9th-Rank Spell)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>The end of this wand is forked with a peridot setting.</p>\n<p><strong>Activate</strong> Cast a Spell; The activation takes <span class=\"action-glyph\">2</span> if the spell normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the spell normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> Once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of a spell of the appropriate rank. The spell must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 feet or more), cone, or line.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "War Blood Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>Upon drinking this mutagen, you can feel your blood surge through your body and hear a low-pitched humming in your ears. These sensations subside as the flesh and muscles of your arm loosen and stretch, the fibers of your very being reaching out to combine with the base of one melee weapon you're holding.</p>\n<p><strong>Benefit</strong> Choose one melee weapon you're holding in one or both hands. You gain a +3 item bonus to your attack rolls with this weapon and to Will saves against fear effects for 1 hour. Any attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or otherwise remove the weapon from your hands must exceed DC 40 or the attempt fails.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: War Blood Mutagen (Greater)]</p>\n<p><strong>Drawback</strong> You can't voluntarily remove the weapon unless you succeed at a @Check[athletics|dc:40], which ends the war blood mutagen's effects; this check takes a single action. If you perform an action with the concentrate trait, you must succeed at a @Check[flat|dc:5] or the action is lost.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "War Blood Mutagen (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Upon drinking this mutagen, you can feel your blood surge through your body and hear a low-pitched humming in your ears. These sensations subside as the flesh and muscles of your arm loosen and stretch, the fibers of your very being reaching out to combine with the base of one melee weapon you're holding.</p>\n<p><strong>Benefit</strong> Choose one melee weapon you're holding in one or both hands. You gain a +1 item bonus to your attack rolls with this weapon and to Will saves against fear effects for 1 minute. Any attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or otherwise remove the weapon from your hands must exceed DC 25 or the attempt fails.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: War Blood Mutagen (Lesser)]</p>\n<p><strong>Drawback</strong> You can't voluntarily remove the weapon unless you succeed at a @Check[athletics|dc:25], which ends the war blood mutagen's effects; this check takes a single action. If you perform an action with the concentrate trait, you must succeed at a @Check[flat|dc:5] or the action is lost.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "War Blood Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Upon drinking this mutagen, you can feel your blood surge through your body and hear a low-pitched humming in your ears. These sensations subside as the flesh and muscles of your arm loosen and stretch, the fibers of your very being reaching out to combine with the base of one melee weapon you're holding.</p>\n<p><strong>Benefit</strong> Choose one melee weapon you're holding in one or both hands. You gain a +4 item bonus to your attack rolls with this weapon and to Will saves against fear effects for 1 hour. Any attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or otherwise remove the weapon from your hands must exceed DC 50 or the attempt fails.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: War Blood Mutagen (Major)]</p>\n<p><strong>Drawback</strong> You can't voluntarily remove the weapon unless you succeed at a @Check[athletics|dc:50], which ends the war blood mutagen's effects; this check takes a single action. If you perform an action with the concentrate trait, you must succeed at a @Check[flat|dc:5] or the action is lost.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "War Blood Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>Upon drinking this mutagen, you can feel your blood surge through your body and hear a low-pitched humming in your ears. These sensations subside as the flesh and muscles of your arm loosen and stretch, the fibers of your very being reaching out to combine with the base of one melee weapon you're holding.</p>\n<p><strong>Benefit</strong> Choose one melee weapon you're holding in one or both hands. You gain a +2 item bonus to your attack rolls with this weapon and to Will saves against fear effects for 10 minutes. Any attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] or otherwise remove the weapon from your hands must exceed DC 30 or the attempt fails.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: War Blood Mutagen (Moderate)]</p>\n<p><strong>Drawback</strong> You can't voluntarily remove the weapon unless you succeed at a @Check[athletics|dc:30], which ends the war blood mutagen's effects; this check takes a single action. If you perform an action with the concentrate trait, you must succeed at a @Check[flat|dc:5] or the action is lost.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "War Flail",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This large flail has a long shaft connected to a shorter piece of stout wood or metal that's sometimes inlaid with spikes.</p>",
+    "rarity": "common",
+    "traits": [
+      "disarm",
+      "sweep",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "War Lance",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This lance appears shorter and stockier in comparison to other weapons of its type. The war lance most notably features shielding integrated into its vamplate, exchanging its reach for a sturdier base when defending against attacks or attempting to overpower an opponent.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "jousting-d6",
+      "parry",
+      "shove"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "War Razor",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "backstabber",
+      "deadly-d8",
+      "finesse"
+    ]
+  }
+]

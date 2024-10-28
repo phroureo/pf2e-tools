@@ -1,0 +1,1312 @@
+[
+  {
+    "level": 12,
+    "name": "Codex of Unimpeded Sight (Greater)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>A female figure peers through her blindfold from the cover of this stately tome.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> Your last action was to cast a divination spell prepared from this grimoire</p><hr /><p><strong>Effect</strong> The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge. When you use it, you gain a +1 item bonus on your Perception check to Seek or skill check to Recall Knowledge.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Codex of Unimpeded Sight (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Codex of Unimpeded Sight",
+    "price": {
+      "gp": 215
+    },
+    "description": "<p>A female figure peers through her blindfold from the cover of this stately tome.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your last action was to cast a divination spell prepared from this grimoire</p>\n<hr />\n<p><strong>Effect</strong> The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Cognitive Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge]. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one Intelligence-based skill [Arcana, Crafting, Lore, Occultism, Society], chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cognitive Mutagen (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Cognitive Mutagen (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge]. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cognitive Mutagen (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Cognitive Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge]. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one skill, chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cognitive Mutagen (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Cognitive Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge]. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cognitive Mutagen (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Coin of Comfort",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This thick silver coin is deeply worn on one side, creating a shallow dip.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You rub your thumb along the grooved side and become filled with a sense of comfort and safety. You reduce your @UUID[Compendium.pf2e.conditionitems.Item.Frightened] condition by 1.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Cold Comfort (Greater)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> Ice created by the pellets lasts for 3 hours or until broken.</p>\n<hr />\n<p>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 20-foot square to a depth of 1 foot. Any creatures inside this space must attempt a @Check[reflex|dc:34|name:Avoid Being Frozen in Ice|traits:damaging-effect|showDC:all] save. On a failure, the creature takes @Damage[4d6[cold]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 minute or until it Escapes (DC 31) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Huge Creature, up to two Large creatures or up to eight Medium or Small creatures. Traversing the slippery ice requires a successful @Check[acrobatics|dc:20|name:Balance on Ice|traits:alchemical,action:balance|showDC:all] check to Balance.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "cold",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Cold Comfort (Lesser)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> Ice created by the pellets lasts for 1 hour or until broken.</p>\n<hr />\n<p>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 10-foot square to a depth of 1 foot. Any creatures inside this space must attempt a @Check[reflex|dc:23|name:Avoid Being Frozen in Ice|traits:damaging-effect|showDC:all] save. On a failure, the creature takes @Damage[2d6[cold]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 minute or until it Escapes (DC 20) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Large creature or up to four Medium or Small creatures. Traversing the slippery ice requires a successful @Check[acrobatics|dc:20|name:Balance on Ice|traits:alchemical,action:balance|showDC:all] check to Balance.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "cold",
+      "consumable"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Cold Iron Blanch (Greater)",
+    "price": {
+      "gp": 1700
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides high-grade cold iron, so you can use it on any magic weapon. It lasts for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cold Iron Blanch (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "precious"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Cold Iron Blanch (Lesser)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides low-grade cold iron, so you can use it on a magic weapon up to 8th level, or ammunition for such a weapon. It lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cold Iron Blanch (Lesser)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "precious"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Cold Iron Blanch (Moderate)",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides standard-grade cold iron, so you can use it on a magic weapon up to 15th level, or ammunition for such a weapon. It lasts for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cold Iron Blanch (Moderate)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "precious"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Cold Iron Chunk",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Cold Iron Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "common",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Cold Iron Ingot",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Cold Iron Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>",
+    "rarity": "common",
+    "traits": [
+      "precious"
+    ]
+  },
+  {
+    "level": 23,
+    "name": "Coldstar Pistols",
+    "price": {},
+    "description": "<p>One dueling pistol in this paired set is etched with flames along its barrel, while the other is etched with icicles. In these separate forms, one gun comprising the <em>Coldstar Pistols</em> functions as a <em>+3 greater striking greater flaming dueling pistol</em> and the other as a <em>+3 greater striking greater frost dueling pistol</em>. When joined, the guns form a double-barreled weapon that functions as a <em>+4 major striking greater flaming greater frost dueling pistol.</em> The combined form has a range increment of 120 feet. In either form, the <em>Coldstar Pistols</em> have the agile, concealable, concussive, and fatal d10 traits. As star guns, the <em>Coldstar Pistols</em> run on magic and don't use ammunition or black powder.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You switch the <em>Coldstar Pistols</em> from one form to the other. Attempt a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.Feint] with a +4 circumstance bonus.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> Make two Strikes against one target, taking the highest of the two attack rolls and applying it to both attacks. Your multiple attack penalty increases only after these Strikes.</p>\n<p><strong>Destruction</strong> If Deft Onki's name and deeds ever fade from mortal memory entirely, the <em>Coldstar Pistols</em> can be destroyed like a normal object.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "artifact",
+      "concealable",
+      "concussive",
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Collar of Empathy",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This ornate collar of intertwined leather strips of contrasting colors is paired with a bracelet of a similar construction. When you wear and invest the bracelet and your companion wears and invests the collar, you gain a stronger connection to each other. You and your companion can always sense each other's emotional states and basic physical wants and needs.</p>\n<p><strong>Activate—Empathic Link</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> You perceive through your animal companion's senses instead of your own. You can Sustain the activation. You are unaware of your own surroundings for as long as you are using your animal companion's senses. In addition to the obvious use when you are separated from your companion, this ability might allow you to notice sounds, scents, and other stimuli that your companion's senses register but yours alone don't.</p>",
+    "rarity": "common",
+    "traits": [
+      "companion",
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Collar of Inconspicuousness",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>This leather collar's worn and almost threadbare look belies its magical nature. When your companion wears and invests the collar, it gains the ability to change its appearance from that of a ferocious animal into a more inconspicuous form.</p>\n<p><strong>Activate—Adorable Guise</strong> <span class=\"action-glyph\">A</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You touch your animal companion to transform it into a nonthreatening Tiny creature of the same family or a similar creature (for instance, a house cat instead of a tiger, or a puppy instead of a wolf). This has the effects of @UUID[Compendium.pf2e.spells-srd.Item.Pest Form] (2nd rank, or 4th rank if your companion can fly). The effect lasts until you Dismiss it.</p>",
+    "rarity": "common",
+    "traits": [
+      "companion",
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Collar of the Eternal Bond",
+    "price": {
+      "gp": 330
+    },
+    "description": "<p>When you invest this collar for your eidolon, it changes its appearance to match the eidolon's form, possibly into a different sort of neckpiece such as a choker, and it glows brightly with the symbol you and your eidolon share. While your eidolon wears a collar of the eternal bond, the collar bolsters their connection to you, allowing them to move up to 150 feet from you before unmanifesting instead of 100 feet. The eidolon can also Activate the collar to move even further.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Your eidolon focuses their will on the collar, allowing the collar to maintain the connection between you at any distance. For the next 5 minutes, you and your eidolon can move any distance from each other without your eidolon unmanifesting. When the duration ends, if your eidolon is more than 150 feet from you, they immediately unmanifest.</p>",
+    "rarity": "common",
+    "traits": [
+      "eidolon",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Collar of the Shifting Spider",
+    "price": {
+      "gp": 133
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> Interact</p>\n<p>This intimidating collar contains a hollow central tube and ends in twin metal points shaped like spider fangs. The collar can be filled with an alchemical mutagen as an Interact action. As a free action triggered when you roll initiative, you can activate the collar, causing the metal points to dig into your neck, inflicting @Damage[1[piercing]] and injecting the mutagen directly into your bloodstream. This has the same effect as if you drank the mutagen conventionally, except the duration of the mutagen is halved due to the more direct administration.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Collar",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Blue)",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Blue colorful coating contains bonding compounds that firm up a surface, making it more stable and more supportive of weight. When applied to material that's loose or unstable, the square can hold twice as much weight before giving way. The coating also slows any collapse, making it easier to avoid and granting a +1 circumstance bonus to Reflex saving throws in reaction to the coated surface's collapse.</p>\n<p>This coating can shore up a wall, ceiling, door, or similar opening, granting a +2 circumstance bonus to the DC for Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Force Open] the coated surface.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Green)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Green colorful coating dries into a low-friction surface. It makes the square slippery, making it both difficult terrain and uneven ground with a DC to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] of 20. A creature that Steps or Crawls doesn't have to attempt to Balance.</p>\n<p>The coating also makes a coated wall or ceiling harder to climb. It imposes a +2 circumstance penalty to checks to Climb the coated surface.</p>\n<p>Yellow colorful coating and green colorful coating have opposite effects. If they're both applied to the same surface, they negate one another.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Indigo)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Indigo colorful coating contains agents that destroy weaker objects. When applied to a surface or object, the coating treats the object's Hardness as 2 lower and deals @Damage[1d4[acid]] to the object each round. The damage this coating deals remains after the coating becomes inert.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Orange)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Orange colorful coating contains a mixture of acidic substances. As it dries, caustic ingredients rise to the coating's surface. The square becomes hazardous terrain, dealing @Damage[1d4[acid]] to any creature that moves through it. A creature can take this acid damage only once per round.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Red)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Red colorful coating contains rubbery compounds, turning any surface it covers into a trampoline. A creature or object that falls onto a square coated with red colorful coating takes no falling damage and bounces half again as high as the original fall. If the creature fell straight down, then with several bounces, it comes safely to a stop. If it was moving horizontally, its bounce continues in the same direction, with a distance determined by the GM. If the coating is on a wall, a creature pushed or Shoved into the wall bounces back half again as far and avoids taking any damage from being pushed into the wall. On a ceiling, red colorful coating is useful only in unusual circumstances, such as reverse gravity.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Colorful Coating (Violet)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Violet colorful coating contains compounds that become goopy and sticky. A square of this coating is difficult terrain. Any creature that enters the square must succeed at a @Check[reflex|dc:20] save or take a –15-foot penalty to its Speeds until the end of its next turn. On a critical failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] in the square until the end of its next turn. The target can end these effects by @UUID[Compendium.pf2e.actionspf2e.Item.Escape]{Escaping} (DC 20) or spending 2 Interact actions to remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can help by providing the actions.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Colorful Coating (Yellow)",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p>These coatings come in different colors, each with a different special effect. A bottle of colorful coating contains enough to slather over one 5-foot square within your reach or space and is made with a special dispenser that enables you to coat the surface using only one hand. It's possible to use the coating on any surface that can be painted (subject to the GM's discretion). Colorful coating dries instantly, and its effect in the square you coated lasts for 1 minute. After that time, the coating turns to fine, inert powder, returning the square to its original condition unless otherwise noted.</p>\n<p>Yellow colorful coating contains a variety of compounds that fill small gaps and harden into a flat surface that increases friction, making it much easier to move on the square's surface. On the affected surface, the coating reduces difficult terrain caused by slipperiness, such as from ice or grease; this eliminates difficult terrain, reduces greater difficult terrain to difficult terrain, and reduces uneven ground to greater difficult terrain. The coating can't affect difficult terrain caused by features or effects not part of the surface, such as crowds, underbrush, wind, magic, and so on. The GM determines if yellow colorful coating can affect a surface's terrain.</p>\n<p>The coating also makes a coated wall or ceiling easier to climb. It provides a +2 circumstance bonus to checks to Climb the coated surface.</p>\n<p>Yellow colorful coating and green colorful coating have opposite effects. If they're both applied to the same surface, they negate one another.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Colorful pastoral tapestry",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Colorful velvet half mask",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Combat Grapnel",
+    "price": {
+      "sp": 9
+    },
+    "description": "<p>Although grappling hooks typically serve as a climbing tool, this specially reinforced grapnel attached to a rope up to 10 feet long can be swung as a weapon. This is a martial melee weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "finesse",
+      "grapple",
+      "tethered",
+      "thrown-20"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Combat Lure",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>A combat lure is a weighted leather sack at the end of a length of toughened cord and can be used both to bludgeon opponents and signal directions to a trained avian or other animal.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "finesse",
+      "tethered",
+      "thrown-20",
+      "training"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Comealong",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This portable winch consists of a length of cable or chain, two hooks, and a ratcheting drum with a handle. When used with two sections of rope or chain, it allows you to pull a heavy load along a flat surface.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Communication Bangle",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This simple brass ring is meant to be worn as an ornamentation piece to an outfit, oftentimes as a bangle on the wrist, as the ring closure of a scarf or sash, or as an ornamentation piece of a headdress. While decorative, this serves a cover for the bangle's function as a message bearer. Messages can be coded into the bangle, either through a series of raised dots and dashes or a pattern of notches of different depths and spacings. A bangle is large enough to hold a simple message consisting of a few words like \"Danger. Flee.\" or \"Meeting. Sunset. Fountain.\"</p>\n<p>Coding a message into a bangle requires 1 minute of time. All Pathfinders with access to communication bangles are taught how to code and read most basic messages, but anyone with a bangle can develop their own communication system.</p>\n<p>A creature inspecting a bangle can discover its true purpose by succeeding at a @Check[perception|dc:20|traits:action:seek] check. Deciphering a message requires a creature to succeed at a Society check against the coder's Deception DC.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 13,
+    "name": "Communication Pendants",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>Each of these matching necklaces has been constructed using one half of a purple teardrop-shaped gem, split in two. These pendants function only with the other pendant in their pair and must be crafted together. If one pendant becomes broken, the other shatters into non-magical shards. The price listed above is for a pair of pendants.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You speak, audibly projecting your voice from the pendant you're wearing to the other. Your voice can be heard by whoever is wearing the other pendant no matter how far away the pendants are from each other, as long as the wearer has invested the other pendant and is on the same plane as you. Continued activation allows you to communicate with the other pendant's wearer whenever and for as long as your desire.</p>",
+    "rarity": "rare",
+    "traits": [
+      "auditory",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Communion Mat",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p>This pageless grimoire is made up of two durable covers that open to display a small ritual circle. When you first invest the grimoire, you and your familiar each press a limb to a corner of the mat. The ritual circle then morphs to one matching the tradition of your patron, the spells contained in your familiar appearing in the margins. During your daily preparations, your familiar performs a small jaunt around the open ritual circle to strengthen its connection to your patron.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast one of the granted spells from your patron's theme or one of the spells your familiar learned from a lesson, your patron takes notice that you're putting their power to good use and strengthens your familiar with a surge of magic. Your familiar @UUID[Compendium.pf2e.actionspf2e.Item.Sustain]{Sustains} one of your Spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Compass (Lensatic)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>A compass helps you @UUID[Compendium.pf2e.actionspf2e.Item.Sense Direction] or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a -2 item penalty to these checks (similar to using a shoddy item).</p>\n<p>A lensatic compass gives you a +1 item bonus to these checks.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Compass of Transpositional Awareness",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>The silver face of this glass-encased compass is etched with dozens of esoteric symbols, obscure icons, and inscrutable abbreviations.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> concentrate, Interact</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Effect</strong> You point the compass of transpositional awareness at an extant teleportation effect (such as a magical portal) or the site of a teleportation effect that existed within the last 1 minute (such as the space where a creature just cast dimension door). Attempt an Occultism check to determine to where the effect leads or led. The DC of this check is the effect's counteract DC. On a success, you know roughly the destination of the teleportation effect (for example \"the Plane of Fire,\" \"north,\" or \"Avistan\"). On a critical success, you ascertain the exact destination within mere feet for local effects (such as dimension door) or within a few miles for long-range effects (such as teleport, plane shift, or interdimensional portals).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You use the compass of transpositional awareness to triangulate your current coordinates and the coordinates of your intended destination using teleportation magic. For 1 minute, whenever you cast a teleportation spell that has a range, increase that spell's range by 30 feet. If the spell normally has a range of touch, extend its range to 30 feet.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "teleportation"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Compass",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A compass helps you @UUID[Compendium.pf2e.actionspf2e.Item.Sense Direction] or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a -2 item penalty to these checks (similar to using a shoddy item).</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Composer Staff (Greater)",
+    "price": {
+      "gp": 480
+    },
+    "description": "<p>A <em>composer staff</em> is short and shaped like an elegant black conductor's baton with a silver tip. When waved through the air, it hums melodically. In this way, you can play it as though it were an instrument, and it grants a +2 item bonus to Performance checks made with it.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Haunting Hymn], @UUID[Compendium.pf2e.spells-srd.Item.Summon Instrument]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Sonata Span]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir], @UUID[Compendium.pf2e.spells-srd.Item.Roaring Applause], @UUID[Compendium.pf2e.spells-srd.Item.Sculpt Sound]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Composer Staff (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>A <em>composer staff</em> is short and shaped like an elegant black conductor's baton with a silver tip. When waved through the air, it hums melodically. In this way, you can play it as though it were an instrument, and it grants a +2 item bonus to Performance checks made with it.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Haunting Hymn], @UUID[Compendium.pf2e.spells-srd.Item.Summon Instrument]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Sonata Span]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir], @UUID[Compendium.pf2e.spells-srd.Item.Roaring Applause], @UUID[Compendium.pf2e.spells-srd.Item.Sculpt Sound]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Infectious Melody]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir], @UUID[Compendium.pf2e.spells-srd.Item.Sculpt Sound]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Composer Staff",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>A <em>composer staff</em> is short and shaped like an elegant black conductor's baton with a silver tip. When waved through the air, it hums melodically. In this way, you can play it as though it were an instrument, and it grants a +1 item bonus to Performance checks made with it.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Haunting Hymn], @UUID[Compendium.pf2e.spells-srd.Item.Summon Instrument]</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Concordant Choir]</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Composite Longbow",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d10",
+      "propulsive",
+      "volley-30"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Composite Shortbow",
+    "price": {
+      "gp": 14
+    },
+    "description": "<p>This shortbow is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Its compact size and power make it a favorite of mounted archers. Any time an ability is specifically restricted to a shortbow, it also applies to composite shortbows unless otherwise stated.</p>",
+    "rarity": "common",
+    "traits": [
+      "deadly-d10",
+      "propulsive"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Compound Eyes",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p>You replace your eyes with ones similar to an insect's or a crustacean's, which allow you to better pinpoint movement. Once per day when you attempt a flat check to target a creature that's @UUID[Compendium.pf2e.conditionitems.Item.Concealed] from you, you can roll twice and take the better result.</p>",
+    "rarity": "common",
+    "traits": [
+      "fortune",
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Comprehension Elixir (Greater)",
+    "price": {
+      "gp": 54
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing. The duration is 10 minutes.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mental"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Comprehension Elixir (Lesser)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing. The duration is 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mental"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Concealed Holster",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This leather holster is crafted to better hide small firearms from view. Only firearms designed for use in one hand are small enough to disguise with this holster. You gain a +1 item bonus to Stealth checks and DCs to hide or conceal a firearm or hand crossbow in this holster.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Concealed Sheath",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This leather sheath is large enough to hold an item of up to light Bulk and is typically used for daggers, wands, thieves' tools, and similar objects.</p>\n<p>You can affix it to the inside of a boot, under a bracer or sleeve, or in other inconspicuous locations to gain a +1 item bonus to Stealth checks and DCs to hide or conceal the item within.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Concealment Coin",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This hollow piece resembles a typical coin and features enough space inside to hide brief messages written on small pieces of paper. You can unscrew or close the coin with an Interact action. You can determine an unattended concealment coin's true nature with a successful @Check[perception|dc:20] check. Determining the coin's nature while it's being handled is more difficult and typically requires a successful Perception check against the Thievery DC of the person holding the coin.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 12,
+    "name": "Conch of Otherworldly Seas",
+    "price": {
+      "gp": 1850
+    },
+    "description": "<p>Magical writing covers the surface of this beautiful conch shell, which emits a blue light from inside. A <em>conch of otherworldly seas</em> is a virtuoso handheld musical instrument that grants a +2 item bonus to Performance checks attempted while using it.</p>\n<p>The conch is a planar key for @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] and similar magic to travel to the Plane of Water. When using it this way, you can attune it to the waters of your destination to make it more likely to arrive where you intend to be, appearing 1d6×25 miles from your intended destination instead of 1d10×25 miles away.</p>\n<hr />\n<p><strong>Activate—Voice of Oceans</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You hold the horn to your ear and can understand and speak Thalassic as long as it remains there.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Voice of Oceans]</p>\n<hr />\n<p><strong>Activate—Sounds of the Deep</strong> 10 minutes (concentrate, manipulate)</p>\n<p><strong>Effect</strong> You hold the horn to your ear and touch the correct series of runes inscribed on its surface, causing the conch to cast a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Clairaudience] spell for your benefit. Provided you choose a location that's underwater, you can extend the spell's range to 1 mile and hear with perfect clarity.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Condensed Mana",
+    "price": {
+      "gp": 69
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Strike</p>\n<hr />\n<p>Condensed mana is a crystal vial filled with concentrated miasma from the Mana Wastes. The colors shift abruptly and unpredictably within and the opening of the bottle is sealed tighter than any other potion or alchemical item, emphasizing its dangers. On a successful Strike, the creature takes @Damage[1[force]] damage. Then, roll on the @UUID[Compendium.pf2e.rollable-tables.RollTable.Wellspring Surges] table. The result affects all creatures within the emanation indiscriminately. For the purpose of determining the effects of the surge, use a spell rank of 4 and a DC of 23. The person Striking with this vial is considered to be the caster for the purposes of determining effects on the Mana Surge table. The emanation is centered on the target's space, and both the caster and the target of the wellspring surge are the target of the condensed mana. On a failed Strike, the surge only has an effect if it would normally affect an area; if you roll an effect that depends on a caster or a target, nothing happens. If the effect normally doesn't have a DC, creatures affected by the surge or within the surge's area must attempt a @Check[reflex|dc:23] save instead. On a critical failure on any saving throw against condensed mana, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Stunned] by the wild energies of the surge. Sometimes a wellspring surge's effects make it difficult to determine exactly who is affected. The GM makes the determination, basing it on creatures directly affected; for example, while many creatures can hear the music from the surge \"strike up the band,\" only the creature emanating the music is directly affected by it.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You must be in or adjacent to an area of Mana Wastes miasma.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Conducting",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>A conducting weapon can channel energy through it. The weapon gains the resonant weapon trait, except that when you @UUID[Compendium.pf2e.actionspf2e.Item.Conduct Energy], the weapon deals an additional 1d8 damage of the selected type instead of 1 additional damage per die; if the weapon already had the resonant weapon trait, it deals 1d8 damage plus 1 damage per die instead. On a critical hit, the weapon deals 1d8 persistent damage of the same type.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Conduit Shot (Greater)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>Fine lines of djezet sparkle in conduit shot. When you Activate it, you name up to four creatures, in addition to you, that the ammunition's magic works for. When a conduit shot hits a target, which can be a square, it remains intact. It moves with a creature it struck, unless the GM determines otherwise, until that creature regains any Hit Points. If it doesn't stick to the target, the active ammunition instead falls into the target's space, remaining active.</p>\n<p>If you or one of the four selected creatures include the ammunition in the area of a spell that is 7th level or lower; has an area of a burst, cone, or line; and does not have a duration, the djezet in the ammunition flares in striations of red light, increasing the area of that spell. Add 5 feet to the radius of a burst that has a radius of at least 10 feet or to the length of a cone or line normally 15 feet long or smaller. For a larger cone or line, add 10 feet to the length. These increases are based on the spell's original area, ignoring any increases due to other effects, such as the Widen Spell feat. Increasing a spell's area destroys the ammunition, which otherwise remains active for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Conduit Shot (Lesser)",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>Fine lines of djezet sparkle in conduit shot. When you Activate it, you name up to four creatures, in addition to you, that the ammunition's magic works for. When a conduit shot hits a target, which can be a square, it remains intact. It moves with a creature it struck, unless the GM determines otherwise, until that creature regains any Hit Points. If it doesn't stick to the target, the active ammunition instead falls into the target's space, remaining active.</p>\n<p>If you or one of the four selected creatures include the ammunition in the area of a spell that is 3rd level or lower; has an area of a burst, cone, or line; and does not have a duration, the djezet in the ammunition flares in striations of red light, increasing the area of that spell. Add 5 feet to the radius of a burst that has a radius of at least 10 feet or to the length of a cone or line normally 15 feet long or smaller. For a larger cone or line, add 10 feet to the length. These increases are based on the spell's original area, ignoring any increases due to other effects, such as the Widen Spell feat. Increasing a spell's area destroys the ammunition, which otherwise remains active for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Conduit Shot (Moderate)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>Fine lines of djezet sparkle in conduit shot. When you Activate it, you name up to four creatures, in addition to you, that the ammunition's magic works for. When a conduit shot hits a target, which can be a square, it remains intact. It moves with a creature it struck, unless the GM determines otherwise, until that creature regains any Hit Points. If it doesn't stick to the target, the active ammunition instead falls into the target's space, remaining active.</p>\n<p>If you or one of the four selected creatures include the ammunition in the area of a spell that is 5th level or lower; has an area of a burst, cone, or line; and does not have a duration, the djezet in the ammunition flares in striations of red light, increasing the area of that spell. Add 5 feet to the radius of a burst that has a radius of at least 10 feet or to the length of a cone or line normally 15 feet long or smaller. For a larger cone or line, add 10 feet to the length. These increases are based on the spell's original area, ignoring any increases due to other effects, such as the Widen Spell feat. Increasing a spell's area destroys the ammunition, which otherwise remains active for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Confabulator",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This device attaches to any non-percussive musical instrument, allowing a non-verbal character to shape the sounds of the instrument into speech. The speech can be any language the character understands, and the sound of the speech resembles the instrument the device is attached to. You also gain a +1 item bonus to Performance checks made with the instrument.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Conflagration Club",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>A ring of magical crystals encircles the base of this <em>+1 striking greatclub</em>, allowing it to absorb and store magical energy.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You Cast a Spell from a spell slot, and the spell has the acid, cold, electricity, fire, or sonic trait</p>\n<p><strong>Requirements</strong> The club has no charges</p>\n<hr />\n<p><strong>Effect</strong> You mentally align the club's crystals to reverberate with energy from the spell. It gains a number of charges equal to the rank of the spell slot, and the charges are attuned to the damage type matching the spell's trait. If the spell has more than one eligible trait, choose one when the charges are stored.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (evocation, magical)</p>\n<p><strong>Requirements</strong> The club has at least 1 charge</p>\n<hr />\n<p><strong>Effect</strong> You flip the club around to blast a cone of energy from its base. Each creature in a @Template[cone|distance:15] takes 1d6 damage per charge stored in the club, with a basic Reflex save against your spell DC or DC 19, whichever is greater. The damage type is the same type the charges were attuned to. The club loses all of its charges.</p>",
+    "rarity": "common",
+    "traits": [
+      "backswing",
+      "magical",
+      "shove"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Conrasu Coin (Arbiter)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You attempt a Diplomacy check to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression].</p>\n<p>These wooden discs sometimes form spontaneously at the Wood Pile, a secret conrasu location suffused with extraplanar energy. A conrasu coin can be activated to call upon the power of a specific type of aeon.</p>\n<p>This coin has small wings like an arbiter, the messenger and diplomat aeon. When you activate the coin, you gain a +2 circumstance bonus on the Diplomacy check, which increases to a +3 circumstance bonus to Make an Impression on a lawful creature.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Conrasu Coin (Bythos)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You're targeted with an attack but the opponent hasn't rolled yet.</p>\n<p>These wooden discs sometimes form spontaneously at the Wood Pile, a secret conrasu location suffused with extraplanar energy. A conrasu coin can be activated to call upon the power of a specific type of aeon.</p>\n<p>This cog-like coin bears an hourglass on one side and the four-armed silhouette of a bythos-aeons that steward over time-on the other. When activated, you catch a glimpse of your body moving on one of its potential timelines in response to danger and you follow those movements to dodge. You gain a +2 circumstance bonus to AC against the attack, and after resolving the attack, you can Stride up to 10 feet without triggering reactions. If you have the Nimble Roll feat and the attack misses, you can Stride up to 20 feet instead.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Constricting Meteor",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>The weights of this <em>+1 striking meteor hammer</em> are shaped like snake heads, and anaconda scales adorn the chain.</p><hr /><p><strong>Activate—Coiling Chain</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> Your last action was a successful melee Strike or @UUID[Compendium.pf2e.actionspf2e.Item.Trip] with the <em>constricting meteor</em></p>\n<p><strong>Effect</strong> The chain of the meteor hammer wraps around the target and squeezes. Attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] the creature with a +1 item bonus. In addition to being @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] on a success, the target takes @Damage[(1d10+7)[bludgeoning]] damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the scales of a giant anaconda.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing",
+      "disarm",
+      "magical",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Constricting Whip Tail",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>You have a strong, prehensile tail. You gain a tail unarmed attack that deals 1d6 bludgeoning damage. This tail is in the brawling group. You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] and to Athletics checks to Climb. You can also use your tail for the @UUID[Compendium.pf2e.actionspf2e.Item.Grab an Edge] action, even if your hands are otherwise occupied.</p>\n<p>You can use your tail unarmed attack to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] even if you don't have a free hand. You gain a +2 item bonus to Athletics checks to Grapple.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Contagion Metabolizer (Greater)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Contagion metabolizers seek out toxins in the bloodstream and attempt to purify them into humors the body processes naturally. When you drink this elixir, it attempts a counteract check with a [[/r 1d20+30 #Counteract]]{+30} modifier to remove the highest-level poison or disease afflicting you. The elixir has a counteract rank of 10. This takes longer for a disease—the counteract check doesn't happen until 10 minutes after you drink the elixir. After drinking, you become temporarily immune to contagion metabolizers for 1 hour.</p>\n<p>If you're a chirurgeon alchemist and have powerful alchemy, you can substitute your statistics when you create a contagion metabolizer using Quick Alchemy, if your stats are higher. This replaces the counteract rank with half your level rounded up and the counteract modifier with your class DC – 10.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Contagion Metabolizer (Lesser)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Contagion metabolizers seek out toxins in the bloodstream and attempt to purify them into humors the body processes naturally. When you drink this elixir, it attempts a counteract check with a [[/r 1d20+11 #Counteract]]{+11} modifier to remove the highest-level poison or disease afflicting you. The elixir has a counteract rank of 3. This takes longer for a disease—the counteract check doesn't happen until 10 minutes after you drink the elixir. After drinking, you become temporarily immune to contagion metabolizers for 1 hour.</p>\n<p>If you're a chirurgeon alchemist and have powerful alchemy, you can substitute your statistics when you create a contagion metabolizer using Quick Alchemy, if your stats are higher. This replaces the counteract rank with half your level rounded up and the counteract modifier with your class DC – 10.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Contagion Metabolizer (Moderate)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Contagion metabolizers seek out toxins in the bloodstream and attempt to purify them into humors the body processes naturally. When you drink this elixir, it attempts a counteract check with a [[/r 1d20+19 #Counteract]]{+19} modifier to remove the highest-level poison or disease afflicting you. The elixir has a counteract rank of 6. This takes longer for a disease—the counteract check doesn't happen until 10 minutes after you drink the elixir. After drinking, you become temporarily immune to contagion metabolizers for 1 hour.</p>\n<p>If you're a chirurgeon alchemist and have powerful alchemy, you can substitute your statistics when you create a contagion metabolizer using Quick Alchemy, if your stats are higher. This replaces the counteract rank with half your level rounded up and the counteract modifier with your class DC – 10.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Containment Contraption",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>This heavy, mechanized brass suit is studded with pistons, gears, dials, and gauges and topped with a front-facing thick glass porthole. The suit is a suit of <em>+1 full plate</em>. While worn, it completely encloses you, providing protection against inhaled toxins—you gain a +1 circumstance bonus to all saving throws made against such effects. The suit isn't airtight, however, and doesn't protect against drowning if you're immersed in water or suffocation if you're placed in a vacuum—at least, not until you activate it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The <em>containment contraption</em> fills with breathable air and filters exterior air or water to create more breathable air for you, as needed. This state persists for up to 1 hour, during which time you can breathe normally in environments where you normally couldn't. During this time, your circumstance bonus to saving throws against inhaled toxins increases to +2, and you also gain a +2 circumstance bonus to saves against olfactory effects. This effect ends immediately if the <em>containment contraption</em> becomes broken.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Containment Contraption]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Conundrum Spectacles (Greater)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>These wire spectacles have been fitted with circular glass lenses. While wearing the spectacles, you gain a +2 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Decipher Writing].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Requirements</strong> You are attempting to read something in a language you don't understand</p>\n<hr />\n<p><strong>Effect</strong> You flick a small toggle on the side of the spectacles, flipping the lenses over in the frames. You can understand the meaning of the language you are reading. This doesn't let you understand codes, riddles, or metaphors (subject to the GM's discretion). This effect lasts 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Conundrum Spectacles",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>These wire spectacles have been fitted with circular glass lenses. While wearing the spectacles, you gain a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.Decipher Writing].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You are attempting to read something in a language you don't understand</p>\n<hr />\n<p><strong>Effect</strong> You flick a small toggle on the side of the spectacles, flipping the lenses over in the frames. You can understand the meaning of the language you are reading. This doesn't let you understand codes, riddles, or metaphors (subject to the GM's discretion). This effect lasts 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Cookware",
+    "price": {
+      "gp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 16,
+    "name": "Cooling Elixir (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir is made from salamander scales to withstand fire. For 24 hours, you are protected from the effects of severe heat. You're also protected from extreme and incredible heat.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Cooling Elixir (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir is made from salamander scales to withstand fire. For 24 hours, you are protected from the effects of severe heat.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cooling Elixir (Moderate)",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This elixir is made from salamander scales to withstand fire. For 24 hours, you are protected from the effects of severe heat. You're also protected from extreme heat.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Cooperative Blade",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This <em>+1 striking longsword</em> has a mirror-like blade free of tarnish despite being millennia old.</p>\n<p>While wielding it, you gain a +2 item bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Aid]. If you're an expert with the skill or attack roll you're using to Aid and you critically succeed, you grant your ally a +3 circumstance bonus to the triggering check instead of a +2 bonus.</p>",
+    "rarity": "unique",
+    "traits": [
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Cooperative Waffles (Greater)",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>Flash-cooked on a waffle iron and drizzled with alchemical syrups and compound butter, cooperative waffles bolster the supportive spirit of those who share the batch. You can split the waffles with one other creature. After you both eat half of the waffles to Activate them, when one of you uses Follow the Expert to follow the other, the circumstance bonus granted is 1 higher. The benefit of the waffles also applies when one of you successfully Aids a skill check the other attempts. The waffles' bonus lasts 24 hours or until you next make your daily preparations, whichever comes first. You can only be linked to one creature in this way at a time; if either of you eats cooperative waffles again, the effect of your previous waffles ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Cooperative Waffles",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>Flash-cooked on a waffle iron and drizzled with alchemical syrups and compound butter, cooperative waffles bolster the supportive spirit of those who share the batch. You can split the waffles with one other creature. After you both eat half of the waffles to Activate them, when one of you uses Follow the Expert to follow the other, the circumstance bonus granted is 1 higher. The waffles' bonus lasts 24 hours or until you next make your daily preparations, whichever comes first. You can only be linked to one creature in this way at a time; if either of you eats cooperative waffles again, the effect of your previous waffles ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Copper and spinel puzzle box",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Copper Penny",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You are knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone]</p>\n<p><strong>Requirements</strong> You're an expert in Acrobatics, and you are unarmored.</p>\n<hr />\n<p>This plain copper coin is typically affixed near the feet, on a pant leg or hem. When you Activate it, you Stand and can't be knocked prone again on the current turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Copper Pieces",
+    "price": {
+      "cp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Copper statuette of a salamander",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Coral Armor",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A good option for undersea explorers and aquatic peoples alike, coral armor consists of panels of carved coral. If worn underwater, some of this coral can even be alive.</p>",
+    "rarity": "common",
+    "traits": [
+      "adjusted",
+      "aquadynamic"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Coral idol of an elemental lord",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Coral",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 8,
+    "name": "Cordelia's Construct Key",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>Worn on a necklace, this intricate key grants you greater facility with constructs. The key alerts you to constructs lurking around you. Whether or not you are Investigating, the GM automatically rolls secret Recall Knowledge checks for you when you see a construct pretending to be a normal object, statue, or the like. Typically, this check is Arcana, Crafting, or an appropriate Lore skill. On a success, you recognize the presence of the construct and gain the usual benefits of Recall Knowledge.</p>\n<p>While you're wearing the key, if your attack reduces a construct to 0 Hit Points, instead of destroying it completely, you can send it into a dormant state, from which you can study its inner workings and possibly (at the GM's discretion) spend time and money to reprogram or repurpose it. Even if you don't subvert it, you can Repair a construct rendered dormant this way, allowing you to return tomb guardians to their vigil after you've battled them. Additionally, you can activate the key in two ways to call a construct to serve you.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You turn the key in the air and create a magic glyph. The key casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct].</p><hr /><p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You place the key on a Small object and turn it, creating a simple animated object for 1 hour. The animated object has the statistics of an @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Animated Broom] but has no bristles Strike and can't attack. It performs simple and broad menial tasks for you in exploration or downtime but is too slow to react to individual commands to assist you in a combat encounter.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cordelia's Greater Construct Key",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>Worn on a necklace, this intricate key grants you greater facility with constructs. The key alerts you to constructs lurking around you. Whether or not you are Investigating, the GM automatically rolls secret Recall Knowledge checks for you when you see a construct pretending to be a normal object, statue, or the like. Typically, this check is Arcana, Crafting, or an appropriate Lore skill. On a success, you recognize the presence of the construct and gain the usual benefits of Recall Knowledge.</p>\n<p>While you're wearing the key, if your attack reduces a construct to 0 Hit Points, instead of destroying it completely, you can send it into a dormant state, from which you can study its inner workings and possibly (at the GM's discretion) spend time and money to reprogram or repurpose it. Even if you don't subvert it, you can Repair a construct rendered dormant this way, allowing you to return tomb guardians to their vigil after you've battled them. Additionally, you can activate the key in two ways to call a construct to serve you.</p>\n<p>A greater key allows you to fully comprehend and thus partially bypass a construct's resistances. You ignore the first 5 resistance a construct has against your damaging effects, whether martial or magical.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You turn the key in the air and create a magic glyph. The key casts 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct].</p><hr /><p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You place the key on a Small object and turn it, creating a simple animated object for 8 hours. The animated object has the statistics of an @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Animated Broom] but has no bristles Strike and can't attack. It performs simple and broad menial tasks for you in exploration or downtime but is too slow to react to individual commands to assist you in a combat encounter.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Coronet of Stars",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This short golden crown bears a number of gems, each placed in the center of an engraving of a star. While wearing the crown, you are overcome with a nurturing instinct and understand the best ways to help others. You gain a +3 item bonus to Medicine checks. When you invest the crown, you either increase your Wisdom score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A living creature within 60 feet would die</p>\n<p><strong>Effect</strong> You reach out to the creature with a lifeline. The triggering creature receives the effects of @UUID[Compendium.pf2e.spells-srd.Item.Breath of Life], except they recover @Damage[7d8[healing]] Hit Points.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An ally within 60 feet fails a non-secret check</p><hr /><p><strong>Effect</strong> You call out to your ally and offer a reassurance. The triggering ally rerolls the failed check and takes the higher result. This is a fortune effect.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Corpse Compass",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This bone compass, made of the bones of sapient creatures that died violent deaths, is eerily effective when it comes to locating corpses. If you know you're @UUID[Compendium.pf2e.actionspf2e.Item.Track]{Tracking} a creature that's dead, you can use the compass's idiosyncrasies to your advantage and gain a +2 item bonus to your Survival check to do so. Otherwise, it works as a normal @UUID[Compendium.pf2e.equipment-srd.Item.Compass].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Corpsecaller Round",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This bullet is crafted entirely from obsidian and engraved with hair-thin runes. When an activated <em>corpsecaller round</em> hits a target, the struck creature is called to the grave. It takes @Damage[4d10[void]] damage with a @Check[fortitude|dc:25] saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The foe is unaffected.</p>\n<p><strong>Success</strong> The foe takes half damage.</p>\n<p><strong>Failure</strong> The foe takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 1}. If the foe dies within the next 24 hours, its corpse is tethered to the Void, making it easier to raise as an undead. Creatures using the create undead ritual on the foe's corpse receive a +2 circumstance bonus to their primary and secondary skill checks for the ritual.</p>\n<p><strong>Critical Failure</strong> As failure, except the foe takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Doomed]{Doomed 2}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "void"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Corpseward Pendant",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>A <em>corpseward pendant</em> is usually shaped like the skull of a humanoid or small animal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You become undetectable to undead creatures for 10 minutes. Undead can't see, hear, or smell you, nor detect you with sensory capabilities such as tremorsense. A creature can attempt a single @Check[will|dc:18] saving throw to ignore this effect. If an undead has reason to believe that undetected opponents are present, it can still attempt to Seek or Strike you. If you attempt to use a vitality spell to damage undead, use @UUID[Compendium.pf2e.feats-srd.Item.Command Undead], touch or damage an undead creature, or attack any creature while warded in this manner, the pendant's effects immediately end. An undead creature who observes you in this manner or one who succeeds at the Will save is immune to the <em>corpseward pendant</em> for 24 hours.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Corrective Lenses",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A set of corrective lenses might take the form of eyeglasses or specialized goggles worn over the eyes. You can don or remove your corrective lenses as an Interact action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 7,
+    "name": "Corrosive Ammunition",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This peculiar ammunition is coated in yellow dust that leaves a stain on anything it touches. When activated corrosive ammunition hits a target, it dissolves across the target's armor. The armor takes @Damage[1d8[persistent,acid]] damage that ignores the armor's Hardness; if the target isn't wearing armor, it takes the acid damage instead. This damage occurs at the end of the target's turns.</p>\n<p>The creature can end this effect by spending an Interact action to wipe off the corrosive dust, and otherwise the effect ends once the armor becomes broken.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Corrosive Engravings",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>These tin sheets are bound in brass and show significant signs of erosion. The grimoire's title is acid-etched, and flipping between the sheets leaves your fingers covered in flecks of rust and powdery metal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast an acid or poison spell that deals persistent damage, any creature who takes persistent damage from the spell is also @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} until the persistent damage ends. Using an action to retch can reduce the sickened value as normal, but it can't reduce the sickened value below 1 until the persistent damage ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Corrosive (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 6d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>\n<p>The acid damage dealt by this weapon ignores the target's acid resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Corrosive",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Corruption Cassock",
+    "price": {
+      "gp": 1150
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+20]]{+20}; precise vision 30 feet, imprecise hearing 30 feet, constant detect alignment</p>\n<p><strong>Communication</strong> telepathy (Celestial, Common, four other languages)</p>\n<p><strong>Skills</strong> Deception [[/r 1d20+21]]{+21}, Diplomacy [[/r 1d20+19]]{+19}, Religion [[/r 1d20+19]]{+19}</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +5, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+20]]{+20}</p>\n<hr />\n<p>Devotees of non-evil faiths fear and loathe <em>corruption cassocks</em>, each of which is dedicated to an evil deity. When the garment chooses a target, such as when it senses a worshipper of a good or neutral deity, it alters its form to match another deity's iconography, appearing to be a <em>cassock of devotion</em> for that deity. Once donned, the cassock tries to subtly sway its wearer to the worship of its deity. If the wearer begins to succumb, the <em>corruption cassock</em> gradually reverts to its true appearance, replacing its false iconography as its wearer converts.</p>\n<p>A <em>corruption cassock</em> functions as a <em>cassock of devotion</em> for any wearer it chooses. Once you invest the cassock, it fuses to you. The cassock has the alignment trait of its deity (LE, NE, or CE), and while you remain loyal to another deity, you believe it grants you a +2 item bonus to Religion checks and a +1 item bonus to the divine skill of the deity to whom you believe the cassock is dedicated. It does neither. The GM secretly adjusts your checks with those skills, causing you to fail at religious tasks more often. If you have multiple equal or lower item bonuses to the affected skills, the cassock takes precedence, negating those bonuses. If you convert to following the cassock's true evil deity, however, these bonuses function normally for you.</p>\n<p>If you attempt to Cast a Spell with an alignment trait that doesn't match the cassock's, it can force you to attempt a @Check[will|dc:28] save. On a failure, you're @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for one minute (@UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} on a critical failure). A <em>corruption cassock</em> uses this ability to convince you that your deity has forsaken you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a cleric domain spell for a domain belonging to the deity you believe the cassock is dedicated to. If you don't spend this Focus Point by the end of this turn, it's lost. However, when you use this activation, the <em>corruption cassock</em> can instead cast a domain spell of the same rank from its deity. It does so only to confuse and dismay you, harming your faith.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "divine",
+      "focused",
+      "intelligent",
+      "invested"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Corset Knife",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>A favored self-defense weapon among bar and tavern workers, the corset knife has a weighted hilt and a cylindrical, needlelike blade designed to be easily hidden in clothing, but quickly retrieved in a pinch.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "concealable",
+      "finesse",
+      "thrown-10"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Countering Charm (Greater)",
+    "price": {
+      "gp": 5500
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+25 #Counteract]]{+25}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Countering Charm (Major)",
+    "price": {
+      "gp": 20000
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+30 #Counteract]]{+30}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Countering Charm",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+20 #Counteract]]{+20}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Courtier's Pillow Book",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This elegant journal has a detailed social dossier on the owner's acquaintances. When you make your daily preparations, you can inscribe a secret or embarrassing foible about a specific individual that you know to be true or have on good authority.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast an enchantment spell on a target about whom you've written an entry in the book, you can state that secret or foible before Casting the Spell to give the target a –1 circumstance penalty to their saving throw against the spell. The inscription then disappears from the grimoire.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Covenant Tea",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact or 10 minutes (concentrate, Interact)</p>\n<hr />\n<p>This green tea is often steeped in a pot with a dried persimmon. Traditionally, all participants in a complex discussion start their conversation with a tea ceremony involving covenant tea, with each member of the group enjoying the covenant of the shared beverage. Some have been known to use trickery and sleight of hand to ensure only those whose goals align with the tea preparer are served covenant tea, while others in the group are served non-magical (but still delicious) green tea, thus subtly tipping the balance in discussion toward those the tea server favors. This practice has resulted in some regions referring to covenant tea as \"trickery tea.\" Regardless of what you prefer to call the tea, when you drink it, you gain a +1 item bonus to Diplomacy checks and to your Perception DC for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Covenant Tea]</p>\n<hr />\n<p><strong>Tea Ceremony</strong> The duration increases to 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion",
+      "tea"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Cowl of Keys",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This simple, tattered cloak is a faded green and features small, stylized keys sewn throughout its length. While wearing the cloak, you fade into the shadows and gain a +3 item bonus to Stealth checks. When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> You brush your hand against the cloak and your fingers transform into picks, tension wrenches, skeleton keys, and any other tools, providing you with a full set of @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit]{Thieves' Tools}. This transformation doesn't otherwise hamper the normal use of your fingers or hands. These tools never break when you critically fail your check to @UUID[Compendium.pf2e.actionspf2e.Item.Pick a Lock]. You can Activate the cloak again to revert your fingers to normal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place your hand against a wall, floor, or ceiling. You create a magical doorway within the surface that a creature can move through, as if the door had always been there. The doorway can penetrate up to 10 feet of material; particularly thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. You can use an Interact action on the door to remove it from the surface and return it to its previous shape.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  }
+]

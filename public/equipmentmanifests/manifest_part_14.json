@@ -1,0 +1,1352 @@
+[
+  {
+    "level": 16,
+    "name": "Dust of Corpse Animation (Greater)",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a <em>skeleton</em> or a <em>zombie</em>. If the undead's level would be greater than 11, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create-for example, you must sprinkle the dust on a horse's skeleton to animate a <em>skeletal horse</em>. If more than one undead in the level range is appropriate, such as <em>skeletal guard</em> or <em>skeletal champion</em> for a Medium humanoid skeleton, you choose.</p>\n<p>The animated undead has the <em>minion</em> trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Dust of Corpse Animation",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a <em>skeleton</em> or a <em>zombie</em>. If the undead's level would be greater than 3, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create-for example, you must sprinkle the dust on a horse's skeleton to animate a <em>skeletal horse</em>. If more than one undead in the level range is appropriate, such as <em>skeletal guard</em> or <em>skeletal champion</em> for a Medium humanoid skeleton, you choose.</p>\n<p>The animated undead has the <em>minion</em> trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Dust of Disappearance",
+    "price": {
+      "gp": 135
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p><hr /><p>This powder shimmers like a thousand tiny motes of light. Activating the dust by sprinkling it on yourself or a creature within reach casts a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility] spell with a duration of 1 minute on that creature. This invisibility can't be negated or seen through by any spell of 3rd rank or lower or any item of 5th level or lower.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Dust Pods",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>You hide fragile pods of pollen or other clinging powder that get in the eyes of the first creature that enters the snare's square. The creature must attempt a @Check[reflex|dc:17] saving throw. A creature dazzled by the pollen can use an Interact action to attempt a @Check[flat|dc:5] to remove the condition.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is dazzled for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled for 10 minutes.</p>\n<p><strong>Critical Failure</strong> The creature is blinded for 1 round and dazzled for 10 minutes after.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Dwarven Daisy (Lesser)",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A dwarven daisy is a string of dozens of firecrackers that create tiny, loud explosions. The string ends with a short, wrapped fuse. Pulling off the wrapping in a quick motion lights the fuse and is done as part of the action to Strike. A dwarven daisy deals the listed fire damage and splash damage. A dwarven daisy also has a chance to dazzle its target. A creature struck by a dwarven daisy must succeed at a @Check[fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all] save or become @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p>The firework deals 1d6 fire damage and 1 fire splash damage. The DC is 16.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Dwarven Daisy (Moderate)",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A dwarven daisy is a string of dozens of firecrackers that create tiny, loud explosions. The string ends with a short, wrapped fuse. Pulling off the wrapping in a quick motion lights the fuse and is done as part of the action to Strike. A dwarven daisy deals the listed fire damage and splash damage. A dwarven daisy also has a chance to dazzle its target. A creature struck by a dwarven daisy must succeed at a @Check[fortitude|dc:18|name:Moderate Dwarven Daisy|showDC:all] save or become @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] for 1 round.</p>\n<p>The firework deals 2d6 fire damage and 2 fire splash damage. The DC is 18.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "splash"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Dwarven Dorn-Dergar",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>A heavy, weighted cube of metal at the end of a long chain, the dorn-dergar is used by dwarven berserkers and sappers who specialize in breaking through lines of shielded opponents or disabling enemy siege weapons.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "dwarf",
+      "razing",
+      "reach"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Dwarven Scattergun",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A favored weapon of dwarf scouts from Dongun Hold, the dwarven scattergun is a powerful weapon designed to take advantage of a dwarf's sturdy frame. A dwarven scattergun fires a large paper cartridge stuffed with black powder and knuckle-sized lumps of metal, creating a devastating burst so destructive that a foolish dwarf might find themself catching painful ricochets when firing at a too-close target. Some scatterguns are crafted with a clockwork firing tray that can quickly sort and load black powder and shot without needing a prepackaged cartridge, though this is largely an aesthetic feature with no real mechanical benefit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "dwarf",
+      "kickback",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Dwarven Thrower",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p>This +2 striking warhammer is inlaid with precious metals and decorated with geometric patterns in a dwarven style. If you're a dwarf, a dwarven thrower functions for you as a +2 greater striking returning warhammer with the thrown 30 feet trait, and your attacks with the hammer deal 1d8 additional damage against giants.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "shove"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Dwarven War Axe",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This favored weapon of the dwarves has a large, ornate head mounted on a thick handle. This powerful axe can be wielded with one hand or two.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "dwarf",
+      "sweep",
+      "two-hand-d12"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Dweomerveil",
+    "price": {
+      "gp": 550
+    },
+    "description": "<p>This soft covering for the mouth and nose is made from the sleek fur of a dweomercat and is fastened with two gnarled teeth of the same beast. Each day during daily preparations, you must brush and oil the veil. At the conclusion of the activity, select one tradition of magic (arcane, divine, occult, or primal). You gain a +1 item bonus to all saves against magic from that tradition until your next daily preparations.</p><hr /><p><strong>Activate—Dimension Leap</strong> <span class=\"action-glyph\">R</span> (concentration, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You succeed at a saving throw against a spell from the chosen tradition</p>\n<p><strong>Effect</strong> Your veil billows out and you disappear behind it. You use the traces of dweomercat magic to teleport yourself instantly to any unoccupied square within 30 feet. If you critically succeeded at the triggering save, you can instead teleport within 45 feet.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the hide and teeth of a dweomercat.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Dweomerweave Robe",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This robe is made from dweomerweave, a magical fabric created by spinning minor illusions into the threads of ether spider silk. Dweomerweave is naturally hazy and translucent. It can take on the illusory appearances of other fabrics and garments, and dweomerweave robes are coveted by adventurers who want to travel light without compromising on fashion.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain the effects of a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] except that the illusion only alters the appearance of the dweomerweave robe, changing it into another garment with an appearance of your choice. The spell persists until the next activation. You can Dismiss the activation.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Eagle Eye Elixir (Greater)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this elixir, you notice subtle visual details. For the next hour, you gain a +3 item bonus to Perception checks, or +4 when attempting to find secret doors and traps.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Eagle Eye Elixir (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Eagle Eye Elixir (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this elixir, you notice subtle visual details. For the next hour, you gain a +1 item bonus to Perception checks, or +2 when attempting to find secret doors and traps.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Eagle Eye Elixir (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Eagle Eye Elixir (Major)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this elixir, you notice subtle visual details. For the next hour, you gain a +3 item bonus to Perception checks, or +4 when attempting to find secret doors and traps.</p>\n<p>Each time you pass within 10 feet of a secret door or trap, the GM automatically rolls a secret check for you to find it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Eagle Eye Elixir (Major)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Eagle Eye Elixir (Moderate)",
+    "price": {
+      "gp": 27
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this elixir, you notice subtle visual details. For the next hour, you gain a +2 item bonus to Perception checks, or +3 when attempting to find secret doors and traps.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Eagle Eye Elixir (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Earplugs (PFS Guide)",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>Made of waxed cotton or cork, earplugs give you a +1 item bonus to saves against effects with the auditory trait. The earplugs make it difficult to hear, however, imposing a -2 item penalty on Perception checks involving sound.</p>\n<p>Inserting or removing the earplugs requires an Interact action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Earplugs",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>These small pieces of cloth and stuffing have been crafted to dramatically muffle sound and easily slide into and out of the ear canals of humanoid creatures. You can insert or remove earplugs from your ears or a willing creature's ears with a single Interact action using one hand. They take a -2 circumstance penalty to all auditory Perception checks but also gain a +2 circumstance bonus to saving throws against auditory effects.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Earthbinding",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>A weapon with this rune hums when touched to the ground.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You critically hit a flying creature with the etched weapon;</p>\n<hr />\n<p><strong>Effect</strong> The rune casts a DC 20 @UUID[Compendium.pf2e.spells-srd.Item.Earthbind] spell on the flying creature.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Earthbreaker",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This massive hammer's metal head is shaped or molded with heavy metal wedges along its primary striking surface, enabling it to tear through shields and armor with ease.</p>",
+    "rarity": "common",
+    "traits": [
+      "razing",
+      "shove",
+      "two-hand-d10",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Earthglide Cloak",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This brown-and-gold robe covers you from head to toe. Its weighty fabric doesn't move with the wind, instead hanging still as if carved of stone.</p>\n<p><strong>Activate—Glide through Earth</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You Burrow through dirt and stone up to your land Speed, leaving no tunnels or signs of your passing. If you end your movement inside solid stone, you are forcibly expelled into the nearest open area, taking @Damage[1d6[bludgeoning]] damage for every 5 feet between the end of your movement and the open area.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Earthsight Box",
+    "price": {
+      "gp": 575
+    },
+    "description": "<p>This fine wooden box is inlaid with Dwarven runes, with hinges and a clasp of forged iron. The box contains a few handfuls of fine sand.</p>\n<p><strong>Activate—Replicate Earth</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You hold the box closed and, while envisioning the terrain, turn the box clockwise three times. When you open the box, the sand reveals, in miniature, the stone terrain surrounding you, to a range of 60 feet. This shows details of paths, hills, embankments, boulders, and even artificial structures like walls and ditches, as long as they're made of stone and earth. If you're underground, it reveals tunnels and voids in the earth within 60 feet at your current depth. The sand maintains its shape until you close the box.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "scrying"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Ebon Fulcrum Lens",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This strangest and most powerful of the <em>fulcrum lenses</em> resembles a chip of smooth obsidian containing three dark glimmers of Nhimbaloth's essence. Incorporeal creatures can touch and carry the <em>Ebon Fulcrum Lens</em>. While you have the <em>Ebon Fulcrum Lens</em> invested, and you're a corporeal creature, you become insubstantial, gain the incorporeal trait, and are @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}. Your drained condition can't be reduced below 2 as long as you have the lens invested. You can activate the lens in the following ways. Both require expenditures of glimmers within the lens; once the lens is depleted of its three glimmers, it retains its ability to make corporeal creatures insubstantial but can't be used for its other abilities until its glimmers are restored (which generally requires a ritual or being steeped in an area of Nhimbaloth's power).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ebon Fulcrum Lens (Incorporeal)]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> At least one glimmer remains in the <em>Ebon Fulcrum Lens</em></p>\n<p><strong>Prerequisites</strong> you have the rejuvenation ability</p>\n<p><strong>Trigger</strong> you would be destroyed and are able to rejuvenate</p>\n<p><strong>Effect</strong> For the first 24 hours after you rejuvenate, you gain a +1 item bonus to attack rolls, saving throws, and DCs. Reduce the number of glimmers remaining in the lens by 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ebon Fulcrum Lens (Reaction)]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> At least one glimmer remains in the <em>Ebon Fulcrum Lens</em></p>\n<p><strong>Effect</strong> You draw upon a glimmer of Nhimbaloth's essence for power; reduce the number of glimmers remaining in the lens by 1. You're @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 minute and gain a +1 item bonus to attack rolls, saving throws, and DCs. You can use this extra action to Stride or Step, or for an action in a special ghost ability you have.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ebon Fulcrum Lens (2 Action)]</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Ebon Marionette",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>This puppet is carved out of ebony wood and affixed to violet strings for easy manipulation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> When you Activate the ebon marionette while envisioning a specific creature within 40 feet, you can force the creature to mimic a single action you make with the puppet. You might command the creature to throw down its weapon, run away, or attack an ally. Whenever you issue a command, the creature must succeed at a @Check[will|dc:28] save or be forced to follow the command as its first action on its next turn. If you command it to do something that takes more than 1 action, it accomplishes only as much as it can with 1 action. You can Sustain the Activation for up to 1 minute; each time you do, you give the target another command by manipulating the marionette, and the target makes another Will save. If the target succeeds at its save, the effect ends. Sustaining the Activation has no effect if the creature already has a command, so you can't dictate more than one of its actions per turn.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Echo Receptors",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>You can sense your surroundings using sonic pings rather than relying on your vision. You gain echolocation at 40 feet, allowing you to use hearing as a precise sense.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Eclipse",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This +1 @UUID[Compendium.pf2e.equipment-srd.Item.Returning] striking cold iron starknife has an ornate central grip that depicts a silver dragon, the neck, wings, and tail of which wrap over and around the handle in knots to support the weapon's four cold iron blades. While the handle is polished to a mirrorlike shine, the blades of Eclipse are a flat black and entirely unreflective. Eclipse is also the portal key required to activate Dreamgate at Alseta's Ring.</p>\n<p>Whenever you score a critical hit with Eclipse, the target creature's eyes are plunged into darkness; if that creature doesn't have darkvision, it is blinded for 1 round.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> <em>Eclipse's</em> blades glow like starlit night sky, causing it to shed light as a torch until you deactivate it as a single action, which has the concentrate trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Trigger</strong> You attempt a Stealth check to Hide or Sneak, but you haven't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You absorb light, gaining a +2 status bonus to the Stealth check.</p>",
+    "rarity": "unique",
+    "traits": [
+      "agile",
+      "deadly-d6",
+      "finesse",
+      "light",
+      "magical",
+      "thrown-20",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Ectoplasmic Tracer",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>This sticky, fluorescing substance, stored in an atomizing nozzle, sprays all creatures within a @Template[cone|distance:15] when released. This marks any incorporeal creatures in the cone for [[/r {1d4}]]{1d4 days}. Anyone attempting to Track a marked creature gains a +2 item bonus to the check. The tracer has no effect on corporeal creatures, nor incorporeal creatures not formed of spiritual essence, such as animate dreams that are purely mental in nature.</p>\n<p>A marked creature that's aware of the tracer can attempt to remove it, but the process is lengthy and unpleasant. It takes 10 minutes of scraping through its incorporeal form to remove the tracer's effects.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Effervescent Ampoule",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Requirements</strong> You're trained in Acrobatics</p>\n<hr />\n<p>Light spring water fizzes and bubbles within this small glass globe, spilling onto the affixed armor when activated.</p>\n<p>Until the end of your turn, you can move across water and other liquids as if they were solid ground. Your movement does not trigger any device or hazard that relies on a weight-sensitive pressure plate or similar device.</p>\n<p>When the ampoule's effect ends, you sink, fall, break through flimsy ground, or land on pressure plates as normal for your current location.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Effervescent Decoction",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This bubbly potion is purportedly made from winds gathered from the Mana Wastes and distilled into a liquor. For 1 hour after you imbibe the decoction, you can belch fizzy foam around willing creatures or unattended objects, surrounding them with a pink bubble. Once per minute, you can belch a bubble by using two Interact actions. This has effects similar to a @UUID[Compendium.pf2e.spells-srd.Item.Levitate] spell, except you can't control the bubbles; they rise 10 feet per round on their own. The bubble is sturdy enough to resist minor bumps or heavy winds, but if the item or creature takes any damage, the bubble pops, causing the levitation effect to end. If the creature surrounded by the bubble uses a move action rather than just ride within the bubble, the bubble also pops.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "air",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Egg Cream Fizz",
+    "price": {
+      "gp": 27
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Containing neither eggs nor cream, an egg cream fizz contains milk or nut milk, sparkling water, and flavored syrup, frothed and chilled. Upon drinking, you feel lighter and more buoyant, gaining a +5-foot item bonus to your Speed for 10 minutes. During this time, you also gain another effect determined by the drink's syrup, which is chosen when the drink is created.</p>\n<ul>\n<li><strong>Chocolate</strong> You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Balance], Maneuver in Flight, and Squeeze.</li>\n<li><strong>Strawberry</strong> You gain a +1 item bonus to Athletics checks to Climb, @UUID[Compendium.pf2e.actionspf2e.Item.Leap], and Swim.</li>\n<li><strong>Vanilla</strong> You can Step into difficult terrain.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Egg Cream Fizz]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Eidetic Potion",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Bright pink, pale lavender, and vibrant orange colors swirl through this purplish liquid, making the eidetic potion resemble an unforgettable sunset. When you drink this potion, for 1 round, anything you observe becomes locked into your memory. You can recall the memory perfectly and gain a +2 status bonus to create representations of that memory, whether using Crafting to create an artistic rendition or Society to create a Forgery. The memory remains locked for 1 week or until you benefit from the bonus it imparts for the first time, whichever comes first; afterward, it becomes a normal, fallible memory. You can only have a single memory locked in your mind at a time. Using this potion while you have a locked memory from a previous use makes the previously locked memory fallible but allows you to lock a new memory.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Eidolon Cape",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Though it appears to be one elegant piece, an <em>eidolon cape</em> consists of a mantle for your shoulders and a detachable cape. The cape is designed to resemble your eidolon, either with a direct likeness or with features reminiscent of your eidolon. For instance, if your eidolon is a dragon, the cape might depict a stylized dragon, or it might have a pattern of colorful scales with gold trim. An eidolon cape features the sigil you share with your eidolon prominently in its design. You gain a +2 item bonus to the skill that matches your eidolon's tradition: Arcana for arcane, Religion for divine, Occultism for occult, or Nature for primal. When you Manifest your Eidolon, the cape transforms into the eidolon, and when the eidolon unmanifests, it turns back into the cape. If the cape is attached to the mantle, it comes free immediately, and the eidolon appears adjacent to you as normal. If not, the eidolon appears in a space adjacent to the cape. With the cape detached, the mantle is still light Bulk, and the whole cloak remains invested. If the cape is out of range (beyond 100 feet, typically) or there's not enough open space for the eidolon to manifest, your attempt to Manifest your Eidolon fails.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a summoner link spell. If not used by the end of your turn, this Focus Point is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a summoner.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Elder Seed",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>An enormous, perfect, ripe seed from a tree important to a region's druids, an elder seed exudes vitality. Plant life grows quickly and abundantly around it. Anyone who touches the seed understands the nature of its power. Swallowing it whole imparts its effects, but succeeding at the save against the boon causes the swallower to regurgitate the seed.</p>\n<p><strong>Stage 1 (9 Days)</strong> Your skin hardens, giving you a brownish-green tinge. You gain resistance to bludgeoning damage and piercing damage equal to your level, and you have tremorsense out to a range of 30 feet. Also, you can cast enlarge, speak with animals, speak with plants, and web each once per day as primal innate spells. The web is a dense mycelial net rather than spider silk.</p>\n<p><strong>Stage 2 (1 Month)</strong> You gain low-light vision and fluency in Arboreal. However, your body feels stiffer, your mind slower to move to intense emotions, and you are prone to take your time making decisions. You become @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 1}, take a –1 status penalty to initiative rolls, and gain a weakness to fire damage equal to half your level, and you take the same amount of additional damage from axes. If you die at this stage or higher, your body sinks into the earth, forming rich soil. Over several days, a mature, full-sized tree of the seed's type grows where you fell. If plant growth is impossible, such as due to lack of sunlight, fungi grow there instead, extending mycelia through the earth until they reach a place the tree can grow. Then, the tree grows. An arboreal can tend this tree to cause it to regrow one elder seed after 3 years and 3 days.</p>\n<p><strong>Stage 3 (1 Month)</strong> You become more treelike and ponderous in body and mind, and when you cast the enlarge innate spell from this boon, you can cast it at 4th rank. The clumsy value increases to 2 and the status penalty increases to –2. Whenever you roll initiative, you become @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} automatically, @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 2} if the d20 roll is 10 or lower, or @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 3} if the d20 shows a 1. Your weakness to fire and vulnerability to axes equals your level.</p>\n<p><strong>Stage 4</strong> You die.</p>\n<p><strong>Purging</strong> You must seek out an arboreal, druid, or nature-loving fey that is your level or higher whom you have never met, and pledge your allegiance to that being. Doing so places you under a @UUID[Compendium.pf2e.spells-srd.Item.Geas] to accomplish at least one meaningful service, usually a quest, for your new liege. While under the geas, you can't advance to stage 4. Once you complete your service, you regurgitate the elder seed, and its effects on you end.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 25,
+    "name": "Elder Sign",
+    "price": {},
+    "description": "<p>This stone tablet is carved with the symbol of a five-branched twig. There are only a limited number of elder signs, and each time one is destroyed, the universe's doom creeps inexorably closer. Reciting one of three different occult mantras (@Check[occultism|dc:20|name:Recite Occult Mantra] check to do so correctly) allows three different activations. All three abilities work only on a creature connected to the Elder Mythos or a cosmic horror, such as a wendigo or gug; the activations refer to them as \"eldritch creatures.\"</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The <em>elder sign</em> casts a 10th-rank banishment spell on an eldritch creature. Even if the creature isn't extraplanar, the <em>elder sign</em> can still banish it, sending it back to the part of the Material Plane from which it originated. If the creature is a Great Old One, the <em>elder sign</em> banishes it automatically (as if it critically failed its save) but is then forever destroyed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The <em>elder sign</em> casts dispel magic on an effect from an eldritch creature, using a counteract rank of 10 and +30 modifier for the roll.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The <em>elder sign</em> casts dimensional lock, though it wards against travel by only eldritch creatures. Each time the <em>elder sign</em> casts <em>dimensional lock</em> in this way, the previous <em>dimensional lock</em> spell ends.</p>\n<p><strong>Destruction</strong> The only way to destroy an <em>elder sign</em> is to use it to banish a Great Old One.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "occult"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Eldritch Flare",
+    "price": {
+      "gp": 1100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This poison draws power from the magic of its victim. If a creature under the effects of eldritch flare Casts a Spell, excess magical energy feeds back into the toxin, increasing the DC of the poison by 2 that round. In addition, if the spell deals damage, the poison deals half its damage as one of the types of damage the spell deals (the other half remains poison damage). If the target is immune or has resistance to the spell's damage, the poison deals half its damage as mental damage instead. If the victim casts no spells during a round while affected, the poison still deals its poison damage.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:35]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[8d6[poison]] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[10d6[poison]] (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[12d6[poison]] damage (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Electric Eelskin",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>Shining, slippery eelskin covers the plates of this +1 <em>resilient greater slick leather armor</em>. The armor gives you the ability to breathe water and grants you a +2 item bonus to Athletics checks to Swim and Stealth checks you attempt in the water.</p>\n<hr />\n<p><strong>Activate—Unleash Charge</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You cast a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Thunderstrike] with a @Check[reflex|dc:29|basic|traits:electricity,sonic,spell].</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of <em>thunderstrike</em>.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Electrocable",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This footlong length of conductive cable is capped on both ends by grounded handles containing Stasian coils. These coils can be turned on or off as a single action. While on, the coils electrify the cable, dealing @Damage[1d6[electricity]] and @Damage[1d6[fire]] damage in a thin precise line to anything the cable touches, though the cable is too unwieldy to use as a weapon. Electrocables are typically used to \"cut\" a thin straight line through metal. They ignore 10 points of a metal object's hardness.</p>",
+    "rarity": "rare",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Electromuscular Stimulator",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">d</span> Interact</p>\n<hr />\n<p>This rare gadget uses Stasian technology to grant someone a burst of activity, though its use can be painful. The electromuscular stimulator must be carefully attached to you, requiring 1 minute to do so. You can attach an electromuscular stimulator to yourself. When you Activate an attached electromuscular stimulator, roll a Crafting check, using the Crafting modifier of the creature who attached the stimulator to you, with a DC equal to the standard DC for your level. The effects of the activation depend on the result of the Crafting check.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain the @UUID[Compendium.pf2e.conditionitems.Item.Quickened] condition for 1 minute and can use the extra action each round only to Stride or Strike.</p>\n<p><strong>Success</strong> As critical success, but you also take @Damage[3[persistent,electricity]] damage.</p>\n<p><strong>Failure</strong> You gain the quickened condition for 2 rounds and can use the extra action each round only to Stride or Strike. You take @Damage[3[persistent,electricity]] damage.</p>\n<p><strong>Critical Failure</strong> You take @Damage[2d6[electricity]] damage and @Damage[3[persistent,electricity]] damage.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Elegant cloth doll",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Elemental Ammunition (Greater)",
+    "price": {
+      "gp": 210
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>When activated, the reservoir of alchemical reagents in elemental ammunition atomizes on impact, dealing @Damage[3d4[persistent,damageType]] acid, cold, electricity, fire, or poison damage to the target and @Damage[(3[splash])[damageType]]{3 splash damage} in addition to the damage the attack normally deals. Each damage type requires a different formula, and the ammunition gains a trait matching the damage type.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Elemental Ammunition (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>When activated, the reservoir of alchemical reagents in elemental ammunition atomizes on impact, dealing @Damage[1[persistent,damageType]] acid, cold, electricity, fire, or poison damage to the target and @Damage[(1[splash])[damageType]]{1 splash damage} in addition to the damage the attack normally deals. Each damage type requires a different formula, and the ammunition gains a trait matching the damage type.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Elemental Ammunition (Moderate)",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>When activated, the reservoir of alchemical reagents in elemental ammunition atomizes on impact, dealing @Damage[2d4[persistent,damageType]] acid, cold, electricity, fire, or poison damage to the target and @Damage[(2[splash])[damageType]]{2 splash damage} in addition to the damage the attack normally deals. Each damage type requires a different formula, and the ammunition gains a trait matching the damage type.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Elemental Fragment (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p>This chunk of solidified planar energy is as large as a walnut and comes in six different varieties: a clear piece of crystal for the Plane of Air, a rough piece of rock for the Plane of Earth, a solidified piece of cooled lava for the Plane of Fire, a compact piece of iron for the Plane of Metal, a solid piece of ice for the Plane of Water, or a compact mass of plant matter for the Plane of Wood. You crack the fragment as you activate it, unleashing the planar energy within. This energy casts a spell of your choice: a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] spell affecting you or a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental] spell; if you summon an elemental, you can Sustain the activation to keep control of the elemental. The spell's element matches that of the fragment.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Elemental Fragment (Major)",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p>This chunk of solidified planar energy is as large as a walnut and comes in six different varieties: a clear piece of crystal for the Plane of Air, a rough piece of rock for the Plane of Earth, a solidified piece of cooled lava for the Plane of Fire, a compact piece of iron for the Plane of Metal, a solid piece of ice for the Plane of Water, or a compact mass of plant matter for the Plane of Wood. You crack the fragment as you activate it, unleashing the planar energy within. This energy casts a spell of your choice: a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] spell affecting you or a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental] spell; if you summon an elemental, you can Sustain the activation to keep control of the elemental. The spell's element matches that of the fragment.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Elemental Fragment",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p>This chunk of solidified planar energy is as large as a walnut and comes in six different varieties: a clear piece of crystal for the Plane of Air, a rough piece of rock for the Plane of Earth, a solidified piece of cooled lava for the Plane of Fire, a compact piece of iron for the Plane of Metal, a solid piece of ice for the Plane of Water, or a compact mass of plant matter for the Plane of Wood. You crack the fragment as you activate it, unleashing the planar energy within. This energy casts a spell of your choice: a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Elemental Form] spell affecting you or a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental] spell; if you summon an elemental, you can Sustain the activation to keep control of the elemental. The spell's element matches that of the fragment.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Elemental Gem",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Command, Interact</p>\n<p>You shout the name of an elemental lord and dash this glassy gem against a hard surface to activate it. It cracks open, casting a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Elemental] spell to summon forth an elemental you control as long as you spend an action each round to Sustain the Activation.</p>\n<p>This gem comes in four varieties: transparent for a living whirlwind, light brown for a living landslide, reddish orange for a living wildfire, and blue-green for a living waterfall.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Elemental Wayfinder (Air)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Pathfinder Society researchers recently created elemental wayfinders with the assistance of the Society's elemental allies. In addition to the effects of a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder], these wayfinders each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Each has the trait associated with its element.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The wayfinder can cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Lightning Bolt].</p>\n<hr />\n<p>Additionally, you can cast @UUID[Compendium.pf2e.spells-srd.Item.Gentle Landing] as a primal innate spell once every 10 minutes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Elemental Wayfinder (Earth)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>Pathfinder Society researchers recently created elemental wayfinders with the assistance of the Society's elemental allies. In addition to the effects of a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder], these wayfinders each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Each has the trait associated with its element.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The wayfinder can cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Mountain Resilience].</p>\n<hr />\n<p>Additionally, you can dig twice as quickly as normal.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Elemental Wayfinder (Fire)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Pathfinder Society researchers recently created elemental wayfinders with the assistance of the Society's elemental allies. In addition to the effects of a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder], these wayfinders each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Each has the trait associated with its element.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The wayfinder can cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Fireball].</p>\n<hr />\n<p>Additionally, you gain resistance 5 to fire.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Elemental Wayfinder (Water)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Pathfinder Society researchers recently created elemental wayfinders with the assistance of the Society's elemental allies. In addition to the effects of a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder], these wayfinders each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Each has the trait associated with its element.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The wayfinder can cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Hydraulic Torrent].</p>\n<hr />\n<p>Additionally, you gain the constent effect of @UUID[Compendium.pf2e.spells-srd.Item.Water Breathing].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Elixir of Gender Transformation (Greater)",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This clear, bitter liquid can be ingested to change certain secondary sex characteristics. Different formulations create different changes—for example, one variety might cause the voice to deepen and promote body and facial hair growth, while another might cause fat redistribution around the hips and the growth of breasts. These changes tend to be accompanied by shifting of the fat in the face, sometimes dramatically or sometimes more subtly changing the user's appearance.</p>\n<p>The elixir must be taken once, and changes occur over the course of 6 months.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Elixir of Gender Transformation (Lesser)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This clear, bitter liquid can be ingested to change certain secondary sex characteristics. Different formulations create different changes—for example, one variety might cause the voice to deepen and promote body and facial hair growth, while another might cause fat redistribution around the hips and the growth of breasts. These changes tend to be accompanied by shifting of the fat in the face, sometimes dramatically or sometimes more subtly changing the user's appearance.<br /><br />The elixir must be taken every week, and changes occur over the course of a year or more.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Elixir of Gender Transformation (Moderate)",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This clear, bitter liquid can be ingested to change certain secondary sex characteristics. Different formulations create different changes—for example, one variety might cause the voice to deepen and promote body and facial hair growth, while another might cause fat redistribution around the hips and the growth of breasts. These changes tend to be accompanied by shifting of the fat in the face, sometimes dramatically or sometimes more subtly changing the user's appearance.</p>\n<p>The elixir must be taken once a month, and changes occur over the course of a year.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Elixir of Life (Greater)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(7d6+18)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Elixir of Life (Lesser)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(3d6+6)[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Elixir of Life (Major)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(8d6+21)[healing]] Hit Points and gain +3 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Elixir of Life (Minor)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[1d6[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Elixir of Life (Moderate)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(5d6+12)[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Elixir of Life (True)",
+    "price": {
+      "gp": 8000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[(10d6+27)[healing]] Hit Points and gain +4 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Elixir of Life]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Elixir of Rejuvenation",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>The elixir of rejuvenation restores a creature to full health and eradicates toxins affecting it. When you drink this elixir, you're restored to your maximum Hit Points, and all afflictions of 20th level or lower affecting you are removed.</p>\n<p>You can instead administer this elixir to a creature that has been dead for a week or less. When you do, that creature is instantly brought back to life with 1 Hit Point and no spell slots, Focus Points, or other daily resources.</p><hr /><p><strong>Craft Requirements</strong> philosopher's stone, true elixir of life</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Elsie's Excellent Bottled Vim",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>A dose of this slightly fizzy, pale-pink tonic vitalizes the body and bolsters the spirit, bringing those suffering from aches and pains brought on by illness some temporary respite. For 8 hours after drinking this elixir, reduce the value of one of the following conditions you're suffering by 1: @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], or @UUID[Compendium.pf2e.conditionitems.Item.Sickened]. A condition whose value is reduced to 0 is not removed; after 8 hours, the condition returns to its original value, unless its duration expired or it was removed by another means.</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Elven Absinthe",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>Specialists in Kyonin prepare this emerald-green beverage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Maximum Duration</strong> 1 day</p>\n<p><strong>Stage 1</strong> +2 item bonus to Diplomacy and Performance checks (1 hour)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2} (1 hour)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 4} (1 hour)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Elven Branched Spear",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Several short branches project from this delicate spear's shaft, each angled forward and tipped with a leaflike blade.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d8",
+      "elf",
+      "finesse",
+      "reach"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Elven Chain (High-Grade)",
+    "price": {
+      "gp": 16800
+    },
+    "description": "<p>Elven chain is a @UUID[Compendium.pf2e.equipment-srd.Item.Chain Shirt] made of dawnsilver that glitters in even the faintest light. Because it's constructed with small, supple rings, it has no check penalty.</p>\n<p>Created by elven artisans employing ancient crafting techniques, elven chain is exceptionally quiet. Unlike other chain shirts-even other dawnsilver chain shirts-elven chain does not have the noisy trait. This suit of armor can be etched with runes like any other dawnsilver chain shirt.</p>\n<p><strong>Craft Requirements</strong> The initial raw materials must include dawnsilver worth at least 26,000 gp</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "flexible"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Elven Chain (Standard-Grade)",
+    "price": {
+      "gp": 740
+    },
+    "description": "<p>Elven chain is a @UUID[Compendium.pf2e.equipment-srd.Item.Chain Shirt] made of dawnsilver that glitters in even the faintest light. Because it's constructed with small, supple rings, it has no check penalty.</p>\n<p>Created by elven artisans employing ancient crafting techniques, elven chain is exceptionally quiet. Unlike other chain shirts-even other dawnsilver chain shirts-elven chain does not have the noisy trait. This suit of armor can be etched with runes like any other dawnsilver chain shirt.</p>\n<p><strong>Craft Requirements</strong> The initial raw materials must include dawnsilver worth at least 3,125 sp.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "flexible"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Elven Curve Blade",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>Essentially a longer version of the scimitar, this traditional elven weapon has a thinner blade than its cousin.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "elf",
+      "finesse",
+      "forceful"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Elysian Clairglass",
+    "price": {
+      "gp": 14000
+    },
+    "description": "<p>Used by soldiers who battle on the borderlands of Elysium, particularly in Gorum's realm of Clashing Shore, these bronze spyglasses are somewhat plain-looking save for a single diamond set into the largest cylinder. An <em>Elysian clairglass</em> functions like a typical spyglass, but you can see twenty times farther while looking through it, rather than eight times farther. It also grants a +3 item bonus to Perception checks to notice details at a distance.</p><hr /><p><strong>Activate—Seek and Speak</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>Elysian clairglass</em> casts clairaudience and clairvoyance on the area you are currently observing with it. As long as you're holding the <em>Elysian clairglass</em>, you can speak through the floating eye or ear created by its spells, causing your voice to manifest as a whisper that only one person in range of the spells can hear, as a booming voice that everyone in range of the spells can hear, or as any combination in between those two extremes.</p><hr /><p><strong>Activate—Pinpoint</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Pinpoint].</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "scrying"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Elysian Dew",
+    "price": {
+      "gp": 375
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>When you drink sweet, sky-blue <em>Elysian dew</em>, for 1 minute, you gain a 10-foot aura that evokes the vitality of Elysium, causing nearby objects to seem more colorful and plants to stand taller. You and any ally that starts its turn in the emanation gain 5 temporary Hit Points, a +1 item bonus to saving throws, and a +1 item bonus to Acrobatics and Athletics checks until the start of your or the ally's next turn. If you're evil and drink this potion, it fails to work, and you must succeed at a @Check[fortitude|dc:30] save or the potion renders you @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Aura: Elysian Dew]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Ember Dust",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This handful of gritty black dust glows faintly, like old coals, but is cool to the touch. When ember dust is sprinkled upon the ground or a flat surface in an adjacent unoccupied square, the dust transforms into a bonfire that fills the majority of the square. For 8 hours, the bonfire blazes regardless of whether it has any fuel.</p>\n<p>The fire doesn't harm the surface on which it was sprinkled, and it can't be extinguished except by fully dousing or submerging it in water, or by smothering it completely. Anything that's lit from the bonfire requires fuel to burn and can be quenched normally.</p>\n<p>While it's safe enough to move through the space and edge around the bonfire, a creature remaining in the bonfire for at least a full round takes @Damage[1d6[fire]] damage each round.</p>\n<p>After 8 hours, the bonfire becomes a normal fire and continues burning only as conditions permit.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Emberheart",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This small, heart-shaped amulet appears to be sculpted from stone with a single streak of dim light running through, like an ember just beneath ashes. When worn, the amulet gives off a gentle warmth, akin to being near a fireplace. You gain poison resistance 15 when wearing this amulet.</p>\n<p>When you invest the amulet, you either increase your Constitution score by 2 or increase it to 18, whichever would give you a higher score.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (healing, magical, necromancy, vitality)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p>You hold the amulet aloft as a ripple of warm orange light exudes outward. Each ally in a @Template[emanation|distance:30] regains @Damage[30[vitality,healing]]{30 Hit Points} and gains a +3 status bonus to Fortitude saves until the end of their next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Emberheart]</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Emerald, brilliant green",
+    "price": {
+      "gp": 500
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 10,
+    "name": "Emerald Fulcrum Lens",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This concave green lens is pitted and flawed; its jagged edges can cut those who don't handle it with care. While you have the <em>Emerald Fulcrum Lens</em> invested, your flesh appears waxen and pallid. You gain void healing and @UUID[Compendium.pf2e.spells-srd.Item.Harm] spells gain a +4 status bonus to the Hit Points they restore to you. You can also activate the lens in the following ways.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Emerald Fulcrum Lens]</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (healing)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You grasp the <em>Emerald Fulcrum Lens</em> in one hand, regain @Damage[30[healing]]{30 Hit Points}, and gain a +2 item bonus to saving throws against magic for 1 round.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Emerald Fulcrum Lens (Saving Throw)]</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (attack, possession)</p>\n<p>While grasping the lens, make a melee spell attack roll with a modifier of [[/r d20+20]]{+20}. On a hit, you force the splinter of Nhimbaloth's essence from the lens to possess the target. You're no longer invested in the lens, and the target gains the benefits as though it had invested the lens but can't activate the lens's other abilities. This effect is permanent, but it can be ended by any effect that removes a possession effect. The lens doesn't have any magical abilities until the possession effect ends; when it does, the essence returns to the lens.</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "occult",
+      "void"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Emerald Grasshopper (Greater)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Requirements</strong> You're trained in Athletics</p>\n<hr />\n<p>This metal grasshopper studded with emeralds is usually clasped to the legs of a suit of armor.</p>\n<p>When you activate it, make a @UUID[Compendium.pf2e.actionspf2e.Item.Leap], traveling up to 100 feet horizontally and up to 30 feet vertically.</p>\n<p>This benefit applies to any other Leaps you make before the end of your turn.</p>\n<p>If you don't end your jump on solid ground, you flutter in the air until the end of your turn, then fall harmlessly at a rate of 60 feet per round until you reach the ground.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Emerald Grasshopper",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Requirements</strong> You're trained in Athletics</p>\n<hr />\n<p>This metal grasshopper studded with emeralds is usually clasped to the legs of a suit of armor.</p>\n<p>When you activate it, make a @UUID[Compendium.pf2e.actionspf2e.Item.Leap], traveling up to 40 feet horizontally and up to 10 feet vertically.</p>\n<p>If you don't end your jump on solid ground, you flutter in the air until the end of your turn, then fall harmlessly at a rate of 60 feet per round until you reach the ground.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Emerald",
+    "price": {
+      "gp": 100
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 1,
+    "name": "Emergency Disguise",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Envision</p>\n<p><strong>Requirements</strong> You're trained in Deception</p>\n<hr />\n<p>In Woodsedge Lodge, this thin red ribbon, typically worn around the neck, symbolizes the reach of Galt's soul-trapping guillotines, the infamous final blades. Each of these talismans stores a specific disguise, chosen at the time of its creation. When activated, the talisman applies a disguise to its wearer, allowing them to Impersonate without taking the time to assemble a convincing disguise first. The components the disguise creates can appear to be worth up to 3 gp total.</p>\n<p>The instant nature of the disguise leaves a few traces of its haphazard nature, imposing a -2 circumstance penalty on checks to Impersonate using the disguise.</p>\n<p>Wearers with the @UUID[Compendium.pf2e.feats-srd.Item.Quick Disguise] feat don't take this penalty. Any objects created as a part of the disguise disappear after 24 hours or after you remove them.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Emergency Eye",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Trigger</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.Blinded], or an effect otherwise impedes your vision</p>\n<p><strong>Requirements</strong> You are an expert in Perception.</p>\n<hr />\n<p>This eye, harvested from a monster, looks like it's peacefully sleeping but gives you a backup when you can't use your eyes. When the eye is activated, the eyelid pops open, and the eye stares frantically about. You see through the eye with normal vision until the end of your next turn, when the eye withers and flakes away.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Emetic Paste (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.Sickened] creatures have difficulty swallowing, so you can Activate emetic paste by applying it to your skin or that of a sickened creature within reach, typically on the throat. The paste makes it easy for the sickened creature to purge, granting it an immediate Fortitude save to reduce its sickened condition. The paste grants the target a +4 item bonus to that save and to all saving throws to reduce the sickened condition for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Emetic Paste (Lesser)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.Sickened] creatures have difficulty swallowing, so you can Activate emetic paste by applying it to your skin or that of a sickened creature within reach, typically on the throat. The paste makes it easy for the sickened creature to purge, granting it an immediate Fortitude save to reduce its sickened condition. The paste grants the target a +2 item bonus to that save and to all saving throws to reduce the sickened condition for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Emetic Paste (Moderate)",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.Sickened] creatures have difficulty swallowing, so you can Activate emetic paste by applying it to your skin or that of a sickened creature within reach, typically on the throat. The paste makes it easy for the sickened creature to purge, granting it an immediate Fortitude save to reduce its sickened condition. The paste grants the target a +3 item bonus to that save and to all saving throws to reduce the sickened condition for 1 hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Empathic Cords",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>These intricately braided lengths of leather, twine, and ribbon can be worn around the neck. Empathic cords function only with the other cord in their pair and must be crafted together. If one cord becomes broken, the other dissolves in to non-magical dust. The price listed above is for a pair of cords. The creatures wearing a pair of empathic cords can sense each other's feelings and communicate empathically, no matter how far away they are, as long as the creatures are on the same planet.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Message], targeting the creature wearing the matching cord. The range of this message is planetary.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "mental"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Empath's Cordial",
+    "price": {
+      "gp": 65
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>The pale liquid of empath's cordial changes color to reflect the mood of the creature nearest to it—turning blue for calm, red for anger, and green for envious, among other hues. For 1 hour after you drink this potion, you can sense the presence of general emotions, such as hostility toward you or the presence of an emotion effect impacting a creature's emotions, within 30 feet. A creature that failed a saving throw against calm emotions can't be detected. This potion doesn't allow you to automatically tell what emotions a specific creature is experiencing, but you can attempt a Perception check with a +2 item bonus (DC set by the GM) to discern that information. The potion also grants you a +1 item bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Sense Motive] against creatures whose emotions you can sense.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "mental",
+      "potion"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Empathy Charm",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>This charm, usually placed on an animal companion's collar, contains a single strand of your hair, as well as one of your animal companion's, creating a link that better transmits emotional cues to a trained psychological assistance animal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a saving throw against an emotion effect</p>\n<p><strong>Requirements</strong> Your animal companion wearing the empathy charm is within 10 feet</p>\n<hr />\n<p><strong>Effect</strong> Your animal companion senses the effect and attempts to calm you. You gain a +1 circumstance bonus against the triggering save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "companion",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Empty Hand Marking",
+    "price": {
+      "gp": 135
+    },
+    "description": "<p>Members of the Empty Hand consider themselves leaders of Belkzen, and their fearsome reputation has helped control Urgir for generations. As a proud member or honored guest of the hold, you've been allowed to bear their mark. The tattoo depicts a partially closed hand that grasps nothing. Many people wear this tattoo on their faces, but others have it on an exposed shoulder or arm.</p>\n<p><strong>Activate—Reproach</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You successfully @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] a creature</p><hr /><p><strong>Effect</strong> The maximum duration of the target's compliance increases to [[/gmr 1d4 #days]]{1d4 days}, rather than 1 day.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Encompassing Lockpick",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This lockpick houses a small compartment containing many smaller picks and other miniature tools. The lockpick itself is surprisingly malleable, belying the components within. An almost-impossible number of other tools are hidden in the compartment, including an entire set of @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit (Infiltrator)]{Infiltrator Thieves' Tools} and any @UUID[Compendium.pf2e.equipment-srd.Item.Thieves' Toolkit (Infiltrator Picks)]{Replacement Picks (Infiltrator Picks)}, an @UUID[Compendium.pf2e.equipment-srd.Item.Disguise Kit (Elite)]{Elite Disguise Kit} and any @UUID[Compendium.pf2e.equipment-srd.Item.Disguise Kit (Elite Cosmetics)]{Replacement Cosmetics (Elite)}, and an @UUID[Compendium.pf2e.equipment-srd.Item.Climbing Kit (Extreme)]{Extreme Climber's Kit}, all while still somehow remaining only light Bulk. This makes the encompassing lockpick a favorite discreet option for rogues infiltrating high society events, as formal wear generally has few pockets and only allows a character to wear a single tool kit of light Bulk.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Endless Grimoire (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +2 item bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Learn a Spell] if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate rank, the grimoire's nature leaks into your mind, allowing you to prepare an additional 3rd-rank spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Endless Grimoire (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +2 item bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Learn a Spell] if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate rank, the grimoire's nature leaks into your mind, allowing you to prepare an additional 5th-rank spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Endless Grimoire (True)",
+    "price": {
+      "gp": 23000
+    },
+    "description": "<p>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +3 item bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Learn a Spell] if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate rank, the grimoire's nature leaks into your mind, allowing you to prepare an additional 7th-rank spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Endless Grimoire",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.Learn a Spell] if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate rank, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-rank spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Energized Cartridge",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Usage</strong> affixed to a firearm or crossbow</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt an attack roll with the affixed firearm or crossbow</p>\n<p><strong>Requirements</strong> You're trained in use of the affixed firearm or crossbow.</p><hr /><p>This simple brass shell casing contains trace amounts of alchemical ingredients and is usually attached to the underside of the affixed weapon's barrel. When activated, it causes the ammunition fired from the affixed weapon to transform into your choice of acid, cold, electricity, or fire, dealing damage of the appropriate energy type instead of its usual damage as well as 1d6 persistent damage of the same type on a critical hit.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energized Cartridge]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Energizing Lattice",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This suit of <em>+2 resilient fortification lattice armor</em> has latticework of fine golden wire. After negating a critical hit with its <em>fortification</em> rune, the latticework glows for 1 minute, shedding bright light in a 20-foot radius (and dim light for the next 20 feet). You can Dismiss this light.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energizing Lattice]</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (force)</p>\n<p><strong>Requirements</strong> The <em>energizing lattice</em> is glowing because it negated an enemy's critical hit</p><hr /><p><strong>Effect</strong> You release the lattice's energy and make a weapon or unarmed attack Strike that deals 6d6 additional force damage. If your Strike fails, but doesn't critically fail, the target still takes half the force damage. The latticework ceases glowing after the Strike.</p>",
+    "rarity": "common",
+    "traits": [
+      "light"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Energizing Pill",
+    "price": {
+      "gp": 180
+    },
+    "description": "<p>This special blend of potent herbs comes in the form of a compact ball that allows it to be held in the mouth, where it remains for 1 hour. An energizing pill has a bitter taste at first, but the longer one lets it soak, the more complex and sweet its flavor grows. It heightens your reactions, granting you a +2 item bonus to initiative rolls with Perception.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energizing Pill]</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Trigger</strong> You would become @UUID[Compendium.pf2e.conditionitems.Item.Clumsy], @UUID[Compendium.pf2e.conditionitems.Item.Drained], @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled], @UUID[Compendium.pf2e.conditionitems.Item.Frightened], @UUID[Compendium.pf2e.conditionitems.Item.Sickened], @UUID[Compendium.pf2e.conditionitems.Item.Slowed], or @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]</p>\n<hr />\n<p><strong>Effect</strong> Reduce the value of the condition you just gained by 1; if this reduces the value to 0, you don't gain the triggering condition.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Energizing Tea",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact or 10 minutes (concentrate, Interact)</p>\n<hr />\n<p>This sweet and refreshing tea is made by adding a mixture of honey, lemon slices, and sliced ginger. This is considered to be the bare minimum when serving energizing tea, and many go above and beyond by adding additional citrus fruits or berries to the mix or refusing to serve the tea at all without accompanying it with a full platter of spiced pastries and sweets. This golden tea has energizing properties and, when consumed, grants you a +1 item bonus to Athletics and Acrobatics checks for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energizing Tea]</p>\n<hr />\n<p><strong>Tea Ceremony</strong> The duration increases to 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion",
+      "tea"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Energizing Treat",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>An energizing treat is a treat made from meat or grains. When you feed your animal companion or familiar an energizing treat, it's @UUID[Compendium.pf2e.conditionitems.Item.Quickened] for 1 minute. It can use the extra action each round only for Strike, Stride, and Support actions, and it can do so only if it normally has those actions available and you take the proper action to command it.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Energizing",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>A weapon with this rune can absorb energy damage to empower it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You take acid, cold, electricity, fire, or sonic damage</p>\n<hr />\n<p><strong>Effect</strong> The weapon becomes imbued with the triggering energy type. It deals an additional 1d8 damage of the triggering type until the end of your next turn. As normal, if you use this reaction again during the duration, the damage doesn't combine; instead, change the 1d8 damage to the new triggering type of damage and change the duration to the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energizing Rune]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Energy-Absorbing (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>As with <em>energy-resistant</em> runes, these runes convey protective forces from the Elemental Planes. You gain 10 resistance to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple energy-absorbing runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different type. When an energy-absorbing rune provides resistance to damage from a foe's attack or ability, the armor itself appears to become infused with that energy, be it dripping with acid, riming over in frost, crackling with lightning, or flickering with flames. This effect does not inflict damage itself and ends at the start of your next turn, or as soon as you take the following reaction.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> Your armor is infused with energy and you take damage from a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash the infused energy against the triggering melee Strike, inflicting 4d6 damage of that energy type to the creature who made the melee Strike.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Energy-Absorbing",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>As with <em>energy-resistant</em> runes, these runes convey protective forces from the Elemental Planes. You gain 5 resistance to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple energy-absorbing runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different type. When an energy-absorbing rune provides resistance to damage from a foe's attack or ability, the armor itself appears to become infused with that energy, be it dripping with acid, riming over in frost, crackling with lightning, or flickering with flames. This effect does not inflict damage itself and ends at the start of your next turn, or as soon as you take the following reaction.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> Your armor is infused with energy and you take damage from a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You unleash the infused energy against the triggering melee Strike, inflicting 2d6 damage of that energy type to the creature who made the melee Strike.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Energy Adaptive",
+    "price": {
+      "gp": 2600
+    },
+    "description": "<p>A complex pattern of protective symbols gives protection against various forms of energy, but only part of the runic structure can be active at a given time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You take acid, cold, electricity, or fire damage</p>\n<p><strong>Effect</strong> You gain resistance 5 to the triggering damage type. This doesn't apply to the triggering damage. This resistance lasts until you Activate this rune again or the armor is no longer invested by you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Energy Adaptive]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Energy Breath Potion (Acid, Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Distilled from the energy of dangerous spells, an energy breath potion grants you the Energy Breath action for 1 hour after you imbibe the concoction.</p>\n<p><strong>Energy Breath</strong> <span class=\"action-glyph\">1</span> You create a @Template[line|distance:30] of acid which deals @Damage[10d6[acid]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:37|basic|options:area-effect] save.</p>\n<p>After you use Energy Breath, you can't do so again for [[/br 1d4 #Recharge Energy Breath]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Energy Breath Potion (Acid, Lesser)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>Distilled from the energy of dangerous spells, an energy breath potion grants you the Energy Breath action for 1 hour after you imbibe the concoction.</p>\n<p><strong>Energy Breath</strong> <span class=\"action-glyph\">1</span> You create a @Template[line|distance:30] of acid which deals @Damage[4d6[acid]|options:area-damage] damage. All creatures in the area must attempt a @Check[reflex|dc:23|basic|options:area-effect] save.</p>\n<p>After you use Energy Breath, you can't do so again for [[/br 1d4 #Recharge Energy Breath]]{1d4 rounds}.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  }
+]

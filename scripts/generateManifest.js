@@ -1,22 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, '../public/equipmentjson/packs/equipment');
-const manifestDir = path.join(__dirname, '../public/equipmentjson/manifests'); // New folder for manifest chunks
+const source = path.join(__dirname, '../../pf2eitems/packs/equipment')
+const manifestDir = path.join(__dirname, '../public/equipmentmanifests'); // New folder for manifest chunks
 
+//remove the manifest directory if it exists
 if (fs.existsSync(manifestDir)) {
     fs.rmSync(manifestDir, { recursive: true, force: true });
 }
 
-// Ensure the manifests directory exists
-if (!fs.existsSync(manifestDir)) {
-    fs.mkdirSync(manifestDir);
-}
+//make the manifest directory
+fs.mkdirSync(manifestDir);
 
 // Set to track unique items by name (or any other unique property like 'file' if preferred)
 const uniqueItems = new Set();
 
-fs.readdir(directoryPath, (err, files) => {
+fs.readdir(source, (err, files) => {
     if (err) {
         console.error('Error reading directory:', err);
         return;
@@ -28,9 +27,7 @@ fs.readdir(directoryPath, (err, files) => {
     const itemsWithDetails = [];
 
     jsonFiles.forEach((file, index) => {
-        const filePath = path.join(directoryPath, file);
-        const newFileName = `${index + 1}.json`;
-        const newFilePath = path.join(directoryPath, newFileName);
+        const filePath = path.join(source, file);
 
         // Read each file to check if it has a price
         const fileData = fs.readFileSync(filePath, 'utf-8');
@@ -45,7 +42,6 @@ fs.readdir(directoryPath, (err, files) => {
 
             // Construct the item data for the manifest with updated file name
             const itemEntry = {
-                file: newFileName,
                 level: item.system.level?.value || 0,
                 name: item.name,
                 price: item.system.price.value,
@@ -55,20 +51,17 @@ fs.readdir(directoryPath, (err, files) => {
             };
 
             itemsWithDetails.push(itemEntry);
-
-            // Rename the file to the new sequential name
-            fs.renameSync(filePath, newFilePath);
         }
 
         // When all files are processed, split into chunks and save
         if (index === jsonFiles.length - 1) {
             // Split items into chunks of 500
-            const chunkSize = 500;
+            const chunkSize = 100;
             for (let i = 0; i < itemsWithDetails.length; i += chunkSize) {
                 const chunk = itemsWithDetails.slice(i, i + chunkSize);
                 const chunkIndex = Math.floor(i / chunkSize) + 1;
                 const chunkPath = path.join(manifestDir, `manifest_part_${chunkIndex}.json`);
-                
+
                 // Write each chunk as a separate file using fs.writeFileSync for synchronous write
                 try {
                     fs.writeFileSync(chunkPath, JSON.stringify(chunk, null, 2));

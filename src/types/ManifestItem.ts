@@ -11,5 +11,6 @@ export interface ManifestItem {
         }
     },
     description?: string,
+    rarity?: string,
     traits?: string[]
 }

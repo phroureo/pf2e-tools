@@ -1,0 +1,1386 @@
+[
+  {
+    "level": 6,
+    "name": "Bloodhound Mask (Moderate)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 1 hour</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent a 30 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to @UUID[Compendium.pf2e.actionspf2e.Item.Track] a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +2 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodhound Mask (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Bloodhound Olfactory Stimulators",
+    "price": {
+      "gp": 136
+    },
+    "description": "<p>These <em>olfactory stimulators</em> can be enhanced to better localize scents.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Your olfactory stimulators twitch as they gather even more information. You gain imprecise scent with a range of 30 feet for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodhound Olfactory Stimulators]</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bloodknuckles",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>These thin cloth wraps, which are illegal to use in Highhelm's organized brawls, blend into the skin and add an edge to your blows. The wraps are <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Wounding] handwraps of mighty blows</em>. When you invest the wraps, they gain the effects of a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Disguise Magic] spell to appear non-magical and resemble simple bandages. Casual observers are unlikely to notice anything amiss with the wraps, but a creature that succeeds at a @Check[perception|dc:25] check can notice something is off about them, though they would still need to find other means to discern the magical nature of the wraps.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per minute;</p>\n<p><strong>Trigger</strong> You cause a creature within reach to take bleed damage</p>\n<hr />\n<p><strong>Effect</strong> You use your foe's pain to reinvigorate you. You gain temporary Hit Points equal to the value of the triggering bleed damage, up to a maximum of 10 temporary HP. These temporary Hit Points remain for 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "invested",
+      "magical",
+      "nonlethal",
+      "unarmed"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Bloodletting Kukri",
+    "price": {
+      "gp": 240
+    },
+    "description": "<p>This <em>+1 striking kukri</em> has a crimson blade that shimmers eerily in bright light. On a critical hit, the kukri deals 1d8 persistent bleed damage. If the target didn't already have persistent bleed damage when you scored the critical hit, you also gain [[/r 1d8]] temporary Hit Points for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "trip"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Bloodline Robe",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>Each <em>bloodline robe</em> has a design that befits a particular sorcerer bloodline, depicting creatures of that bloodline or using styles common among them. You gain a +2 item bonus to each of your bloodline skills.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're benefiting from your blood magic effect</p>\n<hr />\n<p><strong>Effect</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.Quickened] on your next turn. You can use the extra action only as part of Casting a bloodline spell.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a sorcerer bloodline spell. If not used by the end of your turn, this Focus Point is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a sorcerer of the bloodline tied to the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "focused",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bloodroot Shield",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>This wooden shield is an interwoven knot of still-living tree roots (Hardness 6, HP 36, BT 18).</p>\n<p><strong>Activate—Thirsty Roots</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You hold out the shield as the roots untangle themselves and launch forward, dealing @Damage[9d6[void]] damage to all creatures in a @Template[line|distance:60] (@Check[reflex|dc:25|basic] save). On a failed save, a creature takes an additional @Damage[5[persistent,bleed]] damage. The shield regains a number of Hit Points equal to half the void damage dealt.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "void",
+      "wood"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bloodseeker Beak (Greater)",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> You hit an @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] creature with the affixed weapon</p><hr /><p>This long, hollow proboscis is harvested from the notorious bloodseeker beast and drips a trickle of blood.</p>\n<p>When you activate the beak, you deal an extra 2d4 precision damage on your damage roll. If you deal sneak attack damage to the creature, you also deal @Damage[2d4[bleed]].</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodseeker Beak]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bloodseeker Beak",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> You hit an @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] creature with the affixed weapon</p><hr /><p>This long, hollow proboscis is harvested from the notorious bloodseeker beast and drips a trickle of blood.</p>\n<p>When you activate the beak, you deal an extra 1d4 precision damage on your damage roll. If you deal sneak attack damage to the creature, you also deal @Damage[1d4[bleed]].</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bloodseeker Beak]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bloodstone",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 16,
+    "name": "Bloodthirsty",
+    "price": {
+      "gp": 8500
+    },
+    "description": "<p>The magic in this rune sings in time with your attacks and coaxes you into finishing your opponent. When you critically hit a target that's taking persistent bleed damage, your target becomes @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 1}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with the weapon</p>\n<hr />\n<p><strong>Effect</strong> You gain a number of temporary Hit Points equal to twice the creature's level. These Hit Points remain for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Bloody Fang",
+    "price": {
+      "gp": 6250
+    },
+    "description": "<p>The bladed inner curve of this <em>+2 greater striking keen wounding dagger</em> has a jagged, saw-like edge, while its handle is wrapped in red leather. Carved from the mandible of a giant praying mantis, this magical weapon's blade is as sharp and serviceable as steel.</p>\n<p><strong>Activate—Sweeping Slash</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You swing the dagger in a wide arc, causing a horizontal swipe of blood-red energy to sweep out in a @Template[cone|distance:30]. All living creatures in the area take @Damage[15d6[slashing]|options:area-damage] damage (@Check[reflex|dc:34|basic|options:area-effect] save), plus @Damage[1d6[bleed]] damage on a failed save.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "thrown-10",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Blooming Lotus Seed Pod",
+    "price": {
+      "gp": 68
+    },
+    "description": "<p>The seeds of this lotus seed pod scatter with incredible ease and accuracy, quickly growing into temporary plants.</p>\n<hr />\n<p><strong>Activate - Floating Pads</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You scatter the blooming lotus seed pod's seeds across a non-damaging liquid surface within 40 feet of you, where they form into 5 lotus pads that each float in place in a separate square within range for 1 minute. Each lotus pad has a 10- foot radius and can support 1 Large creature, 2 Medium creatures, or 4 Small creatures.</p>\n<hr />\n<p><strong>Activate - Blooming Flower</strong> 10 minutes (manipulate)</p>\n<p><strong>Effect</strong> You plant the blooming lotus seed pod in the ground and a giant lotus flower blooms in that square. Over the next 8 hours, creatures who sleep for at least 6 hours within 30 feet of the lotus flower gain the benefits of long-term rest as though they'd spent an entire day and night resting, and all creatures within the affected area are immune to the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Nightmare] spell and other magical effects that affect only sleeping creatures.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "plant",
+      "wood"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Blowgun Darts",
+    "price": {
+      "cp": 5
+    },
+    "description": "<p>These thin, light darts are typically made of hardwood and stabilized with fletching of down or fur. They are often hollow so they can be used to deliver poison.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Blowgun",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>This long, narrow tube is used for shooting blowgun darts, using only the power of a forcefully exhaled breath.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "nonlethal"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Blue Dragonfly Poison",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Boggards brew a potent toxin made from blue dragonflies. Swampseers consume this mixture to awaken their divine powers, but the poison causes debilitating hallucinations in most other creatures.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 30 minutes</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Dazzled] (10 minutes)</p>\n<p><strong>Stage 2</strong> dazzled and @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} (10 minutes)</p>\n<p><strong>Stage 3</strong> frightened 1 and @UUID[Compendium.pf2e.conditionitems.Item.Confused] 1 (1 minute)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "ingested",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Blunderbuss",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This weapon fires pellets from a trumpet-shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage within a short, broad area. Adventuring gunslingers often carry a blunderbuss to deal with swarms of vermin and similar threats.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "scatter-10"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bo Staff",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>This strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon.</p>",
+    "rarity": "common",
+    "traits": [
+      "monk",
+      "parry",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Boarding Axe",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This small axe sports a spike opposite the blade that aids in climbing and is useful in clearing obstacles, such as fallen rigging.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "azarketi",
+      "climbing",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Boarding Pike",
+    "price": {
+      "sp": 8
+    },
+    "description": "<p>Taking the form of a longspear fitted with crossbars or hooks, a boarding pike provides its wielder a sharp implement that's as adept at shoving enemies off a ship's railings as facilitating the boarding of other vessels. This is a martial melee weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "reach",
+      "shove"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Boastful Hunter",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p><strong>Perception</strong> +11; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common)</p>\n<p><strong>Skills</strong> Nature +9, Performance +10, Survival +11</p>\n<p><strong>Int</strong> +0, <strong>Wis</strong> +2, <strong>Cha</strong> +3</p>\n<p><strong>Will</strong> +11</p>\n<p>Possessing a boisterous, proud demeanor, this <em>+1 jezail</em> is an aspiring big game hunter, always quick to share a tale of its bold adventures and predatory conquests-although the veracity of such tales is often questionable. A <em>boastful hunter</em> enjoys tracking and hunting animals of all kinds but takes particular pleasure in taking down large, dangerous, or rare animals. Against an animal, the <em>boastful hunter</em> deals 1d6 additional damage. On a critical hit against an animal, the <em>boastful hunter</em> also deals 1d6 persistent bleed damage.</p>\n<p>A <em>boastful hunter</em> urges you to face off against tougher and tougher creatures-a challenge the ambitious rifle may not be adequate to deal with. If the <em>boastful hunter</em> goes one week without participating in a hunt against an animal of at least your level, it becomes bored. A bored <em>boastful hunter</em> complains incessantly and imposes a -1 item penalty to attack rolls against non-animal targets. A bored <em>boastful hunter</em> can be appeased by using it in combat against an animal of at least your level.</p>\n<p>Unable to accept its own weaknesses, a <em>boastful hunter</em> blames any failed hunts on you, and considers remarks about its strength or quality a terrible insult. An insulted <em>boastful hunter</em> badmouths you to sentient creatures you interact with, imposing a -1 item penalty to Deception, Diplomacy, and Intimidation skill checks, and all attacks with it incur a misfire chance until the weapon is appeased. An insulted <em>boastful hunter</em> can be appeased by complimenting it and succeeding at a @Check[diplomacy|dc:21|name:Boastful Hunter Appeasement] check against its Will DC two days in a row. You can only attempt a Diplomacy check to appease the <em>boastful hunter</em> once each day.</p>",
+    "rarity": "rare",
+    "traits": [
+      "concussive",
+      "fatal-aim-d12"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Body Recovery Kit",
+    "price": {
+      "gp": 101
+    },
+    "description": "<p>This small silver tin is filled with a herb-infused salve and a shroud of fine silk fabric. The salve smells of lavender and hyssop and is waxy to the touch. The shroud, made of spun silk, can a hold a Medium or smaller creature.</p>\n<p>If you apply the salve and shroud to a creature that died within the past 3 days, a process which normally takes 1 hour, it slows the decomposition process, allowing a creature to be brought back to life with @UUID[Compendium.pf2e.spells-srd.Item.Raise Dead] up to 1 week after its death.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "healing"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bogeyman Breath",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This dust is created from the powdered bones of ensnared rabbits and other woodland creatures that died from fright. When inhaled, it pollutes the victim's mind with fear, awakening an unshakable prey response that sees danger lurking in every shadow.</p><hr /><p><strong>Saving Throw</strong> @Check[fortitude|dc:28]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[4d6[mental]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}, and can't reduce frightened value for 1 round (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[mental]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2}, and can't reduce frightened value for 1 round (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d6[mental]] damage, frightened 2, @UUID[Compendium.pf2e.conditionitems.Item.Fleeing] the poison cloud for 1 round, and can't reduce frightened value for 1 round (1 round)</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "fear",
+      "inhaled",
+      "mental",
+      "poison"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Bola Shot",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p>This ammunition bears a rune with three lines radiating out, each ending in a circle. When an activated bola shot hits a target, it deals nonlethal bludgeoning damage. Compare the attack roll to the target's Reflex DC to determine the shot's other effects.</p>\n<hr />\n<p><strong>Critical Success</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.Prone] and is @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1}.</p>\n<p><strong>Success</strong> The target falls prone.</p>\n<p><strong>Failure</strong> No additional effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bola",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>This throwing weapon consists of weights tied to the end of long cords, which can be used to bludgeon foes or entangle their legs.</p>",
+    "rarity": "common",
+    "traits": [
+      "nonlethal",
+      "ranged-trip",
+      "thrown"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bolts",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Bomb Coagulant Alembic",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This apparatus increases the viscosity of the reagents in alchemical bombs, to deadly effect. As a 10-minute activity that has the manipulate trait, you can use a bomb coagulant alembic to distill the contents of one alchemical bomb that deals splash damage into a stickier substance. After distilling, the bomb deals no splash damage but instead deals persistent damage equal to and of the same type as its original splash damage. If the bomb already deals persistent damage, distilling increases that damage by the bomb's original splash damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "additive0",
+      "alchemical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Bomb Launcher",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This long, hollow tube is held in two hands and braced over the shoulder. Inside, it contains a small metal basket sized to hold alchemical bombs. A chute in the top delivers an alchemical bomb into the internal basket, while a lever on the underside pulls the basket back and locks it in place. Loading an alchemical bomb into a bomb launcher requires a single Interact action. With a pull of a trigger, the basket speeds forward, allowing you to Strike with the loaded alchemical bomb over long distances. Bombs fired with a bomb launcher have a range increment of 60 feet.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 6,
+    "name": "Bomb Snare",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p>You create a snare that causes three 3rd-level moderate alchemical bombs of the same type to explode when a creature triggers the snare. The target and all creatures in adjacent squares must attempt a @Check[reflex|showDC:all|dc:24] save, as the snare deals damage equal to three times the direct hit damage from one of the component bombs (for example, 6d6 electricity damage from three moderate bottled lightnings) with no splash damage or other effects.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and no other effects.</p>\n<p><strong>Failure</strong> The creature takes full damage. It also takes all other effects of a direct hit from one of the component bombs (such as @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] from bottled lightning or persistent damage from an acid flask).</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, plus all other effects of a direct hit (as failure).</p><hr /><p><strong>Craft Requirements</strong> Supply three of the same damaging 3rd-level moderate alchemical bomb.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Bomber's Eye Elixir (Greater)",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This tincture lets you pinpoint your foes. For the next 5 minutes, your alchemical bomb Strikes reduce the circumstance bonus to AC your targets gain from cover by 2.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bomber's Eye Elixir]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bomber's Eye Elixir (Lesser)",
+    "price": {
+      "gp": 14
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This tincture lets you pinpoint your foes. For the next 5 minutes, your alchemical bomb Strikes reduce the circumstance bonus to AC your targets gain from cover by 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bomber's Eye Elixir]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Bomber's Saddle",
+    "price": {
+      "gp": 2800
+    },
+    "description": "<p>Developed by urdefhans for their skaveling mounts but quickly copied by other races' cavalry, this leather saddle is made from cave worm hide and is designed to fit a variety of flying steeds. In addition to a seat for the rider, the bomber's saddle has a bomb compartment situated underneath the mount.</p>\n<p>The compartment can hold up to six alchemical bombs of light or negligible Bulk.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You drop a single item from the saddle's compartment, which falls to the ground below. If the item is a bomb, make a ranged Strike with it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Requirements</strong> The saddle's compartment is loaded with two to six bombs</p>\n<hr />\n<p><strong>Effect</strong> You drop the saddle's entire payload, scattering the bombs below. Make a single ranged Strike against an AC of 10. The AC increases by 1 for every 5 feet above the target area you are.</p>\n<p>On a failure, the bombs fly away wildly and deal no damage.</p>\n<p>On a successful attack roll, the bombs fall and shatter, starting in the target area and moving in a line of 5-foot spaces up to 30 feet long for six bombs, one bomb per space. The bombs don't directly hit any creatures; instead, creatures take splash damage from the bombs as usual, but combine the splash damage from multiple overlapping bombs together before applying weaknesses or resistances. Apply any effects normally applied to splash damage when throwing a bomb (such as the effects of the Calculated Splash feat).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "companion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Bone Dreadnought Plate",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This suit of bone-based fortress plate is a masterpiece of alchemical science. This armor has a receiver that can hold a single lodestone bomb, which takes 3 Interact actions to install. A loaded suit of bone dreadnought plate can be activated to cause the bomb to shift numerous small plates and hinges, offering a wide variety of protections, granting you resistance to cold, electricity, fire, piercing, and slashing damage equal to the loaded lodestone bomb's splash damage. These effects last for 20 minutes, but each time you're hit by an attack that deals damage of one of these types, decrease the remaining duration by 1 minute. Once activated, the armor can't be deactivated. The armor uses up the lodestone bomb during the duration and can't be activated again until a new one is installed.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bulwark",
+      "entrench-ranged",
+      "ponderous"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Bonmuan Swapping Stone (Greater)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This small, opalescent stone glows with a light that constantly shifts between colors. When you activate the stone, you throw it into a space within 100 feet. The stone then casts @UUID[Compendium.pf2e.spells-srd.Item.Translocate]{Dimension Door} on you and transports you to itself. This destroys the stone.</p>\n<p>You can instead hurl the stone at a creature in an attempt to bring that creature closer to you. Make a ranged Strike against a creature using your highest proficiency with a ranged weapon. The <em>swapping stone</em> has a range increment of 15 feet. On a hit, the stone shatters against the creature, casting <em>dimension door</em> on the creature and causing it to instantly teleport to a space adjacent to you. An unwilling creature can resist this teleportation with a successful @Check[will|dc:37|traits:teleportation] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bonmuan Swapping Stone (Lesser)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This small, opalescent stone glows with a light that constantly shifts between colors. When you activate the stone, you throw it into a space within 100 feet. The stone then casts @UUID[Compendium.pf2e.spells-srd.Item.Translocate]{Dimension Door} on you and transports you to itself. This destroys the stone.</p>\n<p>You can instead hurl the stone at a creature in an attempt to bring that creature closer to you. Make a ranged Strike against a creature using your highest proficiency with a ranged weapon. The <em>swapping stone</em> has a range increment of 15 feet. On a hit, the stone shatters against the creature, casting <em>dimension door</em> on the creature and causing it to instantly teleport to a space adjacent to you. An unwilling creature can resist this teleportation with a successful @Check[will|dc:28|traits:teleportation] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Bonmuan Swapping Stone (Major)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This small, opalescent stone glows with a light that constantly shifts between colors. When you activate the stone, you throw it into a space within 100 feet. The stone then casts @UUID[Compendium.pf2e.spells-srd.Item.Translocate]{Dimension Door} on you and transports you to itself. This destroys the stone.</p>\n<p>You can instead hurl the stone at a creature in an attempt to bring that creature closer to you. Make a ranged Strike against a creature using your highest proficiency with a ranged weapon. The <em>swapping stone</em> has a range increment of 15 feet. On a hit, the stone shatters against the creature, casting <em>dimension door</em> on the creature and causing it to instantly teleport to a space adjacent to you. An unwilling creature can resist this teleportation with a successful @Check[will|dc:43|traits:teleportation] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Bonmuan Swapping Stone (Moderate)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This small, opalescent stone glows with a light that constantly shifts between colors. When you activate the stone, you throw it into a space within 100 feet. The stone then casts @UUID[Compendium.pf2e.spells-srd.Item.Translocate]{Dimension Door} on you and transports you to itself. This destroys the stone.</p>\n<p>You can instead hurl the stone at a creature in an attempt to bring that creature closer to you. Make a ranged Strike against a creature using your highest proficiency with a ranged weapon. The <em>swapping stone</em> has a range increment of 15 feet. On a hit, the stone shatters against the creature, casting <em>dimension door</em> on the creature and causing it to instantly teleport to a space adjacent to you. An unwilling creature can resist this teleportation with a successful @Check[will|dc:31|traits:teleportation] save.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Book of Lingering Blaze",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>The common saying, \"Where there is progress in the field of magic, there is always someone who uses it to set things on fire,\" is engraved in gold on the cover of this red spellbook.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast an evocation spell dealing fire damage that you prepared from this grimoire, you superheat the flames, allowing the spell to ignore up to 10 resistance to fire of creatures affected by the spell.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Book of Lost Days",
+    "price": {},
+    "description": "<p>This massive tome's yellowed pages curl at the edges, and the letters on its face and spine are too worn to be read. When you open the book, it always opens to a page that seems to perfectly answer the question you had in mind, but reading more than a few lines causes your head to swim alarmingly.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (envision, Interact)</p>\n<p><strong>Requirements</strong> You aren't drained</p>\n<p><strong>Effect</strong> You open the book while trying to learn information about any topic. The <em>Book of Lost Days</em> permits you to view another's memory, which contains information about that subject commensurate to rolling a total of 40 to Recall Knowledge about the topic, with additional context provided on a success or critical success.</p>\n<p>The price for this knowledge is the memory of a day in your past, and the vitality of a day in your future. You lose the memory of that day completely, and the total of all the knowledge you learned on that date is added to the book's repository of information. The book, not you, chooses which memories are taken, preferring days with concentrated emotional resonance, and thus tends to steal significant life moments. This loss affects only your memories; it has no effect on your level, class, feats, or other character choices.</p>\n<p>Your natural lifespan is also shortened by 1 day. The loss of this life energy causes you to be @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}. You can't reduce the drained condition for 2 days, after which you can recover normally from the condition.</p>\n<p>Creatures have occasionally managed to use the <em>Book of Lost Days</em> not to gain others' knowledge but to wipe their minds clean of painful memories or deadly secrets. Their memories aren't destroyed but merely stored in the book, where someone else might later retrieve them.</p>",
+    "rarity": "unique",
+    "traits": [
+      "cursed",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Book of Warding Prayers",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>Script in a language of the Outer Planes adorns this book's spine, and a deity's symbol is etched on its cover. <em>Books of warding prayers</em> are each devoted to a particular deity and are also a religious symbol of that deity.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your last action was to cast a prepared divine spell granted by your deity</p>\n<p><strong>Effect</strong> Choose holy or unholy; you can't choose a type that's part of your deity's sanctification. You and all allies within @Template[emanation|distance:30]{30 feet} are suffused with your deity's protection, gaining resistance 10 to damage of that type for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Book of Warding Prayers]</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "grimoire"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Bookthief Brew",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> 1 minute</p>\n<hr />\n<p>This concoction mixes into a thick, paste-like substance when shaken. When exposed to air, the substance dries after one minute. If poured over a book, scroll, or other material featuring words written in ink, the brew will make an exact copy of the words it is in contact with while it dries, though it doesn't contain any magical effect or other special properties of the original words. Once dried, you can remove the dried substance as an Interact action. A single vial of bookthief brew can coat two pages from a book, a single scroll, or a similar amount of area for other surfaces, producing a dried sheet as thick as a piece of paper. Unfortunately, the sheet's copy is flipped, requiring a mirror to properly read.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Boom Snare",
+    "price": {
+      "gp": 18
+    },
+    "description": "<p>By combining a @UUID[Compendium.pf2e.equipment-srd.Item.Alchemist's Fire (Lesser)], a @UUID[Compendium.pf2e.equipment-srd.Item.Blasting Stone (Lesser)], and other catalysts with a pressure sensitive trigger, you create a snare that creates a fiery and thunderous explosion when triggered. The target and all creatures in adjacent squares take @Damage[1d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a lesser alchemist's fire and a lesser thunderstone.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Boomerang",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>The boomerang is a carved piece of wood designed to curve as it flies through the air, returning to the wielder after a successful throw.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "recovery",
+      "thrown"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Boots of Bounding (Greater)",
+    "price": {
+      "gp": 4250
+    },
+    "description": "<p>The springy soles of these sturdy leather boots cushion your feet and make each step lighter. These boots give you a +10-foot item bonus to your Speed and a +3 item bonus to Athletics checks to High Jump and Long Jump.</p>\n<p>In addition, when you use the Leap action, you can move 5 feet further if jumping horizontally or 3 feet higher if jumping vertically.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Boots of Bounding",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>The springy soles of these sturdy leather boots cushion your feet and make each step lighter. These boots give you a +5-foot item bonus to your Speed and a +2 item bonus to Athletics checks to High Jump and Long Jump.</p>\n<p>In addition, when you use the Leap action, you can move 5 feet further if jumping horizontally or 3 feet higher if jumping vertically.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Boots of Dancing",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>These boots act as @UUID[Compendium.pf2e.equipment-srd.Item.Boots of Elvenkind (Greater)], but they react wildly to strong physical exertion. While you wear the boots, the curse activates whenever you attempt an Athletics check or Stride more than once in a single round during an encounter. The boots cast an 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.Uncontrollable Dance] spell on you, and you automatically fail your save. Once the curse has activated for the first time, the boots fuse to you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Boots of Elvenkind (Greater)",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>These tall, pointed boots are made from soft, supple black or green leather and are decorated with trim and buckles of gold. When worn, the boots allow you to move more nimbly, granting you a +2 item bonus to Acrobatics checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Until the end of your turn, you ignore difficult terrain when moving on the ground. If you're wearing a @UUID[Compendium.pf2e.equipment-srd.Item.Cloak of Elvenkind], you also gain a +5-foot status bonus to your land Speed until the end of your turn, and greater boots of elvenkind constantly grant the effects of @UUID[Compendium.pf2e.spells-srd.Item.Vanishing Tracks] (DC 30) in forest environments.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Boots of Elvenkind]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Boots of Elvenkind",
+    "price": {
+      "gp": 145
+    },
+    "description": "<p>These tall, pointed boots are made from soft, supple black or green leather and are decorated with trim and buckles of gold. When worn, the boots allow you to move more nimbly, granting you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Until the end of your turn, you ignore difficult terrain when moving on the ground. If you're wearing a @UUID[Compendium.pf2e.equipment-srd.Item.Cloak of Elvenkind], you also gain a +5-foot status bonus to your land Speed until the end of your turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Boots of Elvenkind]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Boots of Free Running (Greater)",
+    "price": {
+      "gp": 13500
+    },
+    "description": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +3 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] and @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.Grab an Edge], if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Boots of Free Running (Lesser)",
+    "price": {
+      "gp": 135
+    },
+    "description": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] and @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.Grab an Edge], if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Boots of Free Running (Moderate)",
+    "price": {
+      "gp": 1350
+    },
+    "description": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.High Jump] and @UUID[Compendium.pf2e.actionspf2e.Item.Long Jump].</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.Grab an Edge], if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bootstrap Respirator",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>The city of Riddleport is notorious for its noxious air and water. While some inhabitants tolerate the haze, most wear bootstrap respirators to filter out as many of the pollutants as possible. Designed by dwarf smiths operating the Gas Forges, the flexible face mask of a bootstrap respirator fits snugly over your mouth and nose, fastened by two adjustable leather straps. A manual pump inserted into your footwear or under the arm circulates air through tubes and over filters fitted into the front of the mask. While wearing a bootstrap respirator, you gain a +1 item bonus to any saves that require you to smell or taste, such as inhaled poisons and airborne diseases.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "mechanical"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Boozy Bottle",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>This tattoo depicts a container of alcohol, traditionally a small, uncorked brown bottle. You gain a +1 item bonus to saving throws against poison.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail (but don't critically fail) an initial saving throw against a poison, or you gain persistent poison damage</p>\n<hr />\n<p><strong>Effect</strong> You pick your poison. Calling out the name of a drink as though ordering at a bar, you negate the triggering poison. Instead, you gain the alcohol affliction at stage 2. The DC of this magical alcohol is the DC of the triggering poison save or DC 20 for persistent poison damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Boreal Staff (Greater)",
+    "price": {
+      "gp": 2750
+    },
+    "description": "<p>A <em>boreal staff</em> is chiseled from a cylinder of ice to form a spiky, jagged icicle, its surface gleaming with the colors of the northern lights. It gives the air around you a distinct chill. When used as a weapon, a <em>greater boreal staff</em> is a <em>+2 striking frost staff.</em></p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> Attempt a Strike using the staff. That Strike deals @Damage[2d4[cold]] additional damage.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Elemental Absorption] (water only)</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Ice Storm]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold], @UUID[Compendium.pf2e.spells-srd.Item.Mantle of the Frozen Heart]</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "monk",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Boreal Staff (Major)",
+    "price": {
+      "gp": 13500
+    },
+    "description": "<p>A <em>boreal staff</em> is chiseled from a cylinder of ice to form a spiky, jagged icicle, its surface gleaming with the colors of the northern lights. It gives the air around you a distinct chill. When used as a weapon, a <em>boreal staff</em> is a <em>+3 greater striking frost staff.</em></p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> Attempt a Strike using the staff. That Strike deals @Damage[2d4[cold]] additional damage. This additional cold damage ignores cold resistance.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Elemental Absorption] (water only)</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Ice Storm]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold], @UUID[Compendium.pf2e.spells-srd.Item.Mantle of the Frozen Heart]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold]</li>\n<li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cone of Cold], @UUID[Compendium.pf2e.spells-srd.Item.Frigid Flurry]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "monk",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Boreal Staff",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A <em>boreal staff</em> is chiseled from a cylinder of ice to form a spiky, jagged icicle, its surface gleaming with the colors of the northern lights. It gives the air around you a distinct chill. When used as a weapon, a <em>boreal staff</em> is a <em>+1 striking staff.</em></p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> Attempt a Strike using the staff. That Strike deals @Damage[2d4[cold]] additional damage.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Ray of Frost]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Snowball]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Chilling Spray], @UUID[Compendium.pf2e.spells-srd.Item.Elemental Absorption] (water only)</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "monk",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Bort's Blessing",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p>This ornate copper band has a small ruby set in the center, flanked by a pair of dwarven runes. The wearer of this ring gains the ability to understand, read, and speak one common language of their choice, selected each morning as part of their daily preparations.</p>\n<p>In addition, the wearer receives a +1 item bonus to Diplomacy checks to Make an Impression.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bottled Air",
+    "price": {
+      "gp": 320
+    },
+    "description": "<p>Appearing to be an ordinary corked glass bottle, this item contains a limitless supply of fresh air. You must uncork the bottle with an Interact action before you can activate it.</p>\n<p><strong>Activate—Breathe In</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You draw a breath of air from the bottle. This allows you to breathe even in an airless or toxic environment. Air doesn't escape the mouth of the bottle, so leaving the open bottle in an airless environment doesn't change the environment.</p>",
+    "rarity": "common",
+    "traits": [
+      "air",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Bottled Catharsis (Greater)",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This drink unlocks a flood of emotions that helps reset your mental state. When you drink this elixir, the elixir attempts to counteract at 6th-rank and has a [[/r 1d20+19 #Counteract]]{+19} counteract modifier each effect on you that has the emotion trait or is inflicting the @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition on you, using the listed counteract rank and modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bottled Catharsis (Lesser)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This drink unlocks a flood of emotions that helps reset your mental state. When you drink this elixir, the elixir attempts to counteract at 2nd-rank and has a [[/r 1d20+8 #Counteract]]{+8} counteract modifier each effect on you that has the emotion trait or is inflicting the @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition on you, using the listed counteract rank and modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Bottled Catharsis (Major)",
+    "price": {
+      "gp": 3250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This drink unlocks a flood of emotions that helps reset your mental state. When you drink this elixir, the elixir attempts to counteract at 9th-rank and has a [[/r 1d20+28 #Counteract]]{+28} counteract modifier each effect on you that has the emotion trait or is inflicting the @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition on you, using the listed counteract rank and modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bottled Catharsis (Minor)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This drink unlocks a flood of emotions that helps reset your mental state. When you drink this elixir, the elixir attempts to counteract at 1st-rank and has a [[/r 1d20+6 #Counteract]]{+6} counteract modifier each effect on you that has the emotion trait or is inflicting the @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition on you, using the listed counteract rank and modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bottled Catharsis (Moderate)",
+    "price": {
+      "gp": 75
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This drink unlocks a flood of emotions that helps reset your mental state. When you drink this elixir, the elixir attempts to counteract at 4th-rank and has a [[/r 1d20+14 #Counteract]]{+14} counteract modifier each effect on you that has the emotion trait or is inflicting the @UUID[Compendium.pf2e.conditionitems.Item.Stupefied] condition on you, using the listed counteract rank and modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bottled Lightning (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 3d6 electricity damage and 3 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn. You gain a +2 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "electricity",
+      "splash"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Bottled Lightning (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 1d6 electricity damage and 1 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "electricity",
+      "splash"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Bottled Lightning (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 4d6 electricity damage and 4 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn. You gain a +3 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "electricity",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bottled Lightning (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "electricity",
+      "splash"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bottled Night",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Tiny black motes swirl inside this crystalline vial. The vial can be thrown up to 20 feet, shattering and releasing the motes to absorb light within a @Template[burst|distance:15]. Light sources within the motes' area of effect create a 5-foot radius of dim light instead of their normal light and light sources outside the motes do not illuminate the area within them. The darkness lasts for 1 minute, but will disperse immediately in a strong wind.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "darkness"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bottled Omen",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This potion holds a tiny, tightly wrapped scroll and tastes like paper. Upon drinking it, you gain a burst of insight into your immediate future—and how to potentially avoid it. When you attempt a saving throw, you can roll twice and use the better result. The potion's magic ends when you make use of this effect, or after 1 minute. You then become immune to <em>bottled omen</em> potions for 24 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bottled Omen]</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fortune",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bottled Roc",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This bottle contains a shrunken bird preserved with its feathers intact. When opened, the contents reconstitute into a Gargantuan effigy of a great roc, which can appear in the air instead of on the ground. The roc Grabs up to two creatures, then Flies up to 90 feet and Releases the creatures. The creatures must be within 15 feet of the roc for it to Grab them; if any of them are unwilling to be @UUID[Compendium.pf2e.conditionitems.Item.Grabbed], the roc must @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] them with a [[/r 1d20+17 #Grapple]]{+17} Athletics modifier or fail to pick them up.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply the corpse of a roc.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "expandable"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Bottled Screams",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> envision</p>\n<hr />\n<p>The vengeful wails of a revenant, barely contained in this rattling jar, infuse your magic with all of their spite and malice. If a target fails its saving throw against your @UUID[Compendium.pf2e.spells-srd.Item.Seal Fate] spell after you've added this catalyst, it takes @Damage[1d6[persistent]] of the type chosen for the spell (@Damage[2d6[persistent]] if it critically fails).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Bottled Sunlight (Greater)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mirrored bottle contains various chemicals dissolved in two immiscible solvents. Shaking the bottle induces chemical reactions that cause it to glow. For 1 hour, the bottle sheds bright light in a 20-foot radius (and dim light to the next 40 feet).</p>\n<p>During this hour, it can be thrown like a bomb. This requires a single action to Activate with a Strike, like other bombs, and deals the damage below. If it's not thrown within an hour of the first activation, it defuses harmlessly and is consumed.</p>\n<p>The bomb deals 3d4 vitality damage and 3 vitality splash damage, as well as 3d4 additional fire damage. As normal, vitality damage harms only undead and other creatures with void healing. Undead with a particular vulnerability to sunlight (such as vampires or wraiths) take the maximum amount of vitality damage from bottled sunlight (@Damage[12[vitality]] instead of 3d4). For any ability that depends on the number of weapon dice bottled sunlight has, count only the vitality damage dice</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "light",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bottled Sunlight (Lesser)",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mirrored bottle contains various chemicals dissolved in two immiscible solvents. Shaking the bottle induces chemical reactions that cause it to glow. For 1 hour, the bottle sheds bright light in a 20-foot radius (and dim light to the next 40 feet).</p>\n<p>During this hour, it can be thrown like a bomb. This requires a single action to Activate with a Strike, like other bombs, and deals the damage below. If it's not thrown within an hour of the first activation, it defuses harmlessly and is consumed.</p>\n<p>The bomb deals 1d4 vitality damage and 1 vitality splash damage, as well as 1d4 additional fire damage. As normal, vitality damage harms only undead and other creatures with void healing. Undead with a particular vulnerability to sunlight (such as vampires or wraiths) take the maximum amount of vitality damage from bottled sunlight (@Damage[4[vitality]] instead of 1d4). For any ability that depends on the number of weapon dice bottled sunlight has, count only the vitality damage dice.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "light",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Bottled Sunlight (Major)",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mirrored bottle contains various chemicals dissolved in two immiscible solvents. Shaking the bottle induces chemical reactions that cause it to glow. For 1 hour, the bottle sheds bright light in a 20-foot radius (and dim light to the next 40 feet).</p>\n<p>During this hour, it can be thrown like a bomb. This requires a single action to Activate with a Strike, like other bombs, and deals the damage below. If it's not thrown within an hour of the first activation, it defuses harmlessly and is consumed.</p>\n<p>The bomb deals 4d4 vitality damage and 4 vitality splash damage, as well as 4d4 additional fire damage. As normal, vitality damage harms only undead and other creatures with void healing. Undead with a particular vulnerability to sunlight (such as vampires or wraiths) take the maximum amount of vitality damage from bottled sunlight (@Damage[16[vitality]] instead of 4d4). For any ability that depends on the number of weapon dice bottled sunlight has, count only the vitality damage dice.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "light",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Bottled Sunlight (Moderate)",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This mirrored bottle contains various chemicals dissolved in two immiscible solvents. Shaking the bottle induces chemical reactions that cause it to glow. For 1 hour, the bottle sheds bright light in a 20-foot radius (and dim light to the next 40 feet).</p>\n<p>During this hour, it can be thrown like a bomb. This requires a single action to Activate with a Strike, like other bombs, and deals the damage below. If it's not thrown within an hour of the first activation, it defuses harmlessly and is consumed.</p>\n<p>The bomb deals 2d4 vitality damage and 2 vitality splash damage, as well as 2d4 additional fire damage. As normal, vitality damage harms only undead and other creatures with void healing. Undead with a particular vulnerability to sunlight (such as vampires or wraiths) take the maximum amount of vitality damage from bottled sunlight (@Damage[8[vitality]] instead of 2d4). For any ability that depends on the number of weapon dice bottled sunlight has, count only the vitality damage dice.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "fire",
+      "light",
+      "splash",
+      "vitality"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Bottomless Purse",
+    "price": {},
+    "description": "<p>With a handshake, you traded future wealth for a <em>bottomless purse</em> of gems and other valuables. Using the purse, you can always sell items for their normal sell value during downtime, even if you aren't anywhere near a settlement. You just put them into the purse, and within a day, the proper sale price appears in coins and gems. Once per day, from any distance, the entity that holds your <em>bargained contract</em> automatically sells a common consumable item in your possession, giving you back only half the normal amount for a sold item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You deposit up to 30 gp of gems and coins in a separate pouch of the <em>bottomless purse</em> while thinking of a common consumable item costing that amount of money. You then upend the pouch. The item you envisioned comes tumbling out into your hand.</p>",
+    "rarity": "rare",
+    "traits": [
+      "contract",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bottomless Stein",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>A magic item regarded as holy by followers of Cayden Cailean, this ornate metallic stein is always filled to the brim with delicious ale, no matter how much is drunk or spilled. If it is emptied (such as by being gulped quickly or upended onto the floor), the <em>bottomless stein</em> will fill again within 1 round as long as it is right side up, though it's impossible to transfer the ale to another container to sell it or store it for later. The exact type of ale with which the stein is filled is determined at the item's creation, and cannot be changed thereafter.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bougainvillea Blossom (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This pink flower has long, slender thorns along the stem. The flower can be used as a catalyst when casting an @UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora] spell, which causes the affected plants to sprout long thorns and vibrant pink blossoms. The area becomes hazardous terrain, dealing the @Damage[3[piercing]] damage to an enemy each time it enters an affected square.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bougainvillea Blossom (Lesser)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This pink flower has long, slender thorns along the stem. The flower can be used as a catalyst when casting an @UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora] spell, which causes the affected plants to sprout long thorns and vibrant pink blossoms. The area becomes hazardous terrain, dealing the @Damage[1[piercing]] damage to an enemy each time it enters an affected square.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Bougainvillea Blossom (Major)",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This pink flower has long, slender thorns along the stem. The flower can be used as a catalyst when casting an @UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora] spell, which causes the affected plants to sprout long thorns and vibrant pink blossoms. The area becomes hazardous terrain, dealing the @Damage[5[piercing]] damage to an enemy each time it enters an affected square.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Bougainvillea Blossom (Moderate)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>This pink flower has long, slender thorns along the stem. The flower can be used as a catalyst when casting an @UUID[Compendium.pf2e.spells-srd.Item.Entangling Flora] spell, which causes the affected plants to sprout long thorns and vibrant pink blossoms. The area becomes hazardous terrain, dealing the @Damage[2[piercing]] damage to an enemy each time it enters an affected square.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Boughshatter",
+    "price": {
+      "gp": 2875
+    },
+    "description": "<p>The spikes of this <em>+2 greater striking standard-grade adamantine morningstar</em> have a faintly green shimmer, as if resembling Ayrzul's crystalline teeth. The weapon vibrates briefly when first drawn in or carried into a radioactive area, with the intensity of the vibration correlating to the radioactivity's strength. While you carry Boughshatter, you gain a +4 status bonus to saving throws against radiation, including Ayrzul's Blight.</p><hr /><p><strong>Activate—Splintering Strike</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> Once per minute</p><hr /><p><strong>Effect</strong> Make a Strike with the morningstar that deals an extra die of weapon damage. If you make this Strike against a fungus, plant, or creature with the wood trait, the Strike ignores 10 points of the target's resistances to bludgeoning and piercing damage, if any. By damaging such a creature, the morningstar causes the target's flesh to explode in a shower of splinters that affect a 30-foot cone originating from the target's space, dealing 8d6 piercing damage to creatures in the area (@Check[reflex|dc:30|basic] save). You and the target are unaffected by these splinters.</p><hr /><p><strong>Activate—Absorb Corruption</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Trigger</strong> You take poison or void damage;</p><hr /><p><strong>Effect</strong> You channel some of the toxic energy into Boughshatter, granting the weapon the effects of either a @UUID[Compendium.pf2e.equipment-srd.Item.Decaying] weapon rune, @UUID[Compendium.pf2e.equipment-srd.Item.Grievous] weapon rune, or @UUID[Compendium.pf2e.equipment-srd.Item.Wounding] weapon rune for 1 minute. While under this effect, the morningstar glows with dim green light in a 20-foot radius.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "earth",
+      "magical",
+      "poison",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Boulder Seed (Greater)",
+    "price": {
+      "gp": 3600
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This bomb is made of volatile fluids that rapidly expand and harden when exposed to air. A boulder seed grants a +3 item bonus to attack rolls and deals 4d4 bludgeoning damage and 4 bludgeoning splash damage, according to the bomb's type. When activated, the bomb fills a 5-foot cube with hardened foam, it creates a boulder as hard as stone (Hardness 10, HP 40) that pushes Large or smaller targets. On a critical hit, the target also falls @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The splash zone fills with rubble, creating difficult terrain. The \"boulder\" the bomb creates fails all saving throws and loses 1 Hardness per round, disintegrating into fine powder when the boulder's Hardness is reduced to 0. At that time, the difficult terrain the bomb created also disappears.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Boulder Seed",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>This bomb is made of volatile fluids that rapidly expand and harden when exposed to air. A boulder seed grants a +2 item bonus to attack rolls and deals 3d4 bludgeoning damage and 3 bludgeoning splash damage, according to the bomb's type. When activated, the bomb fills a 5-foot cube with hardened foam, it creates a boulder as hard as wood (Hardness 5, HP 20) that pushes Medium or smaller targets. On a critical hit, the target also falls @UUID[Compendium.pf2e.conditionitems.Item.Prone]. The splash zone fills with rubble, creating difficult terrain. The \"boulder\" the bomb creates fails all saving throws and loses 1 Hardness per round, disintegrating into fine powder when the boulder's Hardness is reduced to 0. At that time, the difficult terrain the bomb created also disappears.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Boulderhead Bock",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>No one is sure if Gorm brews this malty ale himself, but it seems to be an off-duty favorite of the Grand Archive faction leader. The brew packs a heavy punch, and while Gorm officially discourages drinking on the job, boulderhead bock does makes the drinker more self-assured and protects them from conditions that would addle their mental faculties.</p>\n<p>For 1 hour, you gain a +1 item bonus to saving throws against effects that would make you stunned or stupefied. However, you also become less aware of your surroundings, taking a -2 item penalty to Perception for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Boulderhead Bock]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "elixir"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bound Guardian",
+    "price": {
+      "gp": 675
+    },
+    "description": "<p>A bound guardian is a tattoo guardian bonded to your skin, which you can temporarily animate to protect you. If your soul leaves your body, your tattoo guardian might be destroyed (see the sidebar, Bestiary 3 262).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact (conjuration)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You animate your tattoo guardian, otherwise using the duration and other parameters of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Summon Construct] spell. You can have the guardian Fly Free as part of Activating your tattoo. If your tattoo guardian drops to 0 HP, the activation ends, and the inanimate tattoo returns to your skin.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bountiful Cauldron",
+    "price": {
+      "gp": 680
+    },
+    "description": "<p>This mid-sized, silver cauldron is a boon within areas where access to fresh food is limited, for it can be commanded to fill itself with hearty (and delicious) vegetable stew. It can also be put to a much greater use in the pursuit of crafting certain items. When used to Craft alchemical items, potions, or oils, a bountiful cauldron grants a +2 item bonus to the Crafting check.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You stir the cauldron, and it casts a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Create Food] spell, filling itself with enough delicious vegetable stew to feed 12 Medium creatures.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Bow of Sun Slaying",
+    "price": {},
+    "description": "<p>The B<em>ow of Sun Slaying</em> is a <em>+3 major striking greater frost composite shortbow</em> constructed out of wood, horn, and sinew. It bears carvings of a long-forgotten demigod who legends say possessed the ability to destroy the sun with a single arrow.</p>\n<p><strong>Activate—Darkness for My Foes</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike against your foe with this weapon</p><hr /><p><strong>Effect</strong> You whisper, \"Darkness for my foes,\" and the target of your last attack takes @Damage[(10d6)[cold],(10d6)[spirit]] damage (@Check[will|dc:45|basic] save).</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "cold",
+      "deadly-d10",
+      "divine",
+      "propulsive"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Bow Staff",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>The bow staff is a whipstaff with a retracting spool of wire inside a metal cap on one end and a hooked protrusion on the other. A wielder trained in the weapon's use can quickly spool and attach or detach the wire to transition the weapon between bow and staff functionality.</p>",
+    "rarity": "common",
+    "traits": [
+      "combination",
+      "deadly-d8",
+      "monk"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Bower Fruit",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Bower fruit got its name from its association with the Green Mother, a fey Eldest with a fondness for plants and manipulation, whose domain is known as the Hanging Bower. She uses these cursed fruits to keep mortals in her thrall, but it's unknown whether she created them or simply popularized their use.</p>\n<p>A bower fruit condemns a non-fey who tastes it to never again be satisfied with Material Plane fare. Any fruit can be cursed in this manner, but stone fruits such as peaches, plums, mangoes, and lychees are most common. Upon activating a bower fruit by eating it, the fruit casts a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.Feast of Ashes] on you (@Check[fortitude|dc:30|traits:spell,curse]). This curse is permanent, but food from the First World, rather than no food, can sate your accursed hunger. If you sate your hunger this way, you gain an addiction as if First World food and drink were a drug for you (@Check[fortitude|dc:30]).</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "cursed",
+      "primal"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bracelet of Dashing",
+    "price": {
+      "gp": 58
+    },
+    "description": "<p>This jangling, silvery bracelet makes you lighter on your feet, giving you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Jangling Dash</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain a +10-foot status bonus to Speed for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bracelet of Dashing]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Bracers of Devotion",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Champions adorn these bracers with the symbol of their deity or the text of the tenets they follow. While they're clasped around your forearms, reassuring focus and devotion flow into you through them. Each time you spend a Focus Point to cast a devotion spell, your divine ally gains a benefit until the start of your next turn, depending on its type.</p>\n<ul>\n<li><strong>Blade Ally</strong> The bracers hold your weapon in place. You gain a +2 item bonus against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] you of your blade ally.</li>\n<li><strong>Shield Ally</strong> While raised, the shield grants you resistance 10 to unholy if you follow the tenets of good, or resistance to holy if you follow the tenets of evil.</li>\n<li><strong>Steed Ally</strong> The mount gains a +10-foot status bonus to all its Speeds.</li>\n</ul>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a champion devotion spell. If not used by the end of your turn, this Focus Point is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a champion.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Bracers of Hammers",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>These brilliant golden bracers feature a hammer motif as part of their engravings. While wearing them, your body surges with strength and you gain a +3 item bonus to Athletics checks and a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] and @UUID[Compendium.pf2e.actionspf2e.Item.Trip]. If you succeed, but not critically succeed, at your check to Disarm a creature, the effects of your check last until the start of your next turn, instead until the start of the target's turn. If you succeed at a check to Trip a creature, it takes @Damage[1d6[bludgeoning]] damage or @Damage[4d6[bludgeoning]] damage on a critical success. When you invest the bracers, you either increase your Strength modifier by 1 or increase it to +4, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You reach for a foe and attempt to topple them with a powerful flip. Attempt an Athletics check to Trip a creature within reach. On a success, the creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone] and takes @Damage[10d6[bludgeoning]] damage (double on a critical hit). If you knock the creature prone, it must also attempt a @Check[reflex|dc:35] save. On a failure, it drops any items it's holding.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bracers of Missile Deflection (Greater)",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>These bracers are made from plates of durable dawnsilver and gleam like the summer sun.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Frequency</strong> once every 10 minutes</p>\n<p><strong>Trigger</strong> A ranged weapon attack hits you but doesn't critically hit</p>\n<p><strong>Requirements</strong> You are aware of the attack and not off-guard</p>\n<hr />\n<p><strong>Effect</strong> The bracers send the missile off-course. You gain a +2 circumstance bonus to AC against the triggering attack. If this would cause the attack to be a failure, the attack misses you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bracers of Missile Deflection]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bracers of Missile Deflection",
+    "price": {
+      "gp": 52
+    },
+    "description": "<p>These bracers are made from plates of durable dawnsilver and gleam like the summer sun.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A ranged weapon attack hits you but doesn't critically hit</p>\n<p><strong>Requirements</strong> You are aware of the attack and not off-guard</p>\n<hr />\n<p><strong>Effect</strong> The bracers send the missile off-course. You gain a +2 circumstance bonus to AC against the triggering attack. If this would cause the attack to be a failure, the attack misses you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Bracers of Missile Deflection]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Bracers of Strength",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Etchings of powerful bears decorate these brass bracers. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, @UUID[Compendium.pf2e.actionspf2e.Item.Escape], and @UUID[Compendium.pf2e.actionspf2e.Item.Force Open]. When you invest the bracers, you either increase your Strength modifier by 1 or increase it to +4, whichever would give you a higher value.</p>\n<hr />\n<p><strong>Activate—Bear Hug</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a creature. If you succeed, you crush the creature in your grasp, dealing @Damage[(@actor.abilities.str.mod)[bludgeoning]]{bludgeoning} damage to it equal to your Strength modifier. If you critically succeeded, the damage is equal to double your Strength modifier, and the creature suffocates as long as it remains @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained] by you.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Brain Cylinder",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Perception</strong> +15; vision (precise) 30 feet, hearing (imprecise) 30 feet</p>\n<p><strong>Communication</strong> speech (all languages known in life)</p>\n<p><strong>Skills</strong> varies</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +2, <strong>Cha</strong> +2</p>\n<p><strong>AC</strong> 21; <strong>Fort</strong> +10, <strong>Ref</strong> +8, <strong>Will</strong> +15</p>\n<p><strong>HP</strong> 68; <strong>Immunities</strong> bleed, disease, death effects, paralyzed, poison; <strong>Weaknesses</strong> bludgeoning 7, sonic 7; <strong>Resistances</strong> fire 7, piercing 7, slashing 7</p>\n<hr />\n<p>A brain cylinder allows the extracted brain of a Large or smaller creature to continue to function even after it has been removed from the body. As long as the brain remains in the cylinder, the creature remains alive and can continue to think, even though its body is dead. Detachable modules that fit into the base of the cylinder allow the brain to see, hear, or speak using a raspy speaker. So long as these are attached, the brain can speak and understand any languages it knew in life, though nothing within the cylinder compels it to do so if it is unwilling. It also retains its living alignment, and can use Intelligence-, Wisdom-, and Charisma-based skills. A standard brain cylinder has one skill at +15, one at +13, and two at +11, as chosen by the GM.</p>\n<p>The brain retains no other abilities it possessed in life, including purely mental ones. Mi-go typically preserve humanoid brains in this manner when they wish to interrogate a creature at a later date, or when they wish to preserve a creature as a resource for consultation or research purposes, as a brain preserved in this manner can live for centuries. If a brain cylinder is destroyed, the brain dies and its soul finally moves on to the Boneyard. Restoring a brain in a brain cylinder to its former body can be done by any effect that restores life (and, in most cases, any capable of creating a new body, since the original is typically missing or long gone).</p>\n<p>Note that the level 6 brain cylinder presented represents a level 6 creature's brain. A less powerful or more powerful brain can be placed in a brain cylinder, which can affect the brain cylinder's Perception, mental ability scores, Will save, and skill modifiers (and can drastically alter the value of the brain cylinder), but the physical properties of the brain cylinder remain unchanged. Higher-level brain cylinders can be crafted, with resistances and weaknesses increasing as appropriate to their level. However, they always have low AC and HP and terrible Fortitude and Reflex saves for a creature of the brain cylinder's level.</p>\n<p>You can open a brain cylinder by taking three consecutive actions with the manipulate trait. If the brain cylinder contains a brain, the brain dies 3 rounds after it's removed or if the cylinder is left open for more than 10 minutes. You can transfer a brain from one brain cylinder to another with a @Check[medicine|dc:25|name:Transfer Brain] (expert) or Occultism (expert) check. This is a two-action activity with the manipulate trait. On a critical failure, the brain dies.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Bralani Breath (Greater)",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Bralani breath is a species of mint with small, green flowers, said to grow on battlefields where the opposing sides were equally matched. Sprigs of the flowers blow gently in a breeze of their own creation. If you cast @UUID[Compendium.pf2e.spells-srd.Item.Mystic Armor] using bralani breath, you release a small blast of concussive air in an emanation of a size that depends on the catalyst's type. Some unattended objects are pushed away from you. Large or smaller creatures must succeed at a @Check[fortitude|against:class-spell] save equal to your spell save DC or be pushed the same distance away from you.</p>\n<p>Objects of 1 Bulk or less and creatures that fail the save are pushed 10 feet. Objects of up to 2 Bulk are pushed 5 feet, and Huge creatures must succeed at the save or be pushed 5 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Bralani Breath",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Bralani breath is a species of mint with small, green flowers, said to grow on battlefields where the opposing sides were equally matched. Sprigs of the flowers blow gently in a breeze of their own creation. If you cast @UUID[Compendium.pf2e.spells-srd.Item.Mystic Armor] using bralani breath, you release a small blast of concussive air in an emanation of a size that depends on the catalyst's type. Some unattended objects are pushed away from you. Large or smaller creatures must succeed at a @Check[fortitude|against:class-spell] save equal to your spell save DC or be pushed the same distance away from you.</p>\n<p>Objects of 1 Bulk or less and creatures that fail the save are pushed 5 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "catalyst",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Branch of the Great Sugi",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This large tree branch is alive, despite having been harvested from the sugi tree it once belonged to. This long, flexible, and limber branch is a <em>+1 striking whip</em>. When used to Strike, the branch snaps with the sound of a cracking whip but fills the air surrounding the point of impact with the pleasant scent of freshly cut cedar and a sprinkling of fallen leaves on the ground.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place the <em>branch of the great sugi</em> on the corpse of an evil creature, then cause the branch to suddenly grow into a sugi tree, up to 25 feet tall with a 2-foot-wide trunk. As it grows, it emits a pulse of soothing energy, restoring @Damage[(3d8+8)[healing]] Hit Points to all creatures in a @Template[burst|distance:10]. A character can Climb the tree with a successful @Check[athletics|dc:10] check, and its branches effortlessly support the weight of any Medium or smaller creature. The sugi tree reverts to its whip form after 1 hour unless you transform it back before then.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You transform the <em>branch of the great sugi</em> from its tree form back into its whip form.</p>",
+    "rarity": "rare",
+    "traits": [
+      "disarm",
+      "finesse",
+      "magical",
+      "nonlethal",
+      "reach",
+      "trip"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Brass anklet",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  }
+]

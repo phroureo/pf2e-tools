@@ -1,0 +1,1299 @@
+[
+  {
+    "level": 18,
+    "name": "Choleric Contagion",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This vile poison is contagious, causing the victim's skin to secrete the toxin, allowing it to spread to others. While under the effects of choleric contagion, the first time during per round the victim succeeds at an attack roll with an unarmed attack against another creature, the target of the attack is exposed to the poison.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:40]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[6d10[poison]] (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[8d10[poison]] (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[10d10[poison]] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Chopping Evisceration Snare",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>An almost-impossible number of axes spring out at a target with lethal force. When a creature enters the snare's square, it's nearly buried beneath a storm of sharpened metal, which deals @Damage[16d8[slashing]] damage (@Check[reflex|dc:33|basic|showDC:all]).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Choral Toga",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This elegant toga is infused with inexhaustible energy to enjoy life possessed by azatas. You gain resistance to poison 20 and become immune to @UUID[Compendium.pf2e.conditionitems.Item.Deafened]. When you invest in the robes, you either increase your Constitution score by 2 or increase it to 18, whichever would give you a higher score. If you are unholy, you become deafened while wearing the toga.</p><hr /><p><strong>Activate—Elysium's Gasp</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You are exposed to an inhaled poison</p>\n<p><strong>Effect</strong> Purifying gusts of sweet-scented air swirl around you, making you immune to inhaled poisons for 1 minute.</p><hr /><p><strong>Activate—Elysium's Breath</strong> 1 minute (concentrate, healing)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The air around the robe constantly circulates to keep you healthy. For 8 hours, you become immune to diseases spread via inhalation, olfactory effects, and environmental effects that would prevent you from breathing (including being underwater or from being strangled).</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "holy",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Chromatic Jellyfish Oil (Greater)",
+    "price": {
+      "gp": 5200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from several oils of differing hues extracted from jellyfish and rare plants, the layers of chromatic jellyfish oil stack to form a rainbow within their vial. For 10 minutes after consuming chromatic jellyfish oil, you gain resistance 15 to precision damage and extra damage from critical hits. While the effect lasts, you ignore difficult terrain caused by moving through tight spaces that aren't tight enough to force you to @UUID[Compendium.pf2e.actionspf2e.Item.Squeeze], and you can move 5 feet per round when you successfully Squeeze (or 10 feet per round on a critical success). You can also @UUID[Compendium.pf2e.actionspf2e.Item.Crawl] at half your Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Chromatic Jellyfish Oil (Greater)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Chromatic Jellyfish Oil (Lesser)",
+    "price": {
+      "gp": 120
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from several oils of differing hues extracted from jellyfish and rare plants, the layers of chromatic jellyfish oil stack to form a rainbow within their vial. For 10 minutes after consuming chromatic jellyfish oil, you gain resistance 5 to precision damage and extra damage from critical hits. While the effect lasts, you ignore difficult terrain caused by moving through tight spaces that aren't tight enough to force you to @UUID[Compendium.pf2e.actionspf2e.Item.Squeeze], and you can move 5 feet per round when you successfully Squeeze (or 10 feet per round on a critical success). You can also @UUID[Compendium.pf2e.actionspf2e.Item.Crawl] at half your Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Chromatic Jellyfish Oil (Lesser)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Chromatic Jellyfish Oil (Moderate)",
+    "price": {
+      "gp": 800
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from several oils of differing hues extracted from jellyfish and rare plants, the layers of chromatic jellyfish oil stack to form a rainbow within their vial. For 10 minutes after consuming chromatic jellyfish oil, you gain resistance 10 to precision damage and extra damage from critical hits. While the effect lasts, you ignore difficult terrain caused by moving through tight spaces that aren't tight enough to force you to @UUID[Compendium.pf2e.actionspf2e.Item.Squeeze], and you can move 5 feet per round when you successfully Squeeze (or 10 feet per round on a critical success). You can also @UUID[Compendium.pf2e.actionspf2e.Item.Crawl] at half your Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Chromatic Jellyfish Oil (Moderate)]</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Chronicler Wayfinder",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>Chronicler wayfinders bear a mystical connection to the Pathfinder Chronicles themselves, granting them the ability to assist in situations where unusual lore is needed by drawing on lore from a particular topic. Each chronicler wayfinder is attuned to a specific Lore skill, chosen at the time of creation. In addition to the effects of a @UUID[Compendium.pf2e.equipment-srd.Item.Wayfinder], a chronicler wayfinder has the following activation.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Envision</p>\n<hr />\n<p><strong>Effect</strong> You tap into the Pathfinder Chronicles on the chronicler wayfinder's attuned topic, gaining the effects of a Recall Knowledge action with the chosen Lore skill. For the Lore check's modifier, use whichever is better of +12 or your own modifier, using your level as your proficiency bonus even if you're untrained in the attuned Lore skill.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Chronomancer Staff",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>Clock faces and gears adorn the twisted iron shaft of a <em>chronomancer staff</em>, the hands of the clocks continually ticking or winding backward. Used as a weapon, the staff is a <em>+2 greater striking speed staff</em>. While wielding this staff, you also gain a +1 circumstance bonus to initiative rolls.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Time Sense]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Déjà Vu], @UUID[Compendium.pf2e.spells-srd.Item.Synchronize]</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Loose Time's Arrow], @UUID[Compendium.pf2e.spells-srd.Item.Synchronize]</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Day's Weight], @UUID[Compendium.pf2e.spells-srd.Item.Haste], @UUID[Compendium.pf2e.spells-srd.Item.Slow], @UUID[Compendium.pf2e.spells-srd.Item.Time Jump]</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Curse of Lost Time]</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Quicken Time], @UUID[Compendium.pf2e.spells-srd.Item.Rewinding Step], @UUID[Compendium.pf2e.spells-srd.Item.Stagnate Time]</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Cast into Time], @UUID[Compendium.pf2e.spells-srd.Item.Day's Weight]</li>\n<li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Time Beacon]</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Chrysoberyl symbol of an evil eye",
+    "price": {
+      "gp": 10
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Chrysoberyl",
+    "price": {
+      "gp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Chrysoprase",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 5,
+    "name": "Cinderclaw Gauntlet",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This sharp-taloned <em>+1 striking spiked gauntlet</em> appears to have been crafted from dragon scales, with claws built from iron. In addition to the typical weapon traits, a Cinderclaw gauntlet has the versatile S trait.</p>\n<p>On a critical hit, the <em>Cinderclaw gauntlet</em> deals an additional 1d6 fire damage.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Trigger</strong> Your attack roll with the <em>Cinderclaw gauntlet</em> is a critical success.</p>\n<hr />\n<p><strong>Effect</strong> The creature you hit must succeed at a @Check[fortitude|dc:19|showDC:owner] save or be @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} by the gauntlet's acrid smoke. Creatures that don't need to breathe are immune.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "free-hand",
+      "magical",
+      "versatile-s"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Cinnamon Seers",
+    "price": {
+      "gp": 14
+    },
+    "description": "<p>Zippy, alchemically treated cinnamon suffuses cinnamon seers, a rock candy with a lively taste that provides a mental boost. A cinnamon seer remains in your mouth for 1 hour, its stimulating flavor granting you a +1 item bonus to checks to Recall Knowledge.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cinnamon Seers]</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">r</span> (fortune)</p>\n<p><strong>Trigger</strong> You gain no information from a Recall Knowledge check</p>\n<hr />\n<p><strong>Effect</strong> Reroll the triggering check. If this was a secret check, the GM rerolls rather than you; the candy doesn't give you any insight into what the GM rolled, so in that case, you're rerolling based only on guesswork. The seer becomes inert. You become temporarily immune to cinnamon seers until the next time you make your daily preparations.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "lozenge"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Cipher of Elemental Planes",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>This device is made from two metal discs, one slightly smaller than the other, each bearing a variety of runes and symbols along their outer edges. The center ring typically shows a rune for each elemental plane, and many older ciphers include only the planes of air, earth, fire, and water. A thick, golden pin in the center of both discs holds them together.</p>\n<hr />\n<p><strong>Activate - Align to Plane</strong> <span class=\"action-glyph\">a</span> (manipulate, scrying, visual)</p>\n<p><strong>Effect</strong> You turn the discs to align symbols, creating a minute planar gateway as large as a keyhole. You can look through it to view a location in an elemental plane. Each cipher connects to 12 locations on each elemental plane-typically large settlements. Anyone holding the cipher can understand the primary language of the plane the cipher is aligned to. A cipher of the planes can be used in place of a planar key for @UUID[Compendium.pf2e.spells-srd.Item.Interplanar Teleport] and similar magic for travel to the plane it's aligned to. When it's used this way, you arrive unerringly at the location the cipher is aligned to.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Circlet of Persuasion",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This elegant silver band often resembles curling fig leaves and fits around your brow. You gain a +2 item bonus to Deception and Diplomacy checks. When you invest the circlet, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You cast a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Charm] spell (DC 38).</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Citrine",
+    "price": {
+      "sp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Clan Dagger",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This broad dagger is carried by dwarves as a weapon, tool, and designation of clan. Losing or having to surrender a clan dagger is considered a mark of embarrassment to most dwarves.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "dwarf",
+      "parry",
+      "versatile-b"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Clan Pistol",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>The tradition of dwarves displaying their clan affiliations with special clan daggers goes back millennia, but many of the dwarf clans of Dongun Hold have their own take on the tradition, with promising young gunsmiths claiming their adulthood by crafting a specialized personal firearm using the clan's unique smithing traditions. Losing or being forced to surrender their clan pistol is a terrible embarrassment for the dwarves that carry them.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "dwarf",
+      "fatal-d10"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Clandestine Cloak (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +2 item bonus to Stealth checks and to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clandestine Cloak (Greater)]</p>\n<hr />\n<p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of a 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.Veil of Privacy] for 8 hours or until you pull the hood back down, whichever comes first.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Clandestine Cloak",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +1 item bonus to Stealth checks and to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Impersonate] a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clandestine Cloak]</p>\n<hr />\n<p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of @UUID[Compendium.pf2e.spells-srd.Item.Veil of Privacy] for 1 hour or until you pull the hood back down, whichever comes first.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Clarity Goggles (Greater)",
+    "price": {
+      "gp": 32500
+    },
+    "description": "<p><em>Clarity goggles</em> feature faceted lenses that filter your surroundings from several slightly different angles at once, giving you a sharper picture of them. While wearing the goggles, you gain a +3 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on your environment and the creatures around you to see them as they really are. The GM rolls a secret counteract check using your Perception bonus against any illusion effect created by a 9th-rank or lower spell or a creature of 19th level or lower. You must be able to see the illusion, and it must be within 60 feet. If the check succeeds, you see through the illusion for 10 minutes.</p>\n<p><em>PFS Note:</em> The Item Level determines the counteract rank, not the character level.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Clarity Goggles (Lesser)",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p><em>Clarity goggles</em> feature faceted lenses that filter your surroundings from several slightly different angles at once, giving you a sharper picture of them. While wearing the goggles, you gain a +1 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on your environment and the creatures around you to see them as they really are. The GM rolls a secret counteract check using your Perception bonus against any illusion effect created by a 3rd-rank or lower spell or a creature of 8th level or lower. You must be able to see the illusion, and it must be within 60 feet. If the check succeeds, you see through the illusion for 10 minutes.</p>\n<p><em>PFS Note:</em> The Item Level determines the counteract rank, not the character level.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Clarity Goggles (Moderate)",
+    "price": {
+      "gp": 2450
+    },
+    "description": "<p><em>Clarity goggles</em> feature faceted lenses that filter your surroundings from several slightly different angles at once, giving you a sharper picture of them. While wearing the goggles, you gain a +2 item bonus to visual Perception checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on your environment and the creatures around you to see them as they really are. The GM rolls a secret counteract check using your Perception bonus against any illusion effect created by a 6th-rank or lower spell or a creature of 13th level or lower. You must be able to see the illusion, and it must be within 60 feet. If the check succeeds, you see through the illusion for 10 minutes.</p>\n<p><em>PFS Note:</em> The Item Level determines the counteract rank, not the character level.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Claw Blade",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This handheld weapon's three parallel blades extend between the fingers to resemble the natural claws of the amurruns who created them, providing a way for those catfolk without suitable natural claws to share the fighting customs of their kin.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "catfolk",
+      "deadly-d8",
+      "disarm",
+      "finesse",
+      "versatile-p"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Clawed Bracers",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p>Animal claws are woven into the thick leather of these bracers.</p>\n<hr />\n<p><strong>Activate—Extend Claws</strong> <span class=\"action-glyph\">1</span> (manipulate, morph)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The bracers fuse temporarily with your forearms, with the claws extending to your fingertips. You gain a climb Speed of 20 feet and a claw unarmed attack with the agile and finesse traits that deals 1d6 slashing damage. This lasts for 10 minutes or until you Dismiss it.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clawed Bracers]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Clay Sphere (Greater)",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>This dry clay ball becomes malleable when activated, shifting into a variety of forms. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+10 #Spell Attack Roll]]{+10} and the spell DC 20.</p><ul><li><strong>Armor</strong> You gain resistance 5 to precision damage and a +2 item bonus to saving throws against effects with the morph or polymorph traits.</li><li><strong>Weapon</strong> After you cast a morph or polymorph spell by activating the <em>clay sphere</em>, the weapon becomes malleable, shifting its form to your whims. Your Strikes with the affixed weapon have the versatile bludgeoning, versatile piercing, and versatile slashing trait for 1 minute. Until the end of your next turn, Strikes with the affixed weapon have their damage dice increase by one step.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Armor (Greater)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Weapon]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Enlarge].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Clay Sphere (Major)",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>This dry clay ball becomes malleable when activated, shifting into a variety of forms. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+21 #Spell Attack Roll]]{+21} and the spell DC 31.</p><ul><li><strong>Armor</strong> You gain resistance 10 to precision damage and a +3 item bonus to saving throws against effects with the morph or polymorph traits.</li><li><strong>Weapon</strong> After you cast a morph or polymorph spell by activating the <em>clay sphere</em>, the weapon becomes malleable, shifting its form to your whims. Your Strikes with the affixed weapon have the versatile bludgeoning, versatile piercing, and versatile slashing trait for 1 minute. Until the end of your next turn, Strikes with the affixed weapon have their damage dice increase by one step.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Armor (Major)]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Weapon]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Enlarge].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Cursed Metamorphosis].</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Plant Form].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Clay Sphere",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This dry clay ball becomes malleable when activated, shifting into a variety of forms. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+7 #Spell Attack Roll]]{+7} and the spell DC 17.</p><ul><li><strong>Armor</strong> You gain resistance 2 to precision damage and a +1 item bonus to saving throws against effects with the morph or polymorph traits.</li><li><strong>Weapon</strong> After you cast a morph or polymorph spell by activating the <em>clay sphere</em>, the weapon becomes malleable, shifting its form to your whims. Your Strikes with the affixed weapon have the versatile bludgeoning, versatile piercing, and versatile slashing trait for 1 minute. Until the end of your next turn, Strikes with the affixed weapon have their damage dice increase by one step.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Armor]</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clay Sphere - Weapon]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Gouging Claw].</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "spellheart"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Clay",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>This malleable, oil-based clay can be shaped by hand and is available in a variety of colors. A single unit has 4 ounces of clay.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Clear Cutter's Axe",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>Wielded by wealthy Taldan knights against the Goroth Lodge, this +1 striking returning hatchet has an axe head resembling a roaring lion's head.</p>\n<hr />\n<p><strong>Activate—Slash and Burn</strong> <span class=\"action-glyph\">r</span> (manipulate)</p>\n<p><strong>Trigger</strong> You critically succeed at a Strike against a plant</p>\n<p><strong>Effect</strong> The weapon's etchings pulse with green energy, as it tears through bark, leaf, and wood. The clear cutter's axe deals an additional @Damage[1d10[persistent,fire]] damage to the plant.</p>\n<hr />\n<p><strong>Activate—Mow Down</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hurl the axe horizontally, sending it flying through the air in a wild, whirling cyclone. The axe flies in a @Template[emanation|distance:30] around you, eliminating all non-magical undergrowth and any resulting difficult terrain, cover, and concealment in area. It attempts to counteract one magical effect that affects a plant in the area (counteract [[/r 1d20+20 #Counteract]]{+20}). Plant creatures in the area take @Damage[5d6[slashing]] damage (@Check[reflex|dc:25|basic] save). As the axe finishes its circuit, it returns to your hand.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "magical",
+      "sweep",
+      "thrown-10"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Cleft Head Marking (Greater)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>Caution and misdirection are the hallmarks of your hold. You've encountered more travelers than most of Belkzen's holds ever see, and you need to understand how to deal with them. You're a proud member of the Cleft Head Hold or have been found worthy of wearing their mark. This tattoo is a crooked line that begins high above one eye and zigzags toward your mouth. The tattoo's grim appearance can help mask your true motivations. You gain a +2 item bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Feint].</p>\n<p><strong>Activate—Unexpected Strike</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] condition with a weapon attack</p><hr /><p><strong>Effect</strong> You deal an extra 2d6 precision damage to the target.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Cleft Head Marking (Lesser)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p>Caution and misdirection are the hallmarks of your hold. You've encountered more travelers than most of Belkzen's holds ever see, and you need to understand how to deal with them. You're a proud member of the Cleft Head Hold or have been found worthy of wearing their mark. This tattoo is a crooked line that begins high above one eye and zigzags toward your mouth. The tattoo's grim appearance can help mask your true motivations. You gain a +1 item bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.Feint].</p>\n<p><strong>Activate—Unexpected Strike</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] condition with a weapon attack</p><hr /><p><strong>Effect</strong> You deal an extra 1d6 precision damage to the target.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Climbing Bolt",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>The shaft of this bolt is wrapped with fine twine. When the bolt strikes a solid surface, the twine unwinds and enlarges into a 50-foot-long rope, securely fastened to the surface the bolt struck. The rope can be pulled free with an Interact action and a successful @Check[athletics|dc:20|name:Pull Free Rope] check.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Climbing Kit (Extreme)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p>This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a @Check[flat|dc:5] whenever you critically fail to prevent a fall.</p>\n<p>You gain a +1 item bonus to Athletics checks to Climb while using an extreme climbing kit. A single kit has only enough materials for one climber; each climber needs their own kit. If you wear your climbing kit, you can access it as part of a Climb action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Climbing Kit",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a @Check[flat|dc:5] whenever you critically fail to prevent a fall. A single kit has only enough materials for one climber; each climber needs their own kit. If you wear your climbing kit, you can access it as part of a Climb action.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 11,
+    "name": "Clinging Bubbles (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This small vial of viscous, clear, soapy solution comes with a wand, attached to the inside of the vial's cap, with a little loop at its end. A vial has enough solution to be used 10 times.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You dip the wand in the solution and blow on it. An improbably large cloud of bubbles emerges in a @Template[burst|distance:10]. This cloud travels in a straight line, moving 10 feet at the end of your turns. The bubbles are thick and sticky, and any creature who enters the same space as the bubble cloud becomes shrouded in them, taking a –15-foot circumstance penalty to its Speed. A creature covered in bubbles can use an Interact action to pop the bubbles and reduce the penalty by 5 feet. The cloud can be redirected with strong winds. The cloud of bubbles has AC 5, 40 Hit Points, and weakness 5 to piercing and slashing. The bubbles pop naturally and harmlessly after 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Clinging Bubbles (Lesser)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p>This small vial of viscous, clear, soapy solution comes with a wand, attached to the inside of the vial's cap, with a little loop at its end. A vial has enough solution to be used 10 times.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You dip the wand in the solution and blow on it. An improbably large cloud of bubbles emerges in a square adjacent to you. This cloud travels in a straight line, moving 10 feet at the end of your turns. The bubbles are thick and sticky, and any creature who enters the same space as the bubble cloud becomes shrouded in them, taking a –5-foot circumstance penalty to its Speed. A creature covered in bubbles can use an Interact action to pop the bubbles and remove the penalty. The cloud can be redirected with strong winds. The cloud of bubbles has AC 5, 20 Hit Points, and weakness 5 to piercing and slashing. The bubbles pop naturally and harmlessly after 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Clinging Bubbles (Moderate)",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>This small vial of viscous, clear, soapy solution comes with a wand, attached to the inside of the vial's cap, with a little loop at its end. A vial has enough solution to be used 10 times.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You dip the wand in the solution and blow on it. An improbably large cloud of bubbles emerges in a @Template[burst|distance:5]. This cloud travels in a straight line, moving 10 feet at the end of your turns. The bubbles are thick and sticky, and any creature who enters the same space as the bubble cloud becomes shrouded in them, taking a –10-foot circumstance penalty to its Speed. A creature covered in bubbles can use an Interact action to pop the bubbles and reduce the penalty by 5 feet. The cloud can be redirected with strong winds. The cloud of bubbles has AC 5, 30 Hit Points, and weakness 5 to piercing and slashing. The bubbles pop naturally and harmlessly after 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Clinging Ooze Snare",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>Complex traps that incorporate ooze monsters into their ingenious construction have long been a favorite of those who seek devious ways to protect their hidden laboratories, and it is from this tradition that the clinging ooze snare takes its inspiration. With its ingenious mixture of rare reagents, dried protoplasm harvested from ooze creatures, and a little pinch of alchemy, this snare triggers into an ooze-like hazard that temporarily mimics the dangers presented by a creature like a sewer ooze or other carnivorous protoplasmic monster.</p>\n<p>When a creature triggers a clinging ooze snare, the snare creates a short lived protoplasmic mass that lashes out in all directions, dealing @Damage[2d6[bludgeoning],2d6[acid]]{2d6 bludgeoning damage and 2d6 acid damage}. The triggering creature must attempt a @Check[reflex|dc:21|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected</p>\n<p><strong>Success</strong> The creature takes half damage</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of their next turn as the ooze impedes their movement.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is both off-guard and @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] for 1 round. The target can @UUID[Compendium.pf2e.actionspf2e.Item.Escape] (DC 21) to end this effect early.</p>",
+    "rarity": "rare",
+    "traits": [
+      "acid",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cloak of Devouring Thorns",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This cloak appears to be woven from a thousand living leaves, hungry for flesh and eager to defend the cloak's wearer.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You are damaged by a melee attack from an adjacent creature</p>\n<hr />\n<p><strong>Effect</strong> The leaves lash out at your attacker, rising up to reveal snapping jaws made of wicked thorns. The triggering creature must attempt a @Check[reflex|dc:30] saving throw.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[piercing]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[4d6[piercing]] and @Damage[3[bleed]].</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cloak of Elvenkind (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This cloak is deep green with a voluminous hood, embroidered with gold trim and symbols significant in elven culture. The cloak allows you to cast the @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound] cantrip as an arcane innate spell.</p>\n<p>When you adjust the cloak's clasp (an Interact action), the cloak transforms to match the environment around you and muffles your sounds, granting you a +2 item bonus to Stealth checks.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloak of Elvenkind (Greater)]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You draw the hood up and gain the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility], with the spell's normal duration or until you pull the hood back down, whichever comes first.</p>\n<p>If you're also wearing @UUID[Compendium.pf2e.equipment-srd.Item.Boots of Elvenkind], you can activate this ability twice per day, and it allows you to Sneak in forest environments even when creatures are currently observing you.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Cloak of Elvenkind",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This cloak is deep green with a voluminous hood, embroidered with gold trim and symbols significant in elven culture. The cloak allows you to cast the @UUID[Compendium.pf2e.spells-srd.Item.Ghost Sound] cantrip as an arcane innate spell.</p>\n<p>When you adjust the cloak's clasp (an Interact action), the cloak transforms to match the environment around you and muffles your sounds, granting you a +1 item bonus to Stealth checks.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloak of Elvenkind]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You draw the hood up and gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Invisibility], with the spell's normal duration or until you pull the hood back down, whichever comes first. If you're also wearing @UUID[Compendium.pf2e.equipment-srd.Item.Boots of Elvenkind] you can activate this ability twice per day.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Cloak of Feline Rest",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This black velvet cloak is featureless and very soft to the touch. Upon wearing it for the first time, you're momentarily overwhelmed with a sense of comfort and coziness. While wearing this cloak you can comfortably rest in any space, so long as it's not wet or particularly hazardous. While sleeping in this cloak you only take a -2 status penalty to auditory Perception checks, rather than a -4 status penalty.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Cloak of Gnawing Leaves",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This cloak appears to be woven from a thousand living leaves, hungry for flesh and eager to defend the cloak's wearer.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are damaged by a melee attack from an adjacent creature</p>\n<hr />\n<p><strong>Effect</strong> The leaves lash out at your attacker, rising up to reveal snapping jaws made of wicked thorns. The triggering creature must attempt a @Check[reflex|dc:17] saving throw.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[1d4[piercing]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[2d4[piercing]] and @Damage[1[bleed]].</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cloak of Illusions (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This cloak flows, covering and concealing the wearer's body. The cloak allows you to cast @UUID[Compendium.pf2e.spells-srd.Item.Figment] as an occult innate cantrip. Although naturally a dull gray, while invested the cloak picks up colors and patterns from its surroundings, granting a +2 item bonus to Stealth checks.</p>\n<p><strong>Activate—Draw Hood</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You draw the hood up and gain the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Invisibility], with the spell's normal duration or until you pull the hood back down, whichever comes first. While you are invisible, your <em>figment</em> innate cantrip gains the subtle trait, concealing the observable effects of your spellcasting.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Cloak of Illusions",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p>This cloak flows, covering and concealing the wearer's body. The cloak allows you to cast @UUID[Compendium.pf2e.spells-srd.Item.Figment] as an occult innate cantrip. Although naturally a dull gray, while invested the cloak picks up colors and patterns from its surroundings, granting a +1 item bonus to Stealth checks.</p>\n<p><strong>Activate—Draw Hood</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You draw the hood up and gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Invisibility], with the spell's normal duration or until you pull the hood back down, whichever comes first. While you are invisible, your <em>figment</em> innate cantrip gains the subtle trait, concealing the observable effects of your spellcasting.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "occult"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Cloak of Immolation",
+    "price": {},
+    "description": "<p>Appearing as a magic cloak such as a <em>clandestine cloak</em>, this garment is made of highly volatile fabric. While wearing it, if you take fire damage, you also take @Damage[1d10[persistent,fire]] damage. Taking fire damage while the persistent fire damage is in effect has no additional effect. You can extinguish the persistent fire damage as normal.</p>\n<p>Any creature that hits you with a melee unarmed attack while you are taking this persistent fire damage takes fire damage equal to the persistent fire damage you took on your previous turn. Once the curse has activated for the first time, the boots fuse to you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Cloak of Repute (Greater)",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +2 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> twice per day</p>\n<hr />\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Cloak of Repute (Major)",
+    "price": {
+      "gp": 21750
+    },
+    "description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +3 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> three times per day</p>\n<hr />\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead. If you roll a critical failure on your Diplomacy check when you activate the cloak, you get a failure instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Cloak of Repute",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Cloak of Swiftness",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This thin cloak is surprisingly light, as if clouds or the very wind were woven together to make the garment. The cloak grants you a +3 item bonus to Acrobatics checks. When you invest the cloak, you either increase your Dexterity modifier by 1 or increase it to +4, whichever would give you a higher value.</p>\n<hr />\n<p><strong>Activate—Ride the Wind</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You tug on the cloak, wrapping yourself in the power of wind. You gain a fly Speed of 30 feet for 1 hour. While wrapped in the cloak, you become translucent, causing you to become @UUID[Compendium.pf2e.conditionitems.Item.Concealed] for the duration.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloak of Swiftness]</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Cloak of the Bat (Greater)",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>Sewn from several long strips of luxurious brown and black silk, this cloak grants you a +3 item bonus to Stealth checks as well as to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Maneuver in Flight]. You can also use your feet to hang from any surface that can support your weight, without requiring any check, though you still must attempt Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Climb] in order to move around while inverted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<hr />\n<p><strong>Effect</strong> You can either transform the cloak into bat-like wings that grant you a fly Speed of 30 feet for 10 minutes, or have the cloak turn you into a bat by casting a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Pest Form] spell on you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloak of the Bat]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Cloak of the Bat",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>Sewn from several long strips of luxurious brown and black silk, this cloak grants you a +2 item bonus to Stealth checks as well as to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Maneuver in Flight]. You can also use your feet to hang from any surface that can support your weight, without requiring any check, though you still must attempt Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Climb] in order to move around while inverted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You can either transform the cloak into bat-like wings that grant you a fly Speed of 30 feet for 10 minutes, or have the cloak turn you into a bat by casting a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Pest Form] spell on you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloak of the Bat]</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cloak of the False Foe",
+    "price": {
+      "gp": 1850
+    },
+    "description": "<p>Images of strange animals and distorted figures are woven into this coarse, fur-lined cloak.</p>\n<p><strong>Activate</strong> Interact (polymorph, primal, transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The cloak rises to envelop your head and body, reshaping your appearance into that of a locally feared cryptid. If there is no such figure in local lore, the cloak of the false foe instead alters your appearance into a form imagined by the crafter of the cloak. One choice that occurs with disturbing frequency is a gaunt figure with triple-jointed fingers; an eyeless, hairless head with a lamprey mouth in the center of its face; and stubby tentacles waving down its neck. The transformation also grants the effects of either a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.Humanoid Form] spell that lasts for 1 hour if you turn into a Medium cryptid, or a 5th-rank humanoid form spell that lasts for 10 minutes if you turn into a Large cryptid.</p>\n<p>While you're in cryptid form, any wounds left by your spells and Strikes appear to be the result of the cryptid's unarmed attacks and special abilities to a casual inspection. This doesn't alter the actual damage type inflicted or the effects of such attack. Someone closely studying the wounds can, with a successful @Check[medicine|dc:30] check, realize that magic has altered the appearance of the injuries.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Cloak of Thirsty Fronds",
+    "price": {
+      "gp": 330
+    },
+    "description": "<p>This cloak appears to be woven from a thousand living leaves, hungry for flesh and eager to defend the cloak's wearer.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You are damaged by a melee attack from an adjacent creature</p>\n<hr />\n<p><strong>Effect</strong> The leaves lash out at your attacker, rising up to reveal snapping jaws made of wicked thorns. The triggering creature must attempt a @Check[reflex|dc:23] saving throw.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[1d6[piercing]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[2d6[piercing]] and @Damage[2[bleed]].</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "primal"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Cloak of Waves & Clouds",
+    "price": {
+      "gp": 38000
+    },
+    "description": "<p>This magical cloak was crafted from the feathers and scales of a legendary giant fish that could transform into a resplendent bird.</p>\n<p><strong>Activate—Cut Air and Sea</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> The cloak ripples, becoming either giant eagle feathers or iridescent fish scales. Until you next Activate the cloak, you gain either a swim Speed of 60 feet and the ability to breathe underwater or a fly Speed of 40 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Clockwork Bookshelf",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>This device was originally created by an inventor who had way more books they wanted to access than available wall space to store them. Each of the bookshelf's six levels is actually loaded with a pair of shelves instead of a single shelf. A simple switch on the side of the bookshelf flips the corresponding shelf to the other side, revealing any books stored in the paired shelf. While this makes the clockwork bookshelf a little deeper than a normal bookshelf, in order to fit both shelves, it effectively allows you to store twice as many books using the same amount of wall space. Those who wish to keep volumes hidden from visitors (or perhaps stow a weapon or potion within a false book) often load the hidden shelf first, then switch to the second shelf lined with more respectable volumes.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Clockwork Box Packer",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>This handy clockwork device is too expensive for most warehouses and shipping docks to make use of it, but some nobles have purchased the item for their staff as a status symbol, and merchants who are in the shipping trade can afford to slowly reap the benefits of its usage. It takes 1 minute to wind a clockwork box packer; after which, it can function for up to 1 hour.</p>\n<p>You can indicate how high you want the clockwork box packer to stack boxes and what the packing storage dimensions are. Once packing instructions have been input, you can load a crate onto the clockwork box packer, and it begins its task. Once the box is stacked, the clockwork box packer closes the box, if necessary, then ties a ribbon or cord around it from a supply loaded into the clockwork box packer in advance. Once the package is secure, the clockwork box packer stacks it and then swivels back into position, ready to accept another box. In this way, the clockwork device can finish within minutes a packing job that might take humanoid workers an hour</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Clockwork Chirper",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This simple clockwork bird is no larger than a sparrow, designed to be wound up and perched on a tree branch or ledge. The Tiny clockwork remains immobile and silent until a Small or larger creature enters the square beneath its perch, at which point it springs into action. Once activated, it flies around making a loud chirping sound that can be heard up to 500 feet away. The bird then follows the creature that activated it for up to one hour or until it is destroyed, doing its best to stay just above the creature and out of reach, and continuing its string of loud chirps. The bird is an object with a Speed 10 feet, and a fly Speed of 25 feet. It has AC 15, Hardness 5, HP 10 (BT 5) and object immunities. Once broken, it can no longer fly. It can't attack or otherwise damage other creatures. After an hour has passed after its activation, the clockwork chirper falls into a pile of useless components.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "clockwork",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Clockwork Cloak",
+    "price": {
+      "gp": 20000
+    },
+    "description": "<p>Paper-thin interlocking gears and winding cogs make up this bronze cloak.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're struck by a melee attack with a held weapon</p>\n<hr />\n<p><strong>Effect</strong> The folds of the cloak attempt to divert the attack and catch the weapon in the cloak's gears. Make an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm] the attacking creature.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You wrap the cloak around yourself and the winding gears decelerate your body, causing you to enter standby mode. While in standby mode you don't need to eat, drink, or sleep. You remain aware of your surroundings but take a -4 penalty to Perception checks. You can stay in standby mode indefinitely, although your body ages normally. You can leave standby mode as a <span class=\"action-glyph\">f</span>. If you do so to initiate combat, you gain a +2 item bonus to your initiative roll.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clockwork Cloak]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Clockwork Dial",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This small timepiece allows you to accurately track time, useful for coordinating attacks, cooking, and all other sorts of activities, without the steadiness or care necessary to use an hourglass. As always, spell durations are too inexact to be reliably tracked, as they don't last precisely the duration listed.</p>\n<p>Protected within a brass or steel case, the clockwork mechanism of this device is turned using a small key. Most dials have a maximum duration of 1 hour, with each turn of the key adding 10 minutes to the timer, though some are crafted with longer or shorter durations and intervals. Setting the timer requires one free hand and an Interact action.</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 6,
+    "name": "Clockwork Disguise",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>Sometimes, just disguising one's face just isn't convincing enough. Clockwork disguises were invented to supplement regular disguise kits, which are used all across Golarion. For example, if a spy wants to infiltrate a military camp, they must be wearing the same type of armor as the soldiers stationed there-or else have a very good explanation for their commander as to why they're out of proper uniform!</p>\n<p>The clockwork disguise is intended to help avoid such awkward, potentially fatal confrontations. The clockwork disguise looks like a harness connected to hundreds of small metal plates that cover the user's torso and arms. Each of these plates is equipped with several hinges, allowing them to be shaped into a wide variety of patterns. When these shaped plates are arranged and connected, they can be made to look like almost any basic suit of light or medium metal armor, though armor embellishments such as those worn by high-ranking officers are beyond this device. The arrangement process takes some time, but once it's completed, the user need only perform a few simple adjustments to a clockwork mechanism in the disguise to make the plate arrangement into a new preset configuration. Afterwards, when the user flips a switch on the harness's belt to one of three positions, the plates shift, overlap, and connect as necessary to transform the disguise into the desired preset configuration. The clockwork disguise can have up to three preset configurations at a time, and most users use a minimum of two: the one required for their current task, and a suitably inconspicuous configuration for when the first configuration is unnecessary.</p>\n<p>Giving a clockwork disguise a new preset configuration requires 20 minutes of work. The clockwork disguise can have a maximum of three preset configurations at a time, and it can only mimic light and medium armor suits made of metal.</p>\n<p>The clockwork disguise is light armor and has the following stats, regardless of which type of armor it mimics:</p>\n<p><strong>AC Bonus</strong> +2; <strong>Dex Cap</strong> +3; <strong>Check Penalty</strong>-1; <strong>Strength</strong> 12; <strong>Group</strong> plate</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Transform the clockwork disguise into any one current preset configuration of the user's choice.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Clockwork Diving Suit",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>The clockwork diving suit is a marvel of technology that allows its user to breathe underwater for hours at a time without the aid of magic. Compared to a more traditional magically-assisted diving suit using a bottle of air, a clockwork diving suit is both less expensive and better protected, making clockwork diving suits a good choice for characters who prefer more protection. However, they also come with a built-in time limit, which magical diving suits circumvent. A clockwork diving suit is a bulky, fully sealed suit of armor lined with a complex series of filter-equipped bladders that store and circulate air for the user to breathe. A glass faceplate on the front of the helmet allows the user to see what's going on in front of them.</p>\n<p>The suit's rigidity and mechanisms severely restrict the user's range of movement and keeps them from moving faster than a slow walk on the sea floor. To compensate for this, a clockwork water jet mechanism is installed in the suit's back. The water jet includes both a vacuum system and separate air bladder; it's activated with a simple pull of a lever on the suit's belt. When the lever is pulled, the vacuum system sucks in seawater, and seconds later, the air bladder sprays the water out and propels the user short distances. This mechanism is also necessary for the suit to surface without walking to shore-it's too heavy to float on its own. Most wearers can only swim a few feet before sinking back to the water's floor.</p>\n<p>The diving suit contains enough air for three hours of operation, and the clockwork components can operate for up to 3 hours before the suit needs winding. If you run out of air, drowning and suffocation rules begin to apply as normal. This air supply can be refilled by spending one hour in an area with air, and you can rewind the clockwork in a process that takes 10 minutes to complete. The diving suit is a suit of medium armor, and it has the following stats:</p>\n<p><strong>AC Bonus</strong> +4; <strong>Dex Cap</strong> +1; <strong>Check Penalty</strong>-4; <strong>Speed Penalty</strong>-15 ft; <strong>Strength</strong> 18</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The diving suit shoots out a water jet that causes you to Swim 25 feet in a straight line. The distance of this movement is unaffected by your swim Speed, if you have one, or the armor's Speed penalty. However, difficult terrain, such as the difficult terrain for moving up or down or moving against a current, still slows this movement</p>",
+    "rarity": "uncommon",
+    "traits": []
+  },
+  {
+    "level": 4,
+    "name": "Clockwork Goggles (Greater)",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision and darkvision for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clockwork Goggles (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Clockwork Goggles (Major)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision, darkvision, and the effects of <em>See invisibility</em> for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clockwork Goggles (Major)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Clockwork Goggles",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Clockwork Goggles]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Clockwork Heels",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>This clockwork footwear features a marvelous mechanical heel built into the base to increase your speed. When you lean your weight onto your heel, a springboard triggers and pops out small metal wheels that propel you forward. You gain a +5-foot item bonus to your Speed.</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Clockwork Helm",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>Rotating gears cover the outside of this imposing helmet.</p>\n<p>In order to function, the device must be wound for 10 minutes once every 24 hours. The <em>clockwork helm</em> has a calming and focusing effect on the mind. If you're affected by a detrimental condition caused by a mental or emotion effect, each round at the beginning of your turn, the gears of the helmet unwind and reduce the value of the condition by 1. This effect works only if the condition's value can normally be reduced by simply waiting; otherwise the helmet has no effect.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You've wound the clockwork helm for 10 minutes within the last 24 hours</p>\n<hr />\n<p><strong>Effect</strong> You fire a beam of withering heat from the helmet's eye slits at a target. Make a spell or ranged attack roll (your choice) to affect the target. On a hit, the target takes @Damage[10d8[fire]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.Drained]{Drained 2}.</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "invested",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Clockwork Macuahuitl",
+    "price": {
+      "gp": 550
+    },
+    "description": "<p>This finely-made wooden club has a beautiful, lacquered finish that gleams in the sunlight. A heavy ring of gears lined with sharpened pieces of obsidian automatically and constantly spin around the bulk of the wooden club lengthwise. Striking a foe digs the obsidian gears into the enemy's flesh and tears it with its blades. The ever-turning gears also help to dislodge an enemy's defensive position against the weapon.</p>",
+    "rarity": "rare",
+    "traits": [
+      "backswing",
+      "forceful",
+      "versatile-b"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "Clockwork Megaphone",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>A clockwork megaphone uses cunning clockwork gears to adjust the shape and angle of the cone within the megaphone, allowing you to raise or lower the volume, widen or contract the angle in which you project your voice, or both at the same time. This makes a clockwork megaphone far more useful than an ordinary megaphone for situations where you want to make sure that everyone in a particular venue or location can hear you without being so loud that your voice comes across as a painful shout. It takes 1 minute to wind up a clockwork megaphone, which allows it to remain active for up to 1 hour of adjustments, only counting the time you change the megaphone's settings, not the time you spend speaking. Since it automatically enters standby mode when not in use, this typically means you don't have to wind up the clockwork megaphone for months, or even years, depending on how often you adjust the settings each day.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Clockwork Monkey",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These cute and unassuming toy monkeys are often dressed in loud clothing and carry a percussion instrument. It's activated once a creature moves adjacent to the square it sits in, at which point it leaps on the creature, scurrying about on its agile hind legs while it pounds on its instrument, riding the creature and raising a racket. The creature being assaulted by the monkey must find a way to escape its agitator either via flinging the monkey off with the Escape action (DC 18) or by breaking the monkey. The monkey has AC 19, Hardness 2, HP 10 (BT 5) and object immunities.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "clockwork",
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Clockwork Recorder",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This small recording device can be as tiny as a music box or around the size of large book and is typically concealed in hollowed-out books and jewelry. A clockwork recorder can record up to 1 hour of sound before its wax cylinders must be retrieved and replaced. Any given clockwork recorder can play back the recordings of a cylinder, regardless of whether it was the recorder used for the original recording.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You wind the recorder to start recording sound or to play back a recording. You can have the recording or playback start immediately or be timed to start at any point up to one month later.</p>",
+    "rarity": "rare",
+    "traits": []
+  },
+  {
+    "level": 18,
+    "name": "Clockwork Rejuvenator",
+    "price": {
+      "gp": 4500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Requirements</strong> The round you activate the rejuvenator, you must first spend either 1 or 2 Interact actions to wind the device.</p>\n<hr />\n<p>This device has four finger-like latches centered around a whirring mass of gears.</p>\n<p>After winding the <em>clockwork rejuvenator</em>, you can latch it to the chest of an adjacent recently dead creature and return it to life. If you wound the rejuvenator using 1 Interact action, you can return to life a creature that died in the last 2 rounds, restoring it to 1 HP. If you wound the rejuvenator using 2 Interact actions, you can return to life a creature that died within the last 3 rounds. After attaching, the device continues to whirl for 1 minute, restoring 10 HP per round to the target. Thereafter, the <em>clockwork rejuvenator</em> loses its magic and becomes inert.</p>",
+    "rarity": "rare",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Clockwork Shield (Greater)",
+    "price": {
+      "gp": 22000
+    },
+    "description": "<p>This brass-coated, steel shield (Hardness 17, HP 130, and BT 65) has <em>+3 greater striking shield spikes</em> made of bronze gears.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The shield's gears begin to spin, subtly adjusting the shield's position as you fight. You gain an extra reaction this turn and at the start of each of your turns for the next minute that you can use only to Shield Block.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Clockwork Shield",
+    "price": {
+      "gp": 1300
+    },
+    "description": "<p>This brass-coated, steel shield (Hardness 12, HP 90, BT 45) has <em>+2 striking shield spikes</em> made of bronze gears.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The shield's gears begin to spin, subtly adjusting the shield's position as you fight. You gain an extra reaction this turn and at the start of each of your turns for the next minute that you can use only to Shield Block.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Clockwork Songbird",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Originally constructed by the Thassilonian wizard Liralarue to serve as a key for a treasure vault, this clockwork songbird has other functions as well. Liralarue took the songbird apart once she realized Thassilon faced a mysterious doom, then hid the parts in her domain. The parts survived but never traveled too far from the region that would become known as the Sandpoint Hinterlands.</p>\n<p>Before the clockwork songbird can be used, its six components (the body, the left and right wings a one piece, the legs and tail, the head, and the winding key) must first be recovered. Once all six parts are at hand, a character can reassemble the clockwork songbird as a 1-hour activity that requires a @Check[crafting|dc:27] check. A character who critically fails at this check causes the components to generate a blast of devastating sound, inflicting @Damage[7d6[sonic]] damage to the character (@Check[reflex|dc:27|basic] save).</p>\n<p>Once reconstructed, the clockwork songbird can be activated in the following three ways.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Effect</strong> The clockwork songbird animates and sings a complex birdsong that lasts for 1 minute. The song is soothing and pleasant but impossible to accurately repeat, as each time the clockwork is activated in this way, its next song differs slightly. Regardless, this activation also functions to activate the portal in area <strong>H13</strong> in the Pit.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The songbird leaps into the air and flies in a circle, swooping around an area around you for 10 minutes as it sings. The songbird never travels further than 50 feet from the location where you activated it. It returns to that location at the end of the duration, at which point the songbird casts @UUID[Compendium.pf2e.spells-srd.Item.Peaceful Bubble] at that location before going quiet once again. The effect remains in place for 24 hours.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place the clockwork songbird on a stable surface, and it casts an @UUID[Compendium.pf2e.spells-srd.Item.Alarm] spell heightened to 3rd rank to your specifications. When the <em>alarm</em> is triggered, it does so in the form of a loud warbling birdsong sung by the clockwork. If the clockwork songbird is moved from its location before the <em>alarm</em> spell's duration has run its course, the spell ends.</p>",
+    "rarity": "unique",
+    "traits": [
+      "clockwork",
+      "magical"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Clockwork Spider Bomb",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>While arachnophobes don't need to fear this contraption's spiderlike appearance, they should probably worry if it starts ticking. When you activate the spider bomb, you place it on the ground and the clockwork spider crawls 5 feet in a straight line, continuing to advance 5 feet in the same straight line at the end of each of your turns for the next 4 rounds (traveling a total of 25 feet). If it takes any damage during this time, its bulbous abdomen detonates in a raging flame, dealing @Damage[5d6[fire]] damage to all creatures in a @Template[burst|distance:5] (@Check[reflex|dc:24|basic|name:Clockwork Spider Bomb Explosion|traits:fire|showDC:all]). You can also activate it a second time with a single-action command word activation, causing it to explode. The spider bomb has an AC of 10, 5 Hit Points, and +0 to all saving throws. After it detonates, the spider bomb is completely destroyed, regardless of the effects of its detonation. If it survives to the end of the 4-round duration without being detonated, the spider harmlessly loses its explosive charge and falls apart.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork",
+      "consumable",
+      "gadget"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Cloister Robe (Greater)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>The most devoted, cloistered clerics wear a <em>cloister robe</em>. Decorations symbolic of a specific deity adorn the robe, and the robe's colors and the complexity of its construction fit the deity's outlook. The robe serves as a religious symbol of that deity, and it doesn't need to be wielded to provide that benefit. The robe is <em>+2 greater resilient explorer's clothing</em> and grants a +2 item bonus to Religion checks and a +1 item bonus to the divine skill of the deity to whom the robe is dedicated. The robe doesn't grant any benefits to a wearer who doesn't worship the deity tied to the robe. In addition, when you cast a domain spell from one of the deity's domains, you gain resistance to damage from divine spells until the end of your next turn. This resistance is equal to half the robe's level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a cleric domain spell for a domain belonging to the deity the robe is dedicated to. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<p><strong>Craft Requirements</strong> You are a cleric who worships the deity tied to the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Cloister Robe (Lesser)",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>The most devoted, cloistered clerics wear a <em>cloister robe</em>. Decorations symbolic of a specific deity adorn the robe, and the robe's colors and the complexity of its construction fit the deity's outlook. The robe serves as a religious symbol of that deity, and it doesn't need to be wielded to provide that benefit. The robe is <em>+1 resilient explorer's clothing</em> and grants a +1 item bonus to Religion checks. The robe doesn't grant any benefits to a wearer who doesn't worship the deity tied to the robe. In addition, when you cast a domain spell from one of the deity's domains, you gain resistance to damage from divine spells until the end of your next turn. This resistance is equal to half the robe's level.</p>\n<p><strong>Craft Requirements</strong> You are a cleric who worships the deity tied to the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "invested"
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Cloister Robe (Major)",
+    "price": {
+      "gp": 32000
+    },
+    "description": "<p>The most devoted, cloistered clerics wear a <em>cloister robe</em>. Decorations symbolic of a specific deity adorn the robe, and the robe's colors and the complexity of its construction fit the deity's outlook. The robe serves as a religious symbol of that deity, and it doesn't need to be wielded to provide that benefit. The robe is <em>+3 greater resilient explorer's clothing</em> and grants a +2 item bonus to Religion checks and a +1 item bonus to the divine skill of the deity to whom the robe is dedicated. The robe doesn't grant any benefits to a wearer who doesn't worship the deity tied to the robe. In addition, when you cast a domain spell from one of the deity's domains, you gain resistance to damage from divine spells until the end of your next turn. This resistance is equal to half the robe's level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a cleric domain spell for a domain belonging to the deity the robe is dedicated to. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<p><strong>Craft Requirements</strong> You are a cleric who worships the deity tied to the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "focused",
+      "invested"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Cloister Robe (Moderate)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>The most devoted, cloistered clerics wear a <em>cloister robe</em>. Decorations symbolic of a specific deity adorn the robe, and the robe's colors and the complexity of its construction fit the deity's outlook. The robe serves as a religious symbol of that deity, and it doesn't need to be wielded to provide that benefit. The robe is <em>+2 resilient explorer's clothing</em> and grants a +2 item bonus to Religion checks. The robe doesn't grant any benefits to a wearer who doesn't worship the deity tied to the robe. In addition, when you cast a domain spell from one of the deity's domains, you gain resistance to damage from divine spells until the end of your next turn. This resistance is equal to half the robe's level.</p>\n<p><strong>Craft Requirements</strong> You are a cleric who worships the deity tied to the robe.</p>",
+    "rarity": "common",
+    "traits": [
+      "divine",
+      "invested"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Cloning Potion",
+    "price": {
+      "gp": 5000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>When you drink a cloning potion, you split in two, one version of you remaining in your space and the other moving into an adjacent space. Your clone, which has the minion trait, looks like you and remains for 1 minute. Provided you are both on the same plane, you can command your clone telepathically with a single action with the concentrate trait. You can also issue verbal commands, as normal for a minion. As an action that has the concentrate trait, you can sense through your clone. When you do, you lose all sensory information from your own body. You can Dismiss this sense-sharing effect.</p>\n<p>You and your clone share Hit Points, and the clone uses your statistics. Spells and effects target you and your clone as if you are separate creatures. The clone can Activate your abilities and Cast your Spells, limited by its number of actions, but you share elements such as use limits, frequency, and spell slots. In other words, your clone using one of your resources works as if you did so in or from your clone's space. Your clone has gear identical to your own, excepting artifacts and consumables. Any item taken from the clone melts into silvery dust within seconds, with ammunition or thrown objects lasting just long enough to travel to and possibly hit their target.</p>\n<p>When the duration lapses, your clone melts into silvery dust. You become temporarily immune to cloning potion for [[/r 1d4 #days]]{1d4 days}.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Cloth of Nullification",
+    "price": {
+      "gp": 75000
+    },
+    "description": "<p>This small piece of embroidered cloth is inimical to all magic.</p>\n<p><strong>Activate—Nullify Magic</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p><strong>Effect</strong> You cover a magic item with the cloth or wave the cloth near a magic effect and attempt to counteract the effect or item. The cloth's counteract check modifier is [[/r 1d20+32 #Counteract]]{+32}, and its counteract rank is 10. Regardless of the result, the cloth of nullification can't be activated again for [[/br 2d6 #hours]]{2d6 hours}. On a success, the effect or item is deactivated for the same amount of time, and its duration, if any, continues to expire during that time. With a successful counteract check, you can instead choose to completely absorb the magic from the effect or item into the cloth of nullification. If you do, both become completely non-magical and their magic can't be recovered, even by the remake spell.</p>\n<p>The cloth of nullification automatically fails to counteract most artifacts and similarly powerful items</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Clothing (Cold-Weather)",
+    "price": {
+      "sp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Clothing (Desert)",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>Desert clothing is made up of loose-fitting, light, breathable clothes that protect your head and body from the sun and allow you to cool off easily. They allow you to negate the damage from severe environmental heat and reduce the damage from extreme heat to that of severe heat. This effect is negated if the clothing is worn with any armor, except armor that is especially cooling at the GM's discretion.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Clothing (Fine)",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 3,
+    "name": "Clothing (High-Fashion Fine)",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 0,
+    "name": "Clothing (Ordinary)",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Ordinary clothing is functional with basic tailoring, such as peasant garb, monk's robes, or work clothes.</p>",
+    "rarity": "common",
+    "traits": []
+  },
+  {
+    "level": 9,
+    "name": "Cloud Buns (Greater)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Access</strong> Tian Xia origin</p><hr /><p>White, pillowy dough surrounds an interior containing minced meats, spices, and herbs. The dough is steamed with elemental magic to make it light and airy while keeping the meaty center moist.</p>\n<p>When you consume a bun, a set of small clouds form around your feet that grant you a fly Speed of 30 feet or your speed, whichever is lower, for 1 minute.</p>\n<p>You also have a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Maneuver in Flight].</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloud Buns (Greater)]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Cloud Buns",
+    "price": {
+      "gp": 17
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Access</strong> Tian Xia origin</p><hr /><p>White, pillowy dough surrounds an interior containing minced meats, spices, and herbs. The dough is steamed with elemental magic to make it light and airy while keeping the meaty center moist.</p>\n<p>When you consume a bun, a set of small clouds form around your feet that grant you a fly Speed of 30 feet or your speed, whichever is lower, for 1 round.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Cloud Buns]</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Cloud Pouch",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>This small bag is filled with a fine, silvery powder that feels silky to the touch.</p>\n<p><strong>Activate—Disperse</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You scatter the dust into the air around you, causing it to condense into a cloud in a @Template[burst|distance:20] within 10 feet, as the @UUID[Compendium.pf2e.spells-srd.Item.Mist] spell. You can Sustain the activation to make the cloud Fly 20 feet. The cloud lasts 1 minute, and you can Dismiss it.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "water"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Clown Monarch",
+    "price": {
+      "gp": 21
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>A victim of clown monarch is amusing to behold as they repeatedly suffer slapstick pratfalls. This poison disrupts the victim's sense of balance.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> falls @UUID[Compendium.pf2e.conditionitems.Item.Prone] and must succeed at a @Check[flat|dc:5] when attempting a Stand action or the action fails and is lost (1 round)</p>\n<p><strong>Stage 2</strong> as stage 1 but a @Check[flat|dc:10] (1 round)</p>\n<p><strong>Stage 3</strong> as stage 1 but a @Check[flat|dc:15] (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Club",
+    "price": {},
+    "description": "<p>This is a piece of stout wood shaped or repurposed to bludgeon an enemy. Clubs can be intricately carved pieces of martial art or as simple as a tree branch or piece of wood.</p>",
+    "rarity": "common",
+    "traits": [
+      "thrown-10"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Clubhead Poison",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This poison is named for the strain of fungi from which it's distilled. Hallucinations assail the victim's mind, causing them to see imaginary foes.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d8[poison]], @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard], and can't take reactions (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d8[poison]], off-guard, can't take reactions, @UUID[Compendium.pf2e.conditionitems.Item.Stunned]{Stunned 1} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[5d8[poison]], off-guard, can't take reactions, and stunned 1 (1 round)</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "injury",
+      "poison"
+    ]
+  },
+  {
+    "level": 0,
+    "name": "Coat Pistol",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>This small pistol is easily concealed inside a jacket or some other article of clothing. Rarely kept as a primary weapon, coat pistols are equally favored by clever assassins and traveling Alkenstar aristocrats.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concealable",
+      "concussive",
+      "fatal-d8"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Coating",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>When etched, this rune creates an extradimensional space that links to the weapon that wields it. The space can hold up to 1 Bulk but can contain only poisons and magic oils that could be applied to the weapon. Stowing or retrieving an item in the space requires an Interact action, except when using the rune's activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Requirements</strong> At least one magic oil or poison is stored inside the rune's extradimensional space;</p>\n<hr />\n<p><strong>Effect</strong> For 1 minute, you can apply stored oils and poisons to the weapon without needing any hands free. Applying them takes the same number of actions as normal. An oil or poison applied this way pours directly from the extradimensional space onto the weapon, and when it's fully applied, its empty vial is ejected.</p>",
+    "rarity": "common",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "Codebreaker's Parchment (Greater)",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 30 check with master proficiency to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Codebreaker's Parchment (Major)",
+    "price": {
+      "gp": 14500
+    },
+    "description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 40 check with legendary proficiency to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Codebreaker's Parchment",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 20 check to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<hr />\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>",
+    "rarity": "common",
+    "traits": [
+      "illusion",
+      "magical"
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Codex of Destruction and Renewal",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>An unsmiling mask, half obsidian and half ivory, is embossed on the cover of this weighty tome, the opposite color forming the background of each half. Each <em>codex of destruction and renewal</em> is said to contain a fragment of the knowledge Nethys gained in his apotheosis and they're sacred to his church.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a damage-dealing evocation spell prepared from this grimoire, the spell wreaks even greater destruction. The spell ignores 10 resistance and you reroll any damage dice that roll a 1. If the spell reduces a creature to 0 Hit Points, they're torn apart at an infinitesimal level, not even leaving a fine ash; this is a death effect.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (metamagic)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast a necromancy spell prepared from this grimoire that restores Hit Points, the spell renews the target constantly and perfectly. The spell grants the target regeneration 20, restoring 20 Hit Points at the start of its turn and preventing the target both from dying due to damage and from its dying condition increasing to a value that would result in its death. Each time the creature regains Hit Points from regeneration, it regrows all damaged or ruined organs; it can also regrow any severed body parts as a free action immediately after the body part is severed, with the original crumbling to ash. The effect lasts for 4 rounds.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Codex of Destruction and Renewal]</p>",
+    "rarity": "rare",
+    "traits": [
+      "grimoire",
+      "magical"
+    ]
+  }
+]
