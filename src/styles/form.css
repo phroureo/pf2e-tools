@@ -1,0 +1,23 @@
+/* Input field styling */
+input[type="text"], select {
+    background-color: #1f1f33;
+    color: #e1e1e6;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #67b7f7; /* Highlight on focus */
+    outline: none;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c7d1dc;
+}

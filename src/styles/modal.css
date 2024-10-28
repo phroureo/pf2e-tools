@@ -1,0 +1,394 @@
+/* Modal styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #2a2a3e;
+    color: #e1e1e6;
+    width: 80vw;
+    /* 80% of viewport width */
+    height: 80vh;
+    /* 80% of viewport height */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.search-bar {
+    width: calc(100% - 40px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin: 20px;
+    padding: 8px;
+    background-color: #1f1f33;
+    color: #e1e1e6;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Close button positioning */
+.modal-content>button {
+    align-self: flex-start;
+    background-color: #30336b;
+    color: #e1e1e6;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.modal-content>button:hover {
+    background-color: #3b3e91;
+}
+
+/* Flex container for item list and details */
+.modal-body {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    /* Ensures modal body takes full modal height */
+    overflow: hidden;
+}
+
+/* Scrollable item list */
+.item-list {
+    width: 100%;
+    /* Slightly reduce width to prevent horizontal scrolling */
+    height: 100%;
+    /* Full height of modal body */
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-right: 1px solid #444;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    /* Ensures padding doesn’t add extra width */
+}
+
+/* Item layout with left-justified name and right-justified price */
+.item-list-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: background 0.3s;
+    height: auto;
+    overflow: hidden;
+}
+
+.item-list-entry:hover {
+    background-color: #3b3e91;
+}
+
+/* Left-align and bold the item name */
+.item-name {
+    font-weight: bold;
+    color: #e1e1e6;
+    max-width: 70%;
+    white-space: normal;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.6rem
+}
+
+/* Right-align the item price in a smaller font */
+.item-price {
+    font-size: 0.4rem;
+    color: #a1a1a1;
+    margin-left: auto;
+    white-space: nowrap;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+/* Item details section */ 
+.item-details {
+    width: 100%;
+    /* Takes 65% of the modal width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    color: #e1e1e6;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Scrollable content area for item info */
+.item-info {
+    flex: 1;
+    overflow-y: auto;
+    text-align: left;
+    max-height: calc(100vh - 200px);
+    /* Adjust based on modal height, to avoid cutoff */
+    padding-right: 10px;
+    /* Add a small padding to separate from scrollbar */
+
+}
+
+/* Button container aligned to the right */
+.add-to-list-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.add-to-list-button {
+    padding: 10px 20px;
+    background-color: #30336b;
+    color: #e1e1e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-to-list-button:hover {
+    background-color: #3b3e91;
+    transform: translateY(-2px);
+}
+
+/* Style for tables in the item description */
+.item-description table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #e1e1e6;
+}
+
+.item-description th,
+.item-description td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+}
+
+.item-description th {
+    background-color: #3b3e91;
+    font-weight: bold;
+}
+
+.item-description td {
+    background-color: #2a2a3e;
+}
+
+/* Footer styling */
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #444;
+    background-color: #2a2a3e;
+    /* Removed position: absolute; */
+    box-sizing: border-box;
+}
+
+.close-button {
+    background-color: #30336b;
+    color: #e1e1e6;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #3b3e91;
+}
+
+.add-to-list-button {
+    background-color: #30336b;
+    color: #e1e1e6;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-list-button:hover {
+    background-color: #3b3e91;
+}
+
+
+/* Container for the trait pills */
+.traits-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 8px 0;
+}
+
+/* Style for each trait pill */
+.trait-pill {
+    padding: 4px 8px;
+    color: #ffffff;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Container for name and price */
+.name-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/* Left-align item name */
+.item-name {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e1e1e6;
+    text-align: left;
+}
+
+/* Right-align the item price */
+.item-price {
+    font-size: 1rem;
+    color: #a1a1a1;
+    text-align: right;
+}
+
+/* Left Panel styling */
+.left-panel {
+    width: 30%;
+    /* Adjust to fit your layout */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sorting headers positioned above the scrollable item list */
+.sorting-headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #444;
+    background-color: #2a2a3e;
+    /* Match modal background color */
+}
+
+.header {
+    color: #e1e1e6;
+    cursor: pointer;
+}
+
+.header:hover {
+    color: #ffffff;
+}
+
+.name-header {
+    text-align: left;
+    width: 70%;
+}
+
+.price-header {
+    text-align: right;
+    width: 30%;
+}
+
+/* Scrollable item list */
+.item-list {
+    flex: 1;
+    /* Take up remaining space in left panel */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for all search conditions */
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+/* Single row layout for each search condition */
+.search-condition {
+    display: flex;
+    align-items: center;
+}
+
+/* Search bar takes up most of the width */
+.search-bar {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1f1f33;
+    color: #e1e1e6;
+}
+
+/* Filter dropdown is just wide enough to display options */
+.filter-dropdown {
+    width: auto;
+    padding: 8px;
+    background-color: #2a2a3e;
+    color: #e1e1e6;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Minimal button for adding/removing search conditions */
+.add-search,
+.remove-search {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #30336b;
+    color: #e1e1e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-search:hover,
+.remove-search:hover {
+    background-color: #3b3e91;
+}
+
+.action-glyph {
+    align-self: center;
+    display: inline;
+    font-family: "Pathfinder2eActions";
+    font-weight: normal;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
