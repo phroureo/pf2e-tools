@@ -25,3 +25,11 @@ button:disabled {
     color: #888;
     cursor: not-allowed;
 }
+
+.minimal-button {
+    border: none;
+    background: none;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}

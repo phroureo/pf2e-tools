@@ -1,5 +1,3 @@
-// src/main.tsx
-
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import CharacterLevel from './components/CharacterLevel';
@@ -22,9 +20,10 @@ interface TotalPrice {
 }
 
 const Main: React.FC = () => {
-    const [characterLevel, setCharacterLevel] = useState(1);
+    const [characterLevel, setCharacterLevel] = useState<number>(1);
     const [equipmentData, setEquipmentData] = useState<ManifestItem[]>([]);
     const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
+    const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
 
     useEffect(() => {
@@ -35,29 +34,51 @@ const Main: React.FC = () => {
 
     const handleAddItem = (item: ManifestItem) => {
         setSelectedItems((prevItems) => [...prevItems, item]);
-
-        // Update the raw total price with safe access
-        setTotalPrice((prevTotal) => ({
-            cp: prevTotal.cp + (item.price?.value?.cp ?? 0),
-            sp: prevTotal.sp + (item.price?.value?.sp ?? 0),
-            gp: prevTotal.gp + (item.price?.value?.gp ?? 0),
-            pp: prevTotal.pp + (item.price?.value?.pp ?? 0),
+        setQuantities((prevQuantities) => ({
+            ...prevQuantities,
+            [selectedItems.length]: 1,
         }));
     };
 
     const handleRemoveItem = (index: number) => {
-        const removedItem = selectedItems[index];
         setSelectedItems((prevItems) => prevItems.filter((_, i) => i !== index));
-
-        // Subtract from the raw total price with safe access
-        setTotalPrice((prevTotal) => ({
-            cp: prevTotal.cp - (removedItem.price?.value?.cp ?? 0),
-            sp: prevTotal.sp - (removedItem.price?.value?.sp ?? 0),
-            gp: prevTotal.gp - (removedItem.price?.value?.gp ?? 0),
-            pp: prevTotal.pp - (removedItem.price?.value?.pp ?? 0),
-        }));
+        setQuantities((prevQuantities) => {
+            const newQuantities = { ...prevQuantities };
+            delete newQuantities[index];
+            return newQuantities;
+        });
     };
 
+    const handleQuantityChange = (index: number, delta: number) => {
+        setQuantities((prevQuantities) => {
+            const currentQuantity = prevQuantities[index] || 1;
+            const newQuantity = Math.max(1, currentQuantity + delta);
+            return {
+                ...prevQuantities,
+                [index]: newQuantity,
+            };
+        });
+    };
+
+    useEffect(() => {
+        // Calculate total price based on selectedItems and quantities
+        const newTotal = selectedItems.reduce(
+            (acc: TotalPrice, item: ManifestItem, index: number) => {
+                const quantity = quantities[index] || 1;
+                const itemPrice = item.price?.value || { cp: 0, sp: 0, gp: 0, pp: 0 };
+
+                return {
+                    cp: acc.cp + (itemPrice.cp ?? 0) * quantity,
+                    sp: acc.sp + (itemPrice.sp ?? 0) * quantity,
+                    gp: acc.gp + (itemPrice.gp ?? 0) * quantity,
+                    pp: acc.pp + (itemPrice.pp ?? 0) * quantity,
+                };
+            },
+            { cp: 0, sp: 0, gp: 0, pp: 0 }
+        );
+
+        setTotalPrice(newTotal);
+    }, [selectedItems, quantities]);
 
     // Simplify the total price for display
     const simplifiedTotalPrice = simplifyPrice(totalPrice);
@@ -71,8 +92,8 @@ const Main: React.FC = () => {
                 items={selectedItems}
                 totalPrice={formatPrice(simplifiedTotalPrice)}
                 onRemoveItem={handleRemoveItem}
+                onQuantityChange={handleQuantityChange}
             />
-
         </div>
     );
 };
