@@ -11,6 +11,7 @@ import './styles/toggle.css';
 import './styles/buttons.css';
 import './styles/modal.css';
 import './styles/form.css';
+import './styles/input.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
 
@@ -103,7 +104,7 @@ const Main: React.FC = () => {
                 />
             </div>
             <footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
-                <Toggle label="Option 1" onToggle={handleToggleChange} />
+                <Toggle label="Show items with no price" onToggle={handleToggleChange} />
                 <Toggle label="Option 2" onToggle={handleToggleChange} />
                 <Toggle label="Option 3" onToggle={handleToggleChange} />
             </footer>

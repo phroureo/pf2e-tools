@@ -1,0 +1,44 @@
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-input {
+    width: 30px; /* Smaller width for a more compact look */
+    height: 20px; /* Smaller height */
+    text-align: center;
+    color: #5256b9;
+    border: 1px solid #080a2b;
+    border-left: none;
+    border-right: none;
+    font-size: 14px; /* Adjust font size as needed */
+    -moz-appearance: textfield; /* Remove arrows in Firefox */
+}
+
+.custom-input::-webkit-outer-spin-button,
+.custom-input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Remove arrows in Chrome and Edge */
+    margin: 0;
+}
+
+.button {
+    background-color: #080a2b;
+    color: #ffffff;
+    border: 1px solid #080a2b;
+    width: 20px; /* Smaller button width */
+    height: 20px; /* Smaller button height */
+    cursor: pointer;
+    font-size: 12px; /* Smaller font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove padding for a more compact button */
+}
+
+.button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.button:last-child {
+    border-radius: 0 4px 4px 0;
+}
