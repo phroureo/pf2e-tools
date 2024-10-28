@@ -26,12 +26,15 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem }) => {
             onAddItem(selectedItem);
             setIsModalOpen(false); // Close modal after adding the item
             setSelectedItem(null);
-        }
-    };
+            setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]); 
+        };
+    }
+
     const handleClose = () => {
         setIsModalOpen(false);
         setSelectedItem(null);
-    };
+        setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]); 
+    }
 
     return (
         <div>

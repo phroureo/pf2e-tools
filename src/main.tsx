@@ -7,10 +7,12 @@ import { fetchEquipmentData } from './utils/fetchData';
 import { EquipmentItem } from './types/EquipmentItem';
 import { simplifyPrice, formatPrice } from './utils/formatPrice';
 import './styles/styles.css';
+import './styles/toggle.css';
 import './styles/buttons.css';
 import './styles/modal.css';
 import './styles/form.css';
 import { ManifestItem } from './types/ManifestItem';
+import Toggle from './components/Toggle';
 
 interface TotalPrice {
     cp: number;
@@ -25,6 +27,10 @@ const Main: React.FC = () => {
     const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
+
+    const handleToggleChange = (state: boolean) => {
+        console.log(`Toggle is now ${state ? 'On' : 'Off'}`);
+    };
 
     useEffect(() => {
         fetchEquipmentData()
@@ -84,16 +90,23 @@ const Main: React.FC = () => {
     const simplifiedTotalPrice = simplifyPrice(totalPrice);
 
     return (
-        <div className="container">
-            <h1>PF2e Equipment Picker</h1>
-            <CharacterLevel level={characterLevel} onLevelChange={setCharacterLevel} />
-            <ItemList items={equipmentData} onAddItem={handleAddItem} />
-            <SelectedItems
-                items={selectedItems}
-                totalPrice={formatPrice(simplifiedTotalPrice)}
-                onRemoveItem={handleRemoveItem}
-                onQuantityChange={handleQuantityChange}
-            />
+        <div>
+            <div className="container">
+                <h1>PF2e Equipment Picker</h1>
+                <CharacterLevel level={characterLevel} onLevelChange={setCharacterLevel} />
+                <ItemList items={equipmentData} onAddItem={handleAddItem} />
+                <SelectedItems
+                    items={selectedItems}
+                    totalPrice={formatPrice(simplifiedTotalPrice)}
+                    onRemoveItem={handleRemoveItem}
+                    onQuantityChange={handleQuantityChange}
+                />
+            </div>
+            <footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
+                <Toggle label="Option 1" onToggle={handleToggleChange} />
+                <Toggle label="Option 2" onToggle={handleToggleChange} />
+                <Toggle label="Option 3" onToggle={handleToggleChange} />
+            </footer>
         </div>
     );
 };

@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* Typography */
@@ -38,10 +39,11 @@ a:hover {
 .container {
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     min-height: 100vh; /* Full viewport height to vertically center */
     text-align: center; /* Center text alignment within the container */
 }
@@ -61,3 +63,4 @@ li {
 li:hover {
     background-color: #2a2a3e; /* Darker hover effect */
 }
+

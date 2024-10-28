@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ManifestItem } from '../types/ManifestItem';
 import { formatPrice } from '../utils/formatPrice';
 import { SearchCondition } from '../types/SearchCondition';
+import { FixedSizeList as List, ListChildComponentProps } from 'react-window';
 
 interface ItemListPanelProps {
     items: ManifestItem[];
@@ -12,8 +13,23 @@ interface ItemListPanelProps {
 const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect }) => {
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
+    const [listHeight, setListHeight] = useState(400); // Default height as fallback
+    const containerRef = useRef<HTMLDivElement | null>(null);
 
-    // Apply search filters based on searchConditions
+    // Update listHeight based on container size
+    useEffect(() => {
+        if (containerRef.current) {
+            const updateHeight = () => setListHeight(containerRef.current?.clientHeight || 400);
+            updateHeight(); // Initial measurement
+
+            // Listen for resize changes
+            const resizeObserver = new ResizeObserver(updateHeight);
+            resizeObserver.observe(containerRef.current);
+
+            return () => resizeObserver.disconnect();
+        }
+    }, []);
+
     const filteredItems = items.filter((item) =>
         searchConditions.every((condition) => {
             const term = condition.value.toLowerCase();
@@ -64,6 +80,21 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
         }
     };
 
+    const Row = ({ index, style }: ListChildComponentProps) => {
+        const item = sortedItems[index];
+        return (
+            <div
+                style={style}
+                key={index}
+                onClick={() => onItemSelect(item)}
+                className="item-list-entry"
+            >
+                <span className="item-name">{item.name}</span>
+                <span className="item-price">{formatPrice(item.price?.value)}</span>
+            </div>
+        );
+    };
+
     return (
         <div className="left-panel">
             <div className="sorting-headers">
@@ -74,17 +105,16 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
                     Price {sortCriteria === 'price' && (sortDirection === 'asc' ? '▲' : '▼')}
                 </span>
             </div>
-            <div className="item-list">
-                {sortedItems.map((item, index) => (
-                    <div
-                        key={index}
-                        onClick={() => onItemSelect(item)} // Ensure this calls onItemSelect
-                        className="item-list-entry"
-                    >
-                        <span className="item-name">{item.name}</span>
-                        <span className="item-price">{formatPrice(item.price?.value)}</span>
-                    </div>
-                ))}
+            <div ref={containerRef} className="item-list-container" style={{ height: '100%' }}>
+                <List
+                    height={listHeight} // Dynamically updated height based on containerRef
+                    itemCount={sortedItems.length}
+                    itemSize={50} // Adjust item size as needed
+                    width="100%"
+                    style={{margin: 10}}
+                >
+                    {Row}
+                </List>
             </div>
         </div>
     );

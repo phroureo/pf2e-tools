@@ -9,7 +9,22 @@ interface SearchConditionRowProps {
 const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchConditions, onConditionsChange }) => {
     const handleConditionChange = (index: number, field: keyof SearchCondition, value: string) => {
         const updatedConditions = [...searchConditions];
-        updatedConditions[index][field] = value;
+        const currentField = updatedConditions[index].field;
+    
+        if (field === 'field') {
+            // Only update comparison if the field changes to or from 'level'
+            if (value === 'level' && currentField !== 'level') {
+                updatedConditions[index].comparison = 'greaterThan'; // Default to >= when changing to level
+            } else if (currentField === 'level' && value !== 'level') {
+                updatedConditions[index].comparison = 'contains'; // Default to = when changing from level to another field
+            }
+    
+            updatedConditions[index].field = value as SearchCondition['field'];
+        } else {
+            // For other changes, just update the specified field or comparison directly
+            updatedConditions[index][field] = value;
+        }
+    
         onConditionsChange(updatedConditions); // Notify parent of the change
     };
 

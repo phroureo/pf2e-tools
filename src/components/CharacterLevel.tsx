@@ -6,7 +6,7 @@ interface CharacterLevelProps {
 }
 
 const CharacterLevel: React.FC<CharacterLevelProps> = ({ level, onLevelChange }) => (
-    <div>
+    <div style={{padding: 20}}>
         <label>Character Level: </label>
         <input
             type="number"
