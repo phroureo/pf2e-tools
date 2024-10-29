@@ -40,12 +40,37 @@ fs.readdir(source, (err, files) => {
             // Add the item name to the set of processed items to avoid duplicates
             uniqueItems.add(item.name);
 
+            let text = item.system.description?.value;
+            // 1. @Template[cone|distance:30] -> 30 foot cone
+            text = text.replace(/@Template\[(\w+)\|distance:(\d+)]/g, "$2 foot $1");
+
+            // 2. @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic] -> Detect Magic
+            text = text.replace(/@UUID\[Compendium\.pf2e\.\w+-srd\.Item\.(.*?)\]/g, "$1");
+
+            // 3. @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] -> Grapple
+            text = text.replace(/@UUID\[Compendium\.pf2e\.\w+\.Item\.(.*?)\]/g, "$1");
+
+            // 4. @Damage[2d10[force]] -> 2d10 Force
+            text = text.replace(/@Damage\[(\d+d\d+)\[(\w+)]\]/g, "$1 $2");
+
+            // 5. @Check[reflex|dc:40|traits:death,force|basic] -> DC 40 Reflex
+            text = text.replace(/@Check\[(\w+)\|dc:(\d+)\|.*?]/g, "DC $2 $1");
+
+            // 6. Remove equipment effects. 
+            text = text.replace(/@UUID\[Compendium\.pf2e\.equipment-effects\.Item\.Effect: .*?]/g, "");
+
+            // 7. Fix "As creature"
+            text = text.replace(/@UUID\[Compendium\.pf2e\.pathfinder-bestiary-3\.Actor\.(.*?)\]\((.*?) (\d+)\)/g, "$1 ($2, pg. $3)");
+
+            // 8. Fix "pathfinder-monster-core.Actor.Riding Horse"
+            text = text.replace(/@UUID\[Compendium\.pf2e\.pathfinder-monster-core\.Actor\.(.*?)\]/g, "$1");
+
             // Construct the item data for the manifest with updated file name
             const itemEntry = {
                 level: item.system.level?.value || 0,
                 name: item.name,
                 price: item.system.price.value,
-                description: item.system.description?.value || '',
+                description: text || '',
                 rarity: item.system.traits?.rarity || '',
                 traits: item.system.traits?.value || []
             };

@@ -20,7 +20,7 @@
     "price": {
       "gp": 250
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +2 bonus to attack rolls.</p>\n<p>The bomb deals 3d6 void damage and 3 void splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3}.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +2 bonus to attack rolls.</p>\n<p>The bomb deals 3d6 void damage and 3 void splash damage. On a critical hit, the target is Sickened{Sickened 3}.</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -36,7 +36,7 @@
     "price": {
       "gp": 3
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>The bomb deals 1d6 void damage and 1 void splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>The bomb deals 1d6 void damage and 1 void splash damage. On a critical hit, the target is Sickened{Sickened 1}.</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -52,7 +52,7 @@
     "price": {
       "gp": 2500
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +3 bonus to attack rolls</p>\n<p>The bomb deals deals 4d6 void damage and 4 void splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 4}.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +3 bonus to attack rolls</p>\n<p>The bomb deals deals 4d6 void damage and 4 void splash damage. On a critical hit, the target is Sickened{Sickened 4}.</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -68,7 +68,7 @@
     "price": {
       "gp": 10
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +1 item bonus to attack rolls.</p>\n<p>The bomb deals 2d6 void damage and 2 void splash damage. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed void damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures.</p>\n<hr />\n<p>You gain a +1 item bonus to attack rolls.</p>\n<p>The bomb deals 2d6 void damage and 2 void splash damage. On a critical hit, the target is Sickened{Sickened 2}.</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -84,7 +84,7 @@
     "price": {
       "gp": 350
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an @UUID[Compendium.pf2e.spells-srd.Item.Acid Grip] spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 3} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Necrotic Cap]</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an Acid Grip spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the Enfeebled{Enfeebled 3} and Sickened{Sickened 3} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "catalyst",
@@ -98,7 +98,7 @@
     "price": {
       "gp": 18
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an @UUID[Compendium.pf2e.spells-srd.Item.Acid Grip] spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Necrotic Cap]</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an Acid Grip spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the Enfeebled{Enfeebled 1} and Sickened{Sickened 1} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "catalyst",
@@ -112,7 +112,7 @@
     "price": {
       "gp": 1200
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an @UUID[Compendium.pf2e.spells-srd.Item.Acid Grip] spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 4} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 4} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Necrotic Cap]</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an Acid Grip spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the Enfeebled{Enfeebled 4} and Sickened{Sickened 4} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "catalyst",
@@ -126,7 +126,7 @@
     "price": {
       "gp": 80
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an @UUID[Compendium.pf2e.spells-srd.Item.Acid Grip] spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Necrotic Cap]</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>You can use this slimy, rotting mushroom as a spell catalyst when you cast an Acid Grip spell by tapping it against the target, causing the mushroom to release a cloud of necrotic spores. When you do, <em>acid grip</em> loses the acid trait, gains the fungus trait, and all acid damage the spell deals becomes void damage. On a hit, the target additionally gains the Enfeebled{Enfeebled 2} and Sickened{Sickened 2} conditions as the spores consume their flesh. As long as the target is taking persistent void damage, they can't reduce the value of their sickened condition below 1.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "catalyst",
@@ -140,7 +140,7 @@
     "price": {
       "gp": 3
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A shimmering liquid, <em>nectar of purification</em> is often stored in bottles similar to those used for vinegar. This oil casts a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Cleanse Cuisine] spell over any food or drink onto which it's poured. The nectar evaporates as it takes effect, leaving the taste and texture of the food or drink unaltered.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A shimmering liquid, <em>nectar of purification</em> is often stored in bottles similar to those used for vinegar. This oil casts a 1st-rank Cleanse Cuisine spell over any food or drink onto which it's poured. The nectar evaporates as it takes effect, leaving the taste and texture of the food or drink unaltered.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -154,7 +154,7 @@
     "price": {
       "gp": 650
     },
-    "description": "<p>You want revenge badly enough that you tattoo your nemesis's name in a place you can easily see to remember your vow to settle the score. Anyone who sees the tattoo senses your hatred of the named being. Receiving a new nemesis name makes any you already have non-magical.</p>\n<p>You gain a +2 status bonus to damage rolls against the creature named on your tattoo, but this nemesis gains a +1 status bonus to damage rolls against you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command (mental)</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> You can see your nemesis, and they're within 30 feet of you</p>\n<hr />\n<p><strong>Effect</strong> You focus your hatred into a mental scream. Your nemesis takes @Damage[3d6[mental]], which they can resist with a @Check[will|dc:26|basic] save. You take half as much damage as your nemesis does, and you can't reduce this damage in any way.</p>",
+    "description": "<p>You want revenge badly enough that you tattoo your nemesis's name in a place you can easily see to remember your vow to settle the score. Anyone who sees the tattoo senses your hatred of the named being. Receiving a new nemesis name makes any you already have non-magical.</p>\n<p>You gain a +2 status bonus to damage rolls against the creature named on your tattoo, but this nemesis gains a +1 status bonus to damage rolls against you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command (mental)</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> You can see your nemesis, and they're within 30 feet of you</p>\n<hr />\n<p><strong>Effect</strong> You focus your hatred into a mental scream. Your nemesis takes 3d6 mental, which they can resist with a DC 26 will save. You take half as much damage as your nemesis does, and you can't reduce this damage in any way.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -168,7 +168,7 @@
     "price": {
       "gp": 8
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.pf2e.actionspf2e.Item.Perform]</p>\n<p><strong>Requirements</strong> You are untrained in Performance.</p>\n<hr />\n<p>Made of polished wood, a neophyte's fipple is a block flute enchanted to guarantee melodic sound. When you Perform a song on the fipple to Activate it, your ability modifier, proficiency bonus, and item bonus for the Performance check total +7, regardless of what they would normally be. Add other bonuses and penalties to the check normally. Once the magic is used, the fipple remains as a mundane instrument.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Perform</p>\n<p><strong>Requirements</strong> You are untrained in Performance.</p>\n<hr />\n<p>Made of polished wood, a neophyte's fipple is a block flute enchanted to guarantee melodic sound. When you Perform a song on the fipple to Activate it, your ability modifier, proficiency bonus, and item bonus for the Performance check total +7, regardless of what they would normally be. Add other bonuses and penalties to the check normally. Once the magic is used, the fipple remains as a mundane instrument.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -192,7 +192,7 @@
     "price": {
       "gp": 1
     },
-    "description": "<p>You can use a net either on its own or attached to a rope. When attached to a rope, you can use the net to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a Medium or smaller creature up to 10 feet away (instead of only adjacent creatures). You can continue to Grapple to keep your hold on the target so long as the target remains within 10 feet and you continue to hold the net. The grabbed creature gains a +2 circumstance bonus to Escape unless you are adjacent to them, and it can attempt a @Check[athletics|dc:16|traits:action:force-open] check to Force Open the net entirely. Once the target is no longer grabbed, the net is unwieldy until refolded with an Interact action with the concentrate trait that requires two hands; if used without being refolded, Grapple checks made with the net take a -2 penalty.</p>\n<p>When the net is unattached, you can attempt a ranged attack roll using your simple weapon proficiency against a Medium or smaller creature within 20 feet. On a hit, the target is off-guard and takes a -10- foot circumstance penalty to its Speeds until it Escapes, and on a critical hit, it's also immobilized until it Escapes. The Escape DC is 16. A creature adjacent to the target can Interact to remove the net.</p>",
+    "description": "<p>You can use a net either on its own or attached to a rope. When attached to a rope, you can use the net to Grapple a Medium or smaller creature up to 10 feet away (instead of only adjacent creatures). You can continue to Grapple to keep your hold on the target so long as the target remains within 10 feet and you continue to hold the net. The grabbed creature gains a +2 circumstance bonus to Escape unless you are adjacent to them, and it can attempt a DC 16 athletics check to Force Open the net entirely. Once the target is no longer grabbed, the net is unwieldy until refolded with an Interact action with the concentrate trait that requires two hands; if used without being refolded, Grapple checks made with the net take a -2 penalty.</p>\n<p>When the net is unattached, you can attempt a ranged attack roll using your simple weapon proficiency against a Medium or smaller creature within 20 feet. On a hit, the target is off-guard and takes a -10- foot circumstance penalty to its Speeds until it Escapes, and on a critical hit, it's also immobilized until it Escapes. The Escape DC is 16. A creature adjacent to the target can Interact to remove the net.</p>",
     "rarity": "common",
     "traits": []
   },
@@ -202,7 +202,7 @@
     "price": {
       "gp": 160
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>Distilled from the Netherworld, this oily substance imposes tenebrous effects. The enfeebled condition from nethershade lasts for 24 hours.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[void]] damage and @Damage[2d6[poison]] damage (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[void]] damage, @Damage[2d6[poison]] damage, and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d6[void]] damage, @Damage[3d6[poison]] damage, and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} (1 round)</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>Distilled from the Netherworld, this oily substance imposes tenebrous effects. The enfeebled condition from nethershade lasts for 24 hours.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d6 void damage and 2d6 poison damage (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 void damage, 2d6 poison damage, and Enfeebled{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 3</strong> 3d6 void damage, 3d6 poison damage, and Enfeebled{Enfeebled 2} (1 round)</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -233,7 +233,7 @@
     "price": {
       "gp": 8000
     },
-    "description": "<p>This round shield is often fashioned to resemble the religious symbol of its dual-natured namesake. A <em>Nethysian bulwark</em> is a high-grade cold iron shield (Hardness 10, HP 40, BT 20) that defends the wielder and can explode with retributive force when struck.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> The shield becomes broken when performing a Shield Block</p>\n<hr />\n<p><strong>Effect</strong> The shield explodes in a burst of bright light and shadowy tendrils, releasing a @Template[cone|distance:15] of force that must include the attacker if possible. The cone deals @Damage[6d8[force]|options:area-damage] damage to all creatures in the area (@Check[reflex|dc:34|basic|options:area-effect]).</p>",
+    "description": "<p>This round shield is often fashioned to resemble the religious symbol of its dual-natured namesake. A <em>Nethysian bulwark</em> is a high-grade cold iron shield (Hardness 10, HP 40, BT 20) that defends the wielder and can explode with retributive force when struck.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> The shield becomes broken when performing a Shield Block</p>\n<hr />\n<p><strong>Effect</strong> The shield explodes in a burst of bright light and shadowy tendrils, releasing a 15 foot cone of force that must include the attacker if possible. The cone deals @Damage[6d8[force]|options:area-damage] damage to all creatures in the area (DC 34 reflex).</p>",
     "rarity": "uncommon",
     "traits": [
       "magical"
@@ -245,7 +245,7 @@
     "price": {
       "gp": 75
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Concentrated sap of stinging weeds makes an effective toxin.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:27]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage (1 minute)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage (1 minute)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage (1 minute)</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Concentrated sap of stinging weeds makes an effective toxin.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:27]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> 3d6 poison damage (1 minute)</p>\n<p><strong>Stage 2</strong> 4d6 poison damage (1 minute)</p>\n<p><strong>Stage 3</strong> 6d6 poison damage (1 minute)</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -260,7 +260,7 @@
     "price": {
       "gp": 720
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast @UUID[Compendium.pf2e.spells-srd.Item.Fire Shield], the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 6th-rank or lower <em>fire shield</em>, and the protection from severe cold lasts 24 hours.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast Fire Shield, the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 6th-rank or lower <em>fire shield</em>, and the protection from severe cold lasts 24 hours.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -274,7 +274,7 @@
     "price": {
       "gp": 3600
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast @UUID[Compendium.pf2e.spells-srd.Item.Fire Shield], the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 8th-rank or lower <em>fire shield</em>, and the protection from severe cold lasts 24 hours.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast Fire Shield, the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 8th-rank or lower <em>fire shield</em>, and the protection from severe cold lasts 24 hours.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -288,7 +288,7 @@
     "price": {
       "gp": 180
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast @UUID[Compendium.pf2e.spells-srd.Item.Fire Shield], the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 4th-rank <em>fire shield</em>.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<p>Nevercold, sometimes mistakenly referred to as nevercoal, is the charcoal left after wildfires in the First World. True to its name, nevercold remains warm to the touch. If you use nevercold to cast Fire Shield, the spell's duration increases by 1 minute, the cold resistance you gain from it lasts 1 hour, and you're protected from the effects of severe cold for 8 hours.</p>\n<p>The catalyst affects 4th-rank <em>fire shield</em>.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -302,7 +302,7 @@
     "price": {
       "gp": 4000
     },
-    "description": "<p>More often called by their nickname \"screamswords,\" the <em>Nexian sealing blades</em> were developed by the Arclords of Nex as special tools to ward off Gebbite infiltrators and assassins. Screamswords are <em>+2 greater striking disrupting silver longswords</em> with a couple of extra tricks. Each Nexian sealing blade can sense undead within 60 feet and responds by screaming loudly until there are no longer undead within that range. This same screaming can be unleashed as a sonic blast if needed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> the screamsword does what it does best and lets out an ear-shattering shriek. Each creature in a @Template[cone|distance:30] takes @Damage[10d6[sonic]] damage (@Check[fortitude|dc:31|basic] save). Any creature who fails is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round, or 1 hour on a critical failure</p>",
+    "description": "<p>More often called by their nickname \"screamswords,\" the <em>Nexian sealing blades</em> were developed by the Arclords of Nex as special tools to ward off Gebbite infiltrators and assassins. Screamswords are <em>+2 greater striking disrupting silver longswords</em> with a couple of extra tricks. Each Nexian sealing blade can sense undead within 60 feet and responds by screaming loudly until there are no longer undead within that range. This same screaming can be unleashed as a sonic blast if needed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> the screamsword does what it does best and lets out an ear-shattering shriek. Each creature in a 30 foot cone takes 10d6 sonic damage (DC 31 fortitude save). Any creature who fails is Deafened for 1 round, or 1 hour on a critical failure</p>",
     "rarity": "rare",
     "traits": [
       "arcane",
@@ -316,7 +316,7 @@
     "price": {
       "gp": 750
     },
-    "description": "<p>More often called by their nickname \"screamswords,\" the <em>Nexian sealing blades</em> were developed by the Arclords of Nex as special tools to ward off Gebbite infiltrators and assassins. Screamswords are <em>+1 striking disrupting silver longswords</em> with a couple of extra tricks. Each Nexian sealing blade can sense undead within 60 feet and responds by screaming loudly until there are no longer undead within that range. This same screaming can be unleashed as a sonic blast if needed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> the screamsword does what it does best and lets out an ear-shattering shriek. Each creature in a @Template[cone|distance:30] takes @Damage[6d6[sonic]] damage (@Check[fortitude|dc:25|basic] save). Any creature who fails is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round, or 1 hour on a critical failure</p>",
+    "description": "<p>More often called by their nickname \"screamswords,\" the <em>Nexian sealing blades</em> were developed by the Arclords of Nex as special tools to ward off Gebbite infiltrators and assassins. Screamswords are <em>+1 striking disrupting silver longswords</em> with a couple of extra tricks. Each Nexian sealing blade can sense undead within 60 feet and responds by screaming loudly until there are no longer undead within that range. This same screaming can be unleashed as a sonic blast if needed.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> the screamsword does what it does best and lets out an ear-shattering shriek. Each creature in a 30 foot cone takes 6d6 sonic damage (DC 25 fortitude save). Any creature who fails is Deafened for 1 round, or 1 hour on a critical failure</p>",
     "rarity": "rare",
     "traits": [
       "arcane",
@@ -343,7 +343,7 @@
     "price": {
       "gp": 1000
     },
-    "description": "<p>Crafted from polished wood, this seemingly mundane <em>+1 striking @UUID[Compendium.pf2e.equipment-srd.Item.Club]</em> comes with a red leather strap near the handle. The mere sight of the cudgel in a guard's hand fills prisoners with dread.</p>\n<p>Good creatures are @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2} while carrying, wielding, or wearing this item crafted by the sea-witches.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, mental)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You initiate an intimidating walk, thumping the cudgel menacingly against your palm. As part of activating this item, you can Stride twice. For the next minute, whenever you successfully Strike a creature with the <em>nightmare cudgel</em>, you can use a free action to attempt an Intimidation check to @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] the struck creature.</p>",
+    "description": "<p>Crafted from polished wood, this seemingly mundane <em>+1 striking Club</em> comes with a red leather strap near the handle. The mere sight of the cudgel in a guard's hand fills prisoners with dread.</p>\n<p>Good creatures are Enfeebled{Enfeebled 2} while carrying, wielding, or wearing this item crafted by the sea-witches.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (emotion, mental)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You initiate an intimidating walk, thumping the cudgel menacingly against your palm. As part of activating this item, you can Stride twice. For the next minute, whenever you successfully Strike a creature with the <em>nightmare cudgel</em>, you can use a free action to attempt an Intimidation check to Demoralize the struck creature.</p>",
     "rarity": "uncommon",
     "traits": [
       "invested",
@@ -357,7 +357,7 @@
     "price": {
       "gp": 14000
     },
-    "description": "<p>This potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly: victims experience periods of waking nightmares that overload the senses and eventually result in death through a combination of shock and exhaustion.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:43]</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Maximum Duration</strong> 5 days</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} once every [[/r 1d4]] hours, plus @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.Confused] for 1 minute once every [[/r 1d4]] hours, plus @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> frightened 3, plus confused for [[/r 1d4]] minutes, once every hour, plus fatigued (1 day)</p>\n<p><strong>Stage 4</strong> death</p>",
+    "description": "<p>This potent poison consists of crystals whose flavor and appearance mimics edible salt but whose effects are deadly: victims experience periods of waking nightmares that overload the senses and eventually result in death through a combination of shock and exhaustion.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:43]</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Maximum Duration</strong> 5 days</p>\n<p><strong>Stage 1</strong> Frightened{Frightened 2} once every [[/r 1d4]] hours, plus Fatigued (1 day)</p>\n<p><strong>Stage 2</strong> Confused for 1 minute once every [[/r 1d4]] hours, plus Frightened{Frightened 3} and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> frightened 3, plus confused for [[/r 1d4]] minutes, once every hour, plus fatigued (1 day)</p>\n<p><strong>Stage 4</strong> death</p>",
     "rarity": "rare",
     "traits": [
       "alchemical",
@@ -372,7 +372,7 @@
     "price": {
       "gp": 1400
     },
-    "description": "<p>Purportedly sourced from any number of outlandish locales, nightmare vapor is most often created by boiling the sweat collected from humanoids caught in the throes of terrible nightmares.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:36]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.Confused] (1 round)</p>\n<p><strong>Stage 2</strong> confused and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] (1 round)</p>\n<p><strong>Stage 3</strong> confused, off-guard, and @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 2} (1 round)</p>",
+    "description": "<p>Purportedly sourced from any number of outlandish locales, nightmare vapor is most often created by boiling the sweat collected from humanoids caught in the throes of terrible nightmares.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:36]</p>\n<p><strong>Onset</strong> 1 round</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> Confused (1 round)</p>\n<p><strong>Stage 2</strong> confused and Off-Guard (1 round)</p>\n<p><strong>Stage 3</strong> confused, off-guard, and Stupefied{Stupefied 2} (1 round)</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -387,7 +387,7 @@
     "price": {
       "gp": 250
     },
-    "description": "<p>A <em>nightmare</em> rune creates minor phantasmal alterations to a weapon's appearance so that those who look upon it see subtle reminders of their deepest fears. An arachnophobe might interpret the cross guard of a nightmare longsword to look like curving, twitching spider legs, for example, while someone who's afraid of sickness might see a nightmare club as a diseased length of bone crawling with flies. These images are all in the mind of the observer, but they also infuse the weapon with additional power. When you hit with a nightmare weapon, add @Damage[1d6[mental]] damage to the damage dealt. In addition, on a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} as well. These critical hit effects have the emotion, fear, and mental traits.</p>\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The <em>nightmare weapon</em> casts @UUID[Compendium.pf2e.spells-srd.Item.Nightmare] to your specifications.</p>",
+    "description": "<p>A <em>nightmare</em> rune creates minor phantasmal alterations to a weapon's appearance so that those who look upon it see subtle reminders of their deepest fears. An arachnophobe might interpret the cross guard of a nightmare longsword to look like curving, twitching spider legs, for example, while someone who's afraid of sickness might see a nightmare club as a diseased length of bone crawling with flies. These images are all in the mind of the observer, but they also infuse the weapon with additional power. When you hit with a nightmare weapon, add 1d6 mental damage to the damage dealt. In addition, on a critical hit, the target becomes Stupefied{Stupefied 1} by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes Frightened{Frightened 2} as well. These critical hit effects have the emotion, fear, and mental traits.</p>\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The <em>nightmare weapon</em> casts Nightmare to your specifications.</p>",
     "rarity": "uncommon",
     "traits": [
       "magical"
@@ -399,7 +399,7 @@
     "price": {
       "gp": 230
     },
-    "description": "<p>Ritually constructed from the bones of a nightmare, a <em>nightmare's lament</em> is a <em>+1 striking rapier pistol</em>. Thin wisps of dark smoke continually surround the red-flecked blade.</p><hr /><p><strong>Activate—Fuming Cloak</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> For 1 minute, the <em>nightmare's lament</em> continually vents thick, black smoke that creates concealment in a 15-foot aura around the gun's wielder. The wielder of the <em>nightmare's lament</em> can see through this smoke. A creature that begins its turn in the area becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} (@Check[fortitude|dc:23] negates) and is then temporarily immune to the sickness from the smoke for 1 minute. The wielder of the <em>nightmare's lament</em>, any creature currently holding its breath (or that does not need to breathe), and any creature immune to poison are immune to the aura's sickened effect but not the concealment.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Aura: Fuming Cloak]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the rib bones and inner fire of a nightmare.</p>",
+    "description": "<p>Ritually constructed from the bones of a nightmare, a <em>nightmare's lament</em> is a <em>+1 striking rapier pistol</em>. Thin wisps of dark smoke continually surround the red-flecked blade.</p><hr /><p><strong>Activate—Fuming Cloak</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> For 1 minute, the <em>nightmare's lament</em> continually vents thick, black smoke that creates concealment in a 15-foot aura around the gun's wielder. The wielder of the <em>nightmare's lament</em> can see through this smoke. A creature that begins its turn in the area becomes Sickened{Sickened 2} (@Check[fortitude|dc:23] negates) and is then temporarily immune to the sickness from the smoke for 1 minute. The wielder of the <em>nightmare's lament</em>, any creature currently holding its breath (or that does not need to breathe), and any creature immune to poison are immune to the aura's sickened effect but not the concealment.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Aura: Fuming Cloak]</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the rib bones and inner fire of a nightmare.</p>",
     "rarity": "uncommon",
     "traits": [
       "combination",
@@ -414,7 +414,7 @@
     "price": {
       "gp": 60
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>A pellet of tar mixed with the fur of a nocturnal creature, such as a bat, nightpitch used to cast a @UUID[Compendium.pf2e.spells-srd.Item.Darkness] spell makes the area of the darkness difficult terrain.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>A pellet of tar mixed with the fur of a nocturnal creature, such as a bat, nightpitch used to cast a Darkness spell makes the area of the darkness difficult terrain.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -443,7 +443,7 @@
     "price": {
       "gp": 80
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>The dwarves of Cloudspire Citadel in Golarion's Mwangi Expanse create bottles of <em>nimbus breath</em> by capturing and bottling the fluffiest nimbus clouds from the lairs of cloud dragons. After harvesting the cloud, the bottle must sit at the peak of the tallest mountain for 10 days and 10 nights, pelted by all forms of weather. <em>Nimbus breaths</em> can also be created by capturing clouds on other planes, such as those found on the Plane of Air or in the highest peaks of Celestia.</p>\n<p>After you inhale the <em>nimbus breath</em>, you gain resistance 5 to electricity and are affected by @UUID[Compendium.pf2e.spells-srd.Item.Fly] as long as you hold your breath.</p>\n<p>You can exhale the breath as a single action to create a @UUID[Compendium.pf2e.spells-srd.Item.Gust of Wind] (DC 24) from your mouth. If you're airborne when the cloud expires, you float gently to the ground at 60 feet per round and don't take damage from this fall.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Nimbus Breath]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<hr />\n<p>The dwarves of Cloudspire Citadel in Golarion's Mwangi Expanse create bottles of <em>nimbus breath</em> by capturing and bottling the fluffiest nimbus clouds from the lairs of cloud dragons. After harvesting the cloud, the bottle must sit at the peak of the tallest mountain for 10 days and 10 nights, pelted by all forms of weather. <em>Nimbus breaths</em> can also be created by capturing clouds on other planes, such as those found on the Plane of Air or in the highest peaks of Celestia.</p>\n<p>After you inhale the <em>nimbus breath</em>, you gain resistance 5 to electricity and are affected by Fly as long as you hold your breath.</p>\n<p>You can exhale the breath as a single action to create a Gust of Wind (DC 24) from your mouth. If you're airborne when the cloud expires, you float gently to the ground at 60 feet per round and don't take damage from this fall.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "air",
@@ -484,7 +484,7 @@
     "price": {
       "gp": 6
     },
-    "description": "<p>When a creature enters this snare's square, it triggers an extremely loud clockwork device, which explodes with a bang that can be heard from 200 feet away and deals @Damage[1d8[fire]] damage. The creature must attempt a @Check[reflex|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.Deafened] for 1 minute.</p>",
+    "description": "<p>When a creature enters this snare's square, it triggers an extremely loud clockwork device, which explodes with a bang that can be heard from 200 feet away and deals 1d8 fire damage. The creature must attempt a @Check[reflex|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is Deafened for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is Deafened for 1 minute.</p>",
     "rarity": "uncommon",
     "traits": [
       "clockwork",
@@ -501,7 +501,7 @@
     "price": {
       "gp": 85
     },
-    "description": "<p>This unpleasant-looking hood appears to be a completely smooth, round sack of skin that feels uncannily warm to the touch. When you wear this hood and invest it, it merges with your head and face, becoming imperceptible as a worn item except on close examination, which reveals a slight oily sheen to your facial features. You can cause minor shifts and changes to your features while wearing a <em>noppera-bo hood</em>; this counts as having a @UUID[Compendium.pf2e.equipment-srd.Item.Disguise Kit] to Impersonate any creature that is the same ancestry as you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on the hood's magic, and then gain the effects of 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise], though it's a transmutation effect rather than an illusion.</p>",
+    "description": "<p>This unpleasant-looking hood appears to be a completely smooth, round sack of skin that feels uncannily warm to the touch. When you wear this hood and invest it, it merges with your head and face, becoming imperceptible as a worn item except on close examination, which reveals a slight oily sheen to your facial features. You can cause minor shifts and changes to your features while wearing a <em>noppera-bo hood</em>; this counts as having a Disguise Kit to Impersonate any creature that is the same ancestry as you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on the hood's magic, and then gain the effects of 1st-rank Illusory Disguise, though it's a transmutation effect rather than an illusion.</p>",
     "rarity": "rare",
     "traits": [
       "illusion",
@@ -515,7 +515,7 @@
     "price": {
       "gp": 600
     },
-    "description": "<p>Light and strong, noqual also demonstrates a powerful resistance to magic. A side effect of this resistance is that making magical weapons out of noqual requires complex and expensive alchemical treatments. Kevoth-Kul, the Black Sovereign of Numeria, has developed an alloy of noqual and cold iron known as sovereign steel to help mitigate this property. The metal's crystalline appearance might suggest that it's fragile, but the pale-green material can be worked similarly to iron.</p>\n<p>Objects made of noqual have a +4 circumstance bonus on saves against magic that the item attempts and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the @UUID[Compendium.pf2e.spells-srd.Item.Rusting Grasp] spell).</p>\n<h2>Noqual Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Noqual Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>",
+    "description": "<p>Light and strong, noqual also demonstrates a powerful resistance to magic. A side effect of this resistance is that making magical weapons out of noqual requires complex and expensive alchemical treatments. Kevoth-Kul, the Black Sovereign of Numeria, has developed an alloy of noqual and cold iron known as sovereign steel to help mitigate this property. The metal's crystalline appearance might suggest that it's fragile, but the pale-green material can be worked similarly to iron.</p>\n<p>Objects made of noqual have a +4 circumstance bonus on saves against magic that the item attempts and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the Rusting Grasp spell).</p>\n<h2>Noqual Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Noqual Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>",
     "rarity": "rare",
     "traits": [
       "precious"
@@ -527,7 +527,7 @@
     "price": {
       "gp": 6000
     },
-    "description": "<p>Light and strong, noqual also demonstrates a powerful resistance to magic. A side effect of this resistance is that making magical weapons out of noqual requires complex and expensive alchemical treatments. Kevoth-Kul, the Black Sovereign of Numeria, has developed an alloy of noqual and cold iron known as sovereign steel to help mitigate this property. The metal's crystalline appearance might suggest that it's fragile, but the pale-green material can be worked similarly to iron.</p>\n<p>Objects made of noqual have a +4 circumstance bonus on saves against magic that the item attempts and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the @UUID[Compendium.pf2e.spells-srd.Item.Rusting Grasp] spell).</p>\n<h2>Noqual Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Noqual Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>",
+    "description": "<p>Light and strong, noqual also demonstrates a powerful resistance to magic. A side effect of this resistance is that making magical weapons out of noqual requires complex and expensive alchemical treatments. Kevoth-Kul, the Black Sovereign of Numeria, has developed an alloy of noqual and cold iron known as sovereign steel to help mitigate this property. The metal's crystalline appearance might suggest that it's fragile, but the pale-green material can be worked similarly to iron.</p>\n<p>Objects made of noqual have a +4 circumstance bonus on saves against magic that the item attempts and grant their bonus to saves the owner makes specifically to protect the item from magic (such as against the Rusting Grasp spell).</p>\n<h2>Noqual Items</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Noqual Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>",
     "rarity": "rare",
     "traits": [
       "precious"
@@ -555,7 +555,7 @@
     "price": {
       "gp": 19000
     },
-    "description": "<p>Nosois serve as scribes and messengers to psychopomps. They are rare outside of the Boneyard, so it's common for psychopomps venturing to other planes to carry a nosoi facsimile to aid in their travels. This tiny icon of a masked raven emits twittering sounds in perfect accompaniment to your performances. You gain a +3 item bonus to Performance checks to play an instrument, orate, or sing. You can cast @UUID[Compendium.pf2e.spells-srd.Item.Sending] once per day as a divine innate spell.</p>\n<p>You gain lifesense as an imprecise sense with a range of 30 feet as long as you continue holding the charm. This allows you to sense the life force that animates living creatures and the perverse force that animates the dead, though you can't distinguish between the two.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You twist the base of the charm, and the twittering it emits becomes helpful words to boost your arguments. You lose the item bonus to Performance checks and gain a +3 item bonus to Diplomacy checks to make Requests until you use this activation again.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Nosoi Charm (Greater) (Diplomacy)]</p>",
+    "description": "<p>Nosois serve as scribes and messengers to psychopomps. They are rare outside of the Boneyard, so it's common for psychopomps venturing to other planes to carry a nosoi facsimile to aid in their travels. This tiny icon of a masked raven emits twittering sounds in perfect accompaniment to your performances. You gain a +3 item bonus to Performance checks to play an instrument, orate, or sing. You can cast Sending once per day as a divine innate spell.</p>\n<p>You gain lifesense as an imprecise sense with a range of 30 feet as long as you continue holding the charm. This allows you to sense the life force that animates living creatures and the perverse force that animates the dead, though you can't distinguish between the two.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You twist the base of the charm, and the twittering it emits becomes helpful words to boost your arguments. You lose the item bonus to Performance checks and gain a +3 item bonus to Diplomacy checks to make Requests until you use this activation again.</p>\n<p></p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -568,7 +568,7 @@
     "price": {
       "gp": 1900
     },
-    "description": "<p>Nosois serve as scribes and messengers to psychopomps. They are rare outside of the Boneyard, so it's common for psychopomps venturing to other planes to carry a nosoi facsimile to aid in their travels. This tiny icon of a masked raven emits twittering sounds in perfect accompaniment to your performances. You gain a +2 item bonus to Performance checks to play an instrument, orate, or sing. You can cast @UUID[Compendium.pf2e.spells-srd.Item.Sending] once per day as a divine innate spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You twist the base of the charm, and the twittering it emits becomes helpful words to boost your arguments. You lose the item bonus to Performance checks and gain a +2 item bonus to Diplomacy checks to make Requests until you use this activation again.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Nosoi Charm (Diplomacy)]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain lifesense as an imprecise sense with a range of 30 feet for 1 hour as long as you continue to hold the charm. This allows you to sense the life force that animates living creatures and the perverse force that animates the dead, though you can't distinguish between the two.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Nosoi Charm (Lifesense)]</p>",
+    "description": "<p>Nosois serve as scribes and messengers to psychopomps. They are rare outside of the Boneyard, so it's common for psychopomps venturing to other planes to carry a nosoi facsimile to aid in their travels. This tiny icon of a masked raven emits twittering sounds in perfect accompaniment to your performances. You gain a +2 item bonus to Performance checks to play an instrument, orate, or sing. You can cast Sending once per day as a divine innate spell.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You twist the base of the charm, and the twittering it emits becomes helpful words to boost your arguments. You lose the item bonus to Performance checks and gain a +2 item bonus to Diplomacy checks to make Requests until you use this activation again.</p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain lifesense as an imprecise sense with a range of 30 feet for 1 hour as long as you continue to hold the charm. This allows you to sense the life force that animates living creatures and the perverse force that animates the dead, though you can't distinguish between the two.</p>\n<p></p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -581,7 +581,7 @@
     "price": {
       "gp": 750
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a @UUID[Compendium.pf2e.spells-srd.Item.Wall of Fire] spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are @UUID[Compendium.pf2e.conditionitems.Item.Concealed], and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell. The incense can be used with a <em>wall of fire</em> of any level.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a Wall of Fire spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are Concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell. The incense can be used with a <em>wall of fire</em> of any level.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -595,7 +595,7 @@
     "price": {
       "gp": 125
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a @UUID[Compendium.pf2e.spells-srd.Item.Wall of Fire] spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are @UUID[Compendium.pf2e.conditionitems.Item.Concealed], and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell. The incense can be used with a <em>wall of fire</em> of 6th level or below.</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a Wall of Fire spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are Concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell. The incense can be used with a <em>wall of fire</em> of 6th level or below.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -609,7 +609,7 @@
     "price": {
       "gp": 2800
     },
-    "description": "<p>This +2 resilient padded armor is woven from many strands of gut cord strung with dried organs and preserved xulgath scent glands. When worn, it infuses your body with a ghastly and nauseating flavor.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You are grabbed or are hit by an unarmed attack</p>\n<hr />\n<p><strong>Effect</strong> Your attacker must attempt a @Check[fortitude|dc:28] saving throw. Creatures with a stench aura, such as otyughs and xulgaths, are immune to this effect.</p>\n<p><strong>Success</strong> The creature is unaffected and is immune to the effects of the noxious jerkin for 1 minute.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature is sickened 1 and is @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for 1 round.</p>",
+    "description": "<p>This +2 resilient padded armor is woven from many strands of gut cord strung with dried organs and preserved xulgath scent glands. When worn, it infuses your body with a ghastly and nauseating flavor.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You are grabbed or are hit by an unarmed attack</p>\n<hr />\n<p><strong>Effect</strong> Your attacker must attempt a @Check[fortitude|dc:28] saving throw. Creatures with a stench aura, such as otyughs and xulgaths, are immune to this effect.</p>\n<p><strong>Success</strong> The creature is unaffected and is immune to the effects of the noxious jerkin for 1 minute.</p>\n<p><strong>Failure</strong> The creature is Sickened{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature is sickened 1 and is Slowed{Slowed 1} for 1 round.</p>",
     "rarity": "rare",
     "traits": [
       "comfort",
@@ -622,7 +622,7 @@
     "price": {
       "gp": 600
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 15 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (Greater)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 15 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -636,7 +636,7 @@
     "price": {
       "gp": 30
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 5 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (Lesser)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 5 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -650,7 +650,7 @@
     "price": {
       "gp": 1400
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 20 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (Major)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 20 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -664,7 +664,7 @@
     "price": {
       "gp": 4
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 2 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (Minor)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 2 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -678,7 +678,7 @@
     "price": {
       "gp": 150
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 10 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (Moderate)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 10 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -692,7 +692,7 @@
     "price": {
       "gp": 8000
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 25 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Numbing Tonic (True)]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Numbing tonic makes it easier to push through the pain of battle and shrug off otherwise debilitating blows. You gain 25 temporary Hit Points when you drink the elixir, and again at the start of each of your turns for 1 minute.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -706,7 +706,7 @@
     "price": {
       "gp": 900
     },
-    "description": "<p>This +1 resilient breastplate is constructed from the salvaged armor plating of one of Numeria's large robots. It protects the wearer from harsh elements and common laser fire, granting the wearer fire resistance 5.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You activate the remnants of mysterious technology within the breastplate to encase yourself in an electric field. For 1 minute, adjacent creatures that hit you with a melee Strike, as well as creatures that touch you or hit you with an unarmed attack, take @Damage[1d10[electricity]] damage per hit.</p>",
+    "description": "<p>This +1 resilient breastplate is constructed from the salvaged armor plating of one of Numeria's large robots. It protects the wearer from harsh elements and common laser fire, granting the wearer fire resistance 5.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You activate the remnants of mysterious technology within the breastplate to encase yourself in an electric field. For 1 minute, adjacent creatures that hit you with a melee Strike, as well as creatures that touch you or hit you with an unarmed attack, take 1d10 electricity damage per hit.</p>",
     "rarity": "rare",
     "traits": []
   },
@@ -731,7 +731,7 @@
     "price": {
       "gp": 90
     },
-    "description": "<p>This macabre staff is crafted from gleaming white bone, a spinal column spiraling out of its base with a skull swinging from the spine's tip. It was handcrafted for Nyctessa by her father, a powerful Blood Lord, from her mortal mother's bones.</p>\n<p>When you damage a creature with Nyctessa's staff, that creature gains weakness 2 to void damage until the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Sepulchral Drain]</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Void Warp]</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Summon Undead], @UUID[Compendium.pf2e.spells-srd.Item.Fear]</li>\n</ul>",
+    "description": "<p>This macabre staff is crafted from gleaming white bone, a spinal column spiraling out of its base with a skull swinging from the spine's tip. It was handcrafted for Nyctessa by her father, a powerful Blood Lord, from her mortal mother's bones.</p>\n<p>When you damage a creature with Nyctessa's staff, that creature gains weakness 2 to void damage until the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Sepulchral Drain]</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Void Warp</li>\n<li><strong>1st</strong> Summon Undead, Fear</li>\n</ul>",
     "rarity": "unique",
     "traits": [
       "magical",
@@ -759,7 +759,7 @@
     "price": {
       "gp": 15
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this bitter draft, your skin thickens like bark. You gain the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Oaken Resilience] for 10 minutes.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this bitter draft, your skin thickens like bark. You gain the effects of a 2nd-rank Oaken Resilience for 10 minutes.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -773,7 +773,7 @@
     "level": 9,
     "name": "Oath of the Devoted",
     "price": {},
-    "description": "<p>You gain fire and mental resistance 5. When you die, you rise as an undead creature with the zombie trait on the next round; if you are a PC, you become an NPC under Walkena's control. Your stats remain the same, except that your alignment changes to evil. If you reach 0 Hit Points as a zombie, you are destroyed and do not rise again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 status bonus to Will saves. Choose a weapon or an unarmed Strike; your chosen attack deals an extra @Damage[1d6[fire]] damage for the next 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Oath of the Devoted]</p>\n<hr />\n<p><strong>Special</strong> If you are a zombie at a time when Mzali is entirely purged of foreigners, your duty is fulfilled and you are immediately destroyed.</p>",
+    "description": "<p>You gain fire and mental resistance 5. When you die, you rise as an undead creature with the zombie trait on the next round; if you are a PC, you become an NPC under Walkena's control. Your stats remain the same, except that your alignment changes to evil. If you reach 0 Hit Points as a zombie, you are destroyed and do not rise again.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 status bonus to Will saves. Choose a weapon or an unarmed Strike; your chosen attack deals an extra 1d6 fire damage for the next 1 minute.</p>\n<p></p>\n<hr />\n<p><strong>Special</strong> If you are a zombie at a time when Mzali is entirely purged of foreigners, your duty is fulfilled and you are immediately destroyed.</p>",
     "rarity": "rare",
     "traits": [
       "contract",
@@ -803,7 +803,7 @@
     "price": {
       "gp": 1200
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>You can spread this blue-gray gel on a single item with a Bulk of 3 or less to ward it against magical detection. It becomes immune to divination magic of 8th rank or lower (such as @UUID[Compendium.pf2e.spells-srd.Item.Locate]). This oil is permanent, but it can be removed with acid. Removing the oil in this way usually takes 1 minute for objects with Bulk of 1 or less, or a number of minutes equal to the item's Bulk.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>You can spread this blue-gray gel on a single item with a Bulk of 3 or less to ward it against magical detection. It becomes immune to divination magic of 8th rank or lower (such as Locate). This oil is permanent, but it can be removed with acid. Removing the oil in this way usually takes 1 minute for objects with Bulk of 1 or less, or a number of minutes equal to the item's Bulk.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -817,7 +817,7 @@
     "price": {
       "gp": 6500
     },
-    "description": "<p>Created from a daemon's powdered soul gems or refined from the waters of Abaddon's rivers, oblivion essence causes victims to rapidly age and decay.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:42]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[8d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[10d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 2}, and slowed 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[12d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 3}, slowed 1 (1 round)</p>",
+    "description": "<p>Created from a daemon's powdered soul gems or refined from the waters of Abaddon's rivers, oblivion essence causes victims to rapidly age and decay.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:42]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 8d6 poison damage and Slowed{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> 10d6 poison damage, Enfeebled{Enfeebled 2}, and slowed 1 (1 round)</p>\n<p><strong>Stage 3</strong> 12d6 poison damage, Enfeebled{Enfeebled 3}, slowed 1 (1 round)</p>",
     "rarity": "uncommon",
     "traits": [
       "alchemical",
@@ -832,7 +832,7 @@
     "price": {
       "gp": 700
     },
-    "description": "<p>This black obsidian blade is a <em>+1 striking flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>greater obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a @Template[emanation|distance:15] of fire and glass. Creatures in the area take @Damage[3d6[fire],2d6[piercing]|options:area-damage]{3d6 fire damage and 2d6 piercing damage} with a @Check[reflex|dc:25|basic|options:area-effect] save.</p>",
+    "description": "<p>This black obsidian blade is a <em>+1 striking flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>greater obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a 15 foot emanation of fire and glass. Creatures in the area take @Damage[3d6[fire],2d6[piercing]|options:area-damage]{3d6 fire damage and 2d6 piercing damage} with a DC 25 reflex save.</p>",
     "rarity": "uncommon",
     "traits": [
       "combination",
@@ -848,7 +848,7 @@
     "price": {
       "gp": 1800
     },
-    "description": "<p>This black obsidian blade is a <em>+2 striking flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>major obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a @Template[emanation|distance:15] of fire and glass. Creatures in the area take @Damage[4d6[fire],3d6[piercing]|options:area-damage]{4d6 fire damage and 3d6 piercing damage} with a @Check[reflex|dc:29|basic|options:area-effect] save.</p>",
+    "description": "<p>This black obsidian blade is a <em>+2 striking flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>major obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a 15 foot emanation of fire and glass. Creatures in the area take @Damage[4d6[fire],3d6[piercing]|options:area-damage]{4d6 fire damage and 3d6 piercing damage} with a DC 29 reflex save.</p>",
     "rarity": "uncommon",
     "traits": [
       "combination",
@@ -864,7 +864,7 @@
     "price": {
       "gp": 22000
     },
-    "description": "<p>This black obsidian blade is a <em>+3 greater striking greater flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>true obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a @Template[emanation|distance:15] of fire and glass. Creatures in the area take @Damage[5d6[fire],4d6[piercing]|options:area-damage]{5d6 fire damage and 4d6 piercing damage} with a @Check[reflex|dc:38|basic|options:area-effect] save.</p>",
+    "description": "<p>This black obsidian blade is a <em>+3 greater striking greater flaming gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>true obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a 15 foot emanation of fire and glass. Creatures in the area take @Damage[5d6[fire],4d6[piercing]|options:area-damage]{5d6 fire damage and 4d6 piercing damage} with a DC 38 reflex save.</p>",
     "rarity": "uncommon",
     "traits": [
       "combination",
@@ -880,7 +880,7 @@
     "price": {
       "gp": 250
     },
-    "description": "<p>This black obsidian blade is a <em>+1 striking gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch. Strikes with this gun sword deal 1 extra fire damage.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a @Template[emanation|distance:15] of fire and glass. Creatures in the area take @Damage[2d6[fire],2d6[piercing]|options:area-damage]{2d6 fire damage and 2d6 piercing damage} with a @Check[reflex|dc:20|basic|options:area-effect] save.</p>",
+    "description": "<p>This black obsidian blade is a <em>+1 striking gun sword</em>. Magma seeps along its many cracks and crags, and the handle is hot but not scalding to the touch. Strikes with this gun sword deal 1 extra fire damage.</p>\n<hr />\n<p><strong>Activate—Explosion of Shards</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your most recent action this turn was a successful ranged Strike with <em>obsidian edge</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> Magma coats the sword blade completely before exploding from your weapon in a 15 foot emanation of fire and glass. Creatures in the area take @Damage[2d6[fire],2d6[piercing]|options:area-damage]{2d6 fire damage and 2d6 piercing damage} with a DC 20 reflex save.</p>",
     "rarity": "uncommon",
     "traits": [
       "combination",
@@ -896,7 +896,7 @@
     "price": {
       "gp": 1250
     },
-    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +2 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain darkvision until you deactivate it as an Interact action or the item is no longer invested by you, whichever comes first.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Obsidian Goggles (Greater)]</p>",
+    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +2 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain darkvision until you deactivate it as an Interact action or the item is no longer invested by you, whichever comes first.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -909,7 +909,7 @@
     "price": {
       "gp": 20000
     },
-    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +3 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain <em>greater darkvision</em> until you deactivate it as an Interact action or the item is no longer invested by you, whichever comes first.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Obsidian Goggles (Major)]</p>",
+    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +3 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain <em>greater darkvision</em> until you deactivate it as an Interact action or the item is no longer invested by you, whichever comes first.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -922,7 +922,7 @@
     "price": {
       "gp": 150
     },
-    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +1 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain darkvision for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Obsidian Goggles]</p>",
+    "description": "<p>The sleek, black lenses of these goggles somehow make everything seem more brightly lit. While wearing the goggles, you gain a +1 item bonus to Perception checks involving sight.</p>\n<hr />\n<p><strong>Activate—Darkvision</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Adjusting your goggles, you gain darkvision for 1 hour.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -945,7 +945,7 @@
     "price": {
       "gp": 100
     },
-    "description": "<p>The four different types of <em>scroll cases of simplicity</em> often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a <em>scroll case of simplicity</em> of a corresponding type.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Requirements</strong> The scroll case contains a single scroll of a 1st-rank spell</p>\n<hr />\n<p><strong>Effect</strong> You transfer the scroll's energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case's spells. If you use any action other than to Cast a Spell from the scroll case after activating the <em>scroll case of simplicity</em>, the scroll and its energy are lost.</p>\n<p>The scroll case can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise] or @UUID[Compendium.pf2e.spells-srd.Item.Soothe]</p>",
+    "description": "<p>The four different types of <em>scroll cases of simplicity</em> often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a <em>scroll case of simplicity</em> of a corresponding type.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p><strong>Requirements</strong> The scroll case contains a single scroll of a 1st-rank spell</p>\n<hr />\n<p><strong>Effect</strong> You transfer the scroll's energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case's spells. If you use any action other than to Cast a Spell from the scroll case after activating the <em>scroll case of simplicity</em>, the scroll and its energy are lost.</p>\n<p>The scroll case can be used to cast Illusory Disguise or Soothe</p>",
     "rarity": "uncommon",
     "traits": [
       "invested",
@@ -958,7 +958,7 @@
     "price": {
       "gp": 1400
     },
-    "description": "<p>This brownish-orange lens always feels dusty and gritty, regardless of how often it's polished, though it doesn't impede light shining through it.</p>\n<p>While you have the <em>Ochre Fulcrum Lens</em> invested, lassitude grips you and your emotions are hard to sway. You gain resistance 10 to mental damage and a +2 status bonus to saves against emotion effects.</p>\n<p>You can also activate the lens in the following ways.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Ochre Fulcrum Lens]</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hold up the <em>Ochre Fulcrum Lens</em> in your hand and the item casts @UUID[Compendium.pf2e.spells-srd.Item.Wave of Despair] (@Check[will|dc:31|traits:emotion,enchantment,mental,occult] save).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (attack, possession)</p>\n<p>While grasping the lens, make a melee spell attack roll with a modifier of [[/r 1d20+21]]{+21}. On a hit, you force the splinter of Nhimbaloth's essence from the lens to possess the target. You're no longer invested in the lens, and the target gains the benefits as though it had invested the lens but can't activate the lens's other abilities. This effect is permanent, but it can be ended by any effect that removes a possession effect. The lens doesn't have any magical abilities until the possession effect ends; when it does, the essence returns to the lens.</p>",
+    "description": "<p>This brownish-orange lens always feels dusty and gritty, regardless of how often it's polished, though it doesn't impede light shining through it.</p>\n<p>While you have the <em>Ochre Fulcrum Lens</em> invested, lassitude grips you and your emotions are hard to sway. You gain resistance 10 to mental damage and a +2 status bonus to saves against emotion effects.</p>\n<p>You can also activate the lens in the following ways.</p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hold up the <em>Ochre Fulcrum Lens</em> in your hand and the item casts Wave of Despair (DC 31 will save).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact (attack, possession)</p>\n<p>While grasping the lens, make a melee spell attack roll with a modifier of [[/r 1d20+21]]{+21}. On a hit, you force the splinter of Nhimbaloth's essence from the lens to possess the target. You're no longer invested in the lens, and the target gains the benefits as though it had invested the lens but can't activate the lens's other abilities. This effect is permanent, but it can be ended by any effect that removes a possession effect. The lens doesn't have any magical abilities until the possession effect ends; when it does, the essence returns to the lens.</p>",
     "rarity": "unique",
     "traits": [
       "invested",
@@ -971,7 +971,7 @@
     "price": {
       "gp": 100
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Miniature octopus arms press up against the sides of this bottle, obscuring the rest of its contents. When opened, a Huge octopus bursts forth, which can appear in water instead of on the ground. Its arms attempt to grasp a creature with a reach of 15 feet. The octopus repositions that creature to a different space within its reach unless the target succeeds at a @Check[fortitude|dc:24] save.</p>\n<p>If the octopus is in water, it then releases a cloud of ink in a @Template[emanation|distance:30]. This cloud has no effect outside of water. Creatures inside the cloud are undetected and can't use their sense of smell. The cloud dissipates after 1 minute.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a giant octopus corpse.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Miniature octopus arms press up against the sides of this bottle, obscuring the rest of its contents. When opened, a Huge octopus bursts forth, which can appear in water instead of on the ground. Its arms attempt to grasp a creature with a reach of 15 feet. The octopus repositions that creature to a different space within its reach unless the target succeeds at a @Check[fortitude|dc:24] save.</p>\n<p>If the octopus is in water, it then releases a cloud of ink in a 30 foot emanation. This cloud has no effect outside of water. Creatures inside the cloud are undetected and can't use their sense of smell. The cloud dissipates after 1 minute.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a giant octopus corpse.</p>",
     "rarity": "uncommon",
     "traits": [
       "alchemical",
@@ -985,7 +985,7 @@
     "price": {
       "gp": 500
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained] by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+22 #Athletics]]{+22} and the Escape DC is 30.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded].</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[13[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to Grapple a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains Grabbed or Restrained by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+22 #Athletics]]{+22} and the Escape DC is 30.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also Blinded.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[13[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1001,7 +1001,7 @@
     "price": {
       "gp": 50
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained] by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+12 #Athletics]]{+12} and the Escape DC is 20.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded].</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[6[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to Grapple a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains Grabbed or Restrained by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+12 #Athletics]]{+12} and the Escape DC is 20.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also Blinded.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[6[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1017,7 +1017,7 @@
     "price": {
       "gp": 130
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained] by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+17 #Athletics]]{+17} and the Escape DC is 25.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also @UUID[Compendium.pf2e.conditionitems.Item.Blinded].</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[9[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>Eight flailing octopus arms covered in suckers pop out from the sides of your body when you imbibe this potion. The arms share your multiple attack penalty and attempt to Grapple a random enemy within 15 feet of you. On a success, roll [[/r 1d4 #Added Effect]] to determine an additional effect of the arms, which lasts as long as the target remains Grabbed or Restrained by the arms. On subsequent turns, you can use a single action, which has the attack trait, to have the arms either Grapple a creature currently grappled or restrained (with no added effect) or release any creature they currently hold and repeat their initial effect. After 1 minute, the arms disappear and the potion's effects end.</p>\n<p>The Athletics modifier is [[/r 1d20+17 #Athletics]]{+17} and the Escape DC is 25.</p>\n<table>\n<thead>\n<tr>\n<td>1d4</td>\n<td>Added Effect</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>The arms cover the eyes; the target is also Blinded.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The arms cover the mouth; the target can't speak.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The arms wrap around the limbs; the flat check for the target to use a manipulate action while grabbed is @Check[flat|dc:7] instead of DC 5.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>The arms crush your enemy; the target takes @Damage[9[bludgeoning]]{bludgeoning damage} equal to the potion's level immediately and at the end of each of its turns.</td>\n</tr>\n</tbody>\n</table>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1031,7 +1031,7 @@
     "level": 15,
     "name": "Oculus of Abaddon",
     "price": {},
-    "description": "<p>An <em>oculus of Abaddon</em> is a potent artifact rumored to have been created by one of the Four Horsemen of the Apocalypse as a way to reward those who work as their agents on the Material Plane. More likely, these items were crafted by a powerful pre-Earthfall death cult that has long since moved on, leaving behind these dangerous artifacts to tempt mortals into serving the needs of the Horsemen.</p>\n<p>An <em>oculus of Abaddon</em> appears as a sphere of clear crystal that contains a pinpoint of flickering red light at its center. When held, the oculus feels warm to the touch and fills you with a sudden desire to pluck out an eye and place the oculus within the socket-this causes @Damage[4d6[bleed]] damage. Once placed in an eye socket, the oculus can be removed only by ripping it free (causing the same amount of persistent bleed damage as the initial plucking). When you place the oculus in your empty eye socket, you immediately heal all damage caused by plucking the previous eye out. Once placed, an oculus grants you constant @UUID[Compendium.pf2e.spells-srd.Item.Darkvision]. It can also be activated to perform a number of other magical effects, as detailed below, but if you aren't evil, each time you activate an <em>oculus of Abaddon</em>, you must succeed at a @Check[will|dc:36] save or become affected by a subconscious suggestion (heightened to 8th level) to perform an evil act the next time an opportunity to do so arises, as determined by the GM.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> You gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.Scrying], heightened to 7th level.</p>\n<hr />\n<p><strong>Activate</strong> @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell]</p>\n<p><strong>Frequency</strong> once per week</p>\n<p><strong>Effect</strong> You use the <em>oculus of Abaddon</em> to cast a @UUID[Compendium.pf2e.spells-srd.Item.Binding Circle] ritual, heightened to 7th level. You can only conjure neutral evil creatures with this casting of planar binding. If you already know the planar binding ritual, you gain a +3 item bonus on the primary check when casting planar binding.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision;</p>\n<p><strong>Requirement</strong> you have a familiar or animal companion</p>\n<p><strong>Effect</strong> You can see and hear through your familiar or animal companion's eyes and ears, provided you are on the same plane. This effect can be sustained, but as long as you do so you can take no other actions.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (envision; evil)</p>\n<p><strong>Frequency</strong> once per year</p>\n<p><strong>Effect</strong> You manipulate the minds of a huge number of targets, provided that the end goal of the manipulation is a tragic or otherwise horrific fate for those being manipulated. This functions as @UUID[Compendium.pf2e.spells-srd.Item.Suggestion], but with a range of 1 mile. All creatures within this area are affected, with the same suggestion implanted in their minds. Creatures hear the telepathic suggestion in their native language, and creatures that are 7th level or higher can attempt a @Check[will|dc:36|traits:spirit] save to resist the effect. This power was used by Vordakai to cause the vanishing of Varnhold, suggesting to its inhabitants to leave their homes and travel south to his tomb. If this effect is counteracted or removed on one victim, it ends for all victims.</p>\n<hr />\n<p><strong>Destruction</strong> A foul and hideous object, an <em>oculus of Abaddon</em> is fortunately relatively easy to destroy, as far as artifacts go. It has Hardness 25 and 100 Hit Points, but repairs damage to itself swiftly, regaining 10 Hit Points per round. It has weakness 10 to bludgeoning damage and weakness 30 to holy.</p>",
+    "description": "<p>An <em>oculus of Abaddon</em> is a potent artifact rumored to have been created by one of the Four Horsemen of the Apocalypse as a way to reward those who work as their agents on the Material Plane. More likely, these items were crafted by a powerful pre-Earthfall death cult that has long since moved on, leaving behind these dangerous artifacts to tempt mortals into serving the needs of the Horsemen.</p>\n<p>An <em>oculus of Abaddon</em> appears as a sphere of clear crystal that contains a pinpoint of flickering red light at its center. When held, the oculus feels warm to the touch and fills you with a sudden desire to pluck out an eye and place the oculus within the socket-this causes 4d6 bleed damage. Once placed in an eye socket, the oculus can be removed only by ripping it free (causing the same amount of persistent bleed damage as the initial plucking). When you place the oculus in your empty eye socket, you immediately heal all damage caused by plucking the previous eye out. Once placed, an oculus grants you constant Darkvision. It can also be activated to perform a number of other magical effects, as detailed below, but if you aren't evil, each time you activate an <em>oculus of Abaddon</em>, you must succeed at a @Check[will|dc:36] save or become affected by a subconscious suggestion (heightened to 8th level) to perform an evil act the next time an opportunity to do so arises, as determined by the GM.</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> You gain the effects of Scrying, heightened to 7th level.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per week</p>\n<p><strong>Effect</strong> You use the <em>oculus of Abaddon</em> to cast a Binding Circle ritual, heightened to 7th level. You can only conjure neutral evil creatures with this casting of planar binding. If you already know the planar binding ritual, you gain a +3 item bonus on the primary check when casting planar binding.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision;</p>\n<p><strong>Requirement</strong> you have a familiar or animal companion</p>\n<p><strong>Effect</strong> You can see and hear through your familiar or animal companion's eyes and ears, provided you are on the same plane. This effect can be sustained, but as long as you do so you can take no other actions.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (envision; evil)</p>\n<p><strong>Frequency</strong> once per year</p>\n<p><strong>Effect</strong> You manipulate the minds of a huge number of targets, provided that the end goal of the manipulation is a tragic or otherwise horrific fate for those being manipulated. This functions as Suggestion, but with a range of 1 mile. All creatures within this area are affected, with the same suggestion implanted in their minds. Creatures hear the telepathic suggestion in their native language, and creatures that are 7th level or higher can attempt a DC 36 will save to resist the effect. This power was used by Vordakai to cause the vanishing of Varnhold, suggesting to its inhabitants to leave their homes and travel south to his tomb. If this effect is counteracted or removed on one victim, it ends for all victims.</p>\n<hr />\n<p><strong>Destruction</strong> A foul and hideous object, an <em>oculus of Abaddon</em> is fortunately relatively easy to destroy, as far as artifacts go. It has Hardness 25 and 100 Hit Points, but repairs damage to itself swiftly, regaining 10 Hit Points per round. It has weakness 10 to bludgeoning damage and weakness 30 to holy.</p>",
     "rarity": "rare",
     "traits": [
       "artifact",
@@ -1058,7 +1058,7 @@
     "price": {
       "gp": 4
     },
-    "description": "<p><strong>Activate</strong> Cast a Spell</p><hr /><p>This delicate strand of spiderweb sticks to the target of a @UUID[Compendium.pf2e.spells-srd.Item.Spider Sting] spell, hampering their movement. Using this catalyst causes a creature afflicted with spider venom to become @UUID[Compendium.pf2e.conditionitems.Item.Clumsy] instead of @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled].</p>",
+    "description": "<p><strong>Activate</strong> Cast a Spell</p><hr /><p>This delicate strand of spiderweb sticks to the target of a Spider Sting spell, hampering their movement. Using this catalyst causes a creature afflicted with spider venom to become Clumsy instead of Enfeebled.</p>",
     "rarity": "common",
     "traits": [
       "catalyst",
@@ -1072,7 +1072,7 @@
     "price": {
       "cp": 1
     },
-    "description": "<p>You can use oil to fuel lanterns, but you can also set a pint of oil aflame and throw it. You must first spend an Interact action preparing the oil, then throw it with another action as a ranged attack. If you hit, it splatters on the creature or in a single 5-foot square you target. You must succeed at a @Check[flat|dc:10] for the oil to ignite successfully when it hits. If the oil ignites, the target takes @Damage[1d6[fire]] damage.</p>",
+    "description": "<p>You can use oil to fuel lanterns, but you can also set a pint of oil aflame and throw it. You must first spend an Interact action preparing the oil, then throw it with another action as a ranged attack. If you hit, it splatters on the creature or in a single 5-foot square you target. You must succeed at a @Check[flat|dc:10] for the oil to ignite successfully when it hits. If the oil ignites, the target takes 1d6 fire damage.</p>",
     "rarity": "common",
     "traits": []
   },
@@ -1082,7 +1082,7 @@
     "price": {
       "gp": 330
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>You can rub this bronze-colored oil onto a melee weapon to grant it the <em>@UUID[Compendium.pf2e.equipment-srd.Item.Animated]</em> rune. Once you fail a flat check for the weapon, causing it to fall, this effect ends.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>You can rub this bronze-colored oil onto a melee weapon to grant it the <em>Animated</em> rune. Once you fail a flat check for the weapon, causing it to fall, this effect ends.</p>",
     "rarity": "uncommon",
     "traits": [
       "consumable",
@@ -1096,7 +1096,7 @@
     "price": {
       "gp": 150
     },
-    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>Adlet spiritual leaders create this thick purple gel so that the dead can temporarily assume their appearance in life during ancestral worship ceremonies. Spreading it over the bones of an undead creature or a lifeless corpse causes the gel to congeal, forming a cosmetic layer that covers or restores any missing or compromised flesh until the body mimics its appearance in life. The dead creature's flesh looks healthy and whole. It gains a +2 circumstance bonus on Deception checks to look like a living creature. The gel does not restore life or Hit Points and the flesh quickly rots away 8 hours after application.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Oil of Corpse Restoration]</p>",
+    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>Adlet spiritual leaders create this thick purple gel so that the dead can temporarily assume their appearance in life during ancestral worship ceremonies. Spreading it over the bones of an undead creature or a lifeless corpse causes the gel to congeal, forming a cosmetic layer that covers or restores any missing or compromised flesh until the body mimics its appearance in life. The dead creature's flesh looks healthy and whole. It gains a +2 circumstance bonus on Deception checks to look like a living creature. The gel does not restore life or Hit Points and the flesh quickly rots away 8 hours after application.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "consumable",
@@ -1138,7 +1138,7 @@
     "price": {
       "gp": 250
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>When this silvery salve is applied to a melee weapon that deals piercing or slashing damage, the weapon grows sharper and more dangerous for 1 minute, granting it the benefits of the <em>@UUID[Compendium.pf2e.equipment-srd.Item.Keen]</em> rune.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Oil of Keen Edges]</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>When this silvery salve is applied to a melee weapon that deals piercing or slashing damage, the weapon grows sharper and more dangerous for 1 minute, granting it the benefits of the <em>Keen</em> rune.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "consumable",
@@ -1152,7 +1152,7 @@
     "price": {
       "gp": 9
     },
-    "description": "<p><strong>Activate</strong> 1 minute (manipulate)</p>\n<hr />\n<p>A vial of oil of mending appears to have countless translucent threads swirling within. Applying this oil to an item casts a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.Mending] spell to repair the item.</p>",
+    "description": "<p><strong>Activate</strong> 1 minute (manipulate)</p>\n<hr />\n<p>A vial of oil of mending appears to have countless translucent threads swirling within. Applying this oil to an item casts a 2nd-rank Mending spell to repair the item.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1250,7 +1250,7 @@
     "price": {
       "gp": 175
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This oil contains magnetically charged iron filings repelled into opposite ends of the vial. For 1 minute after you apply this oil to armor, any creature that hits you with a melee Strike must attempt a @Check[fortitude|dc:28] save with the following effects.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is pushed up to 10 feet away from you (the GM determines the direction).</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is also knocked @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This oil contains magnetically charged iron filings repelled into opposite ends of the vial. For 1 minute after you apply this oil to armor, any creature that hits you with a melee Strike must attempt a @Check[fortitude|dc:28] save with the following effects.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is pushed up to 10 feet away from you (the GM determines the direction).</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is also knocked Prone.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1264,7 +1264,7 @@
     "price": {
       "gp": 25
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This bright oil, first created by humans as a tool to help them fight in darkness, holds flecks of tiny gemstones in suspension and smells like a struck matchstick.</p>\n<p>The first time a weapon coated with this oil damages a creature, the wound glows with light for 1 minute. If the creature is @UUID[Compendium.pf2e.conditionitems.Item.Invisible], the light's position means it's merely @UUID[Compendium.pf2e.conditionitems.Item.Hidden] to creatures that would otherwise be unable to see it, rather than undetected. The light also negates the @UUID[Compendium.pf2e.conditionitems.Item.Concealed] condition due to lighting conditions. If the coated weapon doesn't damage a creature within 1 hour, the oil sloughs off and loses its power.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This bright oil, first created by humans as a tool to help them fight in darkness, holds flecks of tiny gemstones in suspension and smells like a struck matchstick.</p>\n<p>The first time a weapon coated with this oil damages a creature, the wound glows with light for 1 minute. If the creature is Invisible, the light's position means it's merely Hidden to creatures that would otherwise be unable to see it, rather than undetected. The light also negates the Concealed condition due to lighting conditions. If the coated weapon doesn't damage a creature within 1 hour, the oil sloughs off and loses its power.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1278,7 +1278,7 @@
     "price": {
       "gp": 5
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This thin, slippery oil shimmers with a golden hue. Coating your shoes or feet with oil of skating enables you to skate quickly along flat surfaces for 1 hour. You gain a +10-foot status bonus to your Speed, which doubles if you move on a downhill surface. You lose this bonus if moving on difficult terrain, greater difficult terrain, or uneven ground. Also, you treat any uphill movement as moving on difficult terrain while your feet are oiled and treat the results of any Acrobatics checks made to @UUID[Compendium.pf2e.actionspf2e.Item.Balance] as one degree worse.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This thin, slippery oil shimmers with a golden hue. Coating your shoes or feet with oil of skating enables you to skate quickly along flat surfaces for 1 hour. You gain a +10-foot status bonus to your Speed, which doubles if you move on a downhill surface. You lose this bonus if moving on difficult terrain, greater difficult terrain, or uneven ground. Also, you treat any uphill movement as moving on difficult terrain while your feet are oiled and treat the results of any Acrobatics checks made to Balance as one degree worse.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -1292,7 +1292,7 @@
     "price": {
       "gp": 50
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Anoint a weapon with oil of swiftness, which hisses upon application, to give it the benefits of the @UUID[Compendium.pf2e.equipment-srd.Item.Quickstrike]{Speed} rune for 1 minute.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Anoint a weapon with oil of swiftness, which hisses upon application, to give it the benefits of the Quickstrike{Speed} rune for 1 minute.</p>",
     "rarity": "uncommon",
     "traits": [
       "consumable",
@@ -1351,7 +1351,7 @@
     "price": {
       "gp": 4
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash <em>oil of unlife</em> onto an undead creature, or a living creature with void healing, the oil absorbs quickly into its body, and the creature regains @Damage[1d8[healing]]{1d8 Hit Points}. You can pour <em>oil of unlife</em> on an incorporeal undead; in this case, the creature absorbs the oil into itself.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash <em>oil of unlife</em> onto an undead creature, or a living creature with void healing, the oil absorbs quickly into its body, and the creature regains 1d8 healing{1d8 Hit Points}. You can pour <em>oil of unlife</em> on an incorporeal undead; in this case, the creature absorbs the oil into itself.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
