@@ -26,15 +26,16 @@ const Main: React.FC = () => {
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
     const [showNoPriceItems, setShowNoPriceItems] = useState<boolean>(false);
-    const [showAffordableItems, setShowAffordableItems] = useState<boolean>(true);
+    const [showAffordableItemsOnly, setShowAffordableItemsOnly] = useState<boolean>(true);
     const [levelData, setLevelData] = useState<LevelData[]>([]);
     const [lumpSum, setLumpSum] = useState<number>(15);
+    const [availableCopper, setAvailableCopper] = useState<number>(lumpSum*100);
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
         if (toggleName === 'showNoPriceItems') {
             setShowNoPriceItems(value);
         } else if (toggleName === 'showOnlyAffordableItems') {
-            setShowAffordableItems(value);
+            setShowAffordableItemsOnly(value);
         }
     };
 
@@ -94,6 +95,23 @@ const Main: React.FC = () => {
     };
 
     useEffect(() => {
+        // Calculate total price in copper pieces
+        const totalCopper = (totalPrice.cp ?? 0) + (totalPrice.sp ?? 0) * 10 + (totalPrice.gp ?? 0) * 100 + (totalPrice.pp ?? 0) * 1000;
+        
+        // Calculate available gold by subtracting total price from lump sum (also in copper pieces)
+        const availableCopper = lumpSum * 100 - totalCopper;
+    
+        // Convert copper back to gp, sp, and cp format
+        const pp = Math.floor(availableCopper / 1000);
+        const gp = Math.floor((availableCopper % 1000) / 100);
+        const sp = Math.floor((availableCopper % 100) / 10);
+        const cp = availableCopper % 10;
+    
+        // Set available gold in the required format
+        setAvailableCopper(availableCopper);
+    }, [lumpSum, totalPrice]);
+
+    useEffect(() => {
         // Calculate total price based on selectedItems and quantities
         const newTotal = selectedItems.reduce(
             (acc: TotalPrice, item: ManifestItem, index: number) => {
@@ -128,7 +146,9 @@ const Main: React.FC = () => {
                 <ItemList
                     items={equipmentData}
                     onAddItem={handleAddItem}
-                    showNoPriceItems={showNoPriceItems} />
+                    showNoPriceItems={showNoPriceItems} 
+                    showAffordableItemsOnly={showAffordableItemsOnly}
+                    availableCopper={availableCopper}/>
                 <SelectedItems
                     items={selectedItems}
                     totalPrice={formatPrice(simplifiedTotalPrice)}
@@ -144,7 +164,7 @@ const Main: React.FC = () => {
                 <Toggle
                     label="Show only affordable items"
                     onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
-                    checked={showAffordableItems}
+                    checked={showAffordableItemsOnly}
                 />
             </footer>
         </div>

@@ -1,17 +1,23 @@
 .input-container {
     display: flex;
     align-items: center;
+    gap: 10px; /* Space between Character Level and Total Gold sections */
+}
+
+.level-input-wrapper {
+    display: inline-flex; /* Ensures buttons and input are in a single line */
+    align-items: center;
+    border: 1px solid #080a2b;
+    border-radius: 4px;
 }
 
 .custom-input {
-    width: 30px; /* Smaller width for a more compact look */
-    height: 20px; /* Smaller height */
+    width: 40px;
+    height: 20px;
     text-align: center;
     color: #5256b9;
-    border: 1px solid #080a2b;
-    border-left: none;
-    border-right: none;
-    font-size: 14px; /* Adjust font size as needed */
+    border: none; /* Remove inner borders */
+    font-size: 14px;
     -moz-appearance: textfield; /* Remove arrows in Firefox */
 }
 
@@ -24,21 +30,21 @@
 .button {
     background-color: #080a2b;
     color: #ffffff;
-    border: 1px solid #080a2b;
-    width: 20px; /* Smaller button width */
-    height: 20px; /* Smaller button height */
+    border: none; /* Remove border for smoother integration */
+    width: 20px;
+    height: 20px;
     cursor: pointer;
-    font-size: 12px; /* Smaller font size */
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0; /* Remove padding for a more compact button */
+    padding: 0;
 }
 
 .button:first-child {
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px; /* Left-rounded corner */
 }
 
 .button:last-child {
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0; /* Right-rounded corner */
 }

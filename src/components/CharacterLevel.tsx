@@ -48,8 +48,8 @@ const CharacterLevel: React.FC<CharacterLevelProps> = ({ level, onLevelChange, l
     return (
         <div style={{ padding: 20 }}>
             <div className="input-container">
-                <span>
-                    <label>Character Level: </label>
+                <label>Character Level: </label>
+                <div className="level-input-wrapper">
                     <button type="button" className="button" onClick={handleDecrement}>-</button>
                     <input
                         type="number"
@@ -60,16 +60,15 @@ const CharacterLevel: React.FC<CharacterLevelProps> = ({ level, onLevelChange, l
                         className="custom-input"
                     />
                     <button type="button" className="button" onClick={handleIncrement}>+</button>
-                </span>
-                <span>
-                    <label htmlFor="lumpSum">Total Gold: </label>
-                    <input
-                        type="number"
-                        id="lumpSum"
-                        value={lumpSum}
-                        onChange={handleLumpSumChange}
-                    />
-                </span>
+                </div>
+                <label htmlFor="lumpSum" style={{ marginLeft: '10px' }}>Total Gold: </label>
+                <input
+                    type="number"
+                    id="lumpSum"
+                    value={lumpSum}
+                    onChange={handleLumpSumChange}
+                    className="custom-input"
+                />
             </div>
         </div>
     );

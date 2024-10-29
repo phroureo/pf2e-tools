@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ManifestItem } from '../types/ManifestItem';
-import { formatPrice } from '../utils/formatPrice';
+import { calculateTotalValue, formatPrice } from '../utils/formatPrice';
 import { SearchCondition } from '../types/SearchCondition';
 import { FixedSizeList as List, ListChildComponentProps } from 'react-window';
 
@@ -9,9 +9,11 @@ interface ItemListPanelProps {
     searchConditions: SearchCondition[];
     onItemSelect: (item: ManifestItem) => void;
     showNoPriceItems: Boolean;
+    showAffordableItemsOnly: Boolean;
+    availableCopper: number;
 }
 
-const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect, showNoPriceItems }) => {
+const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect, showNoPriceItems, showAffordableItemsOnly, availableCopper }) => {
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
     const [listHeight, setListHeight] = useState(400); // Default height as fallback
@@ -40,7 +42,12 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
         if (!showNoPriceItems && isNoPriceItem) {
             return false; // Filter out items without a price if showNoPriceItems is false
         }
-        searchConditions.every((condition) => {
+
+        if (hasPrice && showAffordableItemsOnly && calculateTotalValue(item.price?.value || { cp: 0, sp: 0, gp: 0, pp: 0 }) > availableCopper) {
+            return false;
+        }
+
+        return searchConditions.every((condition) => {
             const term = condition.value.toLowerCase();
             if (condition.value === '') return true;
 

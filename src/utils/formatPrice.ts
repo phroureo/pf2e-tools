@@ -35,3 +35,12 @@ export const formatPrice = (price?: { pp?: number; gp?: number; sp?: number; cp?
     if (price.cp) parts.push(`${price.cp} cp`);
     return parts.join(', ');
 };
+
+export const calculateTotalValue = (price: PriceValue): number => {
+    const cp = price.cp ?? 0;
+    const sp = price.sp ?? 0;
+    const gp = price.gp ?? 0;
+    const pp = price.pp ?? 0;
+
+    return cp + (sp * 10) + (gp * 100) + (pp * 1000);
+};
