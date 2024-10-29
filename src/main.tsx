@@ -109,6 +109,7 @@ const Main: React.FC = () => {
 
         // Set available gold in the required format
         setAvailableCopper(availableCopper);
+        console.log(availableCopper);
     }, [lumpSum, totalPrice]);
 
     useEffect(() => {
@@ -165,7 +166,7 @@ const Main: React.FC = () => {
                 <div style={{ padding: "20px" }}>
                     {/* Overall Total Price */}
                     <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
-                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {copperToString(availableCopper)}</div>
+                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp" }</div>
                 </div>
                 <footer className='footer-options'>
                     <Toggle

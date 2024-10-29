@@ -25,7 +25,6 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems,
 
     const handleAddItem = () => {
         if (selectedItem) {
-            console.log('Selected item:', selectedItem); // Debugging: confirm item is set
             onAddItem(selectedItem);
             setIsModalOpen(false); // Close modal after adding the item
             setSelectedItem(null);
