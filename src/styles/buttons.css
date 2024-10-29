@@ -35,7 +35,7 @@ button:disabled {
 }
 
 /* Button styling */
-.button-x {
+.button-x button {
     padding: 0.3em;
     margin-left: 0.5em;
     transition: background-color 0.3s;
@@ -84,4 +84,26 @@ button:disabled {
 .button-x:hover::after {
     opacity: 1; /* Fade in the "✖" */
     transform: rotate(0deg); /* Rotate in from -180deg */
+}
+
+.tab-header {
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+/* In your CSS file (e.g., styles.css or specific component CSS file) */
+.tab-header button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0px;
+    padding: 5px;
+}
+
+.tab-header button.active {
+    background-color: #c45500; /* Example color for highlighting */
+    color: white;
 }

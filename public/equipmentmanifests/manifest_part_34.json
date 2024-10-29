@@ -9,7 +9,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -23,7 +25,9 @@
       "cursed",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -36,7 +40,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -49,7 +55,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 1,
@@ -64,7 +72,9 @@
       "invested",
       "magical",
       "visual"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 10,
@@ -77,7 +87,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 18,
@@ -90,7 +102,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -103,7 +117,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -116,7 +132,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -129,7 +147,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -142,7 +162,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -155,7 +177,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -169,7 +193,9 @@
       "cursed",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 20,
@@ -182,7 +208,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -195,7 +223,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 1,
@@ -208,7 +238,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 7,
@@ -220,7 +252,9 @@
       "cursed",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 20,
@@ -233,7 +267,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -248,7 +284,9 @@
       "invested",
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -261,7 +299,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -274,7 +314,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 13,
@@ -288,7 +330,9 @@
       "force",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -302,7 +346,9 @@
       "force",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -316,7 +362,9 @@
       "invested",
       "magical",
       "primal"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -330,7 +378,9 @@
       "invested",
       "magical",
       "primal"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -342,7 +392,9 @@
     "rarity": "uncommon",
     "traits": [
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -355,7 +407,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -367,7 +421,9 @@
       "cursed",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -380,7 +436,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -393,7 +451,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -406,7 +466,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 14,
@@ -419,7 +481,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -434,7 +498,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -449,7 +515,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -459,7 +527,9 @@
     "rarity": "rare",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 18,
@@ -474,7 +544,9 @@
       "magical",
       "potion",
       "sonic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -489,7 +561,9 @@
       "magical",
       "potion",
       "sonic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -504,7 +578,9 @@
       "magical",
       "potion",
       "sonic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -517,7 +593,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment"
   },
   {
     "level": 8,
@@ -527,7 +605,9 @@
     "rarity": "common",
     "traits": [
       "invested"
-    ]
+    ],
+    "usage": "Worn Clothing",
+    "worn": "Clothing"
   },
   {
     "level": 11,
@@ -541,7 +621,9 @@
       "earth",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment"
   },
   {
     "level": 19,
@@ -553,7 +635,9 @@
     "rarity": "uncommon",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -565,7 +649,9 @@
     "rarity": "uncommon",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -579,7 +665,9 @@
       "dwarf",
       "magical",
       "saggorak"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -594,7 +682,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -606,7 +696,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -618,7 +710,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -633,7 +727,9 @@
       "reach",
       "tech",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -646,7 +742,9 @@
     "traits": [
       "chaotic",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -659,7 +757,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -673,7 +773,9 @@
       "magical",
       "plant",
       "wood"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 15,
@@ -687,7 +789,9 @@
       "magical",
       "plant",
       "wood"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 19,
@@ -701,7 +805,9 @@
       "magical",
       "plant",
       "wood"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 7,
@@ -715,7 +821,9 @@
       "magical",
       "plant",
       "wood"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -732,7 +840,9 @@
       "tethered",
       "thrown-20",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -744,7 +854,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -756,7 +868,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -768,7 +882,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -778,7 +894,9 @@
     },
     "description": "<p>50 feet of rope.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 10,
@@ -791,7 +909,9 @@
       "cursed",
       "evil",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -803,7 +923,9 @@
     "rarity": "common",
     "traits": [
       "capacity-4"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -815,7 +937,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -827,7 +951,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -839,7 +965,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -851,7 +979,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -863,7 +993,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -875,7 +1007,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -887,7 +1021,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -899,7 +1035,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -911,7 +1049,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -923,7 +1063,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -935,7 +1077,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -947,7 +1091,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -959,7 +1105,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -971,7 +1119,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -983,7 +1133,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -995,7 +1147,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1007,7 +1161,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1019,7 +1175,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1031,7 +1189,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1043,7 +1203,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1055,7 +1217,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1067,7 +1231,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1079,7 +1245,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1091,7 +1259,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1103,7 +1273,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1115,7 +1287,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1127,7 +1301,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1139,7 +1315,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1151,7 +1329,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1163,7 +1343,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1175,7 +1357,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1189,7 +1373,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1203,7 +1389,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1217,7 +1405,9 @@
       "backstabber",
       "concussive",
       "fatal-d12"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -1227,7 +1417,9 @@
     },
     "description": "<p>By using a rubbing set, you can quickly make a copy of carvings or etchings you find during your explorations, making them easier to accurately reproduce. This kit consists of a roll of thin onion-skin paper in a waterproof leather case, several thick wax crayons, and a bar of sealing wax that can be melted and used to temporarily hold the paper in place while you take the rubbing. Using the kit consumes the materials and provides a +1 item bonus on checks to document or reproduce artwork or writing that has been carved, etched, or otherwise physically added to a surface.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -1241,7 +1433,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Magical-Staff",
+    "worn": null
   },
   {
     "level": 18,
@@ -1255,7 +1449,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Magical-Staff",
+    "worn": null
   },
   {
     "level": 10,
@@ -1269,7 +1465,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Magical-Staff",
+    "worn": null
   },
   {
     "level": 0,
@@ -1279,6 +1477,8 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   }
 ]

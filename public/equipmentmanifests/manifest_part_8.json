@@ -7,7 +7,9 @@
     },
     "description": "<p>A lit candle sheds dim light in a 10‐foot radius for 8 hours.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -21,7 +23,9 @@
       "invested",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 22,
@@ -34,7 +38,9 @@
       "cursed",
       "divine",
       "thrown-10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -49,7 +55,9 @@
       "concealable",
       "concussive",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -59,7 +67,9 @@
     },
     "description": "<p>A cane is a straight cane with a curved handle, shaped like the tip of a hook. Its simple design helps with balance and only slightly assists with taking weight off the affected opposite leg. The cane is typically 2 to 3 feet long but can be lengthened or shortened as needed.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -73,7 +83,9 @@
       "invested",
       "laminar",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -85,7 +97,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -97,7 +111,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -110,7 +126,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 15,
@@ -124,7 +142,9 @@
       "invested",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 5,
@@ -138,7 +158,9 @@
       "invested",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 9,
@@ -152,7 +174,9 @@
       "invested",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 4,
@@ -165,7 +189,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 18,
@@ -178,7 +204,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 4,
@@ -192,7 +220,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -210,7 +240,9 @@
       "magical",
       "talisman",
       "visual"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 3,
@@ -225,7 +257,9 @@
       "emotion",
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -243,7 +277,9 @@
       "magical",
       "mental",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -258,7 +294,9 @@
       "hobgoblin",
       "reach",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -274,7 +312,9 @@
       "ingested",
       "mental",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -288,7 +328,9 @@
       "deadly-d10",
       "magical",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -298,7 +340,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -310,7 +354,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -320,7 +366,9 @@
     },
     "description": "<p>This kit includes a writing set, a compass, a standard astrolabe, a ruler, and a survey map.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -330,7 +378,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -344,7 +394,9 @@
       "magical",
       "sweep",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -358,7 +410,9 @@
       "magical",
       "sweep",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -372,7 +426,9 @@
       "magical",
       "sweep",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -386,7 +442,9 @@
       "magical",
       "sweep",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -399,7 +457,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 11,
@@ -413,7 +473,9 @@
       "divine",
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment"
   },
   {
     "level": 0,
@@ -425,7 +487,9 @@
     "rarity": "common",
     "traits": [
       "inscribed"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -435,7 +499,9 @@
     },
     "description": "<p>This sturdy pole has a rope attached to one end in a loop with the other end extending to the handle. You can pull the handle side of the rope to tighten the loop. Using this loop, you can Grapple without having a free hand. A creature grappled this way receives a –2 circumstance penalty to attack rolls when Striking with an unarmed attack. Due to limitations in the size of the loop, a catch pole can only be used on creatures sized Medium or smaller.</p>\n<p></p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -447,7 +513,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Shield",
+    "worn": null
   },
   {
     "level": 5,
@@ -460,7 +528,9 @@
     "traits": [
       "magical",
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -474,7 +544,9 @@
       "magical",
       "poison",
       "shove"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -488,7 +560,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -501,7 +575,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -514,7 +590,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -527,7 +605,9 @@
     "traits": [
       "consumable",
       "gadget"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -539,7 +619,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -554,7 +636,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -567,7 +651,9 @@
     "traits": [
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Med Heavy-Armor",
+    "worn": null
   },
   {
     "level": 13,
@@ -582,7 +668,9 @@
       "magical",
       "poison",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -597,7 +685,9 @@
       "magical",
       "poison",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -612,7 +702,9 @@
       "magical",
       "poison",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 25,
@@ -625,7 +717,9 @@
       "artifact",
       "divine",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -639,7 +733,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 20,
@@ -655,7 +751,9 @@
       "healing",
       "mechanical",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -671,7 +769,9 @@
       "healing",
       "mechanical",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -688,7 +788,9 @@
       "magical",
       "versatile-s",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -704,7 +806,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -717,7 +821,9 @@
     "traits": [
       "adjusted",
       "noisy"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -727,7 +833,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -737,7 +845,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 16,
@@ -752,7 +862,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -762,7 +874,9 @@
     },
     "description": "<p>10 feet of chain.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -775,7 +889,9 @@
     "traits": [
       "flexible",
       "noisy"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -790,7 +906,9 @@
       "force",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Thrown-Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -802,7 +920,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -815,7 +935,9 @@
     "traits": [
       "flexible",
       "noisy"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -829,7 +951,9 @@
       "finesse",
       "reach",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -841,7 +965,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -851,7 +977,9 @@
     },
     "description": "<p>Chair storage can be purchased and applied to any wheelchair. This reduces the amount of Bulk the items weigh when stored within the chair, much like a backpack. The first 2 Bulk of items stowed in your chair don't count against your Bulk limit. If you use both chair storage and a backpack at the same time, only 2 Bulk total isn't counted against your limit, much like if you used multiple backpacks or similar items at the same time.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -863,7 +991,9 @@
     "rarity": "common",
     "traits": [
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -877,7 +1007,9 @@
       "agile",
       "deadly-d8",
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -890,7 +1022,9 @@
     "traits": [
       "recovery",
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -904,7 +1038,9 @@
       "divine",
       "holy",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -914,7 +1050,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -928,7 +1066,9 @@
       "clockwork",
       "consumable",
       "gadget"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -942,7 +1082,9 @@
       "clockwork",
       "consumable",
       "gadget"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -956,7 +1098,9 @@
       "clockwork",
       "consumable",
       "gadget"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -966,7 +1110,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -979,7 +1125,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -993,7 +1141,9 @@
       "companion",
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   },
   {
     "level": 3,
@@ -1007,7 +1157,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1020,7 +1172,9 @@
     "traits": [
       "magical",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1033,7 +1187,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 9,
@@ -1046,7 +1202,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 3,
@@ -1059,7 +1217,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 10,
@@ -1072,7 +1232,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 14,
@@ -1085,7 +1247,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -1098,7 +1262,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 8,
@@ -1111,7 +1277,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1127,7 +1295,9 @@
       "shove",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1141,7 +1311,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1155,7 +1327,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1169,7 +1343,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1179,7 +1355,9 @@
     },
     "description": "<p>A wooden chest can hold up to 8 Bulk of items.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -1192,7 +1370,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1205,7 +1385,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1217,7 +1399,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -1232,7 +1416,9 @@
       "magical",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -1245,7 +1431,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 11,
@@ -1261,7 +1449,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1277,7 +1467,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1293,7 +1485,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1309,7 +1503,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1322,7 +1518,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   },
   {
     "level": 6,
@@ -1335,6 +1533,8 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   }
 ]

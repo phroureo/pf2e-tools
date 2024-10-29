@@ -12,7 +12,9 @@
       "illusion",
       "occult",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 9,
@@ -25,7 +27,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -38,7 +42,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -51,7 +57,9 @@
     "traits": [
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -65,7 +73,9 @@
       "consumable",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -78,7 +88,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
   },
   {
     "level": 7,
@@ -88,7 +100,9 @@
     "rarity": "unique",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 4,
@@ -100,7 +114,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 6,
@@ -115,7 +131,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 18,
@@ -128,7 +146,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -141,7 +161,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 23,
@@ -156,7 +178,9 @@
       "fatal-d12",
       "kickback",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -170,7 +194,9 @@
       "consumable",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 11,
@@ -185,7 +211,9 @@
       "illusion",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 6,
@@ -198,7 +226,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -210,7 +240,9 @@
     "rarity": "common",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -220,7 +252,9 @@
     },
     "description": "<p>This sturdy pole has a rope attached to one end in a loop with the other end extending to the handle. You can pull the handle side of the rope to tighten the loop. Using this loop, you can Grapple without having a free hand. A creature grappled this way receives a –2 circumstance penalty to attack rolls when Striking with an unarmed attack. Due to limitations in the size of the loop, a catch pole can only be used on creatures sized Medium or smaller.</p>\n<p>A giant catch pole is made from thicker steel and heavier rope. It functions the same as a catch pole but can be used to Grapple creatures up to your normal size limit. However, the implement is so ungainly that you are Clumsy{Clumsy 1} while wielding it.</p>\n<p></p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 1,
@@ -235,7 +269,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 15,
@@ -247,7 +283,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -259,7 +297,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 6,
@@ -274,7 +314,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 10,
@@ -291,7 +333,9 @@
       "nonlethal",
       "reach",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -306,7 +350,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -319,7 +365,9 @@
       "cursed",
       "evil",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -329,7 +377,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -339,7 +389,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -353,7 +405,9 @@
       "azarketi",
       "grapple",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -367,7 +421,9 @@
       "graft",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Implanted",
+    "worn": null
   },
   {
     "level": 5,
@@ -381,7 +437,9 @@
       "alchemical",
       "consumable",
       "lozenge"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -394,7 +452,9 @@
     "traits": [
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 14,
@@ -409,7 +469,9 @@
       "forceful",
       "magical",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -423,7 +485,9 @@
       "deadly-d8",
       "forceful",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -435,7 +499,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -445,7 +511,9 @@
     },
     "description": "<p>This small rod has a tiny, sharp cutting wheel made of steel on one end and a thick bulb on the other. You can use the glass cutter's wheel to score ordinary glass and use the bulb to break the piece along your scoring. It typically takes 1 minute of work to cut a hole large enough to fit your hand. If you are attempting to break the glass quietly, you must attempt a @Check[thievery] check against the Perception DC of nearby creatures to go unnoticed.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -458,7 +526,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 7,
@@ -472,7 +542,9 @@
       "graft",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Implanted",
+    "worn": null
   },
   {
     "level": 3,
@@ -486,7 +558,9 @@
       "graft",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Implanted",
+    "worn": null
   },
   {
     "level": 8,
@@ -498,7 +572,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -513,7 +589,9 @@
       "light",
       "magical",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -523,7 +601,9 @@
     },
     "description": "<p><strong>Access</strong> Member of the Esoteric Order of the Palatine Eye</p>\n<hr />\n<p>This pin is a valuable copy of a popular pin sold in markets throughout Osirion. The original pin is a solid piece, often purchased by tourists. The glittering scarab, though, can be squeezed gently, causing the wings to part and reveal an eye painted underneath them. This pin is used to gain entrance to most meetings of the Esoteric Order of the Palatine Eye. Someone who specifically examines the scarab can find the hidden eye with a successful @Check[perception|dc:20] check, though if they know about glittering scarabs, they can simply squeeze it to check for the eye.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -539,7 +619,9 @@
       "snare",
       "trap",
       "visual"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -554,7 +636,9 @@
       "magical",
       "shadow",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -571,7 +655,9 @@
       "shadow",
       "thrown-10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -586,7 +672,9 @@
       "fire",
       "magical",
       "revelation"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -601,7 +689,9 @@
       "finesse",
       "magical",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -616,7 +706,9 @@
       "good",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -629,7 +721,9 @@
       "extradimensional",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 1,
@@ -643,7 +737,9 @@
       "alchemical",
       "consumable",
       "light"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -657,7 +753,9 @@
       "consumable",
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -671,7 +769,9 @@
       "alchemical",
       "bomb",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -685,7 +785,9 @@
       "alchemical",
       "bomb",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -699,7 +801,9 @@
       "alchemical",
       "bomb",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -713,7 +817,9 @@
       "alchemical",
       "bomb",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -726,7 +832,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -740,7 +848,9 @@
       "magical",
       "monk",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -755,7 +865,9 @@
       "concussive",
       "fatal-d10",
       "gnome"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -769,7 +881,9 @@
       "gnome",
       "reach",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -784,7 +898,9 @@
       "trip",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -798,7 +914,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 15,
@@ -811,7 +929,9 @@
     "traits": [
       "deadly-d10",
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Plus-Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -821,7 +941,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -831,7 +953,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -841,7 +965,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -851,7 +977,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -861,7 +989,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -871,7 +1001,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -881,7 +1013,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -891,7 +1025,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -901,7 +1037,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -911,7 +1049,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -927,7 +1067,9 @@
       "magical",
       "monk",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -941,7 +1083,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "worn": null
   },
   {
     "level": 13,
@@ -955,7 +1099,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "worn": null
   },
   {
     "level": 5,
@@ -969,7 +1115,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "worn": null
   },
   {
     "level": 20,
@@ -986,7 +1134,9 @@
       "magical",
       "talisman",
       "vitality"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 10,
@@ -999,7 +1149,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 16,
@@ -1012,7 +1164,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 4,
@@ -1025,7 +1179,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 5,
@@ -1038,7 +1194,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -1053,7 +1211,9 @@
       "holy",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 11,
@@ -1065,7 +1225,9 @@
       "cursed",
       "evil",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -1078,7 +1240,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Epaulet",
+    "worn": "Epaulet"
   },
   {
     "level": 20,
@@ -1089,7 +1253,9 @@
     "traits": [
       "cursed",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -1104,7 +1270,9 @@
       "illusion",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Firearm",
+    "worn": null
   },
   {
     "level": 6,
@@ -1119,7 +1287,9 @@
       "illusion",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Firearm",
+    "worn": null
   },
   {
     "level": 11,
@@ -1134,7 +1304,9 @@
       "magical",
       "talisman",
       "teleportation"
-    ]
+    ],
+    "usage": "Affixed To Crossbow Or-Firearm",
+    "worn": null
   },
   {
     "level": 10,
@@ -1147,7 +1319,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1162,7 +1336,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1177,7 +1353,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1192,7 +1370,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1207,7 +1387,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1220,7 +1402,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   },
   {
     "level": 13,
@@ -1235,7 +1419,9 @@
       "consumable",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1249,7 +1435,9 @@
       "graft",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Implanted",
+    "worn": null
   },
   {
     "level": 11,
@@ -1263,7 +1451,9 @@
       "consumable",
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1275,7 +1465,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 9,
@@ -1289,7 +1481,9 @@
       "extradimensional",
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1302,7 +1496,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 12,
@@ -1315,7 +1511,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 2,
@@ -1328,6 +1526,8 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   }
 ]

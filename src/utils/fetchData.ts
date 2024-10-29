@@ -24,6 +24,8 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                 description: string;
                 rarity: string;
                 traits: string[];
+                usage: string;
+                worn: string;
             }[] = await manifestResponse.json();
 
             // Convert manifest items to ManifestItem structure
@@ -43,7 +45,9 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                         },
                         description: item.description,
                         rarity: item.rarity,
-                        traits: item.traits
+                        traits: item.traits,
+                        usage: item.usage,
+                        worn: item.worn,
                     };
                     equipmentData.push(manifestItem);
                 }

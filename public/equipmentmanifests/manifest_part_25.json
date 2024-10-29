@@ -10,7 +10,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -24,7 +26,9 @@
       "magical",
       "plant",
       "staff"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -36,7 +40,9 @@
     "rarity": "uncommon",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 4,
@@ -50,7 +56,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 11,
@@ -64,7 +72,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -78,7 +88,9 @@
       "agile",
       "finesse",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -92,7 +104,9 @@
       "magical",
       "thrown-20",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -106,7 +120,9 @@
       "magical",
       "thrown-20",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -119,7 +135,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 12,
@@ -132,7 +150,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -144,7 +164,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -158,7 +180,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 6,
@@ -172,7 +196,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 3,
@@ -187,7 +213,9 @@
       "finesse",
       "thrown-10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -203,7 +231,9 @@
       "finesse",
       "sweep",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -213,7 +243,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 5,
@@ -228,7 +260,9 @@
       "healing",
       "laminar",
       "plant"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 18,
@@ -243,7 +277,9 @@
       "invested",
       "plant",
       "primal"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 10,
@@ -258,7 +294,9 @@
       "invested",
       "plant",
       "primal"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 3,
@@ -268,7 +306,9 @@
     },
     "description": "<p>Picking an average lock requires four successful DC 25 thievery checks.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -278,7 +318,9 @@
     },
     "description": "<p>Picking a good lock requires five successful DC 30 thievery checks.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -288,7 +330,9 @@
     },
     "description": "<p>Picking a poor lock requires two successful DC 15 thievery checks.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 1,
@@ -298,7 +342,9 @@
     },
     "description": "<p>Picking a simple lock requires three successful DC 20 thievery checks.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 17,
@@ -308,7 +354,9 @@
     },
     "description": "<p>Picking a superior lock requires six successful DC 40 thievery checks.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 19,
@@ -322,7 +370,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Necklace",
+    "worn": "Necklace"
   },
   {
     "level": 18,
@@ -338,7 +388,9 @@
       "consumable",
       "force",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -354,7 +406,9 @@
       "consumable",
       "force",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -367,7 +421,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 11,
@@ -379,7 +435,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -392,7 +450,9 @@
     "traits": [
       "kickback",
       "repeating"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -408,7 +468,9 @@
       "reach",
       "trip",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -421,7 +483,9 @@
     "traits": [
       "deadly-d10",
       "volley-30"
-    ]
+    ],
+    "usage": "Held In One Plus-Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -436,7 +500,9 @@
       "magical",
       "potion",
       "tea"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -448,7 +514,9 @@
     "rarity": "common",
     "traits": [
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -460,7 +528,9 @@
     "rarity": "common",
     "traits": [
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -475,7 +545,9 @@
       "consumable",
       "contact",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -487,7 +559,9 @@
       "contract",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 8,
@@ -502,7 +576,9 @@
       "invested",
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 2,
@@ -512,7 +588,9 @@
     },
     "description": "<p>Used with <strong>Writing Set</strong>.</p>\n<p>This ink, derived from inks used by lovers to deliver secret messages, dries to a color similar to most parchments. Avarneus's version requires another dose of lover's ink and a specific agitation to reveal the hidden message, preventing casual interception. Any message written with lovers' ink is revealed by applying a page worth of lover's ink and vigorously shaking, requiring 3 Interact actions. A typical vial provides enough ink to fill 1 page worth of text. While the text is hidden, a creature closely examining a surface marked with lover's ink can detect the presence of the ink with a successful DC 25 perception check. On a critical success, they can make out the ink well enough to use Society to Decipher Writing.</p>",
     "rarity": "rare",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -527,7 +605,9 @@
       "healing",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 19,
@@ -543,7 +623,9 @@
       "fortune",
       "magical",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -560,7 +642,9 @@
       "fortune",
       "magical",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -574,7 +658,9 @@
       "cursed",
       "magical",
       "misfortune"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -587,7 +673,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 9,
@@ -600,7 +688,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 9,
@@ -610,7 +700,9 @@
     "rarity": "common",
     "traits": [
       "leshy"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 6,
@@ -623,7 +715,9 @@
     "traits": [
       "fortune",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 10,
@@ -638,7 +732,9 @@
       "fortune",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 11,
@@ -651,7 +747,9 @@
     "traits": [
       "magical",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -665,7 +763,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -679,7 +779,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -693,7 +795,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -708,7 +812,9 @@
       "combination",
       "concussive",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -720,7 +826,9 @@
     "rarity": "common",
     "traits": [
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -733,7 +841,9 @@
     "traits": [
       "deadly-d8",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -748,7 +858,9 @@
       "magical",
       "talisman",
       "teleportation"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 8,
@@ -760,7 +872,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -772,7 +886,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -784,7 +900,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -796,7 +914,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 10,
@@ -808,7 +928,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -818,7 +940,9 @@
     },
     "description": "<p>Magazine with 5 bolts for use with the Repeating Hand Crossbow.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -828,7 +952,9 @@
     },
     "description": "<p>Firearms require ammunition consisting of a projectile and black powder. A round of ammo can vary in its composition but is typically either a prepackaged paper cartridge, including wadding, bullet, and black powder, or loose shot packed in manually. Some weapons, like hand cannons and blunderbusses, can fire other materials, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the Alchemical Crafting skill feat to make them. Firearm rounds are a valid option for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -838,7 +964,9 @@
     },
     "description": "<p>Firearms require ammunition consisting of a projectile and black powder. A round of ammo can vary in its composition but is typically either a prepackaged paper cartridge, including wadding, bullet, and black powder, or loose shot packed in manually. Some weapons, like hand cannons and blunderbusses, can fire other materials, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the Alchemical Crafting skill feat to make them. Firearm rounds are a valid option for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -853,7 +981,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -866,7 +996,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 3,
@@ -879,7 +1011,9 @@
     "traits": [
       "arcane",
       "invested"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 3,
@@ -892,7 +1026,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -905,7 +1041,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -918,7 +1056,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -931,7 +1071,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -944,7 +1086,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -957,7 +1101,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -970,7 +1116,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -983,7 +1131,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -996,7 +1146,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1008,7 +1160,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -1022,7 +1176,9 @@
       "consumable",
       "fulu",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1034,7 +1190,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -1047,7 +1205,9 @@
     "traits": [
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1057,7 +1217,9 @@
     },
     "description": "<p>This collection of small magnets and metal rods comes in a wooden box. The magnets are strong enough to firmly cling to metal objects but too weak to move or suspend them. The metal rods are a quarter of an inch in diameter and vary in length from 3 to 6 inches. If connected with the magnets, these rods can be used to build flimsy shapes and structures, which collapse if external weight or pressure is applied.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -1070,7 +1232,9 @@
     "traits": [
       "alchemical",
       "aura"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -1083,7 +1247,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 7,
@@ -1096,7 +1262,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 12,
@@ -1109,7 +1277,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 10,
@@ -1122,7 +1292,9 @@
     "traits": [
       "aura",
       "consumable"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 16,
@@ -1135,7 +1307,9 @@
     "traits": [
       "aura",
       "consumable"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -1148,7 +1322,9 @@
     "traits": [
       "aura",
       "consumable"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 17,
@@ -1160,7 +1336,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
   },
   {
     "level": 9,
@@ -1172,7 +1350,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Firearm Scope",
+    "worn": null
   },
   {
     "level": 10,
@@ -1184,7 +1364,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Metal Armor",
+    "worn": null
   },
   {
     "level": 5,
@@ -1196,7 +1378,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1206,7 +1390,9 @@
     },
     "description": "<p>This quality handheld lens gives you a +1 item bonus to Perception checks to notice minute details of documents, fabric, and the like.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1218,7 +1404,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
   },
   {
     "level": 17,
@@ -1230,7 +1418,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
   },
   {
     "level": 3,
@@ -1242,7 +1432,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
   },
   {
     "level": 13,
@@ -1255,7 +1447,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1271,7 +1465,9 @@
       "finesse",
       "parry",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1281,7 +1477,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -1295,6 +1493,8 @@
       "intelligent",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   }
 ]

@@ -12,7 +12,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 12,
@@ -24,7 +26,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 0,
@@ -38,7 +42,9 @@
       "agile",
       "sweep",
       "thrown-10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -50,7 +56,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 6,
@@ -62,7 +70,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -70,7 +80,9 @@
     "price": {},
     "description": "<p>Upon your brow is a gem that houses your soul. When casting any spell or ritual to return you to life, your intact head gem can be substituted for your body. While you can freely remove your head gem, it's typically impossible for another creature to forcibly remove or destroy your head gem unless you're killed or permanently incapacitated first; at the GM's discretion, powerful magic or abilities can circumvent this restriction. If your head gem is removed or destroyed, it can be regrown using a day-long ritual. When this occurs, any remains of the previous gem immediately crumble to dust.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 16,
@@ -84,7 +96,9 @@
       "invested",
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 17,
@@ -98,7 +112,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Circlet",
+    "worn": "Circlet"
   },
   {
     "level": 13,
@@ -112,7 +128,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -126,7 +144,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -140,7 +160,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -153,7 +175,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 4,
@@ -166,7 +190,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 3,
@@ -176,7 +202,9 @@
     },
     "description": "<p>This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. Expanded healer's toolkits provide a +1 item bonus to such checks. If you wear your healer's toolkit, you can draw and replace it as part of the action that uses it.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -186,7 +214,9 @@
     },
     "description": "<p>This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's toolkit, you can draw and replace it as part of the action that uses it.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 12,
@@ -202,7 +232,9 @@
       "magical",
       "potion",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -218,7 +250,9 @@
       "magical",
       "potion",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -234,7 +268,9 @@
       "magical",
       "potion",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -250,7 +286,9 @@
       "magical",
       "potion",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -266,7 +304,9 @@
       "magical",
       "potion",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -280,7 +320,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -294,7 +336,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 17,
@@ -308,7 +352,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -322,7 +368,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -332,7 +380,9 @@
     },
     "description": "<p>A hearing aid is worn in the ear and is made from carved wood, shaped metal, or even small clockwork pieces. The shape of the device aids those that are hard of hearing, and you can wear one or two depending on your hearing loss. You can attach or remove your hearing aids as an Interact action.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 15,
@@ -343,7 +393,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 6,
@@ -357,7 +409,9 @@
       "consumable",
       "magical",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -371,7 +425,9 @@
       "consumable",
       "magical",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -385,7 +441,9 @@
       "consumable",
       "magical",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -399,7 +457,9 @@
       "consumable",
       "magical",
       "missive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -413,7 +473,9 @@
       "healing",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -427,7 +489,9 @@
       "healing",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 3,
@@ -441,7 +505,9 @@
       "healing",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 5,
@@ -457,7 +523,9 @@
       "magical",
       "thrown-10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -470,7 +538,9 @@
     "traits": [
       "invested",
       "occult"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -480,7 +550,9 @@
     },
     "description": "<p>This fine cloak is lined with tiny tubes of slowly reacting alchemical reagents. These chemicals generate heat, which is circulated throughout the cloak by the wearer's movements. While active, the wearer is protected from severe cold. The cloak offers no protection from extreme or incredible cold. It operates for 24 hours and can be reset with a simple process that takes 1 minute.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 14,
@@ -499,7 +571,9 @@
       "parry",
       "twin",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -512,7 +586,9 @@
     "traits": [
       "barding",
       "companion"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -525,7 +601,9 @@
     "traits": [
       "barding",
       "companion"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -535,7 +613,9 @@
     },
     "description": "<p>This large crossbow is harder to load and more substantial than a regular crossbow, but it packs a greater punch.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -545,7 +625,9 @@
     },
     "description": "<p>Similar in size to a buckler, this steel shield is intended to absorb as many blows as possible instead of deflecting attacks. It features multiple layers of metal and is reinforced with additional wood.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -557,7 +639,9 @@
       "cursed",
       "intelligent",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 15,
@@ -569,7 +653,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn Anklets",
+    "worn": "Anklets"
   },
   {
     "level": 17,
@@ -585,7 +671,9 @@
       "staff",
       "two-hand-d8",
       "unholy"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -599,7 +687,9 @@
       "fire",
       "invested",
       "occult"
-    ]
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 1,
@@ -609,7 +699,9 @@
     },
     "description": "<p>Hellknights wear a variety of armors decorated with designs specific to the order. Hellknight breastplate serves those in the order who lack the training to wear heavy armor.</p>\n<p>A character who is a member of the Hellknights has access to these uncommon armors.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -619,7 +711,9 @@
     },
     "description": "<p>Hellknights wear a variety of armors decorated with designs specific to the order. Hellknight half plate is the armor of choice for Hellknight signifiers.</p>\n<p>A character who is a member of the Hellknights has access to these uncommon armors.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -631,7 +725,9 @@
     "rarity": "uncommon",
     "traits": [
       "bulwark"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -644,7 +740,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 9,
@@ -657,7 +755,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 18,
@@ -671,7 +771,9 @@
       "divine",
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 11,
@@ -685,7 +787,9 @@
       "divine",
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 7,
@@ -698,7 +802,9 @@
     "traits": [
       "magical",
       "shield-throw-30"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -711,7 +817,9 @@
     "traits": [
       "magical",
       "shield-throw-30"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 5,
@@ -724,7 +832,9 @@
     "traits": [
       "magical",
       "shield-throw-30"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -734,7 +844,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -749,7 +861,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -762,7 +876,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -776,7 +892,9 @@
       "invested",
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -788,7 +906,9 @@
     "rarity": "rare",
     "traits": [
       "bulwark"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -800,7 +920,9 @@
     "rarity": "rare",
     "traits": [
       "bulwark"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -819,7 +941,9 @@
       "kickback",
       "mental",
       "occult"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 11,
@@ -833,7 +957,9 @@
       "focused",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -843,7 +969,9 @@
     },
     "description": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -855,7 +983,9 @@
     "rarity": "common",
     "traits": [
       "deflecting-bludgeoning"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 4,
@@ -865,7 +995,9 @@
     },
     "description": "<p>Made with a brightly colored leather strap, these goggles have a series of overlapping lenses in an array of colors spanning the spectrum of visible light. The effect of this is that every color is more vibrant and similar shades have higher contrast. This means that shapes of even similar colors tend to stand out more, allowing the wearer to see even camouflage easier. As an Interact action, you can set the lenses to make things stand out at your current location. Until you move, you gain a +1 item bonus to Perception checks when you Seek.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 4,
@@ -878,7 +1010,9 @@
     "traits": [
       "force",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -891,7 +1025,9 @@
     "traits": [
       "force",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 16,
@@ -904,7 +1040,9 @@
     "traits": [
       "force",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -920,7 +1058,9 @@
       "hindering",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 20,
@@ -934,7 +1074,9 @@
       "integrated-1d6-s",
       "magical",
       "shield-throw-20"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -948,7 +1090,9 @@
       "integrated-1d6-s",
       "magical",
       "shield-throw-20"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 14,
@@ -962,7 +1106,9 @@
       "integrated-1d6-s",
       "magical",
       "shield-throw-20"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -976,7 +1122,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -990,7 +1138,9 @@
       "alchemical",
       "consumable",
       "expandable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1004,7 +1154,9 @@
       "integrated-1d6-s-versatile-p",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -1018,7 +1170,9 @@
       "alchemical",
       "consumable",
       "expandable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1028,7 +1182,9 @@
     },
     "description": "<p>This wooden box unfolds into a stack of hinged trays holding calipers, magnifying lenses, acids and reagents, comparison sketches of species commonly mistaken for one another, and glass slides for specimen testing. When you use this kit to study accounts of a creature or what it left behind (such as spoor, tracks, or fur samples), you gain a +1 item bonus to Recall Knowledge about the creature or to Track the creature. In addition, if you fail to Recall Knowledge about the creature (but don't critically fail), you're able to eliminate at least one possibility of a common type of animal. For instance, you might be able to verify the creature isn't an owlbear, even if you get no further information.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -1043,7 +1199,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1056,7 +1214,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1066,7 +1226,9 @@
     },
     "description": "<p>A hollowed hilt is a weapon modification that allows a pommel to be detached and its hilt meticulously hollowed out to create a small compartment without greatly affecting its balance. Often used by knight emissaries to hide important missives, this space can hold an object of light Bulk about the size of a scroll. A creature studying the weapon can find the hilt compartment with a successful @Check[perception|dc:20] check. Any weapon with an appropriate hilt or pommel can be converted into a hollowed one by paying the equipment's price.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1081,7 +1243,9 @@
       "holy",
       "invested",
       "noisy"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -1095,7 +1259,9 @@
       "divine",
       "healing",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1109,7 +1275,9 @@
       "divine",
       "healing",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -1123,7 +1291,9 @@
       "divine",
       "good",
       "mental"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -1137,7 +1307,9 @@
       "divine",
       "good",
       "mental"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1153,7 +1325,9 @@
       "holy",
       "splash",
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1165,7 +1339,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Weapon Wo-Holy Rune",
+    "worn": null
   },
   {
     "level": 5,
@@ -1179,7 +1355,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 13,
@@ -1193,7 +1371,9 @@
       "invested",
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -1208,7 +1388,9 @@
       "consumable",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1221,7 +1403,9 @@
     "traits": [
       "deadly-d6",
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Plus-Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -1231,7 +1415,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1244,7 +1430,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 3,
@@ -1259,7 +1447,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1275,7 +1465,9 @@
       "parry",
       "trip",
       "twin"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1287,7 +1479,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 11,
@@ -1299,7 +1493,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -1311,7 +1507,9 @@
     "rarity": "common",
     "traits": [
       "sonic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1323,6 +1521,8 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

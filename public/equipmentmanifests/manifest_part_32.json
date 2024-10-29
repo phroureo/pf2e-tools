@@ -10,7 +10,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -25,7 +27,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 1,
@@ -40,7 +44,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 5,
@@ -55,7 +61,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -68,7 +76,9 @@
     "traits": [
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -81,7 +91,9 @@
     "traits": [
       "finesse",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -94,7 +106,9 @@
     "traits": [
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 10,
@@ -107,7 +121,9 @@
     "traits": [
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 13,
@@ -120,7 +136,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 0,
@@ -130,7 +148,9 @@
     },
     "description": "<p>A prosthesis replaces a missing or damaged body part. Typical prostheses include artificial feet, eyes, hands, and limbs, though a basic prosthesis can be designed as a replacement for any body part. Advancements in the prosthetic field mean that even the most basic of prostheses can provide the full range of functionality for a missing body part.</p>\n<p>A prosthesis has a number of belts or cuffs that keep it attached to your body. You can attach or remove a prosthesis as an Interact action.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 13,
@@ -143,7 +163,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -157,7 +179,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -169,7 +193,9 @@
     "rarity": "common",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 1,
@@ -182,7 +208,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 5,
@@ -196,7 +224,9 @@
       "alchemical",
       "consumable",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -213,7 +243,9 @@
       "poison",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -229,7 +261,9 @@
       "injury",
       "morph",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -244,7 +278,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -258,7 +294,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -271,7 +309,9 @@
     "traits": [
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -284,7 +324,9 @@
     "traits": [
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -297,7 +339,9 @@
     "traits": [
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -312,7 +356,9 @@
       "intelligent",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 13,
@@ -325,7 +371,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -339,7 +387,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 3,
@@ -351,7 +401,9 @@
     "rarity": "uncommon",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -361,7 +413,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 25 Games Lore or DC 25 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -371,7 +425,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 25 Games Lore or DC 25 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -381,7 +437,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 20 Games Lore or DC 20 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -391,7 +449,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 20 Games Lore or DC 20 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -401,7 +461,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 15 Games Lore or DC 15 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>\n<hr />\n<p>A hollow puzzle box is designed to have an empty compartment in its center, allowing you to hide an object inside of the box. Only someone that solves the puzzle box can access the item within. A hollow puzzle box can hold an item of negligible Bulk no larger than 1 inch in diameter. Any puzzle box can be made into a hollow puzzle box. Doing so doubles the puzzle box's price.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -411,7 +473,9 @@
     },
     "description": "<p>A puzzle box features moving parts, locking mechanisms, and other components designed to confound the user. Solving a puzzle box typically requires three successful DC 15 Games Lore or DC 15 thievery checks to Open a Lock, though puzzle boxes come in countless configurations and themes, and the GM can determine which skills are appropriate.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -423,7 +487,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -433,7 +499,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -447,7 +515,9 @@
       "alchemical",
       "consumable",
       "fire"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -463,7 +533,9 @@
       "drug",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -473,7 +545,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -483,7 +557,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -493,7 +569,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -503,7 +581,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -516,7 +596,9 @@
     "traits": [
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -529,7 +611,9 @@
     "traits": [
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -542,7 +626,9 @@
     "traits": [
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -554,7 +640,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 14,
@@ -566,7 +654,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 8,
@@ -580,7 +670,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -592,7 +684,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -604,7 +698,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 2,
@@ -612,7 +708,9 @@
     "price": {},
     "description": "<p>A quick-change outfit is in fact two separate outfits sewn together. The specialized sewing technique allows you to switch quickly between the two outfits. You can use 3 consecutive Interact actions to slip out of the outfit, swap to the other side, and slip it back on. The two outfits can be of any kind (such as ordinary clothing and fine clothing) and appear as one outfit on one side and the second outfit on the other. The outfit's appearance is purely superficial, so you don't receive any special benefits from an outfit (such as protection from environmental cold with winter clothing), though the GM might still apply specific benefits like the bonus to checks with high-fashion fine clothing. You can notice the odd features of a quick-change outfit (such as extra seams) with a successful @Check[perception|dc:20] check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics, and its Bulk is 1 higher than the highest Bulk values of the two outfits.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -625,7 +723,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -638,7 +738,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 2,
@@ -652,7 +754,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 12,
@@ -665,7 +769,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -678,7 +784,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -691,7 +799,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -701,7 +811,9 @@
     },
     "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<hr />\n<p>Quickpatch glue is a fast-setting adhesive designed for rapid but temporary repairs.</p>\n<p>When applied to a broken item, the glue adheres the item's pieces back together. This does not restore the item's hit points, but it allows the item to be used for its normal function and removes the broken condition. The glue is fragile and degrades over time. An item repaired by quickpatch glue regains the broken condition after it takes damage or 1 hour passes (whichever comes first). In order to apply a new vial of quickpatch glue to or repair the item, the item's holder must first remove the glue residue, a process that requires 10 minutes of effort and a set of alchemist's tools.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -717,7 +829,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -733,7 +847,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -749,7 +865,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -765,7 +883,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -777,7 +897,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 11,
@@ -789,7 +911,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -801,7 +925,9 @@
     "rarity": "common",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -820,7 +946,9 @@
       "jousting-d6",
       "light",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 18,
@@ -833,7 +961,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 20,
@@ -846,7 +976,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 16,
@@ -859,7 +991,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 25,
@@ -870,7 +1004,9 @@
     "traits": [
       "artifact",
       "occult"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -883,7 +1019,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -897,7 +1035,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -911,7 +1051,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -926,7 +1068,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -938,7 +1082,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -951,7 +1097,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -964,7 +1112,9 @@
     "traits": [
       "disarm",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -979,7 +1129,9 @@
       "combination",
       "concussive",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -993,7 +1145,9 @@
       "deadly-d8",
       "disarm",
       "finesse"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1003,7 +1157,9 @@
     },
     "description": "<p>This satchel contains all the basic equipment found in a climbing kit plus the specialized equipment—including a harness, belay device, and locking clips—needed for descents. When Climbing down with a rappelling kit, you move twice as fast as usual based on your check result.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 11,
@@ -1016,7 +1172,9 @@
     "traits": [
       "magical",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1030,7 +1188,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1044,7 +1204,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1054,7 +1216,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1068,7 +1232,9 @@
       "arcane",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 4,
@@ -1082,7 +1248,9 @@
       "arcane",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 3,
@@ -1095,7 +1263,9 @@
     "traits": [
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Armbands",
+    "worn": "Armbands"
   },
   {
     "level": 10,
@@ -1108,7 +1278,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -1121,7 +1293,9 @@
     "traits": [
       "integrated-1d6-s",
       "shield-throw-20"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 4,
@@ -1135,7 +1309,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -1147,7 +1323,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 1,
@@ -1159,7 +1337,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -1171,7 +1351,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -1183,7 +1365,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 9,
@@ -1198,7 +1382,9 @@
       "finesse",
       "light",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1212,7 +1398,9 @@
       "concussive",
       "fatal-d12",
       "kickback"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -1230,7 +1418,9 @@
       "parry",
       "poison",
       "twin"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1247,7 +1437,9 @@
       "poison",
       "virulent",
       "void"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 13,
@@ -1263,7 +1455,9 @@
       "magical",
       "spellgun",
       "void"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1277,7 +1471,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1292,7 +1488,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Shield",
+    "worn": null
   },
   {
     "level": 20,
@@ -1305,6 +1503,8 @@
     "traits": [
       "force",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   }
 ]

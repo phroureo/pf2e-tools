@@ -7,7 +7,9 @@
     },
     "description": "<p>Treated with oil and animal fats, the leather of this pouch is more resistant to water but is also stiffer. Many makers and travelers decorate their oilskin pouches with symbols of the ocean and sailing. Often used to store scrolls or other paper documents when a traveler knows they will be in an area of heavy rain or near water. While not entirely waterproof, an oilskin pouch seals with sturdy leather ties, allowing it to resist anything other than total submersion. Even completely underwater, it will protect its contents for up to 1 minute.</p>\n<p>An oilskin pouch can protect up to 1 Bulk of items.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -21,7 +23,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -31,7 +35,9 @@
     },
     "description": "<p>This beloved tavern mascot is a shabby old stuffed beast mounted on an immense slab of ironwood. The beast is roughly the size and shape of a wolverine but with a broader snout, blue stripes along its upper legs and bristled back, and a club of spiked bone at the end of its long tail. No one can recall where Old Tillimaquin originally came from, how the taxidermic beast came to stand in its tavern, or even whether it's a genuine article. The tradition of rubbing its bronzed claws for good luck has been observed for so long that the front claws are worn to stubs. Local belief holds that as long as Old Tillimaquin stands, neither fire nor flood will claim its town.</p>\n<p><strong>Activate</strong> Interact (divination, fortune, occult)</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> You rub Old Tillimaquin's bronzed claws for good luck before setting out on a task that might benefit the town. You can reroll a single failed saving throw within the next 24 hours, but you must take the second result, even if it's worse than your original result. Each person who rubs the claws can benefit only once per month, but there's no limit to how many people can draw on Old Tillimaquin's luck.</p>",
     "rarity": "unique",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 10,
@@ -45,7 +51,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -59,7 +67,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -71,7 +81,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -87,7 +99,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -102,7 +116,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -116,7 +132,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 9,
@@ -129,7 +147,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -143,7 +163,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -153,7 +175,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 12,
@@ -167,7 +191,9 @@
       "acid",
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -181,7 +207,9 @@
       "acid",
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -195,7 +223,9 @@
       "acid",
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -209,7 +239,9 @@
       "acid",
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -221,7 +253,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -234,7 +268,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -247,7 +283,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -257,7 +295,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -271,7 +311,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 11,
@@ -285,7 +327,9 @@
       "divine",
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 4,
@@ -299,7 +343,9 @@
       "invested",
       "occult",
       "scrying"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 25,
@@ -310,7 +356,9 @@
     "traits": [
       "arcane",
       "artifact"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -324,7 +372,9 @@
       "finesse",
       "magical",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -338,7 +388,9 @@
       "agile",
       "disarm",
       "orc"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -352,7 +404,9 @@
       "forceful",
       "orc",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -367,7 +421,9 @@
       "orc",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -378,7 +434,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 8,
@@ -393,7 +451,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -405,7 +465,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -417,7 +479,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -430,7 +494,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -440,7 +506,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -453,7 +521,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   },
   {
     "level": 19,
@@ -466,7 +536,9 @@
     "traits": [
       "adjusted",
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -481,7 +553,9 @@
       "magical",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 20,
@@ -496,7 +570,9 @@
       "magical",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -511,7 +587,9 @@
       "magical",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 10,
@@ -527,7 +605,9 @@
       "fire",
       "mental",
       "splash"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 20,
@@ -541,7 +621,9 @@
       "intelligent",
       "magical",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -558,7 +640,9 @@
       "emotion",
       "fear",
       "mental"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -571,7 +655,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -583,7 +669,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 10,
@@ -602,7 +690,9 @@
       "fire",
       "magical",
       "unholy"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -614,7 +704,9 @@
       "contract",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -627,7 +719,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -639,7 +733,9 @@
     "rarity": "common",
     "traits": [
       "comfort"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -649,7 +745,9 @@
     },
     "description": "<p>This set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint set with extra paints and canvas for 1 sp.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -662,7 +760,9 @@
     "traits": [
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Each Rune Applied To-A Separate Item That-Has Pockets",
+    "worn": null
   },
   {
     "level": 13,
@@ -675,7 +775,9 @@
     "traits": [
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Each Rune Applied To-A Separate Item That-Has Pockets",
+    "worn": null
   },
   {
     "level": 5,
@@ -688,7 +790,9 @@
     "traits": [
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Each Rune Applied To-A Separate Item That-Has Pockets",
+    "worn": null
   },
   {
     "level": 10,
@@ -700,7 +804,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 19,
@@ -715,7 +821,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -727,7 +835,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -743,7 +853,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -753,7 +865,9 @@
     },
     "description": "<p>This thick, elegant bracelet conceals a specialized firing mechanism that can hold a single blowgun dart. You can fire the dart normally from the bracelet. Recognizing the bracelet's nature requires a successful DC 25 perception check.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You expand the bracelet into a Hand Crossbow. The bracelet has enough pieces to assemble up to three bolts, but the bolts contain necessary components for the bracelet. Without all of the bolt pieces, you cannot collapse the crossbow back into a bracelet.</p>",
     "rarity": "rare",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -767,7 +881,9 @@
       "forceful",
       "sweep",
       "two-hand-d10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -781,7 +897,9 @@
       "consumable",
       "healing",
       "primal"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -796,7 +914,9 @@
       "healing",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -809,7 +929,9 @@
       "magical",
       "mental",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -824,7 +946,9 @@
       "monk",
       "reach",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -836,7 +960,9 @@
     "rarity": "uncommon",
     "traits": [
       "clockwork"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -846,7 +972,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -858,7 +986,9 @@
     "rarity": "uncommon",
     "traits": [
       "adjustment"
-    ]
+    ],
+    "usage": "Affixed To Medium Heavy-Armor",
+    "worn": null
   },
   {
     "level": 10,
@@ -872,7 +1002,9 @@
       "invested",
       "light",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -884,7 +1016,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -898,7 +1032,9 @@
       "consumable",
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -908,7 +1044,9 @@
     },
     "description": "<p>You can draw this reinforced sheath during the same Interact action you use to draw the weapon it holds, wielding the weapon in one hand and the scabbard in your other. A parrying scabbard can be used for your defense much like a weapon with the parry trait: you can spend an action to position it defensively, gaining a +1 circumstance bonus to AC until the start of your next turn. Parrying scabbards are available for any sword that can be wielded in one hand.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -922,7 +1060,9 @@
       "invested",
       "magical",
       "shadow"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 25,
@@ -934,7 +1074,9 @@
       "artifact",
       "divine",
       "teleportation"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 3,
@@ -944,7 +1086,9 @@
     },
     "description": "<p>Numerous volumes and editions of the Pathfinder Chronicles exist, each cataloging different adventures. Pathfinder Chronicles are a type of scholarly journal that specifically devotes topics to Pathfinder discoveries, rather than more theoretical academic topics. Because Pathfinders have better access to these chronicles than other scholarly journals, they are particularly common among Pathfinder agents building a library of reference texts.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -957,7 +1101,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -972,7 +1118,9 @@
       "intelligent",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -986,7 +1134,9 @@
       "extradimensional",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -1001,7 +1151,9 @@
       "magical",
       "potion",
       "tea"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1015,7 +1167,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -1027,7 +1181,9 @@
     "rarity": "uncommon",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1039,7 +1195,9 @@
     "rarity": "uncommon",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1053,7 +1211,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -1063,7 +1223,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1073,7 +1235,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1083,7 +1247,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1093,7 +1259,9 @@
     },
     "description": "<p>Most merfolk have no problem surfacing for a while, but constant existence in the air is exhausting and demoralizing. A clever artisan off the coast of Arcadia came up with this solution—a sturdy frame that goes on the shoulders and supports a bubble-like helmet filled with water. A mouthpiece lets the wearer speak to the outside world, and a plant-based filtration system keeps the water at the appropriate level of freshness or brackishness for the wearer. Over the years, these contraptions have spread to most of the world's oceans, though many merfolk don't use them—some find the devices just too heavy and would rather deal with the dryness. The helms are especially popular with abyssal merfolk, who tint the glass dark to protect from the too-bright surface.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 9,
@@ -1106,7 +1274,9 @@
     "traits": [
       "invested",
       "occult"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -1119,7 +1289,9 @@
     "traits": [
       "invested",
       "occult"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -1132,7 +1304,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1146,7 +1320,9 @@
       "capacity-3",
       "concussive",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1160,7 +1336,9 @@
       "magical",
       "spellheart",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -1174,7 +1352,9 @@
       "magical",
       "spellheart",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1188,7 +1368,9 @@
       "magical",
       "spellheart",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 22,
@@ -1200,7 +1382,9 @@
       "artifact",
       "divine",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -1210,7 +1394,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -1220,7 +1406,9 @@
     },
     "description": "<p>This is a 2-foot-long tube with two angled mirrors, one at each end. When the mirrors are aligned correctly, you can look around obstacles while remaining behind cover. This doesn't provide a sufficient line of effect to target creatures around corners.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -1234,7 +1422,9 @@
       "clockwork",
       "consumable",
       "gadget"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1250,7 +1440,9 @@
       "consumable",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1266,7 +1458,9 @@
       "consumable",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1282,7 +1476,9 @@
       "consumable",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1298,7 +1494,9 @@
       "consumable",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1312,6 +1510,8 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Firearm",
+    "worn": null
   }
 ]

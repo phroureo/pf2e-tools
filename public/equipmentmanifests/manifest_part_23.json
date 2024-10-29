@@ -7,7 +7,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -19,7 +21,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -31,7 +35,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -46,7 +52,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Ranged-Weapon",
+    "worn": null
   },
   {
     "level": 5,
@@ -61,7 +69,9 @@
       "consumable",
       "healing",
       "processed"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -74,7 +84,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Light Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -89,7 +101,9 @@
       "illusion",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -102,7 +116,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Light Armor",
+    "worn": null
   },
   {
     "level": 13,
@@ -116,7 +132,9 @@
       "comfort",
       "flexible",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -129,7 +147,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -142,7 +162,9 @@
     "traits": [
       "concussive",
       "fatal-aim-d12"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -152,7 +174,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -162,7 +186,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -176,7 +202,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 14,
@@ -190,7 +218,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -204,7 +234,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 10,
@@ -218,7 +250,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 1,
@@ -232,7 +266,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -245,7 +281,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -259,7 +297,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -273,7 +313,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -287,7 +329,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -301,7 +345,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -316,7 +362,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -331,7 +379,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -343,7 +393,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -355,7 +407,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -365,7 +419,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -379,7 +435,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Headgear",
+    "worn": null
   },
   {
     "level": 10,
@@ -393,7 +451,9 @@
       "air",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
   },
   {
     "level": 12,
@@ -406,7 +466,9 @@
     "traits": [
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -420,7 +482,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 8,
@@ -435,7 +499,9 @@
       "magical",
       "mental",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Melee Weapon",
+    "worn": null
   },
   {
     "level": 2,
@@ -449,7 +515,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -459,7 +527,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 21,
@@ -471,7 +541,9 @@
       "artifact",
       "magical",
       "teleportation"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -483,7 +555,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -496,7 +570,9 @@
     "traits": [
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -506,7 +582,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -518,7 +596,9 @@
     "rarity": "common",
     "traits": [
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -530,7 +610,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -545,7 +627,9 @@
       "divine",
       "fatal-aim-d10",
       "intelligent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -555,7 +639,9 @@
     },
     "description": "<p>These bioluminescent jellyfish are as bright as candles, come in a variety of colors, and can act as living lanterns. They dry up and die if removed from the water for more than 1 hour, but as long as they're allowed access to seawater, they can usually survive for up to 1 year by feeding on micronutrients. Rarely, a well-treated jellyfish lamp might live longer and potentially develop stronger light or additional abilities.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -568,7 +654,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -578,7 +666,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -588,7 +678,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -598,7 +690,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -608,7 +702,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -618,7 +714,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -628,7 +726,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -641,7 +741,9 @@
     "traits": [
       "concussive",
       "fatal-aim-d12"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -654,7 +756,9 @@
     "traits": [
       "magical",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -666,7 +770,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -678,7 +784,9 @@
     "rarity": "uncommon",
     "traits": [
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -692,7 +800,9 @@
       "electricity",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -706,7 +816,9 @@
       "electricity",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 3,
@@ -720,7 +832,9 @@
       "electricity",
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 4,
@@ -733,7 +847,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -746,7 +862,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -759,7 +877,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 20,
@@ -772,7 +892,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 10,
@@ -785,7 +907,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 4,
@@ -797,7 +921,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -813,7 +939,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -829,7 +957,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -845,7 +975,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -861,7 +993,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -875,7 +1009,9 @@
       "agile",
       "nonlethal",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -890,7 +1026,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -905,7 +1043,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -920,7 +1060,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -935,7 +1077,9 @@
       "bomb",
       "consumable",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -948,7 +1092,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -961,7 +1107,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -976,7 +1124,9 @@
       "magical",
       "spellheart",
       "vitality"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 16,
@@ -991,7 +1141,9 @@
       "magical",
       "spellheart",
       "vitality"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 10,
@@ -1006,7 +1158,9 @@
       "magical",
       "spellheart",
       "vitality"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -1017,7 +1171,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 13,
@@ -1031,7 +1187,9 @@
       "consumable",
       "fulu",
       "magical"
-    ]
+    ],
+    "usage": "Affixed To Load Bearing-Wall Or Pillar",
+    "worn": null
   },
   {
     "level": 20,
@@ -1043,7 +1201,9 @@
       "concealable",
       "concussive",
       "fatal-d10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1056,7 +1216,9 @@
     "traits": [
       "deadly-d8",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1069,7 +1231,9 @@
       "invested",
       "magical",
       "relic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1083,7 +1247,9 @@
       "agile",
       "monk",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1098,7 +1264,9 @@
       "fatal-d8",
       "finesse",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1112,7 +1280,9 @@
       "deadly-d8",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1126,7 +1296,9 @@
       "agile",
       "deadly-d6",
       "monk"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1138,7 +1310,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Piercing Or-Slashing Melee Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -1150,7 +1324,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 0,
@@ -1162,7 +1338,9 @@
     "rarity": "rare",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 9,
@@ -1174,7 +1352,9 @@
       "contract",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 3,
@@ -1186,7 +1366,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -1200,7 +1382,9 @@
       "shove",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1212,7 +1396,9 @@
     "rarity": "uncommon",
     "traits": [
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1226,7 +1412,9 @@
       "divine",
       "focused",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -1239,7 +1427,9 @@
     "traits": [
       "dwarf",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1252,7 +1442,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 11,
@@ -1266,7 +1458,9 @@
       "grimoire",
       "intelligent",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1282,7 +1476,9 @@
       "ingested",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -1296,7 +1492,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1306,6 +1504,8 @@
     },
     "description": "<p>This colorful canvas kite is controlled by twine and flies when it catches the wind.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

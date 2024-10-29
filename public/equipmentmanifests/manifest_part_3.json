@@ -9,7 +9,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 1,
@@ -24,7 +26,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -40,7 +44,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -56,7 +62,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -72,7 +80,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -88,7 +98,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -98,7 +110,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -111,7 +125,9 @@
     "traits": [
       "electricity",
       "light"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -121,7 +137,9 @@
     },
     "description": "<p>This <em>+1 resilient leather armor</em> has four knobbed ribs that wrap around the torso. The armor grants you resistance 5 to poison damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> The ribs from the armor spread into functional spider limbs. For 1 minute, you gain a climb Speed equal to half your land Speed and have your limbs free as you climb. If you use all your free limbs to help you Climb, your climb Speed equals your land Speed.</p>\n<p></p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include four intact legs from a goliath spider.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -131,7 +149,9 @@
     },
     "description": "<p>This <em>+1 leather armor</em> has four knobbed ribs that wrap around the torso. The armor grants you resistance 2 to poison damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The ribs from the armor spread into functional spider limbs. For 1 minute, you gain a climb Speed equal to half your land Speed and have your limbs free as you climb. If you use all your free limbs to help you Climb, your climb Speed equals your land Speed.</p>\n<p></p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include four intact legs from an ogre spider.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -143,7 +163,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -155,7 +177,9 @@
     "rarity": "common",
     "traits": [
       "backstabber"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -168,7 +192,9 @@
     "traits": [
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 5,
@@ -181,7 +207,9 @@
     "traits": [
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 12,
@@ -197,7 +225,9 @@
       "primal",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -212,7 +242,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -227,7 +259,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -242,7 +276,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -257,7 +293,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -272,7 +310,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -287,7 +327,9 @@
       "magical",
       "vitality",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -302,7 +344,9 @@
       "cursed",
       "magical",
       "scatter-10"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -315,7 +359,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -328,7 +374,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -341,7 +389,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -355,7 +405,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 15,
@@ -370,7 +422,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 10,
@@ -385,7 +439,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -398,7 +454,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -411,7 +469,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Armbands",
+    "worn": "Armbands"
   },
   {
     "level": 9,
@@ -424,7 +484,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Armbands",
+    "worn": "Armbands"
   },
   {
     "level": 17,
@@ -438,7 +500,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Armbands",
+    "worn": "Armbands"
   },
   {
     "level": 1,
@@ -450,7 +514,9 @@
     "rarity": "common",
     "traits": [
       "adjustment"
-    ]
+    ],
+    "usage": "Applied To Armor",
+    "worn": null
   },
   {
     "level": 16,
@@ -465,7 +531,9 @@
       "good",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -478,7 +546,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -490,7 +560,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 11,
@@ -502,7 +574,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 18,
@@ -514,7 +588,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -527,7 +603,9 @@
     "traits": [
       "comfort",
       "flexible"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -540,7 +618,9 @@
     "traits": [
       "comfort",
       "flexible"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -550,7 +630,9 @@
     },
     "description": "<p>These armor-plated skirts, which are also known as armored kilts, are favored by Knights of Lastwall for their versatility and aesthetic appeal. An armored skirt can be donned with 2 Interact actions when it's worn with light or medium armor, or as part of donning heavy armor.</p>\n<p>When worn with a breastplate, chain shirt, chain mail, or scale mail, an armored skirt increases the armor's item bonus to AC by 1, worsens the armor's check penalty by 1, reduces the armor's Dex cap by 1, increases the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, and adds the noisy trait. This also makes the armor one step heavier (from light to medium, or medium to heavy), and you use the proficiency bonus appropriate to this adjusted armor type.</p>\n<p>Alternatively, when wearing an armored skirt to replace appropriate portions of a set of half plate or full plate, reduce the armor's item bonus to AC by 1, lessen the check penalty by 1, decrease the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, increase the armor's Dex cap by 1, and add the noisy trait to the armor. An armored skirt grants no benefit when worn by itself or with armors other than those listed here.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -563,7 +645,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -576,7 +660,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 15,
@@ -589,7 +675,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -602,7 +690,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 8,
@@ -615,7 +705,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 25,
@@ -626,7 +718,9 @@
     "traits": [
       "arcane",
       "artifact"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -640,7 +734,9 @@
       "alchemical",
       "consumable",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -653,7 +749,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -667,7 +765,9 @@
       "concussive",
       "fatal-d12",
       "kickback"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 11,
@@ -679,7 +779,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -689,7 +791,9 @@
     },
     "description": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -704,7 +808,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -717,7 +823,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -731,7 +839,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Eyeglasses",
+    "worn": "Eyeglasses"
   },
   {
     "level": 3,
@@ -741,7 +851,9 @@
     },
     "description": "<p>You need these tools to create items from raw materials with the Craft skill. Sterling artisan's tools give you a +1 item bonus to the check.</p>\n<p>Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -751,7 +863,9 @@
     },
     "description": "<p>You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 11,
@@ -765,7 +879,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -779,7 +895,9 @@
       "fire",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Clothing",
+    "worn": "Clothing"
   },
   {
     "level": 7,
@@ -793,7 +911,9 @@
       "fire",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Clothing",
+    "worn": "Clothing"
   },
   {
     "level": 16,
@@ -805,7 +925,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -817,7 +939,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 20,
@@ -830,7 +954,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -843,7 +969,9 @@
     "traits": [
       "reach",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -857,7 +985,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -871,7 +1001,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers"
   },
   {
     "level": 15,
@@ -885,7 +1017,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers"
   },
   {
     "level": 20,
@@ -899,7 +1033,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers"
   },
   {
     "level": 15,
@@ -912,7 +1048,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 5,
@@ -924,7 +1062,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 15,
@@ -937,7 +1077,9 @@
     "traits": [
       "magical",
       "spirit"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -950,7 +1092,9 @@
     "traits": [
       "magical",
       "spirit"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -966,7 +1110,9 @@
       "contact",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -978,7 +1124,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -990,7 +1138,9 @@
     "rarity": "common",
     "traits": [
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1000,7 +1150,9 @@
     },
     "description": "<p>A combination of waterproof leather, durable glass, and a system of copper tubes allows aquatic creatures who wear this suit to be able to spend time on land. They're custom-tailored to fit a wide variety of body types and needs. Part of the system of tubes is set up in a way to allow the wearer to speak and hear as well as they normally would with creatures outside the suit. Water, either fresh or salt, is kept moving throughout the system to keep the wearer moisturized. The moving water allows for easier flow to the gills or breathing apparatus of the creature. It also means that the water will slowly run out. Each suit must be refilled with the proper type of water for a creature every 24 hours. It takes 2 gallons of water to refill a suit.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -1015,7 +1167,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1030,7 +1184,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1045,7 +1201,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1060,7 +1218,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1074,7 +1234,9 @@
       "alchemical",
       "consumable",
       "processed"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -1087,7 +1249,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1101,7 +1265,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 8,
@@ -1115,7 +1281,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 13,
@@ -1129,7 +1297,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 5,
@@ -1142,7 +1312,9 @@
     "traits": [
       "magical",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1154,7 +1326,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -1166,7 +1340,9 @@
     "rarity": "common",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -1180,7 +1356,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Boots",
+    "worn": "Boots"
   },
   {
     "level": 18,
@@ -1195,7 +1373,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1208,7 +1388,9 @@
       "invested",
       "magical",
       "relic"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 18,
@@ -1222,7 +1404,9 @@
       "alchemical",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1236,7 +1420,9 @@
       "alchemical",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1250,7 +1436,9 @@
       "alchemical",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1264,7 +1452,9 @@
       "combination",
       "concussive",
       "fatal-d10"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 26,
@@ -1278,7 +1468,9 @@
       "sweep",
       "thrown-30",
       "two-hand-d12"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1298,7 +1490,9 @@
       "holy",
       "intelligent",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1313,7 +1507,9 @@
       "consumable",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -1326,7 +1522,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1336,6 +1534,8 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   }
 ]

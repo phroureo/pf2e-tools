@@ -11,7 +11,9 @@
       "invested",
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -27,7 +29,9 @@
       "illusion",
       "magical",
       "visual"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -39,7 +43,9 @@
       "cursed",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Ring",
+    "worn": "Ring"
   },
   {
     "level": 16,
@@ -52,7 +58,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -65,7 +73,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -78,7 +88,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 20,
@@ -89,7 +101,9 @@
     "traits": [
       "artifact",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -103,7 +117,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 18,
@@ -114,7 +130,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -125,7 +143,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -136,7 +156,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -147,7 +169,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -158,7 +182,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -169,7 +195,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 18,
@@ -180,7 +208,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 11,
@@ -196,7 +226,9 @@
       "consumable",
       "fire",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -212,7 +244,9 @@
       "consumable",
       "fire",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -228,7 +262,9 @@
       "consumable",
       "fire",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -244,7 +280,9 @@
       "consumable",
       "fire",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -257,7 +295,9 @@
     "traits": [
       "divine",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -271,7 +311,9 @@
       "forceful",
       "two-hand-d10",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -286,7 +328,9 @@
       "deadly-d6",
       "finesse",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -301,7 +345,9 @@
       "consumable",
       "contact",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -313,7 +359,9 @@
     "rarity": "common",
     "traits": [
       "alchemical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -323,7 +371,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -333,7 +383,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -343,7 +395,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -356,7 +410,9 @@
     "traits": [
       "consumable",
       "divine"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -371,7 +427,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -385,7 +443,9 @@
       "alchemical",
       "consumable",
       "expandable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -400,7 +460,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -414,7 +476,9 @@
       "cursed",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -428,7 +492,9 @@
       "cursed",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -442,7 +508,9 @@
       "cursed",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -456,7 +524,9 @@
       "cursed",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -470,7 +540,9 @@
       "cursed",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -485,7 +557,9 @@
       "consumable",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -499,7 +573,9 @@
       "conrasu",
       "deadly-d10",
       "modular"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -509,7 +585,9 @@
     },
     "description": "<p><strong>Usage</strong> modifies existing clothing.</p>\n<hr />\n<p>Performers and criminals are both known to use disposable clothing designed to be torn off the body quickly and easily. This garment is loose enough to be worn over another outfit, including light armor. You can remove tear-away clothing with an Interact action. The price for tear-away clothing is to modify an existing outfit. If purchasing a new outfit, add the tear-away clothing's price to the outfit to modify it as part of the purchase.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 20,
@@ -525,7 +603,9 @@
       "contact",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 25,
@@ -537,7 +617,9 @@
       "arcane",
       "artifact",
       "invested"
-    ]
+    ],
+    "usage": "Worn Necklace",
+    "worn": "Necklace"
   },
   {
     "level": 0,
@@ -554,7 +636,9 @@
       "free-hand",
       "monk",
       "parry"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -567,7 +651,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 20,
@@ -581,7 +667,9 @@
       "fire",
       "magical",
       "shove"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -594,7 +682,9 @@
     "traits": [
       "monk",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -604,7 +694,9 @@
     },
     "description": "<p>When wielding this long pole, you can use Seek to search a square up to 10 feet away. The pole is not sturdy enough to use as a weapon.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 11,
@@ -621,7 +713,9 @@
       "consumable",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -638,7 +732,9 @@
       "consumable",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -655,7 +751,9 @@
       "consumable",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -672,7 +770,9 @@
       "consumable",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -682,7 +782,9 @@
     "rarity": "unique",
     "traits": [
       "primal"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -697,7 +799,9 @@
       "disarm",
       "finesse",
       "tengu"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -707,7 +811,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -717,7 +823,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -727,7 +835,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 13,
@@ -742,7 +852,9 @@
       "concussive",
       "fatal-d12",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 17,
@@ -757,7 +869,9 @@
       "concussive",
       "fatal-d12",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -772,7 +886,9 @@
       "concussive",
       "fatal-d12",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -786,7 +902,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -800,7 +918,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -814,7 +934,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -830,7 +952,9 @@
       "fear",
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -845,7 +969,9 @@
       "consumable",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -859,7 +985,9 @@
       "razing",
       "shove",
       "sweep"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -873,7 +1001,9 @@
       "consumable",
       "fire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -886,7 +1016,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -899,7 +1031,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -912,7 +1046,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -925,7 +1061,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -938,7 +1076,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -951,7 +1091,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -964,7 +1106,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -978,7 +1122,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -991,7 +1137,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1004,7 +1152,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1017,7 +1167,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1030,7 +1182,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 25,
@@ -1042,7 +1196,9 @@
       "artifact",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1055,7 +1211,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1068,7 +1226,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1081,7 +1241,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1094,7 +1256,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1108,7 +1272,9 @@
       "illusion",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1121,7 +1287,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1134,7 +1302,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1147,7 +1317,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 9,
@@ -1159,7 +1331,9 @@
     "rarity": "unique",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1172,7 +1346,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1185,7 +1361,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1198,7 +1376,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1211,7 +1391,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1224,7 +1406,9 @@
       "invested",
       "magical",
       "scrying"
-    ]
+    ],
+    "usage": "Worn Necklace",
+    "worn": "Necklace"
   },
   {
     "level": 20,
@@ -1237,7 +1421,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1250,7 +1436,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1263,7 +1451,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1276,7 +1466,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1289,7 +1481,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1302,7 +1496,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1315,7 +1511,9 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   },
   {
     "level": 20,
@@ -1328,6 +1526,8 @@
       "harrow-court",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Carried",
+    "worn": null
   }
 ]

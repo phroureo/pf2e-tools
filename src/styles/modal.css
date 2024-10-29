@@ -7,8 +7,10 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
     z-index: 1000;
 }
 
@@ -89,7 +91,7 @@
     border-bottom: 1px solid #333;
     cursor: pointer;
     transition: background 0.3s;
-    height: auto;
+    height:fit-content;
     overflow: hidden;
 }
 
@@ -199,6 +201,7 @@
     background-color: #2a2a3e;
     /* Removed position: absolute; */
     box-sizing: border-box;
+    height: 60px;
 }
 
 .close-button {

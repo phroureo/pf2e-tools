@@ -16,7 +16,7 @@ interface ItemListProps {
 }
 
 const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems, showAffordableItemsOnly, availableCopper }) => {
-    
+
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [searchConditions, setSearchConditions] = useState<SearchCondition[]>([
         { field: 'name', value: '', comparison: 'contains' }
@@ -29,30 +29,29 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems,
             onAddItem(selectedItem);
             setIsModalOpen(false); // Close modal after adding the item
             setSelectedItem(null);
-            setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]); 
+            setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]);
         };
     }
 
     const handleClose = () => {
         setIsModalOpen(false);
         setSelectedItem(null);
-        setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]); 
+        setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]);
     }
 
     return (
         <div>
             <button onClick={() => setIsModalOpen(true)}>Select Items</button>
-            <Modal 
-                isOpen={isModalOpen} 
-                onClose={() => handleClose()} 
+            <Modal
+                isOpen={isModalOpen}
+                onClose={() => handleClose()}
                 selectedItem={selectedItem}
                 handleAddItem={() => handleAddItem()}
-                >
-                    <SearchConditionRow
-                        searchConditions={searchConditions}
-                        onConditionsChange={(conditions) => setSearchConditions(conditions)}
-                    />
-
+            >
+                <SearchConditionRow
+                    searchConditions={searchConditions}
+                    onConditionsChange={(conditions) => setSearchConditions(conditions)}
+                />
                 <div className="modal-body">
                     <ItemListPanel
                         items={items}

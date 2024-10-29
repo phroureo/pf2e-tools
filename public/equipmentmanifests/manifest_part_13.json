@@ -7,7 +7,9 @@
     },
     "description": "<p>Dolls are found throughout Golarion in a wide variety of forms. Among the most common are miniature painted figurines, plush animals crafted from fur and stuffed with cotton, porcelain dolls with fine clothing and silky hair, fabric hand puppets, and elaborate marionettes.</p>\n<hr />\n<p>Hiding an object inside this beautifully crafted surprise doll grants you a +1 item bonus on Stealth checks made to Conceal an Object{Conceal an item}, as the compartment is particularly well-hidden and weighted to ensure the doll doesn't feel off-balance with an item inside.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -17,7 +19,9 @@
     },
     "description": "<p>Dolls are found throughout Golarion in a wide variety of forms. Among the most common are miniature painted figurines, plush animals crafted from fur and stuffed with cotton, porcelain dolls with fine clothing and silky hair, fabric hand puppets, and elaborate marionettes.</p>\n<hr />\n<p>These dolls contain a hidden compartment or pouch capable of holding a single object of up to light Bulk—typically a bell, rattle, or dried flowers.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -27,7 +31,9 @@
     },
     "description": "<p>Dolls are found throughout Golarion in a wide variety of forms. Among the most common are miniature painted figurines, plush animals crafted from fur and stuffed with cotton, porcelain dolls with fine clothing and silky hair, fabric hand puppets, and elaborate marionettes.</p>\n<hr />\n<p>This price is for an average doll of any type.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -42,7 +48,9 @@
       "reach",
       "tethered",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 1,
@@ -56,7 +64,9 @@
       "concussive",
       "double-barrel",
       "fatal-d10"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -70,7 +80,9 @@
       "concussive",
       "double-barrel",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -83,7 +95,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -96,7 +110,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 19,
@@ -111,7 +127,9 @@
       "holy",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask"
   },
   {
     "level": 7,
@@ -124,7 +142,9 @@
       "consumable",
       "cursed",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -139,7 +159,9 @@
       "light",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -154,7 +176,9 @@
       "consumable",
       "contact",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -172,7 +196,9 @@
       "magical",
       "nonlethal",
       "unarmed"
-    ]
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves"
   },
   {
     "level": 0,
@@ -185,7 +211,9 @@
     "traits": [
       "concussive",
       "scatter-5"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -199,7 +227,9 @@
       "alchemical",
       "consumable",
       "processed"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -213,7 +243,9 @@
       "focused",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -227,7 +259,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -241,7 +275,9 @@
       "bulwark",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -253,7 +289,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -265,7 +303,9 @@
     "rarity": "common",
     "traits": [
       "aquadynamic"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -279,7 +319,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -293,7 +335,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -307,7 +351,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 16,
@@ -321,7 +367,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Shield",
+    "worn": null
   },
   {
     "level": 12,
@@ -336,7 +384,9 @@
       "fire",
       "magical",
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Plus-Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -351,7 +401,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -366,7 +418,9 @@
       "magical",
       "morph",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -380,7 +434,9 @@
       "bulwark",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 20,
@@ -394,7 +450,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -408,7 +466,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -421,7 +481,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -434,7 +496,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -447,7 +511,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -460,7 +526,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -472,7 +540,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 6,
@@ -484,7 +554,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 8,
@@ -496,7 +568,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 10,
@@ -508,7 +582,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 12,
@@ -520,7 +596,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 14,
@@ -532,7 +610,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 16,
@@ -544,7 +624,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 18,
@@ -556,7 +638,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 20,
@@ -568,7 +652,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Applied To Dueling Cape-Or Shield",
+    "worn": null
   },
   {
     "level": 1,
@@ -580,7 +666,9 @@
     "rarity": "uncommon",
     "traits": [
       "attached-to-shield"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -592,7 +680,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -605,7 +695,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 12,
@@ -620,7 +712,9 @@
       "magical",
       "morph",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -635,7 +729,9 @@
       "parry",
       "reach",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -647,7 +743,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -660,7 +758,9 @@
     "traits": [
       "fatal-d10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -674,7 +774,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -686,7 +788,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -698,7 +802,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -710,7 +816,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -722,7 +830,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -734,7 +844,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 11,
@@ -750,7 +862,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -766,7 +880,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -782,7 +898,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -798,7 +916,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -811,7 +931,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -825,7 +947,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -844,7 +968,9 @@
       "mental",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -863,7 +989,9 @@
       "mental",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -882,7 +1010,9 @@
       "mental",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -901,7 +1031,9 @@
       "mental",
       "poison",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -917,7 +1049,9 @@
       "invested",
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 18,
@@ -927,7 +1061,9 @@
     },
     "description": "<p>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 38 will save at the end of their turn; on a failure, the value of their Frightened condition doesn't decrease that turn, no matter the value.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 4,
@@ -943,7 +1079,9 @@
       "emotion",
       "fear",
       "mental"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -953,7 +1091,9 @@
     },
     "description": "<p>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 will save at the end of their turn; on a failure, the value of their Frightened condition doesn't decrease below 1 that turn.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -963,7 +1103,9 @@
     },
     "description": "<p>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 29 will save at the end of their turn; on a failure, the value of their Frightened condition doesn't decrease below 2 that turn.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 9,
@@ -975,7 +1117,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -986,7 +1130,9 @@
     "traits": [
       "artifact",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 3,
@@ -1003,7 +1149,9 @@
       "mental",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1020,7 +1168,9 @@
       "magical",
       "mental",
       "sleep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1032,7 +1182,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1048,7 +1200,9 @@
       "drug",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1062,7 +1216,9 @@
       "consumable",
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -1076,7 +1232,9 @@
       "incapacitation",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers"
   },
   {
     "level": 3,
@@ -1089,7 +1247,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1102,7 +1262,9 @@
     "traits": [
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 20,
@@ -1115,7 +1277,9 @@
     "traits": [
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -1129,7 +1293,9 @@
       "coda",
       "occult",
       "staff"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -1143,7 +1309,9 @@
       "coda",
       "occult",
       "staff"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -1157,7 +1325,9 @@
       "coda",
       "occult",
       "staff"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 13,
@@ -1170,7 +1340,9 @@
     "traits": [
       "concussive",
       "fatal-d10"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -1180,7 +1352,9 @@
     },
     "description": "<p>You can pull a dueling cape you're wearing from your shoulder and wrap it around your arm with an Interact action. While wielding the dueling cape this way, the cape uses that arm and hand, and you can't hold anything else in that hand.</p>\n<p>While you do so, you can spend an action to hold it in a protective position, giving you a +1 circumstance bonus to AC and to Deception checks to Feint until the start of your next turn.</p>\n<p></p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 1,
@@ -1194,7 +1368,9 @@
       "concealable",
       "concussive",
       "fatal-d10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1208,7 +1384,9 @@
       "disarm",
       "finesse",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -1221,7 +1399,9 @@
     "traits": [
       "light",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 20,
@@ -1233,7 +1413,9 @@
       "cursed",
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 5,
@@ -1247,7 +1429,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Ranged-Weapon",
+    "worn": null
   },
   {
     "level": 11,
@@ -1264,7 +1448,9 @@
       "olfactory",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1281,7 +1467,9 @@
       "olfactory",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1298,7 +1486,9 @@
       "olfactory",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1315,7 +1505,9 @@
       "olfactory",
       "plant",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1327,7 +1519,9 @@
     "rarity": "uncommon",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1339,7 +1533,9 @@
     "rarity": "uncommon",
     "traits": [
       "precious"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1349,7 +1545,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -1362,6 +1560,8 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

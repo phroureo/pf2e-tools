@@ -10,7 +10,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 15,
@@ -26,7 +28,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -42,7 +46,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -58,7 +64,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -71,7 +79,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -84,7 +94,9 @@
     "traits": [
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -97,7 +109,9 @@
     "traits": [
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -112,7 +126,9 @@
       "consumable",
       "elixir",
       "morph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -124,7 +140,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -136,7 +154,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -148,7 +168,9 @@
       "contract",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 2,
@@ -159,7 +181,9 @@
     "traits": [
       "cursed",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -173,7 +197,9 @@
       "earth",
       "magical",
       "thrown"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -186,7 +212,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -200,7 +228,9 @@
       "invested",
       "occult",
       "scrying"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -212,7 +242,9 @@
     "rarity": "common",
     "traits": [
       "adjustment"
-    ]
+    ],
+    "usage": "Applied To Armor Or-Unarmored Defense Clothing",
+    "worn": null
   },
   {
     "level": 3,
@@ -226,7 +258,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 9,
@@ -241,7 +275,9 @@
       "consumable",
       "electricity",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -257,7 +293,9 @@
       "consumable",
       "electricity",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -270,7 +308,9 @@
     "traits": [
       "electricity",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 18,
@@ -286,7 +326,9 @@
       "electricity",
       "finesse",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -302,7 +344,9 @@
       "electricity",
       "finesse",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -316,7 +360,9 @@
       "electricity",
       "magical",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -335,7 +381,9 @@
       "magical",
       "monk",
       "sonic"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -350,7 +398,9 @@
       "fulu",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 8,
@@ -364,7 +414,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -378,7 +430,9 @@
       "grimoire",
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -390,7 +444,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 19,
@@ -402,7 +458,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -417,7 +475,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -429,7 +489,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -439,7 +501,9 @@
     },
     "description": "<p>This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -453,7 +517,9 @@
       "consumable",
       "fulu",
       "magical"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -468,7 +534,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -485,7 +553,9 @@
       "injury",
       "poison",
       "sleep"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 2,
@@ -495,7 +565,9 @@
     },
     "description": "<p>This heavy backpack of alchemically treated cloth layered over a metal mesh protects its contents from water damage and other harmful effects.</p>\n<p>It holds up to 4 Bulk of items, and the first 2 Bulk contained within the sturdy satchel do not count against your Bulk limits.</p>\n<p>The bag has Hardness 5 and 20 Hit Points. As long as the bag remains closed and is not broken, water and other liquids can't seep into it.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Backpack",
+    "worn": "Backpack"
   },
   {
     "level": 13,
@@ -507,7 +579,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -519,7 +593,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 16,
@@ -531,7 +607,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 4,
@@ -543,7 +621,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -555,7 +635,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 19,
@@ -567,7 +649,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -575,7 +659,9 @@
     "price": {},
     "description": "<p>Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices.</p>",
     "rarity": "unique",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -587,7 +673,9 @@
     "rarity": "uncommon",
     "traits": [
       "adjustment"
-    ]
+    ],
+    "usage": "Applied To Armor",
+    "worn": null
   },
   {
     "level": 7,
@@ -603,7 +691,9 @@
       "drug",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -613,7 +703,9 @@
     "rarity": "common",
     "traits": [
       "bulwark"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -625,7 +717,9 @@
     "rarity": "common",
     "traits": [
       "fatal-aim-d12"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -642,7 +736,9 @@
       "consumable",
       "olfactory",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -659,7 +755,9 @@
       "consumable",
       "olfactory",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -676,7 +774,9 @@
       "consumable",
       "olfactory",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -693,7 +793,9 @@
       "consumable",
       "olfactory",
       "splash"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -706,7 +808,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -720,7 +824,9 @@
       "alchemical",
       "light",
       "visual"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -732,7 +838,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -744,7 +852,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -757,7 +867,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -767,7 +879,9 @@
     },
     "description": "<p>Sun slings use small metal bullets covered in sharp spikes known as sun shots. A bundle of 10 sun shots has light bulk and costs 1 sp.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -781,7 +895,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 0,
@@ -794,7 +910,9 @@
     "traits": [
       "concussive",
       "propulsive"
-    ]
+    ],
+    "usage": "Held In One Plus-Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -807,7 +925,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 8,
@@ -820,7 +940,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -833,7 +955,9 @@
     "traits": [
       "concussive",
       "scatter-5"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -843,7 +967,9 @@
     },
     "description": "<p>This sturdy pole has a rope attached to one end in a loop with the other end extending to the handle. You can pull the handle side of the rope to tighten the loop. Using this loop, you can Grapple without having a free hand. A creature grappled this way receives a –2 circumstance penalty to attack rolls when Striking with an unarmed attack. Due to limitations in the size of the loop, a catch pole can only be used on creatures sized Medium or smaller.</p>\n<p>A superior catch pole has a pole made of dawnsilver, and the loop at the end is silk rope, making it sturdier and more agile. It functions the same as a catch pole but gives you a +1 item bonus to Athletics checks made to Grapple with it.</p>\n<p></p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -853,7 +979,9 @@
     },
     "description": "<p>Supports, also commonly known as braces, can be applied to any of the following major joints: wrist, elbow, knee, and ankle. They typically strap around the desired area and provide not only support but warmth that soothes aches and pains. You can still use your limb or joint even if you're not wearing your support, but you might feel aches and pains that are worse than usual and may manifest into physical symptoms.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -863,7 +991,9 @@
     },
     "description": "<p>A supramarine chair is a wheeled, water-filled bath or tank, originally designed by merfolk, for assisting aquatic people's mobility on land. A supramarine chair functions as a Wheelchair.</p>\n<p>You increase your Speed to 20 feet or your swim Speed, whichever is lower.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -876,7 +1006,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -890,7 +1022,9 @@
       "consumable",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -905,7 +1039,9 @@
       "consumable",
       "elixir",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -920,7 +1056,9 @@
       "consumable",
       "elixir",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -935,7 +1073,9 @@
       "consumable",
       "elixir",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -950,7 +1090,9 @@
       "consumable",
       "elixir",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -965,7 +1107,9 @@
       "consumable",
       "elixir",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -975,7 +1119,9 @@
     },
     "description": "<p>Maps are uncommon. Most maps you can find are simple and functional. A survey map details a single location in excellent detail.</p>\n<p>One of these maps gives you a +1 item bonus to Survival checks and any skill checks to Recall Knowledge, provided the checks are related to the location detailed on the map.</p>\n<p>Maps sometimes come in atlases, containing a number of maps of the same quality, often on similar topics. An atlas costs five times as much as a single map and requires both hands to use.</p>\n<p>The GM determines what maps are available in any location.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -985,7 +1131,9 @@
     },
     "description": "<p>Maps are uncommon. Most maps you can find are simple and functional. A survey map details a single location in excellent detail. One of these maps gives you a +1 item bonus to Survival checks and any skill checks to Recall Knowledge, provided the checks are related to the location detailed on the map. The GM determines what maps are available in any location.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -997,7 +1145,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 16,
@@ -1009,7 +1159,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -1021,7 +1173,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
   },
   {
     "level": 3,
@@ -1034,7 +1188,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 8,
@@ -1047,7 +1203,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -1061,7 +1219,9 @@
       "companion",
       "invested",
       "primal"
-    ]
+    ],
+    "usage": "Worn Collar",
+    "worn": "Collar"
   },
   {
     "level": 9,
@@ -1073,7 +1233,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Thrown Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -1083,7 +1245,9 @@
     },
     "description": "<p>An impenetrable swarmsuit is made of expensive, finely crafted mesh designed to completely prevent swarms from getting inside. You gain resistance 10 to physical damage from swarms. Explorer's clothing altered in this way has a Dexterity cap of +2, check penalty of -1, and Speed penalty of -5 feet regardless of your Strength.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 1,
@@ -1093,7 +1257,9 @@
     },
     "description": "<p>These thick, overlapping layers of clothing are coupled with a matching hat, outfitted with mesh netting around its wide brim to keep you safe from insects. You gain resistance 3 to physical damage from swarms. Explorer's clothing altered in this way has a Dexterity cap of +2, check penalty of -1, and Speed penalty of -5 feet regardless of your Strength.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -1107,7 +1273,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To A Shield",
+    "worn": null
   },
   {
     "level": 7,
@@ -1122,7 +1290,9 @@
       "invested",
       "magical",
       "primal"
-    ]
+    ],
+    "usage": "Worn Saddle",
+    "worn": "Saddle"
   },
   {
     "level": 0,
@@ -1132,7 +1302,9 @@
     },
     "description": "<p>These flippers attach to your feet like tight shoes-donning or removing them requires three Interact actions. While worn, you gain a +5-foot item bonus to the distance you move when rolling Athletics to Swim, not when using a swim Speed, and you take a -10-foot item penalty to your Speed.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
   },
   {
     "level": 7,
@@ -1146,7 +1318,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1159,7 +1333,9 @@
     "traits": [
       "fatal-d10",
       "gnome"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -1173,7 +1349,9 @@
       "graft",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Implanted",
+    "worn": null
   },
   {
     "level": 0,
@@ -1187,7 +1365,9 @@
       "agile",
       "concealable",
       "finesse"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1199,7 +1379,9 @@
     "rarity": "common",
     "traits": [
       "deflecting-slashing"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -1212,7 +1394,9 @@
     "traits": [
       "divine",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 18,
@@ -1225,7 +1409,9 @@
     "traits": [
       "divine",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -1238,7 +1424,9 @@
     "traits": [
       "divine",
       "invested"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 8,
@@ -1249,7 +1437,9 @@
     "traits": [
       "cursed",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -1259,7 +1449,9 @@
     },
     "description": "<p>Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 5,
@@ -1272,7 +1464,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 3,
@@ -1287,7 +1481,9 @@
       "magical",
       "plant",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1301,7 +1497,9 @@
       "invested",
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 18,
@@ -1315,6 +1513,8 @@
       "invested",
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   }
 ]

@@ -9,7 +9,9 @@
     "rarity": "common",
     "traits": [
       "mechanical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -22,7 +24,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -34,7 +38,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -46,7 +52,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -60,7 +68,9 @@
       "air",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 4,
@@ -73,7 +83,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 20,
@@ -83,7 +95,9 @@
     "rarity": "uncommon",
     "traits": [
       "extradimensional"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 14,
@@ -97,7 +111,9 @@
       "alchemical",
       "consumable",
       "earth"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -111,7 +127,9 @@
       "consumable",
       "fortune",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 5,
@@ -125,7 +143,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 13,
@@ -138,7 +158,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 11,
@@ -148,7 +170,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -161,7 +185,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 8,
@@ -174,7 +200,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -185,7 +213,9 @@
     "traits": [
       "artifact",
       "invested"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -199,7 +229,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 9,
@@ -213,7 +245,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 17,
@@ -227,7 +261,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 1,
@@ -241,7 +277,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 1,
@@ -253,7 +291,9 @@
     "rarity": "uncommon",
     "traits": [
       "adjustment"
-    ]
+    ],
+    "usage": "Applied To A Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -266,7 +306,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece"
   },
   {
     "level": 12,
@@ -281,7 +323,9 @@
       "illusion",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 12,
@@ -296,7 +340,9 @@
       "magical",
       "mental",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -311,7 +357,9 @@
       "magical",
       "mental",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -326,7 +374,9 @@
       "magical",
       "mental",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -339,7 +389,9 @@
       "good",
       "intelligent",
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -354,7 +406,9 @@
       "consumable",
       "fey",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -368,7 +422,9 @@
       "divine",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -382,7 +438,9 @@
       "divine",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 16,
@@ -396,7 +454,9 @@
       "divine",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 4,
@@ -410,7 +470,9 @@
       "divine",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 0,
@@ -422,7 +484,9 @@
     "rarity": "common",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Worn Under Armor",
+    "worn": "Under Armor"
   },
   {
     "level": 0,
@@ -434,7 +498,9 @@
     "rarity": "common",
     "traits": [
       "fatal-d12"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -447,7 +513,9 @@
     "traits": [
       "forceful",
       "sweep"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 6,
@@ -459,7 +527,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -469,7 +539,9 @@
     },
     "description": "<p><strong>Access</strong> Member of the Bellflower Network</p>\n<hr />\n<p>This mug looks like any other; however, the bottom part unscrews to reveal a velvet-lined chamber. These are primarily used by members of the Bellflower Network to sneak messages and small objects to other possible members. The Perception DC to discover the false bottom is 15 if someone specifically examines the mug.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -483,7 +555,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Unarmored Defense-Item",
+    "worn": null
   },
   {
     "level": 13,
@@ -497,7 +571,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Unarmored Defense-Item",
+    "worn": null
   },
   {
     "level": 5,
@@ -512,7 +588,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -528,7 +606,9 @@
       "injury",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -538,7 +618,9 @@
     },
     "description": "<p>These manacles are nearly indistinguishable from real manacles upon inspection, but contain a hidden release that enables a wearer who knows the location of the release to free themselves with a single Interact action. An observer who examines the manacles and succeeds at a DC 20 perception check notices their false nature. On a critical success, the observer finds the location of the hidden catch as well.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -551,7 +633,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -561,7 +645,9 @@
     },
     "description": "<p>This armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers for underwater travel) and two receptacles for food and water. Any creature inside has neither line of sight nor line of effect to the outside world but also cannot be targeted by attacks that require a line of effect while in the satchel. However, an area effect that deals enough damage to break the case also damages the creature inside. The satchel is made of leather (Hardness 4, HP 16, BT 8). A creature can enter or exit the satchel by using a total of 2 actions: an Interact action to open the satchel and a single action with the move trait to enter or exit.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 3,
@@ -575,7 +661,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 0,
@@ -585,7 +673,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -597,7 +687,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -610,7 +702,9 @@
     "traits": [
       "air",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -623,7 +717,9 @@
     "traits": [
       "air",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -638,7 +734,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -650,7 +748,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 15,
@@ -662,7 +762,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 2,
@@ -674,7 +776,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Melee Weapon",
+    "worn": null
   },
   {
     "level": 0,
@@ -691,7 +795,9 @@
       "finesse",
       "grapple",
       "kobold"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -704,7 +810,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 6,
@@ -717,7 +825,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -732,7 +842,9 @@
       "reach",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -745,7 +857,9 @@
     "traits": [
       "magical",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -762,7 +876,9 @@
       "magical",
       "mental",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 5,
@@ -776,7 +892,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -791,7 +909,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -804,7 +924,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
   },
   {
     "level": 12,
@@ -819,7 +941,9 @@
       "fear",
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 5,
@@ -834,7 +958,9 @@
       "fear",
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
   },
   {
     "level": 10,
@@ -849,7 +975,9 @@
       "contact",
       "divine",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -862,7 +990,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -876,7 +1006,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 7,
@@ -889,7 +1021,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -902,7 +1036,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -915,7 +1051,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -928,7 +1066,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -941,7 +1081,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -954,7 +1096,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -967,7 +1111,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -980,7 +1126,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -993,7 +1141,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1006,7 +1156,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1019,7 +1171,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1032,7 +1186,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -1045,7 +1201,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1057,7 +1215,9 @@
     "rarity": "common",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -1069,7 +1229,9 @@
     "rarity": "common",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 0,
@@ -1087,7 +1249,9 @@
       "parry",
       "twin",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1101,7 +1265,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1115,7 +1281,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -1130,7 +1298,9 @@
       "magical",
       "metal",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "worn": null
   },
   {
     "level": 7,
@@ -1145,7 +1315,9 @@
       "magical",
       "metal",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "worn": null
   },
   {
     "level": 11,
@@ -1160,7 +1332,9 @@
       "magical",
       "metal",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "worn": null
   },
   {
     "level": 6,
@@ -1174,7 +1348,9 @@
       "cursed",
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1187,7 +1363,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -1200,7 +1378,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1213,7 +1393,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1227,7 +1409,9 @@
       "coda",
       "occult",
       "staff"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -1237,7 +1421,9 @@
     },
     "description": "<p>This book contains illustrations and information on edible and dangerous plants. Most field guides tend to be region specific, such as the Mindspin Mountains or Osirian desert. If you are attempting to Subsist in the field guide's region with a skill you're untrained in, consulting the book gives you a +2 circumstance bonus to the skill check.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1249,7 +1435,9 @@
       "contract",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1265,7 +1453,9 @@
       "magical",
       "thrown-10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1278,7 +1468,9 @@
     "traits": [
       "magical",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1294,7 +1486,9 @@
       "deadly-d6",
       "finesse",
       "monk"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1309,7 +1503,9 @@
       "halfling",
       "nonlethal",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1326,7 +1522,9 @@
       "finesse",
       "halfling",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1338,6 +1536,8 @@
       "artifact",
       "death",
       "occult"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

@@ -10,6 +10,8 @@ export interface ManifestItem {
             cp?: number;
         }
     },
+    usage?: string,
+    worn?: string,
     description?: string,
     rarity?: string,
     traits?: string[]

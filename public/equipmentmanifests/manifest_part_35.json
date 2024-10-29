@@ -7,7 +7,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 14,
@@ -19,7 +21,9 @@
     "rarity": "rare",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -29,7 +33,9 @@
     },
     "description": "<p>A ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -43,7 +49,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -57,7 +65,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -71,7 +81,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -85,7 +97,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -100,7 +114,9 @@
       "illusion",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -114,7 +130,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -128,7 +146,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 12,
@@ -142,7 +162,9 @@
       "arcane",
       "invested",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 8,
@@ -155,7 +177,9 @@
     "traits": [
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 1,
@@ -168,7 +192,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -181,7 +207,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -197,7 +225,9 @@
       "metal",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -213,7 +243,9 @@
       "metal",
       "sweep",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -227,7 +259,9 @@
       "alchemical",
       "consumable",
       "force"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -241,7 +275,9 @@
       "alchemical",
       "consumable",
       "force"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -253,7 +289,9 @@
     "rarity": "uncommon",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -268,7 +306,9 @@
       "mechanical",
       "snare",
       "trap"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -283,7 +323,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -295,7 +337,9 @@
     "rarity": "uncommon",
     "traits": [
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -305,7 +349,9 @@
     },
     "description": "<p>A sack can hold up to 8 Bulk worth of items. A sack containing 2 Bulk or less can be worn on the body, usually tucked into a belt. You can carry a sack with one hand, but must use two hands to transfer items in and out.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -320,7 +366,9 @@
       "holy",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 0,
@@ -330,7 +378,9 @@
     },
     "description": "<p>Saddlebags come in a pair. Each can hold up to 3 Bulk of items, and the first 1 Bulk of items in each doesn't count against your mount's Bulk limit. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 5,
@@ -344,7 +394,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Headgear",
+    "worn": null
   },
   {
     "level": 18,
@@ -358,7 +410,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
   },
   {
     "level": 0,
@@ -374,7 +428,9 @@
       "finesse",
       "monk",
       "versatile-b"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -389,7 +445,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -399,7 +457,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 10,
@@ -414,7 +474,9 @@
       "earth",
       "magical",
       "potion"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -426,7 +488,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null
   },
   {
     "level": 12,
@@ -441,7 +505,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 6,
@@ -456,7 +522,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -468,7 +536,9 @@
     "rarity": "common",
     "traits": [
       "deflecting-physical-ranged"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 5,
@@ -481,7 +551,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -496,7 +568,9 @@
       "divine",
       "magical",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -510,7 +584,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Sandles",
+    "worn": "Sandles"
   },
   {
     "level": 12,
@@ -523,7 +599,9 @@
     "traits": [
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -537,7 +615,9 @@
       "earth",
       "magical",
       "structure"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 13,
@@ -549,7 +629,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -563,7 +645,9 @@
       "magical",
       "spellheart",
       "void"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 15,
@@ -577,7 +661,9 @@
       "magical",
       "spellheart",
       "void"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -591,7 +677,9 @@
       "magical",
       "spellheart",
       "void"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 14,
@@ -604,7 +692,9 @@
     "traits": [
       "integrated-1d6-s-versatile-p",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -617,7 +707,9 @@
     "traits": [
       "integrated-1d6-s-versatile-p",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -633,7 +725,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -649,7 +743,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -665,7 +761,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -681,7 +779,9 @@
       "elixir",
       "mutagen",
       "polymorph"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -694,7 +794,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -707,7 +809,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 2,
@@ -721,7 +825,9 @@
       "consumable",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -733,7 +839,9 @@
     "rarity": "common",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -748,7 +856,9 @@
       "disarm",
       "monk",
       "parry"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -761,7 +871,9 @@
     "traits": [
       "agile",
       "nonlethal"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -773,7 +885,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -785,7 +899,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -797,7 +913,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -809,7 +927,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -821,7 +941,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 18,
@@ -833,7 +955,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -843,7 +967,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -853,7 +979,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -863,7 +991,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 6,
@@ -880,7 +1010,9 @@
       "incapacitation",
       "mental",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -894,7 +1026,9 @@
       "comfort",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -908,7 +1042,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment"
   },
   {
     "level": 17,
@@ -922,7 +1058,9 @@
       "focused",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 10,
@@ -936,7 +1074,9 @@
       "focused",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 11,
@@ -949,7 +1089,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 15,
@@ -962,7 +1104,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 9,
@@ -975,7 +1119,9 @@
     "traits": [
       "magical",
       "spellheart"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 2,
@@ -990,7 +1136,9 @@
       "force",
       "magical",
       "talisman"
-    ]
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
   },
   {
     "level": 0,
@@ -1004,7 +1152,9 @@
       "agile",
       "finesse",
       "twin"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1020,7 +1170,9 @@
       "free-hand",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -1036,7 +1188,9 @@
       "free-hand",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1052,7 +1206,9 @@
       "free-hand",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -1068,7 +1224,9 @@
       "free-hand",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1078,7 +1236,9 @@
     },
     "description": "<p>Scale mail consists of many metal scales sewn onto a reinforced leather backing, often in the form of a long shirt that protects the torso, arms, and legs.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 21,
@@ -1089,7 +1249,9 @@
     "traits": [
       "artifact",
       "primal"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 17,
@@ -1103,7 +1265,9 @@
       "apex",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment"
   },
   {
     "level": 10,
@@ -1116,7 +1280,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 8,
@@ -1131,7 +1297,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 12,
@@ -1146,7 +1314,9 @@
       "concussive",
       "fatal-d10",
       "fire"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 13,
@@ -1159,7 +1329,9 @@
     "traits": [
       "comfort",
       "invested"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -1169,7 +1341,9 @@
     },
     "description": "<p>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -1179,7 +1353,9 @@
     },
     "description": "<p>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1193,7 +1369,9 @@
       "alchemical",
       "consumable",
       "lozenge"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1206,7 +1384,9 @@
     "traits": [
       "forceful",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -1220,7 +1400,9 @@
       "disarm",
       "grapple",
       "parry"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1233,7 +1415,9 @@
     "traits": [
       "disarm",
       "parry"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1245,7 +1429,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Firearm Scope",
+    "worn": null
   },
   {
     "level": 13,
@@ -1257,7 +1443,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
   },
   {
     "level": 0,
@@ -1272,7 +1460,9 @@
       "finesse",
       "reach",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1289,7 +1479,9 @@
       "ingested",
       "inhaled",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1305,7 +1497,9 @@
       "finesse",
       "nonlethal",
       "sweep"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -1318,7 +1512,9 @@
     "traits": [
       "kickback",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 17,
@@ -1331,7 +1527,9 @@
     "traits": [
       "kickback",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 9,
@@ -1344,6 +1542,8 @@
     "traits": [
       "kickback",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   }
 ]

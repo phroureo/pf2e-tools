@@ -56,7 +56,7 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
     return (
         <div>
             <h2>Selected Items</h2>
-            <ul style={{ listStyleType: 'none', padding: 0 }}>
+            <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
                 {items.map((item, index) => {
                     const quantity = quantities[index] || 1;
                     const itemTotalPrice = {
@@ -74,7 +74,12 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
                                 {/* First Line: Item Name and Price */}
                                 <div>
                                     <h3
-                                        style={{ flex: 1, display: 'inline-block', whiteSpace: 'nowrap' }}
+                                        style={{ 
+                                            flex: 1, 
+                                            display: 'inline-block', 
+                                            whiteSpace: 'nowrap',
+                                            marginTop: 0
+                                        }}
                                         ref={(el) => (itemRefs.current[index] = el)} // Set ref for each item name
                                     >
                                         {item.name}

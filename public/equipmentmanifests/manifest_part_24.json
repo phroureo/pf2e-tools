@@ -10,7 +10,9 @@
     "traits": [
       "magical",
       "wood"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -22,7 +24,9 @@
     "rarity": "common",
     "traits": [
       "integrated-1d6-s-versatile-p"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 13,
@@ -37,7 +41,9 @@
       "healing",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Backpack",
+    "worn": "Backpack"
   },
   {
     "level": 9,
@@ -52,7 +58,9 @@
       "healing",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Backpack",
+    "worn": "Backpack"
   },
   {
     "level": 13,
@@ -67,7 +75,9 @@
       "divine",
       "jousting-d6",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -77,7 +87,9 @@
     },
     "description": "<p>This set of gear contains a repair kit, cloth rolls for storing or covering equipment, and specialized mixtures developed by the Knights of Lastwall to clean and treat armaments for continued use. This kit gives you a +1 item bonus to checks to Repair weapons, shields, and armor using the Crafting skill, and you restore an additional 5 Hit Points when you successfully Repair such items using it.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -87,7 +99,9 @@
     },
     "description": "<p>This cloth flag or banner, no larger than a few feet long, bears the symbol or heraldry of a deity, knightly house, nation, or similar organization. A typical standard comes with a stand or pole to hold it aloft. You can instead spend 2 consecutive Interact actions to mount a knight's standard on a two-handed polearm or spear weapon; the standard is visible as long as you wield the weapon with two hands. Some individuals are inspired by the sight of a standard or demoralized by the destruction of one.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -97,7 +111,9 @@
     },
     "description": "<p>This cloth vestment features the heraldry or symbol associated with an entity (such as a deity, kingdom, or organization). Knights typically wear it over armor and other clothing, helping them identify allies on the battlefield or distinguishing themselves in more peaceful situations. An individual wearing a tabard gains a +1 item bonus to Make an Impression on creatures who have a positive association with the entity represented on the tabard.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 7,
@@ -112,7 +128,9 @@
       "consumable",
       "ingested",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -126,7 +144,9 @@
       "agile",
       "free-hand",
       "monk"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 22,
@@ -138,7 +158,9 @@
       "artifact",
       "divine",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -148,7 +170,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -158,7 +182,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -172,7 +198,9 @@
       "alchemical",
       "consumable",
       "expandable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -186,7 +214,9 @@
       "figurehead",
       "magical",
       "water"
-    ]
+    ],
+    "usage": "Attached To Ships Bow",
+    "worn": null
   },
   {
     "level": 10,
@@ -200,7 +230,9 @@
       "figurehead",
       "magical",
       "water"
-    ]
+    ],
+    "usage": "Attached To Ships Bow",
+    "worn": null
   },
   {
     "level": 19,
@@ -212,7 +244,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -226,7 +260,9 @@
       "agile",
       "deadly-d8",
       "finesse"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -240,7 +276,9 @@
       "agile",
       "finesse",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -256,7 +294,9 @@
       "reach",
       "trip",
       "versatile-b"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 13,
@@ -270,7 +310,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -282,7 +324,9 @@
     "rarity": "uncommon",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -292,7 +336,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 1,
@@ -305,7 +351,9 @@
     "traits": [
       "alchemical",
       "consumable"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 3,
@@ -318,7 +366,9 @@
     "traits": [
       "divine",
       "good"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -334,7 +384,9 @@
       "magical",
       "thrown-10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -350,7 +402,9 @@
       "nonlethal",
       "reach",
       "trip"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -364,7 +418,9 @@
       "censer",
       "fire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -377,7 +433,9 @@
     "traits": [
       "hindering",
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 11,
@@ -393,7 +451,9 @@
       "light",
       "magical",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -407,7 +467,9 @@
       "deadly-d8",
       "jousting-d6",
       "reach"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -419,7 +481,9 @@
     "rarity": "common",
     "traits": [
       "combination"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -429,7 +493,9 @@
     },
     "description": "<p>A supramarine chair is a wheeled, water-filled bath or tank, originally designed by merfolk, for assisting aquatic people's mobility on land. The heavier-duty land-delver's chair functions as a Traveler's Chair.</p>\n<p>You increase your Speed to 20 feet or your swim Speed, whichever is lower.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
   },
   {
     "level": 0,
@@ -439,7 +505,9 @@
     },
     "description": "<p>A lantern sheds bright light and requires 1 pint of oil to function for 6 hours. A bull's-eye lantern emits its light in a 60-foot cone (and dim light in the next 60 feet).</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -449,7 +517,9 @@
     },
     "description": "<p>A lantern sheds bright light and requires 1 pint of oil to function for 6 hours. A hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 feet) and is equipped with shutters, which you can close to block the light. Closing or opening the shutters takes an Interact action.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -461,7 +531,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -471,7 +543,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -481,7 +555,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 5,
@@ -491,7 +567,9 @@
     },
     "description": "<p>These modifications include a heavier stock and larger replacement barrel designed to increase the stopping power of firearms. <em>Large bore modifications</em> can only be applied to firearms with the kickback or scatter traits, and attaching <em>large bore modifications</em> takes 1 hour, though this time can overlap with the standard time required to maintain and clean your firearm to prevent misfires.</p>\n<p>When you attach <em>large bore modifications</em> to a kickback weapon, the bonus to damage granted by the kickback trait increases from 1 to 2 additional Damage and the Strength requirement to fire the weapon without penalty increases to +4.</p>\n<p>When you attach <em>large bore modifications</em> to a weapon with the scatter trait, the radius of the scatter effect increases by 5 feet, but the weapon imposes a -2 penalty on attack rolls if the wielder's Strength modifier is less than +2. If the weapon has both the kickback and scatter traits, apply both sets of modifications with the Strength requirement raised to +4 to avoid penalties when firing.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Attached To Firearm",
+    "worn": null
   },
   {
     "level": 18,
@@ -505,7 +583,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -519,7 +599,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -533,7 +615,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -543,7 +627,9 @@
     },
     "description": "<p>Fine metal cables woven into latticework patterns form this armor. This armor disperses blows much like rings of chain mail, but is much tighter in construction, making it quieter.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 20,
@@ -558,7 +644,9 @@
       "fortune",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Cap",
+    "worn": "Cap"
   },
   {
     "level": 4,
@@ -571,7 +659,9 @@
     "traits": [
       "lawful",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -586,7 +676,9 @@
       "consumable",
       "injury",
       "poison"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -598,7 +690,9 @@
     "rarity": "common",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 7,
@@ -612,7 +706,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -626,7 +722,9 @@
       "alchemical",
       "consumable",
       "elixir"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -636,7 +734,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -646,7 +746,9 @@
     },
     "description": "<p>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -656,7 +758,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -668,7 +772,9 @@
     "rarity": "common",
     "traits": [
       "laminar"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 2,
@@ -681,7 +787,9 @@
     "traits": [
       "extradimensional",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -694,7 +802,9 @@
     "traits": [
       "fatal-d10",
       "versatile-s"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -708,7 +818,9 @@
       "flexible",
       "magical",
       "noisy"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 20,
@@ -719,7 +831,9 @@
     "traits": [
       "artifact",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -736,7 +850,9 @@
       "injury",
       "poison",
       "sleep"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 17,
@@ -750,7 +866,9 @@
       "concussive",
       "magical",
       "scatter-10"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -760,7 +878,9 @@
     },
     "description": "<p>This clockwork game board contains 6 hidden compartments that can be opened by moving the game pieces in specific, preset patterns. Each chamber has a unique combination, and only one chamber can be opened at a time. Once a chamber is opened, a new combination can be set as a 1-minute activity. You can identify a Liar's Board as a clockwork device with a successful @Check[perception|dc:25] check, and you can find an individual hidden compartment with a successful @Check[perception|dc:30] check. The GM rolls a [[/r 1d6 #Discovered Chamber]]{d6} to determine which chamber is discovered, rolling again if the result is one you're already aware of. You can force open a compartment you've identified with a successful @Check[thievery|dc:30] check, but tampering will be obvious unless you critically succeed at the check. If you spend at least 1 hour examining the game board, you can instead attempt to deduce the correct combination to open a compartment with a successful @Check[society|dc:30] or @Check[games-lore|dc:30] check.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 14,
@@ -776,7 +896,9 @@
       "contact",
       "divine",
       "poison"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -792,7 +914,9 @@
       "concussive",
       "fatal-d8",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -805,7 +929,9 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 12,
@@ -820,7 +946,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -835,7 +963,9 @@
       "magical",
       "staff",
       "two-hand-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -848,7 +978,9 @@
     "traits": [
       "detection",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -860,7 +992,9 @@
     "rarity": "common",
     "traits": [
       "inscribed"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -872,7 +1006,9 @@
     "rarity": "common",
     "traits": [
       "inscribed"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 19,
@@ -884,7 +1020,9 @@
     "rarity": "common",
     "traits": [
       "inscribed"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 9,
@@ -896,7 +1034,9 @@
     "rarity": "common",
     "traits": [
       "inscribed"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 12,
@@ -909,7 +1049,9 @@
     "traits": [
       "arcane",
       "void"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -924,7 +1066,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 3,
@@ -939,7 +1083,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 15,
@@ -954,7 +1100,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 7,
@@ -969,7 +1117,9 @@
       "healing",
       "magical",
       "oil"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 5,
@@ -983,7 +1133,9 @@
       "consumable",
       "divine",
       "vitality"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -995,7 +1147,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 14,
@@ -1007,7 +1161,9 @@
     "rarity": "common",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 14,
@@ -1021,7 +1177,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1035,7 +1193,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1049,7 +1209,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 2,
@@ -1063,7 +1225,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1077,7 +1241,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1091,7 +1257,9 @@
       "alchemical",
       "consumable",
       "healing"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1101,7 +1269,9 @@
     },
     "description": "",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 15,
@@ -1117,7 +1287,9 @@
       "injury",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 18,
@@ -1133,7 +1305,9 @@
       "holy",
       "magical",
       "two-hand-d10"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1146,7 +1320,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
   },
   {
     "level": 0,
@@ -1159,7 +1335,9 @@
     "traits": [
       "barding",
       "companion"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 0,
@@ -1172,7 +1350,9 @@
     "traits": [
       "agile",
       "thrown-20"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1186,7 +1366,9 @@
       "agile",
       "finesse",
       "shove"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -1199,7 +1381,9 @@
     "traits": [
       "agile",
       "fatal-d8"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1212,7 +1396,9 @@
     "traits": [
       "clockwork",
       "light"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1225,7 +1411,9 @@
     "traits": [
       "clockwork",
       "light"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -1238,7 +1426,9 @@
     "traits": [
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 15,
@@ -1252,7 +1442,9 @@
       "magical",
       "spellheart",
       "visual"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 18,
@@ -1266,7 +1458,9 @@
       "magical",
       "spellheart",
       "visual"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 8,
@@ -1280,7 +1474,9 @@
       "magical",
       "spellheart",
       "visual"
-    ]
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
   },
   {
     "level": 7,
@@ -1293,7 +1489,9 @@
     "traits": [
       "earth",
       "magical"
-    ]
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 12,
@@ -1306,6 +1504,8 @@
     "traits": [
       "grimoire",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

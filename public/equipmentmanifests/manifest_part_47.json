@@ -10,7 +10,9 @@
     "traits": [
       "magical",
       "mental"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -23,7 +25,9 @@
     "traits": [
       "illusion",
       "magical"
-    ]
+    ],
+    "usage": "Worn Necklace",
+    "worn": "Necklace"
   },
   {
     "level": 13,
@@ -35,7 +39,9 @@
       "consumable",
       "magical",
       "occult"
-    ]
+    ],
+    "usage": "Touched",
+    "worn": null
   },
   {
     "level": 20,
@@ -46,7 +52,9 @@
     "traits": [
       "artifact",
       "magical"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 4,
@@ -60,7 +68,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -75,7 +85,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 10,
@@ -90,7 +102,9 @@
       "invested",
       "magical",
       "tattoo"
-    ]
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null
   },
   {
     "level": 17,
@@ -102,7 +116,9 @@
     "rarity": "rare",
     "traits": [
       "magical"
-    ]
+    ],
+    "usage": "Etched Onto Slashing Melee-Weapon",
+    "worn": null
   },
   {
     "level": 17,
@@ -116,7 +132,9 @@
       "extradimensional",
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Worn Backpack",
+    "worn": "Backpack"
   },
   {
     "level": 10,
@@ -130,7 +148,9 @@
       "catalyst",
       "consumable",
       "magical"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -146,7 +166,9 @@
       "ingested",
       "poison",
       "virulent"
-    ]
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 16,
@@ -156,7 +178,9 @@
     },
     "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>Truly fit for emperors and demigods, this waffle iron is made of high-grade dawnsilver. Although most metallurgists are certain that the much more affordable standard-grade dawnsilver waffle iron maintains dawnsilver's full non-stick properties, the super elite insist that only waffles made from high-grade dawnsilver waffle irons conform to the most perfect shape and texture.</p>\n<p>Nadian has one high-grade dawnsilver waffle iron for sale emblazoned with an archaic symbol associated with Milani from before she became a deity, supposedly used to make Milani herself waffles during her mortal life. As it's made of dawnsilver, this is an uncommon item.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -166,7 +190,9 @@
     },
     "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>The plates of this waffle iron feature a noble insignia, a religious symbol, or other design to imprint onto the pastry.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -176,7 +202,9 @@
     },
     "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>\n<p>The plates of this waffle iron are made of standard-grade dawnsilver rather than iron and might bear an imprint on the plates. As with other dawnsilver cookware, food rarely sticks to a dawnsilver waffle iron. As it's made of dawnsilver, this is an uncommon item.</p>",
     "rarity": "uncommon",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -186,7 +214,9 @@
     },
     "description": "<p>This set of hinged metal plates features studs on the inside of each plate to provide a texture for the pastry cakes you cook with it. You pour batter on the plates, close the device, and place it on a fire or stove to cook.</p>",
     "rarity": "common",
-    "traits": []
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 0,
@@ -201,7 +231,9 @@
       "deadly-d8",
       "finesse",
       "versatile-p"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 1,
@@ -214,7 +246,9 @@
     "traits": [
       "invested",
       "magical"
-    ]
+    ],
+    "usage": "Other",
+    "worn": null
   },
   {
     "level": 4,
@@ -227,7 +261,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -241,7 +277,9 @@
       "acid",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -255,7 +293,9 @@
       "magical",
       "wand",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -269,7 +309,9 @@
       "magical",
       "wand",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -282,7 +324,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -295,7 +339,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -310,7 +356,9 @@
       "magical",
       "wand",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -325,7 +373,9 @@
       "magical",
       "wand",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -340,7 +390,9 @@
       "magical",
       "wand",
       "water"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -353,7 +405,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 5,
@@ -366,7 +420,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -379,7 +435,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 9,
@@ -392,7 +450,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 11,
@@ -405,7 +465,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 13,
@@ -418,7 +480,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 15,
@@ -431,7 +495,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 17,
@@ -444,7 +510,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 19,
@@ -457,7 +525,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -471,7 +541,9 @@
       "electricity",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -485,7 +557,9 @@
       "electricity",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -499,7 +573,9 @@
       "electricity",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -513,7 +589,9 @@
       "electricity",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -526,7 +604,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -542,7 +622,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -558,7 +640,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -574,7 +658,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -590,7 +676,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -606,7 +694,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -622,7 +712,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -638,7 +730,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -656,7 +750,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -674,7 +770,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -692,7 +790,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -710,7 +810,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -728,7 +830,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -746,7 +850,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -764,7 +870,9 @@
       "mental",
       "prediction",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 7,
@@ -778,7 +886,9 @@
       "light",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -791,7 +901,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -804,7 +916,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -817,7 +931,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -830,7 +946,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -844,7 +962,9 @@
       "darkness",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -858,7 +978,9 @@
       "darkness",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -872,7 +994,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -886,7 +1010,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -900,7 +1026,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -914,7 +1042,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -928,7 +1058,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -942,7 +1074,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -956,7 +1090,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -970,7 +1106,9 @@
       "magical",
       "polymorph",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -983,7 +1121,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -996,7 +1136,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1009,7 +1151,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1022,7 +1166,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -1035,7 +1181,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1048,7 +1196,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1061,7 +1211,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1074,7 +1226,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1087,7 +1241,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1103,7 +1259,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1119,7 +1277,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1135,7 +1295,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1151,7 +1313,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -1167,7 +1331,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1183,7 +1349,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1199,7 +1367,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1215,7 +1385,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1231,7 +1403,9 @@
       "magical",
       "mental",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 4,
@@ -1244,7 +1418,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1257,7 +1433,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 8,
@@ -1270,7 +1448,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1283,7 +1463,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 12,
@@ -1296,7 +1478,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1309,7 +1493,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 16,
@@ -1322,7 +1508,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1335,7 +1523,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 20,
@@ -1348,7 +1538,9 @@
     "traits": [
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 6,
@@ -1362,7 +1554,9 @@
       "acid",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -1376,7 +1570,9 @@
       "acid",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 14,
@@ -1390,7 +1586,9 @@
       "acid",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 18,
@@ -1404,6 +1602,8 @@
       "acid",
       "magical",
       "wand"
-    ]
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   }
 ]

@@ -16,22 +16,8 @@ interface ItemListPanelProps {
 const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect, showNoPriceItems, showAffordableItemsOnly, availableCopper }) => {
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
-    const [listHeight, setListHeight] = useState(400); // Default height as fallback
+    const [activeTab, setActiveTab] = useState<'consumable' | 'Equipment' | 'all'>('all');
     const containerRef = useRef<HTMLDivElement | null>(null);
-
-    // Update listHeight based on container size
-    useEffect(() => {
-        if (containerRef.current) {
-            const updateHeight = () => setListHeight(containerRef.current?.clientHeight || 400);
-            updateHeight(); // Initial measurement
-
-            // Listen for resize changes
-            const resizeObserver = new ResizeObserver(updateHeight);
-            resizeObserver.observe(containerRef.current);
-
-            return () => resizeObserver.disconnect();
-        }
-    }, []);
 
     const filteredItems = items.filter((item) => {
         // Check if showNoPriceItems is false and the item has no price or a price of 0 in all fields
@@ -39,11 +25,20 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
         const isNoPriceItem = !hasPrice ||
             (hasPrice.pp === 0 && hasPrice.gp === 0 && hasPrice.sp === 0 && hasPrice.cp === 0);
 
+
         if (!showNoPriceItems && isNoPriceItem) {
             return false; // Filter out items without a price if showNoPriceItems is false
         }
 
         if (hasPrice && showAffordableItemsOnly && calculateTotalValue(item.price?.value || { cp: 0, sp: 0, gp: 0, pp: 0 }) > availableCopper) {
+            return false;
+        }
+
+        if (activeTab === 'consumable' && !item.traits?.some((trait) => trait.toLowerCase().includes('consumable'))) {
+            return false;
+        }
+
+        if (activeTab === 'Equipment' && item.traits?.some((trait) => trait.toLowerCase().includes('consumable'))) {
             return false;
         }
 
@@ -112,7 +107,19 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
     };
 
     return (
-        <div className="left-panel">
+        <div className="left-panel" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+            <div className="tab-header">
+                <button onClick={() => setActiveTab('all')} className={activeTab === 'all' ? 'active' : ''}>
+                    All
+                </button>
+                <button onClick={() => setActiveTab('Equipment')} className={activeTab === 'Equipment' ? 'active' : ''}>
+                    Equipment
+                </button>
+                <button onClick={() => setActiveTab('consumable')} className={activeTab === 'consumable' ? 'active' : ''}>
+                    Consumables
+                </button>
+            </div>
+
             <div className="sorting-headers">
                 <span onClick={() => handleSort('name')} className="header name-header">
                     Name {sortCriteria === 'name' && (sortDirection === 'asc' ? '▲' : '▼')}
@@ -121,16 +128,28 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
                     Price {sortCriteria === 'price' && (sortDirection === 'asc' ? '▲' : '▼')}
                 </span>
             </div>
-            <div ref={containerRef} className="item-list-container" style={{ height: '100%' }}>
-                <List
-                    height={listHeight} // Dynamically updated height based on containerRef
-                    itemCount={sortedItems.length}
-                    itemSize={50} // Adjust item size as needed
-                    width="100%"
-                    style={{ margin: 10 }}
-                >
-                    {Row}
-                </List>
+
+            <div className="item-list-container" style={{ flexGrow: 1, overflowY: 'auto' }}>
+                {filteredItems.map((item, index) => (
+                    <div
+                        key={index}
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            padding: '10px',
+                            lineHeight: '1.5',
+                            overflow: 'hidden',
+                            whiteSpace: 'nowrap',
+                            textOverflow: 'ellipsis',
+                            borderBottom: '1px solid #ddd'
+                        }}
+                        onClick={() => onItemSelect(item)}
+                        className="item-list-entry"
+                    >
+                        <span className="item-name">{item.name}</span>
+                        <span className="item-price">{formatPrice(item.price?.value)}</span>
+                    </div>
+                ))}
             </div>
         </div>
     );

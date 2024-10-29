@@ -65,6 +65,41 @@ fs.readdir(source, (err, files) => {
             // 8. Fix "pathfinder-monster-core.Actor.Riding Horse"
             text = text.replace(/@UUID\[Compendium\.pf2e\.pathfinder-monster-core\.Actor\.(.*?)\]/g, "$1");
 
+            // 9. Fix the "Usage"
+            let usage = item.system.usage?.value || '';
+            usage = usage.replace(/([a-z]+)(?:-?([a-z]+))?(?:-?([a-z]+))?(?:-?([a-z]+))?/g, (match, p1, p2, p3, p4) => {
+                return [p1, p2, p3, p4]
+                    .filter(Boolean) // Remove any undefined parts
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+                    .join(' '); // Join with a space
+            });
+
+            if (usage) {
+                // First regex handles "worn" only
+                usage = usage.replace(/^worn$/i, "Worn");
+
+                // Second regex to handle cases like "worncrown" -> "Worn Crown" (when "worn" is concatenated)
+                usage = usage.replace(/worn([a-z]+)/gi, (match, p1) => {
+                    return `Worn ${p1.charAt(0).toUpperCase() + p1.slice(1)}`;
+                });
+
+                // Third regex to handle hyphenated cases like "worn-beneath-armor" -> "Worn Beneath Armor"
+                usage = usage.replace(/worn-([a-z]+)(?:-([a-z]+))?(?:-([a-z]+))?/gi, (match, p1, p2, p3) => {
+                    return [
+                        "Worn", // Capitalize "Worn"
+                        p1 ? p1.charAt(0).toUpperCase() + p1.slice(1) : '',
+                        p2 ? p2.charAt(0).toUpperCase() + p2.slice(1) : '',
+                        p3 ? p3.charAt(0).toUpperCase() + p3.slice(1) : ''
+                    ].filter(Boolean).join(' ');
+                });
+            }
+            // Extract words following "Worn" if "usage" starts with "Worn", otherwise set to null
+            const worn = usage.startsWith("Worn")
+                ? usage === "Worn"
+                    ? "Worn" // If "usage" is just "Worn", set "worn" to "Worn"
+                    : usage.replace(/^Worn\s+/, "") // Remove "Worn " from the start to get the remaining words
+                : null; // Set to null if "usage" doesn’t start with "Worn"
+
             // Construct the item data for the manifest with updated file name
             const itemEntry = {
                 level: item.system.level?.value || 0,
@@ -72,7 +107,9 @@ fs.readdir(source, (err, files) => {
                 price: item.system.price.value,
                 description: text || '',
                 rarity: item.system.traits?.rarity || '',
-                traits: item.system.traits?.value || []
+                traits: item.system.traits?.value || [],
+                usage: usage || '',
+                worn: worn
             };
 
             itemsWithDetails.push(itemEntry);
