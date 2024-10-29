@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { formatPrice } from '../utils/formatPrice';
+import React, { useState, useRef, useEffect } from 'react';
+import { copperToString, formatPrice } from '../utils/formatPrice';
 import { ManifestItem } from '../types/ManifestItem';
 
 interface SelectedItemsProps {
@@ -7,12 +7,43 @@ interface SelectedItemsProps {
     totalPrice: string;
     onRemoveItem: (index: number) => void;
     onQuantityChange: (index: number, delta: number) => void;
+    availableCopper: number;
 }
 
-const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemoveItem, onQuantityChange }) => {
+const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemoveItem, onQuantityChange, availableCopper }) => {
     const [quantities, setQuantities] = useState<{ [key: number]: number }>(
         items.reduce((acc, _, idx) => ({ ...acc, [idx]: 1 }), {})
     );
+
+    const itemRefs = useRef<(HTMLHeadingElement | null)[]>([]); // Array of refs for each item name
+
+    const fitTextToContainer = (element: HTMLHeadingElement) => {
+        const containerWidth = element.parentElement?.offsetWidth || 0;
+        const textWidth = element.scrollWidth;
+
+        const scale = textWidth > containerWidth ? containerWidth / textWidth : 1;
+        element.style.transform = `scale(${scale})`;
+        element.style.transformOrigin = 'left center';
+    };
+
+    useEffect(() => {
+        const observers: ResizeObserver[] = [];
+
+        // Attach a ResizeObserver to each item name
+        itemRefs.current.forEach((element) => {
+            if (element) {
+                const observer = new ResizeObserver(() => fitTextToContainer(element));
+                observer.observe(element.parentElement!); // Observe the parent container
+                observers.push(observer);
+
+                // Apply scaling initially
+                fitTextToContainer(element);
+            }
+        });
+
+        // Clean up observers on unmount
+        return () => observers.forEach((observer) => observer.disconnect());
+    }, [items]);
 
     const handleQuantityChange = (index: number, delta: number) => {
         setQuantities((prevQuantities) => ({
@@ -37,18 +68,22 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
                     const isConsumable = item.traits?.includes("consumable");
 
                     return (
-
                         <li key={index} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                             {/* Left side: First and Second Line (stacked vertically) */}
                             <div style={{ flex: 1 }}>
                                 {/* First Line: Item Name and Price */}
                                 <div>
-                                    <h3 style={{ flex: 1, display: 'flex', alignItems: 'center', alignContent: "center", justifyContent: 'space-between' }}>{item.name}</h3>
+                                    <h3
+                                        style={{ flex: 1, display: 'inline-block', whiteSpace: 'nowrap' }}
+                                        ref={(el) => (itemRefs.current[index] = el)} // Set ref for each item name
+                                    >
+                                        {item.name}
+                                    </h3>
 
-                                    <div style={{ flex: 1, display: 'flex', alignItems: 'center', alignContent: "center", justifyContent: 'space-between'  }}>
+                                    <div style={{ flex: 1, display: 'flex', alignItems: 'center', alignContent: "center", justifyContent: 'space-between' }}>
                                         <div>Price: {formatPrice(item.price?.value)}</div>
 
-                                        <div className='item-level' style={{marginLeft: "2em"}}>
+                                        <div className='item-level' style={{ marginLeft: "2em" }}>
                                             Level {item.level}
                                         </div>
                                     </div>
@@ -78,13 +113,13 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
                                 className='button-x'
                             />
                         </li>
-
                     );
                 })}
             </ul>
 
             {/* Overall Total Price */}
-            <h3>Total Price: {totalPrice ? totalPrice : "0 gp"}</h3>
+            <h3 style={{ marginBottom: "3px" }}>Total Price: {totalPrice ? totalPrice : "0 gp"}</h3>
+            <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {copperToString(availableCopper)}</div>
         </div>
     );
 };

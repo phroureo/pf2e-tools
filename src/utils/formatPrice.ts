@@ -36,6 +36,22 @@ export const formatPrice = (price?: { pp?: number; gp?: number; sp?: number; cp?
     return parts.join(', ');
 };
 
+export const copperToString = (copper: number): string => {
+    const part = [];
+
+    let silver = Math.floor(copper/10);
+    let gold = Math.floor(silver/10);
+    silver = silver%10;
+    copper = copper%10;
+
+    const parts = [];
+    if (gold && gold > 0) parts.push(`${gold} gp`);
+    if (silver && silver > 0) parts.push(`${silver} sp`);
+    if (copper && copper > 0) parts.push(`${copper} cp`);
+
+    return parts.join(', ');
+}
+
 export const calculateTotalValue = (price: PriceValue): number => {
     const cp = price.cp ?? 0;
     const sp = price.sp ?? 0;

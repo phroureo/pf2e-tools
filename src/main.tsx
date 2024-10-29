@@ -29,7 +29,7 @@ const Main: React.FC = () => {
     const [showAffordableItemsOnly, setShowAffordableItemsOnly] = useState<boolean>(true);
     const [levelData, setLevelData] = useState<LevelData[]>([]);
     const [lumpSum, setLumpSum] = useState<number>(15);
-    const [availableCopper, setAvailableCopper] = useState<number>(lumpSum*100);
+    const [availableCopper, setAvailableCopper] = useState<number>(lumpSum * 100);
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
         if (toggleName === 'showNoPriceItems') {
@@ -97,16 +97,16 @@ const Main: React.FC = () => {
     useEffect(() => {
         // Calculate total price in copper pieces
         const totalCopper = (totalPrice.cp ?? 0) + (totalPrice.sp ?? 0) * 10 + (totalPrice.gp ?? 0) * 100 + (totalPrice.pp ?? 0) * 1000;
-        
+
         // Calculate available gold by subtracting total price from lump sum (also in copper pieces)
         const availableCopper = lumpSum * 100 - totalCopper;
-    
+
         // Convert copper back to gp, sp, and cp format
         const pp = Math.floor(availableCopper / 1000);
         const gp = Math.floor((availableCopper % 1000) / 100);
         const sp = Math.floor((availableCopper % 100) / 10);
         const cp = availableCopper % 10;
-    
+
         // Set available gold in the required format
         setAvailableCopper(availableCopper);
     }, [lumpSum, totalPrice]);
@@ -146,15 +146,18 @@ const Main: React.FC = () => {
                 <ItemList
                     items={equipmentData}
                     onAddItem={handleAddItem}
-                    showNoPriceItems={showNoPriceItems} 
+                    showNoPriceItems={showNoPriceItems}
                     showAffordableItemsOnly={showAffordableItemsOnly}
-                    availableCopper={availableCopper}/>
-                <SelectedItems
-                    items={selectedItems}
-                    totalPrice={formatPrice(simplifiedTotalPrice)}
-                    onRemoveItem={handleRemoveItem}
-                    onQuantityChange={handleQuantityChange}
-                />
+                    availableCopper={availableCopper} />
+                <div className='flex-container'>
+                    <SelectedItems
+                        items={selectedItems}
+                        totalPrice={formatPrice(simplifiedTotalPrice)}
+                        onRemoveItem={handleRemoveItem}
+                        onQuantityChange={handleQuantityChange}
+                        availableCopper={availableCopper}
+                    />
+                </div>
             </div><footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
                 <Toggle
                     label="Show items with no price"

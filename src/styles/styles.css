@@ -14,6 +14,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    min-width: .25vw;
 }
 
 /* Typography */
@@ -52,18 +53,49 @@ a:hover {
 ul {
     list-style: none;
     padding: 0;
+    width: 100%;
 }
 
 li {
+    width: 100%;
     padding: 0.5em 0; /* Adjust padding as necessary */
     border-top: 1px solid #333; /* Only top border for shared effect */
 }
 
 li:first-child {
     border-top: none; /* Remove top border on the first item */
+    align-items: left;
+    align-content: left;
 }
 
 li:hover {
     border-top: 1px solid #555; /* Darker border on hover for a subtle effect */
     border-bottom: 1px solid #555; /* Make bottom border darker on hover */
+}
+
+/* Flex container styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px; /* Optional max-width for the entire flex container */
+}
+
+/* Set ItemList and SelectedItems widths */
+.flex-container > * {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.SelectedItems {
+    flex-basis: 33%; /* Ensure SelectedItems takes up at least one-third */
+    min-width: 300px; /* Optional minimum width for responsiveness */
+    background-color: #23243a; /* Optional background for visual distinction */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.shrinking-text {
+    display: inline-block;
+    transform-origin: left center;
 }
