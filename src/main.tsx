@@ -5,6 +5,8 @@ import ItemList from './components/ItemList';
 import SelectedItems from './components/SelectedItems';
 import { fetchEquipmentData } from './utils/fetchData';
 import { EquipmentItem } from './types/EquipmentItem';
+import { TotalPrice } from './types/TotalPrice';
+import { LevelData } from './types/LevelData';
 import { simplifyPrice, formatPrice } from './utils/formatPrice';
 import './styles/styles.css';
 import './styles/toggle.css';
@@ -15,12 +17,7 @@ import './styles/input.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
 
-interface TotalPrice {
-    cp: number;
-    sp: number;
-    gp: number;
-    pp: number;
-}
+import './firebaseConfig';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -28,16 +25,45 @@ const Main: React.FC = () => {
     const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
+    const [showNoPriceItems, setShowNoPriceItems] = useState<boolean>(false);
+    const [showAffordableItems, setShowAffordableItems] = useState<boolean>(true);
+    const [levelData, setLevelData] = useState<LevelData[]>([]);
+    const [lumpSum, setLumpSum] = useState<number>(15);
 
-    const handleToggleChange = (state: boolean) => {
-        console.log(`Toggle is now ${state ? 'On' : 'Off'}`);
+    const handleToggleChange = (toggleName: string, value: boolean) => {
+        if (toggleName === 'showNoPriceItems') {
+            setShowNoPriceItems(value);
+        } else if (toggleName === 'showOnlyAffordableItems') {
+            setShowAffordableItems(value);
+        }
     };
+
 
     useEffect(() => {
         fetchEquipmentData()
             .then((data) => setEquipmentData(data))
             .catch((error) => console.error('Error fetching equipment data:', error));
     }, []);
+
+
+    useEffect(() => {
+        fetch('/miscjson/levelGold.json')
+            .then((response) => response.json())
+            .then((data) => setLevelData(data))
+            .catch((error) => console.error('Error loading level data:', error));
+    }, []);
+
+    useEffect(() => {
+        const levelInfo = levelData.find((entry) => entry.level === characterLevel);
+        if (levelInfo) {
+            setLumpSum(levelInfo.lumpSum);
+        }
+    }, [characterLevel, levelData]);
+
+
+    const handleLevelChange = (newLevel: number) => {
+        setCharacterLevel(newLevel);
+    };
 
     const handleAddItem = (item: ManifestItem) => {
         setSelectedItems((prevItems) => [...prevItems, item]);
@@ -94,19 +120,32 @@ const Main: React.FC = () => {
         <div>
             <div className="container">
                 <h1>PF2e Equipment Picker</h1>
-                <CharacterLevel level={characterLevel} onLevelChange={setCharacterLevel} />
-                <ItemList items={equipmentData} onAddItem={handleAddItem} />
+                <CharacterLevel
+                    level={characterLevel}
+                    onLevelChange={setCharacterLevel}
+                    lumpSum={lumpSum}
+                    setLumpSum={setLumpSum} />
+                <ItemList
+                    items={equipmentData}
+                    onAddItem={handleAddItem}
+                    showNoPriceItems={showNoPriceItems} />
                 <SelectedItems
                     items={selectedItems}
                     totalPrice={formatPrice(simplifiedTotalPrice)}
                     onRemoveItem={handleRemoveItem}
                     onQuantityChange={handleQuantityChange}
                 />
-            </div>
-            <footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
-                <Toggle label="Show items with no price" onToggle={handleToggleChange} />
-                <Toggle label="Option 2" onToggle={handleToggleChange} />
-                <Toggle label="Option 3" onToggle={handleToggleChange} />
+            </div><footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
+                <Toggle
+                    label="Show items with no price"
+                    onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
+                    checked={showNoPriceItems}
+                />
+                <Toggle
+                    label="Show only affordable items"
+                    onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
+                    checked={showAffordableItems}
+                />
             </footer>
         </div>
     );

@@ -8,9 +8,10 @@ interface ItemListPanelProps {
     items: ManifestItem[];
     searchConditions: SearchCondition[];
     onItemSelect: (item: ManifestItem) => void;
+    showNoPriceItems: Boolean;
 }
 
-const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect }) => {
+const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect, showNoPriceItems }) => {
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
     const [listHeight, setListHeight] = useState(400); // Default height as fallback
@@ -30,7 +31,15 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
         }
     }, []);
 
-    const filteredItems = items.filter((item) =>
+    const filteredItems = items.filter((item) => {
+        // Check if showNoPriceItems is false and the item has no price or a price of 0 in all fields
+        const hasPrice = item.price?.value;
+        const isNoPriceItem = !hasPrice ||
+            (hasPrice.pp === 0 && hasPrice.gp === 0 && hasPrice.sp === 0 && hasPrice.cp === 0);
+
+        if (!showNoPriceItems && isNoPriceItem) {
+            return false; // Filter out items without a price if showNoPriceItems is false
+        }
         searchConditions.every((condition) => {
             const term = condition.value.toLowerCase();
             if (condition.value === '') return true;
@@ -53,12 +62,12 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
                 return condition.comparison === 'greaterThan'
                     ? itemLevel >= lvlVal
                     : condition.comparison === 'lessThan'
-                    ? itemLevel <= lvlVal
-                    : itemLevel === lvlVal;
+                        ? itemLevel <= lvlVal
+                        : itemLevel === lvlVal;
             }
             return false;
         })
-    );
+    });
 
     const sortedItems = filteredItems.sort((a, b) => {
         const isAscending = sortDirection === 'asc';
@@ -111,7 +120,7 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
                     itemCount={sortedItems.length}
                     itemSize={50} // Adjust item size as needed
                     width="100%"
-                    style={{margin: 10}}
+                    style={{ margin: 10 }}
                 >
                     {Row}
                 </List>

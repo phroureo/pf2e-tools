@@ -1,5 +1,4 @@
 {
-  "homepage": "https://phroureo.github.io/pf2e-tools/",
   "name": "pf2e-tools",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +10,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.3",
+    "firebase": "^11.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -20,15 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "generate-manifest": "node scripts/generateManifest.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "generate-manifest": "cd ../pf2eitems && git pull upstream master && cd ../pf2e-tools && node scripts/generateManifest.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --nojekyll",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "deploy": "npm run predeploy && firebase deploy",
     "dev": "vite",
-    "build-vite": "vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "eslintConfig": {

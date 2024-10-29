@@ -1,22 +1,19 @@
-// Toggle.tsx
-import React, { useState } from 'react';
+import React from 'react';
 
 interface ToggleProps {
   label: string;
+  checked: boolean; // Add checked prop
   onToggle: (state: boolean) => void;
 }
 
-const Toggle: React.FC<ToggleProps> = ({ label, onToggle }) => {
-  const [isOn, setIsOn] = useState(false);
-
+const Toggle: React.FC<ToggleProps> = ({ label, checked, onToggle }) => {
   const handleClick = () => {
-    setIsOn(!isOn);
-    onToggle(!isOn);
+    onToggle(!checked); // Toggle the checked state and pass the new value up
   };
 
   return (
     <div className="toggle-container" onClick={handleClick}>
-      <div className={`toggle-slider ${isOn ? 'active' : ''}`} />
+      <div className={`toggle-slider ${checked ? 'active' : ''}`} />
       <span>{label}</span>
     </div>
   );

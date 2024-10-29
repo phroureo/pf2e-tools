@@ -10,9 +10,10 @@ import { SearchCondition } from '../types/SearchCondition';
 interface ItemListProps {
     items: ManifestItem[];
     onAddItem: (item: ManifestItem) => void;
+    showNoPriceItems: Boolean;
 }
 
-const ItemList: React.FC<ItemListProps> = ({ items, onAddItem }) => {
+const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems }) => {
     
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [searchConditions, setSearchConditions] = useState<SearchCondition[]>([
@@ -55,6 +56,7 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem }) => {
                         items={items}
                         searchConditions={searchConditions}
                         onItemSelect={(item) => setSelectedItem(item)}
+                        showNoPriceItems={showNoPriceItems}
                     />
 
                     {selectedItem && <ItemDetails item={selectedItem} />}

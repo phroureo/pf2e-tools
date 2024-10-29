@@ -1,5 +1,5 @@
 
-interface TotalPrice {
+export interface TotalPrice {
     cp: number;
     sp: number;
     gp: number;
