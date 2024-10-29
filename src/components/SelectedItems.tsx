@@ -73,7 +73,7 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
             </ul>
 
             {/* Overall Total Price */}
-            <h3>Total Price: {totalPrice}</h3>
+            <h3>Total Price: {totalPrice ? totalPrice: "0 gp"}</h3>
         </div>
     );
 };

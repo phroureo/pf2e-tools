@@ -68,6 +68,7 @@ const CharacterLevel: React.FC<CharacterLevelProps> = ({ level, onLevelChange, l
                     value={lumpSum}
                     onChange={handleLumpSumChange}
                     className="custom-input"
+                    style={{width: 60}}
                 />
             </div>
         </div>
