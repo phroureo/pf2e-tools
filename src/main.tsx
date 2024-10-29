@@ -7,7 +7,7 @@ import { fetchEquipmentData } from './utils/fetchData';
 import { EquipmentItem } from './types/EquipmentItem';
 import { TotalPrice } from './types/TotalPrice';
 import { LevelData } from './types/LevelData';
-import { simplifyPrice, formatPrice } from './utils/formatPrice';
+import { simplifyPrice, formatPrice, copperToString } from './utils/formatPrice';
 import './styles/styles.css';
 import './styles/toggle.css';
 import './styles/buttons.css';
@@ -137,38 +137,48 @@ const Main: React.FC = () => {
     return (
         <div>
             <div className="container">
-                <h1>PF2e Equipment Picker</h1>
-                <CharacterLevel
-                    level={characterLevel}
-                    onLevelChange={setCharacterLevel}
-                    lumpSum={lumpSum}
-                    setLumpSum={setLumpSum} />
-                <ItemList
-                    items={equipmentData}
-                    onAddItem={handleAddItem}
-                    showNoPriceItems={showNoPriceItems}
-                    showAffordableItemsOnly={showAffordableItemsOnly}
-                    availableCopper={availableCopper} />
-                <div className='flex-container'>
-                    <SelectedItems
-                        items={selectedItems}
-                        totalPrice={formatPrice(simplifiedTotalPrice)}
-                        onRemoveItem={handleRemoveItem}
-                        onQuantityChange={handleQuantityChange}
-                        availableCopper={availableCopper}
-                    />
+                <div className='container-inner'>
+                    <h1>PF2e Equipment Picker</h1>
+                    <CharacterLevel
+                        level={characterLevel}
+                        onLevelChange={setCharacterLevel}
+                        lumpSum={lumpSum}
+                        setLumpSum={setLumpSum} />
+                    <ItemList
+                        items={equipmentData}
+                        onAddItem={handleAddItem}
+                        showNoPriceItems={showNoPriceItems}
+                        showAffordableItemsOnly={showAffordableItemsOnly}
+                        availableCopper={availableCopper} />
                 </div>
-            </div><footer style={{ position: 'fixed', bottom: 0, width: '100%', padding: '10px', textAlign: 'center' }}>
-                <Toggle
-                    label="Show items with no price"
-                    onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
-                    checked={showNoPriceItems}
-                />
-                <Toggle
-                    label="Show only affordable items"
-                    onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
-                    checked={showAffordableItemsOnly}
-                />
+                <h2>Selected Items</h2>
+                <div className='selected-items-container'>
+                        <SelectedItems
+                            items={selectedItems}
+                            onRemoveItem={handleRemoveItem}
+                            onQuantityChange={handleQuantityChange}
+                            availableCopper={availableCopper}
+                        />
+                </div>
+            </div>
+            <footer className='footer'>
+                <div style={{ padding: "20px" }}>
+                    {/* Overall Total Price */}
+                    <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
+                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {copperToString(availableCopper)}</div>
+                </div>
+                <footer className='footer-options'>
+                    <Toggle
+                        label="Show items with no price"
+                        onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
+                        checked={showNoPriceItems}
+                    />
+                    <Toggle
+                        label="Show only affordable items"
+                        onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
+                        checked={showAffordableItemsOnly}
+                    />
+                </footer>
             </footer>
         </div>
     );

@@ -4,13 +4,12 @@ import { ManifestItem } from '../types/ManifestItem';
 
 interface SelectedItemsProps {
     items: ManifestItem[];
-    totalPrice: string;
     onRemoveItem: (index: number) => void;
     onQuantityChange: (index: number, delta: number) => void;
     availableCopper: number;
 }
 
-const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemoveItem, onQuantityChange, availableCopper }) => {
+const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQuantityChange, availableCopper }) => {
     const [quantities, setQuantities] = useState<{ [key: number]: number }>(
         items.reduce((acc, _, idx) => ({ ...acc, [idx]: 1 }), {})
     );
@@ -55,7 +54,6 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
 
     return (
         <div>
-            <h2>Selected Items</h2>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
                 {items.map((item, index) => {
                     const quantity = quantities[index] || 1;
@@ -74,9 +72,9 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
                                 {/* First Line: Item Name and Price */}
                                 <div>
                                     <h3
-                                        style={{ 
-                                            flex: 1, 
-                                            display: 'inline-block', 
+                                        style={{
+                                            flex: 1,
+                                            display: 'inline-block',
                                             whiteSpace: 'nowrap',
                                             marginTop: 0
                                         }}
@@ -121,10 +119,6 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, totalPrice, onRemo
                     );
                 })}
             </ul>
-
-            {/* Overall Total Price */}
-            <h3 style={{ marginBottom: "3px" }}>Total Price: {totalPrice ? totalPrice : "0 gp"}</h3>
-            <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {copperToString(availableCopper)}</div>
         </div>
     );
 };

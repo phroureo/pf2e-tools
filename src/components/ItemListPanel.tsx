@@ -17,7 +17,6 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
     const [activeTab, setActiveTab] = useState<'consumable' | 'Equipment' | 'all'>('all');
-    const containerRef = useRef<HTMLDivElement | null>(null);
 
     const filteredItems = items.filter((item) => {
         // Check if showNoPriceItems is false and the item has no price or a price of 0 in all fields
@@ -89,21 +88,6 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
             setSortCriteria(criteria);
             setSortDirection('asc');
         }
-    };
-
-    const Row = ({ index, style }: ListChildComponentProps) => {
-        const item = sortedItems[index];
-        return (
-            <div
-                style={style}
-                key={index}
-                onClick={() => onItemSelect(item)}
-                className="item-list-entry"
-            >
-                <span className="item-name">{item.name}</span>
-                <span className="item-price">{formatPrice(item.price?.value)}</span>
-            </div>
-        );
     };
 
     return (
