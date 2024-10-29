@@ -33,3 +33,55 @@ button:disabled {
     font-size: 1em;
     cursor: pointer;
 }
+
+/* Button styling */
+.button-x {
+    padding: 0.3em;
+    margin-left: 0.5em;
+    transition: background-color 0.3s;
+    background-color: #1b1b2f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2em;
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Default state showing "-" */
+.button-x::before {
+    content: '-';
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translate3d(20px);
+    position: absolute;
+}
+
+/* Hover state showing "✖" */
+.button-x::after {
+    content: '✖';
+    opacity: 0;
+    font-size: .8em;
+    transform: rotate(-90deg);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.button-x:hover {
+    background-color: #c45500;
+}
+
+/* Hover effects for both symbols */
+.button-x:hover::before {
+    opacity: 0; /* Fade out the "-" */
+    transform: rotate(90deg); /* Rotate during fade-out */
+}
+
+.button-x:hover::after {
+    opacity: 1; /* Fade in the "✖" */
+    transform: rotate(0deg); /* Rotate in from -180deg */
+}

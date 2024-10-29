@@ -55,11 +55,15 @@ ul {
 }
 
 li {
-    padding: 10px;
-    border-bottom: 1px solid #333;
-    transition: background 0.3s;
+    padding: 0.5em 0; /* Adjust padding as necessary */
+    border-top: 1px solid #333; /* Only top border for shared effect */
+}
+
+li:first-child {
+    border-top: none; /* Remove top border on the first item */
 }
 
 li:hover {
-    background-color: #2a2a3e; /* Darker hover effect */
+    border-top: 1px solid #555; /* Darker border on hover for a subtle effect */
+    border-bottom: 1px solid #555; /* Make bottom border darker on hover */
 }
