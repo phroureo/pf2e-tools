@@ -1,5 +1,439 @@
 [
   {
+    "level": 20,
+    "name": "True Name Amulet (Major)",
+    "price": {
+      "gp": 55000
+    },
+    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Amulet",
+    "worn": "Amulet"
+  },
+  {
+    "level": 10,
+    "name": "True Name Amulet (Moderate)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Amulet",
+    "worn": "Amulet"
+  },
+  {
+    "level": 18,
+    "name": "Trueshape Bomb (Greater)",
+    "price": {
+      "gp": 3750
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Concentrated wolfsbane and other anti-shapechanger reagents fill trueshape bombs. These bombs grant a +3 item bonus to attack rolls and deal 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage. If the primary target is under the effects of a morph or polymorph effect, it must succeed at a @Check[fortitude|dc:40] saving throw, or else the effects end and the creature returns to its normal form. Targets taking persistent poison damage from this bomb must succeed at another Fortitude saving throw at the same DC to change shape using a morph or polymorph effect. The persistent damage can last up to 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Trueshape Bomb",
+    "price": {
+      "gp": 375
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Concentrated wolfsbane and other anti-shapechanger reagents fill trueshape bombs. These bombs grant a +2 item bonus to attack rolls and deal 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage. If the primary target is under the effects of a morph or polymorph effect, it must succeed at a @Check[fortitude|dc:30] saving throw, or else the effects end and the creature returns to its normal form. Targets taking persistent poison damage from this bomb must succeed at another Fortitude saving throw at the same DC to change shape using a morph or polymorph effect. The persistent damage can last up to 1 minute.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "poison",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 16,
+    "name": "Truesight Potion",
+    "price": {
+      "gp": 1500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Upon drinking this clear, refreshing potion, you can see things as they actually are. You gain the benefits of a 7th-rank Truesight spell that has a counteract modifier of [[/r 1d20+25]].</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Trundle Wheel",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A trundle wheel is used to measure distance. It is a wheel attached to a handle so that it rolls along the ground. The wheel is often covered with leather or a rough metal to allow better grip on a surface and ensure it maintains traction. It's of an exact circumference, usually a yard or five feet. Each time it makes a complete rotation it makes an audible click so the user knows they have gone exactly that distance and can count the clicks to determine a longer distance traveled.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Trustworthy Round",
+    "price": {
+      "gp": 9
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>This ammunition was developed in Dongun Hold to minimize casualties to friendly fire, and is always marked by a burnished copper head or tip so it can be easily identified. Before you can fire a trustworthy round, you must call out a target. You don't need to specify a name; the target could be \"The angry tiger attacking our group on the left.\" The round will only hit the specified target and will turn to gossamer dust midair if it misses the intended target or comes into contact with anything else; this also prevents abilities that redirect attacks. The round doesn't have any capabilities beyond your own to determine whether someone is who you think they are, so you can't use it to determine a disguised creature's identity. If you specify a target of \"Seltyiel\" and shoot someone disguised as Seltyiel who you thought was Seltyiel, the attack will still hit, whereas if you were about to hit a disguised Seltyiel who you didn't recognize to be Seltyiel, the round would dissolve.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Truth Potion",
+    "price": {
+      "gp": 46
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>For 10 minutes after drinking this astringent potion, you can't intentionally lie and may be compelled to tell the truth. Upon drinking the potion, attempt a @Check[will|dc:19] save. You can voluntarily fail or critically fail.</p>\n<p><strong>Success</strong> The potion does not affect you.</p>\n<p><strong>Failure</strong> When you speak, you must tell the truth.</p>\n<p><strong>Critical Failure</strong> As failure, and when someone asks you a question, you must attempt another @Check[will|dc:19] saving throw. If you fail this saving throw, you must answer the question truthfully if you are able to do so; if you succeed, you are temporarily immune to further attempts to ask the same question within the potion's duration.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "mental",
+      "potion"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 5,
+    "name": "Tteokguk of Time Advancement",
+    "price": {},
+    "description": "<p>Dumplings and rice cakes float invitingly between seaweed and egg in this comforting soup. While normal tteokguk helps you gain an extra year of age when you eat it, the magic in tteokguk of time advancement takes this a step further.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Upon eating the tteokguk, you gain several years of age, morphing into an older version of yourself. Your physical appearance and personality change to those you would have at any age older than your current one. This grants you a +4 status bonus to Deception checks to pass as the chosen age, and you can add your level as a proficiency bonus to these checks even if you're untrained. Furthermore, unless a creature specifically uses a Seek action or otherwise carefully examines you, it doesn't get a chance to notice that you aren't at your true age. This lasts until morning of the next day, at which point you are temporarily immune until the next lunar new year.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 7,
+    "name": "Tubeworm Gland",
+    "price": {
+      "gp": 330
+    },
+    "description": "<p>Thanks to a graft from a hardy deep-sea invertebrate in your stomach, you can ingest food and water that would be toxic to others. You gain a +2 item bonus to Fortitude saving throws against ingested diseases and poisons.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical"
+    ],
+    "usage": "Implanted",
+    "worn": null
+  },
+  {
+    "level": 13,
+    "name": "Tumbler's Belt",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>This sparkling purple belt was made for the youngest member of a family of jugglers and tumblers who traveled with the Crascondo Company. The thought was this would allow the child to safely participate with their elder siblings and cousins, but the belt found itself being \"loaned\" more and more often to dare-taking elders in the troupe. The <em>tumbler's belt</em> grants a +2 item bonus to Acrobatics checks, and whenever you critically succeed at a check to Tumble Through, you gain a +10-foot item bonus to your Speed until the end of your turn. While wearing the <em>tumbler's belt</em>, you're not Off-Guard while you Balance.</p>\n<p><strong>Activate—Land With Grace</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're falling</p><hr /><p><strong>Effect</strong> Treat your fall as if it were 120 feet shorter. Regardless of whether you take damage or not from the fall, you land on your feet.</p>",
+    "rarity": "unique",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Belt",
+    "worn": "Belt"
+  },
+  {
+    "level": 9,
+    "name": "Turnabout Shield",
+    "price": {
+      "gp": 600
+    },
+    "description": "<p>The face of this standard-grade silver salvo shield (Hardness 7, HP 28, BT 14) is polished to a mirror finish.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> A ranged Strike using ammunition such as arrows, bolts, or bullets (but not siege rounds or larger projectiles) misses you</p>\n<p><strong>Requirements</strong> You have the turnabout shield raised</p>\n<hr />\n<p><strong>Effect</strong> The ammunition enters the shield and is redirected with the same force with which it was originally fired. Make a ranged Strike using the ammunition with an attack modifier of [[/r 1d20+19]]{+19}, targeting a creature within 60 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "deflecting-physical-ranged",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Turquoise",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 16,
+    "name": "Tusk and Fang Chain",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Trigger</strong> You Grab or restrain a creature or become grabbed or restrained by a creature</p>\n<hr />\n<p>This length of silver chain has a tiger's fang on one end and the tip of a dire boar's tusk on the other. When you activate the chain, an ephemeral chain encircles the target creature's head and a cacophony of animal sounds clouds its mind. It must attempt a DC 35 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Confused on its next action.</p>\n<p><strong>Failure</strong> The creature is confused for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is confused for 1 minute and the creature doesn't receive a flat check to end its confusion if it takes damage. At the end of each of its turns, it attempts a new Will save, ending the effect on a success.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "incapacitation",
+      "magical",
+      "talisman"
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
+  },
+  {
+    "level": 11,
+    "name": "Twigjack Sack (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 3d6 piercing damage, 4 persistent bleed damage, and 3 piercing splash damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 1,
+    "name": "Twigjack Sack (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>The bomb deals 1d6 piercing damage, 1 persistent bleed damage, and 1 piercing splash damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 17,
+    "name": "Twigjack Sack (Major)",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 4d6 piercing damage, 5 persistent bleed damage, and 4 piercing splash damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Twigjack Sack (Moderate)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 piercing damage, 3 persistent bleed damage, and 2 piercing splash damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "bomb",
+      "consumable",
+      "splash"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Twilight Lantern (Greater)",
+    "price": {
+      "gp": 3700
+    },
+    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to triple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+21} #Twilight Lantern (Greater)]]{+21}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Twilight Lantern (Lesser)",
+    "price": {
+      "gp": 235
+    },
+    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to double the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+10} #Twilight Lantern (Lesser)]]{+10}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 18,
+    "name": "Twilight Lantern (Major)",
+    "price": {
+      "gp": 18750
+    },
+    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to quadruple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+28} #Twilight Lantern (Major)]]{+28}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Twilight Lantern (Moderate)",
+    "price": {
+      "gp": 850
+    },
+    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to triple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+17} #Twilight Lantern (Moderate)]]{+17}.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "light",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 1,
+    "name": "Twining Chains",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This set of chains is completely covered with spikes and sharp blades. Not balanced for weapon use, twining chains are instead wrapped around a user's body as a deterrent to attackers-and, for some, a fashion statement. While wearing twining chains, you gain the Thorns reaction. In addition to their dangers, twining chains' weight also increases your armor's Bulk by 1, Strength entry value by 2, and check penalty by 2.</p>\n<hr />\n<p><strong>Thorns</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Trigger</strong> You are hit by an unarmed attack</p>\n<hr />\n<p><strong>Effect</strong> You twist to harm your attacker with your chains' spikes and blades. Make an attack roll against the triggering attacker using your unarmed attack modifier. On a hit, the attacking creature takes 1d6 piercing damage. This damage increases to 2d6 piercing damage if the armor has a +1 potency rune, 3d6 piercing damage if the armor has a +2 potency rune, or 4d6 piercing damage if the armor has a +3 potency rune. However, whether you hit or miss, you take piercing damage equal to the number of d6s of piercing damage you would deal your attacker.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment"
+    ],
+    "usage": "Applied To Armor",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Twining Staff",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Appearing to be just a small, flat disk made of twigs, this item can grow and shrink. Once formed, this oak staff is carved with twisting patterns along its length.</p>\n<p><strong>Activate—Form Staff</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You cause the twigs to rapidly grow or contract, reshaping into a <em>+1 striking staff</em>, a <em>+1 striking bo staff</em>, or its disk form. In its disk form, it has negligible Bulk and must be held in one hand to be activated. In the other forms, it has the same Bulk as a normal weapon of its type. You can switch your grip as part of the activation.</p>\n<p>When you expand the item, you can use the force of the expansion to High Jump or to try to Force Open a door or the like by wedging the disk into a gap before activation. The staff makes the Athletics check with a [[/r 1d20+15]] modifier.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "monk",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Twisting Gale",
+    "price": {
+      "gp": 4200
+    },
+    "description": "<p>This <em>+2 greater striking impactful sansetsukon</em> is made of metal colored pale blue that echoes howling winds when swung and emits the force of a storm when it connects.</p>\n<p><strong>Activate—Sonic Gale</strong> <span class=\"action-glyph\">r</span> (concentrate, force, magical)</p>\n<p><strong>Trigger</strong> You critically hit with the <em>twisting gale</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> The energy of your follow-through erupts from your opponent in a wave of concussive energy. You deal sonic damage equal to your normal Strike damage with the twisting gale in a 30 foot cone behind your target. Creatures in the area, not including your target, must attempt a @Check[fortitude|against:class|basic] save against your class DC.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing",
+      "disarm",
+      "force",
+      "monk",
+      "parry"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 7,
+    "name": "Twisting Twine (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +15 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Twisting Twine (Lesser)",
+    "price": {
+      "gp": 45
+    },
+    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +9 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 5,
+    "name": "Twisting Twine (Moderate)",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +12 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
     "level": 10,
     "name": "Tyrant Ampoule",
     "price": {
@@ -1242,6 +1676,18 @@
     ],
     "usage": "Other",
     "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Victor's Wreath",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.pHUi7KCh1DH5pxMe inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine"
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
   },
   {
     "level": 15,
@@ -4678,6 +5124,21 @@
   },
   {
     "level": 11,
+    "name": "Wandering Pipe",
+    "price": {},
+    "description": "<p>This long-stemmed pipe always emits a thin plume of smoke, even when not lit or in active use. The exact material the pipe is made of varies in every accounting; sometimes made of polished oak, other times ebony, sometimes stone, and in one Erutaki legend the pipe is made of pure ice that somehow holds a flame. Though the <em>wandering pipe</em> is not intelligent, it is rumored to possess a certain capriciousness, leaving the possession of mortals whose lives are not exciting enough but inevitably finding its way back to its one true owner.</p>\n<p>When held in one hand, the pipe grants its holder a +2 circumstance bonus to Deception checks but imposes a -1 circumstance penalty to Stealth checks made to Hide or Sneak, as its telltale plume of smoke gives away the bearer's position.</p>\n<p><strong>Activate—Smoky Protections</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, primal)</p>\n<p><strong>Frequency</strong> once per hour; <strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> For the next 10 minutes, smoke gathers around you buoying your steps and protecting you. For the duration of this effect, you gain a fly Speed equal to your land Speed and automatically hover in place, and you have concealment from ranged attacks.</p>\n<p></p><hr /><p><strong>Destruction</strong> The <em>wandering pipe</em> can be broken as easily as any other wooden pipe, but it always reforms afterward in the hands of the Immortal Trickster or one of his bonded mortals. It can only be broken by the hands of one of the Trickster's bonded mortals who is an honest person acting with good intent; it is said that if this occurs, the Trickster would also be significantly weakened as a result.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 11,
     "name": "War Blood Mutagen (Greater)",
     "price": {
       "gp": 300
@@ -4762,6 +5223,35 @@
       "trip"
     ],
     "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "War Gavel",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>A war gavel is similar in construction to a palstave axe, but instead of inserting a metal wedge, it uses a heavier wooden head that is either carved into several points or inset with pointed objects like the teeth of large mammals.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "versatile-p"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "War Javelin",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>A war javelin is similar to a standard javelin, but made of sturdier woods with additional leather grips to make it suitable as a melee weapon and a leather thong to retrieve it after it's thrown.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "tethered",
+      "thrown-30"
+    ],
+    "usage": "Held In One Hand",
     "worn": null
   },
   {
@@ -6887,6 +7377,21 @@
     "worn": null
   },
   {
+    "level": 25,
+    "name": "Worldforge",
+    "price": {},
+    "description": "<p>Mounted upon a base of iron, inscribed with innumerable runes, this immense anvil can be used to forge nearly anything into reality. Stories claim that even metaphorical and abstract concepts, including \"a graveknight's mercy\" and \"the tears of a living wildfire\" have been hammered into solid shape upon <em>Worldforge</em>, though the tales disagree about what form those objects took.</p>\n<p>The cost of using <em>Worldforge</em>, however, is prohibitive for mere mortals. In addition to the fuel and metal it consumes, <em>Worldforge</em> draws upon the user's physical and spiritual strength to sustain the act of creation. The demand of its magic is such that no one save gods, or those who are nearly gods, can use it and survive.</p><hr /><p><strong>Activate—Wondrous Forge</strong> (downtime, manipulate)</p>\n<p><strong>Requirements</strong> You have the ability to make a Crafting check at mythic proficiency (such as that granted by the Artisan's Calling)</p>\n<p><strong>Effect</strong> After spending 2 days setting up the work (or 1 if you have the desired item's formula) and supplying <em>Worldforge</em> with adequate raw materials (as determined by the GM), you attempt to Craft something upon it. The DC and final cost of the item is also determined by the GM. For each day you spend Crafting, you must expend a Mythic Point or your Drained condition increases by 1; this condition can't be reduced until you have finished Crafting the item or you abandon the project. Each day spent Crafting upon the <em>Worldforge</em> counts as 10 days of normal Crafting time. If the value of your drained condition reaches 4, you must attempt a @Check[fortitude|dc:46] save or die. If you fail this save or if you abandon the activity, what remains of your project shatters irrecoverably into a multitude of useless fragments.</p><hr /><p><strong>Destruction</strong> <em>Worldforge</em> can't be destroyed as long as Torag maintains his divinity.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
     "level": 14,
     "name": "Worldringer (Greater)",
     "price": {
@@ -7318,200 +7823,6 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Wyvern Poison",
-    "price": {
-      "gp": 80
-    },
-    "description": "<p>Properly harvested and preserved, the poison from a wyvern's sting is effective and direct.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:26]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 3d6 poison damage (1 round)</p>\n<p><strong>Stage 2</strong> 3d8 poison damage (1 round)</p>\n<p><strong>Stage 3</strong> 3d10 poison damage (1 round)</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "injury",
-      "poison"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 4,
-    "name": "Yarrow-Root Bandage",
-    "price": {
-      "gp": 12
-    },
-    "description": "<p><strong>Activate</strong> Administer First Aid</p>\n<hr />\n<p>This root is often infused into bandages for life-threatening bleeding. Activating the item is part of the same activity you use to Administer First Aid to stop bleeding on a creature who's also dying. When you do, you can Administer First Aid to stop bleeding and dying as part of the same activity with only one Medicine check. However, the DC for the Medicine check is equal to the 5 + the higher of the two DCs to Administer First Aid.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 2,
-    "name": "Yellow Musk Poison",
-    "price": {
-      "gp": 7
-    },
-    "description": "<p>The powdered pollen from a yellow musk creeper addles the mind.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:16]</p>\n<p><strong>Maximum Duration</strong> 2 rounds</p>\n<p><strong>Stage 1</strong> Fascinated by the poison cloud (1 round)</p>\n<p><strong>Stage 2</strong> fascinated by the poison cloud, and can use no actions but to move closer to the cloud's point of origin (1 round)</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "inhaled",
-      "mental",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Zealot Staff",
-    "price": {
-      "gp": 13000
-    },
-    "description": "<p>A <em>zealot staff</em>'s color, iconography, and materials vary depending on the faith it's dedicated to. An Iomedaean staff might be forged of gold and shaped like an ornamental sword, while a Lamashtan one could instead be made of blackened iron depicting monstrous faces. Used as a weapon, the staff is a <em>+3 greater striking staff</em>. The staff represents vehement support of the deity to whom the staff is dedicated, punishing defiance. When the staff's effects require choosing alignments, you can choose only that deity's alignments. No such staves exist for deities that are true neutral. When you prepare this staff, if you don't worship its deity, you become Drained{Drained 1} until your next daily preparations.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Trigger</strong> You hit with a Strike using the staff</p>\n<p><strong>Effect</strong> Choose one of the represented deity's alignments besides neutral. You expend 1 charge from the staff and deal 1d4 damage per damage die of the staff. This damage is of the alignment type you chose.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Divine Lance</li>\n<li><strong>1st</strong> Bane</li>\n<li><strong>2nd</strong> Brand the Impenitent, Spiritual Weapon</li>\n<li><strong>3rd</strong> Crisis of Faith, Warding Aggression</li>\n<li><strong>4th</strong> Anathematic Reprisal, Spiritual Weapon</li>\n<li><strong>5th</strong> Divine Wrath</li>\n<li><strong>6th</strong> Spiritual Weapon, Zealous Conviction</li>\n<li><strong>7th</strong> Divine Decree</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> You worship the deity to which the staff is dedicated. Supply one casting of all listed spells.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 4,
-    "name": "Zerk",
-    "price": {
-      "gp": 20
-    },
-    "description": "<p>This bitter paste is used among some gladiatorial rings for its short-term benefits in a fight.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Maximum Duration</strong> 1 hour</p>\n<p><strong>Stage 1</strong> +2 item bonus to Perception rolls for initiative, and if you have an addiction to zerk, your melee weapon and unarmed attacks deal an extra 2 damage during the first round of a combat encounter (1 minute)</p>\n<p><strong>Stage 2</strong> Drained{Drained 1} (1 hour)</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "drug",
-      "injury",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Zhuazhi Bang",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>This niche close-combat weapon resembles a flail with articulated talons used to hook onto an opponent's clothing or armor.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "disarm",
-      "grapple",
-      "razing",
-      "trip"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Zircon",
-    "price": {
-      "sp": 25
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 11,
-    "name": "Zombie Staff (Greater)",
-    "price": {
-      "gp": 1200
-    },
-    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's Summon Undeadspells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast Summon Undead, you can also cast Protect Companion on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> Protect Companion</li>\n<li><strong>1st</strong> Summon Undead, Necromancer's Generosity</li>\n<li><strong>2nd</strong> Summon Undead, Final Sacrifice</li>\n<li><strong>3rd</strong> Summon Undead, Bind Undead, Necromancer's Generosity</li>\n<li><strong>4th</strong> Summon Undead, Enervation, Final Sacrifice</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 15,
-    "name": "Zombie Staff (Major)",
-    "price": {
-      "gp": 5600
-    },
-    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's Summon Undeadspells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast Summon Undead, you can also cast Protect Companion on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> Protect Companion</li>\n<li><strong>1st</strong> Summon Undead, Necromancer's Generosity</li>\n<li><strong>2nd</strong> Summon Undead, Final Sacrifice</li>\n<li><strong>3rd</strong> Summon Undead, Bind Undead, Necromancer's Generosity</li>\n<li><strong>4th</strong> Summon Undead, Enervation, Final Sacrifice</li>\n<li><strong>5th</strong> Summon Undead, Necromancer's Generosity</li>\n<li><strong>6th</strong> Summon Undead, Final Sacrifice, Necrotize</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 7,
-    "name": "Zombie Staff",
-    "price": {
-      "gp": 330
-    },
-    "description": "<p>A <em>zombie staff</em> is etched with the rotting visage of an undead humanoid grimacing in terror and dismay carved atop it. The staff's Summon Undeadspells can be used only to animate undead that have flesh and an Intelligence modifier of –4 or lower.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list. If you cast Summon Undead, you can also cast Protect Companion on the resulting minion as a free action.</p>\n<ul>\n<li><strong>Cantrip</strong> Protect Companion</li>\n<li><strong>1st</strong> Summon Undead, Necromancer's Generosity</li>\n<li><strong>2nd</strong> Summon Undead, Final Sacrifice</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Zuhra's Gloves",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>This elaborate metallic webbing feels soft when wrapped around your hands and forearms. It constantly shifts its strands and connections. The name of a zuhra shuyookh is etched in Talican on the only part of the item that's unchanging. You gain a +3 item bonus to your Reflex DC against attempts to Disarm an item you're holding in your hands.</p>\n<p><strong>Activate—Zuhra's Stratagem</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're wielding a weapon made primarily of metal</p>\n<p><strong>Effect</strong> You extend the weapon and call out the zuhra's name. They channel their magic through the gloves to assist you with their choice of offense or defense (as determined by the GM). The zuhra makes any choices for the spell, and any save DC is 30.</p>\n<ul>\n<li><strong>Offense</strong> The metal of the gloves wraps around your weapon and channels the zuhra's magic to cast a 6th-rank Weapon Storm spell, replicating the metal weapon.</li>\n<li><strong>Defense</strong> The metal flows off your arms, creating a Wall of Metal. The wall's surface has the same pattern as the gloves. You lose the gloves' item bonus until the barrier ends, at which point the metal returns to your hands and forearms. You can Dismiss the activation.</li>\n</ul>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical",
-      "metal"
-    ],
-    "usage": "Worn Gloves",
-    "worn": "Gloves"
-  },
-  {
-    "level": 0,
-    "name": "Zulfikar",
-    "price": {
-      "gp": 4
-    },
-    "description": "<p>This curved blade has a bifurcated tip, creating what looks like a second blade. It's a customary practice among zulfikar users to have religious or personal inscriptions upon the blade.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "deadly-d8",
-      "disarm",
-      "sweep",
-      "versatile-p"
-    ],
-    "usage": "Held In One Hand",
     "worn": null
   }
 ]

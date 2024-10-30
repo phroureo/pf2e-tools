@@ -1,5 +1,443 @@
 [
   {
+    "level": 3,
+    "name": "Staff of Earth",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>Geometric patterns are etched into the smooth brown and gray surface of a staff of earth, which makes a solid thud whenever tapped against the ground. While wielding a staff of earth, you gain a +1 circumstance bonus to your Fortitude saves and DC against effects that Shove you or knock you Prone.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Scatter Scree</li>\n<li><strong>1st</strong> Pummeling Rubble</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Staff of Elemental Power (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify elemental creatures.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Frostbite</li>\n<li><strong>1st</strong> Breathe Fire, Pummeling Rubble, Thunderstrike</li>\n<li><strong>2nd</strong> Blazing Bolt, Resist Energy</li>\n<li><strong>3rd</strong> Fireball, Lightning Bolt</li>\n<li><strong>4th</strong> Resist Energy, Wall of Fire</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Staff of Elemental Power (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify elemental creatures.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Frostbite</li>\n<li><strong>1st</strong> Breathe Fire, Pummeling Rubble, Thunderstrike</li>\n<li><strong>2nd</strong> Blazing Bolt, Resist Energy</li>\n<li><strong>3rd</strong> Fireball, Lightning Bolt</li>\n<li><strong>4th</strong> Resist Energy, Wall of Fire</li>\n<li><strong>5th</strong> Howling Blizzard, Wall of Ice</li>\n<li><strong>6th</strong> Chain Lightning, Fireball</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Staff of Elemental Power",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify elemental creatures.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Frostbite</li>\n<li><strong>1st</strong> Breathe Fire, Pummeling Rubble, Thunderstrike</li>\n<li><strong>2nd</strong> Blazing Bolt, Resist Energy</li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Staff of Final Rest (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +2 circumstance bonus to damage rolls against undead.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Vitality Lash</li>\n<li><strong>1st</strong> Infuse Vitality, Heal</li>\n<li><strong>2nd</strong> Heal, Peaceful Rest</li>\n<li><strong>3rd</strong> Bind Undead, Infuse Vitality, Heal</li>\n<li><strong>4th</strong> Heal, Holy Cascade</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 16,
+    "name": "Staff of Final Rest (Major)",
+    "price": {
+      "gp": 9000
+    },
+    "description": "<p>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +3 circumstance bonus to damage rolls against undead.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Vitality Lash</li>\n<li><strong>1st</strong> Infuse Vitality, Heal</li>\n<li><strong>2nd</strong> Heal, Peaceful Rest</li>\n<li><strong>3rd</strong> Bind Undead, Infuse Vitality, Heal</li>\n<li><strong>4th</strong> Heal, Holy Cascade</li>\n<li><strong>5th</strong> Death Ward, Infuse Vitality, Heal</li>\n<li><strong>6th</strong> Field of Life, Heal, Holy Cascade</li>\n<li><strong>7th</strong> Heal, Holy Cascade, Sunburst</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Staff of Final Rest",
+    "price": {
+      "gp": 240
+    },
+    "description": "<p>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Vitality Lash</li>\n<li><strong>1st</strong> Infuse Vitality, Heal</li>\n<li><strong>2nd</strong> Heal, Peaceful Rest</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Staff of Fire (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This staff resembles a blackened and burned length of ashen wood. You can Interact to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> Ignition</li>\n<li><strong>1st</strong> Breathe Fire</li>\n<li><strong>2nd</strong> Breathe Fire, Floating Flame</li>\n<li><strong>3rd</strong> Floating Flame, Fireball</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Staff of Fire (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This staff resembles a blackened and burned length of ashen wood. You can Interact to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> Ignition</li>\n<li><strong>1st</strong> Breathe Fire</li>\n<li><strong>2nd</strong> Breathe Fire, Floating Flame</li>\n<li><strong>3rd</strong> Floating Flame, Fireball</li>\n<li><strong>4th</strong> Fire Shield, Fireball Wall of Fire</li>\n<li><strong>5th</strong> Fireball Wall of Fire</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Staff of Fire",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>This staff resembles a blackened and burned length of ashen wood. You can Interact to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> Ignition</li>\n<li><strong>1st</strong> Breathe Fire</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Staff of Healing (Greater)",
+    "price": {
+      "gp": 470
+    },
+    "description": "<p>This white wood staff is capped at each end with a golden cross adorned with ruby cabochons. A staff of healing grants a +2 item bonus to the Hit Points you restore anytime you cast the heal spell using your own spell slots or charges from the staff.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Stabilize</li>\n<li><strong>1st</strong> Heal</li>\n<li><strong>2nd</strong> Clear Mind Heal Sound Body</li>\n<li><strong>3rd</strong> Cleanse Affliction Heal</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Staff of Healing (Major)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This white wood staff is capped at each end with a golden cross adorned with ruby cabochons. A staff of healing grants a +3 item bonus to the Hit Points you restore anytime you cast the heal spell using your own spell slots or charges from the staff.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Stabilize</li>\n<li><strong>1st</strong> Heal</li>\n<li><strong>2nd</strong> Clear Mind Heal Sound Body</li>\n<li><strong>3rd</strong> Cleanse Affliction Heal</li>\n<li><strong>4th</strong> Cleanse Affliction Clear Mind Sound Body</li>\n<li><strong>5th</strong> Breath of Life Heal</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 16,
+    "name": "Staff of Healing (True)",
+    "price": {
+      "gp": 9200
+    },
+    "description": "<p>This white wood staff is capped at each end with a golden cross adorned with ruby cabochons. A staff of healing grants a +4 item bonus to the Hit Points you restore anytime you cast the heal spell using your own spell slots or charges from the staff.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Stabilize</li>\n<li><strong>1st</strong> Heal</li>\n<li><strong>2nd</strong> Clear Mind Heal Sound Body</li>\n<li><strong>3rd</strong> Cleanse Affliction Heal</li>\n<li><strong>4th</strong> Cleanse Affliction Clear Mind Sound Body</li>\n<li><strong>5th</strong> Breath of Life Heal</li>\n<li><strong>6th</strong> Clear Mind Field of Life Heal</li>\n<li><strong>7th</strong> Heal Regenerate</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 4,
+    "name": "Staff of Healing",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This white wood staff is capped at each end with a golden cross adorned with ruby cabochons. A <em>staff of healing</em> grants a +1 item bonus to the Hit Points you restore anytime you cast the <em>heal</em> spell using your own spell slots or charges from the staff.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Stabilize</li>\n<li><strong>1st</strong> Heal</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Staff of Illumination",
+    "price": {
+      "gp": 425
+    },
+    "description": "<p>This simple iron staff is capped with a faceted, clear gem.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> The gem at the top of the staff glows as a torch, shedding bright light in a 20-foot radius (and dim light to the next 20 feet) for 10 minutes.</p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Light</li>\n<li><strong>2nd</strong> Everlight</li>\n<li><strong>3rd</strong> Everlight, Holy Light</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Staff of Impossible Visions (Greater)",
+    "price": {
+      "gp": 1800
+    },
+    "description": "<p>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes on the staff rather than your own, using your normal visual senses (including any benefits of spells like See the Unseen). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Daze</li><li><strong>1st</strong> Fear, Phantom Pain</li><li><strong>2nd</strong> Augury, Paranoia</li><li><strong>3rd</strong> Hypnotize, Paralyze</li><li><strong>4th</strong> Countless Eyes, Vision of Death</li><li><strong>5th</strong> Strange Geometry</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 16,
+    "name": "Staff of Impossible Visions (Major)",
+    "price": {
+      "gp": 10000
+    },
+    "description": "<p>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes on the staff rather than your own, using your normal visual senses (including any benefits of spells like See the Unseen). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Daze</li><li><strong>1st</strong> Fear, Phantom Pain</li><li><strong>2nd</strong> Augury, Paranoia</li><li><strong>3rd</strong> Hypnotize, Paralyze</li><li><strong>4th</strong> Countless Eyes, Vision of Death</li><li><strong>5th</strong> Strange Geometry</li><li><strong>6th</strong> Blinding Fury, Phantasmal Calamity</li><li><strong>7th</strong> Visions of Danger, Warp Mind</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Staff of Impossible Visions (True)",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes on the staff rather than your own, using your normal visual senses (including any benefits of spells like See the Unseen). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Daze</li><li><strong>1st</strong> Fear, Phantom Pain</li><li><strong>2nd</strong> Augury, Paranoia</li><li><strong>3rd</strong> Hypnotize, Paralyze</li><li><strong>4th</strong> Countless Eyes, Vision of Death</li><li><strong>5th</strong> Strange Geometry</li><li><strong>6th</strong> Blinding Fury, Phantasmal Calamity</li><li><strong>7th</strong> Visions of Danger, Warp Mind</li><li><strong>8th</strong> Spirit Song, Uncontrollable Dance</li><li><strong>9th</strong> Unfathomable Song, Phantasmagoria</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Staff of Impossible Visions",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes on the staff rather than your own, using your normal visual senses (including any benefits of spells like See the Unseen). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Daze</li><li><strong>1st</strong> Fear, Phantom Pain</li><li><strong>2nd</strong> Augury, Paranoia</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Staff of Metal (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This cylindrical iron staff has colored segments on both ends, one red and one blue. When you Strike with the staff, you gain a +1 circumstance bonus to the attack roll if the target is wearing metal armor or is primarily made of metal.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrips</strong> Detect Metal</li>\n<li><strong>1st</strong> Conductive Weapon, Shielded Arm</li>\n<li><strong>2nd</strong> Magnetic Attraction, Magnetic Repulsion</li>\n<li><strong>3rd</strong> Magnetic Acceleration, Noxious Metals</li>\n<li><strong>4th</strong> Mercurial Stride, Rust Cloud</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Staff of Metal (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This cylindrical iron staff has colored segments on both ends, one red and one blue. When you Strike with the staff, you gain a +1 circumstance bonus to the attack roll if the target is wearing metal armor or is primarily made of metal.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrips</strong> Detect Metal</li>\n<li><strong>1st</strong> Conductive Weapon, Shielded Arm</li>\n<li><strong>2nd</strong> Magnetic Attraction, Magnetic Repulsion</li>\n<li><strong>3rd</strong> Magnetic Acceleration, Noxious Metals</li>\n<li><strong>4th</strong> Mercurial Stride, Rust Cloud</li>\n<li><strong>5th</strong> Magnetic Repulsion, Impaling Spike</li>\n<li><strong>6th</strong> Field of Razors, Magnetic Acceleration</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Staff of Metal",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This cylindrical iron staff has colored segments on both ends, one red and one blue. When you Strike with the staff, you gain a +1 circumstance bonus to the attack roll if the target is wearing metal armor or is primarily made of metal.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrips</strong> Detect Metal</li>\n<li><strong>1st</strong> Conductive Weapon, Shielded Arm</li>\n<li><strong>2nd</strong> Magnetic Attraction, Magnetic Repulsion</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "metal",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 11,
+    "name": "Staff of Nature's Cunning (Greater)",
+    "price": {
+      "gp": 1400
+    },
+    "description": "<p>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Protector Tree, Shillelagh</li>\n<li><strong>2nd</strong> Entangling Flora, Shape Wood</li>\n<li><strong>3rd</strong> One with Plants, Wall of Thorns</li>\n<li><strong>4th</strong> Oaken Resilience, Speak with Plants</li>\n</ul>\n<hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 15,
+    "name": "Staff of Nature's Cunning (Major)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Protector Tree, Shillelagh</li>\n<li><strong>2nd</strong> Entangling Flora, Shape Wood</li>\n<li><strong>3rd</strong> One with Plants, Wall of Thorns</li>\n<li><strong>4th</strong> Oaken Resilience, Speak with Plants</li>\n<li><strong>5th</strong> Plant Form, Wall of Thorns</li>\n<li><strong>6th</strong> Nature's Reprisal, Plant Form</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 7,
+    "name": "Staff of Nature's Cunning",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Protector Tree, Shillelagh</li>\n<li><strong>2nd</strong> Entangling Flora, Shape Wood</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "plant",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Staff of Nature's Vengeance (Greater)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This stout staff is made from gnarled hawthorn. When used as a weapon, a staff of nature's vengeance permanently has the effects of Shillelagh</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Shocking Grasp, Spider Sting</li>\n<li><strong>2nd</strong> Floating Flame, Vomit Swarm</li>\n<li><strong>3rd</strong> Earthbind, Wall of Thorns</li>\n<li><strong>4th</strong> Bestial Curse, Spike Stones</li>\n<li><strong>5th</strong> Toxic Cloud, Control Water</li>\n<li><strong>6th</strong> Purple Worm Sting, Tangling Creepers</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 18,
+    "name": "Staff of Nature's Vengeance (Major)",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>This stout staff is made from gnarled hawthorn. When used as a weapon, a staff of nature's vengeance permanently has the effects of Shillelagh</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> Tangle Vine</li>\n<li><strong>1st</strong> Shocking Grasp, Spider Sting</li>\n<li><strong>2nd</strong> Floating Flame, Vomit Swarm</li>\n<li><strong>3rd</strong> Earthbind, Wall of Thorns</li>\n<li><strong>4th</strong> Bestial Curse, Spike Stones</li>\n<li><strong>5th</strong> Toxic Cloud, Control Water</li>\n<li><strong>6th</strong> Purple Worm Sting, Tangling Creepers</li>\n<li><strong>7th</strong> Sunburst, Volcanic Eruption</li>\n<li><strong>8th</strong> Earthquake, Punishing Winds</li>\n</ul>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
     "level": 10,
     "name": "Staff of Nature's Vengeance",
     "price": {
@@ -5277,6 +5715,18 @@
     "worn": null
   },
   {
+    "level": 0,
+    "name": "Thousand-League Sandals",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.6dtTNqL4SdPFKOrh inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine"
+    ],
+    "usage": "Worn Shoes",
+    "worn": "Shoes"
+  },
+  {
     "level": 8,
     "name": "Thousand-Pains Fulu (Blade)",
     "price": {
@@ -7239,439 +7689,5 @@
     ],
     "usage": "Worn Amulet",
     "worn": "Amulet"
-  },
-  {
-    "level": 20,
-    "name": "True Name Amulet (Major)",
-    "price": {
-      "gp": 55000
-    },
-    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
-    "rarity": "rare",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Amulet",
-    "worn": "Amulet"
-  },
-  {
-    "level": 10,
-    "name": "True Name Amulet (Moderate)",
-    "price": {
-      "gp": 850
-    },
-    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
-    "rarity": "rare",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Amulet",
-    "worn": "Amulet"
-  },
-  {
-    "level": 18,
-    "name": "Trueshape Bomb (Greater)",
-    "price": {
-      "gp": 3750
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Concentrated wolfsbane and other anti-shapechanger reagents fill trueshape bombs. These bombs grant a +3 item bonus to attack rolls and deal 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage. If the primary target is under the effects of a morph or polymorph effect, it must succeed at a @Check[fortitude|dc:40] saving throw, or else the effects end and the creature returns to its normal form. Targets taking persistent poison damage from this bomb must succeed at another Fortitude saving throw at the same DC to change shape using a morph or polymorph effect. The persistent damage can last up to 1 minute.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "poison",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 12,
-    "name": "Trueshape Bomb",
-    "price": {
-      "gp": 375
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Concentrated wolfsbane and other anti-shapechanger reagents fill trueshape bombs. These bombs grant a +2 item bonus to attack rolls and deal 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage. If the primary target is under the effects of a morph or polymorph effect, it must succeed at a @Check[fortitude|dc:30] saving throw, or else the effects end and the creature returns to its normal form. Targets taking persistent poison damage from this bomb must succeed at another Fortitude saving throw at the same DC to change shape using a morph or polymorph effect. The persistent damage can last up to 1 minute.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "poison",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 16,
-    "name": "Truesight Potion",
-    "price": {
-      "gp": 1500
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Upon drinking this clear, refreshing potion, you can see things as they actually are. You gain the benefits of a 7th-rank Truesight spell that has a counteract modifier of [[/r 1d20+25]].</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical",
-      "potion"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Trundle Wheel",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>A trundle wheel is used to measure distance. It is a wheel attached to a handle so that it rolls along the ground. The wheel is often covered with leather or a rough metal to allow better grip on a surface and ensure it maintains traction. It's of an exact circumference, usually a yard or five feet. Each time it makes a complete rotation it makes an audible click so the user knows they have gone exactly that distance and can count the clicks to determine a longer distance traveled.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Trustworthy Round",
-    "price": {
-      "gp": 9
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>This ammunition was developed in Dongun Hold to minimize casualties to friendly fire, and is always marked by a burnished copper head or tip so it can be easily identified. Before you can fire a trustworthy round, you must call out a target. You don't need to specify a name; the target could be \"The angry tiger attacking our group on the left.\" The round will only hit the specified target and will turn to gossamer dust midair if it misses the intended target or comes into contact with anything else; this also prevents abilities that redirect attacks. The round doesn't have any capabilities beyond your own to determine whether someone is who you think they are, so you can't use it to determine a disguised creature's identity. If you specify a target of \"Seltyiel\" and shoot someone disguised as Seltyiel who you thought was Seltyiel, the attack will still hit, whereas if you were about to hit a disguised Seltyiel who you didn't recognize to be Seltyiel, the round would dissolve.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Truth Potion",
-    "price": {
-      "gp": 46
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>For 10 minutes after drinking this astringent potion, you can't intentionally lie and may be compelled to tell the truth. Upon drinking the potion, attempt a @Check[will|dc:19] save. You can voluntarily fail or critically fail.</p>\n<p><strong>Success</strong> The potion does not affect you.</p>\n<p><strong>Failure</strong> When you speak, you must tell the truth.</p>\n<p><strong>Critical Failure</strong> As failure, and when someone asks you a question, you must attempt another @Check[will|dc:19] saving throw. If you fail this saving throw, you must answer the question truthfully if you are able to do so; if you succeed, you are temporarily immune to further attempts to ask the same question within the potion's duration.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "mental",
-      "potion"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Tteokguk of Time Advancement",
-    "price": {},
-    "description": "<p>Dumplings and rice cakes float invitingly between seaweed and egg in this comforting soup. While normal tteokguk helps you gain an extra year of age when you eat it, the magic in tteokguk of time advancement takes this a step further.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Upon eating the tteokguk, you gain several years of age, morphing into an older version of yourself. Your physical appearance and personality change to those you would have at any age older than your current one. This grants you a +4 status bonus to Deception checks to pass as the chosen age, and you can add your level as a proficiency bonus to these checks even if you're untrained. Furthermore, unless a creature specifically uses a Seek action or otherwise carefully examines you, it doesn't get a chance to notice that you aren't at your true age. This lasts until morning of the next day, at which point you are temporarily immune until the next lunar new year.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical",
-      "polymorph"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 7,
-    "name": "Tubeworm Gland",
-    "price": {
-      "gp": 330
-    },
-    "description": "<p>Thanks to a graft from a hardy deep-sea invertebrate in your stomach, you can ingest food and water that would be toxic to others. You gain a +2 item bonus to Fortitude saving throws against ingested diseases and poisons.</p>",
-    "rarity": "common",
-    "traits": [
-      "graft",
-      "invested",
-      "magical"
-    ],
-    "usage": "Implanted",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Tumbler's Belt",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>This sparkling purple belt was made for the youngest member of a family of jugglers and tumblers who traveled with the Crascondo Company. The thought was this would allow the child to safely participate with their elder siblings and cousins, but the belt found itself being \"loaned\" more and more often to dare-taking elders in the troupe. The <em>tumbler's belt</em> grants a +2 item bonus to Acrobatics checks, and whenever you critically succeed at a check to Tumble Through, you gain a +10-foot item bonus to your Speed until the end of your turn. While wearing the <em>tumbler's belt</em>, you're not Off-Guard while you Balance.</p>\n<p><strong>Activate—Land With Grace</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're falling</p><hr /><p><strong>Effect</strong> Treat your fall as if it were 120 feet shorter. Regardless of whether you take damage or not from the fall, you land on your feet.</p>",
-    "rarity": "unique",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Belt",
-    "worn": "Belt"
-  },
-  {
-    "level": 9,
-    "name": "Turnabout Shield",
-    "price": {
-      "gp": 600
-    },
-    "description": "<p>The face of this standard-grade silver salvo shield (Hardness 7, HP 28, BT 14) is polished to a mirror finish.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> A ranged Strike using ammunition such as arrows, bolts, or bullets (but not siege rounds or larger projectiles) misses you</p>\n<p><strong>Requirements</strong> You have the turnabout shield raised</p>\n<hr />\n<p><strong>Effect</strong> The ammunition enters the shield and is redirected with the same force with which it was originally fired. Make a ranged Strike using the ammunition with an attack modifier of [[/r 1d20+19]]{+19}, targeting a creature within 60 feet.</p>",
-    "rarity": "common",
-    "traits": [
-      "deflecting-physical-ranged",
-      "magical"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Turquoise",
-    "price": {
-      "sp": 5
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 16,
-    "name": "Tusk and Fang Chain",
-    "price": {
-      "gp": 1800
-    },
-    "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> command</p>\n<p><strong>Trigger</strong> You Grab or restrain a creature or become grabbed or restrained by a creature</p>\n<hr />\n<p>This length of silver chain has a tiger's fang on one end and the tip of a dire boar's tusk on the other. When you activate the chain, an ephemeral chain encircles the target creature's head and a cacophony of animal sounds clouds its mind. It must attempt a DC 35 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Confused on its next action.</p>\n<p><strong>Failure</strong> The creature is confused for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is confused for 1 minute and the creature doesn't receive a flat check to end its confusion if it takes damage. At the end of each of its turns, it attempts a new Will save, ending the effect on a success.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "incapacitation",
-      "magical",
-      "talisman"
-    ],
-    "usage": "Affixed To Armor",
-    "worn": null
-  },
-  {
-    "level": 11,
-    "name": "Twigjack Sack (Greater)",
-    "price": {
-      "gp": 250
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 3d6 piercing damage, 4 persistent bleed damage, and 3 piercing splash damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 1,
-    "name": "Twigjack Sack (Lesser)",
-    "price": {
-      "gp": 3
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>The bomb deals 1d6 piercing damage, 1 persistent bleed damage, and 1 piercing splash damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Twigjack Sack (Major)",
-    "price": {
-      "gp": 2500
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 4d6 piercing damage, 5 persistent bleed damage, and 4 piercing splash damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Twigjack Sack (Moderate)",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>Sharp, flexible brambles poke from this sack made of intricately intertwined plant fibers. The sack's contents creak under the strain of the tightly compressed bundle.</p>\n<p>When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals the listed piercing damage, persistent bleed damage, and splash damage.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 piercing damage, 3 persistent bleed damage, and 2 piercing splash damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "bomb",
-      "consumable",
-      "splash"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 14,
-    "name": "Twilight Lantern (Greater)",
-    "price": {
-      "gp": 3700
-    },
-    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to triple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+21} #Twilight Lantern (Greater)]]{+21}.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "light",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Twilight Lantern (Lesser)",
-    "price": {
-      "gp": 235
-    },
-    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to double the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+10} #Twilight Lantern (Lesser)]]{+10}.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "light",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 18,
-    "name": "Twilight Lantern (Major)",
-    "price": {
-      "gp": 18750
-    },
-    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to quadruple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+28} #Twilight Lantern (Major)]]{+28}.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "light",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Twilight Lantern (Moderate)",
-    "price": {
-      "gp": 850
-    },
-    "description": "<p>This elegant hooded lantern is made from onyx-black metal. In dim light, flecks of white metal speckled within the lantern's housing resemble stars in a night sky. The lantern uses oil as a standard hooded lantern, except that any light the lantern emits is converted into magical light similar to moonlight. This magical moonlight is always dim light.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<hr />\n<p><strong>Effect</strong> You concentrate on the lantern's light and reduce or increase its radius. The light can have a minimum radius of 5 feet and a maximum radius equal to triple the light's standard radius.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You raise the lantern and unleash a beam of powerful moonlight, targeting a darkness effect within 60 feet. The lantern attempts to counteract the effect with a counteract modifier of [[/r {1d20+17} #Twilight Lantern (Moderate)]]{+17}.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "light",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 1,
-    "name": "Twining Chains",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>This set of chains is completely covered with spikes and sharp blades. Not balanced for weapon use, twining chains are instead wrapped around a user's body as a deterrent to attackers-and, for some, a fashion statement. While wearing twining chains, you gain the Thorns reaction. In addition to their dangers, twining chains' weight also increases your armor's Bulk by 1, Strength entry value by 2, and check penalty by 2.</p>\n<hr />\n<p><strong>Thorns</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Trigger</strong> You are hit by an unarmed attack</p>\n<hr />\n<p><strong>Effect</strong> You twist to harm your attacker with your chains' spikes and blades. Make an attack roll against the triggering attacker using your unarmed attack modifier. On a hit, the attacking creature takes 1d6 piercing damage. This damage increases to 2d6 piercing damage if the armor has a +1 potency rune, 3d6 piercing damage if the armor has a +2 potency rune, or 4d6 piercing damage if the armor has a +3 potency rune. However, whether you hit or miss, you take piercing damage equal to the number of d6s of piercing damage you would deal your attacker.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "adjustment"
-    ],
-    "usage": "Applied To Armor",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Twining Staff",
-    "price": {
-      "gp": 250
-    },
-    "description": "<p>Appearing to be just a small, flat disk made of twigs, this item can grow and shrink. Once formed, this oak staff is carved with twisting patterns along its length.</p>\n<p><strong>Activate—Form Staff</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You cause the twigs to rapidly grow or contract, reshaping into a <em>+1 striking staff</em>, a <em>+1 striking bo staff</em>, or its disk form. In its disk form, it has negligible Bulk and must be held in one hand to be activated. In the other forms, it has the same Bulk as a normal weapon of its type. You can switch your grip as part of the activation.</p>\n<p>When you expand the item, you can use the force of the expansion to High Jump or to try to Force Open a door or the like by wedging the disk into a gap before activation. The staff makes the Athletics check with a [[/r 1d20+15]] modifier.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "monk",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 14,
-    "name": "Twisting Gale",
-    "price": {
-      "gp": 4200
-    },
-    "description": "<p>This <em>+2 greater striking impactful sansetsukon</em> is made of metal colored pale blue that echoes howling winds when swung and emits the force of a storm when it connects.</p>\n<p><strong>Activate—Sonic Gale</strong> <span class=\"action-glyph\">r</span> (concentrate, force, magical)</p>\n<p><strong>Trigger</strong> You critically hit with the <em>twisting gale</em></p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> The energy of your follow-through erupts from your opponent in a wave of concussive energy. You deal sonic damage equal to your normal Strike damage with the twisting gale in a 30 foot cone behind your target. Creatures in the area, not including your target, must attempt a @Check[fortitude|against:class|basic] save against your class DC.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "backswing",
-      "disarm",
-      "force",
-      "monk",
-      "parry"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 7,
-    "name": "Twisting Twine (Greater)",
-    "price": {
-      "gp": 300
-    },
-    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +15 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Twisting Twine (Lesser)",
-    "price": {
-      "gp": 45
-    },
-    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +9 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Twisting Twine (Moderate)",
-    "price": {
-      "gp": 125
-    },
-    "description": "<p>This ball of hempen twine resists efforts to unravel it by hand.</p>\n<p><strong>Activate—Unravel Twine</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You toss the ball of twine into a square within 20 feet. The twine then unravels and animates, attempting to Disarm or Trip (your choice) a creature in the square with a total of +12 to the Athletics check. At the end of your turn, the twine winds itself back into a ball and returns to your hand; if you don't have a free hand, it returns to your space instead.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
   }
 ]

@@ -1,5 +1,326 @@
 [
   {
+    "level": 8,
+    "name": "Poisoner's Staff (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 10.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n<li><strong>2nd</strong> Enhance Victuals, Imp Sting</li>\n<li><strong>3rd</strong> Cleanse Affliction, Stinking Cloud</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 14,
+    "name": "Poisoner's Staff (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 5.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n<li><strong>2nd</strong> Enhance Victuals, Imp Sting</li>\n<li><strong>3rd</strong> Cleanse Affliction, Stinking Cloud</li>\n<li><strong>4th</strong> Swarming Wasp Stings</li>\n<li><strong>5th</strong> Toxic Cloud</li>\n<li><strong>6th</strong> Purple Worm Sting</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 4,
+    "name": "Poisoner's Staff",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 13.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "staff",
+      "two-hand-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Poisonous Cloak Type I",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> giant scorpion venom</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Poisonous Cloak Type II",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> wolfsbane</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 13,
+    "name": "Poisonous Cloak Type III",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> purple worm venom</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 17,
+    "name": "Poisonous Cloak Type IV",
+    "price": {},
+    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> hemlock</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 5,
+    "name": "Poisonous Dagger",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This +1 striking dagger has an image of a snake emblazoned on its blade. When you critically succeed at an attack roll with the dagger, magical fangs emerge and poison the target, dealing @Damage[1d4[persistent,poison]].</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "magical",
+      "poison",
+      "thrown-10",
+      "versatile-s"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Polarizing Mace",
+    "price": {
+      "gp": 950
+    },
+    "description": "<p>Even grasping the amber handle of this <em>+1 striking shock light mace</em> makes your hair stand on end.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The wielder of a <em>grounding spike</em> is within 30 feet</p>\n<hr />\n<p><strong>Effect</strong> A great surge of electricity connects your paired weapons. All creatures in a line between you and the wielder of the grounding spike take @Damage[4d12[electricity]|options:area-damage] (DC 24 reflex).</p>\n<p><strong>Special</strong> The polarizing mace pairs with the <em>grounding spike</em>.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "finesse",
+      "shove"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Polished Demon Horn (Greater)",
+    "price": {
+      "gp": 450
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d6 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 24 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank Fear (DC 24 will).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Polished Demon Horn (Major)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d8 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 29 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Agonizing Despair (DC 29 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Outcast's Curse (DC 29 will).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Polished Demon Horn",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d4 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 17 will).</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "divine",
+      "spellheart"
+    ],
+    "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
+  },
+  {
+    "level": 1,
+    "name": "Polytool",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>The polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it- perfect for the goddess Casandalee to spread innovation farther than actual Numerian tech could reach.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "agile",
+      "modular"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 9,
+    "name": "Pontoon",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Footwear with <em>pontoon runes</em> allows you to traverse waterways with ease. While wearing footwear with the rune, you can walk on the surface of water and other liquids without falling through. This offers no protection against damage the liquid deals. You can go under the liquid's surface, but you must Swim if you do.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Applied To Footwear",
+    "worn": null
+  },
+  {
+    "level": 1,
+    "name": "Popdust",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can sprinkle popdust in an empty square adjacent to you. The first creature that applies pressure to the popdust, such as by moving into that square, causes it to emit a series of thunderous cracks.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "sonic"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 5,
+    "name": "Poracha Fulu",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Folklore from near the Forest of Spirits tells of the origin of the <em>poracha fulu</em>. Once, a traveler saved an eight-legged feline who turned out to be a poracha prince. In return, the prince gave the traveler a fulu that later prevented a fast-acting poison from slaying them. Traditionally, one wears a string of up to nine <em>poracha fulus</em>, which counts as one talisman. Each time you take persistent damage, one <em>poracha fulu</em> affixed to you negates the damage and crumbles to dust. This response is automatic, but you can use a free action (envision) to prevent your fulus from responding. If you do, any <em>poracha fulus</em> affixed to you never respond to that persistent damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Porcelain doll with amber eyes",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Porcelain vase inlaid with gold",
+    "price": {
+      "gp": 25
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Portable Altar",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p>This travel-ready kit contains a small altar featuring a deity's iconography. The altar's top can be lifted to reveal a compartment for materials of no more than light Bulk (such as candles, incense, oils, and small texts). The altar grants a +1 item bonus to checks made to conduct religious rites using Performance or Religion.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 2,
+    "name": "Portable Animal Blind",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>Simple blinds consist of a series of poles with a cloth to cover them. The cloth covering is styled to represent the natural surroundings such as green and brown leaf and wood patterns for forests, or gray rocks for underground environments. This cloth is either sheer enough to be seen through on one side, or sometimes has small slits cut in it, allowing someone behind it to see what is going on outside while remaining Hidden. While not the most convincing camouflage, it's good enough to fool many animals and creatures with lower intelligence.</p>\n<p>Portable blinds are made of a wooden frame with camouflage material stretched over them, resembling a large kite. A hole in the center allows for a one-handed ranged weapon to be fired without obstruction. A single person can use the Take Cover action while carrying a portable blind. When you do so, you gain a +2 circumstance bonus to Stealth checks to Hide instead of the normal benefits of standard cover.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Portable Gaming Hall",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>A <em>portable gaming hall</em> resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The wheel grows into a circular room 30 feet in diameter, with a door on one side. Six chairs surround a circular table, 10 feet in diameter. The underside of the table contains retractable drawers full of dice, harrow cards, game pieces, and other gambling accouterments. A gallon of ale or a similar drink with a spigot near the bottom hangs on the door, replenishing to a full gallon each day; you can also bring in your own drinks if you require more than the gaming hall provides.</p>\n<p>You can flip the central table over as a 3-action activity, which has the manipulate trait, to revert the gaming hall to its original form.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 15,
+    "name": "Portable Hole",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>Wispy, ethereal strands of carefully spun silk make up the substance of a portable hole, which sparkles with captive beams of starlight. It's linked to an extradimensional space in the shape of a pit, which can be accessed if the hole is fully opened.</p>\n<p><em>Portable holes</em> and <em>bags of holding</em> are antithetical to one another. Rather than deactivating either, if one is placed inside the other, as typical for extradimensional spaces, a rift to the Astral Plane tears open and destroys both items. Any creature or unattended object within a 10 foot burst centered on the bag is sucked through to the Astral Plane, though a creature can avoid this with a successful @Check[reflex|dc:30] save. The whole process happens in a single blink of an eye.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You unfold the hole and open it fully, revealing an extradimensional space that stays in place. The hole is 6 feet across—just big enough to cover a 5-foot square—and 10 feet deep. The hole's depth is perpendicular to the surface, so it's most commonly placed on a floor to make a hole straight down or on a wall to create a horizontal passage through it. The only air in the hole is that which enters when it's opened, though if the hole goes through to open space, air can flow freely through the tunnel. Anyone can Interact to grab the hole by the edges and partially or fully fold it up. This closes the entrance to the extradimensional space. Any objects or creatures within the hole remain inside, and any that can't fit fully inside are ejected into the nearest open space. No matter how many items are in the portable hole, its Bulk never changes. Items can be stowed or retrieved only while the hole is fully open. A living creature placed inside has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the hole provides no benefits unless it's retrieved first. Anything in the hole can't be detected by magic that detects only things on the same plane.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
     "level": 9,
     "name": "Portable Ram (Reinforced)",
     "price": {
@@ -2780,6 +3101,20 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Rattan Armor",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This armor is made from rattan reeds which are bent and woven into shaped layers then treated with oil to harden them. Due to the materials and nature of its construction, rattan armor is naturally buoyant and doesn't hinder its wearer when moving through water.</p>",
+    "rarity": "common",
+    "traits": [
+      "aquadynamic"
+    ],
+    "usage": "",
     "worn": null
   },
   {
@@ -7239,360 +7574,6 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 18,
-    "name": "Scalding Gauntlets (True)",
-    "price": {
-      "gp": 20000
-    },
-    "description": "<p>Prized by naari geniekin who prefer to fight with their fists, <em>true scalding gauntlets</em> are a pair of <em>+3 greater striking greater flaming spiked gauntlets</em>. The intricate golden gauntlets are engraved with Pyric writing praising the glories of the Dominion of Flame and embellished with shimmering black and red gemstones. A creature you grab or restrain while wearing the gauntlets must succeed at a @Check[fortitude|dc:36] save or take @Damage[4d6[persistent,fire]] damage and be Sickened{Sickened 1} from the pain; it's temporarily immune to being sickened by <em>scalding gauntlets</em> for 1 hour.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "fire",
-      "free-hand",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 11,
-    "name": "Scalding Gauntlets",
-    "price": {
-      "gp": 1300
-    },
-    "description": "<p>Prized by naari geniekin who prefer to fight with their fists, <em>scalding gauntlets</em> are a pair of <em>+2 striking spiked gauntlets</em>. The intricate golden gauntlets are engraved with Pyric writing praising the glories of the Dominion of Flame and embellished with shimmering black and red gemstones. A creature you grab or restrain while wearing the gauntlets must succeed at a @Check[fortitude|dc:26] save or take @Damage[2d6[persistent,fire]] damage and be Sickened{Sickened 1} from the pain; it's temporarily immune to being sickened by <em>scalding gauntlets</em> for 1 hour.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "fire",
-      "free-hand",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Scale Mail",
-    "price": {
-      "gp": 4
-    },
-    "description": "<p>Scale mail consists of many metal scales sewn onto a reinforced leather backing, often in the form of a long shirt that protects the torso, arms, and legs.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 21,
-    "name": "Scale of Igroon",
-    "price": {},
-    "description": "<p>Carved from a scale of the kaiju Igroon, this jagged shield refracts light around it in a shimmering haze. A scale of Igroon (Hardness 20, HP 160, BT 80) recovers 4 Hit Points at the start of its wielder's turn. When you Raise a Shield, you can use the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Shield Block] reaction with the <em>scale of Igroon</em> to block an attack or effect that deals acid, cold, electricity, fire, force, or sonic damage as well as physical damage.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> You're in an area of bright or dim light</p>\n<hr />\n<p><strong>Effect</strong> You angle the shield to refract light. Until the start of your next turn, you gain a +4 item bonus to Stealth checks to Hide and Sneak and can do so while observed. This bonus ends if you Activate another ability or use the Shield Block reaction.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> You're in an area of bright light</p>\n<hr />\n<p><strong>Effect</strong> You angle the shield at a target within 60 feet, reflecting light into its eyes. It must attempt a @Check[fortitude|dc:42] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is Blinded until its next turn begins.</p>\n<p><strong>Failure</strong> The target is blinded for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is blinded for [[/r 2d4 #hours]]{2d4 hours}.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Interact</p>\n<p><strong>Trigger</strong> You use Shield Block and prevent yourself from taking energy damage from a line, ray, or a direct attack, including a magic missile spell</p>\n<hr />\n<p><strong>Effect</strong> You reflect the energy along a trajectory you choose. The effect travels only up to its remaining range, using its original parameters if it strikes other targets.</p>\n<p><strong>Destruction</strong> If a deity, kaiju, spawn of a deity, titan, or being of similar power stomps on a scale of Igroon while in absolute darkness, the shield is destroyed permanently.</p>",
-    "rarity": "rare",
-    "traits": [
-      "artifact",
-      "primal"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Scapular of Shields",
-    "price": {
-      "gp": 15000
-    },
-    "description": "<p>This fine scapular features the image of an ornate shield. While wearing the cloak, you feel protected and capable of withstanding even the deadliest blows. Each time you're critically hit while wearing the scapular, attempt a @Check[flat|dc:17]. On a success, it becomes a normal hit. When you invest the scapular, you either increase your Constitution score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You're critically hit with an attack</p>\n<p><strong>Effect</strong> The shield on your scapular glows with light, helping reduce the effectiveness of the attack. You take normal damage from the triggering attack as if the attack were a normal hit instead. Other effects that trigger with critical hits such as the deadly weapon trait, additional conditions, and so on still occur.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would take damage from an attack</p>\n<p><strong>Effect</strong> The shield on your scapular animates and intercedes on the attack. You gain 20 resistance to all damage against the triggering damage.</p>",
-    "rarity": "rare",
-    "traits": [
-      "apex",
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Garment",
-    "worn": "Garment"
-  },
-  {
-    "level": 10,
-    "name": "Scarab Cuirass",
-    "price": {
-      "gp": 1000
-    },
-    "description": "<p>The cuirass of this <em>+1 deathless resilient leather armor</em>, stitched to resemble an Osiriani scarab beetle, feels strangely chitinous. You gain resistance 5 to void damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> You cast a 1st-rank Pest Form. You can only become a scarab beetle.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of <em>pest form</em>.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Scarlet Mist",
-    "price": {
-      "gp": 80
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Derived from a mixture of krooth venom and an agitating agent, scarlet mist causes bleeding that turns into a foaming mist. When a creature under the effects of scarlet mist takes persistent bleed damage from the toxin, creatures within 5 feet take the splash damage. The persistent damage can't be staunched until the poison's effects end. A creature that can't bleed doesn't take the bleed damage or cause the splash damage but can still take the poison damage.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 3d6 poison, 1d4 bleed, and @Damage[(1[splash])[poison]]{1 poison splash damage} (1 round)</p>\n<p><strong>Stage 2</strong> 3d6 poison, 2d4 bleed, and @Damage[(2[splash])[poison]]{2 poison splash damage} (1 round)</p>\n<p><strong>Stage 3</strong> 3d6 poison, 3d4 bleed, and @Damage[(3[splash])[poison]]{3 poison splash damage} (1 round)</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "injury",
-      "poison"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 12,
-    "name": "Scarlet Queen",
-    "price": {
-      "gp": 2000
-    },
-    "description": "<p>The <em>scarlet queen</em> is a <em>+2 striking flaming hammer gun</em>. Due to the awkward and complex nature of combination weapons, it's by far the least popular of Ornmarr's designs, but those who have mastered it consider it his finest creation to date. The glistening red steel always feels warm to the touch and sheds dim light in a 15-foot radius. Any non-magical object of light Bulk destroyed by the <em>scarlet queen</em> is reduced completely to ash.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Requirements</strong> The <em>scarlet queen</em> is in its firearm form</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You fire a blast of magically disruptive energy at an unattended magical object. You cast 5th-rank Dispel Magic with a counteract bonus of [[/r 1d20+21 #Counteract]]{+21} against the object.</p>",
-    "rarity": "rare",
-    "traits": [
-      "combination",
-      "concussive",
-      "fatal-d10",
-      "fire"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Scene Stealer's Tunic",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>This suit of padded armor consists of a beautifully woven pleated tunic adorned with a gold pattern and narrow bands of white fur trim on a deep blue background with matching pants, all of which are meant to signal wealth and status. This +2 resilient raiment padded armor was custom designed for Alessandro Domenesso, an actor as well known for their astounding costume changes as for their roguish off-stage activities. Even without utilizing the magic of this armor, it's elegant enough that it could easily be mistaken as fine clothing.</p>\n<p><strong>Activate—Look At Me!</strong> <span class=\"action-glyph\">2</span> (concentrate, illusion, mental, visual)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You make yourself visible and apparent to a creature you can see that's within 30 feet. The scene stealer's tunic transforms into something incredibly gaudy, distracting, or otherwise compelling to the target creature, who must attempt a @Check[will|dc:30] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is distracted by you and keeps looking your way. They take a –1 status penalty to Perception checks against everything but you, a –1 status penalty to all saving throws against your visual effects, and gain a +2 status bonus to all saving throws against visual effects created by anyone else; these penalties and bonus last for 1 minute.</p>\n<p><strong>Failure</strong> As success, but the target is also Off-Guard to everyone other than you as long as you remain visible.</p>\n<p><strong>Critical Failure</strong> As failure, but the target also becomes Slowed{Slowed 1} as they spend extra time on their turn admiring, glowering, or otherwise being distracted by you.</p>\n<p></p>",
-    "rarity": "unique",
-    "traits": [
-      "comfort",
-      "invested"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Scholarly Journal Compendium",
-    "price": {
-      "gp": 30
-    },
-    "description": "<p>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Scholarly Journal",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Scholar's Drop",
-    "price": {
-      "gp": 40
-    },
-    "description": "<p>University students in Katapesh first used the scholar's drop to gain an edge over their academic rivals, but the candy has since spread across Golarion. The flavor of this hard, sugar-coated candy is highly refreshing and based on lemon and green tea. For 1 hour, you gain a +1 item bonus to saving throws against effects that could render you Fatigued.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>Requirements</strong> You're fatigued</p>\n<hr />\n<p><strong>Effect</strong> Ignore the effects of the fatigued condition for 10 minutes. The drop's other effects end for you, and when the 10 minutes are up, you're temporarily immune to scholar's drops for 1 hour. If you use this effect three times in a single day, you become temporarily immune to scholar's drops entirely until you get a full night's rest.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "lozenge"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Scimitar",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>This one-handed curved blade is sharp on one side.</p>",
-    "rarity": "common",
-    "traits": [
-      "forceful",
-      "sweep"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Scizore of the Crab",
-    "price": {
-      "gp": 150
-    },
-    "description": "<p>A <em>scizore of the crab</em> is a <em>+1 scizore</em> that has the grapple trait in addition to its normal weapon traits.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike with this weapon, or you have a creature Grabbed with this weapon</p>\n<hr />\n<p><strong>Effect</strong> The target is grabbed until the end of your next turn. A grabbed creature can use the Escape action to get out of the Grab, and the Grab ends for a grabbed creature if you move away from it. This functions as the Grab creature ability.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> You have a creature grabbed with this weapon</p>\n<hr />\n<p><strong>Effect</strong> The crab claw animates and pinches open and shut, dealing slashing damage equal to the scizore of the crab's number of damage dice.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include a claw from a giant crab or similar creature.</p>",
-    "rarity": "common",
-    "traits": [
-      "disarm",
-      "grapple",
-      "parry"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Scizore",
-    "price": {
-      "sp": 9
-    },
-    "description": "<p>A scizore is a gauntlet or protective leather tube worn over the forearm and featuring a half-moon blade mounted to the end of the cap on a short pole.</p>",
-    "rarity": "common",
-    "traits": [
-      "disarm",
-      "parry"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Scope of Limning",
-    "price": {
-      "gp": 900
-    },
-    "description": "<p>The dwarven gunsmiths of Dongun Hold originally created these scopes to help them clear out vermin in underground areas. This scope captures the sound that echoes off a creature hit by the firearm and transforms it into light, illuminating the target for all to see.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (auditory, light, transmutation)</p>\n<hr />\n<p><strong>Effect</strong> If your next Strike from the weapon to which the scope is attached hits a creature, the sound of the impact transforms into light, causing the creature to glow until the end of your next turn. A visible creature can't be Concealed while they glow. If a creature is Invisible, they're concealed while glowing, rather than being undetected. Because the effect requires a solid impact, incorporeal creatures are unaffected unless the bullet can deal force damage or has the effects of the ghost touch property rune.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Scope of Truth",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>The <em>scope of truth</em> is a bit bigger than most to accommodate larger lenses, which have been magically prepared with tiny shards from crystal balls to reveal the truth. The scope grants you a +2 item bonus to Perception checks made to Seek in areas you can see through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> For the next 10 minutes, you can see things through the scope as they actually are. The GM rolls a secret counteract check with a [[/br +20 #counteract]]{+20} counteract modifier and a counteract rank of 7 against any illusion or transmutation in the area, but only for the purpose of determining whether you see through it, not to end the spell or effect. For instance, if the check succeeds against a polymorph spell, you can see the creature's true form, but you don't end the spell.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Scorpion Whip",
-    "price": {
-      "sp": 5
-    },
-    "description": "<p>A scorpion whip has a series of razor-sharp blades set along its tip. Unlike ordinary whips, a scorpion whip doesn't have the nonlethal trait, making it deadlier in combat but less effective when the wielder seeks to bring in foes alive.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "disarm",
-      "finesse",
-      "reach",
-      "trip"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Scour",
-    "price": {
-      "gp": 80
-    },
-    "description": "<p>This gritty powder improves responsiveness but suppresses thoughts and leaves you weakened. The saving throw for addiction to scour is DC 30, and the addiction is virulent.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested, Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Maximum Duration</strong> 6 hours</p>\n<p><strong>Stage 1</strong> Stupefied{Stupefied 2} and +2 item bonus to Reflex saves and Dexterity-based skill checks (1 hour)</p>\n<p><strong>Stage 2</strong> Fatigued (1 hour)</p>\n<p><strong>Stage 3</strong> Drained{Drained 2} and fatigued (1 hour)</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "drug",
-      "ingested",
-      "inhaled",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Scourge",
-    "price": {
-      "sp": 1
-    },
-    "description": "<p>A scourge-also known as a cat-o'-nine-tails-is a set of several knotted cords made from cotton or leather and attached to a handle. While most scourges are more suitable for torture than combat, the weapons used by the Order of the Scourge have metal barbs woven in to pierce clothing and armor. The scourge is a martial melee weapon.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "disarm",
-      "finesse",
-      "nonlethal",
-      "sweep"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Screech Shooter (Greater)",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>Built from the larynx of an owlbear, terror shrike, or similar animal that possesses a frightening screech or similar special ability, a <em>greater screech shooter</em> is a special <em>+2 greater striking harmona gun</em> designed to fire terrifying blasts of sound. A <em>screech shooter</em> deals sonic damage but can otherwise be used like a normal harmona gun.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, enchantment, fear, magical, mental)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The <em>screech shooter</em> unleashes a frightening wail. All creatures in a 40 foot emanation from you must attempt a DC 30 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is Frightened{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened{Frightened 3} and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the larynx of a creature with a frightening screech.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "kickback",
-      "magical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Screech Shooter (Major)",
-    "price": {
-      "gp": 15000
-    },
-    "description": "<p>Built from the larynx of an owlbear, terror shrike, or similar animal that possesses a frightening screech or similar special ability, a <em>major screech shooter</em> is a special <em>+2 greater striking harmona gun</em> designed to fire terrifying blasts of sound. A <em>screech shooter</em> deals sonic damage but can otherwise be used like a normal harmona gun.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, enchantment, fear, magical, mental)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The <em>screech shooter</em> unleashes a frightening wail. All creatures in a 50 foot emanation from you must attempt a DC 37 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is Frightened{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened{Frightened 3} and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the larynx of a creature with a frightening screech.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "kickback",
-      "magical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 9,
-    "name": "Screech Shooter",
-    "price": {
-      "gp": 700
-    },
-    "description": "<p>Built from the larynx of an owlbear, terror shrike, or similar animal that possesses a frightening screech or similar special ability, a <em>screech shooter</em> is a special <em>+1 striking harmona gun</em> designed to fire terrifying blasts of sound. A <em>screech shooter</em> deals sonic damage but can otherwise be used like a normal harmona gun.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (emotion, enchantment, fear, magical, mental)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The <em>screech shooter</em> unleashes a frightening wail. All creatures in a 30 foot emanation from you must attempt a DC 25 will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Frightened{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is Frightened{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is Frightened{Frightened 3} and Fleeing for 1 round.</p>\n<hr />\n<p><strong>Craft Requirements</strong> The initial raw materials must include the larynx of a creature with a frightening screech.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "kickback",
-      "magical"
-    ],
-    "usage": "Held In Two Hands",
     "worn": null
   }
 ]

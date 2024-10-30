@@ -1,5 +1,38 @@
 [
   {
+    "level": 3,
+    "name": "Covenant Tea",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact or 10 minutes (concentrate, Interact)</p>\n<hr />\n<p>This green tea is often steeped in a pot with a dried persimmon. Traditionally, all participants in a complex discussion start their conversation with a tea ceremony involving covenant tea, with each member of the group enjoying the covenant of the shared beverage. Some have been known to use trickery and sleight of hand to ensure only those whose goals align with the tea preparer are served covenant tea, while others in the group are served non-magical (but still delicious) green tea, thus subtly tipping the balance in discussion toward those the tea server favors. This practice has resulted in some regions referring to covenant tea as \"trickery tea.\" Regardless of what you prefer to call the tea, when you drink it, you gain a +1 item bonus to Diplomacy checks and to your Perception DC for 10 minutes.</p>\n<p></p>\n<hr />\n<p><strong>Tea Ceremony</strong> The duration increases to 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "potion",
+      "tea"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 17,
+    "name": "Cowl of Keys",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This simple, tattered cloak is a faded green and features small, stylized keys sewn throughout its length. While wearing the cloak, you fade into the shadows and gain a +3 item bonus to Stealth checks. When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Effect</strong> You brush your hand against the cloak and your fingers transform into picks, tension wrenches, skeleton keys, and any other tools, providing you with a full set of Thieves' Toolkit{Thieves' Tools}. This transformation doesn't otherwise hamper the normal use of your fingers or hands. These tools never break when you critically fail your check to Pick a Lock. You can Activate the cloak again to revert your fingers to normal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place your hand against a wall, floor, or ceiling. You create a magical doorway within the surface that a creature can move through, as if the door had always been there. The doorway can penetrate up to 10 feet of material; particularly thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. You can use an Interact action on the door to remove it from the surface and return it to its previous shape.</p>",
+    "rarity": "rare",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
+  },
+  {
     "level": 9,
     "name": "Coyote Cloak (Greater)",
     "price": {
@@ -943,6 +976,21 @@
     "traits": [
       "cursed",
       "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Cursed Immaculate Instrument",
+    "price": {},
+    "description": "<p>This Immaculate Instrument has been cursed by the sublime breath it was taken from, causing it to warp, rust, or tarnish, though the holder of the instrument cannot perceive this and rationalizes away any attempt to explain the instrument's obviously cursed nature. Whenever the <em>cursed immaculate instrument</em> is used to produce a work, the holder must succeed on a @Check[flat|dc:16] or the work fails, leaving the holder frustrated and raising the DC of subsequent flat checks by 1. When the DC reaches 20, the work fails as normal, but the holder continues to attempt it fruitlessly to the exclusion of all other activities, including eating, drinking, and sleep, until they expire or the curse is broken.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "cursed",
+      "divine",
+      "mythic"
     ],
     "usage": "Held In One Hand",
     "worn": null
@@ -3245,6 +3293,20 @@
     ],
     "usage": "Worn Gloves",
     "worn": "Gloves"
+  },
+  {
+    "level": 24,
+    "name": "Dragon-Lotus Drum",
+    "price": {},
+    "description": "<p>This traditional barrel drum has tacked heads in the old military style of Hwanggot and is painted with a many-colored imperial dragon twined around white and pink lotuses, a symbol of long memory. The dragon holds a scroll in its two front claws that bears the inscription \"So that the memory of war may be truthfully recalled.\"</p>\n<p>A creature who activates the drum is bound to join its army after death. Once their spirit has fought in a hundred and one battles, they are freed to face whatever fate their soul has earned. However, until this duty is discharged, the dead creature cannot be resurrected, nor can their soul be captured by any other means.</p><hr /><p><strong>Activate—Summon Dragon-Lotus Army</strong> <span class=\"action-glyph\">3</span> (concentrate, incarnate, manipulate)</p>\n<p><strong>Frequency</strong> once every 20 years</p>\n<p><strong>Effect</strong> Spend a Mythic Point; beating the drum summons a spectral army to an area you designate within 500 feet. The army takes its Arrive action when you finish playing. At the end of your next turn, the army Strides up to 60 feet and then takes its Depart action. The Dragon-Lotus Army follows your orders and attempts to not harm you and your allies when possible. The spectral force isn't fully a creature. It can't take any other actions, nor can it be targeted or harmed by Strikes, spells, or other effects unless they would be able to target or end a spell effect (such as Dispel Magic). The army is Gargantuan, but it doesn't block movement.</p>\n<p><strong>Arrive</strong> (emotion, fear, mental, sonic) <em>The Sound of Thunder</em> The beating of the drum amplifies to become like the stomping of hundreds of booted feet. The Dragon- Lotus Army appears in perfect formation and gives a brief, staccato battle cry. All enemies in a @Template[type:emanation|distance:60] around the army take @Damage[16d10[sonic]|options:area-damage] damage (DC 48 fortitude save); each creature who fails its save is also Frightened{Frightened 3} (Frightened{Frightened 4} on a critical failure).</p>\n<p><strong>Depart</strong> <em>Devastating Charge</em> The army readies their motley collection of weapons and Strides forward up to 100 feet in a straight line. Each creature it moves through takes 20d8 @Damage[20d8[bludgeoning]|options:area-damage]{bludgeoning}, @Damage[20d8[piercing]|options:area-damage]{piercing}, or @Damage[20d8[slashing]|options:area-damage]{slashing} damage (whichever would be most harmful at the GM's discretion) with a DC 48 reflex save. A creature who critically fails its save is also knocked Prone.</p><hr /><p><strong>Destruction</strong> If the <em>Dragon-Lotus Drum</em> is captured by an enemy of Hwanggot (such as a warring rival nation) and then played continually for 1 week while singing anthems that disparage Hwanggot and its leaders, the drum falls to pieces and the souls bound to it are obliterated.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical",
+      "mythic"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
   },
   {
     "level": 0,
@@ -7657,65 +7719,6 @@
       "twin"
     ],
     "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Exsanguinating Ammunition (Greater)",
-    "price": {
-      "gp": 80
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 3 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 12,
-    "name": "Exsanguinating Ammunition (Major)",
-    "price": {
-      "gp": 360
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 5 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 4,
-    "name": "Exsanguinating Ammunition",
-    "price": {
-      "gp": 15
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 1 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Extendable Pincer",
-    "price": {
-      "gp": 2
-    },
-    "description": "<p>This extendable rod features a pincer on one end and clamped handle on the other. By squeezing the handle, the pincer opens or closes. As an Interact action, you can extend or retract the rod by 5 feet to one of three settings, allowing you to Interact to pick up an object with the pincer either within your own space, in an adjacent space, or exactly 10 feet away.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "clockwork"
-    ],
-    "usage": "Held In Two Hands",
     "worn": null
   }
 ]

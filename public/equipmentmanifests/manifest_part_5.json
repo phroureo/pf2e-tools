@@ -1,5 +1,153 @@
 [
   {
+    "level": 0,
+    "name": "Harness",
+    "price": {
+      "sp": 8
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
+    "level": 0,
+    "name": "Harnessed Shield",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight with jousting weapons in case they're forced into combat without their mounts. Balancing the weapon within the shield's hold is somewhat awkward, and longer weapons, like lances, need to be held closer to the body than usual for proper support.</p>",
+    "rarity": "common",
+    "traits": [
+      "harnessed"
+    ],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 4,
+    "name": "Harpoon Bolt",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<hr />\n<p>This iron spike can be fitted into the barrel of a two-handed firearm that doesn't have the scatter property with an Interact action. The spike is attached to a 50-foot-long coil of rope held in a simple spool that can be attached to a weapon's barrel. The weight and awkward balance of the bolt and its spool reduce the range of the weapon by 10 feet when fired. A creature hit by a harpoon bolt takes normal damage from the shot and must succeed at a @Check[fortitude|dc:18] save. On a failure, the harpoon bolt becomes lodged in its body.</p>\n<p>Once a harpoon bolt is lodged, a creature can remove the harpoon bolt with a DC 18 check to Escape or Force Open, but on a failure, the creature takes 1d4 piercing damage. As long as the harpoon bolt remains lodged, the creature can't move more than 50 feet away from you. You can attempt to Trip a creature by tugging on the rope attached to the harpoon bolt, even if it isn't within your reach, but if you fail this attempt, the bolt rips free, causing 1d4 piercing damage to the target but releasing it from the bolt. If you reload, drop, or fire the firearm again, the creature is no longer limited in its movement. Once a harpoon bolt is removed from a creature, the bolt, its rope, and the spool all decay away, consumed by the same magic that empowers the unusual ammunition to function in the first place.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harpoon",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Often used for hunting exceptionally large aquatic creatures, the harpoon is similar to a javelin but features a barbed head and rope tether so it (or the corpse it's attached to) can be easily retrieved.</p>",
+    "rarity": "common",
+    "traits": [
+      "tethered",
+      "thrown"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harrow Carrying Case",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This elegant wooden case contains a recessed section to hold a simple or common harrow deck and a harrow mat. The case features a watertight seal to protect its contents from the elements and everyday wear and tear.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harrow Deck (Common)",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Common harrow decks are made from higher-quality paper and feature illustrations-harrow readers typically use these decks.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harrow Deck (Fine)",
+    "price": {
+      "gp": 11
+    },
+    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Fine harrow decks are made from a variety of materials, such as high-quality paper, woods, bone, ivory, or metal.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harrow Deck (Simple)",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Simple harrow decks are made from low-quality paper and typically have only an icon and a number to signify the suit and alignment. These simple decks are mostly used for games of chance, as the actual image and significance of the cards are irrelevant for such games.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Harrow Mat",
+    "price": {
+      "gp": 8
+    },
+    "description": "<p>This leather mat bears intricate designs and symbols embossed into them to enhance the mystique of a harrow reading. The mat provides a +1 item bonus to Deception, Diplomacy, and relevant Lore checks (such as Fortune-Telling Lore or Harrow Lore) to convince a creature that a harrow reading was accurate.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 8,
+    "name": "Harrow Spellcards",
+    "price": {
+      "gp": 475
+    },
+    "description": "<p>Crafted of sturdy paper, each card of this Harrow Deck (Common){Harrow Deck} showcases a beautiful watercolor illustration with space to inscribe a spell below. When shuffled, its cards seem to fly between one another of their own accord.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your last action was to cast a divination spell prepared from this grimoire</p>\n<hr />\n<p><strong>Effect</strong> You draw forth a card to gain insight into future challenges you'll face. Draw a card from a harrow deck or roll 1d6:</p>\n<ol>\n<li>hammers (Athletics)</li>\n<li>keys (Acrobatics)</li>\n<li>shields (Survival)</li>\n<li>books (any Recall Knowledge)</li>\n<li>stars (Religion)</li>\n<li>crowns (Diplomacy)</li>\n</ol>\n<p>The next time you attempt a check of the same type as your result, roll twice and take the better result, as the spirits of the harrow guide your actions. If not used by your next daily preparations, this benefit disappears.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "grimoire",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 7,
+    "name": "Hat of Disagreeable Disguise (Greater)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This elegant hat appears to be and functions as a <em>Masquerade Scarf{Hat of Disguise}</em>. When you invest the hat, it fuses to you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Like a hat of disguise, the hat casts a 2nd-rank Illusory Disguise spell on you. However, the illusion disadvantages you based on your intent, making you, for example, appear to be a suspicious ruffian if you're trying to sneak past guards or lending you the seeming of a pauper if you're trying to impress a shallow aristocrat. You and those you consider to be allies must succeed at a @Check[will|dc:23] save or you perceive the illusion as you intended it, though others won't. Evidence to the contrary allows you to attempt to disbelieve the false version of the illusion. You can't Dismiss the spell.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "illusion",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Headwear",
+    "worn": "Headwear"
+  },
+  {
     "level": 2,
     "name": "Hat of Disagreeable Disguise",
     "price": {
@@ -1526,6 +1674,19 @@
     "worn": null
   },
   {
+    "level": 0,
+    "name": "Horn of Plenty",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.gjZXHLjezR0mkMnc inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine",
+      "extradimensional"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
     "level": 5,
     "name": "Horn of Rust",
     "price": {},
@@ -2119,6 +2280,20 @@
     ],
     "usage": "Worn",
     "worn": "Worn"
+  },
+  {
+    "level": 12,
+    "name": "Immaculate Instrument",
+    "price": {},
+    "description": "<p>This object, made of silver light, takes the form of a small musical instrument, prop, or other tool associated with a specific art form. The holder of the <em>immaculate instrument</em> never suffers from creative blocks of any kind and their work is always insightful and skilled. A character who uses the <em>immaculate instrument</em> to Perform or Craft can attempt the check at mythic proficiency once per month, and as long as they possess their <em>immaculate instrument</em>, they treat any critical failures with these skills as failures.</p><hr /><p><strong>Destruction</strong> If the holder uses the <em>immaculate instrument</em> to intentionally produce a work that is not just mediocre or crass, but one that devalues the public opinion of the art form itself in a showing of at least 100 spectators, the instrument fades away in shame.</p>",
+    "rarity": "rare",
+    "traits": [
+      "artifact",
+      "divine",
+      "mythic"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
   },
   {
     "level": 10,
@@ -4400,6 +4575,21 @@
     "worn": null
   },
   {
+    "level": 0,
+    "name": "Kestros",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>The kestros is a type of sling that fires special ammunition with wing-shaped fins and a pointed end. The thongs of the sling are of uneven length, one shorter and one several inches longer, around an open loop to cradle the ammunition as the sling is spun.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "concussive",
+      "propulsive"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
     "level": 9,
     "name": "Key to the Stomach",
     "price": {},
@@ -4472,6 +4662,20 @@
     ],
     "usage": "Worn",
     "worn": "Worn"
+  },
+  {
+    "level": 0,
+    "name": "Kilted Breastplate",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and featuring a skirt of leather pleats reinforced with metal studs to protect the upper legs.</p>",
+    "rarity": "common",
+    "traits": [
+      "flexible"
+    ],
+    "usage": "",
+    "worn": null
   },
   {
     "level": 3,
@@ -5189,9 +5393,9 @@
     "level": 0,
     "name": "Lattice Armor",
     "price": {
-      "gp": 9
+      "gp": 6
     },
-    "description": "<p>Fine metal cables woven into latticework patterns form this armor. This armor disperses blows much like rings of chain mail, but is much tighter in construction, making it quieter.</p>",
+    "description": "<p>Also known as \"varman\" in some parts of the Impossible Lands, this armor is made from fine metal cables woven into latticework patterns with plated segments to protect the head, neck, and shoulders. This armor disperses blows much like rings of chain mail but is much tighter in construction, making it quieter.</p>",
     "rarity": "common",
     "traits": [],
     "usage": "",
@@ -6921,6 +7125,22 @@
     "worn": null
   },
   {
+    "level": 0,
+    "name": "Macuahuitl",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>This wooden club is embedded with razor-sharp blades, typically made of obsidian. The blades are inserted vertically around two sides of the weapon, leaving a central bludgeoning surface available for bashing.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing",
+      "tearing",
+      "versatile-b"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
     "level": 5,
     "name": "Mad Mammoth's Juke",
     "price": {
@@ -7340,236 +7560,5 @@
     ],
     "usage": "Other",
     "worn": null
-  },
-  {
-    "level": 12,
-    "name": "Magnetic Shot (Moderate)",
-    "price": {
-      "gp": 360
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +1 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals three additional weapon damage dice and is deadly d10.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Other",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Magnetic Suit (Greater)",
-    "price": {
-      "gp": 200
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -2 status penalty to your AC against attacks made by metal weapons, while allies within a 15 foot emanation gain a +2 status bonus to their AC. If set to repel, you gain a +2 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +2 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -2 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +2 status bonus to Athletics checks to Shove metal creatures, but you take a -2 status penalty to Climb metal objects and Grapple metal creatures.</p>",
-    "rarity": "common",
-    "traits": [
-      "aura",
-      "consumable"
-    ],
-    "usage": "Worn",
-    "worn": "Worn"
-  },
-  {
-    "level": 16,
-    "name": "Magnetic Suit (Major)",
-    "price": {
-      "gp": 2000
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -3 status penalty to your AC against attacks made by metal weapons, while allies within a 20 foot emanation gain a +3 status bonus to their AC. If set to repel, you gain a +3 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +3 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -3 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +3 status bonus to Athletics checks to Shove metal creatures, but you take a -3 status penalty to Climb metal objects and Grapple metal creatures.</p>",
-    "rarity": "common",
-    "traits": [
-      "aura",
-      "consumable"
-    ],
-    "usage": "Worn",
-    "worn": "Worn"
-  },
-  {
-    "level": 4,
-    "name": "Magnetic Suit",
-    "price": {
-      "gp": 20
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -1 status penalty to your AC against attacks made by metal weapons, while allies within a 10 foot emanation gain a +1 status bonus to their AC. If set to repel, you gain a +1 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +1 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -1 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +1 status bonus to Athletics checks to Shove metal creatures, but you take a -1 status penalty to Climb metal objects and Grapple metal creatures.</p>",
-    "rarity": "common",
-    "traits": [
-      "aura",
-      "consumable"
-    ],
-    "usage": "Worn",
-    "worn": "Worn"
-  },
-  {
-    "level": 17,
-    "name": "Magnetite Scope (Greater)",
-    "price": {
-      "gp": 16000
-    },
-    "description": "<p>More of a field projector than a scope, this small cylinder of magnetite has been enchanted to spread and accelerate the shrapnel of a scatter weapon further than the weapon's natural capabilities. Furthermore, some of the floating magnetite inside the scope's structure can help you when attempting to determine the your allies' locations. The magnetite scope grants you a +3 item bonus to Survival checks to Sense Direction when using the scope to assist you in navigating. This scope can only be attached to firearms with the scatter trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The next Strike you make this round with the gun to which the scope is attached has its scatter radius increased by 10 feet.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 9,
-    "name": "Magnetite Scope",
-    "price": {
-      "gp": 800
-    },
-    "description": "<p>More of a field projector than a scope, this small cylinder of magnetite has been enchanted to spread and accelerate the shrapnel of a scatter weapon further than the weapon's natural capabilities. Furthermore, some of the floating magnetite inside the scope's structure can help you when attempting to determine the your allies' locations. The magnetite scope grants you a +2 item bonus to Survival checks to Sense Direction when using the scope to assist you in navigating. This scope can only be attached to firearms with the scatter trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The next Strike you make this round with the gun to which the scope is attached has its scatter radius increased by 5 feet.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Magnetizing",
-    "price": {
-      "gp": 900
-    },
-    "description": "<p>This rune alters the magnetic polarity of your armor, making other metal items drawn to it ever so slightly. You can amplify the magnetic power of the armor to keep another creature from getting away from you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> A creature adjacent to you is made of metal or wearing metal armor</p>\n<hr />\n<p><strong>Effect</strong> You magnetize your armor. If you or the target attempt to move away from one another, treat each square as difficult terrain. This doesn't affect movement that keeps you the same distance from one another, so you could still Step if you remained adjacent to the target. This effect ends once either of you is no longer adjacent to the other at the end of an action.</p>\n<p>This Activation might work on some creatures partially made of metal, such as those with metal scales, as determined by the GM. Likewise, the GM might determine some metal creatures are non-magnetic, depending on the metal they're made of.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Etched Onto Metal Armor",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Magnifying Glass of Elucidation",
-    "price": {
-      "gp": 125
-    },
-    "description": "<p>These well-aged wooden magnifying glasses are engraved with a variety of runes. Each is imbued with a specific language. When you use a magnifying glass to examine writing of its imbued language, it translates the writing into a language you understand. For example, an elf who speaks only Elven using a <em>magnifying glass of elucidation</em> imbued with Dwarven would see Dwarven writing as Elven when observed through the magnifying glass. The magnifying glass only provides direct translations and doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You scan up to two pages of writing with the <em>magnifying glass of elucidation</em>, imbuing the magnifying glass with the information you scanned. You can use a separate 3-action activity to have the magnifying glass reproduce the imbued information onto blank paper exactly as it appeared when you Activated the magnifying glass. The reproduction is a direct copy of the pages but doesn't imbue the reproduction with any magical effects or other special effects. As such, you can copy the writing of a scroll, for example, but it will only be mundane writing and not have any magical effect. The magnifying glass can only hold one instance of information at a given time; Activating the magnifying glass a second time or reproducing the information clears out the magnifying glass's information.</p>\n<p><strong>Craft Requirements</strong> You know the language imbued in the magnifying glass.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Magnifying Glass",
-    "price": {
-      "gp": 40
-    },
-    "description": "<p>This quality handheld lens gives you a +1 item bonus to Perception checks to notice minute details of documents, fabric, and the like.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 9,
-    "name": "Magnifying Scope (Greater)",
-    "price": {
-      "gp": 800
-    },
-    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +2 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 10 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Magnifying Scope (Major)",
-    "price": {
-      "gp": 16000
-    },
-    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +3 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 20 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Magnifying Scope",
-    "price": {
-      "gp": 70
-    },
-    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +1 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 5 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Mail of Luck",
-    "price": {
-      "gp": 2600
-    },
-    "description": "<p>This suit of +2 resilient splint mail has a large, green gemstone inset in a prominent location.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are hit or critically hit with an attack, but damage hasn't been rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You force the attacker to reroll the attack roll and use the worse result. This effect has the misfortune trait.</p>\n<p>Activating the armor causes the gemstone to turn gray and become inert. You cannot activate the armor again until the stone returns to its original green color. The gem turns green again after 1 week or when a significant foe critically succeeds at an attack roll targeting you. (If an enemy rolls a critical success at an attack against you and you force the attacker to reroll that critical success, that critical success does not recharge the mail of luck.) Even if the armor's power returns before a week has elapsed, it can't be activated more than once per day.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Main-Gauche",
-    "price": {
-      "sp": 5
-    },
-    "description": "<p>This parrying dagger features a robust guard to protect the wielder's hand.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "disarm",
-      "finesse",
-      "parry",
-      "versatile-s"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Major Painting by a Legend",
-    "price": {
-      "gp": 1000
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Majordomo Torc",
-    "price": {
-      "gp": 200
-    },
-    "description": "<p><strong>Perception</strong> [[/r 1d20+13]]{+13}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and 1 imparted language)</p>\n<p><strong>Skills</strong> Diplomacy [[/r 1d20+13]]{+13}, Nobility Lore [[/r 1d20+13]]{+13}, Society [[/r 1d20+13]]{+13}</p>\n<p><strong>Int</strong> +3 <strong>Wis</strong> +3, <strong>Cha</strong> +3</p>\n<p><strong>Will</strong> [[/r 1d20+14]]{+14}</p>\n<hr />\n<p>Forged in platinum, a majordomo torc is engraved with heraldic insignias along with one language's alphabet, much like a choker of elocution. You gain a +1 item bonus to Society checks and the ability to understand, speak, and write the torc's language. Your excellent elocution reduces the DC of the flat check to perform an auditory action while Deafened from 5 to 3.</p>\n<p>Upon being invested, the torc appoints itself your majordomo and, given the chance, takes over coordinating your social calendar, engagements, and wardrobe. A majordomo torc has a prim, fussy disposition, and although it defers to you, it can grow sardonic if you frequently ignore its advice. The torc has the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The majordomo torc casts Befitting Attire on you, usually to your specifications. However the torc can also choose the appearance of the illusion for you.</p>",
-    "rarity": "rare",
-    "traits": [
-      "intelligent",
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn"
   }
 ]

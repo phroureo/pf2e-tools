@@ -1,5 +1,236 @@
 [
   {
+    "level": 12,
+    "name": "Magnetic Shot (Moderate)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +1 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals three additional weapon damage dice and is deadly d10.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Other",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Magnetic Suit (Greater)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -2 status penalty to your AC against attacks made by metal weapons, while allies within a 15 foot emanation gain a +2 status bonus to their AC. If set to repel, you gain a +2 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +2 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -2 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +2 status bonus to Athletics checks to Shove metal creatures, but you take a -2 status penalty to Climb metal objects and Grapple metal creatures.</p>",
+    "rarity": "common",
+    "traits": [
+      "aura",
+      "consumable"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
+    "level": 16,
+    "name": "Magnetic Suit (Major)",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -3 status penalty to your AC against attacks made by metal weapons, while allies within a 20 foot emanation gain a +3 status bonus to their AC. If set to repel, you gain a +3 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +3 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -3 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +3 status bonus to Athletics checks to Shove metal creatures, but you take a -3 status penalty to Climb metal objects and Grapple metal creatures.</p>",
+    "rarity": "common",
+    "traits": [
+      "aura",
+      "consumable"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
+    "level": 4,
+    "name": "Magnetic Suit",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>This magnetized suit is strapped to your body over your armor or clothes. When you Activate it, you must choose whether to set it to attract or repel. The effects last 10 minutes.</p>\n<p>While set to attract, you take a -1 status penalty to your AC against attacks made by metal weapons, while allies within a 10 foot emanation gain a +1 status bonus to their AC. If set to repel, you gain a +1 status bonus to AC against attacks made with metal weapons. While attracting metal, you gain a +1 status bonus to Athletics checks to Climb metal objects and Grapple metal creatures and a -1 status penalty to Athletics checks to Shove metal creatures. While repelling metal, you gain a +1 status bonus to Athletics checks to Shove metal creatures, but you take a -1 status penalty to Climb metal objects and Grapple metal creatures.</p>",
+    "rarity": "common",
+    "traits": [
+      "aura",
+      "consumable"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
+    "level": 17,
+    "name": "Magnetite Scope (Greater)",
+    "price": {
+      "gp": 16000
+    },
+    "description": "<p>More of a field projector than a scope, this small cylinder of magnetite has been enchanted to spread and accelerate the shrapnel of a scatter weapon further than the weapon's natural capabilities. Furthermore, some of the floating magnetite inside the scope's structure can help you when attempting to determine the your allies' locations. The magnetite scope grants you a +3 item bonus to Survival checks to Sense Direction when using the scope to assist you in navigating. This scope can only be attached to firearms with the scatter trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The next Strike you make this round with the gun to which the scope is attached has its scatter radius increased by 10 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
+  },
+  {
+    "level": 9,
+    "name": "Magnetite Scope",
+    "price": {
+      "gp": 800
+    },
+    "description": "<p>More of a field projector than a scope, this small cylinder of magnetite has been enchanted to spread and accelerate the shrapnel of a scatter weapon further than the weapon's natural capabilities. Furthermore, some of the floating magnetite inside the scope's structure can help you when attempting to determine the your allies' locations. The magnetite scope grants you a +2 item bonus to Survival checks to Sense Direction when using the scope to assist you in navigating. This scope can only be attached to firearms with the scatter trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> The next Strike you make this round with the gun to which the scope is attached has its scatter radius increased by 5 feet.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Attached To Firearm Scope",
+    "worn": null
+  },
+  {
+    "level": 10,
+    "name": "Magnetizing",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>This rune alters the magnetic polarity of your armor, making other metal items drawn to it ever so slightly. You can amplify the magnetic power of the armor to keep another creature from getting away from you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> A creature adjacent to you is made of metal or wearing metal armor</p>\n<hr />\n<p><strong>Effect</strong> You magnetize your armor. If you or the target attempt to move away from one another, treat each square as difficult terrain. This doesn't affect movement that keeps you the same distance from one another, so you could still Step if you remained adjacent to the target. This effect ends once either of you is no longer adjacent to the other at the end of an action.</p>\n<p>This Activation might work on some creatures partially made of metal, such as those with metal scales, as determined by the GM. Likewise, the GM might determine some metal creatures are non-magnetic, depending on the metal they're made of.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Etched Onto Metal Armor",
+    "worn": null
+  },
+  {
+    "level": 5,
+    "name": "Magnifying Glass of Elucidation",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p>These well-aged wooden magnifying glasses are engraved with a variety of runes. Each is imbued with a specific language. When you use a magnifying glass to examine writing of its imbued language, it translates the writing into a language you understand. For example, an elf who speaks only Elven using a <em>magnifying glass of elucidation</em> imbued with Dwarven would see Dwarven writing as Elven when observed through the magnifying glass. The magnifying glass only provides direct translations and doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You scan up to two pages of writing with the <em>magnifying glass of elucidation</em>, imbuing the magnifying glass with the information you scanned. You can use a separate 3-action activity to have the magnifying glass reproduce the imbued information onto blank paper exactly as it appeared when you Activated the magnifying glass. The reproduction is a direct copy of the pages but doesn't imbue the reproduction with any magical effects or other special effects. As such, you can copy the writing of a scroll, for example, but it will only be mundane writing and not have any magical effect. The magnifying glass can only hold one instance of information at a given time; Activating the magnifying glass a second time or reproducing the information clears out the magnifying glass's information.</p>\n<p><strong>Craft Requirements</strong> You know the language imbued in the magnifying glass.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Magnifying Glass",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p>This quality handheld lens gives you a +1 item bonus to Perception checks to notice minute details of documents, fabric, and the like.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 9,
+    "name": "Magnifying Scope (Greater)",
+    "price": {
+      "gp": 800
+    },
+    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +2 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 10 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
+  },
+  {
+    "level": 17,
+    "name": "Magnifying Scope (Major)",
+    "price": {
+      "gp": 16000
+    },
+    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +3 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 20 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
+  },
+  {
+    "level": 3,
+    "name": "Magnifying Scope",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p>These scopes use magically enhanced lenses to extend the range of your weapon and help spot distant foes. The scope grants you a +1 item bonus to visual Perception checks to Seek creatures through the scope.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> While gazing through the scope, you zoom in on your targets to make it easier to hit them at a distance. You increase the range increment of the weapon to which the scope is attached by 5 feet until the beginning of your next turn or until you're no longer wielding the weapon, whichever comes first.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "worn": null
+  },
+  {
+    "level": 13,
+    "name": "Mail of Luck",
+    "price": {
+      "gp": 2600
+    },
+    "description": "<p>This suit of +2 resilient splint mail has a large, green gemstone inset in a prominent location.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are hit or critically hit with an attack, but damage hasn't been rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You force the attacker to reroll the attack roll and use the worse result. This effect has the misfortune trait.</p>\n<p>Activating the armor causes the gemstone to turn gray and become inert. You cannot activate the armor again until the stone returns to its original green color. The gem turns green again after 1 week or when a significant foe critically succeeds at an attack roll targeting you. (If an enemy rolls a critical success at an attack against you and you force the attacker to reroll that critical success, that critical success does not recharge the mail of luck.) Even if the armor's power returns before a week has elapsed, it can't be activated more than once per day.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Main-Gauche",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>This parrying dagger features a robust guard to protect the wielder's hand.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "disarm",
+      "finesse",
+      "parry",
+      "versatile-s"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Major Painting by a Legend",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null
+  },
+  {
+    "level": 6,
+    "name": "Majordomo Torc",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+13]]{+13}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and 1 imparted language)</p>\n<p><strong>Skills</strong> Diplomacy [[/r 1d20+13]]{+13}, Nobility Lore [[/r 1d20+13]]{+13}, Society [[/r 1d20+13]]{+13}</p>\n<p><strong>Int</strong> +3 <strong>Wis</strong> +3, <strong>Cha</strong> +3</p>\n<p><strong>Will</strong> [[/r 1d20+14]]{+14}</p>\n<hr />\n<p>Forged in platinum, a majordomo torc is engraved with heraldic insignias along with one language's alphabet, much like a choker of elocution. You gain a +1 item bonus to Society checks and the ability to understand, speak, and write the torc's language. Your excellent elocution reduces the DC of the flat check to perform an auditory action while Deafened from 5 to 3.</p>\n<p>Upon being invested, the torc appoints itself your majordomo and, given the chance, takes over coordinating your social calendar, engagements, and wardrobe. A majordomo torc has a prim, fussy disposition, and although it defers to you, it can grow sardonic if you frequently ignore its advice. The torc has the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The majordomo torc casts Befitting Attire on you, usually to your specifications. However the torc can also choose the appearance of the illusion for you.</p>",
+    "rarity": "rare",
+    "traits": [
+      "intelligent",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn"
+  },
+  {
     "level": 0,
     "name": "Malachite",
     "price": {
@@ -2758,6 +2989,66 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "",
+    "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Mythic Armor Potency",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This armor is etched with a mythical ward providing unparalleled defense. Increase the armor's item bonus to AC by 4, and the armor can be etched with four property runes.</p><hr /><p><strong>Activate—Survive Devastation</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Trigger</strong> An enemy critically succeeds against you with a weapon or unarmed Strike</p>\n<p><strong>Effect</strong> Spend a Mythic Point; if the triggering Strike was made by a mythic creature, it's a normal success instead. If it was made by a non-mythic creature, it's a failure.</p><hr /><p><strong>Craft Requirements</strong> <em>Mythic armor potency</em> runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "mythic"
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Mythic Resilient",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p><em>Mythic resilient</em> runes imbue armor with unrivaled protection from a wide array of effects. The armor grants a +4 item bonus to saving throws to the wearer.</p><hr /><p><strong>Activate—Defy Obliteration</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Trigger</strong> You critically fail a saving throw</p>\n<p><strong>Effect</strong> Spend a Mythic Point; if the triggering save was made due to an effect created by a mythic monster, hazard, or other effect, it's a normal failure instead. If the save was made due to an effect that wasn't mythic, it becomes a success.</p><hr /><p><strong>Craft Requirements</strong> <em>Mythic resilient</em> runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "mythic"
+    ],
+    "usage": "Etched Onto Armor",
+    "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Mythic Striking",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This weapon is filled with unmatched destructive power. The weapon deals five weapon damage dice.</p><hr /><p><strong>Activate—Unstoppable Devastation</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Trigger</strong> You roll the weapon damage dice for a Strike with this weapon and do not like the result</p>\n<p><strong>Effect</strong> Spend a Mythic Point and reroll your weapon damage dice, taking the higher of the two results.</p><hr /><p><strong>Craft Requirements</strong> <em>Mythic striking</em> runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "mythic"
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Mythic Weapon Potency",
+    "price": {
+      "gp": 70000
+    },
+    "description": "<p>This weapon strikes with peerless accuracy to pierce the defenses of the mightiest monstrosities. Attack rolls with this weapon gain a +4 item bonus, and the weapon can be etched with four property runes.</p><hr /><p><strong>Activate—Unerring Blow</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Trigger</strong> You roll an attack roll to Strike with this weapon and receive a critical failure</p>\n<p><strong>Effect</strong> Spend a Mythic Point and reroll your attack roll with mythic proficiency, taking the higher of the two results.</p><hr /><p><strong>Craft Requirements</strong> <em>Mythic weapon</em> potency runes can only be crafted, etched, or transferred by a mythic character capable of making a Crafting check at mythic proficiency (such as by having the Artisan's Calling).</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical",
+      "mythic"
+    ],
+    "usage": "Etched Onto A Weapon",
     "worn": null
   },
   {
@@ -5533,6 +5824,20 @@
   },
   {
     "level": 0,
+    "name": "Palstave",
+    "price": {
+      "sp": 4
+    },
+    "description": "<p>This simple axe is created by inserting a weighted metal wedge into a curved wooden handle with a Y-shaped groove at the top, and then binding the splitting wedge in place with leather thongs.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "sweep"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
     "name": "Panabas",
     "price": {
       "gp": 1
@@ -5924,6 +6229,18 @@
     "traits": [],
     "usage": "Worn Headwear",
     "worn": "Headwear"
+  },
+  {
+    "level": 0,
+    "name": "Pelt of the Beast",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.Wy6vSjm588txUFFv inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine"
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 9,
@@ -7351,326 +7668,5 @@
     ],
     "usage": "Held In One Hand",
     "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Poisoner's Staff (Greater)",
-    "price": {
-      "gp": 450
-    },
-    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 10.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n<li><strong>2nd</strong> Enhance Victuals, Imp Sting</li>\n<li><strong>3rd</strong> Cleanse Affliction, Stinking Cloud</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 14,
-    "name": "Poisoner's Staff (Major)",
-    "price": {
-      "gp": 4000
-    },
-    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 5.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n<li><strong>2nd</strong> Enhance Victuals, Imp Sting</li>\n<li><strong>3rd</strong> Cleanse Affliction, Stinking Cloud</li>\n<li><strong>4th</strong> Swarming Wasp Stings</li>\n<li><strong>5th</strong> Toxic Cloud</li>\n<li><strong>6th</strong> Purple Worm Sting</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 4,
-    "name": "Poisoner's Staff",
-    "price": {
-      "gp": 90
-    },
-    "description": "<p>This gnarled staff is covered with thorns and coated with a glistening lacquer that acts as a minor irritant. While holding the staff, you aren't affected by its coating or thorns, and you reduce the DC of your flat checks to overcome persistent poison damage from 15 to 13.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<hr />\n<ul>\n<li><strong>Cantrips</strong> Guidance</li>\n<li><strong>1st</strong> Detect Poison, Spider Sting</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 6,
-    "name": "Poisonous Cloak Type I",
-    "price": {},
-    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> giant scorpion venom</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Poisonous Cloak Type II",
-    "price": {},
-    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> wolfsbane</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 13,
-    "name": "Poisonous Cloak Type III",
-    "price": {},
-    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> purple worm venom</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 17,
-    "name": "Poisonous Cloak Type IV",
-    "price": {},
-    "description": "<p>This innocuous-looking cloak is associated with a type of poison, set at the cloak's creation. It often appears as a clandestine cloak or a cloak of the bat to the unaware. When you invest this cloak, you lose any resistance to poison damage, and anytime you take piercing or slashing damage in combat, you are exposed to the type of poison associated with the poisonous cloak with no onset, even if it's not an injury poison. Once the curse has activated for the first time, the cloak fuses to you.</p>\n<p><strong>Poison</strong> hemlock</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Poisonous Dagger",
-    "price": {
-      "gp": 150
-    },
-    "description": "<p>This +1 striking dagger has an image of a snake emblazoned on its blade. When you critically succeed at an attack roll with the dagger, magical fangs emerge and poison the target, dealing @Damage[1d4[persistent,poison]].</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "finesse",
-      "magical",
-      "poison",
-      "thrown-10",
-      "versatile-s"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 10,
-    "name": "Polarizing Mace",
-    "price": {
-      "gp": 950
-    },
-    "description": "<p>Even grasping the amber handle of this <em>+1 striking shock light mace</em> makes your hair stand on end.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> The wielder of a <em>grounding spike</em> is within 30 feet</p>\n<hr />\n<p><strong>Effect</strong> A great surge of electricity connects your paired weapons. All creatures in a line between you and the wielder of the grounding spike take @Damage[4d12[electricity]|options:area-damage] (DC 24 reflex).</p>\n<p><strong>Special</strong> The polarizing mace pairs with the <em>grounding spike</em>.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "finesse",
-      "shove"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Polished Demon Horn (Greater)",
-    "price": {
-      "gp": 450
-    },
-    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d6 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 24 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 3rd-rank Fear (DC 24 will).</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "divine",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or-A Weapon",
-    "worn": null
-  },
-  {
-    "level": 12,
-    "name": "Polished Demon Horn (Major)",
-    "price": {
-      "gp": 1750
-    },
-    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d8 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 29 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Agonizing Despair (DC 29 will).</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Outcast's Curse (DC 29 will).</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "divine",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or-A Weapon",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Polished Demon Horn",
-    "price": {
-      "gp": 55
-    },
-    "description": "<p>This spellheart is fashioned from the tip of a demon's horn that's been polished until smooth and shiny. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 2 to unholy.</li>\n<li><strong>Weapon</strong> After you cast an enchantment spell by Activating the <em>horn</em>, your Strikes with the weapon deal an additional 1d4 mental damage until end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Daze (DC 17 will).</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "divine",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or-A Weapon",
-    "worn": null
-  },
-  {
-    "level": 1,
-    "name": "Polytool",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>The polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it- perfect for the goddess Casandalee to spread innovation farther than actual Numerian tech could reach.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "modular"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 9,
-    "name": "Pontoon",
-    "price": {
-      "gp": 650
-    },
-    "description": "<p>Footwear with <em>pontoon runes</em> allows you to traverse waterways with ease. While wearing footwear with the rune, you can walk on the surface of water and other liquids without falling through. This offers no protection against damage the liquid deals. You can go under the liquid's surface, but you must Swim if you do.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Applied To Footwear",
-    "worn": null
-  },
-  {
-    "level": 1,
-    "name": "Popdust",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>You can sprinkle popdust in an empty square adjacent to you. The first creature that applies pressure to the popdust, such as by moving into that square, causes it to emit a series of thunderous cracks.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "sonic"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 5,
-    "name": "Poracha Fulu",
-    "price": {
-      "gp": 30
-    },
-    "description": "<p>Folklore from near the Forest of Spirits tells of the origin of the <em>poracha fulu</em>. Once, a traveler saved an eight-legged feline who turned out to be a poracha prince. In return, the prince gave the traveler a fulu that later prevented a fast-acting poison from slaying them. Traditionally, one wears a string of up to nine <em>poracha fulus</em>, which counts as one talisman. Each time you take persistent damage, one <em>poracha fulu</em> affixed to you negates the damage and crumbles to dust. This response is automatic, but you can use a free action (envision) to prevent your fulus from responding. If you do, any <em>poracha fulus</em> affixed to you never respond to that persistent damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "fulu",
-      "magical",
-      "talisman"
-    ],
-    "usage": "Affixed To Armor",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Porcelain doll with amber eyes",
-    "price": {
-      "gp": 25
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Porcelain vase inlaid with gold",
-    "price": {
-      "gp": 25
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 3,
-    "name": "Portable Altar",
-    "price": {
-      "gp": 25
-    },
-    "description": "<p>This travel-ready kit contains a small altar featuring a deity's iconography. The altar's top can be lifted to reveal a compartment for materials of no more than light Bulk (such as candles, incense, oils, and small texts). The altar grants a +1 item bonus to checks made to conduct religious rites using Performance or Religion.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 2,
-    "name": "Portable Animal Blind",
-    "price": {
-      "gp": 20
-    },
-    "description": "<p>Simple blinds consist of a series of poles with a cloth to cover them. The cloth covering is styled to represent the natural surroundings such as green and brown leaf and wood patterns for forests, or gray rocks for underground environments. This cloth is either sheer enough to be seen through on one side, or sometimes has small slits cut in it, allowing someone behind it to see what is going on outside while remaining Hidden. While not the most convincing camouflage, it's good enough to fool many animals and creatures with lower intelligence.</p>\n<p>Portable blinds are made of a wooden frame with camouflage material stretched over them, resembling a large kite. A hole in the center allows for a one-handed ranged weapon to be fired without obstruction. A single person can use the Take Cover action while carrying a portable blind. When you do so, you gain a +2 circumstance bonus to Stealth checks to Hide instead of the normal benefits of standard cover.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Portable Gaming Hall",
-    "price": {
-      "gp": 500
-    },
-    "description": "<p>A <em>portable gaming hall</em> resembles a miniature roulette wheel, except it's marked with indecipherable runes, not numbers.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The wheel grows into a circular room 30 feet in diameter, with a door on one side. Six chairs surround a circular table, 10 feet in diameter. The underside of the table contains retractable drawers full of dice, harrow cards, game pieces, and other gambling accouterments. A gallon of ale or a similar drink with a spigot near the bottom hangs on the door, replenishing to a full gallon each day; you can also bring in your own drinks if you require more than the gaming hall provides.</p>\n<p>You can flip the central table over as a 3-action activity, which has the manipulate trait, to revert the gaming hall to its original form.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 15,
-    "name": "Portable Hole",
-    "price": {
-      "gp": 6000
-    },
-    "description": "<p>Wispy, ethereal strands of carefully spun silk make up the substance of a portable hole, which sparkles with captive beams of starlight. It's linked to an extradimensional space in the shape of a pit, which can be accessed if the hole is fully opened.</p>\n<p><em>Portable holes</em> and <em>bags of holding</em> are antithetical to one another. Rather than deactivating either, if one is placed inside the other, as typical for extradimensional spaces, a rift to the Astral Plane tears open and destroys both items. Any creature or unattended object within a 10 foot burst centered on the bag is sucked through to the Astral Plane, though a creature can avoid this with a successful @Check[reflex|dc:30] save. The whole process happens in a single blink of an eye.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You unfold the hole and open it fully, revealing an extradimensional space that stays in place. The hole is 6 feet across—just big enough to cover a 5-foot square—and 10 feet deep. The hole's depth is perpendicular to the surface, so it's most commonly placed on a floor to make a hole straight down or on a wall to create a horizontal passage through it. The only air in the hole is that which enters when it's opened, though if the hole goes through to open space, air can flow freely through the tunnel. Anyone can Interact to grab the hole by the edges and partially or fully fold it up. This closes the entrance to the extradimensional space. Any objects or creatures within the hole remain inside, and any that can't fit fully inside are ejected into the nearest open space. No matter how many items are in the portable hole, its Bulk never changes. Items can be stowed or retrieved only while the hole is fully open. A living creature placed inside has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the hole provides no benefits unless it's retrieved first. Anything in the hole can't be detected by magic that detects only things on the same plane.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "extradimensional",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn"
   }
 ]

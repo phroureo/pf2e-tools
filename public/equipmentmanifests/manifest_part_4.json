@@ -1,5 +1,64 @@
 [
   {
+    "level": 8,
+    "name": "Exsanguinating Ammunition (Greater)",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 3 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 12,
+    "name": "Exsanguinating Ammunition (Major)",
+    "price": {
+      "gp": 360
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 5 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 4,
+    "name": "Exsanguinating Ammunition",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains weakness 1 to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Extendable Pincer",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This extendable rod features a pincer on one end and clamped handle on the other. By squeezing the handle, the pincer opens or closes. As an Interact action, you can extend or retract the rod by 5 feet to one of three settings, allowing you to Interact to pick up an object with the pincer either within your own space, in an adjacent space, or exactly 10 feet away.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "clockwork"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
     "level": 3,
     "name": "Extendable Tail",
     "price": {
@@ -1353,6 +1412,18 @@
     "worn": null
   },
   {
+    "level": 0,
+    "name": "Fetching Bangles",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.xrJ4nGGgejUPf16q inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine"
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers"
+  },
+  {
     "level": 14,
     "name": "Feyfoul (Greater)",
     "price": {
@@ -1492,6 +1563,21 @@
   },
   {
     "level": 0,
+    "name": "Fighting Oar",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A fighting oar is a sturdy boat oar, typically made of wood, whose haft and blades are reinforced for use in combat. A fighting oar adds its item bonus from weapon potency runes (if any) as an item bonus on Piloting Lore and Sailing Lore checks made to pilot a rowed vehicle.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "sweep",
+      "versatile-s"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
+    "level": 0,
     "name": "Fighting Stick",
     "price": {
       "sp": 5
@@ -1554,6 +1640,21 @@
     ],
     "usage": "Held In One Hand",
     "worn": null
+  },
+  {
+    "level": 20,
+    "name": "Final Scalecloak",
+    "price": {},
+    "description": "<p>Fashioned from a swath of Mogaru's red-and-black hide and trimmed with Agyra's rough scales in green, blue, and white, this cloak draws upon the power of both kaiju, but at considerable cost. Any kaiju within a 5-mile radius of the <em>Final Scalecloak</em> can sense the presence and nature of the item, and can also determine whether it's being worn by a mortal. This sense grows stronger as the item and kaiju near one another, until the kaiju can pinpoint exactly where the cloak is and who currently possesses it.</p>\n<p>When worn, the <em>Final Scalecloak</em> grants you resistance 15 to physical and precision damage, immunity to electricity, and a Fly speed of 60 feet. You are unaffected by strong winds while flying.</p><hr /><p><strong>Activate—Commune with Kaiju</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, primal)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Spend a Mythic Point; you gain the effects of a 6th-rank Telepathy spell but can use it only to communicate with Gargantuan animals and beasts. Most kaiju are hostile toward you for wearing the <em>Final Scalecloak</em>, however, requiring great effort to calm them enough to have a conversation.</p><hr /><p><strong>Activate—Embody the Storm</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, primal)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> Spend a Mythic Point; a nimbus of crackling electricity surrounds you for 1 minute. You gain a +4 status bonus to AC against ranged projectiles that are at least partly made of metal. If a foe attempts to Strike you with an unarmed attack or melee attack with a weapon at least partly made of metal, that creature takes 3d10 electricity damage (DC 40 reflex save).</p>\n<p></p><hr /><p><strong>Destruction</strong> The <em>Final Scalecloak</em> is torn to shreds if the wearer is struck by an attack or effect from both Agyra and Mogaru within the same round.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "invested",
+      "magical",
+      "mythic"
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak"
   },
   {
     "level": 0,
@@ -1795,6 +1896,20 @@
       "catalyst",
       "consumable",
       "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Fishing Lure",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>When a lure is attached to a combat fishing pole, it can be used to make thrown weapon attacks with a range increment of 20 feet, though the lure must then be reeled back in with an Interact action before the weapon can be used at range again (see the tethered trait). The ranged trip, tethered, thrown, and versatile P traits of the combat fishing pole only apply to thrown attacks made with a lure.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable"
     ],
     "usage": "Held In One Hand",
     "worn": null
@@ -3143,6 +3258,22 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or-A Weapon",
+    "worn": null
+  },
+  {
+    "level": 21,
+    "name": "Freedom's Flame",
+    "price": {},
+    "description": "<p>This <em>+4 major striking holy morningstar</em> is made of wood and adorned with golden flames traced along its haft and head. It has the razing trait, and it ignores the Hardness of structures used to hold those you feel are being unjustly imprisoned (subject to the GM's discretion).</p><hr /><p><strong>Activate—Break Free</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> Spend a Mythic Point; <em>Freedom's Flame</em> blazes with a rose-red light, creating a beacon of spiritual strength. Any creature within 120 foot emanation{120 feet} that's currently under a compulsion or control effect can immediately attempt a new saving throw to break free of the effect, with a +3 status bonus.</p><hr /><p><strong>Activate—Holy Retribution</strong> <span class=\"action-glyph\">f</span> (concentrate, divine)</p>\n<p><strong>Trigger</strong> Your previous action was to use <em>Freedom's Flame</em> to Strike a foe you have witnessed use a compulsion or control effect on an ally within the past hour</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Spend a Mythic Point; your blow is empowered by the righteousness of Milani. The target's holy weakness is triggered again or, if the target doesn't have a holy weakness, it takes @Damage[15[spirit]] damage.</p><hr /><p><strong>Destruction</strong> <em>Freedom's Flame</em> is sliced in two if struck by a Final Blade that has been anointed with Unholy Water created by a level 20 unholy creature.</p>",
+    "rarity": "unique",
+    "traits": [
+      "artifact",
+      "magical",
+      "mythic",
+      "razing",
+      "versatile-p"
+    ],
+    "usage": "Held In One Hand",
     "worn": null
   },
   {
@@ -5097,6 +5228,21 @@
       "structure"
     ],
     "usage": "Other",
+    "worn": null
+  },
+  {
+    "level": 0,
+    "name": "Gladius",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>Similar to a shortsword, a gladius is designed to inflict deadly stabbing wounds while still being useful as a slashing weapon.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d10",
+      "versatile-s"
+    ],
+    "usage": "Held In One Hand",
     "worn": null
   },
   {
@@ -7133,6 +7279,21 @@
     "worn": "Saddle"
   },
   {
+    "level": 7,
+    "name": "Gut-Ripper",
+    "price": {},
+    "description": "<p>This <em>+1 striking ogre hook</em> causes its owner to dream of past murders conducted with the weapon. <em>Gut-Ripper</em>'s mythic magic is tied to the bloodlust of the ogre boss who was holding it upon becoming mythic. If <em>Gut-Ripper</em> doesn't kill a creature each day by midnight, it becomes a non-magical ogre hook.</p><hr /><p><strong>Activate—Rip Guts! Rip Guts!</strong> <span class=\"action-glyph\">2</span> <strong>Cost</strong> 1 Mythic Point</p>\n<p><strong>Effect</strong> You throw <em>Gut-Ripper</em> in a line of any length up to 60 feet, then it returns to your hands. Each creature in the line takes @Damage[2d10[piercing]|options:area-damage] damage with a DC 25 fortitude save. If there's a creature at the end of the line, you instead make a melee Strike against it with the hook that deals an additional @Damage[2d10[persistent,bleed]] damage. Each time a creature takes this bleed damage, you regain that many HP; this is a healing vitality effect. This activation can't be used again for [[/gmr 1d4 #Recharge Rip Guts! Rip Guts!]]{1d4 rounds}.</p>",
+    "rarity": "unique",
+    "traits": [
+      "deadly-d10",
+      "magical",
+      "mythic",
+      "trip"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null
+  },
+  {
     "level": 4,
     "name": "Gyroscopic Stabilizer",
     "price": {
@@ -7518,153 +7679,5 @@
     ],
     "usage": "",
     "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harness",
-    "price": {
-      "sp": 8
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Worn",
-    "worn": "Worn"
-  },
-  {
-    "level": 0,
-    "name": "Harnessed Shield",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>This large steel shield features a specialized opening to hold lances and similar weapons. Harnessed shields are a common backup for those who fight with jousting weapons in case they're forced into combat without their mounts. Balancing the weapon within the shield's hold is somewhat awkward, and longer weapons, like lances, need to be held closer to the body than usual for proper support.</p>",
-    "rarity": "common",
-    "traits": [
-      "harnessed"
-    ],
-    "usage": "",
-    "worn": null
-  },
-  {
-    "level": 4,
-    "name": "Harpoon Bolt",
-    "price": {
-      "gp": 15
-    },
-    "description": "<p><strong>Ammunition</strong> round</p>\n<hr />\n<p>This iron spike can be fitted into the barrel of a two-handed firearm that doesn't have the scatter property with an Interact action. The spike is attached to a 50-foot-long coil of rope held in a simple spool that can be attached to a weapon's barrel. The weight and awkward balance of the bolt and its spool reduce the range of the weapon by 10 feet when fired. A creature hit by a harpoon bolt takes normal damage from the shot and must succeed at a @Check[fortitude|dc:18] save. On a failure, the harpoon bolt becomes lodged in its body.</p>\n<p>Once a harpoon bolt is lodged, a creature can remove the harpoon bolt with a DC 18 check to Escape or Force Open, but on a failure, the creature takes 1d4 piercing damage. As long as the harpoon bolt remains lodged, the creature can't move more than 50 feet away from you. You can attempt to Trip a creature by tugging on the rope attached to the harpoon bolt, even if it isn't within your reach, but if you fail this attempt, the bolt rips free, causing 1d4 piercing damage to the target but releasing it from the bolt. If you reload, drop, or fire the firearm again, the creature is no longer limited in its movement. Once a harpoon bolt is removed from a creature, the bolt, its rope, and the spool all decay away, consumed by the same magic that empowers the unusual ammunition to function in the first place.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harpoon",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>Often used for hunting exceptionally large aquatic creatures, the harpoon is similar to a javelin but features a barbed head and rope tether so it (or the corpse it's attached to) can be easily retrieved.</p>",
-    "rarity": "common",
-    "traits": [
-      "tethered",
-      "thrown"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harrow Carrying Case",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>This elegant wooden case contains a recessed section to hold a simple or common harrow deck and a harrow mat. The case features a watertight seal to protect its contents from the elements and everyday wear and tear.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harrow Deck (Common)",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Common harrow decks are made from higher-quality paper and feature illustrations-harrow readers typically use these decks.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harrow Deck (Fine)",
-    "price": {
-      "gp": 11
-    },
-    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Fine harrow decks are made from a variety of materials, such as high-quality paper, woods, bone, ivory, or metal.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harrow Deck (Simple)",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>Used by gamblers and seers alike, this deck of cards comes in several varieties.</p>\n<hr />\n<p>Simple harrow decks are made from low-quality paper and typically have only an icon and a number to signify the suit and alignment. These simple decks are mostly used for games of chance, as the actual image and significance of the cards are irrelevant for such games.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 0,
-    "name": "Harrow Mat",
-    "price": {
-      "gp": 8
-    },
-    "description": "<p>This leather mat bears intricate designs and symbols embossed into them to enhance the mystique of a harrow reading. The mat provides a +1 item bonus to Deception, Diplomacy, and relevant Lore checks (such as Fortune-Telling Lore or Harrow Lore) to convince a creature that a harrow reading was accurate.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null
-  },
-  {
-    "level": 8,
-    "name": "Harrow Spellcards",
-    "price": {
-      "gp": 475
-    },
-    "description": "<p>Crafted of sturdy paper, each card of this Harrow Deck (Common){Harrow Deck} showcases a beautiful watercolor illustration with space to inscribe a spell below. When shuffled, its cards seem to fly between one another of their own accord.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your last action was to cast a divination spell prepared from this grimoire</p>\n<hr />\n<p><strong>Effect</strong> You draw forth a card to gain insight into future challenges you'll face. Draw a card from a harrow deck or roll 1d6:</p>\n<ol>\n<li>hammers (Athletics)</li>\n<li>keys (Acrobatics)</li>\n<li>shields (Survival)</li>\n<li>books (any Recall Knowledge)</li>\n<li>stars (Religion)</li>\n<li>crowns (Diplomacy)</li>\n</ol>\n<p>The next time you attempt a check of the same type as your result, roll twice and take the better result, as the spirits of the harrow guide your actions. If not used by your next daily preparations, this benefit disappears.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "grimoire",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 7,
-    "name": "Hat of Disagreeable Disguise (Greater)",
-    "price": {
-      "gp": 30
-    },
-    "description": "<p>This elegant hat appears to be and functions as a <em>Masquerade Scarf{Hat of Disguise}</em>. When you invest the hat, it fuses to you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> Like a hat of disguise, the hat casts a 2nd-rank Illusory Disguise spell on you. However, the illusion disadvantages you based on your intent, making you, for example, appear to be a suspicious ruffian if you're trying to sneak past guards or lending you the seeming of a pauper if you're trying to impress a shallow aristocrat. You and those you consider to be allies must succeed at a @Check[will|dc:23] save or you perceive the illusion as you intended it, though others won't. Evidence to the contrary allows you to attempt to disbelieve the false version of the illusion. You can't Dismiss the spell.</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "illusion",
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Headwear",
-    "worn": "Headwear"
   }
 ]

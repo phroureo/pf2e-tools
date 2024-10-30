@@ -4961,6 +4961,18 @@
     "worn": "Bracers"
   },
   {
+    "level": 0,
+    "name": "Bands of Imprisonment",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.N1hWQx0IuKWjZ2dn inline]</p>",
+    "rarity": "rare",
+    "traits": [
+      "divine"
+    ],
+    "usage": "Worn Anklets",
+    "worn": "Anklets"
+  },
+  {
     "level": 11,
     "name": "Bane Ammunition (Greater)",
     "price": {
@@ -7759,21 +7771,6 @@
       "gp": 250
     },
     "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 8 hours</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 60 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +3 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null
-  },
-  {
-    "level": 2,
-    "name": "Bloodhound Mask (Lesser)",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 10 minutes</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 15 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +1 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "alchemical",
