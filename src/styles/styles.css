@@ -48,9 +48,8 @@ a:hover {
 
 /* Layout Containers */
 .container {
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     margin: auto;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,18 +120,26 @@ li:hover {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    gap: 8px;
-    overflow: hidden; /* Prevents items from overflowing out of the header */
-    box-sizing: border-box; /* Ensures padding is included in width */
+    justify-content: center; /* Center the header text */
+    padding-top: 10px;
+    padding-left: 0px;
+    position: relative; /* Enable positioning for child elements */
+    cursor: default;
 }
 
 .header-item {
-    cursor: pointer;
     white-space: nowrap; /* Prevents the text from wrapping */
     overflow: hidden;
     text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+}
+
+/* Centered header text */
+.header h1 {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    text-align: center;
+    cursor: default; /* Keeps cursor default on the h1 as well */
 }
 
 

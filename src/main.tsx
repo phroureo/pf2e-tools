@@ -14,10 +14,10 @@ import './styles/buttons.css';
 import './styles/modal.css';
 import './styles/form.css';
 import './styles/input.css';
+import './styles/flyout.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
-
-import Header from './components/Header';
+import Flyout from './components/Flyout';
 import LoadModal from './components/Modals/LoadModal';
 import SaveModal from './components/Modals/SaveModal';
 import { downloadJSON, uploadJSON } from './utils/downloadJSON';
@@ -205,13 +205,16 @@ const Main: React.FC = () => {
 
     return (
         <div>
-            <header>
-                <Header
-                    saveData={() => setShowSaveModal(true)}
-                    loadData={() => setShowLoadModal(true)}
-                    onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
-                    onUpload={(e) => uploadJSON(e, handleUploadData)}
-                />
+            <header className="header">
+                <h1>PF2e Equipment Tracker</h1>
+                <div className="flyout-container">
+                    <Flyout
+                        saveData={() => setShowSaveModal(true)}
+                        loadData={() => setShowLoadModal(true)}
+                        onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
+                        onUpload={(e) => uploadJSON(e, handleUploadData)}
+                    />
+                </div>
                 {showSaveModal && <SaveModal
                     onSave={handleSaveData}
                     onClose={() => setShowSaveModal(false)}
@@ -226,7 +229,6 @@ const Main: React.FC = () => {
             </header>
             <div className="container">
                 <div className='container-inner'>
-                    <h1>PF2e Equipment Picker</h1>
                     <CharacterLevel
                         level={characterLevel}
                         onLevelChange={setCharacterLevel}
@@ -261,8 +263,8 @@ const Main: React.FC = () => {
                         onClick={() => setshowInformationModal(true)}
                         title="Show Site Info"
                     >
-                    <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
-                </button>
+                        <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
+                    </button>
                     <Toggle
                         label="Show items with no price"
                         onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
@@ -296,7 +298,7 @@ const Main: React.FC = () => {
             )}
             {showInformationModal && (
                 <InformationModal
-                onClose={() => setshowInformationModal(false)}/>
+                    onClose={() => setshowInformationModal(false)} />
             )}
         </div>
     );

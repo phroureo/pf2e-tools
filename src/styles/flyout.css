@@ -1,0 +1,106 @@
+.flyout {
+    position: relative;
+    display: inline-block;
+}
+
+.flyout-icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #c7d1dc;
+    padding: 8px;
+    margin: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Default and hover styles */
+.flyout-icon {
+    width: 28px;
+    height: 28px;
+    filter: invert(85%);
+    color: inherit;
+}
+
+.flyout-icon-button:hover {
+    background-color: #333a56;
+}
+
+/* Darker background when flyout is open */
+.flyout-icon-button.active {
+    background-color: #2a314b; /* Slightly darker shade for active state */
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 55px;
+    left: 8px;
+    background-color: #23243a;
+    color: #c7d1dc;
+    border: 1px solid #44475a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    z-index: 1000;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.flyout-menu.open {
+    opacity: 1;
+    max-height: 500px; /* Set a max-height large enough to accommodate all content */
+}
+
+
+.flyout-menu button,
+.flyout-menu .upload-label {
+    color: #c7d1dc;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    text-align: left;
+}
+
+.flyout-menu button:hover,
+.flyout-menu .upload-label:hover {
+    background-color: #333a56;
+}
+
+.upload-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.upload-input {
+    display: none;
+}
+
+/* .flyout-icon-button:hover::after {
+    content: "Menu";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #333a56;
+    color: #e1e1e6;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0.9;
+} */
+
+
+/* Flyout positioning */
+.flyout-container {
+    position: absolute;
+    left: 0px; /* Position Flyout in the top left corner */
+}
