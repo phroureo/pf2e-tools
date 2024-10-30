@@ -118,7 +118,7 @@ fs.readdir(source, (err, files) => {
         // When all files are processed, split into chunks and save
         if (index === jsonFiles.length - 1) {
             // Split items into chunks of 500
-            const chunkSize = 100;
+            const chunkSize = 500;
             for (let i = 0; i < itemsWithDetails.length; i += chunkSize) {
                 const chunk = itemsWithDetails.slice(i, i + chunkSize);
                 const chunkIndex = Math.floor(i / chunkSize) + 1;

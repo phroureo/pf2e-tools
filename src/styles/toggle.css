@@ -9,7 +9,7 @@
   .toggle-slider {
     width: 40px;
     height: 20px;
-    background-color: #080a2b;
+    background-color: #0c1466;
     border-radius: 10px;
     position: relative;
     transition: background-color 0.3s;
@@ -20,7 +20,7 @@
     content: '';
     width: 18px;
     height: 18px;
-    background-color: #A39BA8;
+    background-color: #aaaaaf;
     border-radius: 50%;
     position: absolute;
     top: 1px;
@@ -29,7 +29,7 @@
   }
   
   .toggle-slider.active {
-    background-color: #5256b9;
+    background-color: #c45500;
   }
   
   .toggle-slider.active:before {

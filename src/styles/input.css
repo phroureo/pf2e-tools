@@ -15,8 +15,9 @@
     width: 40px;
     height: 20px;
     text-align: center;
-    color: #5256b9;
-    border: none; /* Remove inner borders */
+    background-color: #3b3e91; /* Background color */
+    color: #f1f1f1;
+    border: 1px; /* Remove inner borders */
     font-size: 14px;
     -moz-appearance: textfield; /* Remove arrows in Firefox */
 }

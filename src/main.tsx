@@ -18,6 +18,10 @@ import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
 
 import './firebaseConfig';
+import Header from './components/Header';
+import LoadModal from './components/Modals/LoadModal';
+import SaveModal from './components/Modals/SaveModal';
+import { downloadJSON, uploadJSON } from './utils/downloadJSON';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -30,6 +34,52 @@ const Main: React.FC = () => {
     const [levelData, setLevelData] = useState<LevelData[]>([]);
     const [lumpSum, setLumpSum] = useState<number>(15);
     const [availableCopper, setAvailableCopper] = useState<number>(lumpSum * 100);
+    const [showSaveModal, setShowSaveModal] = useState(false);
+    const [showLoadModal, setShowLoadModal] = useState(false);
+    const [savedName, setSavedName] = useState<string>();
+    const [refreshKey, setRefreshKey] = useState(0);
+
+    const handleDelete = (name: string) => {
+        // Force re-fetch by updating the refresh key
+        setRefreshKey(prevKey => prevKey + 1);
+    };
+
+
+    const handleSaveData = (name: string, overwrite = false) => {
+        const saveKey = overwrite || name === savedName ? name : `${name}`;
+        const dataToSave = {
+            name,
+            Date: Date.now().toLocaleString(),
+            selectedItems,
+            characterLevel,
+            quantities,
+            lumpSum
+        };
+        localStorage.setItem(saveKey, JSON.stringify(dataToSave));
+        setSavedName(name);
+    };
+
+    const handleLoadData = (name: string) => {
+        const savedData = JSON.parse(localStorage.getItem(name) || '{}');
+        setSelectedItems(savedData.selectedItems || []);
+        setCharacterLevel(savedData.characterLevel);
+        setQuantities(savedData.quantities || {});
+        setLumpSum(savedData.lumpSum);
+        console.log(savedName);
+        setSavedName(name);
+        console.log(savedName);
+        setShowLoadModal(false);
+    };
+
+
+    const handleUploadData = (data: any) => {
+        if (data) {
+            setSelectedItems(data.selectedItems || []);
+            setCharacterLevel(data.characterLevel || 1);
+            setQuantities(data.quantities || {});
+            setLumpSum(data.lumpSum || 15);
+        }
+    };
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
         if (toggleName === 'showNoPriceItems') {
@@ -38,7 +88,6 @@ const Main: React.FC = () => {
             setShowAffordableItemsOnly(value);
         }
     };
-
 
     useEffect(() => {
         fetchEquipmentData()
@@ -60,11 +109,6 @@ const Main: React.FC = () => {
             setLumpSum(levelInfo.lumpSum);
         }
     }, [characterLevel, levelData]);
-
-
-    const handleLevelChange = (newLevel: number) => {
-        setCharacterLevel(newLevel);
-    };
 
     const handleAddItem = (item: ManifestItem) => {
         setSelectedItems((prevItems) => [...prevItems, item]);
@@ -137,6 +181,25 @@ const Main: React.FC = () => {
 
     return (
         <div>
+            <header>
+                <Header
+                    saveData={() => setShowSaveModal(true)}
+                    loadData={() => setShowLoadModal(true)}
+                    onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
+                    onUpload={(e) => uploadJSON(e, handleUploadData)}
+                />
+                {showSaveModal && <SaveModal
+                    onSave={handleSaveData}
+                    onClose={() => setShowSaveModal(false)}
+                    isEdit={savedName ? true : false} 
+                    savedName={savedName}
+                    />}
+                {showLoadModal && <LoadModal
+                    onLoad={handleLoadData}
+                    onDelete={handleDelete}
+                    onClose={() => setShowLoadModal(false)}
+                />}
+            </header>
             <div className="container">
                 <div className='container-inner'>
                     <h1>PF2e Equipment Picker</h1>
@@ -154,19 +217,19 @@ const Main: React.FC = () => {
                 </div>
                 <h2>Selected Items</h2>
                 <div className='selected-items-container'>
-                        <SelectedItems
-                            items={selectedItems}
-                            onRemoveItem={handleRemoveItem}
-                            onQuantityChange={handleQuantityChange}
-                            availableCopper={availableCopper}
-                        />
+                    <SelectedItems
+                        items={selectedItems}
+                        onRemoveItem={handleRemoveItem}
+                        onQuantityChange={handleQuantityChange}
+                        availableCopper={availableCopper}
+                    />
                 </div>
             </div>
             <footer className='footer'>
                 <div style={{ padding: "20px" }}>
                     {/* Overall Total Price */}
                     <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
-                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp" }</div>
+                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
                 </div>
                 <footer className='footer-options'>
                     <Toggle

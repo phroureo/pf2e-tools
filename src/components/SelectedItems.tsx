@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { copperToString, formatPrice } from '../utils/formatPrice';
 import { ManifestItem } from '../types/ManifestItem';
-import Modal from './Modal';
+import Modal from './Modals/Modal';
 import ItemDetails from './ItemDetails';
 
 interface SelectedItemsProps {

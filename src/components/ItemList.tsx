@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { EquipmentItem } from '../types/EquipmentItem';
 import { ManifestItem } from '../types/ManifestItem';
-import Modal from './Modal';
+import Modal from './Modals/Modal';
 import SearchConditionRow from './SearchConditionRow';
 import ItemListPanel from './ItemListPanel';
 import ItemDetails from './ItemDetails';
