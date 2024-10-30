@@ -17,7 +17,6 @@ import './styles/input.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
 
-import './firebaseConfig';
 import Header from './components/Header';
 import LoadModal from './components/Modals/LoadModal';
 import SaveModal from './components/Modals/SaveModal';
