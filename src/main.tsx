@@ -109,13 +109,26 @@ const Main: React.FC = () => {
             setLumpSum(data.lumpSum || 15);
         }
     };
+    
+    useEffect(() => {
+        const savedToggles = localStorage.getItem('toggles');
+        if (savedToggles) {
+            setToggles(JSON.parse(savedToggles));
+        }
+    }, []);
+    
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
-        setToggles((prevToggles) => ({
-            ...prevToggles,
+        const updatedToggles = {
+            ...toggles,
             [toggleName]: value,
-        }));
+        };
+        setToggles(updatedToggles);
+    
+        // Save updated toggles to localStorage
+        localStorage.setItem('toggles', JSON.stringify(updatedToggles));
     };
+    
 
     useEffect(() => {
         fetchEquipmentData()
