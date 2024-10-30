@@ -25,7 +25,7 @@
       "consumable",
       "gadget"
     ],
-    "usage": "Affixed To Armor Or-Travelers Clothing",
+    "usage": "Affixed To Armor Or Travelers Clothing",
     "worn": null
   },
   {
@@ -40,7 +40,7 @@
       "consumable",
       "gadget"
     ],
-    "usage": "Affixed To Armor Or-Travelers Clothing",
+    "usage": "Affixed To Armor Or Travelers Clothing",
     "worn": null
   },
   {
@@ -55,7 +55,7 @@
       "consumable",
       "gadget"
     ],
-    "usage": "Affixed To Armor Or-Travelers Clothing",
+    "usage": "Affixed To Armor Or Travelers Clothing",
     "worn": null
   },
   {
@@ -70,7 +70,7 @@
       "consumable",
       "gadget"
     ],
-    "usage": "Affixed To Armor Or-Travelers Clothing",
+    "usage": "Affixed To Armor Or Travelers Clothing",
     "worn": null
   },
   {
@@ -85,7 +85,7 @@
       "consumable",
       "gadget"
     ],
-    "usage": "Affixed To Armor Or-Travelers Clothing",
+    "usage": "Affixed To Armor Or Travelers Clothing",
     "worn": null
   },
   {
@@ -1331,7 +1331,7 @@
     "description": "<p>Air cartridge firing mechanisms use a container of compressed air affixed to a sealed system that releases the air in a small burst to propel ammunition, and they're the default used in Arcadian air repeaters. Any firearm can be modified to replace its normal firing mechanism with an air cartridge firing system, allowing the weapon to be fired underwater or in other conditions that would normally prevent the ignition of black powder. The air cartridges lack much of the propulsive power of black powder, however, imposing a -10-foot penalty to the attached firearm's range increment. Weapons with the kickback trait don't gain that trait's benefits when using an air cartridge firing system. Attaching an air cartridge firing system takes one hour, though this time can overlap with the standard time required to maintain and clean your firearm to prevent misfires.</p>",
     "rarity": "uncommon",
     "traits": [],
-    "usage": "Attached To Crossbow Or-Firearm Firing Mechanism",
+    "usage": "Attached To Crossbow Or Firearm Firing Mechanism",
     "worn": null
   },
   {
@@ -1612,7 +1612,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To Firearm With-The Kickback Trait",
+    "usage": "Affixed To Firearm With The Kickback Trait",
     "worn": null
   },
   {
@@ -1901,7 +1901,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Metal-Weapon",
+    "usage": "Affixed To A Metal Weapon",
     "worn": null
   },
   {
@@ -4666,7 +4666,7 @@
     "description": "<p>This complex wooden device, worn on the back, contains a miniature ballista on a retractable arm. As an Interact action, you can pull a lever to deploy or retract the ballista. As long as it remains deployed, you must hold the ballista using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the ballista up over your shoulder. While retracted, the ballista and its mount slide down and are Concealed within the device. Although a backpack ballista packs a punch, the device is a challenge to operate. Reloading it takes 1 minute and can't be done while worn. As normal, you can't wear a backpack ballista with another backpack.</p>",
     "rarity": "uncommon",
     "traits": [],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -4692,7 +4692,7 @@
     "traits": [
       "volley-50"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -5529,7 +5529,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -5544,7 +5544,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -5559,7 +5559,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -6967,8 +6967,8 @@
       "invested",
       "magical"
     ],
-    "usage": "Worn And Attached To-Two Weapons",
-    "worn": "And Attached To-Two Weapons"
+    "usage": "Worn And Attached To Two Weapons",
+    "worn": "And Attached To Two Weapons"
   },
   {
     "level": 3,
@@ -6982,8 +6982,8 @@
       "invested",
       "magical"
     ],
-    "usage": "Worn And Attached To-Two Weapons",
-    "worn": "And Attached To-Two Weapons"
+    "usage": "Worn And Attached To Two Weapons",
+    "worn": "And Attached To Two Weapons"
   },
   {
     "level": 8,

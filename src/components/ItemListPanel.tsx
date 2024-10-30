@@ -78,6 +78,13 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({
                     : condition.comparison === 'lessThan'
                         ? itemLevel <= lvlVal
                         : itemLevel === lvlVal;
+            } else if (condition.field === 'worn') {
+                if (item.worn?.toLowerCase() === 'horseshoes' && (term.toLowerCase() === 'shoe' || term.toLowerCase() === 'shoes')){
+                    return false;
+                }
+                return condition.comparison === 'contains'
+                    ? item.worn?.toLowerCase().includes(term)
+                    : !item.worn?.toLowerCase().includes(term);
             }
             return false;
         })

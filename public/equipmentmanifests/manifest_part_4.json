@@ -615,7 +615,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To Unarmored Defense-Item",
+    "usage": "Affixed To Unarmored Defense Item",
     "worn": null
   },
   {
@@ -631,7 +631,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To Unarmored Defense-Item",
+    "usage": "Affixed To Unarmored Defense Item",
     "worn": null
   },
   {
@@ -1358,7 +1358,7 @@
       "metal",
       "talisman"
     ],
-    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "usage": "Affixed To Medium Heavy Metal Armor",
     "worn": null
   },
   {
@@ -1375,7 +1375,7 @@
       "metal",
       "talisman"
     ],
-    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "usage": "Affixed To Medium Heavy Metal Armor",
     "worn": null
   },
   {
@@ -1392,7 +1392,7 @@
       "metal",
       "talisman"
     ],
-    "usage": "Affixed To Medium Heavy-Metal Armor",
+    "usage": "Affixed To Medium Heavy Metal Armor",
     "worn": null
   },
   {
@@ -2065,7 +2065,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2081,7 +2081,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2097,7 +2097,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2627,7 +2627,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Etched Onto Melee Weapon-Monk",
+    "usage": "Etched Onto Melee Weapon Monk",
     "worn": null
   },
   {
@@ -2956,7 +2956,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Etched Onto Med Heavy-Armor",
+    "usage": "Etched Onto Med Heavy Armor",
     "worn": null
   },
   {
@@ -2970,7 +2970,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Etched Onto Med Heavy-Armor",
+    "usage": "Etched Onto Med Heavy Armor",
     "worn": null
   },
   {
@@ -3225,7 +3225,7 @@
       "poison",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -3241,7 +3241,7 @@
       "poison",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -3257,7 +3257,7 @@
       "poison",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -3811,7 +3811,7 @@
       "illusion",
       "magical"
     ],
-    "usage": "Affixed To Ground In-10-Foot Radius",
+    "usage": "Affixed To Ground In 10-Foot Radius",
     "worn": null
   },
   {
@@ -4121,7 +4121,7 @@
       "monk",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -4921,7 +4921,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -4936,7 +4936,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -5719,7 +5719,7 @@
       "deadly-d10",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -5873,7 +5873,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "usage": "Affixed To A Two Handed Firearm Or Crossbow",
     "worn": null
   },
   {
@@ -5889,7 +5889,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "usage": "Affixed To A Two Handed Firearm Or Crossbow",
     "worn": null
   },
   {
@@ -5905,7 +5905,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Two-Handed Firearm Or Crossbow",
+    "usage": "Affixed To A Two Handed Firearm Or Crossbow",
     "worn": null
   },
   {
@@ -6094,7 +6094,7 @@
       "talisman",
       "teleportation"
     ],
-    "usage": "Affixed To Crossbow Or-Firearm",
+    "usage": "Affixed To Crossbow Or Firearm",
     "worn": null
   },
   {

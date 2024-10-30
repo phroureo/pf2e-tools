@@ -78,6 +78,8 @@ fs.readdir(source, (err, files) => {
                 // First regex handles "worn" only
                 usage = usage.replace(/^worn$/i, "Worn");
 
+                usage = usage.replace("-", " ");
+
                 // Second regex to handle cases like "worncrown" -> "Worn Crown" (when "worn" is concatenated)
                 usage = usage.replace(/worn([a-z]+)/gi, (match, p1) => {
                     return `Worn ${p1.charAt(0).toUpperCase() + p1.slice(1)}`;

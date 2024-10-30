@@ -902,7 +902,7 @@
     "description": "<p>The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids</p>\n<hr />\n<p><strong>Effect</strong> You learn the secrets the weapon gleaned from the creature's blood. Attempt to Recall Knowledge about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune.</p>\n<p>If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.</p>",
     "rarity": "uncommon",
     "traits": [],
-    "usage": "Etched Onto Piercing Or-Slashing Weapon",
+    "usage": "Etched Onto Piercing Or Slashing Weapon",
     "worn": null
   },
   {
@@ -1138,7 +1138,7 @@
       "forceful",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -1340,7 +1340,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Attached To Crossbow Or-Firearm Scope",
+    "usage": "Attached To Crossbow Or Firearm Scope",
     "worn": null
   },
   {
@@ -1354,7 +1354,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Attached To Crossbow Or-Firearm Firing Mechanism",
+    "usage": "Attached To Crossbow Or Firearm Firing Mechanism",
     "worn": null
   },
   {
@@ -2098,7 +2098,7 @@
       "fulu",
       "magical"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -2114,7 +2114,7 @@
       "fulu",
       "magical"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -2130,7 +2130,7 @@
       "fulu",
       "magical"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -2381,7 +2381,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2396,7 +2396,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2411,7 +2411,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2758,7 +2758,7 @@
       "magical",
       "misfortune"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -3493,7 +3493,7 @@
       "magical",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -3649,7 +3649,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3663,7 +3663,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3677,7 +3677,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3691,7 +3691,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3705,7 +3705,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3719,7 +3719,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3733,7 +3733,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3747,7 +3747,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -3761,7 +3761,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Dueling Cape-Or Shield",
+    "usage": "Applied To Dueling Cape Or Shield",
     "worn": null
   },
   {
@@ -4538,7 +4538,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -6067,7 +6067,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To Crossbow Or-Firearm",
+    "usage": "Affixed To Crossbow Or Firearm",
     "worn": null
   },
   {
@@ -6691,7 +6691,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -6707,7 +6707,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -6723,7 +6723,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {

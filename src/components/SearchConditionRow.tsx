@@ -45,6 +45,7 @@ const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchCondition
                         <option value="name">Name</option>
                         <option value="traits">Traits</option>
                         <option value="description">Description</option>
+                        <option value="worn">Worn Slot</option>
                         <option value="level">Level</option>
                     </select>
 

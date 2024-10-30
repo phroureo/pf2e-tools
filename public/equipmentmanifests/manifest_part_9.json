@@ -2262,7 +2262,7 @@
     "traits": [
       "adjustment"
     ],
-    "usage": "Applied To Armor Or-Unarmored Defense Clothing",
+    "usage": "Applied To Armor Or Unarmored Defense Clothing",
     "worn": null
   },
   {
@@ -2930,7 +2930,7 @@
       "concussive",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {

@@ -166,7 +166,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Etched Onto Piercing Or-Slashing Melee Weapon",
+    "usage": "Etched Onto Piercing Or Slashing Melee Weapon",
     "worn": null
   },
   {
@@ -1395,7 +1395,7 @@
       "divine",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -1411,7 +1411,7 @@
       "deadly-d8",
       "monk"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -2039,7 +2039,7 @@
       "plant",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2055,7 +2055,7 @@
       "plant",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2071,7 +2071,7 @@
       "plant",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -2677,7 +2677,7 @@
     "traits": [
       "adjustment"
     ],
-    "usage": "Affixed To A Ranged-Weapon",
+    "usage": "Affixed To A Ranged Weapon",
     "worn": null
   },
   {
@@ -2857,7 +2857,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Applied To Any Item-Of Light Or Negligible-Bulk",
+    "usage": "Applied To Any Item Of Light Or Negligible-Bulk",
     "worn": null
   },
   {
@@ -3786,7 +3786,7 @@
       "earth",
       "magical"
     ],
-    "usage": "Etched Onto Med Heavy-Armor",
+    "usage": "Etched Onto Med Heavy Armor",
     "worn": null
   },
   {
@@ -4041,7 +4041,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To A Thrown-Weapon",
+    "usage": "Affixed To A Thrown Weapon",
     "worn": null
   },
   {
@@ -5066,7 +5066,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -5081,7 +5081,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -5096,7 +5096,7 @@
       "magical",
       "spellheart"
     ],
-    "usage": "Affixed To Armor Or-A Weapon",
+    "usage": "Affixed To Armor Or A Weapon",
     "worn": null
   },
   {
@@ -6818,7 +6818,7 @@
       "propulsive",
       "volley-30"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -6833,7 +6833,7 @@
       "deadly-d10",
       "propulsive"
     ],
-    "usage": "Held In One Plus-Hands",
+    "usage": "Held In One Plus Hands",
     "worn": null
   },
   {
@@ -7337,7 +7337,7 @@
       "magical",
       "talisman"
     ],
-    "usage": "Affixed To Unarmored Defense-Item",
+    "usage": "Affixed To Unarmored Defense Item",
     "worn": null
   },
   {

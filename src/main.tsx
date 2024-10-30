@@ -291,11 +291,11 @@ const Main: React.FC = () => {
                     />
                     <Toggle
                         label="Show only affordable items"
-                        onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
+                        onToggle={(value) => handleToggleChange('showAffordableItemsOnly', value)}
                         checked={toggles.showAffordableItemsOnly}
                     />
                     <Toggle
-                        label="Show only affordable items"
+                        label="Show Mythic items"
                         onToggle={(value) => handleToggleChange('showMythicItems', value)}
                         checked={toggles.showMythicItems}
                     />
