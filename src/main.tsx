@@ -38,6 +38,7 @@ const Main: React.FC = () => {
     const [availableCopper, setAvailableCopper] = useState<number>(lumpSum * 100);
     const [savedName, setSavedName] = useState<string>();
     const [refreshKey, setRefreshKey] = useState(0);
+    const [drawerHeight, setDrawerHeight] = useState(0);
 
     //modals
     const [showSaveModal, setShowSaveModal] = useState(false);
@@ -46,16 +47,45 @@ const Main: React.FC = () => {
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
     const [showInformationModal, setshowInformationModal] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
-    
+
     //options toggles 
-    const [toggles, setToggles] = useState<{ [key: string]: boolean}>({
+    const [toggles, setToggles] = useState<{ [key: string]: boolean }>({
         showNoPriceItems: false,
         showAffordableItemsOnly: true,
         showMythicItems: false,
+        showRandomItem: true,
     })
+
+    const handleDrawerBodyHeight = (height: number) => {
+        setDrawerHeight(height);
+      };
 
     const toggleSettings = () => setShowSettings(!showSettings);
 
+    const addRandomAffordableItem = (): void => {
+        // Filter affordable items based on available copper and price
+        const affordableItems = equipmentData.filter((item: ManifestItem) => {
+            const hasPrice = item.price && item.price.value && (item.price.value.gp || item.price.value.sp || item.price.value.cp);
+            const itemTotalCopper =
+                (item.price?.value?.cp ?? 0) +
+                (item.price?.value?.sp ?? 0) * 10 +
+                (item.price?.value?.gp ?? 0) * 100 +
+                (item.price?.value?.pp ?? 0) * 1000;
+            return hasPrice && itemTotalCopper <= availableCopper;
+        });
+
+        if (affordableItems.length === 0) {
+            console.log("No affordable items available.");
+            return;
+        }
+
+        // Select a random item from affordable items
+        const randomIndex = Math.floor(Math.random() * affordableItems.length);
+        const randomAffordableItem = affordableItems[randomIndex];
+
+        // Add the selected item to selectedItems
+        handleAddItem(randomAffordableItem);
+    };
 
     const handleDelete = (name: string) => {
         // Force re-fetch by updating the refresh key
@@ -77,7 +107,7 @@ const Main: React.FC = () => {
     const handleSaveData = (name: string, overwrite = false) => {
         const formattedDate = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
         const saveKey = overwrite || name === savedName ? name : `${name}_${formattedDate}`;
-        
+
         const dataToSave = {
             Type: "saveData",
             name,
@@ -120,7 +150,7 @@ const Main: React.FC = () => {
             setToggles(savedToggles);
         }
     }, []);
-    
+
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
         const updatedToggles = {
@@ -128,7 +158,7 @@ const Main: React.FC = () => {
             [toggleName]: value,
         };
         setToggles(updatedToggles);
-    
+
         // Save updated toggles to localStorage with Type = "settings"
         const settingsToSave = {
             Type: "settings",
@@ -136,7 +166,7 @@ const Main: React.FC = () => {
         };
         localStorage.setItem('toggles', JSON.stringify(settingsToSave));
     };
-    
+
 
     useEffect(() => {
         fetchEquipmentData()
@@ -229,118 +259,133 @@ const Main: React.FC = () => {
     const simplifiedTotalPrice = simplifyPrice(totalPrice);
 
     return (
-        <div>
-            <header className="header">
-                <h1>PF2e Equipment Tracker</h1>
-                <div className="flyout-container">
-                    <Flyout
-                        saveData={() => setShowSaveModal(true)}
-                        loadData={() => setShowLoadModal(true)}
-                        onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
-                        onUpload={(e) => uploadJSON(e, handleUploadData)}
-                    />
+        <>
+            <div>
+                <header className="header">
+                    <h1>PF2e Equipment Tracker</h1>
+                    <div className="flyout-container">
+                        <Flyout
+                            saveData={() => setShowSaveModal(true)}
+                            loadData={() => setShowLoadModal(true)}
+                            onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
+                            onUpload={(e) => uploadJSON(e, handleUploadData)}
+                        />
+                    </div>
+                    {showSaveModal && <SaveModal
+                        onSave={handleSaveData}
+                        onClose={() => setShowSaveModal(false)}
+                        isEdit={savedName ? true : false}
+                        savedName={savedName}
+                    />}
+                    {showLoadModal && <LoadModal
+                        onLoad={handleLoadData}
+                        onDelete={handleDelete}
+                        onClose={() => setShowLoadModal(false)}
+                    />}
+                </header>
+                <div className="container">
+                    <div className='container-inner'>
+                        <CharacterLevel
+                            level={characterLevel}
+                            onLevelChange={setCharacterLevel}
+                            lumpSum={lumpSum}
+                            setLumpSum={setLumpSum} />
+                        <ItemList
+                            items={equipmentData}
+                            onAddItem={handleAddItem}
+                            showNoPriceItems={toggles.showNoPriceItems}
+                            showAffordableItemsOnly={toggles.showAffordableItemsOnly}
+                            showMythicItems={toggles.showMythicItems}
+                            availableCopper={availableCopper} />
+                    </div>
+                    <h2>Selected Items</h2>
+                    <div className='selected-items-container'>
+                        <SelectedItems
+                            items={selectedItems}
+                            onRemoveItem={handleRemoveItem}
+                            onQuantityChange={handleQuantityChange}
+                            availableCopper={availableCopper}
+                        />
+                    </div>
                 </div>
-                {showSaveModal && <SaveModal
-                    onSave={handleSaveData}
-                    onClose={() => setShowSaveModal(false)}
-                    isEdit={savedName ? true : false}
-                    savedName={savedName}
-                />}
-                {showLoadModal && <LoadModal
-                    onLoad={handleLoadData}
-                    onDelete={handleDelete}
-                    onClose={() => setShowLoadModal(false)}
-                />}
-            </header>
-            <div className="container">
-                <div className='container-inner'>
-                    <CharacterLevel
-                        level={characterLevel}
-                        onLevelChange={setCharacterLevel}
-                        lumpSum={lumpSum}
-                        setLumpSum={setLumpSum} />
-                    <ItemList
-                        items={equipmentData}
-                        onAddItem={handleAddItem}
-                        showNoPriceItems={toggles.showNoPriceItems}
-                        showAffordableItemsOnly={toggles.showAffordableItemsOnly}
-                        showMythicItems={toggles.showMythicItems}
-                        availableCopper={availableCopper} />
-                </div>
-                <h2>Selected Items</h2>
-                <div className='selected-items-container'>
-                    <SelectedItems
-                        items={selectedItems}
-                        onRemoveItem={handleRemoveItem}
-                        onQuantityChange={handleQuantityChange}
-                        availableCopper={availableCopper}
-                    />
-                </div>
-            </div>
-            <footer className='footer'>
-                <div style={{ padding: "0px" }}>
-                    {/* Overall Total Price */}
-                    <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
-                    <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
-                </div>
-                <footer className='footer-options'>
-                    <button
-                        className="information-button"
-                        onClick={() => setshowInformationModal(true)}
-                        title="Show Site Info"
-                    >
-                        <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
-                    </button>
-                    <button
-                        className="refresh-button"
-                        onClick={() => setShowRefreshModal(true)}
-                        title="Refresh Cache"
-                    >
-                        <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
-                    </button>
+                <footer className='footer'>
+                    <div style={{transform: `translateY(${drawerHeight}px)` }}>
+                    {/* Button to add random affordable item */}
+                    {toggles.showRandomItem && <button onClick={addRandomAffordableItem} className="random-item-button">
+                        Add Random Affordable Item
+                    </button>}
+                    <div style={{ padding: "0px", }}>
+                        {/* Overall Total Price */}
+                        <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
+                        <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
+                    </div>
+                    </div>
+                    <footer className='footer-options'>
+                        <button
+                            className="information-button"
+                            onClick={() => setshowInformationModal(true)}
+                            title="Show Site Info"
+                        >
+                            <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
+                        </button>
+                        <button
+                            className="refresh-button"
+                            onClick={() => setShowRefreshModal(true)}
+                            title="Refresh Cache"
+                        >
+                            <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
+                        </button>
+                    </footer>
+
+
+                    {/* Settings Drawer */}
+                    <SettingsDrawer
+                        isOpen={showSettings}
+                        drawerTitle='Settings'
+                        onHeightChange={handleDrawerBodyHeight}
+                        onToggle={toggleSettings}>
+                        <Toggle
+                            label="Show items with no price"
+                            onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
+                            checked={toggles.showNoPriceItems}
+                        />
+                        <Toggle
+                            label="Show only affordable items"
+                            onToggle={(value) => handleToggleChange('showAffordableItemsOnly', value)}
+                            checked={toggles.showAffordableItemsOnly}
+                        />
+                        <Toggle
+                            label="Show Mythic items"
+                            onToggle={(value) => handleToggleChange('showMythicItems', value)}
+                            checked={toggles.showMythicItems}
+                        />
+                        <Toggle
+                            label='Show "Add Random Affordable Item" Button'
+                            onToggle={(value) => handleToggleChange('showRandomItem', value)}
+                            checked={toggles.showRandomItem}
+                        />
+                    </SettingsDrawer>
                 </footer>
-
-                {/* Settings Drawer */}
-                <SettingsDrawer
-                    isOpen={showSettings}
-                    drawerTitle='Settings'
-                    onToggle={toggleSettings}>
-                    <Toggle
-                        label="Show items with no price"
-                        onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
-                        checked={toggles.showNoPriceItems}
+                {showRefreshModal && (
+                    <RefreshModal
+                        onConfirm={handleConfirmRefresh}
+                        onClose={() => setShowRefreshModal(false)}
                     />
-                    <Toggle
-                        label="Show only affordable items"
-                        onToggle={(value) => handleToggleChange('showAffordableItemsOnly', value)}
-                        checked={toggles.showAffordableItemsOnly}
+                )}
+                {showConfirmationModal && (
+                    <ConfirmationModal
+                        message="Data updated from server!"
+                        onClose={() => setShowConfirmationModal(false)}
                     />
-                    <Toggle
-                        label="Show Mythic items"
-                        onToggle={(value) => handleToggleChange('showMythicItems', value)}
-                        checked={toggles.showMythicItems}
-                    />
-                </SettingsDrawer>
-            </footer>
-            {showRefreshModal && (
-                <RefreshModal
-                    onConfirm={handleConfirmRefresh}
-                    onClose={() => setShowRefreshModal(false)}
-                />
-            )}
-            {showConfirmationModal && (
-                <ConfirmationModal
-                    message="Data updated from server!"
-                    onClose={() => setShowConfirmationModal(false)}
-                />
-            )}
-            {showInformationModal && (
-                <InformationModal
-                    onClose={() => setshowInformationModal(false)} />
-            )}
+                )}
+                {showInformationModal && (
+                    <InformationModal
+                        onClose={() => setshowInformationModal(false)} />
+                )}
 
 
-        </div>
+            </div>
+        </>
     );
 };
 

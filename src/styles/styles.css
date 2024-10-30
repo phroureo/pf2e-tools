@@ -159,7 +159,7 @@ li:hover {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    height: 120px;
+    height: auto;
     position: fixed;
     bottom: 0; 
     width: 100%;

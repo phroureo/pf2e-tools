@@ -17,11 +17,10 @@
     z-index: 198;
     width: 100vw;
     align-items: center;
-    transform: translateY(0px);
 }
 
 .drawer.open {
-    transform: translateY(calc(-100% + 52px));
+    transform: translateY(0);
     z-index: 1100;
 }
 
@@ -54,6 +53,7 @@
     width: 100%;
     z-index: 1000;
     background-color: #1b1b2f;
+    margin-bottom: -16px;
 }
 
 .toggle-icon {
