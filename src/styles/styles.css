@@ -169,6 +169,8 @@ li:hover {
 
 .footer-options {
     flex-direction: row;
+    margin-bottom: 16px;
+    gap: 8px
 }
 
 .price-info {
@@ -223,3 +225,20 @@ li:hover {
     height: 20px;
 }
 
+.settings-button {
+    background: none;
+    border: none;
+    color: #e1e1e6;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    margin-bottom: 40px;
+}
+
+.settings-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}

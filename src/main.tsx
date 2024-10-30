@@ -15,6 +15,7 @@ import './styles/modal.css';
 import './styles/form.css';
 import './styles/input.css';
 import './styles/flyout.css';
+import './styles/settingsdrawer.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
 import Flyout from './components/Flyout';
@@ -24,6 +25,7 @@ import { downloadJSON, uploadJSON } from './utils/downloadJSON';
 import RefreshModal from './components/Modals/RefreshModal';
 import ConfirmationModal from './components/Modals/ConfirmationModal';
 import InformationModal from './components/Modals/InformationModal';
+import SettingsDrawer from './components/BottomDrawer';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -43,6 +45,11 @@ const Main: React.FC = () => {
     const [showRefreshModal, setShowRefreshModal] = useState(false);
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
     const [showInformationModal, setshowInformationModal] = useState(false);
+    const [showSettings, setShowSettings] = useState(false);
+
+
+    const toggleSettings = () => setShowSettings(!showSettings);
+
 
     const handleDelete = (name: string) => {
         // Force re-fetch by updating the refresh key
@@ -252,7 +259,7 @@ const Main: React.FC = () => {
                 </div>
             </div>
             <footer className='footer'>
-                <div style={{ padding: "20px" }}>
+                <div style={{ padding: "0px" }}>
                     {/* Overall Total Price */}
                     <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
                     <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
@@ -265,6 +272,20 @@ const Main: React.FC = () => {
                     >
                         <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
                     </button>
+                    <button
+                        className="refresh-button"
+                        onClick={() => setShowRefreshModal(true)}
+                        title="Refresh Cache"
+                    >
+                        <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
+                    </button>
+                </footer>
+
+                {/* Settings Drawer */}
+                <SettingsDrawer
+                    isOpen={showSettings}
+                    drawerTitle='Settings'
+                    onToggle={toggleSettings}>
                     <Toggle
                         label="Show items with no price"
                         onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
@@ -275,14 +296,7 @@ const Main: React.FC = () => {
                         onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
                         checked={showAffordableItemsOnly}
                     />
-                    <button
-                        className="refresh-button"
-                        onClick={() => setShowRefreshModal(true)}
-                        title="Refresh Cache"
-                    >
-                        <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
-                    </button>
-                </footer>
+                </SettingsDrawer>
             </footer>
             {showRefreshModal && (
                 <RefreshModal
@@ -300,6 +314,8 @@ const Main: React.FC = () => {
                 <InformationModal
                     onClose={() => setshowInformationModal(false)} />
             )}
+
+
         </div>
     );
 };
