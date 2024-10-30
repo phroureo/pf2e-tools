@@ -186,10 +186,9 @@ li:hover {
     background-color: #1f1f31;
     margin: 0 10px;
 }
-.refresh-button {
+.refresh-button, .information-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
     background-color: #007bff;
     border: none;
     border-radius: 50%;
@@ -200,7 +199,15 @@ li:hover {
     justify-content: center;
 }
 
-.refresh-button:hover {
+.refresh-button {
+    right: 20px;
+}
+
+.information-button {
+    left: 20px;
+}
+
+.refresh-button:hover, .information-button:hover {
     background-color: #0056b3;
 }
 
@@ -208,3 +215,4 @@ li:hover {
     width: 20px;
     height: 20px;
 }
+

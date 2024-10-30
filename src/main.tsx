@@ -23,6 +23,7 @@ import SaveModal from './components/Modals/SaveModal';
 import { downloadJSON, uploadJSON } from './utils/downloadJSON';
 import RefreshModal from './components/Modals/RefreshModal';
 import ConfirmationModal from './components/Modals/ConfirmationModal';
+import InformationModal from './components/Modals/InformationModal';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -41,6 +42,7 @@ const Main: React.FC = () => {
     const [refreshKey, setRefreshKey] = useState(0);
     const [showRefreshModal, setShowRefreshModal] = useState(false);
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
+    const [showInformationModal, setshowInformationModal] = useState(false);
 
     const handleDelete = (name: string) => {
         // Force re-fetch by updating the refresh key
@@ -58,6 +60,14 @@ const Main: React.FC = () => {
             console.error('Error refreshing equipment data:', error);
         }
     };
+
+    const handleShowInformation = async () => {
+        try {
+            setshowInformationModal(true);
+        } catch (error) {
+            console.error('Error showing information modal:', error);
+        }
+    }
 
     const handleSaveData = (name: string, overwrite = false) => {
         const saveKey = overwrite || name === savedName ? name : `${name}`;
@@ -246,6 +256,13 @@ const Main: React.FC = () => {
                     <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
                 </div>
                 <footer className='footer-options'>
+                    <button
+                        className="information-button"
+                        onClick={() => setshowInformationModal(true)}
+                        title="Show Site Info"
+                    >
+                    <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
+                </button>
                     <Toggle
                         label="Show items with no price"
                         onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
@@ -276,6 +293,10 @@ const Main: React.FC = () => {
                     message="Data updated from server!"
                     onClose={() => setShowConfirmationModal(false)}
                 />
+            )}
+            {showInformationModal && (
+                <InformationModal
+                onClose={() => setshowInformationModal(false)}/>
             )}
         </div>
     );
