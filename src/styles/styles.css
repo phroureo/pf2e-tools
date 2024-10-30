@@ -186,3 +186,25 @@ li:hover {
     background-color: #1f1f31;
     margin: 0 10px;
 }
+.refresh-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refresh-button:hover {
+    background-color: #0056b3;
+}
+
+.refresh-icon {
+    width: 20px;
+    height: 20px;
+}

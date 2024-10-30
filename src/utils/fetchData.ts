@@ -1,19 +1,34 @@
 import { ManifestItem } from '../types/ManifestItem';
 
-export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
+const CACHE_KEY = 'equipmentDataCache';
+const CACHE_TIMESTAMP_KEY = 'equipmentDataTimestamp';
+const CACHE_EXPIRY_DAYS = 7;
+const MILLISECONDS_IN_A_DAY = 86400000;
+
+export const fetchEquipmentData = async (forceRefresh = false): Promise<ManifestItem[]> => {
+    // Check if cached data is available and not expired
+    const cachedData = localStorage.getItem(CACHE_KEY);
+    const cachedTimestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+    const cacheExpired = cachedTimestamp && (Date.now() - parseInt(cachedTimestamp) > CACHE_EXPIRY_DAYS * MILLISECONDS_IN_A_DAY);
+
+    if (cachedData && !cacheExpired && !forceRefresh) {
+        console.log('Returning cached equipment data');
+        return JSON.parse(cachedData);
+    }
+
+    // Fetch new data if cache is expired or force refresh is enabled
     const equipmentData: ManifestItem[] = [];
     let partIndex = 1;
 
     try {
         while (true) {
-            // Attempt to fetch the next part of the manifest
             const manifestFileName = `/equipmentmanifests/manifest_part_${partIndex}.json`;
             console.log(`Fetching manifest part: ${manifestFileName}`);
             const manifestResponse = await fetch(manifestFileName);
 
             if (!manifestResponse.ok) {
                 console.log(`No more manifest parts found after part ${partIndex - 1}.`);
-                break; // Exit loop if no more parts are found
+                break;
             }
 
             const manifestItems: {
@@ -28,7 +43,6 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                 worn: string;
             }[] = await manifestResponse.json();
 
-            // Convert manifest items to ManifestItem structure
             for (const item of manifestItems) {
                 try {
                     const manifestItem: ManifestItem = {
@@ -50,19 +64,27 @@ export const fetchEquipmentData = async (): Promise<ManifestItem[]> => {
                         worn: item.worn,
                     };
                     equipmentData.push(manifestItem);
-                }
-                catch (itemError) {
+                } catch (itemError) {
                     console.error(`Error processing item with file ID: ${item.file}`, itemError);
                 }
-
             }
 
-            partIndex++; // Move to the next manifest part
+            partIndex++;
         }
     } catch (error) {
         console.error('Error fetching equipment data:', error);
     }
 
+    // Cache the fetched data
+    localStorage.setItem(CACHE_KEY, JSON.stringify(equipmentData));
+    localStorage.setItem(CACHE_TIMESTAMP_KEY, Date.now().toString());
     console.log(`Fetched total equipment items: ${equipmentData.length}`);
+    
     return equipmentData;
+};
+
+// Force refresh function to be called from a button
+export const forceRefreshCache = async (): Promise<ManifestItem[]> => {
+    console.log('Forcing cache refresh');
+    return await fetchEquipmentData(true);
 };

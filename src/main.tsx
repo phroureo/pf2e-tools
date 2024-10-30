@@ -21,6 +21,8 @@ import Header from './components/Header';
 import LoadModal from './components/Modals/LoadModal';
 import SaveModal from './components/Modals/SaveModal';
 import { downloadJSON, uploadJSON } from './utils/downloadJSON';
+import RefreshModal from './components/Modals/RefreshModal';
+import ConfirmationModal from './components/Modals/ConfirmationModal';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -37,12 +39,25 @@ const Main: React.FC = () => {
     const [showLoadModal, setShowLoadModal] = useState(false);
     const [savedName, setSavedName] = useState<string>();
     const [refreshKey, setRefreshKey] = useState(0);
+    const [showRefreshModal, setShowRefreshModal] = useState(false);
+    const [showConfirmationModal, setShowConfirmationModal] = useState(false);
 
     const handleDelete = (name: string) => {
         // Force re-fetch by updating the refresh key
         setRefreshKey(prevKey => prevKey + 1);
     };
 
+    // Handle refresh confirmation and show success message upon completion
+    const handleConfirmRefresh = async () => {
+        try {
+            const data = await fetchEquipmentData(true);
+            setEquipmentData(data);
+            setShowRefreshModal(false); // Close refresh modal
+            setShowConfirmationModal(true); // Show confirmation modal
+        } catch (error) {
+            console.error('Error refreshing equipment data:', error);
+        }
+    };
 
     const handleSaveData = (name: string, overwrite = false) => {
         const saveKey = overwrite || name === savedName ? name : `${name}`;
@@ -190,9 +205,9 @@ const Main: React.FC = () => {
                 {showSaveModal && <SaveModal
                     onSave={handleSaveData}
                     onClose={() => setShowSaveModal(false)}
-                    isEdit={savedName ? true : false} 
+                    isEdit={savedName ? true : false}
                     savedName={savedName}
-                    />}
+                />}
                 {showLoadModal && <LoadModal
                     onLoad={handleLoadData}
                     onDelete={handleDelete}
@@ -241,8 +256,27 @@ const Main: React.FC = () => {
                         onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
                         checked={showAffordableItemsOnly}
                     />
+                    <button
+                        className="refresh-button"
+                        onClick={() => setShowRefreshModal(true)}
+                        title="Refresh Cache"
+                    >
+                        <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
+                    </button>
                 </footer>
             </footer>
+            {showRefreshModal && (
+                <RefreshModal
+                    onConfirm={handleConfirmRefresh}
+                    onClose={() => setShowRefreshModal(false)}
+                />
+            )}
+            {showConfirmationModal && (
+                <ConfirmationModal
+                    message="Data updated from server!"
+                    onClose={() => setShowConfirmationModal(false)}
+                />
+            )}
         </div>
     );
 };
