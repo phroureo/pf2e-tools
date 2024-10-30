@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { copperToString, formatPrice } from '../utils/formatPrice';
 import { ManifestItem } from '../types/ManifestItem';
+import Modal from './Modal';
+import ItemDetails from './ItemDetails';
 
 interface SelectedItemsProps {
     items: ManifestItem[];
@@ -13,6 +15,9 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
     const [quantities, setQuantities] = useState<{ [key: number]: number }>(
         items.reduce((acc, _, idx) => ({ ...acc, [idx]: 1 }), {})
     );
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedItem, setSelectedItem] = useState<ManifestItem | null>(null);
 
     const itemRefs = useRef<(HTMLHeadingElement | null)[]>([]); // Array of refs for each item name
 
@@ -52,6 +57,16 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
         onQuantityChange(index, delta);
     };
 
+    const openModal = (item: ManifestItem) => {
+        setSelectedItem(item);
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+        setSelectedItem(null);
+    };
+
     return (
         <div>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
@@ -66,15 +81,19 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
                     const isConsumable = item.traits?.includes("consumable");
 
                     return (
-                        <li key={index} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <li 
+                            key={index} 
+                            style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer' }}
+                            onClick={() => openModal(item)}
+                        >
                             {/* Left side: First and Second Line (stacked vertically) */}
                             <div style={{ flex: 1 }}>
                                 {/* First Line: Item Name and Price */}
                                 <div>
                                     <h3
-                                        style={{
-                                            flex: 1,
-                                            display: 'inline-block',
+                                        style={{ 
+                                            flex: 1, 
+                                            display: 'inline-block', 
                                             whiteSpace: 'nowrap',
                                             marginTop: 0
                                         }}
@@ -97,9 +116,9 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
                                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '0.5em' }}>
                                         {/* Quantity Controls */}
                                         <div style={{ display: 'flex', alignItems: 'center', marginRight: '1em' }}>
-                                            <button className='minimal-button' onClick={() => handleQuantityChange(index, -1)}>-</button>
+                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, -1); }}>-</button>
                                             <span style={{ margin: '0 10px' }}>{quantity}</span>
-                                            <button className='minimal-button' onClick={() => handleQuantityChange(index, 1)}>+</button>
+                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, 1); }}>+</button>
                                         </div>
 
                                         {/* Item Total Price */}
@@ -112,13 +131,24 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
 
                             {/* Right side: Remove Button */}
                             <button
-                                onClick={() => onRemoveItem(index)}
+                                onClick={(e) => { e.stopPropagation(); onRemoveItem(index); }}
                                 className='button-x'
                             />
                         </li>
                     );
                 })}
             </ul>
+
+            {/* Modal for Item Details */}
+            <Modal 
+                isOpen={isModalOpen} 
+                onClose={closeModal} 
+                selectedItem={selectedItem} 
+                handleAddItem={() => {}} 
+                showAddToList={false}
+            >
+                {selectedItem && <ItemDetails item={selectedItem} />}
+            </Modal>
         </div>
     );
 };

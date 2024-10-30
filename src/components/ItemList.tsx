@@ -46,6 +46,7 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems,
                 onClose={() => handleClose()}
                 selectedItem={selectedItem}
                 handleAddItem={() => handleAddItem()}
+                showAddToList={true}
             >
                 <SearchConditionRow
                     searchConditions={searchConditions}

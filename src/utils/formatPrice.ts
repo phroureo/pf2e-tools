@@ -27,6 +27,7 @@ export const formatPrice = (price?: { pp?: number; gp?: number; sp?: number; cp?
     if (!price) {
         return "No price available"; // Or any default string if price is missing
     }
+    price = simplifyPrice(price);
 
     const parts = [];
     if (price.pp) parts.push(`${price.pp} pp`);

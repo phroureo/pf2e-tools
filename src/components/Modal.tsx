@@ -7,9 +7,10 @@ interface ModalProps {
     children: React.ReactNode;
     selectedItem: ManifestItem | null;
     handleAddItem: () => void;
+    showAddToList: boolean;
 }
 
-const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, selectedItem, handleAddItem }) => {
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, selectedItem, handleAddItem, showAddToList }) => {
     if (!isOpen) return null;
 
     return (
@@ -18,7 +19,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, selectedItem, 
                 {children}
                 <div className="modal-footer">
                     <button onClick={onClose} className="close-button">Close</button>
-                    {selectedItem && (
+                    {showAddToList && selectedItem && (
                         <button onClick={handleAddItem} className="add-to-list-button">
                             Add to List
                         </button>
