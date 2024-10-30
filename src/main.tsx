@@ -75,8 +75,11 @@ const Main: React.FC = () => {
     };
 
     const handleSaveData = (name: string, overwrite = false) => {
-        const saveKey = overwrite || name === savedName ? name : `${name}`;
+        const formattedDate = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
+        const saveKey = overwrite || name === savedName ? name : `${name}_${formattedDate}`;
+        
         const dataToSave = {
+            Type: "saveData",
             name,
             Date: Date.now().toLocaleString(),
             selectedItems,
@@ -109,11 +112,12 @@ const Main: React.FC = () => {
             setLumpSum(data.lumpSum || 15);
         }
     };
-    
+
     useEffect(() => {
-        const savedToggles = localStorage.getItem('toggles');
-        if (savedToggles) {
-            setToggles(JSON.parse(savedToggles));
+        // Retrieve and parse the saved toggles with Type = "settings"
+        const savedToggles = JSON.parse(localStorage.getItem('toggles') || '{}');
+        if (savedToggles.Type === "settings") {
+            setToggles(savedToggles);
         }
     }, []);
     
@@ -125,8 +129,12 @@ const Main: React.FC = () => {
         };
         setToggles(updatedToggles);
     
-        // Save updated toggles to localStorage
-        localStorage.setItem('toggles', JSON.stringify(updatedToggles));
+        // Save updated toggles to localStorage with Type = "settings"
+        const settingsToSave = {
+            Type: "settings",
+            ...updatedToggles,
+        };
+        localStorage.setItem('toggles', JSON.stringify(settingsToSave));
     };
     
 
