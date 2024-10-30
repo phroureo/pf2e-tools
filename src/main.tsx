@@ -33,20 +33,26 @@ const Main: React.FC = () => {
     const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
-    const [showNoPriceItems, setShowNoPriceItems] = useState<boolean>(false);
-    const [showAffordableItemsOnly, setShowAffordableItemsOnly] = useState<boolean>(true);
     const [levelData, setLevelData] = useState<LevelData[]>([]);
     const [lumpSum, setLumpSum] = useState<number>(15);
     const [availableCopper, setAvailableCopper] = useState<number>(lumpSum * 100);
-    const [showSaveModal, setShowSaveModal] = useState(false);
-    const [showLoadModal, setShowLoadModal] = useState(false);
     const [savedName, setSavedName] = useState<string>();
     const [refreshKey, setRefreshKey] = useState(0);
+
+    //modals
+    const [showSaveModal, setShowSaveModal] = useState(false);
+    const [showLoadModal, setShowLoadModal] = useState(false);
     const [showRefreshModal, setShowRefreshModal] = useState(false);
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
     const [showInformationModal, setshowInformationModal] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
-
+    
+    //options toggles 
+    const [toggles, setToggles] = useState<{ [key: string]: boolean}>({
+        showNoPriceItems: false,
+        showAffordableItemsOnly: true,
+        showMythicItems: false,
+    })
 
     const toggleSettings = () => setShowSettings(!showSettings);
 
@@ -67,14 +73,6 @@ const Main: React.FC = () => {
             console.error('Error refreshing equipment data:', error);
         }
     };
-
-    const handleShowInformation = async () => {
-        try {
-            setshowInformationModal(true);
-        } catch (error) {
-            console.error('Error showing information modal:', error);
-        }
-    }
 
     const handleSaveData = (name: string, overwrite = false) => {
         const saveKey = overwrite || name === savedName ? name : `${name}`;
@@ -113,11 +111,10 @@ const Main: React.FC = () => {
     };
 
     const handleToggleChange = (toggleName: string, value: boolean) => {
-        if (toggleName === 'showNoPriceItems') {
-            setShowNoPriceItems(value);
-        } else if (toggleName === 'showOnlyAffordableItems') {
-            setShowAffordableItemsOnly(value);
-        }
+        setToggles((prevToggles) => ({
+            ...prevToggles,
+            [toggleName]: value,
+        }));
     };
 
     useEffect(() => {
@@ -244,8 +241,9 @@ const Main: React.FC = () => {
                     <ItemList
                         items={equipmentData}
                         onAddItem={handleAddItem}
-                        showNoPriceItems={showNoPriceItems}
-                        showAffordableItemsOnly={showAffordableItemsOnly}
+                        showNoPriceItems={toggles.showNoPriceItems}
+                        showAffordableItemsOnly={toggles.showAffordableItemsOnly}
+                        showMythicItems={toggles.showMythicItems}
                         availableCopper={availableCopper} />
                 </div>
                 <h2>Selected Items</h2>
@@ -289,12 +287,17 @@ const Main: React.FC = () => {
                     <Toggle
                         label="Show items with no price"
                         onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
-                        checked={showNoPriceItems}
+                        checked={toggles.showNoPriceItems}
                     />
                     <Toggle
                         label="Show only affordable items"
                         onToggle={(value) => handleToggleChange('showOnlyAffordableItems', value)}
-                        checked={showAffordableItemsOnly}
+                        checked={toggles.showAffordableItemsOnly}
+                    />
+                    <Toggle
+                        label="Show only affordable items"
+                        onToggle={(value) => handleToggleChange('showMythicItems', value)}
+                        checked={toggles.showMythicItems}
                     />
                 </SettingsDrawer>
             </footer>

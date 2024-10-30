@@ -11,9 +11,18 @@ interface ItemListPanelProps {
     showNoPriceItems: Boolean;
     showAffordableItemsOnly: Boolean;
     availableCopper: number;
+    showMythicItems: Boolean;
 }
 
-const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, onItemSelect, showNoPriceItems, showAffordableItemsOnly, availableCopper }) => {
+const ItemListPanel: React.FC<ItemListPanelProps> = ({
+    items,
+    searchConditions,
+    onItemSelect,
+    showNoPriceItems,
+    showAffordableItemsOnly,
+    availableCopper,
+    showMythicItems,
+}) => {
     const [sortCriteria, setSortCriteria] = useState<'name' | 'price'>('name');
     const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
     const [activeTab, setActiveTab] = useState<'consumable' | 'Equipment' | 'all'>('all');
@@ -38,6 +47,10 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({ items, searchConditions, 
         }
 
         if (activeTab === 'Equipment' && item.traits?.some((trait) => trait.toLowerCase().includes('consumable'))) {
+            return false;
+        }
+
+        if (!showMythicItems && item.traits?.some((trait) => trait.toLowerCase().includes('mythic'))) {
             return false;
         }
 

@@ -12,10 +12,18 @@ interface ItemListProps {
     onAddItem: (item: ManifestItem) => void;
     showNoPriceItems: Boolean;
     showAffordableItemsOnly: Boolean;
+    showMythicItems: Boolean;
     availableCopper: number;
 }
 
-const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems, showAffordableItemsOnly, availableCopper }) => {
+const ItemList: React.FC<ItemListProps> = ({ 
+    items, 
+    onAddItem, 
+    showNoPriceItems, 
+    showAffordableItemsOnly, 
+    availableCopper,
+    showMythicItems,    
+}) => {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [searchConditions, setSearchConditions] = useState<SearchCondition[]>([
@@ -60,6 +68,7 @@ const ItemList: React.FC<ItemListProps> = ({ items, onAddItem, showNoPriceItems,
                         showNoPriceItems={showNoPriceItems}
                         availableCopper={availableCopper}
                         showAffordableItemsOnly={showAffordableItemsOnly}
+                        showMythicItems={showMythicItems}
                     />
 
                     {selectedItem && <ItemDetails item={selectedItem} />}
