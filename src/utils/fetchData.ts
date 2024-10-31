@@ -41,6 +41,7 @@ export const fetchEquipmentData = async (forceRefresh = false): Promise<Manifest
                 traits: string[];
                 usage: string;
                 worn: string;
+                publication: string;
             }[] = await manifestResponse.json();
 
             for (const item of manifestItems) {
@@ -62,6 +63,7 @@ export const fetchEquipmentData = async (forceRefresh = false): Promise<Manifest
                         traits: item.traits,
                         usage: item.usage,
                         worn: item.worn,
+                        publication: item.publication
                     };
                     equipmentData.push(manifestItem);
                 } catch (itemError) {

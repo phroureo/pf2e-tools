@@ -26,10 +26,15 @@ const ItemDetails: React.FC<ItemDetailsProps> = ({ item }) => {
                     <TraitPill key={trait} trait={trait} />
                 ))}
             </div>
-            <div className='divider-horizontal' style={{marginTop:"16px"}}></div>
-            <div className='item-description' style={{fontSize: ".9em", marginTop: "16px", marginBottom: "16px"}}><strong>Usage: </strong>{item.usage}</div>
+            {item.usage?.trim() && (
+                <><div className='divider-horizontal' style={{ marginTop: "16px" }}></div>
+                    <div className='item-description' style={{ fontSize: ".9em", marginTop: "16px", marginBottom: "16px" }}><strong>Usage: </strong>{item.usage}</div>)
+                </>
+            )}
             <div className='divider-horizontal'></div>
             <div className="item-description" dangerouslySetInnerHTML={{ __html: item.description || '' }} />
+            <div className='divider-horizontal' style={{ marginBottom: "16px" }}></div>
+            <div className='item-description'>Source: {item.publication}</div>
         </div>
     );
 };

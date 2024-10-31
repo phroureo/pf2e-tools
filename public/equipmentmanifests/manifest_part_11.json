@@ -14,7 +14,8 @@
       "poison"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 4,
@@ -29,7 +30,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Travel Guide"
   },
   {
     "level": 2,
@@ -47,7 +49,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Bestiary 2"
   },
   {
     "level": 17,
@@ -63,7 +66,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 4,
@@ -81,7 +85,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -98,7 +103,8 @@
       "trip"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
   },
   {
     "level": 0,
@@ -110,7 +116,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 11,
@@ -126,7 +133,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -142,7 +150,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 7,
@@ -158,7 +167,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -174,7 +184,8 @@
       "metal"
     ],
     "usage": "Worn Gloves",
-    "worn": "Gloves"
+    "worn": "Gloves",
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 0,
@@ -191,6 +202,7 @@
       "versatile-p"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Impossible Lands"
   }
 ]

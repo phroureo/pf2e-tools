@@ -55,59 +55,107 @@ const Main: React.FC = () => {
         showMythicItems: false,
         showRandomItem: true,
     })
-
-    const handleDrawerBodyHeight = (height: number) => {
-        setDrawerHeight(height);
-      };
-
-    const toggleSettings = () => setShowSettings(!showSettings);
-
-    const addRandomAffordableItem = (): void => {
-        // Filter affordable items based on available copper and price
-        const affordableItems = equipmentData.filter((item: ManifestItem) => {
-            const hasPrice = item.price && item.price.value && (item.price.value.gp || item.price.value.sp || item.price.value.cp);
-            const itemTotalCopper =
-                (item.price?.value?.cp ?? 0) +
-                (item.price?.value?.sp ?? 0) * 10 +
-                (item.price?.value?.gp ?? 0) * 100 +
-                (item.price?.value?.pp ?? 0) * 1000;
-            return hasPrice && itemTotalCopper <= availableCopper;
-        });
-
-        if (affordableItems.length === 0) {
-            console.log("No affordable items available.");
-            return;
+    
+    // Utility to save to localStorage with Type "settings"
+    const saveToLocalStorage = (key: string, data: any, type: string) => {
+        localStorage.setItem(key, JSON.stringify({ Type: type, ...data }));
+    };
+    
+    // Toggle handler
+    const handleToggleChange = (toggleName: string, value: boolean) => {
+        const updatedToggles = { ...toggles, [toggleName]: value };
+        setToggles(updatedToggles);
+        saveToLocalStorage("toggles", updatedToggles, "settings");
+    };
+    
+    // Calculate total and available copper
+    const calculateTotalPrice = (items: ManifestItem[], quantities: Record<number, number>) => {
+        return items.reduce(
+            (acc, item, index) => {
+                const quantity = quantities[index] || 1;
+                const { cp = 0, sp = 0, gp = 0, pp = 0 } = item.price?.value || {};
+                return {
+                    cp: acc.cp + cp * quantity,
+                    sp: acc.sp + sp * quantity,
+                    gp: acc.gp + gp * quantity,
+                    pp: acc.pp + pp * quantity,
+                };
+            },
+            { cp: 0, sp: 0, gp: 0, pp: 0 }
+        );
+    };
+    
+    const calculateAvailableCopper = (lumpSum: number, totalPrice: TotalPrice) => {
+        const totalCopper = totalPrice.cp + totalPrice.sp * 10 + totalPrice.gp * 100 + totalPrice.pp * 1000;
+        return lumpSum * 100 - totalCopper;
+    };
+    
+    useEffect(() => {
+        // Load initial data from localStorage
+        const savedToggles = JSON.parse(localStorage.getItem("toggles") || "{}");
+        if (savedToggles.Type === "settings") setToggles(savedToggles);
+    
+        fetchEquipmentData()
+            .then(setEquipmentData)
+            .catch((error) => console.error("Error fetching equipment data:", error));
+    
+        fetch("/miscjson/levelGold.json")
+            .then((response) => response.json())
+            .then(setLevelData)
+            .catch((error) => console.error("Error loading level data:", error));
+    }, []);
+    
+    useEffect(() => {
+        if (characterLevel) {
+            const levelInfo = levelData.find((entry) => entry.level === characterLevel);
+            if (levelInfo) setLumpSum(levelInfo.lumpSum);
         }
-
-        // Select a random item from affordable items
-        const randomIndex = Math.floor(Math.random() * affordableItems.length);
-        const randomAffordableItem = affordableItems[randomIndex];
-
-        // Add the selected item to selectedItems
-        handleAddItem(randomAffordableItem);
+    }, [characterLevel, levelData]);
+    
+    useEffect(() => {
+        const newTotal = calculateTotalPrice(selectedItems, quantities);
+        setTotalPrice(newTotal);
+        setAvailableCopper(calculateAvailableCopper(lumpSum, newTotal));
+    }, [selectedItems, quantities, lumpSum]);
+    
+    // Handlers
+    const addRandomAffordableItem = () => {
+        const affordableItems = equipmentData.filter((item) => {
+            const itemTotalCopper =
+                (item.price?.value?.cp ?? 0) + (item.price?.value?.sp ?? 0) * 10 +
+                (item.price?.value?.gp ?? 0) * 100 + (item.price?.value?.pp ?? 0) * 1000;
+            return itemTotalCopper <= availableCopper;
+        });
+    
+        if (affordableItems.length > 0) {
+            const randomItem = affordableItems[Math.floor(Math.random() * affordableItems.length)];
+            handleAddItem(randomItem);
+        }
     };
-
-    const handleDelete = (name: string) => {
-        // Force re-fetch by updating the refresh key
-        setRefreshKey(prevKey => prevKey + 1);
+    
+    const handleAddItem = (item: ManifestItem) => {
+        setSelectedItems((prevItems) => [...prevItems, item]);
+        setQuantities((prevQuantities) => ({
+            ...prevQuantities,
+            [selectedItems.length]: 1,
+        }));
     };
-
-    // Handle refresh confirmation and show success message upon completion
+    
+    const handleDelete = () => setRefreshKey((prevKey) => prevKey + 1);
+    
     const handleConfirmRefresh = async () => {
         try {
             const data = await fetchEquipmentData(true);
             setEquipmentData(data);
-            setShowRefreshModal(false); // Close refresh modal
-            setShowConfirmationModal(true); // Show confirmation modal
+            setShowRefreshModal(false);
+            setShowConfirmationModal(true);
         } catch (error) {
-            console.error('Error refreshing equipment data:', error);
+            console.error("Error refreshing equipment data:", error);
         }
     };
-
+    
     const handleSaveData = (name: string, overwrite = false) => {
-        const formattedDate = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
-        const saveKey = overwrite || name === savedName ? name : `${name}_${formattedDate}`;
-
+        const saveKey = overwrite ? name : `${name}_${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}`;
         const dataToSave = {
             Type: "saveData",
             name,
@@ -115,25 +163,24 @@ const Main: React.FC = () => {
             selectedItems,
             characterLevel,
             quantities,
-            lumpSum
+            lumpSum,
         };
         localStorage.setItem(saveKey, JSON.stringify(dataToSave));
         setSavedName(name);
     };
-
+    
     const handleLoadData = (name: string) => {
-        const savedData = JSON.parse(localStorage.getItem(name) || '{}');
-        setSelectedItems(savedData.selectedItems || []);
-        setCharacterLevel(savedData.characterLevel);
-        setQuantities(savedData.quantities || {});
-        setLumpSum(savedData.lumpSum);
-        console.log(savedName);
-        setSavedName(name);
-        console.log(savedName);
+        const savedData = JSON.parse(localStorage.getItem(name) || "{}");
+        if (savedData) {
+            setSelectedItems(savedData.selectedItems || []);
+            setCharacterLevel(savedData.characterLevel);
+            setQuantities(savedData.quantities || {});
+            setLumpSum(savedData.lumpSum);
+            setSavedName(name);
+        }
         setShowLoadModal(false);
     };
-
-
+    
     const handleUploadData = (data: any) => {
         if (data) {
             setSelectedItems(data.selectedItems || []);
@@ -143,60 +190,12 @@ const Main: React.FC = () => {
         }
     };
 
-    useEffect(() => {
-        // Retrieve and parse the saved toggles with Type = "settings"
-        const savedToggles = JSON.parse(localStorage.getItem('toggles') || '{}');
-        if (savedToggles.Type === "settings") {
-            setToggles(savedToggles);
-        }
-    }, []);
-
-
-    const handleToggleChange = (toggleName: string, value: boolean) => {
-        const updatedToggles = {
-            ...toggles,
-            [toggleName]: value,
-        };
-        setToggles(updatedToggles);
-
-        // Save updated toggles to localStorage with Type = "settings"
-        const settingsToSave = {
-            Type: "settings",
-            ...updatedToggles,
-        };
-        localStorage.setItem('toggles', JSON.stringify(settingsToSave));
+    const handleDrawerBodyHeight = (height: number) => {
+        setDrawerHeight(height);
     };
-
-
-    useEffect(() => {
-        fetchEquipmentData()
-            .then((data) => setEquipmentData(data))
-            .catch((error) => console.error('Error fetching equipment data:', error));
-    }, []);
-
-
-    useEffect(() => {
-        fetch('/miscjson/levelGold.json')
-            .then((response) => response.json())
-            .then((data) => setLevelData(data))
-            .catch((error) => console.error('Error loading level data:', error));
-    }, []);
-
-    useEffect(() => {
-        const levelInfo = levelData.find((entry) => entry.level === characterLevel);
-        if (levelInfo) {
-            setLumpSum(levelInfo.lumpSum);
-        }
-    }, [characterLevel, levelData]);
-
-    const handleAddItem = (item: ManifestItem) => {
-        setSelectedItems((prevItems) => [...prevItems, item]);
-        setQuantities((prevQuantities) => ({
-            ...prevQuantities,
-            [selectedItems.length]: 1,
-        }));
-    };
-
+    
+    const toggleSettings = () => setShowSettings((prev) => !prev);
+    
     const handleRemoveItem = (index: number) => {
         setSelectedItems((prevItems) => prevItems.filter((_, i) => i !== index));
         setQuantities((prevQuantities) => {
@@ -205,58 +204,15 @@ const Main: React.FC = () => {
             return newQuantities;
         });
     };
-
+    
     const handleQuantityChange = (index: number, delta: number) => {
-        setQuantities((prevQuantities) => {
-            const currentQuantity = prevQuantities[index] || 1;
-            const newQuantity = Math.max(1, currentQuantity + delta);
-            return {
-                ...prevQuantities,
-                [index]: newQuantity,
-            };
-        });
+        setQuantities((prevQuantities) => ({
+            ...prevQuantities,
+            [index]: Math.max(1, (prevQuantities[index] || 1) + delta),
+        }));
     };
-
-    useEffect(() => {
-        // Calculate total price in copper pieces
-        const totalCopper = (totalPrice.cp ?? 0) + (totalPrice.sp ?? 0) * 10 + (totalPrice.gp ?? 0) * 100 + (totalPrice.pp ?? 0) * 1000;
-
-        // Calculate available gold by subtracting total price from lump sum (also in copper pieces)
-        const availableCopper = lumpSum * 100 - totalCopper;
-
-        // Convert copper back to gp, sp, and cp format
-        const pp = Math.floor(availableCopper / 1000);
-        const gp = Math.floor((availableCopper % 1000) / 100);
-        const sp = Math.floor((availableCopper % 100) / 10);
-        const cp = availableCopper % 10;
-
-        // Set available gold in the required format
-        setAvailableCopper(availableCopper);
-        console.log(availableCopper);
-    }, [lumpSum, totalPrice]);
-
-    useEffect(() => {
-        // Calculate total price based on selectedItems and quantities
-        const newTotal = selectedItems.reduce(
-            (acc: TotalPrice, item: ManifestItem, index: number) => {
-                const quantity = quantities[index] || 1;
-                const itemPrice = item.price?.value || { cp: 0, sp: 0, gp: 0, pp: 0 };
-
-                return {
-                    cp: acc.cp + (itemPrice.cp ?? 0) * quantity,
-                    sp: acc.sp + (itemPrice.sp ?? 0) * quantity,
-                    gp: acc.gp + (itemPrice.gp ?? 0) * quantity,
-                    pp: acc.pp + (itemPrice.pp ?? 0) * quantity,
-                };
-            },
-            { cp: 0, sp: 0, gp: 0, pp: 0 }
-        );
-
-        setTotalPrice(newTotal);
-    }, [selectedItems, quantities]);
-
-    // Simplify the total price for display
-    const simplifiedTotalPrice = simplifyPrice(totalPrice);
+    
+    
 
     return (
         <>

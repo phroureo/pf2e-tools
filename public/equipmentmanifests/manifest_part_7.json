@@ -13,7 +13,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
   },
   {
     "level": 14,
@@ -29,7 +30,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
   },
   {
     "level": 4,
@@ -45,7 +47,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
   },
   {
     "level": 6,
@@ -59,7 +62,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 10,
@@ -73,7 +77,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 13,
@@ -87,7 +92,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 17,
@@ -101,7 +107,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 5,
@@ -120,7 +127,8 @@
       "versatile-s"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Beginner Box"
   },
   {
     "level": 10,
@@ -136,7 +144,8 @@
       "shove"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -151,7 +160,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #188: They Watched the Stars"
   },
   {
     "level": 12,
@@ -166,7 +176,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #188: They Watched the Stars"
   },
   {
     "level": 3,
@@ -181,7 +192,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #188: They Watched the Stars"
   },
   {
     "level": 1,
@@ -196,7 +208,8 @@
       "modular"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Gods & Magic"
   },
   {
     "level": 9,
@@ -210,7 +223,8 @@
       "magical"
     ],
     "usage": "Applied To Footwear",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 1,
@@ -226,7 +240,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 5,
@@ -243,7 +258,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -255,7 +271,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -267,7 +284,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 3,
@@ -279,7 +297,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Knights of Lastwall"
   },
   {
     "level": 2,
@@ -291,7 +310,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
   },
   {
     "level": 8,
@@ -303,7 +323,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 15,
@@ -318,7 +339,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -330,7 +352,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 3,
@@ -342,7 +365,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 1,
@@ -354,7 +378,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 5,
@@ -366,7 +391,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 9,
@@ -380,7 +406,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 18,
@@ -394,7 +421,8 @@
       "magical"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 9,
@@ -410,7 +438,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 15,
@@ -426,7 +455,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 1,
@@ -442,7 +472,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 14,
@@ -458,7 +489,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -474,7 +506,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -490,7 +523,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -506,7 +540,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -522,7 +557,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 18,
@@ -538,7 +574,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -554,7 +591,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 6,
@@ -570,7 +608,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 20,
@@ -586,7 +625,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #182: Graveclaw"
   },
   {
     "level": 10,
@@ -602,7 +642,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #182: Graveclaw"
   },
   {
     "level": 15,
@@ -618,7 +659,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #182: Graveclaw"
   },
   {
     "level": 14,
@@ -634,7 +676,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -650,7 +693,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -666,7 +710,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -682,7 +727,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -698,7 +744,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 18,
@@ -714,7 +761,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -730,7 +778,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 6,
@@ -746,7 +795,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 11,
@@ -763,7 +813,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 5,
@@ -780,7 +831,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 8,
@@ -797,7 +849,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 14,
@@ -813,7 +866,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -829,7 +883,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -845,7 +900,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -861,7 +917,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -877,7 +934,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 18,
@@ -893,7 +951,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -909,7 +968,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 6,
@@ -925,7 +985,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -941,7 +1002,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 14,
@@ -957,7 +1019,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -973,7 +1036,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -989,7 +1053,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 12,
@@ -1005,7 +1070,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -1021,7 +1087,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 18,
@@ -1037,7 +1104,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -1053,7 +1121,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 6,
@@ -1069,7 +1138,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 15,
@@ -1085,7 +1155,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 8,
@@ -1101,7 +1172,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -1118,7 +1190,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 5,
@@ -1134,7 +1207,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 9,
@@ -1150,7 +1224,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 4,
@@ -1166,7 +1241,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #205: Singer, Stalker, Skinsaw Man"
   },
   {
     "level": 8,
@@ -1182,7 +1258,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 14,
@@ -1198,7 +1275,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -1214,7 +1292,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -1230,7 +1309,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 8,
@@ -1246,7 +1326,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 1,
@@ -1263,7 +1344,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 14,
@@ -1279,7 +1361,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -1295,7 +1378,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -1311,7 +1395,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 16,
@@ -1327,7 +1412,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 10,
@@ -1343,7 +1429,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 11,
@@ -1359,7 +1446,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -1375,7 +1463,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -1391,7 +1480,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 18,
@@ -1408,7 +1498,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 3,
@@ -1424,7 +1515,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 13,
@@ -1439,7 +1531,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 4,
@@ -1454,7 +1547,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -1469,7 +1563,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -1483,7 +1578,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 0,
@@ -1493,7 +1589,8 @@
     "rarity": "unique",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 7,
@@ -1508,7 +1605,8 @@
       "bulwark"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -1520,7 +1618,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 1,
@@ -1536,7 +1635,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 1,
@@ -1550,7 +1650,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 10,
@@ -1564,7 +1665,8 @@
       "magical"
     ],
     "usage": "Applied To Any Visible Article Of Clothing",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 3,
@@ -1578,7 +1680,8 @@
       "magical"
     ],
     "usage": "Applied To Any Visible Article Of Clothing",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 7,
@@ -1593,7 +1696,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
   },
   {
     "level": 8,
@@ -1607,7 +1711,8 @@
       "magical"
     ],
     "usage": "Applied To A Basket Bag Or Other Container",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -1621,7 +1726,8 @@
       "magical"
     ],
     "usage": "Applied To A Basket Bag Or Other Container",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 11,
@@ -1639,7 +1745,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Special: Fumbus!"
   },
   {
     "level": 1,
@@ -1657,7 +1764,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Special: Fumbus!"
   },
   {
     "level": 17,
@@ -1675,7 +1783,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Special: Fumbus!"
   },
   {
     "level": 3,
@@ -1693,7 +1802,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Special: Fumbus!"
   },
   {
     "level": 0,
@@ -1705,7 +1815,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 11,
@@ -1723,7 +1834,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #194: Cult of the Cave Worm"
   },
   {
     "level": 1,
@@ -1741,7 +1853,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #194: Cult of the Cave Worm"
   },
   {
     "level": 17,
@@ -1759,7 +1872,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #194: Cult of the Cave Worm"
   },
   {
     "level": 3,
@@ -1777,7 +1891,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #194: Cult of the Cave Worm"
   },
   {
     "level": 5,
@@ -1795,7 +1910,8 @@
       "primal"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #201: Pactbreaker"
   },
   {
     "level": 4,
@@ -1810,7 +1926,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Character Guide"
   },
   {
     "level": 0,
@@ -1820,7 +1937,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 14,
@@ -1835,7 +1953,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -1850,7 +1969,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 23,
@@ -1866,7 +1986,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #176: Lost Mammoth Valley"
   },
   {
     "level": 9,
@@ -1880,7 +2001,8 @@
       "clockwork"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 17,
@@ -1895,7 +2017,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 9,
@@ -1912,7 +2035,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #196: The Summer That Never Was"
   },
   {
     "level": 1,
@@ -1929,7 +2053,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #196: The Summer That Never Was"
   },
   {
     "level": 5,
@@ -1946,7 +2071,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #196: The Summer That Never Was"
   },
   {
     "level": 6,
@@ -1961,7 +2087,8 @@
       "structure"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 0,
@@ -1976,7 +2103,8 @@
       "sweep"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 18,
@@ -1991,7 +2119,8 @@
       "invested"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 10,
@@ -2006,7 +2135,8 @@
       "invested"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 13,
@@ -2021,7 +2151,8 @@
       "magical"
     ],
     "usage": "Worn Shoes",
-    "worn": "Shoes"
+    "worn": "Shoes",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 0,
@@ -2033,7 +2164,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 13,
@@ -2048,7 +2180,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 8,
@@ -2064,7 +2197,8 @@
       "elixir"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #189: Dreamers of the Nameless Spires"
   },
   {
     "level": 3,
@@ -2078,7 +2212,8 @@
       "consumable"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 1,
@@ -2093,7 +2228,8 @@
       "magical"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #169: Kindled Magic"
   },
   {
     "level": 5,
@@ -2109,7 +2245,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -2128,7 +2265,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 13,
@@ -2146,7 +2284,8 @@
       "poison"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 5,
@@ -2163,7 +2302,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 12,
@@ -2179,7 +2319,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #199: To Bloom Below the Web"
   },
   {
     "level": 2,
@@ -2194,7 +2335,8 @@
       "wood"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 1,
@@ -2209,7 +2351,8 @@
       "wood"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 1,
@@ -2224,7 +2367,8 @@
       "wood"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 18,
@@ -2241,7 +2385,8 @@
       "magical"
     ],
     "usage": "Worn Cloak",
-    "worn": "Cloak"
+    "worn": "Cloak",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -2256,7 +2401,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #155: Lord of the Black Sands"
   },
   {
     "level": 7,
@@ -2272,7 +2418,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Adventure: The Slithering"
   },
   {
     "level": 3,
@@ -2286,7 +2433,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Adventure: A Few Flowers More"
   },
   {
     "level": 3,
@@ -2298,7 +2446,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 3,
@@ -2310,7 +2459,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 1,
@@ -2322,7 +2472,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 1,
@@ -2334,7 +2485,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 0,
@@ -2346,7 +2498,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 0,
@@ -2358,7 +2511,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 2,
@@ -2372,7 +2526,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Beginner Box"
   },
   {
     "level": 0,
@@ -2384,7 +2539,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 11,
@@ -2400,7 +2556,8 @@
       "fire"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #179: Cradle of Quartz"
   },
   {
     "level": 0,
@@ -2418,7 +2575,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Absalom, City of Lost Omens"
   },
   {
     "level": 0,
@@ -2430,7 +2588,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -2442,7 +2601,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -2454,7 +2614,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -2466,7 +2627,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 17,
@@ -2481,7 +2643,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 7,
@@ -2496,7 +2659,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 12,
@@ -2511,7 +2675,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 10,
@@ -2525,7 +2690,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 14,
@@ -2539,7 +2705,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -2555,7 +2722,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 18,
@@ -2569,7 +2737,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 6,
@@ -2583,7 +2752,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 2,
@@ -2593,7 +2763,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Firebrands"
   },
   {
     "level": 12,
@@ -2608,7 +2779,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 5,
@@ -2623,7 +2795,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 2,
@@ -2639,7 +2812,8 @@
       "magical"
     ],
     "usage": "Worn Headwear",
-    "worn": "Headwear"
+    "worn": "Headwear",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 12,
@@ -2654,7 +2828,8 @@
       "consumable"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #176: Lost Mammoth Valley"
   },
   {
     "level": 2,
@@ -2669,7 +2844,8 @@
       "consumable"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #176: Lost Mammoth Valley"
   },
   {
     "level": 4,
@@ -2684,7 +2860,8 @@
       "consumable"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #176: Lost Mammoth Valley"
   },
   {
     "level": 3,
@@ -2696,7 +2873,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 11,
@@ -2714,7 +2892,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -2732,7 +2911,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 17,
@@ -2750,7 +2930,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -2768,7 +2949,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 16,
@@ -2782,7 +2964,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 11,
@@ -2796,7 +2979,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 0,
@@ -2810,7 +2994,8 @@
       "comfort"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -2831,7 +3016,8 @@
       "reach"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Character Guide"
   },
   {
     "level": 18,
@@ -2846,7 +3032,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 20,
@@ -2861,7 +3048,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 16,
@@ -2876,7 +3064,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 25,
@@ -2889,7 +3078,8 @@
       "occult"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #162: Ruins of the Radiant Siege"
   },
   {
     "level": 5,
@@ -2904,7 +3094,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -2920,7 +3111,8 @@
       "elixir"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
   },
   {
     "level": 4,
@@ -2936,7 +3128,8 @@
       "elixir"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
   },
   {
     "level": 10,
@@ -2953,7 +3146,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 12,
@@ -2967,7 +3161,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 3,
@@ -2982,7 +3177,8 @@
       "magical"
     ],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -2997,7 +3193,8 @@
       "reach"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -3014,7 +3211,8 @@
       "fatal-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -3030,7 +3228,8 @@
       "finesse"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 3,
@@ -3042,7 +3241,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Firebrands"
   },
   {
     "level": 11,
@@ -3057,7 +3257,8 @@
       "thrown-20"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Gods & Magic"
   },
   {
     "level": 7,
@@ -3073,7 +3274,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 1,
@@ -3089,7 +3291,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 0,
@@ -3101,7 +3304,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -3115,7 +3319,8 @@
       "aquadynamic"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder War of Immortals"
   },
   {
     "level": 13,
@@ -3131,7 +3336,8 @@
       "magical"
     ],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #1"
   },
   {
     "level": 4,
@@ -3147,7 +3353,8 @@
       "magical"
     ],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #1"
   },
   {
     "level": 3,
@@ -3162,7 +3369,8 @@
       "primal"
     ],
     "usage": "Worn Armbands",
-    "worn": "Armbands"
+    "worn": "Armbands",
+    "publication": "Pathfinder #175: Broken Tusk Moon"
   },
   {
     "level": 10,
@@ -3177,7 +3385,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 0,
@@ -3192,7 +3401,8 @@
       "shield-throw-20"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 4,
@@ -3208,7 +3418,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 12,
@@ -3222,7 +3433,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 1,
@@ -3236,7 +3448,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 11,
@@ -3250,7 +3463,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -3264,7 +3478,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 9,
@@ -3281,7 +3496,8 @@
       "trip"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 11,
@@ -3297,7 +3513,8 @@
       "kickback"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 5,
@@ -3317,7 +3534,8 @@
       "twin"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
   },
   {
     "level": 13,
@@ -3336,7 +3554,8 @@
       "void"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #203: Shepherd of Decay"
   },
   {
     "level": 13,
@@ -3354,7 +3573,8 @@
       "void"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -3370,7 +3590,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -3387,7 +3608,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 20,
@@ -3402,7 +3624,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 3,
@@ -3418,7 +3641,8 @@
       "scrying"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
   },
   {
     "level": 5,
@@ -3433,7 +3657,8 @@
       "scrying"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
   },
   {
     "level": 3,
@@ -3447,7 +3672,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 12,
@@ -3464,7 +3690,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 17,
@@ -3481,7 +3708,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 7,
@@ -3498,7 +3726,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 7,
@@ -3515,7 +3744,8 @@
       "missive"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 21,
@@ -3531,7 +3761,8 @@
       "magical"
     ],
     "usage": "Worn Backpack",
-    "worn": "Backpack"
+    "worn": "Backpack",
+    "publication": "Pathfinder #206: Bring the House Down"
   },
   {
     "level": 14,
@@ -3546,7 +3777,8 @@
       "consumable"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #171: Hurricane's Howl"
   },
   {
     "level": 2,
@@ -3561,7 +3793,8 @@
       "consumable"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #171: Hurricane's Howl"
   },
   {
     "level": 7,
@@ -3576,7 +3809,8 @@
       "consumable"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #171: Hurricane's Howl"
   },
   {
     "level": 7,
@@ -3591,7 +3825,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder #197: Let the Leaves Fall"
   },
   {
     "level": 11,
@@ -3610,7 +3845,8 @@
       "mental"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #180: The Smoking Gun"
   },
   {
     "level": 11,
@@ -3628,7 +3864,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Blog"
   },
   {
     "level": 1,
@@ -3646,7 +3883,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Blog"
   },
   {
     "level": 17,
@@ -3664,7 +3902,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Blog"
   },
   {
     "level": 3,
@@ -3682,7 +3921,8 @@
       "splash"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Blog"
   },
   {
     "level": 23,
@@ -3695,7 +3935,8 @@
       "divine"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #186: Ghost King's Rage"
   },
   {
     "level": 5,
@@ -3710,7 +3951,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #180: The Smoking Gun"
   },
   {
     "level": 15,
@@ -3724,7 +3966,8 @@
       "aquadynamic"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 12,
@@ -3738,7 +3981,8 @@
       "aquadynamic"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 1,
@@ -3757,7 +4001,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: World Guide"
   },
   {
     "level": 14,
@@ -3775,7 +4020,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 17,
@@ -3791,7 +4037,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -3807,7 +4054,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 18,
@@ -3821,7 +4069,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -3837,7 +4086,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 15,
@@ -3851,7 +4101,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #148: Fires of the Haunted City"
   },
   {
     "level": 0,
@@ -3863,7 +4114,8 @@
       "comfort"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -3879,7 +4131,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -3893,7 +4146,8 @@
       "adjustment"
     ],
     "usage": "Applied To Medium Heavy Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 0,
@@ -3909,7 +4163,8 @@
       "free-hand"
     ],
     "usage": "Worn Gloves",
-    "worn": "Gloves"
+    "worn": "Gloves",
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 13,
@@ -3923,7 +4178,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -3937,7 +4193,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 16,
@@ -3951,7 +4208,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 4,
@@ -3965,7 +4223,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -3979,7 +4238,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 19,
@@ -3993,7 +4253,8 @@
       "magical"
     ],
     "usage": "Etched Onto A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 0,
@@ -4005,7 +4266,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -4017,7 +4279,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -4029,7 +4292,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 10,
@@ -4044,7 +4308,8 @@
       "laminar"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 5,
@@ -4058,7 +4323,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 14,
@@ -4076,7 +4342,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 3,
@@ -4088,7 +4355,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -4100,7 +4368,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 0,
@@ -4112,7 +4381,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 1,
@@ -4126,7 +4396,8 @@
       "repeating"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -4138,7 +4409,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 1,
@@ -4152,7 +4424,8 @@
       "repeating"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -4164,7 +4437,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 1,
@@ -4178,7 +4452,8 @@
       "repeating"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 1,
@@ -4190,7 +4465,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Bonded",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 10,
@@ -4202,7 +4478,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Bonded",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 5,
@@ -4214,7 +4491,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Bonded",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 16,
@@ -4231,7 +4509,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
   },
   {
     "level": 14,
@@ -4245,7 +4524,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 20,
@@ -4259,7 +4539,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 8,
@@ -4273,7 +4554,8 @@
       "magical"
     ],
     "usage": "Etched Onto Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -4288,7 +4570,8 @@
       "magical"
     ],
     "usage": "Worn Headwear",
-    "worn": "Headwear"
+    "worn": "Headwear",
+    "publication": "Pathfinder #197: Let the Leaves Fall"
   },
   {
     "level": 12,
@@ -4304,7 +4587,8 @@
       "sonic"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 11,
@@ -4320,7 +4604,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 11,
@@ -4336,7 +4621,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 7,
@@ -4352,7 +4638,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 12,
@@ -4368,7 +4655,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 5,
@@ -4384,7 +4672,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 6,
@@ -4400,7 +4689,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 7,
@@ -4414,7 +4704,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 5,
@@ -4431,7 +4722,8 @@
       "tea"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #197: Let the Leaves Fall"
   },
   {
     "level": 14,
@@ -4445,7 +4737,8 @@
       "magical"
     ],
     "usage": "Applied To Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 6,
@@ -4459,7 +4752,8 @@
       "magical"
     ],
     "usage": "Applied To Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 19,
@@ -4473,7 +4767,8 @@
       "magical"
     ],
     "usage": "Applied To Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 10,
@@ -4487,7 +4782,8 @@
       "magical"
     ],
     "usage": "Applied To Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -4502,7 +4798,8 @@
       "sweep"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 21,
@@ -4519,7 +4816,8 @@
       "finesse"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #206: Bring the House Down"
   },
   {
     "level": 9,
@@ -4535,7 +4833,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 13,
@@ -4551,7 +4850,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -4567,7 +4867,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -4583,7 +4884,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 3,
@@ -4599,7 +4901,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 3,
@@ -4613,7 +4916,8 @@
       "magical"
     ],
     "usage": "Etched Onto Thrown Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -4628,7 +4932,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -4643,7 +4948,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -4659,7 +4965,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 11,
@@ -4675,7 +4982,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Shield",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 5,
@@ -4691,7 +4999,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #170: Spoken on the Song Wind"
   },
   {
     "level": 5,
@@ -4706,7 +5015,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 8,
@@ -4721,7 +5031,8 @@
       "magical"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #169: Kindled Magic"
   },
   {
     "level": 4,
@@ -4736,7 +5047,8 @@
       "magical"
     ],
     "usage": "Worn Mask",
-    "worn": "Mask"
+    "worn": "Mask",
+    "publication": "Pathfinder #169: Kindled Magic"
   },
   {
     "level": 0,
@@ -4748,7 +5060,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -4763,7 +5076,8 @@
       "two-hand-d10"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #165: Eyes of Empty Death"
   },
   {
     "level": 4,
@@ -4778,7 +5092,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #169: Kindled Magic"
   },
   {
     "level": 1,
@@ -4793,7 +5108,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #169: Kindled Magic"
   },
   {
     "level": 14,
@@ -4808,7 +5124,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 20,
@@ -4821,7 +5138,8 @@
       "versatile-p"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Monsters of Myth"
   },
   {
     "level": 8,
@@ -4835,7 +5153,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #164: Hands of the Devil"
   },
   {
     "level": 8,
@@ -4851,7 +5170,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -4867,7 +5187,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -4883,7 +5204,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 11,
@@ -4899,7 +5221,8 @@
       "finesse"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 10,
@@ -4913,7 +5236,8 @@
       "magical"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #189: Dreamers of the Nameless Spires"
   },
   {
     "level": 9,
@@ -4929,7 +5253,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Kingmaker"
   },
   {
     "level": 12,
@@ -4944,7 +5269,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 10,
@@ -4959,7 +5285,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 1,
@@ -4976,7 +5303,8 @@
       "visual"
     ],
     "usage": "Worn Ring",
-    "worn": "Ring"
+    "worn": "Ring",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 10,
@@ -4991,7 +5319,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 18,
@@ -5006,7 +5335,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 11,
@@ -5021,7 +5351,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 5,
@@ -5036,7 +5367,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Adventure: The Fall of Plaguestone"
   },
   {
     "level": 10,
@@ -5051,7 +5383,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Firebrands"
   },
   {
     "level": 3,
@@ -5066,7 +5399,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Firebrands"
   },
   {
     "level": 7,
@@ -5081,7 +5415,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Firebrands"
   },
   {
     "level": 7,
@@ -5097,7 +5432,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 20,
@@ -5112,7 +5448,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder #162: Ruins of the Radiant Siege"
   },
   {
     "level": 6,
@@ -5127,7 +5464,8 @@
       "invested"
     ],
     "usage": "Worn Ring",
-    "worn": "Ring"
+    "worn": "Ring",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 1,
@@ -5142,7 +5480,8 @@
       "invested"
     ],
     "usage": "Worn Ring",
-    "worn": "Ring"
+    "worn": "Ring",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 7,
@@ -5156,7 +5495,8 @@
       "magical"
     ],
     "usage": "Worn Ring",
-    "worn": "Ring"
+    "worn": "Ring",
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 20,
@@ -5171,7 +5511,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 12,
@@ -5188,7 +5529,8 @@
       "teleportation"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder #153: Life's Long Shadows"
   },
   {
     "level": 7,
@@ -5203,7 +5545,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 12,
@@ -5218,7 +5561,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 13,
@@ -5234,7 +5578,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 6,
@@ -5250,7 +5595,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 10,
@@ -5266,7 +5612,8 @@
       "primal"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Kingmaker"
   },
   {
     "level": 5,
@@ -5282,7 +5629,8 @@
       "primal"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Kingmaker"
   },
   {
     "level": 5,
@@ -5296,7 +5644,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Adventure: The Fall of Plaguestone"
   },
   {
     "level": 3,
@@ -5311,7 +5660,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Adventure: Crown of the Kobold King"
   },
   {
     "level": 10,
@@ -5325,7 +5675,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 7,
@@ -5340,7 +5691,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 10,
@@ -5355,7 +5707,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 12,
@@ -5370,7 +5723,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 14,
@@ -5385,7 +5739,8 @@
       "invested"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 12,
@@ -5402,7 +5757,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #152: Legacy of the Lost God"
   },
   {
     "level": 6,
@@ -5419,7 +5775,8 @@
       "two-hand-d8"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #152: Legacy of the Lost God"
   },
   {
     "level": 1,
@@ -5431,7 +5788,8 @@
       "comfort"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Mwangi Expanse"
   },
   {
     "level": 18,
@@ -5448,7 +5806,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -5465,7 +5824,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -5482,7 +5842,8 @@
       "sonic"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 17,
@@ -5497,7 +5858,8 @@
       "magical"
     ],
     "usage": "Worn Garment",
-    "worn": "Garment"
+    "worn": "Garment",
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 8,
@@ -5509,7 +5871,8 @@
       "invested"
     ],
     "usage": "Worn Clothing",
-    "worn": "Clothing"
+    "worn": "Clothing",
+    "publication": "Pathfinder Blog: April Fools"
   },
   {
     "level": 11,
@@ -5525,7 +5888,8 @@
       "magical"
     ],
     "usage": "Worn Garment",
-    "worn": "Garment"
+    "worn": "Garment",
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 19,
@@ -5539,7 +5903,8 @@
       "comfort"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 15,
@@ -5553,7 +5918,8 @@
       "comfort"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 13,
@@ -5569,7 +5935,8 @@
       "saggorak"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #148: Fires of the Haunted City"
   },
   {
     "level": 3,
@@ -5586,7 +5953,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 20,
@@ -5600,7 +5968,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Advanced Player's Guide"
   },
   {
     "level": 14,
@@ -5614,7 +5983,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 15,
@@ -5631,7 +6001,8 @@
       "versatile-s"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Kingmaker"
   },
   {
     "level": 8,
@@ -5646,7 +6017,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
   },
   {
     "level": 7,
@@ -5661,7 +6033,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder #197: Let the Leaves Fall"
   },
   {
     "level": 11,
@@ -5677,7 +6050,8 @@
       "wood"
     ],
     "usage": "Etched Onto Melee Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 15,
@@ -5693,7 +6067,8 @@
       "wood"
     ],
     "usage": "Etched Onto Melee Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 19,
@@ -5709,7 +6084,8 @@
       "wood"
     ],
     "usage": "Etched Onto Melee Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 7,
@@ -5725,7 +6101,8 @@
       "wood"
     ],
     "usage": "Etched Onto Melee Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 0,
@@ -5744,7 +6121,8 @@
       "trip"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 7,
@@ -5758,7 +6136,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Advanced Player's Guide"
   },
   {
     "level": 3,
@@ -5772,7 +6151,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Advanced Player's Guide"
   },
   {
     "level": 5,
@@ -5786,7 +6166,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Advanced Player's Guide"
   },
   {
     "level": 0,
@@ -5798,7 +6179,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 10,
@@ -5813,7 +6195,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 0,
@@ -5827,7 +6210,8 @@
       "capacity-4"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -5841,7 +6225,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5855,7 +6240,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5869,7 +6255,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5883,7 +6270,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5897,7 +6285,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5911,7 +6300,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5925,7 +6315,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5939,7 +6330,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5953,7 +6345,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5967,7 +6360,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5981,7 +6375,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -5995,7 +6390,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6009,7 +6405,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6023,7 +6420,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6037,7 +6435,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6051,7 +6450,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6065,7 +6465,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6079,7 +6480,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6093,7 +6495,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6107,7 +6510,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6121,7 +6525,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6135,7 +6540,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6149,7 +6555,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6163,7 +6570,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6177,7 +6585,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6191,7 +6600,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6205,7 +6615,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6219,7 +6630,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6233,7 +6645,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6247,7 +6660,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6261,7 +6675,8 @@
       "alchemical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 18,
@@ -6277,7 +6692,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -6293,7 +6709,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 16,
@@ -6309,7 +6726,8 @@
       "fatal-d12"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
   },
   {
     "level": 0,
@@ -6321,7 +6739,8 @@
     "rarity": "uncommon",
     "traits": [],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 14,
@@ -6337,7 +6756,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Magical Staff",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 18,
@@ -6353,7 +6773,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Magical Staff",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 10,
@@ -6369,7 +6790,8 @@
       "talisman"
     ],
     "usage": "Affixed To A Magical Staff",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -6381,7 +6803,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -6393,7 +6816,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 14,
@@ -6407,7 +6831,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Legends"
   },
   {
     "level": 0,
@@ -6419,7 +6844,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
   },
   {
     "level": 12,
@@ -6435,7 +6861,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6451,7 +6878,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6467,7 +6895,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6483,7 +6912,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6500,7 +6930,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6516,7 +6947,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6532,7 +6964,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 12,
@@ -6548,7 +6981,8 @@
       "tattoo"
     ],
     "usage": "Tattooed On The Body",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 8,
@@ -6563,7 +6997,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #176: Lost Mammoth Valley"
   },
   {
     "level": 1,
@@ -6578,7 +7013,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 1,
@@ -6593,7 +7029,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Adventure: Rusthenge"
   },
   {
     "level": 17,
@@ -6611,7 +7048,8 @@
       "trip"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 10,
@@ -6629,7 +7067,8 @@
       "trip"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 18,
@@ -6645,7 +7084,8 @@
       "force"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 13,
@@ -6661,7 +7101,8 @@
       "force"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -6675,7 +7116,8 @@
       "laminar"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 8,
@@ -6692,7 +7134,8 @@
       "trap"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Monsters of Myth"
   },
   {
     "level": 4,
@@ -6709,7 +7152,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 1,
@@ -6723,7 +7167,8 @@
       "consumable"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Adventure: A Fistful of Flowers"
   },
   {
     "level": 0,
@@ -6735,7 +7180,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 19,
@@ -6752,7 +7198,8 @@
       "magical"
     ],
     "usage": "Worn Headwear",
-    "worn": "Headwear"
+    "worn": "Headwear",
+    "publication": "Pathfinder #206: Bring the House Down"
   },
   {
     "level": 0,
@@ -6764,7 +7211,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 5,
@@ -6780,7 +7228,8 @@
       "talisman"
     ],
     "usage": "Affixed To Headgear",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #202: Severed at the Root"
   },
   {
     "level": 18,
@@ -6796,7 +7245,8 @@
       "magical"
     ],
     "usage": "Worn Belt",
-    "worn": "Belt"
+    "worn": "Belt",
+    "publication": "Pathfinder Secrets of Magic"
   },
   {
     "level": 0,
@@ -6814,7 +7264,8 @@
       "versatile-b"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 7,
@@ -6831,7 +7282,8 @@
       "oil"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #152: Legacy of the Lost God"
   },
   {
     "level": 0,
@@ -6843,7 +7295,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 10,
@@ -6860,7 +7313,8 @@
       "potion"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 5,
@@ -6874,7 +7328,8 @@
       "talisman"
     ],
     "usage": "Affixed To Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Society Scenario #6-05: Silver Bark, Golden Blades"
   },
   {
     "level": 12,
@@ -6891,7 +7346,8 @@
       "oil"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 6,
@@ -6908,7 +7364,8 @@
       "oil"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 0,
@@ -6922,7 +7379,8 @@
       "deflecting-physical-ranged"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 5,
@@ -6937,7 +7395,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 11,
@@ -6954,7 +7413,8 @@
       "vitality"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder #199: To Bloom Below the Web"
   },
   {
     "level": 18,
@@ -6970,7 +7430,8 @@
       "magical"
     ],
     "usage": "Worn Sandles",
-    "worn": "Sandles"
+    "worn": "Sandles",
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 12,
@@ -6985,7 +7446,8 @@
       "wood"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 11,
@@ -7001,7 +7463,8 @@
       "structure"
     ],
     "usage": "Other",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 13,
@@ -7015,7 +7478,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Monsters of Myth"
   },
   {
     "level": 12,
@@ -7031,7 +7495,8 @@
       "void"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -7047,7 +7512,8 @@
       "void"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -7063,7 +7529,8 @@
       "void"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 14,
@@ -7078,7 +7545,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -7093,7 +7561,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 11,
@@ -7111,7 +7580,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 1,
@@ -7129,7 +7599,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 17,
@@ -7147,7 +7618,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -7165,7 +7637,8 @@
       "polymorph"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 17,
@@ -7180,7 +7653,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 10,
@@ -7195,7 +7669,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 2,
@@ -7211,7 +7686,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Adventure: Rusthenge"
   },
   {
     "level": 0,
@@ -7225,7 +7701,8 @@
       "laminar"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder War of Immortals"
   },
   {
     "level": 0,
@@ -7242,7 +7719,8 @@
       "parry"
     ],
     "usage": "Held In Two Hands",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -7257,7 +7735,8 @@
       "nonlethal"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 12,
@@ -7271,7 +7750,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 6,
@@ -7285,7 +7765,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -7299,7 +7780,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 3,
@@ -7313,7 +7795,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -7327,7 +7810,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 18,
@@ -7341,7 +7825,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 0,
@@ -7353,7 +7838,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -7365,7 +7851,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 0,
@@ -7377,7 +7864,8 @@
     "rarity": "common",
     "traits": [],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
   },
   {
     "level": 6,
@@ -7396,7 +7884,8 @@
       "poison"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
   },
   {
     "level": 6,
@@ -7412,7 +7901,8 @@
       "magical"
     ],
     "usage": "",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   },
   {
     "level": 17,
@@ -7428,7 +7918,8 @@
       "magical"
     ],
     "usage": "Worn Garment",
-    "worn": "Garment"
+    "worn": "Garment",
+    "publication": "Pathfinder #192: Worst of All Possible Worlds"
   },
   {
     "level": 17,
@@ -7444,7 +7935,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 10,
@@ -7460,7 +7952,8 @@
       "magical"
     ],
     "usage": "Worn",
-    "worn": "Worn"
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
   },
   {
     "level": 11,
@@ -7475,7 +7968,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 15,
@@ -7490,7 +7984,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 9,
@@ -7505,7 +8000,8 @@
       "spellheart"
     ],
     "usage": "Affixed To Armor Or A Weapon",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
   },
   {
     "level": 2,
@@ -7522,7 +8018,8 @@
       "talisman"
     ],
     "usage": "Affixed To Armor",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder GM Core"
   },
   {
     "level": 0,
@@ -7538,7 +8035,8 @@
       "twin"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Player Core"
   },
   {
     "level": 13,
@@ -7556,7 +8054,8 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   },
   {
     "level": 15,
@@ -7574,6 +8073,7 @@
       "magical"
     ],
     "usage": "Held In One Hand",
-    "worn": null
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
   }
 ]

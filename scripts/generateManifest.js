@@ -111,7 +111,8 @@ fs.readdir(source, (err, files) => {
                 rarity: item.system.traits?.rarity || '',
                 traits: item.system.traits?.value || [],
                 usage: usage || '',
-                worn: worn
+                worn: worn,
+                publication: item.system.publication.title || '',
             };
 
             itemsWithDetails.push(itemEntry);

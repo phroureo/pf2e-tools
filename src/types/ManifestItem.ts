@@ -14,5 +14,6 @@ export interface ManifestItem {
     worn?: string,
     description?: string,
     rarity?: string,
+    publication: string,
     traits?: string[]
 }
