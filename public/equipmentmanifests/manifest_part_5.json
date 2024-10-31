@@ -1586,7 +1586,7 @@
     "traits": [
       "magical"
     ],
-    "usage": "Etched Onto Weapon Wo Holy Rune",
+    "usage": "Etched Onto Weapon",
     "worn": null,
     "publication": "Pathfinder GM Core"
   },
@@ -3107,7 +3107,7 @@
       "adjustment",
       "alchemical"
     ],
-    "usage": "Applied To A Non Injection Melee Weapon Piercing-Damage",
+    "usage": "Applied To A Non Injection Melee Weapon Piercing Damage",
     "worn": null,
     "publication": "Pathfinder Treasure Vault"
   },

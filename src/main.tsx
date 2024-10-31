@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import CharacterLevel from './components/CharacterLevel';
 import ItemList from './components/ItemList';
 import SelectedItems from './components/SelectedItems';
+import ItemHighlighter from './components/Modals/ItemHighlighter'
 import { fetchEquipmentData } from './utils/fetchData';
-import { EquipmentItem } from './types/EquipmentItem';
 import { TotalPrice } from './types/TotalPrice';
 import { LevelData } from './types/LevelData';
 import { simplifyPrice, formatPrice, copperToString } from './utils/formatPrice';
@@ -54,20 +54,21 @@ const Main: React.FC = () => {
         showAffordableItemsOnly: true,
         showMythicItems: false,
         showRandomItem: true,
+        showTheGuy: false,
     })
-    
+
     // Utility to save to localStorage with Type "settings"
     const saveToLocalStorage = (key: string, data: any, type: string) => {
         localStorage.setItem(key, JSON.stringify({ Type: type, ...data }));
     };
-    
+
     // Toggle handler
     const handleToggleChange = (toggleName: string, value: boolean) => {
         const updatedToggles = { ...toggles, [toggleName]: value };
         setToggles(updatedToggles);
         saveToLocalStorage("toggles", updatedToggles, "settings");
     };
-    
+
     // Calculate total and available copper
     const calculateTotalPrice = (items: ManifestItem[], quantities: Record<number, number>) => {
         return items.reduce(
@@ -84,55 +85,55 @@ const Main: React.FC = () => {
             { cp: 0, sp: 0, gp: 0, pp: 0 }
         );
     };
-    
+
     const calculateAvailableCopper = (lumpSum: number, totalPrice: TotalPrice) => {
         const totalCopper = totalPrice.cp + totalPrice.sp * 10 + totalPrice.gp * 100 + totalPrice.pp * 1000;
         return lumpSum * 100 - totalCopper;
     };
-    
+
     useEffect(() => {
         // Load initial data from localStorage
         const savedToggles = JSON.parse(localStorage.getItem("toggles") || "{}");
         if (savedToggles.Type === "settings") setToggles(savedToggles);
-    
+
         fetchEquipmentData()
             .then(setEquipmentData)
             .catch((error) => console.error("Error fetching equipment data:", error));
-    
+
         fetch("/miscjson/levelGold.json")
             .then((response) => response.json())
             .then(setLevelData)
             .catch((error) => console.error("Error loading level data:", error));
     }, []);
-    
+
     useEffect(() => {
         if (characterLevel) {
             const levelInfo = levelData.find((entry) => entry.level === characterLevel);
             if (levelInfo) setLumpSum(levelInfo.lumpSum);
         }
     }, [characterLevel, levelData]);
-    
+
     useEffect(() => {
         const newTotal = calculateTotalPrice(selectedItems, quantities);
         setTotalPrice(newTotal);
         setAvailableCopper(calculateAvailableCopper(lumpSum, newTotal));
     }, [selectedItems, quantities, lumpSum]);
-    
+
     // Handlers
     const addRandomAffordableItem = () => {
         const affordableItems = equipmentData.filter((item) => {
             const itemTotalCopper =
                 (item.price?.value?.cp ?? 0) + (item.price?.value?.sp ?? 0) * 10 +
                 (item.price?.value?.gp ?? 0) * 100 + (item.price?.value?.pp ?? 0) * 1000;
-            return itemTotalCopper <= availableCopper;
+            return itemTotalCopper <= availableCopper && itemTotalCopper > 0;
         });
-    
+
         if (affordableItems.length > 0) {
             const randomItem = affordableItems[Math.floor(Math.random() * affordableItems.length)];
             handleAddItem(randomItem);
         }
     };
-    
+
     const handleAddItem = (item: ManifestItem) => {
         setSelectedItems((prevItems) => [...prevItems, item]);
         setQuantities((prevQuantities) => ({
@@ -140,9 +141,9 @@ const Main: React.FC = () => {
             [selectedItems.length]: 1,
         }));
     };
-    
+
     const handleDelete = () => setRefreshKey((prevKey) => prevKey + 1);
-    
+
     const handleConfirmRefresh = async () => {
         try {
             const data = await fetchEquipmentData(true);
@@ -153,7 +154,7 @@ const Main: React.FC = () => {
             console.error("Error refreshing equipment data:", error);
         }
     };
-    
+
     const handleSaveData = (name: string, overwrite = false) => {
         const saveKey = overwrite ? name : `${name}_${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}`;
         const dataToSave = {
@@ -168,7 +169,7 @@ const Main: React.FC = () => {
         localStorage.setItem(saveKey, JSON.stringify(dataToSave));
         setSavedName(name);
     };
-    
+
     const handleLoadData = (name: string) => {
         const savedData = JSON.parse(localStorage.getItem(name) || "{}");
         if (savedData) {
@@ -180,7 +181,7 @@ const Main: React.FC = () => {
         }
         setShowLoadModal(false);
     };
-    
+
     const handleUploadData = (data: any) => {
         if (data) {
             setSelectedItems(data.selectedItems || []);
@@ -193,9 +194,9 @@ const Main: React.FC = () => {
     const handleDrawerBodyHeight = (height: number) => {
         setDrawerHeight(height);
     };
-    
+
     const toggleSettings = () => setShowSettings((prev) => !prev);
-    
+
     const handleRemoveItem = (index: number) => {
         setSelectedItems((prevItems) => prevItems.filter((_, i) => i !== index));
         setQuantities((prevQuantities) => {
@@ -204,15 +205,15 @@ const Main: React.FC = () => {
             return newQuantities;
         });
     };
-    
+
     const handleQuantityChange = (index: number, delta: number) => {
         setQuantities((prevQuantities) => ({
             ...prevQuantities,
             [index]: Math.max(1, (prevQuantities[index] || 1) + delta),
         }));
     };
-    
-    
+
+
 
     return (
         <>
@@ -239,42 +240,52 @@ const Main: React.FC = () => {
                         onClose={() => setShowLoadModal(false)}
                     />}
                 </header>
-                <div className="container">
-                    <div className='container-inner'>
-                        <CharacterLevel
-                            level={characterLevel}
-                            onLevelChange={setCharacterLevel}
-                            lumpSum={lumpSum}
-                            setLumpSum={setLumpSum} />
-                        <ItemList
-                            items={equipmentData}
-                            onAddItem={handleAddItem}
-                            showNoPriceItems={toggles.showNoPriceItems}
-                            showAffordableItemsOnly={toggles.showAffordableItemsOnly}
-                            showMythicItems={toggles.showMythicItems}
-                            availableCopper={availableCopper} />
+                {/* Main content layout with ItemHighlighter positioned to the right */}
+                <div className="main-content-wrapper">
+                    <div className="main-content">
+                        <div className="character-item-content">
+                            <CharacterLevel
+                                level={characterLevel}
+                                onLevelChange={setCharacterLevel}
+                                lumpSum={lumpSum}
+                                setLumpSum={setLumpSum} />
+                            <div className='item-list'>
+                                <ItemList
+                                    items={equipmentData}
+                                    onAddItem={handleAddItem}
+                                    showNoPriceItems={toggles.showNoPriceItems}
+                                    showAffordableItemsOnly={toggles.showAffordableItemsOnly}
+                                    showMythicItems={toggles.showMythicItems}
+                                    availableCopper={availableCopper} />
+                            </div>
+                        </div>
+                        <h2>Selected Items</h2>
+                        <div className="selected-items-container">
+                            <SelectedItems
+                                items={selectedItems}
+                                onRemoveItem={handleRemoveItem}
+                                onQuantityChange={handleQuantityChange}
+                                availableCopper={availableCopper}
+                            />
+                        </div>
                     </div>
-                    <h2>Selected Items</h2>
-                    <div className='selected-items-container'>
-                        <SelectedItems
-                            items={selectedItems}
-                            onRemoveItem={handleRemoveItem}
-                            onQuantityChange={handleQuantityChange}
-                            availableCopper={availableCopper}
-                        />
+
+                    {/* ItemHighlighter positioned to the right */}
+                    <div className="item-highlighter">
+                        {toggles.showTheGuy && <ItemHighlighter selectedItems={selectedItems} />}
                     </div>
                 </div>
-                <footer className='footer'>
-                    <div style={{transform: `translateY(${drawerHeight}px)` }}>
-                    {/* Button to add random affordable item */}
-                    {toggles.showRandomItem && <button onClick={addRandomAffordableItem} className="random-item-button">
-                        Add Random Affordable Item
-                    </button>}
-                    <div style={{ padding: "0px", }}>
-                        {/* Overall Total Price */}
-                        <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
-                        <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
-                    </div>
+                <footer className='footer' style={{ isolation: "isolate" }}>
+                    <div style={{ transform: `translateY(${drawerHeight}px)` }}>
+                        {/* Button to add random affordable item */}
+                        {toggles.showRandomItem && <button onClick={addRandomAffordableItem} className="random-item-button">
+                            Add Random Affordable Item
+                        </button>}
+                        <div style={{ padding: "0px", }}>
+                            {/* Overall Total Price */}
+                            <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
+                            <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
+                        </div>
                     </div>
                     <footer className='footer-options'>
                         <button
@@ -293,13 +304,13 @@ const Main: React.FC = () => {
                         </button>
                     </footer>
 
-
                     {/* Settings Drawer */}
                     <SettingsDrawer
                         isOpen={showSettings}
                         drawerTitle='Settings'
                         onHeightChange={handleDrawerBodyHeight}
-                        onToggle={toggleSettings}>
+                        onToggle={toggleSettings}
+                    >
                         <Toggle
                             label="Show items with no price"
                             onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
@@ -320,7 +331,15 @@ const Main: React.FC = () => {
                             onToggle={(value) => handleToggleChange('showRandomItem', value)}
                             checked={toggles.showRandomItem}
                         />
+                        <Toggle
+                            label='Show Equipped Item Tracker'
+                            onToggle={(value) => handleToggleChange('showTheGuy', value)}
+                            checked={toggles.showTheGuy}
+                        />
                     </SettingsDrawer>
+
+                    {showSettings && <div className="dim-overlay" onClick={toggleSettings}></div>}
+
                 </footer>
                 {showRefreshModal && (
                     <RefreshModal
@@ -340,7 +359,7 @@ const Main: React.FC = () => {
                 )}
 
 
-            </div>
+            </div >
         </>
     );
 };

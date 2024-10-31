@@ -58,6 +58,85 @@ a:hover {
     text-align: center; /* Center text alignment within the container */
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-content-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the main content */
+    width: 100%;
+    max-width: 1000px; /* Constrains total width to keep it centered */
+    margin: auto;
+    position: static;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-item-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-list {
+    display: flex;
+    align-items: center;
+}
+
+.selected-items-container {
+    overflow-y: auto;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 450px;
+    height: calc(100vh - 410px);
+}
+
+.item-highlighter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    /* background-color: #23243a; */
+    border-radius: 8px;
+    height: calc(100vh - 120px);
+    overflow: hidden; /* Ensure no overflow issues */
+    position: absolute;
+    right: 0;
+}
+
+.item-highlighter svg {
+    width: 100%;
+    height: 100%; /* Allow SVG to use full height of container */
+    max-height: 100%; /* Restrict height to fit container */
+    object-fit: contain;
+}
+
+
+.item-highlighter .hover-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    min-height: 2em; /* Fixed height to prevent layout shift */
+    margin-bottom: 10px; /* Space between text and SVG */
+}
+
+
+
+
 /* List styles */
 ul {
     list-style: none;
@@ -143,16 +222,6 @@ li:hover {
 }
 
 
-
-.selected-items-container {
-    overflow-y: auto;
-    padding: 10px;
-    margin-bottom: 60px;
-    width: 100%;
-    max-width: 450px;
-    height: calc(100vh - 410px);
-}
-
 .footer {
     flex-shrink: 0;
     display: flex;
@@ -177,9 +246,6 @@ li:hover {
     margin-bottom: 10px;
 }
 
-.container-inner {
-    height: 145px;
-}
 
 .divider {
     width: 1px;

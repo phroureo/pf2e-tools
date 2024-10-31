@@ -21,7 +21,6 @@ const [drawerBodyHeight, setDrawerBodyHeight] = useState(0);
   useEffect(() => {
     if (drawerBodyRef.current) {
       const height = drawerBodyRef.current.offsetHeight;
-      console.log(height);
       setDrawerBodyHeight(height); // Set local state for use within Drawer
       onHeightChange(height); // Pass height to parent
     }
@@ -29,7 +28,6 @@ const [drawerBodyHeight, setDrawerBodyHeight] = useState(0);
 
     return (
         <>
-            {isOpen && <div className="dim-overlay" onClick={onToggle}></div>}
             <div className={`drawer ${isOpen ? "open" : ""}`} style={{ transform: `translateY(${isOpen ? 0 : drawerBodyHeight}px)`}}>
                 {/* Drawer Toggle Handle */}
                 <div className={`drawer-handle ${isOpen ? 'open' : ''}`} onClick={onToggle}>

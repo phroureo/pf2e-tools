@@ -3,6 +3,7 @@ const path = require('path');
 
 const source = path.join(__dirname, '../../pf2eitems/packs/equipment')
 const manifestDir = path.join(__dirname, '../public/equipmentmanifests'); // New folder for manifest chunks
+const miscJsonDir = path.join(__dirname, '../public/miscjson');
 
 //remove the manifest directory if it exists
 if (fs.existsSync(manifestDir)) {
@@ -14,6 +15,7 @@ fs.mkdirSync(manifestDir);
 
 // Set to track unique items by name (or any other unique property like 'file' if preferred)
 const uniqueItems = new Set();
+const uniqueUsage = new Set();
 
 fs.readdir(source, (err, files) => {
     if (err) {
@@ -75,6 +77,9 @@ fs.readdir(source, (err, files) => {
             });
 
             if (usage) {
+
+                usage = usage.replace("worncrown", "worncirclet");
+                usage = usage.replace("wornring", "worn");
                 // First regex handles "worn" only
                 usage = usage.replace(/^worn$/i, "Worn");
 
@@ -94,6 +99,16 @@ fs.readdir(source, (err, files) => {
                         p3 ? p3.charAt(0).toUpperCase() + p3.slice(1) : ''
                     ].filter(Boolean).join(' ');
                 });
+                
+                usage = usage.replace("-", " ");
+
+                if (usage === "Etched Onto Weapon Wo Holy Rune") {
+                    usage = "Etched Onto Weapon";
+                }
+
+                if (!uniqueUsage.has(usage) && item.system.publication.remaster === true) {
+                    uniqueUsage.add(usage);
+                }
             }
             // Extract words following "Worn" if "usage" starts with "Worn", otherwise set to null
             const worn = usage.startsWith("Worn")
@@ -117,6 +132,7 @@ fs.readdir(source, (err, files) => {
 
             itemsWithDetails.push(itemEntry);
         }
+        
 
         // When all files are processed, split into chunks and save
         if (index === jsonFiles.length - 1) {
@@ -137,4 +153,14 @@ fs.readdir(source, (err, files) => {
             }
         }
     });
+    
+
+
+    const usagesPath = path.join(miscJsonDir, 'usages.json');
+    try {
+        fs.writeFileSync(usagesPath, JSON.stringify([...uniqueUsage], null, 2));
+        console.log('Unique usages saved successfully:', usagesPath);
+    } catch (error) {
+        console.error('Error writing unique usages file:', error);
+    }
 });

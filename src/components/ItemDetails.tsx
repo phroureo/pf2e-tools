@@ -28,7 +28,7 @@ const ItemDetails: React.FC<ItemDetailsProps> = ({ item }) => {
             </div>
             {item.usage?.trim() && (
                 <><div className='divider-horizontal' style={{ marginTop: "16px" }}></div>
-                    <div className='item-description' style={{ fontSize: ".9em", marginTop: "16px", marginBottom: "16px" }}><strong>Usage: </strong>{item.usage}</div>)
+                    <div className='item-description' style={{ fontSize: ".9em", marginTop: "16px", marginBottom: "16px" }}><strong>Usage: </strong>{item.usage}</div>
                 </>
             )}
             <div className='divider-horizontal'></div>
