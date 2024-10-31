@@ -8,6 +8,7 @@ interface RefreshModalProps {
 const RefreshModal: React.FC<RefreshModalProps> = ({ onConfirm, onClose }) => {
     return (
         <div className="save-modal">
+            
             <div className="save-modal-content">
                 <h3>Refresh Cached Data</h3>
                 <p>Would you like to refresh your cached equipment data?

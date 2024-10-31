@@ -15,6 +15,7 @@ import './styles/modal.css';
 import './styles/form.css';
 import './styles/input.css';
 import './styles/flyout.css';
+import './styles/loadingcomponent.css';
 import './styles/settingsdrawer.css';
 import { ManifestItem } from './types/ManifestItem';
 import Toggle from './components/Toggle';
@@ -39,6 +40,7 @@ const Main: React.FC = () => {
     const [savedName, setSavedName] = useState<string>();
     const [refreshKey, setRefreshKey] = useState(0);
     const [drawerHeight, setDrawerHeight] = useState(0);
+    const [loading, setLoading] = useState(false);
 
     //modals
     const [showSaveModal, setShowSaveModal] = useState(false);
@@ -92,6 +94,7 @@ const Main: React.FC = () => {
     };
 
     useEffect(() => {
+        setLoading(true);
         // Load initial data from localStorage
         const savedToggles = JSON.parse(localStorage.getItem("toggles") || "{}");
         if (savedToggles.Type === "settings") setToggles(savedToggles);
@@ -104,6 +107,7 @@ const Main: React.FC = () => {
             .then((response) => response.json())
             .then(setLevelData)
             .catch((error) => console.error("Error loading level data:", error));
+            setLoading(false);
     }, []);
 
     useEffect(() => {
@@ -146,12 +150,15 @@ const Main: React.FC = () => {
 
     const handleConfirmRefresh = async () => {
         try {
+            setLoading(true);
             const data = await fetchEquipmentData(true);
             setEquipmentData(data);
             setShowRefreshModal(false);
             setShowConfirmationModal(true);
+            setLoading(false);
         } catch (error) {
             console.error("Error refreshing equipment data:", error);
+            setLoading(false);
         }
     };
 
@@ -217,6 +224,11 @@ const Main: React.FC = () => {
 
     return (
         <>
+        {loading && (
+                <div className="loading-overlay">
+                    <div className="spinner"></div>
+                </div>
+            )}
             <div>
                 <header className="header">
                     <h1>PF2e Equipment Tracker</h1>
