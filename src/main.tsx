@@ -1,13 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom/client';
+
 import CharacterLevel from './components/CharacterLevel';
 import ItemList from './components/ItemList';
 import SelectedItems from './components/SelectedItems';
 import ItemHighlighter from './components/Modals/ItemHighlighter'
+import Toggle from './components/Toggle';
+import Flyout from './components/Flyout';
+import LoadModal from './components/Modals/LoadModal';
+import SaveModal from './components/Modals/SaveModal';
+import { downloadJSON, uploadJSON } from './utils/downloadJSON';
+import RefreshModal from './components/Modals/RefreshModal';
+import ConfirmationModal from './components/Modals/ConfirmationModal';
+import InformationModal from './components/Modals/InformationModal';
+import SettingsDrawer from './components/SettingsDrawer';
+
 import { fetchEquipmentData } from './utils/fetchData';
+import { simplifyPrice, formatPrice, copperToString } from './utils/formatPrice';
+
 import { TotalPrice } from './types/TotalPrice';
 import { LevelData } from './types/LevelData';
-import { simplifyPrice, formatPrice, copperToString } from './utils/formatPrice';
+import { ManifestItem } from './types/ManifestItem';
+
 import './styles/styles.css';
 import './styles/toggle.css';
 import './styles/buttons.css';
@@ -17,16 +31,6 @@ import './styles/input.css';
 import './styles/flyout.css';
 import './styles/loadingcomponent.css';
 import './styles/settingsdrawer.css';
-import { ManifestItem } from './types/ManifestItem';
-import Toggle from './components/Toggle';
-import Flyout from './components/Flyout';
-import LoadModal from './components/Modals/LoadModal';
-import SaveModal from './components/Modals/SaveModal';
-import { downloadJSON, uploadJSON } from './utils/downloadJSON';
-import RefreshModal from './components/Modals/RefreshModal';
-import ConfirmationModal from './components/Modals/ConfirmationModal';
-import InformationModal from './components/Modals/InformationModal';
-import SettingsDrawer from './components/BottomDrawer';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -41,6 +45,7 @@ const Main: React.FC = () => {
     const [refreshKey, setRefreshKey] = useState(0);
     const [drawerHeight, setDrawerHeight] = useState(0);
     const [loading, setLoading] = useState(false);
+    const [levelItems, setLevelItems] = useState<Record<number, number>>();
 
     //modals
     const [showSaveModal, setShowSaveModal] = useState(false);
@@ -57,7 +62,74 @@ const Main: React.FC = () => {
         showMythicItems: false,
         showRandomItem: true,
         showTheGuy: false,
+        showItemsByLevel: true,
     })
+
+    const footerRef = useRef<HTMLDivElement | null>(null);
+    const [footerHeight, setFooterHeight] = useState(0);
+    useEffect(() => {
+        if (footerRef.current) {
+            const observer = new ResizeObserver((entries) => {
+                for (let entry of entries) {
+                    if (entry.contentRect.height !== footerHeight) {
+                        setFooterHeight(entry.contentRect.height);
+                        console.log(entry.contentRect.height);
+                    }
+                }
+            });
+
+            observer.observe(footerRef.current); // Attach observer to footerRef
+
+            // Cleanup observer when the component unmounts
+            return () => observer.disconnect();
+        }
+    }, [footerRef, footerHeight]);
+
+    useEffect(() => {
+        setLoading(true);
+        // Load initial data from localStorage
+        const savedToggles = JSON.parse(localStorage.getItem("toggles") || "{}");
+        if (savedToggles.Type === "settings") setToggles(savedToggles);
+
+        fetchEquipmentData()
+            .then(setEquipmentData)
+            .catch((error) => console.error("Error fetching equipment data:", error));
+
+        fetch("/miscjson/levelGold.json")
+            .then((response) => response.json())
+            .then((data) => {
+                // Transform the data to match the LevelData interface
+                const transformedData: LevelData[] = data.map((entry: any) => ({
+                    level: entry.level,
+                    currency: entry.currency,
+                    lumpSum: entry.lumpSum,
+                    itemsByLevel: entry.items || {}  // Set itemsByLevel to items or an empty object if items is undefined
+                }));
+
+                setLevelData(transformedData);
+            })
+            .catch((error) => console.error("Error loading level data:", error))
+            .finally(() => setLoading(false));  // Ensure loading is set to false after data is fetched
+
+        setLoading(false);
+    }, []);
+
+    useEffect(() => {
+        if (characterLevel) {
+            const levelInfo = levelData.find((entry) => entry.level === characterLevel);
+            if (levelInfo) {
+                setLumpSum(levelInfo.lumpSum);
+                setLevelItems(levelInfo.itemsByLevel);
+            };
+        }
+    }, [characterLevel, levelData]);
+
+    useEffect(() => {
+        const newTotal = calculateTotalPrice(selectedItems, quantities);
+        setTotalPrice(newTotal);
+        setAvailableCopper(calculateAvailableCopper(lumpSum, newTotal));
+    }, [selectedItems, quantities, lumpSum]);
+
 
     // Utility to save to localStorage with Type "settings"
     const saveToLocalStorage = (key: string, data: any, type: string) => {
@@ -92,37 +164,6 @@ const Main: React.FC = () => {
         const totalCopper = totalPrice.cp + totalPrice.sp * 10 + totalPrice.gp * 100 + totalPrice.pp * 1000;
         return lumpSum * 100 - totalCopper;
     };
-
-    useEffect(() => {
-        setLoading(true);
-        // Load initial data from localStorage
-        const savedToggles = JSON.parse(localStorage.getItem("toggles") || "{}");
-        if (savedToggles.Type === "settings") setToggles(savedToggles);
-
-        fetchEquipmentData()
-            .then(setEquipmentData)
-            .catch((error) => console.error("Error fetching equipment data:", error));
-
-        fetch("/miscjson/levelGold.json")
-            .then((response) => response.json())
-            .then(setLevelData)
-            .catch((error) => console.error("Error loading level data:", error));
-            setLoading(false);
-    }, []);
-
-    useEffect(() => {
-        if (characterLevel) {
-            const levelInfo = levelData.find((entry) => entry.level === characterLevel);
-            if (levelInfo) setLumpSum(levelInfo.lumpSum);
-        }
-    }, [characterLevel, levelData]);
-
-    useEffect(() => {
-        const newTotal = calculateTotalPrice(selectedItems, quantities);
-        setTotalPrice(newTotal);
-        setAvailableCopper(calculateAvailableCopper(lumpSum, newTotal));
-    }, [selectedItems, quantities, lumpSum]);
-
     // Handlers
     const addRandomAffordableItem = () => {
         const affordableItems = equipmentData.filter((item) => {
@@ -220,16 +261,19 @@ const Main: React.FC = () => {
         }));
     };
 
+    const addLevelItem = () => {
+
+    }
 
 
     return (
         <>
-        {loading && (
+            {loading && (
                 <div className="loading-overlay">
                     <div className="spinner"></div>
                 </div>
             )}
-            <div>
+            <div className="main-container">
                 <header className="header">
                     <h1>PF2e Equipment Tracker</h1>
                     <div className="flyout-container">
@@ -254,7 +298,28 @@ const Main: React.FC = () => {
                 </header>
                 {/* Main content layout with ItemHighlighter positioned to the right */}
                 <div className="main-content-wrapper">
-                    <div className="main-content">
+                    <div className='three-columns'>
+                        {toggles.showItemsByLevel &&
+                            <div style={{ textAlign: 'center' }}>
+                                <h2>Items by Level</h2>
+                                <button onClick={addLevelItem} className='add-level-item-button'>
+                                    <img src="/misc/plus.svg" alt="Plus Sign" className="refresh-icon" />
+                                    Add Level Item
+                                </button>
+                                {Object.entries(levelItems || {}).map(([level, itemCount]) => (
+                                    <div key={level}>
+                                        <h2>Level {level}</h2>
+                                        <ul>
+                                            {Array.from({ length: itemCount }, (_, index) => (
+                                                <li key={index}> Item {index + 1}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
+                            </div>
+                        }
+                    </div>
+                    <div className='three-columns'>
                         <div className="character-item-content">
                             <CharacterLevel
                                 level={characterLevel}
@@ -272,7 +337,9 @@ const Main: React.FC = () => {
                             </div>
                         </div>
                         <h2>Selected Items</h2>
-                        <div className="selected-items-container">
+                        <div className="selected-items-container" style={{
+                            height: `calc(100vh - 350px - ${toggles.showRandomItem ? 50 : 0}px)`,
+                        }}>
                             <SelectedItems
                                 items={selectedItems}
                                 onRemoveItem={handleRemoveItem}
@@ -281,14 +348,16 @@ const Main: React.FC = () => {
                             />
                         </div>
                     </div>
-
-                    {/* ItemHighlighter positioned to the right */}
-                    <div className="item-highlighter">
-                        {toggles.showTheGuy && <ItemHighlighter selectedItems={selectedItems} />}
+                    <div style={{ width: "33%" }}>
+                        {toggles.showTheGuy &&
+                            <div className="item-highlighter">
+                                <ItemHighlighter selectedItems={selectedItems} />
+                            </div>
+                        }
                     </div>
                 </div>
-                <footer className='footer' style={{ isolation: "isolate" }}>
-                    <div style={{ transform: `translateY(${drawerHeight}px)` }}>
+                <footer className='footer' ref={footerRef}>
+                    <div>
                         {/* Button to add random affordable item */}
                         {toggles.showRandomItem && <button onClick={addRandomAffordableItem} className="random-item-button">
                             Add Random Affordable Item
@@ -299,7 +368,7 @@ const Main: React.FC = () => {
                             <div style={{ fontSize: ".85em", marginTop: "0px" }}>Remaining: {availableCopper > 0 ? copperToString(availableCopper) : "0 gp"}</div>
                         </div>
                     </div>
-                    <footer className='footer-options'>
+                    <div className='footer-options'>
                         <button
                             className="information-button"
                             onClick={() => setshowInformationModal(true)}
@@ -314,45 +383,50 @@ const Main: React.FC = () => {
                         >
                             <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
                         </button>
-                    </footer>
-
-                    {/* Settings Drawer */}
-                    <SettingsDrawer
-                        isOpen={showSettings}
-                        drawerTitle='Settings'
-                        onHeightChange={handleDrawerBodyHeight}
-                        onToggle={toggleSettings}
-                    >
-                        <Toggle
-                            label="Show items with no price"
-                            onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
-                            checked={toggles.showNoPriceItems}
-                        />
-                        <Toggle
-                            label="Show only affordable items"
-                            onToggle={(value) => handleToggleChange('showAffordableItemsOnly', value)}
-                            checked={toggles.showAffordableItemsOnly}
-                        />
-                        <Toggle
-                            label="Show Mythic items"
-                            onToggle={(value) => handleToggleChange('showMythicItems', value)}
-                            checked={toggles.showMythicItems}
-                        />
-                        <Toggle
-                            label='Show "Add Random Affordable Item" Button'
-                            onToggle={(value) => handleToggleChange('showRandomItem', value)}
-                            checked={toggles.showRandomItem}
-                        />
-                        <Toggle
-                            label='Show Equipped Item Tracker'
-                            onToggle={(value) => handleToggleChange('showTheGuy', value)}
-                            checked={toggles.showTheGuy}
-                        />
-                    </SettingsDrawer>
-
-                    {showSettings && <div className="dim-overlay" onClick={toggleSettings}></div>}
-
+                    </div>
                 </footer>
+                {/* Settings Drawer */}
+                <SettingsDrawer
+                    isOpen={showSettings}
+                    drawerTitle='Settings'
+                    onHeightChange={handleDrawerBodyHeight}
+                    onToggle={toggleSettings}
+                    isRandomButtonVisible={toggles.showRandomItem}
+                >
+                    <Toggle
+                        label="Show items with no price"
+                        onToggle={(value) => handleToggleChange('showNoPriceItems', value)}
+                        checked={toggles.showNoPriceItems}
+                    />
+                    <Toggle
+                        label="Show only affordable items"
+                        onToggle={(value) => handleToggleChange('showAffordableItemsOnly', value)}
+                        checked={toggles.showAffordableItemsOnly}
+                    />
+                    <Toggle
+                        label="Show Mythic items"
+                        onToggle={(value) => handleToggleChange('showMythicItems', value)}
+                        checked={toggles.showMythicItems}
+                    />
+                    <Toggle
+                        label='Show "Add Random Affordable Item" Button'
+                        onToggle={(value) => handleToggleChange('showRandomItem', value)}
+                        checked={toggles.showRandomItem}
+                    />
+                    <Toggle
+                        label='Show Equipped Item Tracker'
+                        onToggle={(value) => handleToggleChange('showTheGuy', value)}
+                        checked={toggles.showTheGuy}
+                    />
+                    <Toggle
+                        label='Use Items By Level'
+                        onToggle={(value) => handleToggleChange('showItemsByLevel', value)}
+                        checked={toggles.showItemsByLevel}
+                    />
+                </SettingsDrawer>
+
+                {showSettings && <div className="dim-overlay" onClick={toggleSettings}></div>}
+
                 {showRefreshModal && (
                     <RefreshModal
                         onConfirm={handleConfirmRefresh}

@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* Global settings */
 body {
     background-color: #1b1b2f; /* Dark background */
@@ -13,8 +17,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     min-width: .25vw;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 /* Typography */
@@ -30,6 +36,7 @@ h1 {
 h2 {
     padding: 10px;
     margin: 0px;
+    text-align: center;
 }
 
 p {
@@ -46,39 +53,18 @@ a:hover {
     color: #86d2ff;
 }
 
-/* Layout Containers */
-.container {
-    padding: 0 20px 20px 20px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-    min-height: 100vh; /* Full viewport height to vertically center */
-    text-align: center; /* Center text alignment within the container */
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
-
 .main-content-wrapper {
     display: flex;
     justify-content: center; /* Centers the main content */
+    height: 100%;
     width: 100%;
-    max-width: 1000px; /* Constrains total width to keep it centered */
-    margin: auto;
-    position: static;
+    padding: 10px;
+    flex-grow: 1;
 }
 
 .main-content {
     display: flex;
     align-items: center;
-    width: 100%;
-    display: flex;
     flex-direction: column;
 }
 
@@ -92,25 +78,12 @@ a:hover {
     display: flex;
     align-items: center;
 }
-
-.selected-items-container {
-    overflow-y: auto;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 60px;
-    width: 100%;
-    max-width: 450px;
-    height: calc(100vh - 410px);
-}
-
 .item-highlighter {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     width: 250px;
     padding: 10px;
-    /* background-color: #23243a; */
     border-radius: 8px;
     height: calc(100vh - 120px);
     overflow: hidden; /* Ensure no overflow issues */
@@ -138,17 +111,25 @@ a:hover {
 
 
 /* List styles */
+
 ul {
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+    align-items: stretch; /* Ensure items take full width */
     list-style: none;
     padding: 0;
-    width: 100%;
+    width: 100%; /* Take up full width of the parent container */
+    margin: 0;
 }
 
 li {
-    width: 100%;
-    padding: 0.5em 0; /* Adjust padding as necessary */
-    border-top: 1px solid #333; /* Only top border for shared effect */
+    display: flex;
+    width: 100%; /* Full width of the container */
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+    box-sizing: border-box;
 }
+
 
 li:first-child {
     border-top: none; /* Remove top border on the first item */
@@ -174,6 +155,27 @@ li:hover {
     flex-grow: 1;
     padding: 10px;
 }
+
+.three-columns {
+    width: 33%;
+    flex: 1;
+    align-items: center;
+}
+
+
+.selected-items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 0 auto 60px; /* Center and add bottom margin */
+    width: 90%; /* Adjust width to be less than 100% */
+    max-width: 450px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 
 .SelectedItems {
     flex-basis: 33%; /* Ensure SelectedItems takes up at least one-third */
@@ -202,8 +204,10 @@ li:hover {
     justify-content: center; /* Center the header text */
     padding-top: 10px;
     padding-left: 0px;
+    padding-bottom: 10px;
     position: relative; /* Enable positioning for child elements */
     cursor: default;
+    border-bottom: 1px solid #43437a; /* Adds a bottom border */
 }
 
 .header-item {
@@ -222,18 +226,17 @@ li:hover {
 }
 
 
+
 .footer {
     flex-shrink: 0;
     display: flex;
+    position: fixed;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    height: auto;
-    position: fixed;
-    bottom: 0; 
-    width: 100%;
-    padding: 10px; 
     text-align: center;
+    bottom: 20px;
+    width: 100%;
 }
 
 .footer-options {
@@ -250,7 +253,8 @@ li:hover {
 .divider {
     width: 1px;
     height: 30px; /* Adjust height as needed */
-    background-color: #1f1f31;
+    background-color: #e1e1e6;
+    /* background-color: #1f1f31; */
     margin: 0 10px;
 }
 
@@ -311,4 +315,16 @@ li:hover {
     width: 20px;
     height: 20px;
     margin-right: 8px;
+}
+
+
+.add-level-item-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px 4px 12px;
+    background-color: #858585;
+    justify-content: center;
+    gap: 8px;
+    font-size: .8em;
+    color: black;
 }

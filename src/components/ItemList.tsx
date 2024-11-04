@@ -51,10 +51,6 @@ const ItemList: React.FC<ItemListProps> = ({
             <button onClick={() => setIsModalOpen(true)}>Select Items</button>
             <Modal
                 isOpen={isModalOpen}
-                onClose={() => handleClose()}
-                selectedItem={selectedItem}
-                handleAddItem={() => handleAddItem()}
-                showAddToList={true}
             >
                 <SearchConditionRow
                     searchConditions={searchConditions}
@@ -72,6 +68,15 @@ const ItemList: React.FC<ItemListProps> = ({
                     />
 
                     {selectedItem && <ItemDetails item={selectedItem} />}
+                </div>
+
+                <div className="modal-footer">
+                    <button onClick={handleClose} className="close-button">Close</button>
+                    {selectedItem && (
+                        <button onClick={handleAddItem} className="add-to-list-button">
+                            Add to List
+                        </button>
+                    )}
                 </div>
 
             </Modal>

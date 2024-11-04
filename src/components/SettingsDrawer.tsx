@@ -6,6 +6,7 @@ interface SettingsDrawerProps {
     onHeightChange: (height: number) => void;
     children: React.ReactNode;
     drawerTitle: string;
+    isRandomButtonVisible: boolean;
 }
 
 const SettingsDrawer: React.FC<SettingsDrawerProps> = ({
@@ -13,7 +14,8 @@ const SettingsDrawer: React.FC<SettingsDrawerProps> = ({
     onToggle,
     onHeightChange,
     children,
-    drawerTitle = ""
+    drawerTitle = "",
+    isRandomButtonVisible,
 }) => {
     
 const drawerBodyRef = useRef<HTMLDivElement | null>(null);
@@ -23,12 +25,13 @@ const [drawerBodyHeight, setDrawerBodyHeight] = useState(0);
       const height = drawerBodyRef.current.offsetHeight;
       setDrawerBodyHeight(height); // Set local state for use within Drawer
       onHeightChange(height); // Pass height to parent
+      console.log(height);
     }
   }, [drawerBodyRef.current?.offsetHeight, onHeightChange]);
 
     return (
         <>
-            <div className={`drawer ${isOpen ? "open" : ""}`} style={{ transform: `translateY(${isOpen ? 0 : drawerBodyHeight}px)`}}>
+            <div className={`drawer ${isOpen ? "open" : ""}`} style={{ transform: `translateY(${(isOpen ? 0 : drawerBodyHeight) - (isRandomButtonVisible ? 0 : drawerBodyHeight)}px)`}}>
                 {/* Drawer Toggle Handle */}
                 <div className={`drawer-handle ${isOpen ? 'open' : ''}`} onClick={onToggle}>
                     <h4>{drawerTitle}</h4>

@@ -68,7 +68,7 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
     };
 
     return (
-        <div>
+        <div style={{ width: '100%', textAlign: 'center' }}>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
                 {items.map((item, index) => {
                     const quantity = quantities[index] || 1;
@@ -83,58 +83,84 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
                     return (
                         <li
                             key={index}
-                            style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer' }}
+                            style={{
+                                display: 'flex',
+                                cursor: 'pointer',
+                                width: '100%',
+                            }}
                             onClick={() => openModal(item)}
                         >
                             {/* Left side: First and Second Line (stacked vertically) */}
-                            <div style={{ flex: 1 }}>
+                            <div style={{
+                                flex: 1,
+                                width: '100%',
+                            }}>
                                 {/* First Line: Item Name and Price */}
                                 <div>
-                                    <h3
+                                    <div
                                         style={{
-                                            flex: 1,
-                                            display: 'inline-block',
-                                            whiteSpace: 'nowrap',
-                                            marginTop: 0,
-                                            marginBottom: 10,
+                                            display: 'flex',
+                                            justifyContent: 'space-between',
+                                            alignItems: 'center',
                                         }}
-                                        ref={(el) => (itemRefs.current[index] = el)} // Set ref for each item name
                                     >
-                                        {item.name}
-                                    </h3>
-                                        
+                                        <h3
+                                            style={{
+                                                flex: 1,
+                                                whiteSpace: 'nowrap',
+                                                marginTop: 0,
+                                                marginBottom: 10,
+                                                textAlign: 'left', // Ensure text is left-aligned
+                                            }}
+                                            ref={(el) => (itemRefs.current[index] = el)} // Set ref for each item name
+                                        >
+                                            {item.name}
+                                        </h3>
+                                        {/* Right side: Remove Button */}
+                                        <button
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                onRemoveItem(index);
+                                            }}
+                                            className="button-x"
+                                            style={{
+                                                marginLeft: 'auto', // Pushes the button to the right
+                                            } as React.CSSProperties} // Type assertion for inline styles
+                                        />
+                                    </div>
                                     <div className="divider-horizontal"></div>
-                                    <div style={{ flex: 1, display: 'flex', alignItems: 'center', alignContent: "center", justifyContent: 'space-between' }}>
-                                        <div>Price: {formatPrice(item.price?.value)}</div>
-                                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '0.5em' }}>
-                                            <div className="divider"></div>
-                                            {/* Quantity Controls */}
-                                            <div style={{ display: 'flex', alignItems: 'center', marginRight: '1em' }}>
-                                                <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, -1); }}>-</button>
-                                                <span style={{ margin: '0 10px' }}>{quantity}</span>
-                                                <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, 1); }}>+</button>
-                                            </div>
-                                            {/* Item Total Price */}
-                                            <div>
-                                                <b>Total</b>: {formatPrice(itemTotalPrice)}
-                                            </div>
+
+                                    {/* Second Line: Quantity Controls and Item Total Price (only if consumable) */}
+                                    <div style={{
+                                        width: '100%',
+                                        display: 'flex',
+                                        alignItems: 'left',
+                                        justifyContent: 'space-between',
+                                        gap: '1em', // Adds consistent spacing
+                                        whiteSpace: 'nowrap' // Prevents text from wrapping
+                                    }}>
+                                        {/* Price */}
+                                        <div style={{ flexShrink: 0 }}>Price: {formatPrice(item.price?.value)}</div>
+
+                                        {/* Quantity Controls */}
+                                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, -1); }}>-</button>
+                                            <span style={{ margin: '0 10px' }}>{quantity}</span>
+                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, 1); }}>+</button>
                                         </div>
-                                        <div className="divider"></div>
-                                        <div className='item-level' style={{ marginLeft: "2em" }}>
+
+                                        {/* Item Total Price */}
+                                        <div style={{ flexShrink: 0 }}>
+                                            <b>Total</b>: {formatPrice(itemTotalPrice)}
+                                        </div>
+
+                                        {/* Level */}
+                                        <div className='item-level' style={{ flexShrink: 0 }}>
                                             Level {item.level}
                                         </div>
                                     </div>
                                 </div>
-
-                                {/* Second Line: Quantity Controls and Item Total Price (only if consumable) */}
-
                             </div>
-
-                            {/* Right side: Remove Button */}
-                            <button
-                                onClick={(e) => { e.stopPropagation(); onRemoveItem(index); }}
-                                className='button-x'
-                            />
                         </li>
                     );
                 })}
@@ -143,12 +169,9 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
             {/* Modal for Item Details */}
             <Modal
                 isOpen={isModalOpen}
-                onClose={closeModal}
-                selectedItem={selectedItem}
-                handleAddItem={() => { }}
-                showAddToList={false}
             >
                 {selectedItem && <ItemDetails item={selectedItem} />}
+                <button onClick={closeModal} className="close-button">Close</button>
             </Modal>
         </div>
     );

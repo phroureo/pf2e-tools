@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ManifestItem } from '../types/ManifestItem';
 import { calculateTotalValue, formatPrice } from '../utils/formatPrice';
 import { SearchCondition } from '../types/SearchCondition';
-import { FixedSizeList as List, ListChildComponentProps } from 'react-window';
 
 interface ItemListPanelProps {
     items: ManifestItem[];
@@ -90,6 +89,7 @@ const ItemListPanel: React.FC<ItemListPanelProps> = ({
         })
     });
 
+    
     const sortedItems = filteredItems.sort((a, b) => {
         const isAscending = sortDirection === 'asc';
         if (sortCriteria === 'name') {

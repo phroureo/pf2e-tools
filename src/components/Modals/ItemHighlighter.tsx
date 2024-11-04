@@ -30,13 +30,10 @@ const ItemHighlighter: React.FC<ItemHighlighterProps> = ({ selectedItems }) => {
     return (
         <div
             style={{
-                position: 'absolute',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                height: '100%',
-                width: '100%',
-                zIndex: 198,
+                zIndex: 195,
             }}
         >
             <div
