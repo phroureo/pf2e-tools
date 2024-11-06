@@ -48,7 +48,6 @@ const Main: React.FC = () => {
     const [availableCopper, setAvailableCopper] = useState<number>(lumpSum * 100);
     const [savedName, setSavedName] = useState<string>();
     const [refreshKey, setRefreshKey] = useState(0);
-    const [drawerHeight, setDrawerHeight] = useState(0);
     const [loading, setLoading] = useState(false);
     const [levelItems, setLevelItems] = useState<Record<number, number>>();
     const [draggingItem, setDraggingItem] = useState<EquipmentItem | null>(null);
@@ -291,10 +290,6 @@ const Main: React.FC = () => {
         }
     };
 
-    const handleDrawerBodyHeight = (height: number) => {
-        setDrawerHeight(height);
-    };
-
     const handleRemoveItem = (index: number) => {
         setSelectedItems((prevItems) => {
             const newItems = prevItems.filter((_, i) => i !== index);
@@ -432,13 +427,13 @@ const Main: React.FC = () => {
                 <div className="main-content-wrapper">
                     <div className='three-columns'>
                         {toggles.showItemsByLevel &&
-                            <div style={{ textAlign: 'center', padding: '10px', marginBottom: "40px", maxHeight: "100%"}}>
+                            <div style={{ textAlign: 'center', padding: '10px', marginBottom: "40px", maxHeight: "100%" }}>
                                 <h2>Items by Level</h2>
                                 <button onClick={() => setModalState('itemLevelModal', true)} className='add-level-item-button'>
                                     <img src="/misc/plus.svg" alt="Plus Sign" className="refresh-icon" />
                                     Add Level Item
                                 </button>
-                                <div style= {{overflowY: "visible", }}>
+                                <div style={{ overflowY: "visible", }}>
                                     {Object.entries(levelItems || {}).map(([level, itemCount]) => (
                                         <div key={level}>
                                             <h2>Level {level}</h2>
@@ -514,11 +509,14 @@ const Main: React.FC = () => {
                     </div>
                 </div>
                 <footer className='footer' ref={footerRef}>
-                    <div>
-                        {/* Button to add random affordable item */}
-                        {toggles.showRandomItem && <button onClick={addRandomAffordableItem} className="random-item-button">
-                            Add Random Affordable Item
-                        </button>}
+                    <div className="footer-content">
+                        {toggles.showRandomItem && (
+                            <div className="random-item-container">
+                                <button onClick={addRandomAffordableItem} className="random-item-button">
+                                    Add Random Affordable Item
+                                </button>
+                            </div>
+                        )}
                         <div style={{ padding: "0px", }}>
                             {/* Overall Total Price */}
                             <h3 style={{ marginBottom: "3px" }}>Total Price: {formatPrice(totalPrice) ? formatPrice(totalPrice) : "0 gp"}</h3>
@@ -542,13 +540,41 @@ const Main: React.FC = () => {
                         </button>
                     </div>
                 </footer>
+
+                {modalStates.refreshModal && (
+                    <RefreshModal
+                        onConfirm={handleConfirmRefresh}
+                        onClose={() => setModalState('refreshModal', false)}
+                    />
+                )}
+                {modalStates.confirmationModal && (
+                    <ConfirmationModal
+                        message="Data updated from server!"
+                        onClose={() => setModalState('confirmationModal', false)}
+                    />
+                )}
+                {modalStates.informationModal && (
+                    <InformationModal
+                        onClose={() => setModalState('informationModal', false)} />
+                )}
+                <SmallModal isOpen={modalStates.itemLevelModal}
+                    onClose={() => toggleModal('itemLevelModal')}>
+                    <div>
+                        <div className="level-buttons-grid">
+                            {Array.from({ length: 20 }, (_, i) => i + 1).map((level) => (
+                                <button key={level} onClick={() => updateLevelItems(level, 1)}>
+                                    {level}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                </SmallModal>
+
                 {/* Settings Drawer */}
                 <SettingsDrawer
                     isOpen={modalStates.settings}
                     drawerTitle='Settings'
-                    onHeightChange={handleDrawerBodyHeight}
                     onToggle={() => toggleModal('settings')}
-                    isRandomButtonVisible={toggles.showRandomItem}
                 >
                     <Toggle
                         label="Show items with no price"
@@ -582,39 +608,11 @@ const Main: React.FC = () => {
                     />
                 </SettingsDrawer>
 
-                {modalStates.refreshModal && (
-                    <RefreshModal
-                        onConfirm={handleConfirmRefresh}
-                        onClose={() => setModalState('refreshModal', false)}
-                    />
-                )}
-                {modalStates.confirmationModal && (
-                    <ConfirmationModal
-                        message="Data updated from server!"
-                        onClose={() => setModalState('confirmationModal', false)}
-                    />
-                )}
-                {modalStates.informationModal && (
-                    <InformationModal
-                        onClose={() => setModalState('informationModal', false)} />
-                )}
-                <SmallModal isOpen={modalStates.itemLevelModal}
-                    onClose={() => toggleModal('itemLevelModal')}>
-                    <div>
-                        <div className="level-buttons-grid">
-                            {Array.from({ length: 20 }, (_, i) => i + 1).map((level) => (
-                                <button key={level} onClick={() => updateLevelItems(level, 1)}>
-                                    {level}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
-                </SmallModal>
-
-                {anyModalOpen && <div className="dim-overlay" onClick={closeAllModals}></div>}
-
             </div >
+
+            {anyModalOpen && <div className="dim-overlay" onClick={closeAllModals}></div>}
         </>
+
     );
 };
 
