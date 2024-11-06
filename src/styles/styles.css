@@ -285,7 +285,7 @@ li:hover {
 }
 .refresh-button, .information-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 42px;
     background-color: #007bff;
     border: none;
     border-radius: 50%;

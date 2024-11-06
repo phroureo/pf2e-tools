@@ -14,7 +14,7 @@ import { downloadJSON, uploadJSON } from './utils/downloadJSON';
 import RefreshModal from './components/Modals/RefreshModal';
 import ConfirmationModal from './components/Modals/ConfirmationModal';
 import InformationModal from './components/Modals/InformationModal';
-import SettingsDrawer from './components/SettingsDrawer';
+import SettingsDrawer from './components/Modals/SettingsDrawer';
 
 import { fetchEquipmentData } from './utils/fetchData';
 import { formatPrice, copperToString } from './utils/formatPrice';
