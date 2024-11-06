@@ -126,11 +126,26 @@ const Main: React.FC = () => {
         if (characterLevel) {
             const levelInfo = levelData.find((entry) => entry.level === characterLevel);
             if (levelInfo) {
-                setLumpSum(levelInfo.lumpSum);
+                if (toggles.showItemsByLevel) {
+                    setLumpSum(levelInfo.currency)
+                } else {
+                    setLumpSum(levelInfo.lumpSum);
+                }
                 setLevelItems(levelInfo.itemsByLevel);
             };
         }
     }, [characterLevel, levelData]);
+
+    useEffect(() => {
+        const levelInfo = levelData.find((entry) => entry.level === characterLevel);
+        if (levelInfo) {
+            if (toggles.showItemsByLevel) {
+                setLumpSum(levelInfo.currency);
+            } else {
+                setLumpSum(levelInfo.lumpSum);
+            }
+        }
+    }, [toggles])
 
     useEffect(() => {
         const newTotal = calculateTotalPrice(selectedItems.filter((item) => item.zone === `selectedItems`), quantities);
@@ -248,6 +263,7 @@ const Main: React.FC = () => {
             characterLevel,
             quantities,
             lumpSum,
+            levelItems
         };
         localStorage.setItem(saveKey, JSON.stringify(dataToSave));
         setSavedName(name);
@@ -261,6 +277,7 @@ const Main: React.FC = () => {
             setQuantities(savedData.quantities || {});
             setLumpSum(savedData.lumpSum);
             setSavedName(name);
+            setLevelItems(savedData.levelItems);
         }
         setModalState('loadModal', false);
     };
@@ -301,15 +318,15 @@ const Main: React.FC = () => {
     const updateLevelItems = (level: number, inc: number) => {
         setLevelItems((prev) => {
             const newItems = { ...prev };
-    
+
             if (newItems[level]) {
                 // Update the count based on inc
                 newItems[level] += inc;
-    
+
                 if (newItems[level] <= 0) {
                     // Move all items to "selectedItems" before removing the level
                     moveExcessItemsToSelectedItems(level, 0);
-                    
+
                     // Now delete the level since its count is zero or below
                     delete newItems[level];
                 } else {
@@ -320,17 +337,17 @@ const Main: React.FC = () => {
                 // Initialize level if it doesn't exist and inc is positive
                 newItems[level] = inc;
             }
-    
+
             return Object.fromEntries(
                 Object.entries(newItems)
                     .map(([key, value]) => [parseInt(key), value])
                     .sort(([a], [b]) => a - b)
             );
         });
-    
+
         setModalState('itemLevelModal', false);
     };
-    
+
     // Function to move excess or all items to "selectedItems" if count is reduced or zero
     const moveExcessItemsToSelectedItems = (level: number, maxSlots: number) => {
         setSelectedItems((prevSelectedItems) => {
@@ -339,14 +356,14 @@ const Main: React.FC = () => {
             // Move all items to "selectedItems" if maxSlots is zero, otherwise move only excess items
             const itemsToMove = maxSlots === 0 ? levelItems : levelItems.slice(maxSlots);
             const itemsToKeep = maxSlots > 0 ? levelItems.slice(0, maxSlots) : [];
-    
-            if (itemsToMove.length > 0) {    
+
+            if (itemsToMove.length > 0) {
                 // Update the zone of items to move to "selectedItems"
                 const updatedExcessItems = itemsToMove.map((item) => ({
                     ...item,
                     zone: "selectedItems",
                 }));
-    
+
                 return [
                     ...prevSelectedItems.filter((item) => item.zone !== levelZoneId),
                     ...itemsToKeep,
@@ -356,8 +373,8 @@ const Main: React.FC = () => {
             return prevSelectedItems;
         });
     };
-    
-    
+
+
 
     // Generic toggle function
     const toggleModal = (modalName: keyof typeof modalStates) => {
@@ -415,38 +432,40 @@ const Main: React.FC = () => {
                 <div className="main-content-wrapper">
                     <div className='three-columns'>
                         {toggles.showItemsByLevel &&
-                            <div style={{ textAlign: 'center', padding: '10px' }}>
+                            <div style={{ textAlign: 'center', padding: '10px', marginBottom: "40px", maxHeight: "100%"}}>
                                 <h2>Items by Level</h2>
                                 <button onClick={() => setModalState('itemLevelModal', true)} className='add-level-item-button'>
                                     <img src="/misc/plus.svg" alt="Plus Sign" className="refresh-icon" />
                                     Add Level Item
                                 </button>
-                                {Object.entries(levelItems || {}).map(([level, itemCount]) => (
-                                    <div key={level}>
-                                        <h2>Level {level}</h2>
-                                        <ul style={{ gap: "8px" }}>
-                                            <DropZone
-                                                zoneId={`${level}dz`}
-                                                maxSlots={itemCount}
-                                                slotLevel={Number(level)}
-                                                style={{ background: "#23243a" }}
-                                                items={selectedItems.filter((item) => item.zone === `${level}dz`)}
-                                                quantityChangeEnabled={false}
-                                                handleQuantityChange={handleQuantityChange}
-                                                handleRemoveItem={handleRemoveItem}
-                                                updateItemZone={updateItemZone}
-                                                reorderItemsInZone={reorderItemsInZone}
-                                                draggingItem={draggingItem}
-                                                setDraggingItem={setDraggingItem}
-                                                highlightBorder={true}
-                                                updateLevelItems={updateLevelItems}
-                                                enableFilteredModal={true}
-                                                allEquipment={equipmentData}
-                                                handleAddItem={handleAddItem}
-                                                 />
-                                        </ul>
-                                    </div>
-                                ))}
+                                <div style= {{overflowY: "visible", }}>
+                                    {Object.entries(levelItems || {}).map(([level, itemCount]) => (
+                                        <div key={level}>
+                                            <h2>Level {level}</h2>
+                                            <ul style={{ gap: "8px" }}>
+                                                <DropZone
+                                                    zoneId={`${level}dz`}
+                                                    maxSlots={itemCount}
+                                                    slotLevel={Number(level)}
+                                                    style={{ background: "#23243a" }}
+                                                    items={selectedItems.filter((item) => item.zone === `${level}dz`)}
+                                                    quantityChangeEnabled={false}
+                                                    handleQuantityChange={handleQuantityChange}
+                                                    handleRemoveItem={handleRemoveItem}
+                                                    updateItemZone={updateItemZone}
+                                                    reorderItemsInZone={reorderItemsInZone}
+                                                    draggingItem={draggingItem}
+                                                    setDraggingItem={setDraggingItem}
+                                                    highlightBorder={true}
+                                                    updateLevelItems={updateLevelItems}
+                                                    enableFilteredModal={true}
+                                                    allEquipment={equipmentData}
+                                                    handleAddItem={handleAddItem}
+                                                />
+                                            </ul>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         }
                     </div>

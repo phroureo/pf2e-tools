@@ -1,9 +1,14 @@
 const LoadModal: React.FC<{ onLoad: (name: string) => void, onDelete: (name: string) => void, onClose: () => void }> = ({ onLoad, onDelete, onClose }) => {
     // Get saved lists from localStorage
-    const savedLists = Object.keys(localStorage).map(key => ({
-        key,  // Store the key to reference in delete
-        ...JSON.parse(localStorage.getItem(key) || '{}')
-    })).filter(item => item.Type === "saveData"); // Filter by Type;
+    const savedLists = Object.keys(localStorage).map(key => {
+        try {
+            const parsedData = JSON.parse(localStorage.getItem(key) || '{}');
+            return { key, ...parsedData };
+        } catch (error) {
+            console.warn(`Invalid JSON for key "${key}" in localStorage. Skipping...`, error);
+            return null; // Skip invalid entries
+        }
+    }).filter(item => item && item.Type === "saveData"); // Ensure item is valid and of Type saveData
 
     const handleDelete = (key: string) => {
         localStorage.removeItem(key);  // Remove the item from localStorage
