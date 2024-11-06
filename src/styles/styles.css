@@ -142,6 +142,24 @@ li:hover {
     border-bottom: 1px solid #555; /* Make bottom border darker on hover */
 }
 
+.drop {
+    display: flex;
+    width: 100%; /* Full width of the container */
+    padding: 0.5em 0;
+    box-sizing: border-box;
+}
+
+
+.drop:first-child {
+    border-top: none; /* Remove top border on the first item */
+    align-items: left;
+    align-content: left;
+}
+
+.drop:hover {
+    border: none;
+}
+
 /* Flex container styling */
 .flex-container {
     display: flex;

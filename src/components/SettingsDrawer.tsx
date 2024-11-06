@@ -25,7 +25,6 @@ const [drawerBodyHeight, setDrawerBodyHeight] = useState(0);
       const height = drawerBodyRef.current.offsetHeight;
       setDrawerBodyHeight(height); // Set local state for use within Drawer
       onHeightChange(height); // Pass height to parent
-      console.log(height);
     }
   }, [drawerBodyRef.current?.offsetHeight, onHeightChange]);
 

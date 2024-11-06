@@ -1,5 +1,4 @@
 import React from 'react';
-import { ManifestItem } from '../../types/ManifestItem';
 
 interface ModalProps {
     isOpen: boolean;

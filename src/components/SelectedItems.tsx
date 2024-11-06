@@ -1,23 +1,21 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { copperToString, formatPrice } from '../utils/formatPrice';
-import { ManifestItem } from '../types/ManifestItem';
-import Modal from './Modals/Modal';
-import ItemDetails from './ItemDetails';
+import DropZone from './DragAndDrop/DropZone';
+import { EquipmentItem } from '../types/EquipmentItem';
 
 interface SelectedItemsProps {
-    items: ManifestItem[];
-    onRemoveItem: (index: number) => void;
+    items: EquipmentItem[];
     onQuantityChange: (index: number, delta: number) => void;
-    availableCopper: number;
+    handleRemoveItem(index: number): void;
+    updateItemZone: (item: EquipmentItem, newZone: string) => void; // Centralized update function
+    reorderItemsInZone: (zoneId: string, sourceIndex: number, targetIndex: number) => void; // Reordering function
+    draggingItem: EquipmentItem | null;
+    setDraggingItem: React.Dispatch<React.SetStateAction<EquipmentItem | null>>;
 }
 
-const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQuantityChange, availableCopper }) => {
+const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onQuantityChange, handleRemoveItem, updateItemZone, reorderItemsInZone, draggingItem, setDraggingItem }) => {
     const [quantities, setQuantities] = useState<{ [key: number]: number }>(
         items.reduce((acc, _, idx) => ({ ...acc, [idx]: 1 }), {})
     );
-
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedItem, setSelectedItem] = useState<ManifestItem | null>(null);
 
     const itemRefs = useRef<(HTMLHeadingElement | null)[]>([]); // Array of refs for each item name
 
@@ -57,122 +55,23 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onRemoveItem, onQu
         onQuantityChange(index, delta);
     };
 
-    const openModal = (item: ManifestItem) => {
-        setSelectedItem(item);
-        setIsModalOpen(true);
-    };
-
-    const closeModal = () => {
-        setIsModalOpen(false);
-        setSelectedItem(null);
-    };
 
     return (
         <div style={{ width: '100%', textAlign: 'center' }}>
-            <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
-                {items.map((item, index) => {
-                    const quantity = quantities[index] || 1;
-                    const itemTotalPrice = {
-                        cp: (item.price?.value?.cp ?? 0) * quantity,
-                        sp: (item.price?.value?.sp ?? 0) * quantity,
-                        gp: (item.price?.value?.gp ?? 0) * quantity,
-                        pp: (item.price?.value?.pp ?? 0) * quantity,
-                    };
-                    const isConsumable = item.traits?.includes("consumable");
-
-                    return (
-                        <li
-                            key={index}
-                            style={{
-                                display: 'flex',
-                                cursor: 'pointer',
-                                width: '100%',
-                            }}
-                            onClick={() => openModal(item)}
-                        >
-                            {/* Left side: First and Second Line (stacked vertically) */}
-                            <div style={{
-                                flex: 1,
-                                width: '100%',
-                            }}>
-                                {/* First Line: Item Name and Price */}
-                                <div>
-                                    <div
-                                        style={{
-                                            display: 'flex',
-                                            justifyContent: 'space-between',
-                                            alignItems: 'center',
-                                        }}
-                                    >
-                                        <h3
-                                            style={{
-                                                flex: 1,
-                                                whiteSpace: 'nowrap',
-                                                marginTop: 0,
-                                                marginBottom: 10,
-                                                textAlign: 'left', // Ensure text is left-aligned
-                                            }}
-                                            ref={(el) => (itemRefs.current[index] = el)} // Set ref for each item name
-                                        >
-                                            {item.name}
-                                        </h3>
-                                        {/* Right side: Remove Button */}
-                                        <button
-                                            onClick={(e) => {
-                                                e.stopPropagation();
-                                                onRemoveItem(index);
-                                            }}
-                                            className="button-x"
-                                            style={{
-                                                marginLeft: 'auto', // Pushes the button to the right
-                                            } as React.CSSProperties} // Type assertion for inline styles
-                                        />
-                                    </div>
-                                    <div className="divider-horizontal"></div>
-
-                                    {/* Second Line: Quantity Controls and Item Total Price (only if consumable) */}
-                                    <div style={{
-                                        width: '100%',
-                                        display: 'flex',
-                                        alignItems: 'left',
-                                        justifyContent: 'space-between',
-                                        gap: '1em', // Adds consistent spacing
-                                        whiteSpace: 'nowrap' // Prevents text from wrapping
-                                    }}>
-                                        {/* Price */}
-                                        <div style={{ flexShrink: 0 }}>Price: {formatPrice(item.price?.value)}</div>
-
-                                        {/* Quantity Controls */}
-                                        <div style={{ display: 'flex', alignItems: 'center' }}>
-                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, -1); }}>-</button>
-                                            <span style={{ margin: '0 10px' }}>{quantity}</span>
-                                            <button className='minimal-button' onClick={(e) => { e.stopPropagation(); handleQuantityChange(index, 1); }}>+</button>
-                                        </div>
-
-                                        {/* Item Total Price */}
-                                        <div style={{ flexShrink: 0 }}>
-                                            <b>Total</b>: {formatPrice(itemTotalPrice)}
-                                        </div>
-
-                                        {/* Level */}
-                                        <div className='item-level' style={{ flexShrink: 0 }}>
-                                            Level {item.level}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    );
-                })}
-            </ul>
-
-            {/* Modal for Item Details */}
-            <Modal
-                isOpen={isModalOpen}
-            >
-                {selectedItem && <ItemDetails item={selectedItem} />}
-                <button onClick={closeModal} className="close-button">Close</button>
-            </Modal>
+            <DropZone
+                zoneId="selectedItems"
+                maxSlots={Infinity}
+                slotLevel={Infinity}
+                style={{ background: "transparent", border: "none" }}
+                items={items}
+                handleQuantityChange={handleQuantityChange}
+                handleRemoveItem={handleRemoveItem}
+                quantityChangeEnabled={true}
+                updateItemZone={updateItemZone}
+                reorderItemsInZone={reorderItemsInZone}
+                draggingItem={draggingItem}
+                setDraggingItem={setDraggingItem}
+            />
         </div>
     );
 };

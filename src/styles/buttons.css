@@ -107,3 +107,11 @@ button:disabled {
     background-color: #c45500; /* Example color for highlighting */
     color: white;
 }
+
+
+.level-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 8px;
+    margin-bottom: 16px;
+}

@@ -1,4 +1,5 @@
 import { ManifestItem } from '../types/ManifestItem';
+import LZString from 'lz-string';
 
 const CACHE_KEY = 'equipmentDataCache';
 const CACHE_TIMESTAMP_KEY = 'equipmentDataTimestamp';
@@ -13,7 +14,7 @@ export const fetchEquipmentData = async (forceRefresh = false): Promise<Manifest
 
     if (cachedData && !cacheExpired && !forceRefresh) {
         console.log('Returning cached equipment data');
-        return JSON.parse(cachedData);
+        return JSON.parse(LZString.decompress(cachedData));
     }
 
     // Fetch new data if cache is expired or force refresh is enabled
@@ -47,7 +48,7 @@ export const fetchEquipmentData = async (forceRefresh = false): Promise<Manifest
             for (const item of manifestItems) {
                 try {
                     const manifestItem: ManifestItem = {
-                        id: item.file,
+                        id: item.name,
                         name: item.name,
                         level: item.level,
                         price: {
@@ -78,7 +79,8 @@ export const fetchEquipmentData = async (forceRefresh = false): Promise<Manifest
     }
 
     // Cache the fetched data
-    localStorage.setItem(CACHE_KEY, JSON.stringify(equipmentData));
+    const compressedData = LZString.compress(JSON.stringify(equipmentData));
+    localStorage.setItem(CACHE_KEY, compressedData);
     localStorage.setItem(CACHE_TIMESTAMP_KEY, Date.now().toString());
     console.log(`Fetched total equipment items: ${equipmentData.length}`);
     

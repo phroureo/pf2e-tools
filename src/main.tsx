@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 
 import CharacterLevel from './components/CharacterLevel';
+import DropZone from './components/DragAndDrop/DropZone';
 import ItemList from './components/ItemList';
 import SelectedItems from './components/SelectedItems';
 import ItemHighlighter from './components/Modals/ItemHighlighter'
@@ -16,11 +17,13 @@ import InformationModal from './components/Modals/InformationModal';
 import SettingsDrawer from './components/SettingsDrawer';
 
 import { fetchEquipmentData } from './utils/fetchData';
-import { simplifyPrice, formatPrice, copperToString } from './utils/formatPrice';
+import { formatPrice, copperToString } from './utils/formatPrice';
+import { convertToEquipmentItem } from './utils/convertManifestToEquipment';
 
 import { TotalPrice } from './types/TotalPrice';
 import { LevelData } from './types/LevelData';
 import { ManifestItem } from './types/ManifestItem';
+import { EquipmentItem } from './types/EquipmentItem';
 
 import './styles/styles.css';
 import './styles/toggle.css';
@@ -31,11 +34,13 @@ import './styles/input.css';
 import './styles/flyout.css';
 import './styles/loadingcomponent.css';
 import './styles/settingsdrawer.css';
+import Modal from './components/Modals/Modal';
+import SmallModal from './components/Modals/SmallModal';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
     const [equipmentData, setEquipmentData] = useState<ManifestItem[]>([]);
-    const [selectedItems, setSelectedItems] = useState<ManifestItem[]>([]);
+    const [selectedItems, setSelectedItems] = useState<EquipmentItem[]>([]);
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
     const [totalPrice, setTotalPrice] = useState<TotalPrice>({ cp: 0, sp: 0, gp: 0, pp: 0 });
     const [levelData, setLevelData] = useState<LevelData[]>([]);
@@ -46,14 +51,18 @@ const Main: React.FC = () => {
     const [drawerHeight, setDrawerHeight] = useState(0);
     const [loading, setLoading] = useState(false);
     const [levelItems, setLevelItems] = useState<Record<number, number>>();
+    const [draggingItem, setDraggingItem] = useState<EquipmentItem | null>(null);
 
     //modals
-    const [showSaveModal, setShowSaveModal] = useState(false);
-    const [showLoadModal, setShowLoadModal] = useState(false);
-    const [showRefreshModal, setShowRefreshModal] = useState(false);
-    const [showConfirmationModal, setShowConfirmationModal] = useState(false);
-    const [showInformationModal, setshowInformationModal] = useState(false);
-    const [showSettings, setShowSettings] = useState(false);
+    const [modalStates, setModalStates] = useState({
+        saveModal: false,
+        loadModal: false,
+        refreshModal: false,
+        confirmationModal: false,
+        informationModal: false,
+        settings: false,
+        itemLevelModal: false,
+    });
 
     //options toggles 
     const [toggles, setToggles] = useState<{ [key: string]: boolean }>({
@@ -73,7 +82,6 @@ const Main: React.FC = () => {
                 for (let entry of entries) {
                     if (entry.contentRect.height !== footerHeight) {
                         setFooterHeight(entry.contentRect.height);
-                        console.log(entry.contentRect.height);
                     }
                 }
             });
@@ -125,11 +133,10 @@ const Main: React.FC = () => {
     }, [characterLevel, levelData]);
 
     useEffect(() => {
-        const newTotal = calculateTotalPrice(selectedItems, quantities);
+        const newTotal = calculateTotalPrice(selectedItems.filter((item) => item.zone === `selectedItems`), quantities);
         setTotalPrice(newTotal);
         setAvailableCopper(calculateAvailableCopper(lumpSum, newTotal));
     }, [selectedItems, quantities, lumpSum]);
-
 
     // Utility to save to localStorage with Type "settings"
     const saveToLocalStorage = (key: string, data: any, type: string) => {
@@ -160,6 +167,14 @@ const Main: React.FC = () => {
         );
     };
 
+    // Set specific modal state
+    const setModalState = (modalName: keyof typeof modalStates, isOpen: boolean) => {
+        setModalStates((prevState) => ({
+            ...prevState,
+            [modalName]: isOpen,
+        }));
+    };
+
     const calculateAvailableCopper = (lumpSum: number, totalPrice: TotalPrice) => {
         const totalCopper = totalPrice.cp + totalPrice.sp * 10 + totalPrice.gp * 100 + totalPrice.pp * 1000;
         return lumpSum * 100 - totalCopper;
@@ -180,11 +195,31 @@ const Main: React.FC = () => {
     };
 
     const handleAddItem = (item: ManifestItem) => {
-        setSelectedItems((prevItems) => [...prevItems, item]);
+        setSelectedItems((prevItems) => [...prevItems, convertToEquipmentItem(item, 'selectedItems')]);
         setQuantities((prevQuantities) => ({
             ...prevQuantities,
             [selectedItems.length]: 1,
         }));
+    };
+
+    const updateItemZone = (draggedItem: EquipmentItem, newZone: string) => {
+        setSelectedItems((prevItems) => {
+            const updatedItems = prevItems.map((item) =>
+                // Only change the zone for the dragged item by ID
+                item.id === draggedItem.id ? { ...item, zone: newZone } : item
+            );
+            return updatedItems;
+        });
+    };
+
+    const reorderItemsInZone = (zoneId: string, sourceIndex: number, targetIndex: number) => {
+        setSelectedItems((prevItems) => {
+            const zoneItems = prevItems.filter((item) => item.zone === zoneId);
+            const [movedItem] = zoneItems.splice(sourceIndex, 1);
+            zoneItems.splice(targetIndex, 0, movedItem);
+
+            return prevItems.map((item) => (item.zone === zoneId ? zoneItems.shift()! : item));
+        });
     };
 
     const handleDelete = () => setRefreshKey((prevKey) => prevKey + 1);
@@ -194,8 +229,8 @@ const Main: React.FC = () => {
             setLoading(true);
             const data = await fetchEquipmentData(true);
             setEquipmentData(data);
-            setShowRefreshModal(false);
-            setShowConfirmationModal(true);
+            setModalState('refreshModal', false);
+            setModalState('confirmationModal', true);
             setLoading(false);
         } catch (error) {
             console.error("Error refreshing equipment data:", error);
@@ -227,7 +262,7 @@ const Main: React.FC = () => {
             setLumpSum(savedData.lumpSum);
             setSavedName(name);
         }
-        setShowLoadModal(false);
+        setModalState('loadModal', false);
     };
 
     const handleUploadData = (data: any) => {
@@ -243,16 +278,18 @@ const Main: React.FC = () => {
         setDrawerHeight(height);
     };
 
-    const toggleSettings = () => setShowSettings((prev) => !prev);
-
     const handleRemoveItem = (index: number) => {
-        setSelectedItems((prevItems) => prevItems.filter((_, i) => i !== index));
+        setSelectedItems((prevItems) => {
+            const newItems = prevItems.filter((_, i) => i !== index);
+            return [...newItems]; // Ensure new array reference for React to detect changes
+        });
         setQuantities((prevQuantities) => {
             const newQuantities = { ...prevQuantities };
             delete newQuantities[index];
             return newQuantities;
         });
     };
+
 
     const handleQuantityChange = (index: number, delta: number) => {
         setQuantities((prevQuantities) => ({
@@ -261,10 +298,88 @@ const Main: React.FC = () => {
         }));
     };
 
-    const addLevelItem = () => {
+    const updateLevelItems = (level: number, inc: number) => {
+        setLevelItems((prev) => {
+            const newItems = { ...prev };
+    
+            if (newItems[level]) {
+                // Update the count based on inc
+                newItems[level] += inc;
+    
+                if (newItems[level] <= 0) {
+                    // Move all items to "selectedItems" before removing the level
+                    moveExcessItemsToSelectedItems(level, 0);
+                    
+                    // Now delete the level since its count is zero or below
+                    delete newItems[level];
+                } else {
+                    // Move excess items if the count was reduced but still positive
+                    moveExcessItemsToSelectedItems(level, newItems[level]);
+                }
+            } else if (inc > 0) {
+                // Initialize level if it doesn't exist and inc is positive
+                newItems[level] = inc;
+            }
+    
+            return Object.fromEntries(
+                Object.entries(newItems)
+                    .map(([key, value]) => [parseInt(key), value])
+                    .sort(([a], [b]) => a - b)
+            );
+        });
+    
+        setModalState('itemLevelModal', false);
+    };
+    
+    // Function to move excess or all items to "selectedItems" if count is reduced or zero
+    const moveExcessItemsToSelectedItems = (level: number, maxSlots: number) => {
+        setSelectedItems((prevSelectedItems) => {
+            const levelZoneId = `${level}dz`;
+            const levelItems = prevSelectedItems.filter((item) => item.zone === levelZoneId);
+            // Move all items to "selectedItems" if maxSlots is zero, otherwise move only excess items
+            const itemsToMove = maxSlots === 0 ? levelItems : levelItems.slice(maxSlots);
+            const itemsToKeep = maxSlots > 0 ? levelItems.slice(0, maxSlots) : [];
+    
+            if (itemsToMove.length > 0) {    
+                // Update the zone of items to move to "selectedItems"
+                const updatedExcessItems = itemsToMove.map((item) => ({
+                    ...item,
+                    zone: "selectedItems",
+                }));
+    
+                return [
+                    ...prevSelectedItems.filter((item) => item.zone !== levelZoneId),
+                    ...itemsToKeep,
+                    ...updatedExcessItems,
+                ];
+            }
+            return prevSelectedItems;
+        });
+    };
+    
+    
 
-    }
+    // Generic toggle function
+    const toggleModal = (modalName: keyof typeof modalStates) => {
+        setModalStates((prevState) => ({
+            ...prevState,
+            [modalName]: !prevState[modalName],
+        }));
+    };
 
+
+    // Check if any modal is open
+    const anyModalOpen = Object.values(modalStates).some((isOpen) => isOpen);
+
+    const closeAllModals = () => {
+        setModalStates((prevState) => {
+            const updatedStates = { ...prevState };
+            for (const key in updatedStates) {
+                updatedStates[key as keyof typeof modalStates] = false;
+            }
+            return updatedStates;
+        });
+    };
 
     return (
         <>
@@ -278,41 +393,53 @@ const Main: React.FC = () => {
                     <h1>PF2e Equipment Tracker</h1>
                     <div className="flyout-container">
                         <Flyout
-                            saveData={() => setShowSaveModal(true)}
-                            loadData={() => setShowLoadModal(true)}
+                            saveData={() => setModalState('saveModal', true)}
+                            loadData={() => setModalState('loadModal', true)}
                             onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
                             onUpload={(e) => uploadJSON(e, handleUploadData)}
                         />
                     </div>
-                    {showSaveModal && <SaveModal
+                    {modalStates.saveModal && <SaveModal
                         onSave={handleSaveData}
-                        onClose={() => setShowSaveModal(false)}
+                        onClose={() => setModalState('saveModal', false)}
                         isEdit={savedName ? true : false}
                         savedName={savedName}
                     />}
-                    {showLoadModal && <LoadModal
+                    {modalStates.loadModal && <LoadModal
                         onLoad={handleLoadData}
                         onDelete={handleDelete}
-                        onClose={() => setShowLoadModal(false)}
+                        onClose={() => setModalState('loadModal', false)}
                     />}
                 </header>
                 {/* Main content layout with ItemHighlighter positioned to the right */}
                 <div className="main-content-wrapper">
                     <div className='three-columns'>
                         {toggles.showItemsByLevel &&
-                            <div style={{ textAlign: 'center' }}>
+                            <div style={{ textAlign: 'center', padding: '10px' }}>
                                 <h2>Items by Level</h2>
-                                <button onClick={addLevelItem} className='add-level-item-button'>
+                                <button onClick={() => setModalState('itemLevelModal', true)} className='add-level-item-button'>
                                     <img src="/misc/plus.svg" alt="Plus Sign" className="refresh-icon" />
                                     Add Level Item
                                 </button>
                                 {Object.entries(levelItems || {}).map(([level, itemCount]) => (
                                     <div key={level}>
                                         <h2>Level {level}</h2>
-                                        <ul>
-                                            {Array.from({ length: itemCount }, (_, index) => (
-                                                <li key={index}> Item {index + 1}</li>
-                                            ))}
+                                        <ul style={{ gap: "8px" }}>
+                                            <DropZone
+                                                zoneId={`${level}dz`}
+                                                maxSlots={itemCount}
+                                                slotLevel={Number(level)}
+                                                style={{ background: "#23243a" }}
+                                                items={selectedItems.filter((item) => item.zone === `${level}dz`)}
+                                                quantityChangeEnabled={false}
+                                                handleQuantityChange={handleQuantityChange}
+                                                handleRemoveItem={handleRemoveItem}
+                                                updateItemZone={updateItemZone}
+                                                reorderItemsInZone={reorderItemsInZone}
+                                                draggingItem={draggingItem}
+                                                setDraggingItem={setDraggingItem}
+                                                highlightBorder={true}
+                                                updateLevelItems={updateLevelItems} />
                                         </ul>
                                     </div>
                                 ))}
@@ -341,10 +468,14 @@ const Main: React.FC = () => {
                             height: `calc(100vh - 350px - ${toggles.showRandomItem ? 50 : 0}px)`,
                         }}>
                             <SelectedItems
-                                items={selectedItems}
-                                onRemoveItem={handleRemoveItem}
+                                key={selectedItems.map(item => item.id).join('-')} // Ensures re-render on state change
+                                items={selectedItems.filter((item) => item.zone === `selectedItems`)}
                                 onQuantityChange={handleQuantityChange}
-                                availableCopper={availableCopper}
+                                handleRemoveItem={handleRemoveItem}
+                                updateItemZone={updateItemZone}
+                                reorderItemsInZone={reorderItemsInZone}
+                                draggingItem={draggingItem}
+                                setDraggingItem={setDraggingItem}
                             />
                         </div>
                     </div>
@@ -371,14 +502,14 @@ const Main: React.FC = () => {
                     <div className='footer-options'>
                         <button
                             className="information-button"
-                            onClick={() => setshowInformationModal(true)}
+                            onClick={() => setModalState('informationModal', true)}
                             title="Show Site Info"
                         >
                             <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
                         </button>
                         <button
                             className="refresh-button"
-                            onClick={() => setShowRefreshModal(true)}
+                            onClick={() => setModalState('refreshModal', true)}
                             title="Refresh Cache"
                         >
                             <img src="/misc/refreshicon.svg" alt="Refresh Icon" className="refresh-icon" />
@@ -387,10 +518,10 @@ const Main: React.FC = () => {
                 </footer>
                 {/* Settings Drawer */}
                 <SettingsDrawer
-                    isOpen={showSettings}
+                    isOpen={modalStates.settings}
                     drawerTitle='Settings'
                     onHeightChange={handleDrawerBodyHeight}
-                    onToggle={toggleSettings}
+                    onToggle={() => toggleModal('settings')}
                     isRandomButtonVisible={toggles.showRandomItem}
                 >
                     <Toggle
@@ -425,25 +556,36 @@ const Main: React.FC = () => {
                     />
                 </SettingsDrawer>
 
-                {showSettings && <div className="dim-overlay" onClick={toggleSettings}></div>}
-
-                {showRefreshModal && (
+                {modalStates.refreshModal && (
                     <RefreshModal
                         onConfirm={handleConfirmRefresh}
-                        onClose={() => setShowRefreshModal(false)}
+                        onClose={() => setModalState('refreshModal', false)}
                     />
                 )}
-                {showConfirmationModal && (
+                {modalStates.confirmationModal && (
                     <ConfirmationModal
                         message="Data updated from server!"
-                        onClose={() => setShowConfirmationModal(false)}
+                        onClose={() => setModalState('confirmationModal', false)}
                     />
                 )}
-                {showInformationModal && (
+                {modalStates.informationModal && (
                     <InformationModal
-                        onClose={() => setshowInformationModal(false)} />
+                        onClose={() => setModalState('informationModal', false)} />
                 )}
+                <SmallModal isOpen={modalStates.itemLevelModal}
+                    onClose={() => toggleModal('itemLevelModal')}>
+                    <div>
+                        <div className="level-buttons-grid">
+                            {Array.from({ length: 20 }, (_, i) => i + 1).map((level) => (
+                                <button key={level} onClick={() => updateLevelItems(level, 1)}>
+                                    {level}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                </SmallModal>
 
+                {anyModalOpen && <div className="dim-overlay" onClick={closeAllModals}></div>}
 
             </div >
         </>
