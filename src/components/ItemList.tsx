@@ -9,7 +9,7 @@ import { SearchCondition } from '../types/SearchCondition';
 
 interface ItemListProps {
     items: ManifestItem[];
-    onAddItem: (item: ManifestItem) => void;
+    onAddItem: (item: ManifestItem, zone: string) => void;
     showNoPriceItems: Boolean;
     showAffordableItemsOnly: Boolean;
     showMythicItems: Boolean;
@@ -27,23 +27,23 @@ const ItemList: React.FC<ItemListProps> = ({
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [searchConditions, setSearchConditions] = useState<SearchCondition[]>([
-        { field: 'name', value: '', comparison: 'contains' }
+        { field: 'name', value: '', comparison: 'contains', allowEdit: true }
     ]);
     const [selectedItem, setSelectedItem] = useState<ManifestItem | null>(null);
 
     const handleAddItem = () => {
         if (selectedItem) {
-            onAddItem(selectedItem);
+            onAddItem(selectedItem, 'selectedItems');
             setIsModalOpen(false); // Close modal after adding the item
             setSelectedItem(null);
-            setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]);
+            setSearchConditions([{ field: 'name', value: '', comparison: 'contains', allowEdit: true  }]);
         };
     }
 
     const handleClose = () => {
         setIsModalOpen(false);
         setSelectedItem(null);
-        setSearchConditions([{ field: 'name', value: '', comparison: 'contains' }]);
+        setSearchConditions([{ field: 'name', value: '', comparison: 'contains', allowEdit: true  }]);
     }
 
     return (

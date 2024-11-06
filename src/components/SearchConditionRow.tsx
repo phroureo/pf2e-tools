@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchCondition } from '../types/SearchCondition';
+import { createSearchCondition, SearchCondition } from '../types/SearchCondition';
 
 interface SearchConditionRowProps {
     searchConditions: SearchCondition[];
@@ -7,7 +7,11 @@ interface SearchConditionRowProps {
 }
 
 const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchConditions, onConditionsChange }) => {
-    const handleConditionChange = (index: number, field: keyof SearchCondition, value: string) => {
+    const handleConditionChange = (
+        index: number,
+        field: Exclude<keyof SearchCondition, 'allowEdit'>, // Exclude 'allowEdit' from updatable fields
+        value: string
+    ) => {
         const updatedConditions = [...searchConditions];
         const currentField = updatedConditions[index].field;
     
@@ -19,17 +23,18 @@ const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchCondition
                 updatedConditions[index].comparison = 'contains'; // Default to = when changing from level to another field
             }
     
-            updatedConditions[index].field = value as SearchCondition['field'];
+            updatedConditions[index].field = value;
         } else {
-            // For other changes, just update the specified field or comparison directly
+            // Directly update other modifiable fields
             updatedConditions[index][field] = value;
         }
     
         onConditionsChange(updatedConditions); // Notify parent of the change
     };
+    
 
     const addCondition = () => {
-        onConditionsChange([...searchConditions, { field: 'name', value: '', comparison: 'contains' }]);
+        onConditionsChange([...searchConditions, createSearchCondition( 'name', '', 'contains' )]);
     };
 
     const removeCondition = (index: number) => {
@@ -41,7 +46,7 @@ const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchCondition
         <div className="search-bar-container">
             {searchConditions.map((condition, index) => (
                 <div key={index} className="search-condition">
-                    <select className='search-condition' value={condition.field} onChange={(e) => handleConditionChange(index, 'field', e.target.value)}>
+                    <select className='search-condition' value={condition.field} onChange={(e) => handleConditionChange(index, 'field', e.target.value)} disabled= {condition.allowEdit ? false : true}>
                         <option value="name">Name</option>
                         <option value="traits">Traits</option>
                         <option value="description">Description</option>
@@ -54,7 +59,7 @@ const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchCondition
                             <>
                                 <option value="lessThan">&le;</option>
                                 <option value="equals">=</option>
-                                <option value="greaterThan">&ge;</option>
+                                {condition.allowEdit && <option value="greaterThan">&ge;</option>}
                             </>
                         ) : (
                             <>
@@ -69,6 +74,7 @@ const SearchConditionRow: React.FC<SearchConditionRowProps> = ({ searchCondition
                         type="text"
                         value={condition.value}
                         onChange={(e) => handleConditionChange(index, 'value', e.target.value)}
+                        disabled= {condition.allowEdit ? false : true}
                     />
 
                     {index === 0 ? (

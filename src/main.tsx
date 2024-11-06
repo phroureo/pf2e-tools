@@ -190,12 +190,12 @@ const Main: React.FC = () => {
 
         if (affordableItems.length > 0) {
             const randomItem = affordableItems[Math.floor(Math.random() * affordableItems.length)];
-            handleAddItem(randomItem);
+            handleAddItem(randomItem, 'selectedItems');
         }
     };
 
-    const handleAddItem = (item: ManifestItem) => {
-        setSelectedItems((prevItems) => [...prevItems, convertToEquipmentItem(item, 'selectedItems')]);
+    const handleAddItem = (item: ManifestItem, zone: string) => {
+        setSelectedItems((prevItems) => [...prevItems, convertToEquipmentItem(item, zone)]);
         setQuantities((prevQuantities) => ({
             ...prevQuantities,
             [selectedItems.length]: 1,
@@ -439,7 +439,11 @@ const Main: React.FC = () => {
                                                 draggingItem={draggingItem}
                                                 setDraggingItem={setDraggingItem}
                                                 highlightBorder={true}
-                                                updateLevelItems={updateLevelItems} />
+                                                updateLevelItems={updateLevelItems}
+                                                enableFilteredModal={true}
+                                                allEquipment={equipmentData}
+                                                handleAddItem={handleAddItem}
+                                                 />
                                         </ul>
                                     </div>
                                 ))}
@@ -476,6 +480,8 @@ const Main: React.FC = () => {
                                 reorderItemsInZone={reorderItemsInZone}
                                 draggingItem={draggingItem}
                                 setDraggingItem={setDraggingItem}
+                                allEquipment={equipmentData}
+                                handleAddItem={handleAddItem}
                             />
                         </div>
                     </div>
