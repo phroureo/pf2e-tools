@@ -488,7 +488,8 @@ const Main: React.FC = () => {
                         </div>
                         <h2>Selected Items</h2>
                         <div className="selected-items-container" style={{
-                            height: `calc(100vh - 350px - ${toggles.showRandomItem ? 50 : 0}px)`,
+                            minHeight: `calc(100vh - 350px - ${toggles.showRandomItem ? 50 : 0}px)`,
+                            maxHeight: `calc(100vh - 350px - ${toggles.showRandomItem ? 50 : 0}px)`,
                         }}>
                             <SelectedItems
                                 key={selectedItems.map(item => item.id).join('-')} // Ensures re-render on state change

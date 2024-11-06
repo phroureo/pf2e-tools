@@ -60,7 +60,7 @@ const SelectedItems: React.FC<SelectedItemsProps> = ({ items, onQuantityChange, 
 
 
     return (
-        <div style={{ width: '100%', textAlign: 'center' }}>
+        <div style={{ width: '100%', textAlign: 'center', }}>
             <DropZone
                 zoneId="selectedItems"
                 maxSlots={Infinity}

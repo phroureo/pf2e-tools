@@ -185,7 +185,7 @@ const DropZone: React.FC<DropZoneProps> = ({
           backgroundColor: '#f8f8f8',
           position: 'relative',
           border: isHovered && highlightBorder ? borderStyle() : '2px dashed #aaa', // Dynamically apply border style
-          cursor: items.length < maxSlots ? "pointer" : "auto" ,
+          cursor: items.length < maxSlots && maxSlots < Infinity ? "pointer" : "auto" ,
           ...style,
         }}
       >

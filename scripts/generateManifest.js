@@ -99,7 +99,7 @@ fs.readdir(source, (err, files) => {
                         p3 ? p3.charAt(0).toUpperCase() + p3.slice(1) : ''
                     ].filter(Boolean).join(' ');
                 });
-                
+
                 usage = usage.replace("-", " ");
 
                 if (usage === "Etched Onto Weapon Wo Holy Rune") {
@@ -129,10 +129,14 @@ fs.readdir(source, (err, files) => {
                 worn: worn,
                 publication: item.system.publication.title || '',
             };
-
-            itemsWithDetails.push(itemEntry);
+            
+            // if (item.system.publication.license === "ORC") {
+            // if (item.system.publication.remaster) {
+            if (true) {
+                itemsWithDetails.push(itemEntry);
+            }
         }
-        
+
 
         // When all files are processed, split into chunks and save
         if (index === jsonFiles.length - 1) {
@@ -153,7 +157,7 @@ fs.readdir(source, (err, files) => {
             }
         }
     });
-    
+
 
 
     const usagesPath = path.join(miscJsonDir, 'usages.json');
