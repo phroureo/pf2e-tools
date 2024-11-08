@@ -420,6 +420,26 @@
     padding: 0;
 }
 
+
+/* Style for the input field */
+input[type="text"] {
+    color: #e1e1e6; /* Regular text color */
+    background-color: #1f1f33; /* Background color */
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Greyed-out text for the disabled input state */
+input[type="text"]:disabled {
+    color: #a1a1a1; /* Slightly greyer text color */
+    background-color: #1f1f33; /* Keep background consistent */
+    cursor: not-allowed; /* Optional: changes cursor to indicate non-editable state */
+}
+
+
+
 .save-modal {
     position: fixed;
     top: 50%;
@@ -428,19 +448,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(1, 6, 70);
     padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     width: 80%; /* Adjust width as needed */
     max-width: 500px;
     z-index: 1000;
+    background-color: #2a2a3e;
+    color: #e1e1e6;
 }
 
 /* Centering the items within the list */
 .save-modal ul {
     list-style-type: none;
     align-items: center;
+    background-color: #2a2a3e;
+    color: #e1e1e6;
     padding: 0;
     width: 100%; /* Makes items span the full width of modal */
 }
@@ -470,27 +493,9 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
-    background-color: rgb(1, 6, 70);
 }
 
 .save-modal-button {
     padding: 10px 20px; 
     cursor: pointer;
-}
-
-/* Style for the input field */
-input[type="text"] {
-    color: #e1e1e6; /* Regular text color */
-    background-color: #1f1f33; /* Background color */
-    padding: 8px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-/* Greyed-out text for the disabled input state */
-input[type="text"]:disabled {
-    color: #a1a1a1; /* Slightly greyer text color */
-    background-color: #1f1f33; /* Keep background consistent */
-    cursor: not-allowed; /* Optional: changes cursor to indicate non-editable state */
 }
