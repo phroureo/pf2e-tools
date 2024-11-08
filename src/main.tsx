@@ -34,8 +34,10 @@ import './styles/input.css';
 import './styles/flyout.css';
 import './styles/loadingcomponent.css';
 import './styles/settingsdrawer.css';
+import './styles/license.css';
 import Modal from './components/Modals/Modal';
 import SmallModal from './components/Modals/SmallModal';
+import LicenseModal from './components/Modals/LicenseModal';
 
 const Main: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
@@ -61,6 +63,7 @@ const Main: React.FC = () => {
         informationModal: false,
         settings: false,
         itemLevelModal: false,
+        licenseModal: false,
     });
 
     //options toggles 
@@ -409,6 +412,7 @@ const Main: React.FC = () => {
                             loadData={() => setModalState('loadModal', true)}
                             onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
                             onUpload={(e) => uploadJSON(e, handleUploadData)}
+                            showLicense={() => setModalState('licenseModal', true)}
                         />
                     </div>
                     {modalStates.saveModal && <SaveModal
@@ -433,7 +437,11 @@ const Main: React.FC = () => {
                                     <img src="/misc/plus.svg" alt="Plus Sign" className="refresh-icon" />
                                     Add Level Item
                                 </button>
-                                <div style={{ overflowY: "visible", }}>
+                                <div style={{
+                                    overflowY: "auto",
+                                    minHeight: `calc(100vh - 300px)`,
+                                    maxHeight: `calc(100vh - 300px)`,
+                                }}>
                                     {Object.entries(levelItems || {}).map(([level, itemCount]) => (
                                         <div key={level}>
                                             <h2>Level {level}</h2>
@@ -555,8 +563,11 @@ const Main: React.FC = () => {
                 )}
                 {modalStates.informationModal && (
                     <InformationModal
-                        onClose={() => setModalState('informationModal', false)} />
+                        onClose={() => setModalState('informationModal', false)} 
+                        showLicenseModal={() => setModalState('licenseModal', true)}                        
+                        />
                 )}
+                <LicenseModal isLicenseModalOpen={modalStates.licenseModal} closeModal={closeAllModals} />
                 <SmallModal isOpen={modalStates.itemLevelModal}
                     onClose={() => toggleModal('itemLevelModal')}>
                     <div>

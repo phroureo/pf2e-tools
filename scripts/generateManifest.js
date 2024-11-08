@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { json } = require('stream/consumers');
 
 const source = path.join(__dirname, '../../pf2eitems/packs/equipment')
 const manifestDir = path.join(__dirname, '../public/equipmentmanifests'); // New folder for manifest chunks
@@ -16,6 +17,7 @@ fs.mkdirSync(manifestDir);
 // Set to track unique items by name (or any other unique property like 'file' if preferred)
 const uniqueItems = new Set();
 const uniqueUsage = new Set();
+const uniqueSources = new Set();
 
 fs.readdir(source, (err, files) => {
     if (err) {
@@ -110,6 +112,13 @@ fs.readdir(source, (err, files) => {
                     uniqueUsage.add(usage);
                 }
             }
+
+            if (item.system.publication.title) {
+                if (!uniqueSources.has(item.system.publication.title)) {
+                    uniqueSources.add(item.system.publication.title);
+                }
+            }
+
             // Extract words following "Worn" if "usage" starts with "Worn", otherwise set to null
             const worn = usage.startsWith("Worn")
                 ? usage === "Worn"
@@ -129,7 +138,7 @@ fs.readdir(source, (err, files) => {
                 worn: worn,
                 publication: item.system.publication.title || '',
             };
-            
+
             // if (item.system.publication.license === "ORC") {
             // if (item.system.publication.remaster) {
             if (true) {
@@ -167,4 +176,13 @@ fs.readdir(source, (err, files) => {
     } catch (error) {
         console.error('Error writing unique usages file:', error);
     }
+
+    const sourcesPath = path.join(miscJsonDir, 'sources.json');
+    try {
+        fs.writeFileSync(sourcesPath, JSON.stringify([...uniqueSources], null, 2));
+        console.log('Unique Sources saved successfully:', sourcesPath);
+    } catch (error) {
+        console.error('Error writing unique sources file:', error);
+    }
+
 });

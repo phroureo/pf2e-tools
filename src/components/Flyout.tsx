@@ -5,9 +5,10 @@ interface FlyoutProps {
     loadData: () => void;
     onDownload: () => void;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
+    showLicense: () => void;
 }
 
-const Flyout: React.FC<FlyoutProps> = ({ saveData, loadData, onDownload, onUpload }) => {
+const Flyout: React.FC<FlyoutProps> = ({ saveData, loadData, onDownload, onUpload, showLicense }) => {
     const [isFlyoutOpen, setIsFlyoutOpen] = useState(false);
     let timeoutId: NodeJS.Timeout;
 
@@ -47,6 +48,7 @@ const Flyout: React.FC<FlyoutProps> = ({ saveData, loadData, onDownload, onUploa
                         accept=".json"
                     />
                 </label>
+                <button onClick={showLicense}>Licenses</button>
             </div>
         </div>
     );

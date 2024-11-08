@@ -1,0 +1,34 @@
+.rounded-rectangle {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 10px 10px 10px 10px;
+    background: #23243a;
+    margin: 10px;
+}
+
+.book-name {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.book-details {
+    position: relative;
+    padding-left: 2.5em;       /* Indent all lines */
+    text-indent: -1.5em;       /* Reverse indent only the first line */
+    padding-right: 1em;
+}
+
+.book-details p {
+    margin: 0;
+}
+
+.book-section {
+    margin-left: 1.5em;
+    padding: 5px;
+}
+
+.ap-name {
+    color: #a1a1a1 !important;
+    margin-top: 16px;
+}
