@@ -210,7 +210,7 @@ const DropZone: React.FC<DropZoneProps> = ({
         )}
 
         <div style={{ textAlign: "left", padding: "0" }}>
-          {maxSlots !== Infinity && <div style={{ padding: "10px" }}>Items: {items.length}/{maxSlots} </div>}
+          {maxSlots !== Infinity && <div style={{ padding: "6px", fontSize: ".8em", color: "#848FA5" }}>Items: {items.length}/{maxSlots} </div>}
         </div>
         {items.map((item, index) => (
           <div
