@@ -1,45 +1,33 @@
 import React, { useState, useEffect, useRef } from 'react';
-import ReactDOM from 'react-dom/client';
 
-import CharacterLevel from './components/CharacterLevel';
-import DropZone from './components/DragAndDrop/DropZone';
-import ItemList from './components/ItemList';
-import SelectedItems from './components/SelectedItems';
-import ItemHighlighter from './components/Modals/ItemHighlighter'
-import Toggle from './components/Toggle';
-import Flyout from './components/Flyout';
-import LoadModal from './components/Modals/LoadModal';
-import SaveModal from './components/Modals/SaveModal';
-import { downloadJSON, uploadJSON } from './utils/downloadJSON';
-import RefreshModal from './components/Modals/RefreshModal';
-import ConfirmationModal from './components/Modals/ConfirmationModal';
-import InformationModal from './components/Modals/InformationModal';
-import SettingsDrawer from './components/Modals/SettingsDrawer';
+import CharacterLevel from '../components/CharacterLevel';
+import DropZone from '../components/DragAndDrop/DropZone';
+import ItemList from '../components/ItemList';
+import SelectedItems from '../components/SelectedItems';
+import ItemHighlighter from '../components/Modals/ItemHighlighter'
+import Toggle from '../components/Toggle';
+import Flyout from '../components/Flyout';
+import LoadModal from '../components/Modals/LoadModal';
+import SaveModal from '../components/Modals/SaveModal';
+import { downloadJSON, uploadJSON } from '../utils/downloadJSON';
+import RefreshModal from '../components/Modals/RefreshModal';
+import ConfirmationModal from '../components/Modals/ConfirmationModal';
+import InformationModal from '../components/Modals/InformationModal';
+import SettingsDrawer from '../components/Modals/SettingsDrawer';
 
-import { fetchEquipmentData } from './utils/fetchData';
-import { formatPrice, copperToString } from './utils/formatPrice';
-import { convertToEquipmentItem } from './utils/convertManifestToEquipment';
+import { fetchEquipmentData } from '../utils/fetchData';
+import { formatPrice, copperToString } from '../utils/formatPrice';
+import { convertToEquipmentItem } from '../utils/convertManifestToEquipment';
 
-import { TotalPrice } from './types/TotalPrice';
-import { LevelData } from './types/LevelData';
-import { ManifestItem } from './types/ManifestItem';
-import { EquipmentItem } from './types/EquipmentItem';
+import { TotalPrice } from '../types/TotalPrice';
+import { LevelData } from '../types/LevelData';
+import { ManifestItem } from '../types/ManifestItem';
+import { EquipmentItem } from '../types/EquipmentItem';
 
-import './styles/styles.css';
-import './styles/toggle.css';
-import './styles/buttons.css';
-import './styles/modal.css';
-import './styles/form.css';
-import './styles/input.css';
-import './styles/flyout.css';
-import './styles/loadingcomponent.css';
-import './styles/settingsdrawer.css';
-import './styles/license.css';
-import Modal from './components/Modals/Modal';
-import SmallModal from './components/Modals/SmallModal';
-import LicenseModal from './components/Modals/LicenseModal';
+import SmallModal from '../components/Modals/SmallModal';
+import LicenseModal from '../components/Modals/LicenseModal';
 
-const Main: React.FC = () => {
+const EquipmentTracker: React.FC = () => {
     const [characterLevel, setCharacterLevel] = useState<number>(1);
     const [equipmentData, setEquipmentData] = useState<ManifestItem[]>([]);
     const [selectedItems, setSelectedItems] = useState<EquipmentItem[]>([]);
@@ -406,15 +394,22 @@ const Main: React.FC = () => {
             <div className="main-container">
                 <header className="header">
                     <h1>PF2e Equipment Tracker</h1>
-                    <div className="flyout-container">
-                        <Flyout
-                            saveData={() => setModalState('saveModal', true)}
-                            loadData={() => setModalState('loadModal', true)}
-                            onDownload={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}
-                            onUpload={(e) => uploadJSON(e, handleUploadData)}
-                            showLicense={() => setModalState('licenseModal', true)}
-                        />
-                    </div>
+                    <Flyout
+                        rightLeft='left'>
+                        <button onClick={() => setModalState('saveModal', true)}>Save</button>
+                        <button onClick={() => setModalState('loadModal', true)}>Load</button>
+                        <button onClick={() => downloadJSON({ selectedItems, levelData, quantities, lumpSum })}>Export</button>
+                        <label className="upload-label">
+                            Import
+                            <input
+                                type="file"
+                                onChange={(e) => uploadJSON(e, handleUploadData)}
+                                className="upload-input"
+                                accept=".json"
+                            />
+                        </label>
+                        <button onClick={() => setModalState('licenseModal', true)}>Licenses</button>
+                    </Flyout>
                     {modalStates.saveModal && <SaveModal
                         onSave={handleSaveData}
                         onClose={() => setModalState('saveModal', false)}
@@ -563,9 +558,9 @@ const Main: React.FC = () => {
                 )}
                 {modalStates.informationModal && (
                     <InformationModal
-                        onClose={() => setModalState('informationModal', false)} 
-                        showLicenseModal={() => setModalState('licenseModal', true)}                        
-                        />
+                        onClose={() => setModalState('informationModal', false)}
+                        showLicenseModal={() => setModalState('licenseModal', true)}
+                    />
                 )}
                 <LicenseModal isLicenseModalOpen={modalStates.licenseModal} closeModal={closeAllModals} />
                 <SmallModal isOpen={modalStates.itemLevelModal}
@@ -627,12 +622,4 @@ const Main: React.FC = () => {
     );
 };
 
-const rootElement = document.getElementById('root');
-if (rootElement) {
-    const root = ReactDOM.createRoot(rootElement);
-    root.render(<React.StrictMode><Main /></React.StrictMode>);
-} else {
-    console.error("Root element not found");
-}
-
-export default Main;
+export default EquipmentTracker;

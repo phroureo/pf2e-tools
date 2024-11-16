@@ -81,6 +81,14 @@ const LicenseModal: React.FC<LicenseModalProps> = ({ isLicenseModalOpen, closeMo
                                     <p>Pathfinder Lost Omens Tian Xia Character Guide © 2024, Paizo Inc.; Authors: Eren Ahn, Jeremy Blum, Logan Bonner, Alyx Bui, James Case, Banana Chan, Rick Chia, Hiromi Cota, Dana Ebert, Eleanor Ferron, Basheer Ghouse, John Godek III, Sen H.H.S., Joan Hong, Daniel Kwan, Jacky Leung, Jesse J. Leung, Monte Lin, Jessie “Aki” Lo, Adam Ma, Ashley Moni, Collette Quach, Christopher Rondeau, Joaquin Kyle “Makapatag” Saavedra, Michael Sayre, Shahreena Shahrani, Kienna Shaw, Philip Shen, Tan Shao Han, Mari Tokuda, Ruvaid Virk, Viditya Voleti, Grady Wang, and Jay Zhang</p>
                                 </div>
                             </div>
+                            <div className="book-section">
+                                <div className="book-name">
+                                    Lost Omens: Divine Mysteries
+                                </div>
+                                <div className="book-details">
+                                    <p>Pathfinder Lost Omens Divine Mysteries © 2024, Paizo Inc.; Authors: Misha Bushyager, Jessica Catalan, Carlos Cisco, Rue Dickey, Brian Duckwitz, Aoife Ester, Eleanor Ferron, Ivis K. Flanagan, Tomas Gimenez Rioja, Leo Glass, Alastor Guzman, Thurston Hillman, Laura Lynn Horst, James Jacobs, Jason Keeley, Michelle Y. Kim, Monte Lin, Luis Loza, Stephanie Lundeen, Poorna M., Adam Ma, Jacob W. Michaels, Jaime Reyes Mondragon, Zac Moran, Jon Morgantini, Matt Morris, Morgan Nuncio, Kevin Thien Vu Long Nguyen, Daniel “Drakoniques” Oleh, Pam Punzalan, Jessica Redekop, Erin Roberts, quinn b. rodriguez, Michael Sayre, Mark Seifter, Austin Taylor, Isis Wozniakowska, and Sebastian Yū̄e</p>
+                                </div>
+                            </div>
                         </div>
                         <div className="rounded-rectangle">
                             <h2>Adventure Paths</h2>

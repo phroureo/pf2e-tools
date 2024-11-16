@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
+import React, { ReactNode, useState } from 'react';
 
 interface FlyoutProps {
-    saveData: () => void;
-    loadData: () => void;
-    onDownload: () => void;
-    onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    showLicense: () => void;
+    children: ReactNode;
+    rightLeft: "right" | "left";
 }
 
-const Flyout: React.FC<FlyoutProps> = ({ saveData, loadData, onDownload, onUpload, showLicense }) => {
+const Flyout: React.FC<FlyoutProps> = ({ children, rightLeft }) => {
     const [isFlyoutOpen, setIsFlyoutOpen] = useState(false);
     let timeoutId: NodeJS.Timeout;
 
@@ -28,27 +25,26 @@ const Flyout: React.FC<FlyoutProps> = ({ saveData, loadData, onDownload, onUploa
     };
 
     return (
-        <div className="flyout" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <button
-                onClick={handleIconClick}
-                className={`flyout-icon-button ${isFlyoutOpen ? 'active' : ''}`}
-            >
-                <img src="misc/burger-menu.svg" alt="Menu" className="flyout-icon" />
-            </button>
-            <div className={`flyout-menu ${isFlyoutOpen ? 'open' : 'closed'}`}>
-                <button onClick={saveData}>Save</button>
-                <button onClick={loadData}>Load</button>
-                <button onClick={onDownload}>Export</button>
-                <label className="upload-label">
-                    Import
-                    <input
-                        type="file"
-                        onChange={onUpload}
-                        className="upload-input"
-                        accept=".json"
-                    />
-                </label>
-                <button onClick={showLicense}>Licenses</button>
+        <div
+            className="flyout-container"
+            data-position={rightLeft}>
+            <div
+                className="flyout"
+                data-position={rightLeft}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}>
+                <button
+                    onClick={handleIconClick}
+                    className={`flyout-icon-button ${isFlyoutOpen ? 'active' : ''}`}
+                    data-position={rightLeft}
+                >
+                    <img src="misc/burger-menu.svg" alt="Menu" className="flyout-icon" />
+                </button>
+                <div
+                    className={`flyout-menu ${isFlyoutOpen ? 'open' : 'closed'}`}
+                    data-position={rightLeft}>
+                    {children}
+                </div>
             </div>
         </div>
     );

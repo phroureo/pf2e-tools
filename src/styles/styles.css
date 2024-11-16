@@ -346,3 +346,9 @@ li:hover {
     font-size: .8em;
     color: black;
 }
+
+@media (max-width: 1600px) {
+    .hide-on-small-screen {
+        display: none;
+    }
+}

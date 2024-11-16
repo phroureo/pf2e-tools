@@ -33,7 +33,6 @@
 .flyout-menu {
     position: absolute;
     top: 55px;
-    left: 8px;
     background-color: #23243a;
     color: #c7d1dc;
     border: 1px solid #44475a;
@@ -48,6 +47,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease, opacity 0.3s ease;
+    text-align: left;
 }
 
 .flyout-menu.open {
@@ -65,8 +65,8 @@
     padding: 8px 12px;
     font-size: 0.9rem;
     border-radius: 4px;
-    transition: background-color 0.2s ease;
     text-align: left;
+    transition: background-color 0.2s ease;
 }
 
 .flyout-menu button:hover,
@@ -84,23 +84,34 @@
     display: none;
 }
 
-/* .flyout-icon-button:hover::after {
-    content: "Menu";
-    position: absolute;
-    top: 110%;
-    left: 0;
-    background-color: #333a56;
-    color: #e1e1e6;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    white-space: nowrap;
-    opacity: 0.9;
-} */
-
 
 /* Flyout positioning */
 .flyout-container {
     position: absolute;
-    left: 0px; /* Position Flyout in the top left corner */
+    top: 0px;
+    z-index: 10000;
+
 }
+
+
+ [class*="flyout"][data-position="right"] {
+    right: 0px; 
+    text-align: right;
+}
+
+
+ [class*="flyout"][data-position="left"] {
+    left: 0px; 
+    text-align: left;
+} 
+
+
+.flyout-menu[data-position="left"] {
+    left: 8px;
+    text-align: left;
+}
+
+
+.flyout-menu[data-position="right"] {
+    right: 8px;
+} 
