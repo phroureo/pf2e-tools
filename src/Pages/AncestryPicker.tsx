@@ -5,6 +5,8 @@ import Filters from '../components/AncestryPicker/Filters';
 import AbilityScoreButton from '../components/AncestryPicker/AbilityScoreButton';
 import SortableTable from '../components/AncestryPicker/SortableTable';
 import { createSearchCondition, SearchCondition } from '../types/SearchCondition';
+import InformationModal from '../components/Modals/InformationModal';
+import LicenseModal from '../components/Modals/LicenseModal';
 
 const AncestryPicker: React.FC = () => {
     const [activeFilters, setActiveFilters] = useState<SearchCondition[]>([]);
@@ -30,6 +32,11 @@ const AncestryPicker: React.FC = () => {
         int: 0,
         wis: 0,
         cha: 0,
+    });
+
+    const [modalStates, setModalStates] = useState({
+        informationModal: false,
+        licenseModal: false,
     });
 
 
@@ -81,6 +88,29 @@ const AncestryPicker: React.FC = () => {
 
         loadAncestryData();
     }, []);
+
+
+    // Set specific modal state
+    const setModalState = (modalName: keyof typeof modalStates, isOpen: boolean) => {
+        setModalStates((prevState) => ({
+            ...prevState,
+            [modalName]: isOpen,
+        }));
+    };
+
+    // Check if any modal is open
+    const anyModalOpen = Object.values(modalStates).some((isOpen) => isOpen);
+
+    const closeAllModals = () => {
+        setModalStates((prevState) => {
+            const updatedStates = { ...prevState };
+            for (const key in updatedStates) {
+                updatedStates[key as keyof typeof modalStates] = false;
+            }
+            return updatedStates;
+        });
+    };
+
 
     const setAbilityBoost = (ability: string, value: number) => {
         setBoostFilter((prev) => ({
@@ -228,7 +258,27 @@ const AncestryPicker: React.FC = () => {
                         <SortableTable data={filteredItems} />
                     </div>
                 </div>
+                <footer className='footer'>
+                    <div className='footer-options'>
+                        <button
+                            className="information-button"
+                            onClick={() => setModalState('informationModal', true)}
+                            title="Show Site Info"
+                        >
+                            <img src="/misc/information.svg" alt="Information Icon" className="refresh-icon" />
+                        </button>
+                    </div>
+                </footer>
+                {modalStates.informationModal && (
+                    <InformationModal
+                        onClose={() => setModalState('informationModal', false)}
+                        showLicenseModal={() => setModalState('licenseModal', true)}
+                    />
+                )}
+                <LicenseModal isLicenseModalOpen={modalStates.licenseModal} closeModal={closeAllModals} />
             </div>
+
+            {anyModalOpen && <div className="dim-overlay" onClick={closeAllModals}></div>}
         </>
     )
 }

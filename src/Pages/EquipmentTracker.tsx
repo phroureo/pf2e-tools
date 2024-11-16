@@ -408,7 +408,6 @@ const EquipmentTracker: React.FC = () => {
                                 accept=".json"
                             />
                         </label>
-                        <button onClick={() => setModalState('licenseModal', true)}>Licenses</button>
                     </Flyout>
                     {modalStates.saveModal && <SaveModal
                         onSave={handleSaveData}

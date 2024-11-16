@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import EquipmentTracker from "./Pages/EquipmentTracker";
 
@@ -14,14 +14,17 @@ import './styles/settingsdrawer.css';
 import './styles/license.css';
 import Flyout from "./components/Flyout";
 import AncestryPicker from "./Pages/AncestryPicker";
+import LicenseModal from "./components/Modals/LicenseModal";
 
 const App: React.FC = () => {
   const navigate = useNavigate();
+  const [isLicenseOpen, setIsLicenseOpen] = useState<boolean>(false);
   return (
     <>
       <Flyout rightLeft='right'>
         <button onClick={() => navigate("/equipment-tracker")}>Equipment Tracker</button>
         <button onClick={() => navigate("/ancestry-picker")}>Ancestry Picker</button>
+        <button onClick={() => setIsLicenseOpen(true)}>Licenses</button>
       </Flyout>
       <Routes>
         {/* Default Route */}
@@ -38,6 +41,9 @@ const App: React.FC = () => {
         {/* Redirect Unknown Routes to Home */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      
+      {isLicenseOpen && <div className="dim-overlay" onClick={() => setIsLicenseOpen(false)}></div>}
+      <LicenseModal isLicenseModalOpen={isLicenseOpen} closeModal={() => setIsLicenseOpen(false)} />
     </>
   );
 };
