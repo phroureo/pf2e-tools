@@ -4613,6 +4613,21 @@
     "publication": "Pathfinder #157: Devil at the Dreaming Palace"
   },
   {
+    "level": 9,
+    "name": "Aurochs Jerky",
+    "price": {},
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Aurochs meat already makes for tough jerky, but with the right alchemical treatment, it becomes legendarily resilient and imparts that durability to those who eat it. Eating the jerky causes a pair of inch-long horns to grow from your forehead (or causes your existing horns to grow noticeably) for 1 hour. During this time, you gain a +1 item bonus to Fortitude saves. You can end the effect prematurely, causing the horns to retract or revert to their normal size, with a free action that has the concentrate trait.</p>\n<p><strong>Aurochs' Endurance</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Trigger</strong> You begin your turn and are Fatigued</p><hr /><p><strong>Effect</strong> You suppress the fatigued condition for 10 minutes. During this time, you are not immune to fatigue and can become fatigued by subsequent effects, but you gain a +2 item bonus to saving throws against effects that would fatigue you.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 18,
     "name": "Aurochs' Might Tattoo (Greater)",
     "price": {
@@ -8262,21 +8277,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 11,
-    "name": "Bloodhound Mask (Greater)",
-    "price": {
-      "gp": 250
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 8 hours</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 60 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +3 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Advanced Player's Guide"
   }
 ]

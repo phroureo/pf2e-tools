@@ -1,5 +1,139 @@
 [
   {
+    "level": 12,
+    "name": "Explosive Mine (Greater)",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[12d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 29 reflex.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 1,
+    "name": "Explosive Mine (Lesser)",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[2d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 15 reflex.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 18,
+    "name": "Explosive Mine (Major)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[18d6[fire]|options:area-damage] damage, in a 10 foot emanation, and a DC 38 reflex.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 6,
+    "name": "Explosive Mine (Moderate)",
+    "price": {
+      "gp": 40
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[6d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 20 reflex.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "gadget"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 4,
+    "name": "Explosive Missive",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p>An explosive missive is slightly warm to the touch, regardless of the surrounding environment. When composed and then activated, the missive explodes. The tenor of what you write or the theme of your illustration determines the damage type and adds the corresponding trait to the missive: @Damage[4d6[acid]|options:area-damage]{acid} for a caustic inscription, @Damage[4d6[cold]|options:area-damage]{cold} for an aloof one, @Damage[4d6[electricity]|options:area-damage]{electricity} for an energetic one, @Damage[4d6[fire]|options:area-damage]{fire} for an angry one, or @Damage[4d6[sonic]|options:area-damage]{sonic} for an overly emphatic one. The missive deals 4d6 damage to each creature in a 5 foot burst from a corner of the missive's space (DC 18 reflex). A creature who rolls a critical failure also takes 1d4 persistent damage of the same type. The missive burns to ash while releasing its magic.</p>\n<p>@Damage[1d4[persistent,acid]] @Damage[1d4[persistent,cold]] @Damage[1d4[persistent,electricity]] @Damage[1d4[persistent,fire]] @Damage[1d4[persistent,sonic]]</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "missive"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 2,
+    "name": "Expulsion Snare",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>You conceal a rounded board or thin metal plate just beneath the ground, concave side down. The first creature to enter the snare's square finds it unexpectedly springy and is bounced back out of the square when the flattened board springs back into place. The triggering creature must succeed at a @Check[fortitude|dc:17] saving throw or be moved into an adjacent square (chosen by you when you craft the snare). This is forced movement. On a critical failure, the creature falls Prone in that square.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Monsters of Myth"
+  },
+  {
+    "level": 0,
+    "name": "Exquisite Sword Cane Sheath",
+    "price": {},
+    "description": "<p>An exquisite sword cane is a sword sheathed inside a hollow cane, which itself can be used as a clubbing weapon with or without the sword sheathed inside.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "parry",
+      "twin"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
+    "level": 4,
+    "name": "Exquisite Sword Cane",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>An exquisite sword cane is a sword sheathed inside a hollow cane, which itself can be used as a clubbing weapon with or without the sword sheathed inside.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "concealable",
+      "finesse",
+      "parry",
+      "twin"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
     "level": 8,
     "name": "Exsanguinating Ammunition (Greater)",
     "price": {
@@ -248,6 +382,22 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Adventure: Prey for Death"
+  },
+  {
+    "level": 9,
+    "name": "Eye of the Moonwarden",
+    "price": {
+      "gp": 620
+    },
+    "description": "<p>This beaded pendant crafted by Lyrune-Quah shamans features an uncut moonstone that warns the wearer of danger. When a hostile creature comes within 30 feet of you, the stone glows with moonlight only you can see.</p>\n<p><strong>Activate—Lunar Illumination</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Bright moonlight shines out of the gem in a @Template[type:emanation|distance:30], forcing hostile creatures in the area to make a @Check[fortitude|dc:26] save or be Blinded for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Necklace",
+    "worn": "Necklace",
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 14,
@@ -964,6 +1114,25 @@
     "usage": "Held In Two Hands",
     "worn": null,
     "publication": "Pathfinder Lost Omens: Character Guide"
+  },
+  {
+    "level": 6,
+    "name": "Faultline Hammer",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>The steel head of this <em>+1 striking earthbreaker</em> has a large crack that zigzags down its center, making it look like it could crack in half with any swing. This belies the hammer's strength; its strikes can shatter stone with ease.</p>\n<p><strong>Activate—Create Faultline</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You Strike an object or raised shield with the faultline hammer and would deal piercing damage to that object</p><hr /><p><strong>Effect</strong> Until the end of your next turn, any weapon that Strikes the object deals additional damage as though the weapon had the razing trait. The triggering Strike also deals this additional damage.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "razing",
+      "shove",
+      "two-hand-d10",
+      "versatile-p"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 14,
@@ -7424,7 +7593,7 @@
     "price": {
       "gp": 22500
     },
-    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +3 item bonus to Athletics checks. The gripping power of the gloves provides you with a +4 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain [[/r (8d8+30)[healing]]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
+    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +3 item bonus to Athletics checks. The gripping power of the gloves provides you with a +4 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain @Damage[(8d8+30)[healing]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -7440,7 +7609,7 @@
     "price": {
       "gp": 225
     },
-    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +1 item bonus to Athletics checks. The gripping power of the gloves provides you with a +2 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain [[/r (3d8+10)[healing]]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
+    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +1 item bonus to Athletics checks. The gripping power of the gloves provides you with a +2 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain @Damage[(3d8+10)[healing]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -7456,7 +7625,7 @@
     "price": {
       "gp": 1750
     },
-    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +2 item bonus to Athletics checks. The gripping power of the gloves provides you with a +3 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain [[/r (6d8+20)[healing]]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
+    "description": "<p>Danila Kenn and Depa Stepwell of Common Goods developed these gloves after complaints from an exhausted grindlegrub rancher. Since their development, the gloves have become popular not just among grindlegrub ranchers, but laborers of all kinds in Stonebreach. The thick gloves are designed to help ranchers hold on to the squirming, slimy bodies of grindlegrubs, and help soothe the wear and tear of the day while restoring energy for after-hours pursuits. While wearing the gloves, you gain a +2 item bonus to Athletics checks. The gripping power of the gloves provides you with a +3 circumstance bonus to Reflex saves to Grab an Edge. If you roll a success to Grab an Edge, you get a critical success instead, as the gripping gloves allow you to hold on even with just a few fingertips.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<hr />\n<p><strong>Effect</strong> You rub your hands together and take a deep breath to prepare for the rest of your day. You regain @Damage[(6d8+20)[healing]] Hit Points and feel refreshed, losing the Fatigued condition. As normal for effects that remove fatigue, this doesn't remove any underlying source of fatigue, such as lack of sleep, causing the condition to return if the underlying source isn't addressed.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -8030,154 +8199,5 @@
     "usage": "Other",
     "worn": null,
     "publication": "Pathfinder Dark Archive"
-  },
-  {
-    "level": 0,
-    "name": "Hand mirror with decorated frame",
-    "price": {
-      "gp": 4
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Gamemastery Guide"
-  },
-  {
-    "level": 2,
-    "name": "Hand of the Mage",
-    "price": {
-      "gp": 30
-    },
-    "description": "<p>This mummified elf hand hangs on a golden chain, its gnarled fingers locked in a peculiar pattern.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<hr />\n<p><strong>Effect</strong> You cast Telekinetic Hand.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 3,
-    "name": "Handcuffs (Average)",
-    "price": {
-      "gp": 30
-    },
-    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires two successful DC 27 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 30.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
-  },
-  {
-    "level": 9,
-    "name": "Handcuffs (Good)",
-    "price": {
-      "gp": 350
-    },
-    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires three successful DC 30 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 35.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
-  },
-  {
-    "level": 17,
-    "name": "Handcuffs (Superior)",
-    "price": {
-      "gp": 6000
-    },
-    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires four successful DC 40 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 45.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
-  },
-  {
-    "level": 0,
-    "name": "Handling Gloves",
-    "price": {
-      "sp": 5
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Worn Gloves",
-    "worn": "Gloves",
-    "publication": "Pathfinder Lost Omens: Travel Guide"
-  },
-  {
-    "level": 2,
-    "name": "Handwraps of Mighty Blows",
-    "price": {
-      "gp": 35
-    },
-    "description": "<p>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, <em>+1 striking handwraps of mighty blows</em> would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).</p>\n<p>You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Gloves",
-    "worn": "Gloves",
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 14,
-    "name": "Hardened Harrow Deck",
-    "price": {
-      "gp": 4350
-    },
-    "description": "<p>The harrow is a traditional fortunetelling deck used by Varisian soothsayers. The hardened harrow deck is a magical version of the deck with cards made of thin metallic plates adorned with all the imagery common in standard harrow decks, but with more angular designs. You can hurl cards from the hardened harrow deck as +2 greater striking darts with the deadly d10 trait. A card used as a weapon isn't destroyed and can be recovered with 1 minute of searching if it can't be recalled back to the deck (see the deck's Activate entry below). However, if even a single card is missing from the deck, the deck can't be used to perform a traditional harrow reading.</p>\n<hr />\n<p>As long as you carry more than half the cards in the hardened harrow deck, when you roll a success on a saving throw against a fear effect, you get a critical success instead; if you already have an ability that would make a successful saving throw against a fear effect a critical success, you instead gain a +1 circumstance bonus to saving throws against fear effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> All cards from the hardened harrow deck within 60 feet that you can see fly back into the deck.</p>",
-    "rarity": "rare",
-    "traits": [
-      "agile",
-      "deadly-d10",
-      "thrown"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
-  },
-  {
-    "level": 0,
-    "name": "Harmona Gun",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>A favored weapon of monster hunters in Arcadia, the harmona gun is a large-bore long gun that fires a heavy, slow-moving round. The gun got its name due to the eerie similarity between the buzzing sound its oversized projectiles make flying through the air and the flight of a fey bird called a harmona.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "kickback"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 13,
-    "name": "Harmonic Hauberk",
-    "price": {
-      "gp": 2500
-    },
-    "description": "<p>Rose gold and copper rings in this <em>+2 resilient chain shirt</em> form a vague bird shape. The jingling links tinkle musically, almost like birdsong. While you wear the armor, effects with the auditory trait must first counteract the <em>harmonic hauberk</em> or they have no effect on you.</p>\n<p>The <em>harmonic hauberk</em> attempts to counteract Silence spells cast on you and 4th-rank or higher heightened <em>silence</em> spells the first time the armor enters their area (counteract rank 4, counteract modifier [[/r 1d20+20 #Counteract]]{+20}). After failing to counteract a <em>silence</em> spell, the armor can't attempt to counteract the same spell again, even if you leave and enter the spell's area multiple times.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have a pool of Focus Points and at least one composition spell</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point and immediately use the Focus Point to cast Lingering Composition, using your Performance check to determine the effects of the spell, followed by the Rallying Anthem. You can use this activation to cast those spells even if you don't have the Lingering Composition or Rallying Anthem feats.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "auditory",
-      "flexible",
-      "focused",
-      "illusion",
-      "invested",
-      "noisy"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
   }
 ]

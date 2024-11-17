@@ -1,5 +1,122 @@
 [
   {
+    "level": 8,
+    "name": "Corrosive",
+    "price": {
+      "gp": 500
+    },
+    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "magical"
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 11,
+    "name": "Corruption Cassock",
+    "price": {
+      "gp": 1150
+    },
+    "description": "<p><strong>Perception</strong> [[/r 1d20+20]]{+20}; precise vision 30 feet, imprecise hearing 30 feet, constant detect alignment</p>\n<p><strong>Communication</strong> telepathy (Celestial, Common, four other languages)</p>\n<p><strong>Skills</strong> Deception [[/r 1d20+21]]{+21}, Diplomacy [[/r 1d20+19]]{+19}, Religion [[/r 1d20+19]]{+19}</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +5, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+20]]{+20}</p>\n<hr />\n<p>Devotees of non-evil faiths fear and loathe <em>corruption cassocks</em>, each of which is dedicated to an evil deity. When the garment chooses a target, such as when it senses a worshipper of a good or neutral deity, it alters its form to match another deity's iconography, appearing to be a <em>cassock of devotion</em> for that deity. Once donned, the cassock tries to subtly sway its wearer to the worship of its deity. If the wearer begins to succumb, the <em>corruption cassock</em> gradually reverts to its true appearance, replacing its false iconography as its wearer converts.</p>\n<p>A <em>corruption cassock</em> functions as a <em>cassock of devotion</em> for any wearer it chooses. Once you invest the cassock, it fuses to you. The cassock has the alignment trait of its deity (LE, NE, or CE), and while you remain loyal to another deity, you believe it grants you a +2 item bonus to Religion checks and a +1 item bonus to the divine skill of the deity to whom you believe the cassock is dedicated. It does neither. The GM secretly adjusts your checks with those skills, causing you to fail at religious tasks more often. If you have multiple equal or lower item bonuses to the affected skills, the cassock takes precedence, negating those bonuses. If you convert to following the cassock's true evil deity, however, these bonuses function normally for you.</p>\n<p>If you attempt to Cast a Spell with an alignment trait that doesn't match the cassock's, it can force you to attempt a @Check[will|dc:28] save. On a failure, you're Stupefied{Stupefied 1} for one minute (Stupefied{Stupefied 2} on a critical failure). A <em>corruption cassock</em> uses this ability to convince you that your deity has forsaken you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a cleric domain spell for a domain belonging to the deity you believe the cassock is dedicated to. If you don't spend this Focus Point by the end of this turn, it's lost. However, when you use this activation, the <em>corruption cassock</em> can instead cast a domain spell of the same rank from its deity. It does so only to confuse and dismay you, harming your faith.</p>",
+    "rarity": "rare",
+    "traits": [
+      "cursed",
+      "divine",
+      "focused",
+      "intelligent",
+      "invested"
+    ],
+    "usage": "Worn Garment",
+    "worn": "Garment",
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Corset Knife",
+    "price": {
+      "sp": 3
+    },
+    "description": "<p>A favored self-defense weapon among bar and tavern workers, the corset knife has a weighted hilt and a cylindrical, needlelike blade designed to be easily hidden in clothing, but quickly retrieved in a pinch.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "concealable",
+      "finesse",
+      "thrown-10"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 15,
+    "name": "Countering Charm (Greater)",
+    "price": {
+      "gp": 5500
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+25 #Counteract]]{+25}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 18,
+    "name": "Countering Charm (Major)",
+    "price": {
+      "gp": 20000
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+30 #Counteract]]{+30}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 11,
+    "name": "Countering Charm",
+    "price": {
+      "gp": 1200
+    },
+    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+20 #Counteract]]{+20}. This expends the spell held in the charm.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 6,
+    "name": "Courtier's Pillow Book",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This elegant journal has a detailed social dossier on the owner's acquaintances. When you make your daily preparations, you can inscribe a secret or embarrassing foible about a specific individual that you know to be true or have on good authority.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast an enchantment spell on a target about whom you've written an entry in the book, you can state that secret or foible before Casting the Spell to give the target a –1 circumstance penalty to their saving throw against the spell. The inscription then disappears from the grimoire.</p>",
+    "rarity": "common",
+    "traits": [
+      "grimoire",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
     "level": 3,
     "name": "Covenant Tea",
     "price": {
@@ -1114,7 +1231,7 @@
     "price": {
       "gp": 10
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This thick substance is distilled from the mind-robbing cytillesh fungus, though it lacks memory-altering capabilities.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d10 poison damage (1 round)</p>\n<p><strong>Stage 2</strong> 1d12 poison damage (1 round)</p>\n<p><strong>Stage 3</strong> 2d10 poison damage (1 round)</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><hr /><p>This thick substance is distilled from the mind-robbing cytillesh fungus, though it lacks memory-altering capabilities.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> 1d8 poison damage (1 round)</p>\n<p><strong>Stage 2</strong> 1d10 poison damage (1 round)</p>\n<p><strong>Stage 3</strong> 2d8 poison damage (1 round)</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -4961,6 +5078,21 @@
     "publication": "Pathfinder GM Core"
   },
   {
+    "level": 8,
+    "name": "Dust Goggles",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>These sand-colored goggles keep the harsh weather of the Cinderlands at bay. While wearing the goggles, you ignore penalties to Perception from desert weather effects and gain a +1 bonus to Perception checks involving sight.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Worn Eyeglasses",
+    "worn": "Eyeglasses",
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 6,
     "name": "Dust of Appearance",
     "price": {
@@ -8086,139 +8218,5 @@
     "usage": "Held In Two Hands",
     "worn": null,
     "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 12,
-    "name": "Explosive Mine (Greater)",
-    "price": {
-      "gp": 400
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[12d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 29 reflex.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "gadget"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 1,
-    "name": "Explosive Mine (Lesser)",
-    "price": {
-      "gp": 4
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[2d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 15 reflex.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "gadget"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 18,
-    "name": "Explosive Mine (Major)",
-    "price": {
-      "gp": 4000
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[18d6[fire]|options:area-damage] damage, in a 10 foot emanation, and a DC 38 reflex.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "gadget"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 6,
-    "name": "Explosive Mine (Moderate)",
-    "price": {
-      "gp": 40
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>When you Activate an explosive mine, you place it on the ground in a square within your reach, priming it to explode when a creature steps on that square. If you have time in advance to prepare, you can place the mine on the ground before activating it, and you or an ally can try to use Stealth to Conceal an Object before you Activate the mine. If you don't Conceal the mine, its position is obvious at a glance. Once activated, the mine is primed to explode when enough pressure is placed on the square where it's located. Typically, this occurs when a Small or larger creature moves onto the square, though it could happen if a creature intentionally places pressure on the square from a distance to safely trigger the mine. Once triggered, the mine explodes, dealing the listed fire damage to any creatures in the area of effect with a basic Reflex save.</p><hr /><p>The mine deals @Damage[6d6[fire]|options:area-damage] damage, in a 5 foot emanation, and a DC 20 reflex.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "gadget"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 4,
-    "name": "Explosive Missive",
-    "price": {
-      "gp": 13
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p>An explosive missive is slightly warm to the touch, regardless of the surrounding environment. When composed and then activated, the missive explodes. The tenor of what you write or the theme of your illustration determines the damage type and adds the corresponding trait to the missive: @Damage[4d6[acid]|options:area-damage]{acid} for a caustic inscription, @Damage[4d6[cold]|options:area-damage]{cold} for an aloof one, @Damage[4d6[electricity]|options:area-damage]{electricity} for an energetic one, @Damage[4d6[fire]|options:area-damage]{fire} for an angry one, or @Damage[4d6[sonic]|options:area-damage]{sonic} for an overly emphatic one. The missive deals 4d6 damage to each creature in a 5 foot burst from a corner of the missive's space (DC 18 reflex). A creature who rolls a critical failure also takes 1d4 persistent damage of the same type. The missive burns to ash while releasing its magic.</p>\n<p>@Damage[1d4[persistent,acid]] @Damage[1d4[persistent,cold]] @Damage[1d4[persistent,electricity]] @Damage[1d4[persistent,fire]] @Damage[1d4[persistent,sonic]]</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical",
-      "missive"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 2,
-    "name": "Expulsion Snare",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p>You conceal a rounded board or thin metal plate just beneath the ground, concave side down. The first creature to enter the snare's square finds it unexpectedly springy and is bounced back out of the square when the flattened board springs back into place. The triggering creature must succeed at a @Check[fortitude|dc:17] saving throw or be moved into an adjacent square (chosen by you when you craft the snare). This is forced movement. On a critical failure, the creature falls Prone in that square.</p>",
-    "rarity": "rare",
-    "traits": [
-      "consumable",
-      "mechanical",
-      "snare",
-      "trap"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Monsters of Myth"
-  },
-  {
-    "level": 0,
-    "name": "Exquisite Sword Cane Sheath",
-    "price": {},
-    "description": "<p>An exquisite sword cane is a sword sheathed inside a hollow cane, which itself can be used as a clubbing weapon with or without the sword sheathed inside.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "finesse",
-      "parry",
-      "twin"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
-  },
-  {
-    "level": 4,
-    "name": "Exquisite Sword Cane",
-    "price": {
-      "gp": 90
-    },
-    "description": "<p>An exquisite sword cane is a sword sheathed inside a hollow cane, which itself can be used as a clubbing weapon with or without the sword sheathed inside.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "concealable",
-      "finesse",
-      "parry",
-      "twin"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
   }
 ]

@@ -1,5 +1,177 @@
 [
   {
+    "level": 15,
+    "name": "Magic Wand (7th-Rank Spell)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 17,
+    "name": "Magic Wand (8th-Rank Spell)",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 19,
+    "name": "Magic Wand (9th-Rank Spell)",
+    "price": {
+      "gp": 40000
+    },
+    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "wand"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 1,
+    "name": "Magical Hearing Aid",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>These curved hearing aids hook over the top and sit behind your ear, with a receiver that fits into the ear opening. The external part of the device detects sound waves and, using magic, transfers them down the receiver and into your ear. You can wear one or two depending on your hearing loss, and you can turn your hearing aids on or off using an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 4,
+    "name": "Magical Lock Fulu",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Usage</strong> affixed to a door, window, or container</p>\n<p><strong>Duration</strong> 1 hour</p>\n<hr />\n<p>The symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch or existing lock. As many as nine fulus can be applied to the same target. One fulu equates a Lock (Poor){Poor Lock} (DC 15), three a Lock (Simple){Simple Lock} (DC 20), and nine an Lock (Average){Average Lock} (DC 25).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 1,
+    "name": "Magical Prosthetic Eye",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>This prosthetic eye converts visible light into a telepathic signal that is relayed to the wearer's mind using divination magic. As the wearer's mind must process the telepathic signal in the same way as it would a nerve impulse, the acuity and other abilities related to the vision provided by the magical prosthetic eye matches that of other members of your ancestry (for instance, a goblin with a magical prosthetic eye would be able to see in darkvision, while a human wearing the same prosthetic would need illumination). You can remove or replace a magical prosthetic eye using an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 3,
+    "name": "Magnet Coin",
+    "price": {
+      "gp": 50
+    },
+    "description": "<p>Thera Heartslip commissioned these magical coins during her early thievery days and still has a number on hand to share with her confidants. This coin resembles an ordinary coin, but it's warm and seems to thrum slightly when touched. The coin's face features a very small fragment from the pressed portion that can be removed, such as a small star or one eye from the head on the face. Removing this fragment causes the coin to stop thrumming and feeling warm to the touch. Noticing the removed piece requires close inspection and a successful @Check[perception|dc:19] check.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Requirements</strong> You are holding the coin fragment</p>\n<hr />\n<p><strong>Effect</strong> You focus on the rest of the coin, imagining its complete form in your hand. The rest of the coin teleports into your hand, reforming the complete coin. If it was near any other coins, it also teleports up to [[/r 3d10 #Coins]] coins with it into your hand. The coin can only teleport up to 15 miles; if you are farther when recalling the coin, it teleports the maximum distance toward you and lands in an open space.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "teleportation"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Highhelm"
+  },
+  {
+    "level": 1,
+    "name": "Magnetic Construction Set",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>This collection of small magnets and metal rods comes in a wooden box. The magnets are strong enough to firmly cling to metal objects but too weak to move or suspend them. The metal rods are a quarter of an inch in diameter and vary in length from 3 to 6 inches. If connected with the magnets, these rods can be used to build flimsy shapes and structures, which collapse if external weight or pressure is applied.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 5,
+    "name": "Magnetic Shield",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Copper rings spiral around this steel shield. Twin electrical probes near the grip can socket into a jar of moderate (or higher leveled) bottled lightning, which takes 3 Interact actions to install. A loaded magnetic shield can be activated to convert it into an electromagnet. When an activated magnetic shield is raised, the circumstance bonus increases by 1 against attacks made with weapons primarily made of metal. If you use a Shield Block against a creature attacking you with such a weapon, you also gain a +1 item bonus to Disarm attempts against that weapon until the end of your next turn. The shield remains charged for 3 rounds, consuming the bottled lightning, and once the reaction has begun it can't be deactivated.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "aura"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 17,
+    "name": "Magnetic Shot (Greater)",
+    "price": {
+      "gp": 2200
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +2 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals four additional weapon damage dice and is deadly d12.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 7,
+    "name": "Magnetic Shot (Lesser)",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +1 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals two additional weapon damage dice and is deadly d8.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
     "level": 12,
     "name": "Magnetic Shot (Moderate)",
     "price": {
@@ -2839,6 +3011,21 @@
     "publication": "Pathfinder Treasure Vault"
   },
   {
+    "level": 5,
+    "name": "Motivating Treat Bag",
+    "price": {
+      "gp": 135
+    },
+    "description": "<p>This stiff, cloth pouch is embroidered with whimsical images of playful pets. When you perform your daily preparations in the presence of your creature companion, three treats appear in the bag: an encouraging treat, a reward treat, and a soothing treat. These treats are always suitable for your companion and last until the next time you perform your daily preparations.</p><hr /><p><strong>Activate—Toss a Treat</strong> <span class=\"action-glyph\">r</span> (manipulate)</p>\n<p><strong>Trigger</strong> Varies by treat</p>\n<p><strong>Effect</strong> You pull out one of the treats and toss it up to 30 feet into the waiting mouth of your companion. The effect varies by the treat.</p><ul><li><strong>Encouraging Treat</strong> (mental) <strong>Trigger</strong> You Command your companion, and it performs a skill check; <strong>Effect</strong> The treat motivates the companion to perform the task, allowing you to Aid it as though you had prepared to help.</li><li><strong>Reward Treat</strong> (healing, mental) <strong>Trigger</strong> Your companion critically succeeds at a skill check or attack roll; <strong>Effect</strong> The treat grants the companion 1d6+6 temporary Hit Points that last until the end of your next turn.</li><li><strong>Soothing Treat</strong> (healing) <strong>Trigger</strong> Your companion attempts a save to reduce its sickened condition, would reduce the value of its frightened condition at the end of your turn, or attempts a flat check to end persistent damage; <strong>Effect</strong> Reduce the DC of the check to end persistent damage by 2 or reduce the sickened condition by 2. If the companion would reduce its frightened condition value by 1 at the end of its turn, it instead reduces that condition's value by 2.</li></ul><hr /><p><strong>Activate—Rustle the Bag</strong> <span class=\"action-glyph\">1</span> (auditory, manipulate)</p>\n<p><strong>Effect</strong> You Command your companion. Until the end of your turn, it gains a +5-foot status bonus to each of its Speeds, but must use at least one action to move closer to you.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 16,
     "name": "Mountain to the Sky",
     "price": {
@@ -4170,6 +4357,22 @@
     "publication": "Pathfinder Guns & Gears"
   },
   {
+    "level": 7,
+    "name": "Nomad's Shawl",
+    "price": {
+      "gp": 330
+    },
+    "description": "<p>The intricate beading of this shawl subtly guides you. While you wear the shawl, you always know which direction is north and gain a +1 item bonus to Survival checks.</p>\n<p><strong>Activate—Mind's Map</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p>You focus your mind's eye on a location you've been to previously. The beads on the shawl shift colors to create a map of the area based on your memories. You can dismiss this effect as a free action.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 4,
     "name": "Noppera-Bo Hood",
     "price": {
@@ -4266,6 +4469,21 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Adventure: Night of the Gray Death"
+  },
+  {
+    "level": 7,
+    "name": "Nostalgic Pot",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p>This small pot filled with pebbles is imbued with the nostalgia of its owner. While this pot is on your person, you get a +1 item bonus to saves against emotion effects.</p>\n<p><strong>Jingling Memories</strong> <span class=\"action-glyph\">1</span> (concentrate, emotion)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You shake the pot, granting a +1 item bonus to an ally to save against an emotion effect.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 14,
@@ -5834,6 +6052,21 @@
     "publication": "Pathfinder Howl of the Wild"
   },
   {
+    "level": 8,
+    "name": "Osteomancer's Pouch",
+    "price": {
+      "gp": 480
+    },
+    "description": "<p>This leather pouch holds a pair of six-sided dice carved from actual knucklebones. When rolled, the dice grant you a vision of a distant location, though their power is unreliable.</p>\n<p><strong>Activate—Roll the Bones</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You roll the dice. If you roll two 1s, the activation fails with no effect. Otherwise, the dice cast Clairvoyance for you. When cast in this way, the spell's range becomes 100 feet × the result of your roll.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 19,
     "name": "Ouroboros Buckles",
     "price": {
@@ -6695,6 +6928,22 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 7,
+    "name": "Pepper Poultice",
+    "price": {
+      "gp": 55
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>This mash of Cinderlands peppers has been fermented into a potent poultice to expel toxins from the body. When you have the sickened condition, you can slather this poultice onto your skin to reduce your Sickened value by 1.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 0,
@@ -7919,254 +8168,5 @@
     "usage": "",
     "worn": null,
     "publication": "Pathfinder Gamemastery Guide"
-  },
-  {
-    "level": 0,
-    "name": "Platinum Pieces",
-    "price": {
-      "pp": 1
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 0,
-    "name": "Playing Cards",
-    "price": {
-      "sp": 5
-    },
-    "description": "<p>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
-  },
-  {
-    "level": 16,
-    "name": "Pocket Gala",
-    "price": {
-      "gp": 10000
-    },
-    "description": "<p>This item appears to be a miniature stone replica of an aristocratic home or a simple castle.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) command, envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You place the figurine on the ground, and a harmonious note rings out as it grows into a spacious, elegant ballroom. The ballroom is 60 feet long, 45 feet wide, and features a ceiling that rises to a height of 20 feet. Elegant double doors on either end of the ballroom allow entry.</p>\n<p>Inside, the ballroom is fully stocked with tables and chairs along both sides. A feasting table in the center of each seating area provides enough food and drink for up to 36 guests, and a cadre of unseen servants tend to guests' basic needs.</p>\n<p>While inside, you can utter a command word to call forth music, which echoes through the ballroom. Repeating the command word can alter the dynamics of the music, such as the musical style or tempo, or stop the music entirely. A second command word produces a set of masked, illusory dancers that immediately take to the floor and begin dancing to the current music. When there's no music, the illusory guests chatter among themselves in a nonsense language. An illusory dancer will gladly dance with anyone who asks. Repeating the command word dismisses the dancers.</p>\n<p>You can utter a third command word declaring the gala over to revert the ballroom to its original form. As it reverts, the illusory dancers clap and cheer for your hospitality. If you don't revert the ballroom on your own, it automatically returns to its original state at the next sunrise.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "structure"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 5,
-    "name": "Pocket Stage",
-    "price": {
-      "gp": 138
-    },
-    "description": "<p>This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls.</p>\n<p><strong>Activate—Play with Dolls</strong> (1 minute) (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You place the miniature theater on the ground, filling it with any set dressing and up to six figures you choose. Then, you tap a rhythm on the miniature, causing it to grow into a modest stage 20 feet wide and 15 feet deep. It's dressed with the decorations you selected, and simple mannequins wear the costumes you chose. A wooden proscenium arch frames the stage, and simple curtains along the sides conceal the wings. As a magical structure, the stage has the structure trait.</p>\n<p>All the stage's set dressing is illusory and disappears if taken more than 20 feet from the stage. The costumes are physical but with illusory embellishments that fade at the same range, revealing only plain, white smocks.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "structure"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 2,
-    "name": "Pocket Watch",
-    "price": {
-      "gp": 25
-    },
-    "description": "<p>This timepiece is a marvel of clockwork and miniaturization; its gears, arbor, and mainspring are immaculately crafted and tuned to maximize precision and reduce time loss. This pocket watch has the properties of a clockwork dial, except it has a maximum duration of 24 hours and is available to characters from Alkenstar.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Impossible Lands"
-  },
-  {
-    "level": 0,
-    "name": "Poi",
-    "price": {
-      "sp": 2
-    },
-    "description": "<p>Poi are light weights tethered to ropes or chains. Performers swing the weights, usually one in each hand, in rhythmic patterns.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "backswing",
-      "finesse",
-      "nonlethal"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #151: The Show Must Go On"
-  },
-  {
-    "level": 1,
-    "name": "Poison Barbs Snare",
-    "price": {
-      "gp": 4
-    },
-    "description": "<p>You set several barbed animal spines or wooden stakes in the ground, each tipped with poison from a venomous animal or toxic plant. The snare deals 1d4 piercing damage to the first creature to enter its square (DC 15 reflex). On a failed save, several barbs lodge in the creature's feet. For 1 minute (or until a creature or an ally spends three Interact actions to remove the barbs), the barbs deal 1d4 poison damage to the creature each time it Strides more than half its Speed.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "mechanical",
-      "snare",
-      "trap"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #175: Broken Tusk Moon"
-  },
-  {
-    "level": 15,
-    "name": "Poison Concentrator (Greater)",
-    "price": {
-      "gp": 5900
-    },
-    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 14 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
-    "rarity": "common",
-    "traits": [
-      "additive1",
-      "alchemical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 5,
-    "name": "Poison Concentrator (Lesser)",
-    "price": {
-      "gp": 160
-    },
-    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 4 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
-    "rarity": "common",
-    "traits": [
-      "additive1",
-      "alchemical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 19,
-    "name": "Poison Concentrator (Major)",
-    "price": {
-      "gp": 31000
-    },
-    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 18 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
-    "rarity": "common",
-    "traits": [
-      "additive1",
-      "alchemical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 10,
-    "name": "Poison Concentrator (Moderate)",
-    "price": {
-      "gp": 960
-    },
-    "description": "<p>This compression apparatus can reduce two poisons into a more concentrated dose. As a 10-minute activity that has the manipulate trait, you can use a poison concentrator to combine two doses of the same alchemical poison of level 9 or lower, creating a single concentrated poison with a +1 item bonus to its DC.</p>",
-    "rarity": "common",
-    "traits": [
-      "additive1",
-      "alchemical"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 15,
-    "name": "Poison Fizz (Greater)",
-    "price": {
-      "gp": 1000
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +3 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a 15 foot cone. This deals 5d6 poison with a DC 34 reflex. A creature that critically fails is also Blinded until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "lozenge"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 8,
-    "name": "Poison Fizz (Lesser)",
-    "price": {
-      "gp": 80
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +2 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a 15 foot cone. This deals 3d6 poison with a DC 24 reflex. A creature that critically fails is also Blinded until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "lozenge"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 12,
-    "name": "Poison Fizz (Moderate)",
-    "price": {
-      "gp": 350
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Made from a special mixture of honey and alchemical reagents, poison fizz is a zesty, sweet rock candy that pops and crackles in your mouth. For 1 hour, you have a +2 item bonus to saving throws against poison and being petrified.</p>\n<p><strong>Secondary Effect</strong> <span class=\"action-glyph\">2</span> (poison)</p>\n<p><strong>Effect</strong> You bite the poison fizz to release its poisonous liquid center and spray green mist in a 15 foot cone. This deals 4d6 poison with a DC 29 reflex. A creature that critically fails is also Blinded until the end of your next turn and is then temporarily immune to being blinded by poison fizz for 1 hour.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "lozenge"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 1,
-    "name": "Poison Ring",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>This ring contains a compartment beneath the bezel intended to hold a small amount of poison. You can determine the ring's true purpose with a successful @Check[perception|dc:20] check. Noticing the compartment while the ring is being worn is more difficult and typically requires a successful Perception check against the Stealth DC of the person wearing the ring. You place poison within the ring using the same method for applying poison to a weapon. You can release the ring's poison or consume it using an Interact action if you have a free hand. The ring's compartment is large enough to hold an effective amount of most poisons, but it's too small to hold a significant amount of other liquids, including potions and magical oils.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Lost Omens: Firebrands"
-  },
-  {
-    "level": 0,
-    "name": "Poison Sedum",
-    "price": {},
-    "description": "<p>This green-and-blue stalk is topped with a clump of small flowers resembling broccoli. It's covered in a mildly toxic resin that sticks to flesh, fur, and equipment alike, causing affected creatures to break out in an itchy rash.</p>\n<hr />\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Maximum Duration</strong> 2 weeks</p>\n<p><strong>Stage 1</strong> Sickened{Sickened 1}, and the sickened condition can't go below 1 (1 day)</p>\n<p><strong>Stage 2</strong> as stage 1, but also Clumsy{Clumsy 1} (1 day)</p>",
-    "rarity": "rare",
-    "traits": [
-      "contact",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #178: Punks in a Powder Keg"
   }
 ]

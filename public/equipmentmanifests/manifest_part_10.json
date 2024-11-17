@@ -1,5 +1,477 @@
 [
   {
+    "level": 1,
+    "name": "Traveler's Cloak",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p>These cloaks are designed to accommodate long treks through various climates. Traveler's cloaks for hot climates might be bleached white and created from lighter materials, while those intended for cold climates are made of thicker materials and have linings intended to retain heat. While wearing a traveler's cloak for the appropriate type of weather, increase the time it takes to become Fatigued from temperature effects by 2 hours. A traveler's cloak has no effect at extreme or incredible temperatures.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Knights of Lastwall"
+  },
+  {
+    "level": 2,
+    "name": "Traveler's Fulu",
+    "price": {
+      "gp": 7
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You critically fail an attempt to Sense Direction</p>\n<p><strong>Requirements</strong> You're trained in Survival.</p>\n<hr />\n<p>This fulu shows a series of constellations and arrows depicting astronomical movements through the night sky. When you activate a traveler's fulu, the magic infuses your mind with sensations of deja vu, as if you'd been in this region before. You gain a success on the triggering check.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical",
+      "talisman"
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null,
+    "publication": "Pathfinder #196: The Summer That Never Was"
+  },
+  {
+    "level": 1,
+    "name": "Traveling Companion's Chair",
+    "price": {
+      "gp": 4
+    },
+    "description": "<p>This more robust assembly is well suited for longer travel and all manner of adventuring. As with the traveler's chair, small mechanisms built into the wheels and support struts allow the user to traverse up and down stairs without any additional difficulty (though moving up stairs is still difficult terrain, just like for other adventurers) and move without additional difficulty through ladders, uneven ground, and other common adventuring terrain.</p>",
+    "rarity": "common",
+    "traits": [
+      "barding",
+      "companion"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Treat (Standard)",
+    "price": {
+      "cp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [
+      "consumable"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Travel Guide"
+  },
+  {
+    "level": 0,
+    "name": "Treat (Unique)",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [
+      "consumable"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Travel Guide"
+  },
+  {
+    "level": 4,
+    "name": "Tremorsensors",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>These small, metallic devices resemble squashed spheres. They each contain a tiny gyroscope that's incredibly sensitive to vibrations in the earth. While typically worn on one's footwear, the device can be affixed to any part of your armor.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You stomp a foot, clap your hands, or create some other source of sound, gaining tremorsense as an imprecise sense with a range of 20 feet for the next 10 minutes.</p>\n<p></p>",
+    "rarity": "uncommon",
+    "traits": [
+      "adjustment",
+      "mechanical"
+    ],
+    "usage": "Affixed To Armor",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Tri-bladed Katar",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>This punching dagger resembles the standard katar, save that a pair of blades can be folded out from the center blade, transforming the weapon into a starburst shape well suited to catching foes' weapons.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "fatal-d8",
+      "monk"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
+  },
+  {
+    "level": 2,
+    "name": "Triangular Teeth",
+    "price": {
+      "gp": 33
+    },
+    "description": "<p>Rows of triangles symbolizing shark teeth protect you from danger and enable you to take fierce retaliation against those who try to harm you. Seafarers, especially those on the seas of Minata, wear these tattoos in patterns, with multiple rows of regular triangles. You gain a +1 item bonus to Survival checks to navigate bodies of water.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would be hit by an attack against your AC</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 circumstance bonus to AC against the attack, or a +2 circumstance bonus if the attacker is in water or has the amphibious, aquatic, or water trait. Whether the attack hits or misses, you gain a +2 status bonus to damage with the next Strike you make against the attacker before the end of your next turn.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 8,
+    "name": "Trickster's Mandolin (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>Sought after by many unscrupulous bards, this instrument is surprisingly light and easy to carry, but also empowered with a number of spells carefully selected to help with fooling others or making a hasty retreat. While playing the mandolin, you gain a +1 item bonus to Deception and Performance checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Effect</strong> You change the instrument's color and shape to one you prefer, and you can turn it into a different handheld string instrument that takes two hands to play.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Prestidigitation</li><li><strong>1st</strong> Illusory Disguise, Item Facade, Ventriloquism</li><li><strong>2nd</strong> Illusory Creature, Illusory Disguise, Invisibility, Mirror Image</li><li><strong>3rd</strong> Illusory Disguise, Phantom Prison, Sculpt Sound</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "coda",
+      "illusion",
+      "occult",
+      "staff"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 12,
+    "name": "Trickster's Mandolin (Major)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>Sought after by many unscrupulous bards, this instrument is surprisingly light and easy to carry, but also empowered with a number of spells carefully selected to help with fooling others or making a hasty retreat. While playing the mandolin, you gain a +2 item bonus to Deception and Performance checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Effect</strong> You change the instrument's color and shape to one you prefer, and you can turn it into a different handheld string instrument that takes two hands to play.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Prestidigitation</li><li><strong>1st</strong> Illusory Disguise, Item Facade, Ventriloquism</li><li><strong>2nd</strong> Illusory Creature, Illusory Disguise, Invisibility, Mirror Image</li><li><strong>3rd</strong> Illusory Disguise, Phantom Prison, Sculpt Sound</li><li><strong>4th</strong> Confusion, Invisibility, Illusory Disguise</li><li><strong>5th</strong> Hallucination, Illusory Scene, Illusory Disguise</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "coda",
+      "illusion",
+      "occult",
+      "staff"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 4,
+    "name": "Trickster's Mandolin",
+    "price": {
+      "gp": 90
+    },
+    "description": "<p>Sought after by many unscrupulous bards, this instrument is surprisingly light and easy to carry, but also empowered with a number of spells carefully selected to help with fooling others or making a hasty retreat. While playing the mandolin, you gain a +1 item bonus to Deception and Performance checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Effect</strong> You change the instrument's color and shape to one you prefer, and you can turn it into a different handheld string instrument that takes two hands to play.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from this instrument to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Prestidigitation</li><li><strong>1st</strong> Illusory Disguise, Item Facade, Ventriloquism</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "rarity": "common",
+    "traits": [
+      "coda",
+      "illusion",
+      "occult",
+      "staff"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 5,
+    "name": "Tricky Liniment",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This greenish, persistent grease can be applied to armor to make it extremely slippery for 8 hours, granting the wearer a +2 item bonus to Acrobatics checks to Escape or to Squeeze.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical",
+      "oil"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 0,
+    "name": "Tricky Pick",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This ingenious kobold pick conceals several hidden traps that the wielder can activate to trick and befuddle foes with a variety of damaging blades and bludgeoning surfaces.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backstabber",
+      "fatal-d10",
+      "kobold",
+      "modular"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 9,
+    "name": "Trident of Lightning",
+    "price": {
+      "gp": 110
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p>This item looks like a normal trident carved with Gozren motifs. If thrown without being activated, it wobbles in the air and fails to strike true.</p>\n<p>When you Activate the trident, the carvings crackle with electricity. You then hurl the trident. It shatters immediately after leaving your hand and unleashes its magic as a 4th-rank Lightning Bolt originating from your space.</p>\n<p>The bolt deals 5d12 electricity damage and has a DC 25 reflex save.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of <em>lightning bolt</em> (4th rank).</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "electricity",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 0,
+    "name": "Trident",
+    "price": {
+      "gp": 1
+    },
+    "description": "<p>This three-pronged, spear-like weapon typically has a 4-foot shaft. Like a spear, it can be wielded with one hand or thrown.</p>",
+    "rarity": "common",
+    "traits": [
+      "thrown-20"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 0,
+    "name": "Triggerbrand",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>This unusual combination weapon integrates features of a flintlock pistol and a shortsword. Like other combination weapons, a wielder can transform it between ranged and melee modes as an Interact action.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "fatal-d8"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Impossible Lands"
+  },
+  {
+    "level": 8,
+    "name": "Trinity Geode (Greater)",
+    "price": {
+      "gp": 460
+    },
+    "description": "<p>The crystal chamber within this split geode is divided into three lobes of equal size. The spell DC of any spell cast by Activating this item is 24.</p>\n<ul>\n<li><strong>Armor</strong> After you cast an earth spell by Activating the <em>geode</em>, you gain resistance 3 to physical damage (except adamantine) until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast an earth spell by Activating the geode, your Strikes with the weapon deal an additional 1d6 bludgeoning damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Scatter Scree.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast One with Stone.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical",
+      "spellheart"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 12,
+    "name": "Trinity Geode (Major)",
+    "price": {
+      "gp": 1900
+    },
+    "description": "<p>The crystal chamber within this split geode is divided into three lobes of equal size. The spell DC of any spell cast by Activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> After you cast an earth spell by Activating the <em>geode</em>, you gain resistance 5 to physical damage (except adamantine) until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast an earth spell by Activating the geode, your Strikes with the weapon deal an additional 1d8 bludgeoning damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Scatter Scree.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank One with Stone.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Spike Stones.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical",
+      "spellheart"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 3,
+    "name": "Trinity Geode",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>The crystal chamber within this split geode is divided into three lobes of equal size. The spell DC of any spell cast by Activating this item is 17.</p>\n<ul>\n<li><strong>Armor</strong> After you cast an earth spell by Activating the <em>geode</em>, you gain resistance 1 to physical damage (except adamantine) until the end of your next turn, or double the resistance for a non-cantrip spell.</li>\n<li><strong>Weapon</strong> After you cast an earth spell by Activating the geode, your Strikes with the weapon deal an additional 1d4 bludgeoning damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Scatter Scree.</p>",
+    "rarity": "common",
+    "traits": [
+      "earth",
+      "magical",
+      "spellheart"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 4,
+    "name": "Trip Snare",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p>You set a cunning wire to trip a creature. A Medium or smaller creature that enters this snare's square must attempt a @Check[reflex|showDC:all|dc:21] save.</p>\n<p>If you want to create a trip snare to trip a larger creature, you must create a group of contiguous snares of a length equal to the edge of that larger creature's space, and the creature must be moving such that it moves into the full set of snares. For example, three trip snares in a 15-foot-line can trip a Huge creature coming down a corridor into the line of snares.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Off-Guard until the start of its next turn.</p>\n<p><strong>Failure</strong> The creature falls Prone.</p>\n<p><strong>Critical Failure</strong> The creature falls prone and takes 1d6 bludgeoning damage.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 2,
+    "name": "Tripline Arrow",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p><strong>Ammunition</strong> arrow</p>\n<hr />\n<p>This arrow unspools a line of wire as its flies at its target. The wire animates as it hits a target and attempts to wrap around its legs before vanishing a moment later. If you can apply the bow's critical specialization effect, you can choose to knock the target Prone instead of pinning the target. If you cannot apply the bow's critical specialization effect, you can instead attempt to use the arrow to Trip with the Athletics skill as if the bow had the trip weapon trait. The arrow's unwieldy nature halves its weapon's range increment.</p>",
+    "rarity": "rare",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Kingmaker"
+  },
+  {
+    "level": 0,
+    "name": "Tripod",
+    "price": {
+      "sp": 2
+    },
+    "description": "<p>Tripods are designed for use with kickback weapons, as a way for gunslingers with lower strength to accurately use these more powerful weapons by sacrificing mobility instead. They can be set up and attached to a firearm with a single Interact action using one hand, setting the tripod in your square. While this sturdy piece of engineering is in use, you don't take the -2 penalty for firing a kickback weapon, even if your Strength isn't high enough to avoid the penalty. However, you must retrieve the tripod with a single Interact action before you can move the firearm to a different position. Normally, when you're Hidden or Undetected, you become observed if you do anything except Hide, Sneak, or Step. However, deploying or retrieving a tripod with an Interact action doesn't automatically make you observed, so long as you don't set up or remove the tripod when it's in a spot where creatures can see the tripod itself.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 9,
+    "name": "Triton's Conch",
+    "price": {
+      "gp": 640
+    },
+    "description": "<p>If you put this large opalescent conch shell to your ear, you can hear the sound of the roaring sea crashing against the shore.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (auditory)</p>\n<hr />\n<p><strong>Effect</strong> You can raise the conch to your lips and blow into it, letting out a long, rumbling note. For the next minute, you and all allies who were within 30 feet of you when you activated the conch gain a +2 item bonus to Athletics checks to Swim and can breathe under water.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
+  },
+  {
+    "level": 15,
+    "name": "Troll Hide",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Tissue from a living troll has been integrated through this hide armor. This armor has two organic receptacles on its back that can each hold a single elixir of life. One elixir takes 3 Interact actions to install. For the armor to function properly, each elixir must be the same level. A loaded suit of troll hide can be activated, causing regenerating tissue from the armor to fill your wounds. At the start of each round, you regain Hit Points equal to the level of the loaded elixirs. Each time you regain at least 13 Hit Points from the armor, you regrow one damaged or ruined organ. During a round that you regain 9 or more Hit Points from the armor, you can reattach severed body parts by spending an Interact action to hold the body part to the area it was severed from. If you take acid or fire damage, the armor deactivates until the end of your next turn. In the event the armor itself is damaged, it will restore its own Hit Points before it resumes healing you. The regeneration lasts for 8 rounds. Once activated, the armor can't be deactivated. The armor uses up the elixirs of life during the duration and can't be activated again until two new ones are installed.</p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "healing"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 5,
+    "name": "Trollhound Pick",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>This <em>+1 striking greatpick</em> bears a head studded with the tusks of a trollhound.</p><hr /><p><strong>Activate—Ravenous Strike</strong> <span class=\"action-glyph\">2</span> (magical, manipulate)</p>\n<p><strong>Effect</strong> You Strike with the <em>trollhound pick</em>, transferring a portion of a trollhound's legendary appetite to the target. A living enemy who takes damage from the attack must attempt a @Check[will|dc:19] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature suffers hunger pangs, becoming Off-Guard for 1 round.</p>\n<p><strong>Failure</strong> The creature experiences gnawing hunger, becoming off-guard for 1 round and Enfeebled{Enfeebled 1} for 1 minute. If the creature consumes any amount of food or drink (including imbibing a potion), the enfeebled condition ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is Enfeebled{Enfeebled 2} and each instance of consuming food or drink reduces the penalty by 1.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the teeth and tongue from a trollhound.</p>",
+    "rarity": "common",
+    "traits": [
+      "fatal-d12",
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 6,
+    "name": "Trollhound Vest",
+    "price": {
+      "gp": 230
+    },
+    "description": "<p>This suit of <em>+1 hide armor</em> is sickly green and covered in thick warts and nodules, fashioned from the hide of a trollhound and imbued with some of the beast's vitality. Wearing this armor gives you a –1 circumstance penalty to all checks made using Diplomacy to interact with trolls and a +1 circumstance bonus to Diplomacy checks used to Make an Impression in communities traditionally plagued by troll attacks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Trigger</strong> You take damage from a melee attack while you have half or fewer of your normal maximum Hit Points</p><hr /><p><strong>Effect</strong> Your body knits itself back together, healing you for 3d8 healing Hit Points.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the hides of at least two trollhounds.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 17,
+    "name": "Troubadour's Cap",
+    "price": {
+      "gp": 15000
+    },
+    "description": "<p>This jaunty cap can take the form and color of any type of hat you wish upon investing the item, but it always has a peacock feather jutting out from one side. You gain a +2 item bonus to Diplomacy and Performance checks while wearing the cap. When you invest the cap, you either increase your Charisma score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You cast Hypnotize (DC 37).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Picking the feather from your cap, you throw it toward a target, casting Prismatic Spray (DC 35).</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Cap",
+    "worn": "Cap",
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 15,
+    "name": "True Name Amulet (Greater)",
+    "price": {
+      "gp": 5500
+    },
+    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Amulet",
+    "worn": "Amulet",
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 5,
+    "name": "True Name Amulet (Lesser)",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>This amulet bears the true name of a single creature with a level no higher than the item's level. These amulets are typically made of gold and engraved, but could be made of anything, including simple clay. The name is clearly visible, though only to you, and only while you have the amulet invested.</p>\n<p>If you can read the language in which the name is written, that creature always takes the effects of <em>invoke true name</em> against your spells (with a spell rank equal to half the item's level, rounded up). In addition, when the creature uses any magical effect against you, you can immediately attempt to counteract it using Arcana, Nature, Occult, or Religion for the counteract check and the true name amulet's level to determine the counteract rank. Legendary amulets bearing the true names of creatures of level 21+ may exist.</p>",
+    "rarity": "rare",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Amulet",
+    "worn": "Amulet",
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
     "level": 20,
     "name": "True Name Amulet (Major)",
     "price": {
@@ -1435,6 +1907,25 @@
     "usage": "Implanted",
     "worn": null,
     "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 7,
+    "name": "Venom Lash",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>With careful alchemical treatments, orc weaponsmiths can enhance the durability and flexibility of giant scorpion tails to create multi-headed <em>+1 striking flails</em>. Additional enchantments allow the stingers to generate their own venom. When you would apply this flail's critical specialization, you can instead deal @Damage[1d6[persistent,poison]] damage to the target. You gain an item bonus to the persistent poison damage equal to the weapon's item bonus to attack rolls.</p>\n<p><strong>Activate—Envenom</strong> <span class=\"action-glyph\">1</span> (manipulate, poison)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You temporarily fill the flail's stingers with venom. The next successful Strike you make with it before the end of your next turn deals @Damage[2d6[persistent,poison]] damage to the target. If the Strike critically succeeds and if you would apply persistent poison damage with this weapon's alternate critical specialization, you combine the two effects to deal @Damage[3d6[persistent,poison]] damage to the target.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "disarm",
+      "magical",
+      "poison",
+      "sweep",
+      "trip"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 7,
@@ -5458,7 +5949,7 @@
     ],
     "usage": "Held In One Hand",
     "worn": null,
-    "publication": ""
+    "publication": "Pathfinder War of Immortals"
   },
   {
     "level": 11,
@@ -7860,469 +8351,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder War of Immortals"
-  },
-  {
-    "level": 14,
-    "name": "Worldringer (Greater)",
-    "price": {
-      "gp": 4200
-    },
-    "description": "<p>This <em>+2 greater striking khakkhara</em> is topped by an ornate finial depiction of a small-statured traveler with animal companions. While the rings of a khakkhara are normally meant to alert others of one's presence, the magic of the <em>worldringer</em> enhances the chimes to entreat upon those who hear it.</p>\n<p><strong>Activate—Chimes of Command</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You call upon beings of this plane or another to hear your call. Choose Summon Lesser Servitor or Command. You Cast the chosen Spell at 5th rank (DC 33). When casting <em>summon lesser servitor</em> in this way, you must choose to summon a magical animal.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "shove",
-      "two-hand-d10",
-      "versatile-p"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
-  },
-  {
-    "level": 5,
-    "name": "Worldringer",
-    "price": {
-      "gp": 160
-    },
-    "description": "<p>This <em>+1 striking khakkhara</em> is topped by an ornate finial depiction of a small-statured traveler with animal companions. While the rings of a khakkhara are normally meant to alert others of one's presence, the magic of the <em>worldringer</em> enhances the chimes to entreat upon those who hear it.</p>\n<p><strong>Activate—Chimes of Command</strong> <span class=\"action-glyph\">3</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You call upon beings of this plane or another to hear your call. Choose Summon Lesser Servitor or Command. You Cast the chosen Spell at 1st rank (DC 19). When casting <em>summon lesser servitor</em> in this way, you must choose to summon a magical animal.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "shove",
-      "two-hand-d10",
-      "versatile-p"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Tian Xia Character Guide"
-  },
-  {
-    "level": 13,
-    "name": "Worm Vial",
-    "price": {
-      "gp": 600
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p>Opening this vial unleashes its destructive contents: a reconstituted Gargantuan purple worm. The worm has two functions; choose which one to use when you Activate the item.</p>\n<p><strong>Burrow</strong> The worm Burrows up to 80 feet, leaving a tunnel behind it. It can burrow through solid stone, but if it does so it burrows 40 feet instead of 80 feet.</p>\n<p><strong>Eat</strong> The worm attempts to swallow a creature, crush it in its insides, then spit the creature out. The target must be within 15 feet, and it attempts a @Check[reflex|dc:30] save. If it fails, it takes @Damage[(3d6+9)[bludgeoning]] (doubled on a critical failure). The worm then spits the creature out to any empty space on the ground within 30 feet, causing the creature to take damage from a 20-foot fall.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply the corpse of a purple worm.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "expandable"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 5,
-    "name": "Wounding Oil",
-    "price": {
-      "gp": 45
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Smearing <em>wounding oil</em>, a crimson fluid, on a weapon causes it to smell strongly of blood and gives it the benefits of the Wounding rune for 1 minute.</p>\n<p></p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "oil"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 7,
-    "name": "Wounding",
-    "price": {
-      "gp": 340
-    },
-    "description": "<p>Weapons with <em>wounding</em> runes are said to thirst for blood. When you hit a creature with a <em>wounding</em> weapon, you deal an extra 1d6 persistent bleed damage.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Etched Onto Piercing Or Slashing Melee Weapon",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 13,
-    "name": "Wovenwood Shield (Greater)",
-    "price": {
-      "gp": 2550
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 7,
-    "name": "Wovenwood Shield (Lesser)",
-    "price": {
-      "gp": 305
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 16,
-    "name": "Wovenwood Shield (Major)",
-    "price": {
-      "gp": 8500
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 4,
-    "name": "Wovenwood Shield (Minor)",
-    "price": {
-      "gp": 85
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 10,
-    "name": "Wovenwood Shield (Moderate)",
-    "price": {
-      "gp": 850
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 19,
-    "name": "Wovenwood Shield (True)",
-    "price": {
-      "gp": 34000
-    },
-    "description": "<p>This magically reinforced wooden shield is made by skilled Ekujae mages, who've developed unique spells for reinforcing wood collected from their forests. Each shield is embossed with the signatures of the mage and artisan who crafted it.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 9,
-    "name": "Wraithweave Patch (Type I)",
-    "price": {
-      "gp": 600
-    },
-    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed light Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
-    "rarity": "rare",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #184: The Ghouls Hunger"
-  },
-  {
-    "level": 12,
-    "name": "Wraithweave Patch (Type II)",
-    "price": {
-      "gp": 1750
-    },
-    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed 1 Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
-    "rarity": "rare",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #184: The Ghouls Hunger"
-  },
-  {
-    "level": 15,
-    "name": "Wraithweave Patch (Type III)",
-    "price": {
-      "gp": 6000
-    },
-    "description": "<p>A wraithweave patch appears to be a square sheet of gray cloth that sparkles softly when observed in dim light. An incorporeal creature can touch, hold, and carry wraithweave patches (unlike most physical objects).</p>\n<p>You can Interact with a wraithweave patch to securely wrap up an object or container that does not exceed 2 Bulk. Once an object is wrapped up, its Bulk becomes negligible, and the wraithweave patch appears and behaves as if it's nothing more than a tightly folded but empty piece of cloth. You must Interact with the wraithweave patch again to unfold it, at which point the wrapped object returns to its normal Bulk and can itself be interacted with again.</p>\n<p>Creatures wrapped in a wraithweave patch are not affected and treat the patch as normal cloth. A wrapped item provides no benefits until it is unwrapped, but can be detected by magic normally. If the wraithweave patch is destroyed, any object it contains reverts to normal and is exposed to the damage or effect that destroyed the wraithweave patch.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Requirements</strong> the wraithweave patch has been wrapped around an object and you are incorporeal</p>\n<hr />\n<p><strong>Effect</strong> You cause the wraithweave patch and the object it contains to become incorporeal. This effect lasts as long as you Sustain the activation. The wraithweave patch can only be touched, held, and carried by an incorporeal creature, and returns to solid form if not carried by such a creature-if the wraithweave patch is in a solid object at this time, it tears apart and the item inside is either lost forever or simply lodged within the solid object, at the GM's discretion.</p>",
-    "rarity": "rare",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #184: The Ghouls Hunger"
-  },
-  {
-    "level": 0,
-    "name": "Wrecker",
-    "price": {
-      "gp": 8
-    },
-    "description": "<p>The wrecker combines a dwarven dorn-dergar with a heavy, gear-reinforced arm cover that allows it to be fired like an oversized sling, then retrieved and reloaded by manually activating a clockwork spool. A wrecker must be loaded to be switched from its ranged configuration to its melee configuration.</p>",
-    "rarity": "common",
-    "traits": [
-      "combination",
-      "dwarf",
-      "ranged-trip",
-      "razing"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 3,
-    "name": "Wrenchgear",
-    "price": {
-      "gp": 50
-    },
-    "description": "<p>The ubiquity of clockwork constructs in Alkenstar spurred the development of the wrenchgear (a shortened \"wrench in the gears\") by innovative criminals (\"wrenchers\") to create security exploits and larcenous opportunities. You gain a +2 item bonus to Disable a Device checks made against clockwork creatures (typically to wind them down).</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Impossible Lands"
-  },
-  {
-    "level": 9,
-    "name": "Wrestler's Armbands",
-    "price": {
-      "gp": 645
-    },
-    "description": "<p><strong>Perception</strong> [[/r 1d20+17]]{+17}; precise vision 30 feet, imprecise hearing 30 feet</p>\n<p><strong>Communication</strong> speech (Common and one other common or regional language)</p>\n<p><strong>Skills</strong> Intimidation [[/r 1d20+19]]{+19}, Sports Lore [[/r 1d20+17]]{+17}</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +4, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+17]]{+17}</p>\n<hr />\n<p>Wrestler's armbands are a set of Armbands of Athleticism that have gained their own boisterous sapience. Often, such items aren't created intentionally but rather are the result of a truly charismatic champion whose heart and body are unusually strong wearing the armbands of athleticism on many adventures as their most important item. Eventually, the essence of their earnest and adventurous spirit has so thoroughly inundated the item it gains a matching spirit and will of its own. Such armbands view themselves as a tough, but fair, trainer for whomever inherits them next, inspiring you to new heights of athleticism. They also spoil for contests, telepathically calling out competitors on your behalf; typically the armbands won't challenge a foe you're unprepared to face, but particularly eager wrestler's armbands might have an unfortunate habit of overestimating your abilities and pushing you into a conflict that's beyond your proven capacity. These armbands have the following activation.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> command</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You succeed or critically succeed at an Athletics check</p>\n<hr />\n<p><strong>Effect</strong> The armbands taunt a creature you're competing with, boasting of your prowess and attempting an Intimidation check to Demoralize that creature.</p>",
-    "rarity": "rare",
-    "traits": [
-      "intelligent",
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Armbands",
-    "worn": "Armbands",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 3,
-    "name": "Wrist Grappler (Clockwork)",
-    "price": {
-      "gp": 40
-    },
-    "description": "<p>This specialized Grappling Gun (Clockwork), which attaches to your wrist, connects to a spool of 50 feet of thin metal cord attached to a pack on your back. The wrist grappler and pack are small enough that they can be concealed with a loose jacket or similar piece of clothing. You can deploy or stow the gun from the attached wrist device with an Interact action. Reloading a clockwork wrist grappler uses the same process as reloading a clockwork grappling gun and takes 3 actions.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Firebrands"
-  },
-  {
-    "level": 2,
-    "name": "Wrist Grappler",
-    "price": {
-      "gp": 25
-    },
-    "description": "<p>This specialized Grappling Gun, which attaches to your wrist, connects to a spool of 50 feet of thin metal cord attached to a pack on your back. The wrist grappler and pack are small enough that they can be concealed with a loose jacket or similar piece of clothing. You can deploy or stow the gun from the attached wrist device with an Interact action. Reloading a wrist grappler uses the same process as reloading a standard grappling gun and takes 1 minute.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Firebrands"
-  },
-  {
-    "level": 0,
-    "name": "Wrist Launcher",
-    "price": {
-      "gp": 3
-    },
-    "description": "<p>This slender tube is attached to a large strap worn on the forearm. You can fire a dart from the tube with a twist of the wrist. The wrist launcher uses Dart{Darts} as ammunition.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "concealable",
-      "free-hand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Firebrands"
-  },
-  {
-    "level": 2,
-    "name": "Writ of Authenticity",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>A typical Pathfinder writ of authenticity confirms the holder's status as a member of the Pathfinder Society and their intended business.</p>\n<p>Most writs are pieces of fine parchment folded, bound with gold cord, and sealed with three wax seals. The top seal is always the Glyph of the Open Road and the middle one is the Envoy's Alliance open door emblem. The bottom seal uses the preparer's personal sigil.</p>\n<p>Inside, the text describes a specific instance of a legitimate business activity, with blanks for the Pathfinder to fill in and personalize the writ to the persons and activity desired.</p>\n<p>Presenting a writ of authenticity grants a +2 item bonus to Make a Request for the associated business, assuming the writ is legitimate and the viewer expects to work with the Pathfinder Society for that activity.</p>",
-    "rarity": "uncommon",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Pathfinder Society Guide"
-  },
-  {
-    "level": 0,
-    "name": "Writing Set (Extra Ink and Paper)",
-    "price": {
-      "sp": 1
-    },
-    "description": "<p>Extra ink and paper to refill your writing set.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 0,
-    "name": "Writing Set",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>Using a writing set, you can draft correspondence and scribe scrolls. A set includes stationery, including a variety of paper and parchment, as well as ink, a quill or inkpen, sealing wax, and a simple seal. If you've written a large amount, you can refill your kit with extra ink and paper.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 15,
-    "name": "Wyrm Claw (Greater)",
-    "price": {
-      "gp": 6500
-    },
-    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 10 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 9d6 damage with a DC 34 reflex. Choose the area and type of damage when you use Breath Weapon: a 30 foot line that deals acid, electricity, or fire, or a 15 foot cone that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p></p>\n<p>@Damage[9d6[acid]|options:area-damage] @Damage[9d6[cold]|options:area-damage] @Damage[9d6[electricity]|options:area-damage] @Damage[9d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Gouging Claw.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank Summon Dragon.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 19,
-    "name": "Wyrm Claw (Major)",
-    "price": {
-      "gp": 40000
-    },
-    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 15 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 12d6 damage with a DC 41 reflex. Choose the area and type of damage when you use Breath Weapon: a 30 foot line that deals acid, electricity, or fire, or a 15 foot cone that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p></p>\n<p>@Damage[12d6[acid]|options:area-damage] @Damage[12d6[cold]|options:area-damage] @Damage[12d6[electricity]|options:area-damage] @Damage[12d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Gouging Claw.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Summon Draconic Legion.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 12,
-    "name": "Wyrm Claw",
-    "price": {
-      "gp": 1000
-    },
-    "description": "<p>The tip of a metallic dragon's claw is set into a band of silver. When you summon dragons using the claw, you must choose metallic dragons.</p><ul><li><strong>Armor</strong> After you cast a conjuration spell by activating the <em>wyrm claw</em>, you gain resistance 5 to acid, cold, electricity, and fire for the next minute.</li><li><strong>Weapon</strong> After you cast a conjuration spell by activating the claw, you gain a Breath Weapon activity that takes 2 actions and deals 6d6 damage with a DC 28 reflex. Choose the area and type of damage when you use Breath Weapon: a 30 foot line that deals acid, electricity, or fire, or a 15 foot cone that deals cold or fire. You can use this activity once before the end of your next turn.</li></ul><p></p>\n<p>@Damage[6d6[acid]|options:area-damage] @Damage[6d6[cold]|options:area-damage] @Damage[6d6[electricity]|options:area-damage] @Damage[6d6[fire]|options:area-damage]</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Gouging Claw.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Summon Dragon.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 17,
-    "name": "Wyrm Drinker",
-    "price": {
-      "gp": 13000
-    },
-    "description": "<p>This staff is made from the femur of a gold dragon wrapped in the multicolored scales of every type of chromatic and metallic dragon. When wielding this staff, you gain a +1 circumstance bonus to skill checks to Coerce, Make an Impression, Request, or Lie to dragons and creatures with strong draconic ties (such as kobolds, dragon instinct barbarians, and draconic sorcerers).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Attempt a melee Strike with Wyrm Drinker. If your target is a dragon or a creature with a strong draconic tie, such as a kobold, and you damage the target, the target is Drained{Drained 2}, or Drained{Drained 4} on a critical hit.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from this list.</p>\n<ul>\n<li><strong>2nd</strong> Illusory Creature{Illusory Creature (Dragons only)}</li>\n<li><strong>4th</strong> Reflective Scales</li>\n<li><strong>5th</strong> Summon Dragon</li>\n<li><strong>6th</strong> Dragon Form, Summon Dragon</li>\n<li><strong>7th</strong> Summon Dragon</li>\n</ul>",
-    "rarity": "unique",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #173: Doorway to the Red Star"
-  },
-  {
-    "level": 13,
-    "name": "Wyrm on the Wing (Greater)",
-    "price": {
-      "gp": 2800
-    },
-    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 10 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Dragon Wings on you. You can add the Flurry of Claws{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Dragon Form on you, turning you into the type of dragon represented by the tattoo.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 17,
-    "name": "Wyrm on the Wing (Major)",
-    "price": {
-      "gp": 13500
-    },
-    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 15 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Dragon Wings on you. You can add the Flurry of Claws{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts 8th-rank Dragon Form on you, turning you into the type of dragon represented by the tattoo.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 9,
-    "name": "Wyrm on the Wing",
-    "price": {
-      "gp": 700
-    },
-    "description": "<p>Depicting a majestic dragon in flight, this tattoo imparts the endurance and majesty of those powerful creatures. You gain resistance 5 to the damage type matching the dragon your tattoo depicts.</p>\n<ul>\n<li><strong>Black or Copper</strong> Acid</li>\n<li><strong>Blue or Bronze</strong> Electricity</li>\n<li><strong>Brass, Gold, or Red</strong> Fire</li>\n<li><strong>Green</strong> Poison</li>\n<li><strong>Silver or White</strong> Cold</li>\n</ul>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Dragon Wings on you. You can add the Flurry of Claws{Dragon Claws} benefit only if you know that focus spell and spend 1 Focus Point when you Activate the tattoo.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
   }
 ]

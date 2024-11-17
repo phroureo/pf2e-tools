@@ -1,6 +1,155 @@
 [
   {
     "level": 0,
+    "name": "Hand mirror with decorated frame",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 2,
+    "name": "Hand of the Mage",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>This mummified elf hand hangs on a golden chain, its gnarled fingers locked in a peculiar pattern.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<hr />\n<p><strong>Effect</strong> You cast Telekinetic Hand.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Core Rulebook"
+  },
+  {
+    "level": 3,
+    "name": "Handcuffs (Average)",
+    "price": {
+      "gp": 30
+    },
+    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires two successful DC 27 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 30.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
+    "level": 9,
+    "name": "Handcuffs (Good)",
+    "price": {
+      "gp": 350
+    },
+    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires three successful DC 30 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 35.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
+    "level": 17,
+    "name": "Handcuffs (Superior)",
+    "price": {
+      "gp": 6000
+    },
+    "description": "<p>Developed in Absalom and rarely used except by police forces in major cities due to their significant cost, handcuffs possess a ratcheting lock system in each cuff that allows them to be quickly cinched down on a captive's limbs, even if they're actively resisting.</p>\n<p>To apply handcuffs, you must first grab or restrain your opponent, then attempt an @Check[athletics|defense:fortitude] check against the opponent's Fortitude DC. On a success, you lock one of the cuffs around your opponent's wrist. You can lock the other cuff to yourself or a stationary object within reach as an Interact action; to lock it to another creature (either the same opponent you just cuffed or a separate creature altogether), you must first grab or restrain that creature, as before, and then make an Athletics check against its Fortitude DC. The DC to make the Athletics check against your own wrist is 5, or 10 for an unattended object.</p>\n<p>If you bind a creature to itself, it takes the same penalties as those imposed by manacles. If you bind a creature to another creature (including yourself), the two creatures are locked together and must remain in adjacent spaces, and both creatures gain the clumsy 1 condition as long as they are handcuffed. If you lock a creature to an immobile object, such as a bar or tree, the creature is immobilized. (For creatures with an unusual physiology such as more or fewer limbs, the GM determines what effects handcuffs have, if any.)</p>\n<p>Handcuffs are unlocked via a key and are easier to slip out of than ordinary manacles. The chain between handcuffs can be Broken Open with a single Athletics check.</p>\n<p>Escaping requires four successful DC 40 thievery checks, and the Athletics DC to Break Open the chain between handcuffs is 45.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
+    "level": 0,
+    "name": "Handling Gloves",
+    "price": {
+      "sp": 5
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Worn Gloves",
+    "worn": "Gloves",
+    "publication": "Pathfinder Lost Omens: Travel Guide"
+  },
+  {
+    "level": 2,
+    "name": "Handwraps of Mighty Blows",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, <em>+1 striking handwraps of mighty blows</em> would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).</p>\n<p>You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Gloves",
+    "worn": "Gloves",
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 14,
+    "name": "Hardened Harrow Deck",
+    "price": {
+      "gp": 4350
+    },
+    "description": "<p>The harrow is a traditional fortunetelling deck used by Varisian soothsayers. The hardened harrow deck is a magical version of the deck with cards made of thin metallic plates adorned with all the imagery common in standard harrow decks, but with more angular designs. You can hurl cards from the hardened harrow deck as +2 greater striking darts with the deadly d10 trait. A card used as a weapon isn't destroyed and can be recovered with 1 minute of searching if it can't be recalled back to the deck (see the deck's Activate entry below). However, if even a single card is missing from the deck, the deck can't be used to perform a traditional harrow reading.</p>\n<hr />\n<p>As long as you carry more than half the cards in the hardened harrow deck, when you roll a success on a saving throw against a fear effect, you get a critical success instead; if you already have an ability that would make a successful saving throw against a fear effect a critical success, you instead gain a +1 circumstance bonus to saving throws against fear effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> All cards from the hardened harrow deck within 60 feet that you can see fly back into the deck.</p>",
+    "rarity": "rare",
+    "traits": [
+      "agile",
+      "deadly-d10",
+      "thrown"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #160: Assault on Hunting Lodge Seven"
+  },
+  {
+    "level": 0,
+    "name": "Harmona Gun",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>A favored weapon of monster hunters in Arcadia, the harmona gun is a large-bore long gun that fires a heavy, slow-moving round. The gun got its name due to the eerie similarity between the buzzing sound its oversized projectiles make flying through the air and the flight of a fey bird called a harmona.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "kickback"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 13,
+    "name": "Harmonic Hauberk",
+    "price": {
+      "gp": 2500
+    },
+    "description": "<p>Rose gold and copper rings in this <em>+2 resilient chain shirt</em> form a vague bird shape. The jingling links tinkle musically, almost like birdsong. While you wear the armor, effects with the auditory trait must first counteract the <em>harmonic hauberk</em> or they have no effect on you.</p>\n<p>The <em>harmonic hauberk</em> attempts to counteract Silence spells cast on you and 4th-rank or higher heightened <em>silence</em> spells the first time the armor enters their area (counteract rank 4, counteract modifier [[/r 1d20+20 #Counteract]]{+20}). After failing to counteract a <em>silence</em> spell, the armor can't attempt to counteract the same spell again, even if you leave and enter the spell's area multiple times.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have a pool of Focus Points and at least one composition spell</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point and immediately use the Focus Point to cast Lingering Composition, using your Performance check to determine the effects of the spell, followed by the Rallying Anthem. You can use this activation to cast those spells even if you don't have the Lingering Composition or Rallying Anthem feats.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "auditory",
+      "flexible",
+      "focused",
+      "illusion",
+      "invested",
+      "noisy"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 0,
     "name": "Harness",
     "price": {
       "sp": 8
@@ -5036,6 +5185,24 @@
     "publication": "Pathfinder Treasure Vault"
   },
   {
+    "level": 7,
+    "name": "Kinetic Club",
+    "price": {
+      "gp": 325
+    },
+    "description": "<p>Embedded along the length of this <em>+1 striking greatclub</em> are the teeth and scales of a zetogeki, a giant lizard that can absorb and then release bursts of kinetic energy. The more momentum a wielder builds up while swinging the weapon, the more forceful the impact when it finally makes contact.</p>\n<p><strong>Activate—Store Kinetic Energy</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You add a circumstance bonus to your attack with the <em>kinetic club's</em> backswing trait and successfully Strike your target</p><hr /><p><strong>Effect</strong> You channel the club's stored energy into the Strike, dealing 1d6 additional damage. If the club has a <em>greater striking</em> rune, increase the additional damage to 2d6. If the club has a <em>major striking</em> rune, increase the additional damage to 3d6.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backswing",
+      "earth",
+      "magical",
+      "shove"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 18,
     "name": "King's Sleep",
     "price": {
@@ -7888,177 +8055,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 15,
-    "name": "Magic Wand (7th-Rank Spell)",
-    "price": {
-      "gp": 6500
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 17,
-    "name": "Magic Wand (8th-Rank Spell)",
-    "price": {
-      "gp": 15000
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 19,
-    "name": "Magic Wand (9th-Rank Spell)",
-    "price": {
-      "gp": 40000
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 1,
-    "name": "Magical Hearing Aid",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>These curved hearing aids hook over the top and sit behind your ear, with a receiver that fits into the ear opening. The external part of the device detects sound waves and, using magic, transfers them down the receiver and into your ear. You can wear one or two depending on your hearing loss, and you can turn your hearing aids on or off using an Interact action.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 4,
-    "name": "Magical Lock Fulu",
-    "price": {
-      "gp": 15
-    },
-    "description": "<p><strong>Usage</strong> affixed to a door, window, or container</p>\n<p><strong>Duration</strong> 1 hour</p>\n<hr />\n<p>The symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch or existing lock. As many as nine fulus can be applied to the same target. One fulu equates a Lock (Poor){Poor Lock} (DC 15), three a Lock (Simple){Simple Lock} (DC 20), and nine an Lock (Average){Average Lock} (DC 25).</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "fulu",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Secrets of Magic"
-  },
-  {
-    "level": 1,
-    "name": "Magical Prosthetic Eye",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>This prosthetic eye converts visible light into a telepathic signal that is relayed to the wearer's mind using divination magic. As the wearer's mind must process the telepathic signal in the same way as it would a nerve impulse, the acuity and other abilities related to the vision provided by the magical prosthetic eye matches that of other members of your ancestry (for instance, a goblin with a magical prosthetic eye would be able to see in darkvision, while a human wearing the same prosthetic would need illumination). You can remove or replace a magical prosthetic eye using an Interact action.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 3,
-    "name": "Magnet Coin",
-    "price": {
-      "gp": 50
-    },
-    "description": "<p>Thera Heartslip commissioned these magical coins during her early thievery days and still has a number on hand to share with her confidants. This coin resembles an ordinary coin, but it's warm and seems to thrum slightly when touched. The coin's face features a very small fragment from the pressed portion that can be removed, such as a small star or one eye from the head on the face. Removing this fragment causes the coin to stop thrumming and feeling warm to the touch. Noticing the removed piece requires close inspection and a successful @Check[perception|dc:19] check.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Requirements</strong> You are holding the coin fragment</p>\n<hr />\n<p><strong>Effect</strong> You focus on the rest of the coin, imagining its complete form in your hand. The rest of the coin teleports into your hand, reforming the complete coin. If it was near any other coins, it also teleports up to [[/r 3d10 #Coins]] coins with it into your hand. The coin can only teleport up to 15 miles; if you are farther when recalling the coin, it teleports the maximum distance toward you and lands in an open space.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "teleportation"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 1,
-    "name": "Magnetic Construction Set",
-    "price": {
-      "gp": 2
-    },
-    "description": "<p>This collection of small magnets and metal rods comes in a wooden box. The magnets are strong enough to firmly cling to metal objects but too weak to move or suspend them. The metal rods are a quarter of an inch in diameter and vary in length from 3 to 6 inches. If connected with the magnets, these rods can be used to build flimsy shapes and structures, which collapse if external weight or pressure is applied.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 5,
-    "name": "Magnetic Shield",
-    "price": {
-      "gp": 130
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>Copper rings spiral around this steel shield. Twin electrical probes near the grip can socket into a jar of moderate (or higher leveled) bottled lightning, which takes 3 Interact actions to install. A loaded magnetic shield can be activated to convert it into an electromagnet. When an activated magnetic shield is raised, the circumstance bonus increases by 1 against attacks made with weapons primarily made of metal. If you use a Shield Block against a creature attacking you with such a weapon, you also gain a +1 item bonus to Disarm attempts against that weapon until the end of your next turn. The shield remains charged for 3 rounds, consuming the bottled lightning, and once the reaction has begun it can't be deactivated.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "aura"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 17,
-    "name": "Magnetic Shot (Greater)",
-    "price": {
-      "gp": 2200
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +2 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals four additional weapon damage dice and is deadly d12.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 7,
-    "name": "Magnetic Shot (Lesser)",
-    "price": {
-      "gp": 60
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command</p>\n<p>Shiny gray metal that slightly thrums when touched makes up the metal parts of a magnetic shot. When activated, the shot is more effective against a target wearing metal armor or made of metal. The activated ammunition grants a +1 circumstance bonus to attack rolls against such targets. Due to magnetic acceleration, the ammunition deals two additional weapon damage dice and is deadly d8.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
   }
 ]

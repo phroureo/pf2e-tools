@@ -1,5 +1,21 @@
 [
   {
+    "level": 11,
+    "name": "Bloodhound Mask (Greater)",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Duration</strong> 8 hours</p>\n<p>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with a 60 foot range. You can't wear other masks while you're wearing a bloodhound mask.</p>\n<p>When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you a +3 item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Advanced Player's Guide"
+  },
+  {
     "level": 2,
     "name": "Bloodhound Mask (Lesser)",
     "price": {
@@ -1517,6 +1533,70 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 5,
+    "name": "Box of Unspoiling (Type I)",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>This storage container decorated with images of wildlife and berries is popular among Shoanti quahs and other nomadic groups. The box functions like a <em>Spacious Pouch (Type I){spacious pouch}</em>, holding 25 Bulk, and is inscribed with magic to keep its contents cool to allow for travel with perishable items like meat and fruit. Items in the box are kept fresh for up to a year.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
+    "level": 8,
+    "name": "Box of Unspoiling (Type II)",
+    "price": {
+      "gp": 575
+    },
+    "description": "<p>This storage container decorated with images of wildlife and berries is popular among Shoanti quahs and other nomadic groups. The box functions like a <em>Spacious Pouch (Type I){spacious pouch}</em>, holding 50 Bulk, and is inscribed with magic to keep its contents cool to allow for travel with perishable items like meat and fruit. Items in the box are kept fresh for up to a year.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
+    "level": 12,
+    "name": "Box of Unspoiling (Type III)",
+    "price": {
+      "gp": 1640
+    },
+    "description": "<p>This storage container decorated with images of wildlife and berries is popular among Shoanti quahs and other nomadic groups. The box functions like a <em>Spacious Pouch (Type I){spacious pouch}</em>, holding 100 Bulk, and is inscribed with magic to keep its contents cool to allow for travel with perishable items like meat and fruit. Items in the box are kept fresh for up to a year.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
+    "level": 14,
+    "name": "Box of Unspoiling (Type IV)",
+    "price": {
+      "gp": 3600
+    },
+    "description": "<p>This storage container decorated with images of wildlife and berries is popular among Shoanti quahs and other nomadic groups. The box functions like a <em>Spacious Pouch (Type I){spacious pouch}</em>, holding 150 Bulk, and is inscribed with magic to keep its contents cool to allow for travel with perishable items like meat and fruit. Items in the box are kept fresh for up to a year.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "extradimensional",
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
   },
   {
     "level": 3,
@@ -5168,6 +5248,40 @@
     "publication": "Pathfinder #145: Hellknight Hill"
   },
   {
+    "level": 7,
+    "name": "Cindergrass Cloak",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This hooded cloak woven of long, waxy grass is designed so it can close over your entire body. While wearing this cloak, you have resistance 5 to fire.</p>\n<p><strong>Shed Cinders</strong> <span class=\"action-glyph\">r</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You would take fire damage</p><hr /><p><strong>Effect</strong> With a flick of the cloak, you deflect and smother the flames. The cloak's resistance to fire increases to 15 against the triggering effect. Until the end of your next turn, your flat check to remove persistent fire damage is 10 instead of 15, which is reduced to 5 if another creature uses a particularly appropriate action to help. If you take at least 5 points of fire damage after applying the fire resistance, the cloak gains the broken condition.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Cloak",
+    "worn": "Cloak",
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
+    "level": 6,
+    "name": "Cindergrass Poultice",
+    "price": {
+      "gp": 33
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This thick, waxy gel erases the effects of flame. It restores 2d12 healing Hit Points to a creature when applied to their body. If the creature has taken fire damage within the last minute, it restores additional Hit Points equal to the amount of fire damage the creature took within the last minute (maximum +10). Finally, the creature becomes immune to the effects of severe heat for 1 hour.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "healing",
+      "magical",
+      "oil"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #208: Hoof, Cinder, and Storm"
+  },
+  {
     "level": 4,
     "name": "Cinnamon Seers",
     "price": {
@@ -8044,122 +8158,5 @@
     "usage": "Etched Onto A Weapon",
     "worn": null,
     "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 8,
-    "name": "Corrosive",
-    "price": {
-      "gp": 500
-    },
-    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>",
-    "rarity": "common",
-    "traits": [
-      "acid",
-      "magical"
-    ],
-    "usage": "Etched Onto A Weapon",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 11,
-    "name": "Corruption Cassock",
-    "price": {
-      "gp": 1150
-    },
-    "description": "<p><strong>Perception</strong> [[/r 1d20+20]]{+20}; precise vision 30 feet, imprecise hearing 30 feet, constant detect alignment</p>\n<p><strong>Communication</strong> telepathy (Celestial, Common, four other languages)</p>\n<p><strong>Skills</strong> Deception [[/r 1d20+21]]{+21}, Diplomacy [[/r 1d20+19]]{+19}, Religion [[/r 1d20+19]]{+19}</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +5, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> [[/r 1d20+20]]{+20}</p>\n<hr />\n<p>Devotees of non-evil faiths fear and loathe <em>corruption cassocks</em>, each of which is dedicated to an evil deity. When the garment chooses a target, such as when it senses a worshipper of a good or neutral deity, it alters its form to match another deity's iconography, appearing to be a <em>cassock of devotion</em> for that deity. Once donned, the cassock tries to subtly sway its wearer to the worship of its deity. If the wearer begins to succumb, the <em>corruption cassock</em> gradually reverts to its true appearance, replacing its false iconography as its wearer converts.</p>\n<p>A <em>corruption cassock</em> functions as a <em>cassock of devotion</em> for any wearer it chooses. Once you invest the cassock, it fuses to you. The cassock has the alignment trait of its deity (LE, NE, or CE), and while you remain loyal to another deity, you believe it grants you a +2 item bonus to Religion checks and a +1 item bonus to the divine skill of the deity to whom you believe the cassock is dedicated. It does neither. The GM secretly adjusts your checks with those skills, causing you to fail at religious tasks more often. If you have multiple equal or lower item bonuses to the affected skills, the cassock takes precedence, negating those bonuses. If you convert to following the cassock's true evil deity, however, these bonuses function normally for you.</p>\n<p>If you attempt to Cast a Spell with an alignment trait that doesn't match the cassock's, it can force you to attempt a @Check[will|dc:28] save. On a failure, you're Stupefied{Stupefied 1} for one minute (Stupefied{Stupefied 2} on a critical failure). A <em>corruption cassock</em> uses this ability to convince you that your deity has forsaken you.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a cleric domain spell for a domain belonging to the deity you believe the cassock is dedicated to. If you don't spend this Focus Point by the end of this turn, it's lost. However, when you use this activation, the <em>corruption cassock</em> can instead cast a domain spell of the same rank from its deity. It does so only to confuse and dismay you, harming your faith.</p>",
-    "rarity": "rare",
-    "traits": [
-      "cursed",
-      "divine",
-      "focused",
-      "intelligent",
-      "invested"
-    ],
-    "usage": "Worn Garment",
-    "worn": "Garment",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 0,
-    "name": "Corset Knife",
-    "price": {
-      "sp": 3
-    },
-    "description": "<p>A favored self-defense weapon among bar and tavern workers, the corset knife has a weighted hilt and a cylindrical, needlelike blade designed to be easily hidden in clothing, but quickly retrieved in a pinch.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "concealable",
-      "finesse",
-      "thrown-10"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 15,
-    "name": "Countering Charm (Greater)",
-    "price": {
-      "gp": 5500
-    },
-    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+25 #Counteract]]{+25}. This expends the spell held in the charm.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 18,
-    "name": "Countering Charm (Major)",
-    "price": {
-      "gp": 20000
-    },
-    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+30 #Counteract]]{+30}. This expends the spell held in the charm.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 11,
-    "name": "Countering Charm",
-    "price": {
-      "gp": 1200
-    },
-    "description": "<p>This glittering charm is made of a gemstone flawed with a leaden inclusion. Spellcasters can cast spells into <em>countering charms</em> that they've invested or that are invested by a willing creature. The spell's effect doesn't occur; the spell's power is instead stored within the charm, replacing any spell previously there. The charm can hold only spells cast from spell slots, not cantrips or focus spells. While the charm is invested, the creature who has invested it knows what spell is stored within and automatically identifies that spell when it's cast.</p>\n<p><strong>Activate—Counter</strong> <span class=\"action-glyph\">R</span> (manipulate)</p>\n<p><strong>Trigger</strong> You are targeted by or within the area of the spell stored within the charm</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You present the charm and attempt to counteract the triggering spell, using the rank of the spell stored in the charm and a counteract modifier of [[/r 1d20+20 #Counteract]]{+20}. This expends the spell held in the charm.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 6,
-    "name": "Courtier's Pillow Book",
-    "price": {
-      "gp": 250
-    },
-    "description": "<p>This elegant journal has a detailed social dossier on the owner's acquaintances. When you make your daily preparations, you can inscribe a secret or embarrassing foible about a specific individual that you know to be true or have on good authority.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> If your next action is to cast an enchantment spell on a target about whom you've written an entry in the book, you can state that secret or foible before Casting the Spell to give the target a –1 circumstance penalty to their saving throw against the spell. The inscription then disappears from the grimoire.</p>",
-    "rarity": "common",
-    "traits": [
-      "grimoire",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
   }
 ]
