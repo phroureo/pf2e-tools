@@ -30,6 +30,7 @@
   },
   "scripts": {
     "generate-manifest": "cd ../pf2eitems && git pull upstream master && cd ../pf2e-tools && node scripts/generateManifest.js",
+    "gen": "node scripts/generateManifest.js",
     "predeploy": "npm run build",
     "deploy": "npm run predeploy && firebase deploy",
     "dev": "vite",

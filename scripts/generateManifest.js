@@ -45,31 +45,75 @@ fs.readdir(source, (err, files) => {
             uniqueItems.add(item.name);
 
             let text = item.system.description?.value;
-            // 1. @Template[cone|distance:30] -> 30 foot cone
-            text = text.replace(/@Template\[(\w+)\|distance:(\d+)]/g, "$2 foot $1");
+            
+            // 1. Replace bracket values
+            text = text.replace(/@.*\[.*\]\{(.*)\}/g, "$1");
 
-            // 2. @UUID[Compendium.pf2e.spells-srd.Item.Detect Magic] -> Detect Magic
-            text = text.replace(/@UUID\[Compendium\.pf2e\.\w+-srd\.Item\.(.*?)\]/g, "$1");
+            // 2. Replace @Check values
+            text = text.replace(/@Check\[(\w+).*dc:(\d+).*\]/g, "DC $2 $1");
+            text = text.replace(/@Check\[(\w+).*?against:class-spell]/g, "$1");
+            text = text.replace(/@Check\[(\w+)\|?.+?\]/g, "$1");
 
-            // 3. @UUID[Compendium.pf2e.actionspf2e.Item.Grapple] -> Grapple
-            text = text.replace(/@UUID\[Compendium\.pf2e\.\w+\.Item\.(.*?)\]/g, "$1");
+            // 3. Replace Dice rolls
+            text = text.replace(/\[\[.*\]\]\{(.*)\}/g,"$1");
+            text = text.replace(/\[\[\/br 1d20\+\d\d]]{(.*)\}/g, "$1");
+            text = text.replace(/\[\[\/r 1d20\+(\d+)\]\]/g, "+$1");
+            text = text.replace(/\[\[\/r(?:oll)? (\d+d\d+)\]\]/g,"$1")
+            text = text.replace(/\[\[.*(\d+?d\d+?) \#.*\]\]/g, "$1")
 
-            // 4. @Damage[2d10[force]] -> 2d10 Force
-            text = text.replace(/@Damage\[(\d+d\d+)\[(\w+)]\]/g, "$1 $2");
+            // counteract modifiers 
+            text = text.replace(/counteract modifier is (\+\d+) \[\[.*\]\],/g,"counteract modifier is $1,")
 
-            // 5. @Check[reflex|dc:40|traits:death,force|basic] -> DC 40 Reflex
-            text = text.replace(/@Check\[(\w+)\|dc:(\d+)\|.*?]/g, "DC $2 $1");
+            // 2. Replace template values 
+            text = text.replace(/@Template\[(?:type\:)?(\w+)\|distance:(\d+)\]/g, "$2 foot $1");
 
-            // 6. Remove equipment effects. 
+            // 3. Remove Item Effects
             text = text.replace(/@UUID\[Compendium\.pf2e\.equipment-effects\.Item\.Effect: .*?]/g, "");
 
-            // 7. Fix "As creature"
-            text = text.replace(/@UUID\[Compendium\.pf2e\.pathfinder-bestiary-3\.Actor\.(.*?)\]\((.*?) (\d+)\)/g, "$1 ($2, pg. $3)");
+            // 4. Replace Item and Actor
+            text = text.replace(/@UUID\[Compendium.pf2e..*?\..*?\.(.*?)\]/g, "$1");
 
-            // 8. Fix "pathfinder-monster-core.Actor.Riding Horse"
-            text = text.replace(/@UUID\[Compendium\.pf2e\.pathfinder-monster-core\.Actor\.(.*?)\]/g, "$1");
+            // 5. Replace "options" in damage 
+            text = text.replace(/(@Damage\[.*?)(\|.*?)(\])/g, "$1$3");
 
-            // 9. Fix the "Usage"
+            // 6. Replace "Actor"
+            text = text.replace()
+
+            // 4.  Damage
+            // 4a. Replace anything with @Damage[...]{...} with the ... in the brackets
+            text = text.replace(/@Damage.*?\{(.*?)\}/g, "$1");
+
+            // 4b. Replace Healing with Dice
+            text = text.replace(/@Damage\[\(?(\d*d\d*\+?\d*)\)?\[(?:vitality,)?healing]]/g, "$1");
+
+            // 4c. Replace single damage 
+            text = text.replace(/@Damage\[\(?(\d*d\d*\+?\d*)\)?\[(\w+)]]/g, "$1 $2");
+
+            // 4d. Replace four types of damage
+            text = text.replace(/@Damage\[(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)]]/g, "$1 $2, $3 $4, $5 $6, and $7 $8");
+
+            // 4e. Replace three types of damage
+            text = text.replace(/@Damage\[(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)]]/g, "$1 $2, $3 $4, and $5 $6");
+
+            //4f. Replace two types of damage 
+            text = text.replace(/@Damage\[(\d+d\d+)\[(\w+)],(\d+d\d+)\[(\w+)]]/g, "$1 $2 and $3 $4")
+
+            // 4g. Replace persistent damage types 
+            text = text.replace(/@Damage\[\(?(\d?d?\d+?)\[?(\w+),?(\w+)?]]/g, "$1 $2 $3");
+
+            // 4h. Splash Damage
+            text = text.replace(/@Damage\[\((\d+)\[splash\]\)\[(\w+)\]\]/g, "$1 $2");
+
+            // 4i. base damage 
+            text = text.replace(/@Damage\[(\d+d\d+)\]/g, "$1");
+
+            // 4j. Spider Gun 
+            text = text.replace(/@Damage\[\((\d+d\d)+\+@item\.system\.damage\.dice\)\[\w+,\w+\]\]/g, "$1 + the number of weapon damage dice") 
+
+            // 4z. Replace double spaces caused by 4g
+            text = text.replace("  ", " ");
+
+            // 11. Fix the "Usage"
             let usage = item.system.usage?.value || '';
             usage = usage.replace(/([a-z]+)(?:-?([a-z]+))?(?:-?([a-z]+))?(?:-?([a-z]+))?/g, (match, p1, p2, p3, p4) => {
                 return [p1, p2, p3, p4]
