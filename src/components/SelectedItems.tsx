@@ -6,7 +6,7 @@ import { ManifestItem } from '../types/ManifestItem';
 interface SelectedItemsProps {
     items: EquipmentItem[];
     onQuantityChange: (index: number, delta: number) => void;
-    handleRemoveItem(index: number): void;
+    handleRemoveItem(id: string): void;
     updateItemZone: (item: EquipmentItem, newZone: string) => void; // Centralized update function
     reorderItemsInZone: (zoneId: string, sourceIndex: number, targetIndex: number) => void; // Reordering function
     draggingItem: EquipmentItem | null;

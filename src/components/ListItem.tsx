@@ -7,7 +7,7 @@ interface SelectedItemProps {
     index: number;
     quantity?: number;
     onQuantityChange: (index: number, delta: number) => void;
-    onRemoveItem: (index: number) => void;
+    onRemoveItem: (id: string) => void;
     openModal: (item: EquipmentItem) => void;
     quantityChangeEnabled: boolean;
 }
@@ -69,7 +69,7 @@ const SelectedItem: React.FC<SelectedItemProps> = ({ item, index, quantity, onQu
                     <button
                         onClick={(e) => {
                             e.stopPropagation();
-                            onRemoveItem(index);
+                            onRemoveItem(item.id);
                         }}
                         className="button-x"
                         style={{ marginLeft: 'auto' }}

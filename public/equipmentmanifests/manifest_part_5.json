@@ -1,5 +1,129 @@
 [
   {
+    "level": 7,
+    "name": "Hallajin Key",
+    "price": {},
+    "description": "<p><strong>Alignment</strong> Chaotic Good</p>\n<p><strong>Perception</strong> +12 Perception; imprecise hearing 60 feet</p>\n<p><strong>Communication</strong> telepathic images (Common), 60 feet</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +2, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +15 Will</p>\n<hr />\n<p>Working together, Lumna and the crystal key form an intelligent magic item. This item begins the adventure with 10 charges.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision; <strong>Cost</strong> 1 charge</p>\n<p><strong>Trigger</strong> A creature within 60 feet of the key takes electricity or mental damage</p>\n<p><strong>Effect</strong> Lumna grants the target resistance 10 to the triggering damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command (mental); <strong>Cost</strong> 1 charge</p>\n<p><strong>Effect</strong> Lumna floods the brain of a creature within 30 feet with painful telepathic images, inflicting 1d4 rounds.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) command, Interact (exploration); <strong>Cost</strong> 5 charges</p>\n<p><strong>Effect</strong> Lumna briefly transforms all allies within 60 feet into energy, renewing them as if they had spent a full day resting. These allies regain Hit Points and recover from conditions as if they had 24 hours of rest. They can make their daily preparations again, with access to all their spell slots and any other daily abilities, even if they already used or expended them. Daily preparations happen as part of this activation, even if it would normally require an hour of study, prayer, or communion.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, Interact</p>\n<p><strong>Frequency</strong> once per day; <strong>Cost</strong> 2 charges</p>\n<p><strong>Effect</strong> Lumna returns the key and all living creatures within 60 feet to the Ardis Scholars' manor.</p>",
+    "rarity": "unique",
+    "traits": [
+      "intelligent",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle"
+  },
+  {
+    "level": 1,
+    "name": "Hammer Gun",
+    "price": {
+      "gp": 13
+    },
+    "description": "<p>This weapon, favored by dwarves and those who like smashing and shooting, takes the form of a stoutly built gun designed similarly to an arquebus with a hammer head built into the muzzle, decreasing kickback but limiting range.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "combination",
+      "concussive",
+      "fatal-d10"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 0,
+    "name": "Hammer",
+    "price": {
+      "sp": 1
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 1,
+    "name": "Hampering Snare",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>You arrange brambles, wires, sticky goo, or other materials to interfere with a creature's movement. The square with this snare, as well as three adjacent squares (to form a 1d4 rounds after the snare is triggered. A creature can use an Interact action to clear the difficult terrain out of a single square early.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "mechanical",
+      "snare",
+      "trap"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 0,
+    "name": "Hand Adze",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>The adze's smaller version is useful for delicate woodworking in cramped spaces. Tripkees use hand adzes for crafting and as close quarters weapons.</p>",
+    "rarity": "common",
+    "traits": [
+      "agile",
+      "finesse",
+      "grippli",
+      "sweep",
+      "thrown-10"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 0,
+    "name": "Hand Cannon",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>Popular among privateers and mercenaries in Goka, hand cannons are little more than a hardened tube with a handle and external ignition attached. A hand cannon can be used to fire almost anything that can be packed into its barrel. The wielder of a hand cannon can change the damage type granted by its modular trait as part of the same Interact action used to reload.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "modular"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 0,
+    "name": "Hand Crossbow",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 7,
+    "name": "Hand-Hewed Face",
+    "price": {},
+    "description": "<p>At the crossroads under a new moon, you traded your face for one that you can mold as though it were clay, sealed with a ribbon worn around your neck to hide the seam. Your true appearance changes to that of a generic member of your ancestry. You can shape your facial features with your hands and thus don't need a disguise kit to Impersonate, and you don't take circumstance penalties to Impersonate someone due to the difference in your facial features. Once per day, from any distance, the entity that holds your <em>bargained contract</em> can change their appearance to match your appearance from before you sealed the contract, or the appearance you are currently using through Impersonate. When they do, your face transforms to your new true appearance, that of a generic member of your ancestry, and you become Stunned 3 by the sudden backlash.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Requirements</strong> You have used Impersonate and molded your face into a different face</p>\n<p><strong>Effect</strong> You peel your current face from your skin, revealing the true generic appearance from your <em>bargained contract</em>. This allows you to duck out of sight and remove the facial component of your disguise almost immediately, though clothing or other elements might still give you away.</p>",
+    "rarity": "rare",
+    "traits": [
+      "contract",
+      "invested",
+      "magical"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
+  },
+  {
     "level": 0,
     "name": "Hand mirror with decorated frame",
     "price": {
@@ -1063,7 +1187,7 @@
     "price": {
       "gp": 20
     },
-    "description": "<p>Hellknights wear a variety of armors decorated with designs specific to the order. Hellknight half plate is the armor of choice for Hellknight signifiers.</p>\n<p>A character who is a member of the Hellknights has access to these uncommon armors.</p>",
+    "description": "<p>Hellknights wear a variety of armors decorated with designs specific to the order. Hellknight half plate is the armor of choice for Hellknight signifers.</p>\n<p>A character who is a member of the Hellknights has access to these uncommon armors.</p>",
     "rarity": "uncommon",
     "traits": [],
     "usage": "",
@@ -5809,6 +5933,17 @@
     "publication": "Pathfinder Player Core"
   },
   {
+    "level": 0,
+    "name": "Lantern Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.AltwHU7hCqTwpn48 inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
+  },
+  {
     "level": 6,
     "name": "Lantern of Empty Light",
     "price": {
@@ -6254,7 +6389,7 @@
     "price": {
       "gp": 1750
     },
-    "description": "<p>A <em>librarian staff</em> is a slender pole composed of thousands of coiled and compressed book pages swirling into one another, with a mishmash of letters tumbling across its surface. The sound of rustling pages can be heard when the staff moves.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You store one portable text of 1 Bulk or less—typically a book or scroll—in an extradimensional space in the staff. You can also use this activation to retrieve one text stored in the staff. The staff can store up to 50 texts.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Approximate, Read Aura</li>\n<li><strong>1st</strong> Pocket Library, Quick Sort, Share Lore</li>\n<li><strong>2nd</strong> Translate, Timely Tutor</li>\n<li><strong>3rd</strong> Translate, Pocket Library, Quick Sort, Share Lore</li>\n<li><strong>4th</strong> Translate</li>\n<li><strong>5th</strong> Quick Sort, Share Lore</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
+    "description": "<p>A <em>librarian staff</em> is a slender pole composed of thousands of coiled and compressed book pages swirling into one another, with a mishmash of letters tumbling across its surface. The sound of rustling pages can be heard when the staff moves.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> command, envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You store one portable text of 1 Bulk or less—typically a book or scroll—in an extradimensional space in the staff. You can also use this activation to retrieve one text stored in the staff. The staff can store up to 100 texts.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Approximate, Read Aura</li>\n<li><strong>1st</strong> Pocket Library, Quick Sort, Share Lore</li>\n<li><strong>2nd</strong> Translate, Timely Tutor</li>\n<li><strong>3rd</strong> Translate, Pocket Library, Quick Sort, Share Lore</li>\n<li><strong>4th</strong> Translate</li>\n<li><strong>5th</strong> Quick Sort, Share Lore</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
     "rarity": "common",
     "traits": [
       "extradimensional",
@@ -7909,151 +8044,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 12,
-    "name": "Mage Bane",
-    "price": {
-      "gp": 325
-    },
-    "description": "<p>Upon being mixed and injected into the bloodstream, this powder of the crimson orchid quickly assaults the brain and nerves, disrupting the victim's ability to piece together coherent thoughts and spells.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> DC 32 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> Stupefied 2 (1 round)</p>\n<p><strong>Stage 2</strong> Stupefied 3 (1 round)</p>\n<p><strong>Stage 3</strong> Stupefied 4 (1 round)</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "injury",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #149: Against the Scarlet Triad"
-  },
-  {
-    "level": 9,
-    "name": "Mage's Hat (Greater)",
-    "price": {
-      "gp": 650
-    },
-    "description": "<p>This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and is adorned with symbols or runes. It grants you a +2 item bonus to Arcana checks and allows you to cast the Prestidigitation cantrip as an arcane innate cantrip.</p>\n<p>This larger, fancier hat can be activated. Each <em>greater mage's hat</em> has a specific 4th-rank summon spell from the arcane list woven into its fabric, typically Summon Animal or Summon Elemental. If you prepare arcane spells, you can change the spell to a different 4th-rank arcane summon spell you know when you invest it.</p>\n<hr />\n<p><strong>Activate—Hat Spell</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You doff the hat, causing magical energy to pour from it. You cast the spell stored in the hat.</p>",
-    "rarity": "common",
-    "traits": [
-      "arcane",
-      "invested"
-    ],
-    "usage": "Worn Headwear",
-    "worn": "Headwear",
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 3,
-    "name": "Mage's Hat",
-    "price": {
-      "gp": 50
-    },
-    "description": "<p>This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and is adorned with symbols or runes. It grants you a +1 item bonus to Arcana checks and allows you to cast the Prestidigitation cantrip as an arcane innate cantrip.</p>",
-    "rarity": "common",
-    "traits": [
-      "arcane",
-      "invested"
-    ],
-    "usage": "Worn Headwear",
-    "worn": "Headwear",
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 3,
-    "name": "Magic Wand (1st-Rank Spell)",
-    "price": {
-      "gp": 60
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 5,
-    "name": "Magic Wand (2nd-Rank Spell)",
-    "price": {
-      "gp": 160
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 7,
-    "name": "Magic Wand (3rd-Rank Spell)",
-    "price": {
-      "gp": 360
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 9,
-    "name": "Magic Wand (4th-Rank Spell)",
-    "price": {
-      "gp": 700
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 11,
-    "name": "Magic Wand (5th-Rank Spell)",
-    "price": {
-      "gp": 1500
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 13,
-    "name": "Magic Wand (6th-Rank Spell)",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "wand"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
   }
 ]

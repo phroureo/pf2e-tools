@@ -1,5 +1,76 @@
 [
   {
+    "level": 7,
+    "name": "Bloodgorger Scythe",
+    "price": {
+      "gp": 340
+    },
+    "description": "<p>This <em>+1 striking scythe</em> is made from the cruel, blackened branches of the carnivorous scythe tree, which hungrily drink up spilled blood.</p><hr /><p><strong>Activate—Root in Blood</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike with this weapon and your target isn't currently taking any persistent bleed damage</p>\n<p><strong>Effect</strong> You break off a piece of the <em>bloodgorger scythe</em> inside your enemy to feed on their blood and sprout into a new tree. The target takes 1 bleed damage at the end of their turn. Each failure to stop the bleeding increases this bleed damage by 1 as a small scythe tree grows from the wound, to a maximum of 3 persistent bleed damage.</p><hr /><p><strong>Activate—Sapling Slash</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> A target has a piece of the <em>bloodgorger scythe</em> broken off inside them and has failed to recover from the persistent bleed damage for 3 consecutive turns</p>\n<p><strong>Effect</strong> The sprouted scythe tree grows large enough to be commanded. It makes a melee Strike against the target or a creature adjacent to the target, with a +18 to hit and dealing 1d10 slashing damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include branches and roots from a scythe tree.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "deadly-d10",
+      "magical",
+      "trip"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 8,
+    "name": "Bloodhammer Reserve Black Label",
+    "price": {
+      "gp": 100
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect. When you consume the brew, you gain the effects of 4th-rank <em>animal form</em>, can choose which battle form you take, and the temporary Hit Points you gain from the battle form increase to 20. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Highhelm"
+  },
+  {
+    "level": 6,
+    "name": "Bloodhammer Reserve Select",
+    "price": {
+      "gp": 35
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect. When you consume the brew, you can choose which battle form you take and the temporary Hit Points you gain from the battle form increase to 10. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Highhelm"
+  },
+  {
+    "level": 4,
+    "name": "Bloodhammer Reserve",
+    "price": {
+      "gp": 20
+    },
+    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect, and you transform into a random animal battle form. To determine the battle form, roll 1d10 (1 = ape, 2 = bear, 3 = bull, 4 = canine, 5 = cat, 6 = deer, 7 = frog, 8 = shark, 9 = snake, 10 = reroll). Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "polymorph",
+      "potion"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Highhelm"
+  },
+  {
     "level": 11,
     "name": "Bloodhound Mask (Greater)",
     "price": {
@@ -1681,6 +1752,22 @@
     "publication": "Pathfinder GM Core"
   },
   {
+    "level": 12,
+    "name": "Bracers of Pain",
+    "price": {
+      "gp": 2200
+    },
+    "description": "<p>These simple bracers look plain on the exterior, but a series of small, sharp studs line the interior like rows of shark teeth. While these bracers are worn and invested, you gain a +2 item bonus to Will saves.</p>\n<p><strong>Activate—Sharp Focus</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Trigger</strong> You gain an effect that makes you +22. On a success, you lose the condition. If you have more than one condition from the same source, you only need one counteract check against them.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Bracers",
+    "worn": "Bracers",
+    "publication": "Pathfinder #209: Destroyer's Doom"
+  },
+  {
     "level": 17,
     "name": "Bracers of Strength",
     "price": {
@@ -1752,7 +1839,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>This large tree branch is alive, despite having been harvested from the sugi tree it once belonged to. This long, flexible, and limber branch is a <em>+1 striking whip</em>. When used to Strike, the branch snaps with the sound of a cracking whip but fills the air surrounding the point of impact with the pleasant scent of freshly cut cedar and a sprinkling of fallen leaves on the ground.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place the <em>branch of the great sugi</em> on the corpse of an evil creature, then cause the branch to suddenly grow into a sugi tree, up to 25 feet tall with a 2-foot-wide trunk. As it grows, it emits a pulse of soothing energy, restoring 3d8+8 Hit Points to all creatures in a 10 foot burst. A character can Climb the tree with a successful DC 10 athletics check, and its branches effortlessly support the weight of any Medium or smaller creature. The sugi tree reverts to its whip form after 1 hour unless you transform it back before then.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You transform the <em>branch of the great sugi</em> from its tree form back into its whip form.</p>",
+    "description": "<p>This large tree branch is alive, despite having been harvested from the sugi tree it once belonged to. This long, flexible, and limber branch is a <em>+1 striking whip</em>. When used to Strike, the branch snaps with the sound of a cracking whip but fills the air surrounding the point of impact with the pleasant scent of freshly cut cedar and a sprinkling of fallen leaves on the ground.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You place the <em>branch of the great sugi</em> on the corpse of an evil creature, then cause the branch to suddenly grow into a sugi tree, up to 25 feet tall with a 2-foot-wide trunk. As it grows, it emits a pulse of soothing energy, restoring 3d8+8 Hit Points to all creatures in a 10 foot burst. A character can Climb the tree with a successful DC 10 athletics check, and its branches effortlessly support the weight of any Medium or smaller creature. The sugi tree reverts to its whip form after 1 hour unless you transform it back before then.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>You transform the <em>branch of the great sugi</em> from its tree form back into its whip form.</p>",
     "rarity": "rare",
     "traits": [
       "disarm",
@@ -4005,7 +4092,7 @@
     "price": {
       "gp": 7
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you consume this elixir, your vision sharpens and you become sensitive to even the most minute movements.</p>\n<p>For the next minute, you reduce the flat check to target hidden creatures to 5, and you don't need to attempt a flat check to target concealed creatures. These benefits apply only against creatures within 30 feet of you.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>After you consume this elixir, your vision sharpens and you become sensitive to even the most minute movements.</p>\n<p>For the next minute, you reduce the flat check to target Hidden creatures to DC 5 flat creatures. These benefits apply only against creatures within 30 feet of you.</p>",
     "rarity": "common",
     "traits": [
       "alchemical",
@@ -4507,6 +4594,17 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Chalice Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.1vgFGSnn0DIBmK7j inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 14,
@@ -5384,7 +5482,7 @@
     "price": {
       "gp": 900
     },
-    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +2 item bonus to Stealth checks and to Deception checks to Impersonate a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p>\n<p></p>\n<hr />\n<p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of a 5th-rank Veil of Privacy for 8 hours or until you pull the hood back down, whichever comes first.</p>",
+    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +2 item bonus to Stealth checks and to Deception checks to Impersonate a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p><hr /><p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of a 5th-rank Veil of Privacy for 8 hours or until you pull the hood back down, whichever comes first.</p>",
     "rarity": "uncommon",
     "traits": [
       "invested",
@@ -5400,7 +5498,7 @@
     "price": {
       "gp": 230
     },
-    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +1 item bonus to Stealth checks and to Deception checks to Impersonate a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p>\n<p></p>\n<hr />\n<p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of Veil of Privacy for 1 hour or until you pull the hood back down, whichever comes first.</p>",
+    "description": "<p>When you pull up the hood of this nondescript gray cloak (an Interact action), you become drab and uninteresting, gaining a +1 item bonus to Stealth checks and to Deception checks to Impersonate a forgettable background character, such as a servant, but also taking a -1 item penalty to Diplomacy and Intimidation checks.</p><hr /><p><strong>Activate—Cloak Identity</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You pull the cloak's hood up and gain the benefits of Veil of Privacy for 1 hour or until you pull the hood back down, whichever comes first.</p>",
     "rarity": "uncommon",
     "traits": [
       "invested",
@@ -6104,7 +6202,7 @@
     "price": {
       "gp": 15
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision and darkvision for 10 minutes.</p>\n<p></p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision and darkvision for 10 minutes.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "clockwork",
@@ -6121,7 +6219,7 @@
     "price": {
       "gp": 80
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision, darkvision, and the effects of <em>See invisibility</em> for 10 minutes.</p>\n<p></p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p><hr /><p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision, darkvision, and the effects of <em>See invisibility</em> for 10 minutes.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "clockwork",
@@ -7317,7 +7415,7 @@
     "price": {
       "gp": 480
     },
-    "description": "<p>A <em>composer staff</em> is short and shaped like an elegant black conductor's baton with a silver tip. When waved through the air, it hums melodically. In this way, you can play it as though it were an instrument, and it grants a +2 item bonus to Performance checks made with it.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Haunting Hymn, Summon Instrument</li><li><strong>1st</strong> Concordant Choir</li><li><strong>2nd</strong> Sonata Span</li><li><strong>3rd</strong> Concordant Choir, Roaring Applause, Sculpt Sound</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
+    "description": "<p>A <em>composer staff</em> is short and shaped like an elegant black conductor's baton with a silver tip. When waved through the air, it hums melodically. In this way, you can play it as though it were an instrument, and it grants a +1 item bonus to Performance checks made with it.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> Haunting Hymn, Summon Instrument</li><li><strong>1st</strong> Concordant Choir</li><li><strong>2nd</strong> Sonata Span</li><li><strong>3rd</strong> Concordant Choir, Roaring Applause, Sculpt Sound</li></ul><hr /><p><strong>Craft Requirements</strong> Supply one casting of all listed ranks of all listed spells.</p>",
     "rarity": "common",
     "traits": [
       "magical",
@@ -8063,100 +8161,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder #180: The Smoking Gun"
-  },
-  {
-    "level": 9,
-    "name": "Corpsecaller Round",
-    "price": {
-      "gp": 130
-    },
-    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This bullet is crafted entirely from obsidian and engraved with hair-thin runes. When an activated <em>corpsecaller round</em> hits a target, the struck creature is called to the grave. It takes 4d10 void damage with a DC 25 fortitude saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The foe is unaffected.</p>\n<p><strong>Success</strong> The foe takes half damage.</p>\n<p><strong>Failure</strong> The foe takes full damage and is Doomed 1. If the foe dies within the next 24 hours, its corpse is tethered to the Void, making it easier to raise as an undead. Creatures using the create undead ritual on the foe's corpse receive a +2 circumstance bonus to their primary and secondary skill checks for the ritual.</p>\n<p><strong>Critical Failure</strong> As failure, except the foe takes double damage and is Doomed 2.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "void"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #180: The Smoking Gun"
-  },
-  {
-    "level": 5,
-    "name": "Corpseward Pendant",
-    "price": {
-      "gp": 150
-    },
-    "description": "<p>A <em>corpseward pendant</em> is usually shaped like the skull of a humanoid or small animal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You become undetectable to undead creatures for 10 minutes. Undead can't see, hear, or smell you, nor detect you with sensory capabilities such as tremorsense. A creature can attempt a single DC 18 will, touch or damage an undead creature, or attack any creature while warded in this manner, the pendant's effects immediately end. An undead creature who observes you in this manner or one who succeeds at the Will save is immune to the <em>corpseward pendant</em> for 24 hours.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 0,
-    "name": "Corrective Lenses",
-    "price": {
-      "sp": 5
-    },
-    "description": "<p>A set of corrective lenses might take the form of eyeglasses or specialized goggles worn over the eyes. You can don or remove your corrective lenses as an Interact action.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 7,
-    "name": "Corrosive Ammunition",
-    "price": {
-      "gp": 70
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This peculiar ammunition is coated in yellow dust that leaves a stain on anything it touches. When activated corrosive ammunition hits a target, it dissolves across the target's armor. The armor takes 1d8 persistent acid damage that ignores the armor's Hardness; if the target isn't wearing armor, it takes the acid damage instead. This damage occurs at the end of the target's turns.</p>\n<p>The creature can end this effect by spending an Interact action to wipe off the corrosive dust, and otherwise the effect ends once the armor becomes broken.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Player Core 2"
-  },
-  {
-    "level": 5,
-    "name": "Corrosive Engravings",
-    "price": {
-      "gp": 140
-    },
-    "description": "<p>These tin sheets are bound in brass and show significant signs of erosion. The grimoire's title is acid-etched, and flipping between the sheets leaves your fingers covered in flecks of rust and powdery metal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast an acid or poison spell that deals persistent damage, any creature who takes persistent damage from the spell is also Sickened 2 until the persistent damage ends. Using an action to retch can reduce the sickened value as normal, but it can't reduce the sickened value below 1 until the persistent damage ends.</p>",
-    "rarity": "common",
-    "traits": [
-      "acid",
-      "grimoire",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 15,
-    "name": "Corrosive (Greater)",
-    "price": {
-      "gp": 6500
-    },
-    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 6d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>\n<p>The acid damage dealt by this weapon ignores the target's acid resistance.</p>",
-    "rarity": "common",
-    "traits": [
-      "acid",
-      "magical"
-    ],
-    "usage": "Etched Onto A Weapon",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
   }
 ]

@@ -1,6 +1,198 @@
 [
   {
     "level": 0,
+    "name": "Piton",
+    "price": {
+      "cp": 1
+    },
+    "description": "<p>These small spikes can be used as anchors to make climbing easier. To affix a piton, you must hold it in one hand and use a hammer to drive it in with your other hand. You can attach a rope to the hammered piton so that you don't fall all the way to the ground on a critical failure while Climbing.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 0,
+    "name": "Plain brass censer",
+    "price": {
+      "gp": 4
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 20,
+    "name": "Planar Ribbon",
+    "price": {
+      "gp": 60000
+    },
+    "description": "<p>By twisting and twirling this ordinary-looking leather ribbon, you can temporarily bend a rift in space.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (command, envision, Interact)</p>\n<hr />\n<p><strong>Effect</strong> The ribbon spins and swirls, creating a circular loop in the air through which you can spy on a creature on another plane.</p>\n<p>This has the effects of a Scrying spell (DC 40) against the creature but functions more as a mundane -albeit interplanar-window; a similar loop appears before the target, and for the duration, both sides can clearly see and hear each other through the created portal, but nothing can pass through.</p>\n<p>You can Sustain the Activation to gain the effects of Sustaining the Spell. This activation has the scrying trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You extend the ribbon to brush against a foe up to 60 feet away. If that creature fails a DC 42 reflex save, you exchange positions with the target and all of that creature's allies are off-guard to you until the end of your turn. This activation has the teleportation trait.</p>",
+    "rarity": "unique",
+    "traits": [
+      "occult"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #156: The Apocalypse Prophet"
+  },
+  {
+    "level": 12,
+    "name": "Plasma Hype",
+    "price": {
+      "gp": 400
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>A synthetic adrenaline supplement that increases awareness and reaction time. Plasma hype has been infused with a specific mixture of Numerian fluids and other alchemical reagents to improve upon the original hype formula.</p>\n<p><strong>Saving Throw</strong> DC 30 fortitude</p>\n<p><strong>Maximum Duration</strong> 1 minute</p>\n<p><strong>Stage 1</strong> +10-foot status bonus to speed, quickened and can use the additional action to Step, Stride, Climb, or Swim (1 round)</p>\n<p><strong>Stage 2</strong> quickened and can use the additional action to Step or Stride (1 round)</p>\n<p><strong>Stage 3</strong> Stupefied 2 (1 round)</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "drug",
+      "ingested"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Legends"
+  },
+  {
+    "level": 15,
+    "name": "Plate Armor of the Deep",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>This suit of +2 greater resilient full plate is decorated with swirling, ornate motifs of waves and fish scales.</p>\n<p>While wearing it, you take no Speed reduction or check penalty from armor when Swimming, gain a +2 item bonus to Athletics checks to Swim, can breathe underwater, and can speak Thalassic.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "bulwark",
+      "invested",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Core Rulebook"
+  },
+  {
+    "level": 8,
+    "name": "Plate of Yled (Greater)",
+    "price": {
+      "gp": 415
+    },
+    "description": "<p>This sinister suit of jet-black <em>+1 resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of 1d10 rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with Death Knell (DC 24).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #5"
+  },
+  {
+    "level": 11,
+    "name": "Plate of Yled (Major)",
+    "price": {
+      "gp": 1160
+    },
+    "description": "<p>This sinister suit of jet-black <em>+2 resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of 1d10 rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with Death Knell (DC 28).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #5"
+  },
+  {
+    "level": 14,
+    "name": "Plate of Yled (True)",
+    "price": {
+      "gp": 3600
+    },
+    "description": "<p>This sinister suit of jet-black <em>+2 greater resilient full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of 1d10 rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with Death Knell (DC 31).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #5"
+  },
+  {
+    "level": 6,
+    "name": "Plate of Yled",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p>This sinister suit of jet-black <em>+1 full plate</em> was designed to bolster the graveknights of Yled's undead armies, creating unstoppable legions.</p>\n<p>The armor gains additional abilities if it is a graveknight's armor. If a graveknight wearing undamaged plate of Yled is destroyed, the armor rebuilds its body over the course of 1d10 rounds instead of 1d10 days. A living creature who dons the armor is affected by the graveknight's curse immediately instead of 1 hour.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> Your previous action was a weapon Strike that reduced a living creature to 0 HP</p>\n<hr />\n<p><strong>Effect</strong> The creature is targeted with Death Knell (DC 20).</p>\n<hr />\n<p><strong>Craft Requirements</strong> The metals used to create this armor must include a fragment from a previous graveknight's armor.</p>",
+    "rarity": "rare",
+    "traits": [
+      "bulwark",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Wake the Dead #5"
+  },
+  {
+    "level": 0,
+    "name": "Plated Duster",
+    "price": {
+      "gp": 2
+    },
+    "description": "<p>These loose-fitting long coats of canvas or leather are lined with metal plates, offering wearers respite from Alkenstar's dust storms and smog stains as well as modest protection against bullets and knives. While these dusters can't turn away gunfire entirely, their utility, affordability, and comfort ensure their popularity, especially among the city's shieldmarshals, who have adopted them as a sort of unofficial uniform.</p>\n<p>A plated duster can be donned with 2 Interact actions or as part of donning light armor. When worn with light armor from the cloth, leather, or chain groups, a plated duster increases the armor's item bonus to AC by 1, worsens the armor's check penalty by 1, reduces the armor's Dex cap by 1, increases the Strength score required to ignore the armor check penalty and Speed penalty by 2, adds the noisy trait, and changes the armor's group to composite. This also makes the armor one step heavier (from light to medium), and you use the proficiency bonus appropriate to this adjusted armor type. You can't use a plated duster alongside an armored skirt or any other item that adjusts an armor's statistics.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Lost Omens: Impossible Lands"
+  },
+  {
+    "level": 0,
+    "name": "Platinum dragon statuette",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 0,
+    "name": "Platinum‑framed monocle",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 0,
+    "name": "Platinum image of a fey noble with a bit of orichalcum",
+    "price": {
+      "gp": 1000
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 0,
     "name": "Platinum Pieces",
     "price": {
       "pp": 1
@@ -3657,6 +3849,63 @@
     "publication": "Pathfinder #175: Broken Tusk Moon"
   },
   {
+    "level": 14,
+    "name": "Razmiri Mask (Gold)",
+    "price": {},
+    "description": "<p>A gold Razmiri mask grants a +3 item bonus to Deception checks to Lie or Feint.</p><hr /><p><strong>Activate—Call Upon Razmir's Benevolence</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was Unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.</p>\n<p></p><hr /><p><strong>Activate—Call Upon Razmir's Mercy</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> Exhorting Razmir to purge impurities from your target, you lay hands on a creature within reach and cast Cleanse Affliction as an occult spell with a spell rank equal to half your level. Unlike a normal <em>cleanse affliction</em> spell, this doesn't reduce the stage of the affliction; instead, if the counteract check is successful, the affliction's stage is temporarily reduced by 1 and its effects are suppressed for 24 hours, after which the affliction resumes in full force.</p>\n<p>If the target would have been required to attempt additional saves against the affliction during the 24 hours it was suppressed, they must attempt all of those saving throws as soon as the 24-hour duration ends. This could mean that the target saves successfully and it is as if the affliction were truly healed, or it could mean that the affliction returns and advances multiple stages all at once.</p><hr /><p><strong>Activate—Call Upon Razmir's Wrath</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You cry out to Razmir to reveal his fiery wrath, as he did upon the unbelievers at Melcat. You cast Sunburst as an 8th-rank occult spell, but for undead targets the spell has the incapacitation trait.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask",
+    "publication": "Pathfinder Lost Omens: Divine Mysteries"
+  },
+  {
+    "level": 18,
+    "name": "Razmiri Mask (Porcelain)",
+    "price": {},
+    "description": "<p>A porcelain Razmiri mask grants a +4 item bonus to Deception checks to Lie or Feint.</p><hr /><p><strong>Activate—Call Upon Razmir's Benevolence</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was Unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.</p>\n<p></p><hr /><p><strong>Activate—Call Upon Razmir's Mercy</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> Exhorting Razmir to purge impurities from your target, you lay hands on a creature within reach and cast Cleanse Affliction as an occult spell with a spell rank equal to half your level. Unlike a normal <em>cleanse affliction</em> spell, this doesn't reduce the stage of the affliction; instead, if the counteract check is successful, the affliction's stage is temporarily reduced by 1 and its effects are suppressed for 24 hours, after which the affliction resumes in full force.</p>\n<p>If the target would have been required to attempt additional saves against the affliction during the 24 hours it was suppressed, they must attempt all of those saving throws as soon as the 24-hour duration ends. This could mean that the target saves successfully and it is as if the affliction were truly healed, or it could mean that the affliction returns and advances multiple stages all at once.</p><hr /><p><strong>Activate—Call Upon Razmir's Wrath</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You cry out to Razmir to reveal his fiery wrath, as he did upon the unbelievers at Melcat. You cast Sunburst as an 8th-rank occult spell, but for undead targets the spell has the incapacitation trait.</p><hr /><p><strong>Activate—Power of the Living God</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You demand power from the world, using your mask as a locus to force reality to bend to your will. You cast Manifestation as a 10th-rank occult spell, but no matter what spell you emulate with it, that spell has the incapacitation trait.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask",
+    "publication": "Pathfinder Lost Omens: Divine Mysteries"
+  },
+  {
+    "level": 10,
+    "name": "Razmiri Mask (Silver)",
+    "price": {},
+    "description": "<p>A silver Razmiri mask grants a +2 item bonus to Deception checks to Lie or Feint.</p><hr /><p><strong>Activate—Call Upon Razmir's Benevolence</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was Unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.</p>\n<p></p><hr /><p><strong>Activate—Call Upon Razmir's Mercy</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> Exhorting Razmir to purge impurities from your target, you lay hands on a creature within reach and cast Cleanse Affliction as an occult spell with a spell rank equal to half your level. Unlike a normal <em>cleanse affliction</em> spell, this doesn't reduce the stage of the affliction; instead, if the counteract check is successful, the affliction's stage is temporarily reduced by 1 and its effects are suppressed for 24 hours, after which the affliction resumes in full force.</p>\n<p>If the target would have been required to attempt additional saves against the affliction during the 24 hours it was suppressed, they must attempt all of those saving throws as soon as the 24-hour duration ends. This could mean that the target saves successfully and it is as if the affliction were truly healed, or it could mean that the affliction returns and advances multiple stages all at once.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask",
+    "publication": "Pathfinder Lost Omens: Divine Mysteries"
+  },
+  {
+    "level": 2,
+    "name": "Razmiri Mask",
+    "price": {},
+    "description": "<p>This mask is made of iron, though more potent versions crafted by powerful Razmiran priests can be made of silver, gold, or even porcelain. The wearer of this mask gains a +1 item bonus to Deception checks to Lie or Feint.</p><hr /><p><strong>Activate—Call Upon Razmir's Benevolence</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, occult)</p>\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You bend \"divine\" power to your will using the techniques taught you by the Razmiri priesthood. You grant a single target you touch a number of temporary Hit Points equal to twice your level that last for 24 hours. If the target was Unconscious, it regains consciousness and doesn't lose consciousness again due to Hit Point loss as long as it has temporary Hit Points from this effect remaining.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Mask",
+    "worn": "Mask",
+    "publication": "Pathfinder Lost Omens: Divine Mysteries"
+  },
+  {
     "level": 10,
     "name": "Razmiri Wayfinder",
     "price": {
@@ -4102,7 +4351,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>This small length of red thread is knotted six times, with a loop at each end so it can either be worn as a bracelet or anklet, or hung from a strap.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You critically fail a save</p>\n<hr />\n<p><strong>Effect</strong> The knot unties one of its six knots, altering your fate in the process. Treat your saving throw as if you failed the check rather than critically failed the check. This is a fortune effect. Once the sixth knot unties, it becomes a non-magical red thread.</p>",
+    "description": "<p>This small length of red thread is knotted six times, with a loop at each end so it can either be worn as a bracelet or anklet, or hung from a strap.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Trigger</strong> You critically fail a save</p>\n<p><strong>Effect</strong> The knot unties one of its six knots, altering your fate in the process. Treat your saving throw as if you failed the check rather than critically failed the check. This is a fortune effect. Once the sixth knot unties, it becomes a non-magical red thread.</p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -4387,6 +4636,17 @@
     "usage": "",
     "worn": null,
     "publication": "Pathfinder #148: Fires of the Haunted City"
+  },
+  {
+    "level": 0,
+    "name": "Regalia Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.DhdLzrcMvB93Rjmt inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 0,
@@ -4895,7 +5155,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>The followers of the Tan Sugi monastery understood the value of protecting the mind from the intrusion of violence and anger and infused this strip of striped green and brown cloth with their beliefs. Wrapped around the head, the stripes almost evoke the patterns of sugi branches coiled around the wearer's skull. The <em>resolute mind wrap</em> grants you resistance 5 against mental damage.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a Will saving throw against a mental effect</p>\n<hr />\n<p><strong>Effect</strong> The <em>resolute mind wrap</em> clings more tightly to your head, granting you a +1 item bonus to your Will saving throw. If you succeed at this saving throw, the resistance to mental damage granted by the <em>resolute mind wrap</em> increases to 10 for 1 minute.</p>\n<p></p>",
+    "description": "<p>The followers of the Tan Sugi monastery understood the value of protecting the mind from the intrusion of violence and anger and infused this strip of striped green and brown cloth with their beliefs. Wrapped around the head, the stripes almost evoke the patterns of sugi branches coiled around the wearer's skull. The <em>resolute mind wrap</em> grants you resistance 5 against mental damage.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a Will saving throw against a mental effect</p>\n<p><strong>Effect</strong> The <em>resolute mind wrap</em> clings more tightly to your head, granting you a +1 item bonus to your Will saving throw. If you succeed at this saving throw, the resistance to mental damage granted by the <em>resolute mind wrap</em> increases to 10 for 1 minute.</p>\n<p></p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -6424,7 +6684,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>The soles of these plain leather boots look like coils of flattened roots. The boots allow for full-foot flexibility despite their sturdy make and smell faintly of evergreen trees. While worn and invested, your footsteps sound like rustling leaves, granting you a +1 item bonus to Stealth checks in a forest or wooded area.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The small roots extending from the soles of these boots allow you to move freely and easily across wood. For 10 minutes, you gain a 20-foot climb Speed on trees and other wooden surfaces, and you don't need to use your hands to climb.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're standing on earth, and something attempts to move you against your will</p>\n<p><strong>Effect</strong> The roots extend from your boots to grip the ground, granting you a +4 item bonus to your Fortitude DC against effects that attempt to move you, such as Shove or Pull.</p>",
+    "description": "<p>The soles of these plain leather boots look like coils of flattened roots. The boots allow for full-foot flexibility despite their sturdy make and smell faintly of evergreen trees. While worn and invested, your footsteps sound like rustling leaves, granting you a +1 item bonus to Stealth checks in a forest or wooded area.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The small roots extending from the soles of these boots allow you to move freely and easily across wood. For 10 minutes, you gain a 20-foot climb Speed on trees and other wooden surfaces, and you don't need to use your hands to climb.</p>\n<p></p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're standing on earth, and something attempts to move you against your will</p>\n<p><strong>Effect</strong> The roots extend from your boots to grip the ground, granting you a +4 item bonus to your Fortitude DC against effects that attempt to move you, such as Shove or Pull.</p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -7764,310 +8024,5 @@
     "usage": "Held In Two Hands",
     "worn": null,
     "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 0,
-    "name": "Salvo Shield",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p>This specialized steel shield features an outer layer of angled wooden or steel plates, which help deflect or redirect incoming ranged projectiles but don't offer any additional protection against melee weapons.</p>",
-    "rarity": "common",
-    "traits": [
-      "deflecting-physical-ranged"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 5,
-    "name": "Sampling Ammunition",
-    "price": {
-      "gp": 22
-    },
-    "description": "<p><strong>Ammunition</strong> arrow, bolt</p>\n<hr />\n<p>The head of this arrow or bolt is a pointed glass cylinder with a hollow core. Upon hitting a corporeal creature, sampling ammunition captures a small portion of the target's skin, blood, and flesh. The sample falls to the ground below wherever the creature was hit. This sample is sealed and magically preserved inside its chamber, although it deteriorates normally once the cylinder is opened. Sampling ammunition can't collect samples from creatures made entirely of metal, stone, or other hard substances.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Dark Archive"
-  },
-  {
-    "level": 11,
-    "name": "Sanctified Beans",
-    "price": {
-      "gp": 250
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>These roasted soybeans are blessed by a priest to ward against all various forms of otherworldly influence but are most effective against incorporeal evils, such as specters or path maidens. They can be safely eaten by living creatures and taste delicious when paired with rice wine. When you activate this item, choose an adjacent square to exhale into. You fill that square with soothing vapors that harm any fiend, fey, ghost, spirit, or undead creature that ends their turn in that square for the next minute, causing them to take 4d8+4 spirit (holy) damage (DC 28 will save to resist being affected as follows.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature becomes Off-Guard until the start of your next turn.</p>\n<p><strong>Failure</strong> The creature becomes Slowed 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature becomes Stunned 1 and is then slowed 1 for 1 round.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "divine",
-      "magical",
-      "vitality"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #199: To Bloom Below the Web"
-  },
-  {
-    "level": 18,
-    "name": "Sandals of the Stag",
-    "price": {
-      "gp": 24000
-    },
-    "description": "<p>These sturdy leather sandals feature straps that wrap up to the knees. Etched in the leather are intricate patterns of stags leaping through the forest. You gain a +5-foot item bonus to your land Speed and a +3 item bonus on Athletics checks when attempting to High Jump or Long Jump. When you invest the sandals, you either increase your Strength modifier by 1 or increase it to +4, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You attempt a High Jump or Long Jump but you didn't Stride at least 10 feet</p>\n<hr />\n<p><strong>Effect</strong> You can attempt the jump normally. It doesn't automatically fail.</p>",
-    "rarity": "common",
-    "traits": [
-      "apex",
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn Sandles",
-    "worn": "Sandles",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 12,
-    "name": "Sandalwood Fan",
-    "price": {
-      "gp": 2000
-    },
-    "description": "<p>This ornate fan's carving depicts a particular tableau from the Plane of Wood, often of the site where the fan was created. Fanning it through the air creates a sandalwood-scented breeze and a crackling of magic. A <em>sandalwood fan</em> is a planar key for Interplanar Teleport and similar magic. The <em>sandalwood fan</em> makes it more likely for you to arrive where you intended, appearing 1d6×25 miles from your intended destination instead of the usual error range. This distance is further reduced to 1d4×25 miles if your destination is the scenery depicted on the fan.</p>\n<hr />\n<p><strong>Activate - Plant Speech</strong> 1 minute (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>sandalwood fan</em> casts Speak with Plants and Translate for Fey and Muan on you. In addition to conversing with nearby plants, you can also communicate with any living plants you've spoken with in the past using this fan. These plants must either be on the same plane as you or on the Plane of Wood.</p>\n<hr />\n<p><strong>Activate - Cloud of Leaves</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You summon leaves that protect your allies and identify enemies. All allies and indifferent creatures within 30 feet of you gain lesser cover for 1 round, while enemies come under the effect of Revealing Light for 1 minute.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "wood"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Rage of Elements"
-  },
-  {
-    "level": 11,
-    "name": "Sandcastle",
-    "price": {
-      "gp": 1250
-    },
-    "description": "<p>A <em>sandcastle</em> comes in a cylindrical, waterproof satchel that contains densely packed fine sand. The sand's color depends on where it was collected when the item was made. This sand can be shaped and magically activated to create a fortification made of hard-packed sand. It can survive most ordinary weather, but a sandcastle has little resilience against water. It collapses if activated on water or if the structure is caught in a deluge or heavy rainfall. Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 40 Hit Points. It's immune to critical hits and precision damage, and it has weakness to water 15. If destroyed, a section of the sandcastle becomes a pile of sand, or wet sand if it was destroyed by water. This sand is difficult terrain, which lasts for the remaining duration of the activation. It's easy to make handholds and footholds in the sand walls, so the DC to climb the walls is 15.</p>\n<p><strong>Activate—Shape the Castle</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You empty the satchel and shape the sand into a miniature castle. When finished, you utter \"build\" in Petran, and the <em>sandcastle</em> swiftly builds into a full-size structure. The castle is shaped as you choose, up to 120 feet in any dimension. Its walls must be 10 feet thick, and each story must be at least 10 feet tall from floor to ceiling. The <em>sandcastle</em> has only rudimentary furnishings with no moving parts—even a chair or door is too complicated, but block-like benches and platforms can be created. Typically, the castle has little more than staircases and windows.</p>\n<p>You can return the <em>sandcastle</em> to its portable form by using one Interact action to fill the item's satchel with sand from the castle.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "earth",
-      "magical",
-      "structure"
-    ],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder Rage of Elements"
-  },
-  {
-    "level": 13,
-    "name": "Sandstorm Top",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p>On Tekritanin holidays, children reenacted legendary battles of deities by playing with magical tops. Though the paint on this wooden top has long since faded, its magical runes once gleamed yellow-gold and fiery orange, evoking the color of the sky during a sandstorm. To set the top in motion, wind a string around its bottom and upward along its body, and then throw it while gripping the string.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You throw the sandstorm top 10 feet away from you. For 1 minute, as it spins, the top generates a magical sandstorm in a 5-foot radius. Any creature that starts its turn in the area or moves into the area takes 4d6 slashing damage (DC 30 reflex save). Additionally, a creature within the sandstorm must hold its breath or begin suffocating.</p>",
-    "rarity": "rare",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Monsters of Myth"
-  },
-  {
-    "level": 12,
-    "name": "Sanguine Fang (Greater)",
-    "price": {
-      "gp": 1750
-    },
-    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to persistent bleed damage and a +2 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 1d6 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Sanguine Mist.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Vampiric Feast.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart",
-      "void"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 15,
-    "name": "Sanguine Fang (Major)",
-    "price": {
-      "gp": 5750
-    },
-    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 34.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to persistent bleed damage and a +3 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 2d6 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 5th-rank Vampiric Feast.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Vampiric Exsanguination.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart",
-      "void"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 9,
-    "name": "Sanguine Fang",
-    "price": {
-      "gp": 650
-    },
-    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 25.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 3 to persistent bleed damage and a +2 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 1d4 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Vampiric Feast.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "spellheart",
-      "void"
-    ],
-    "usage": "Affixed To Armor Or A Weapon",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 14,
-    "name": "Sanguine Klar (Greater)",
-    "price": {
-      "gp": 3700
-    },
-    "description": "<p>This <em>+2 greater striking wounding klar</em> (Hardness 13, HP 100, BT 50) is built with spikes made of beasts' fangs.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You or a creature within 30 feet of you suffers bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The sanguine klar regains a number of Hit Points equal to the bleed damage, up to an amount equal to its Hardness.</p>",
-    "rarity": "common",
-    "traits": [
-      "integrated-1d6-s-versatile-p",
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 9,
-    "name": "Sanguine Klar",
-    "price": {
-      "gp": 650
-    },
-    "description": "<p>This <em>+1 striking wounding klar</em> (Hardness 8, HP 64, BT 32) is built with spikes made of beasts' fangs.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You or a creature within 5 feet of you suffers bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The sanguine klar regains a number of Hit Points equal to the bleed damage, up to an amount equal to its Hardness.</p>",
-    "rarity": "common",
-    "traits": [
-      "integrated-1d6-s-versatile-p",
-      "magical"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 11,
-    "name": "Sanguine Mutagen (Greater)",
-    "price": {
-      "gp": 300
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 hour you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Fortitude and Reflex saves. This bonus improves to +4 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p>When you roll a success on a save against a disease, poison, or effect that would give you the Fatigued condition, you get a critical success instead.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "elixir",
-      "mutagen",
-      "polymorph"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 1,
-    "name": "Sanguine Mutagen (Lesser)",
-    "price": {
-      "gp": 3
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 minute you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Fortitude and Reflex saves. This bonus improves to +2 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "elixir",
-      "mutagen",
-      "polymorph"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 17,
-    "name": "Sanguine Mutagen (Major)",
-    "price": {
-      "gp": 3000
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 hour you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Fortitude and Reflex saves. When you roll a success on a save against a disease, poison, or effect that would give you the Fatigued condition, you get a critical success instead and your critical failures on such saves become failures instead.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "elixir",
-      "mutagen",
-      "polymorph"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 3,
-    "name": "Sanguine Mutagen (Moderate)",
-    "price": {
-      "gp": 12
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 10 minutes you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Fortitude and Reflex saves. This bonus improves to +3 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "elixir",
-      "mutagen",
-      "polymorph"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 17,
-    "name": "Sanguine Pendant (Greater)",
-    "price": {
-      "gp": 17000
-    },
-    "description": "<p>This clear crystal pendant contains a drop of blood from a sorcerer that expands and contracts as you cast spells. A sanguine pendant is associated with a specific sorcerer bloodline, and only sorcerers with that bloodline can invest this item. This item gains the trait matching the tradition of that bloodline. The pendant grants a +3 item bonus to both of your bloodline skills.</p><hr /><p><strong>Activate—Blood's Call</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a bloodline spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a sorcerer with the associated bloodline.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Player Core 2"
-  },
-  {
-    "level": 10,
-    "name": "Sanguine Pendant",
-    "price": {
-      "gp": 1000
-    },
-    "description": "<p>This clear crystal pendant contains a drop of blood from a sorcerer that expands and contracts as you cast spells. A sanguine pendant is associated with a specific sorcerer bloodline, and only sorcerers with that bloodline can invest this item. This item gains the trait matching the tradition of that bloodline. The pendant grants a +2 item bonus to both of your bloodline skills.</p><hr /><p><strong>Activate—Blood's Call</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a bloodline spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a sorcerer with the associated bloodline.</p>",
-    "rarity": "common",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Player Core 2"
   }
 ]

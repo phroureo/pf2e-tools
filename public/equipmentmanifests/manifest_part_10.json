@@ -1,5 +1,298 @@
 [
   {
+    "level": 0,
+    "name": "Towering sculpture by a master",
+    "price": {
+      "gp": 250
+    },
+    "description": "",
+    "rarity": "common",
+    "traits": [],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Gamemastery Guide"
+  },
+  {
+    "level": 9,
+    "name": "Toxic Blood",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>Your blood flows with tetrodotoxin or a similar toxin, poisoning enemies who dare to bite you.</p>\n<p>Creatures that damage you with an attack using their mouths (such as a jaws or fang Strike) must attempt a DC 26 fortitude saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is Sickened 1.</p>\n<p><strong>Failure</strong> The creature takes 2d6 poison damage and is sickened 1.</p>\n<p><strong>Critical Failure</strong> The creature takes Sickened 2.</p>",
+    "rarity": "common",
+    "traits": [
+      "graft",
+      "invested",
+      "magical",
+      "poison"
+    ],
+    "usage": "Implanted",
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 10,
+    "name": "Toxic Effluence",
+    "price": {
+      "gp": 160
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>This dark green sludge has a caustic scent and gritty texture. Capable of entering the body through contact with flesh, toxic effluence becomes harmful once it hits the bloodstream, where it causes internal chemical burns, intense pain, and muscle spasms.</p>\n<hr />\n<p><strong>Saving Throw</strong> DC 29 fortitude</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> Enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> Enfeebled 2 (1 round)</p>\n<p><strong>Stage 3</strong> Enfeebled 3 (1 round)</p>",
+    "rarity": "rare",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "contact",
+      "poison"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder #195: Heavy is the Crown"
+  },
+  {
+    "level": 2,
+    "name": "Toy Carriage (Windup)",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A miniature toy carriage is carved from wood and has fully functioning wheels. It can vary in size from 2 to 8 inches long, too small for even Tiny creatures to ride. If pushed or propelled, obstacles and terrain might slow, stop, tip, or divert the carriage's course.</p>\n<hr />\n<p>A tiny crank protrudes from the side of this carriage. If the crank is wound and the carriage is released on the ground, the carriage propels in a straight line at a Speed of 10 feet. Each Interact action spent winding the crank propels the carriage for 1 round. A windup toy carriage can be wound for a maximum of 9 actions total, at which point it's too tight to wind further.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 0,
+    "name": "Toy Carriage",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A miniature toy carriage is carved from wood and has fully functioning wheels. It can vary in size from 2 to 8 inches long, too small for even Tiny creatures to ride. If pushed or propelled, obstacles and terrain might slow, stop, tip, or divert the carriage's course.</p>\n<hr />\n<p>If pushed and released as an Interact action, a toy carriage rolls along the ground up to 20 feet.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 9,
+    "name": "Tracker's Goggles (Greater)",
+    "price": {
+      "gp": 660
+    },
+    "description": "<p>These lenses of forest-green glass are bound in rough leather stitched with crude twine.</p>\n<p>While wearing these goggles, you gain a +2 bonus to Survival checks to Sense Direction and Track.</p>\n<p>If you fail a check to Track, you can try again after 15 minutes rather than an hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece",
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 3,
+    "name": "Tracker's Goggles",
+    "price": {
+      "gp": 60
+    },
+    "description": "<p>These lenses of forest-green glass are bound in rough leather stitched with crude twine.</p>\n<p>While wearing these goggles, you gain a +1 bonus to Survival checks to Sense Direction and Track.</p>\n<p>If you fail a check to Track, you can try again after 30 minutes rather than an hour.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Eyepiece",
+    "worn": "Eyepiece",
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 3,
+    "name": "Tracker's Stew",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p><strong>Activate</strong> 10 minutes (Interact)</p>\n<p>Alchemical reagents add punch to tracker's stew: a rich, fiery mixture of tomatoes, ground nuts, onions, and tubers, often with poultry added. It's usually served with or over rice or noodles. Once you've eaten the stew, it improves your ability to sense and follow tracks for 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to Survival checks to Cover Tracks and Track. You can do either while moving at full speed or both while moving at half speed.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "processed"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 5,
+    "name": "Tracking Fulu",
+    "price": {
+      "gp": 25
+    },
+    "description": "<p><strong>Usage</strong> affixed to creature or object</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<hr />\n<p>Used covertly by assassins and spies, this pair of fulus stick to one another when created but can be easily separated. Affix one fulu to a target before activating its pair. When activated, the unaffixed fulu flutters toward the affixed one at a speed of 30 feet per round, traveling for up to 1 hour and fluttering more rapidly the closer it comes to its pair. The unaffixed fulu always moves in a straight line towards the affixed fulu; it can't solve mazes or find its way through winding paths</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fulu",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Secrets of Magic"
+  },
+  {
+    "level": 0,
+    "name": "Tracking Tag",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Small and unobtrusive tags made from a durable material, often leather or hardwood, tracking tags are attached to wild animals, usually by a collar, to track their movements. They also serve as a way to let others know that someone is keeping track of this animal. Each tag is also inscribed with a unique label so individual creatures can be more easily identified among a herd.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Affixed To A Creature",
+    "worn": null,
+    "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 10,
+    "name": "Trackless (Greater)",
+    "price": {
+      "gp": 900
+    },
+    "description": "<p>Trackless runes are common among hunters and trappers, as well as thieves and anyone Fleeing pursuit. While wearing trackless footwear, you have a +4 item bonus to the DC to track you. However, this bonus doesn't stack with the status bonus from Vanishing Tracks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You extend the effect of your rune out to a 20 foot emanation. The emanation remains for 8 hours, affecting up to 10 creatures of your choice within the area. You can Dismiss this effect.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Applied To Footwear",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 6,
+    "name": "Trackless",
+    "price": {
+      "gp": 225
+    },
+    "description": "<p>Trackless runes are common among hunters and trappers, as well as thieves and anyone Fleeing pursuit. While wearing trackless footwear, you have a +4 item bonus to the DC to track you. However, this bonus doesn't stack with the status bonus from Vanishing Tracks.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Applied To Footwear",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 17,
+    "name": "Tradecraft Tattoo (Greater)",
+    "price": {
+      "gp": 13000
+    },
+    "description": "<p>Crafters choose tattoos that represent their dedication and skill in their chosen field. Such tattoos might adorn the arm, fingers, or eyes, and they take the form of artistic patterns or depict tools of the trade, such as anvils, paintbrushes, or trowels. You gain a +3 item bonus to Crafting checks. Furthermore, when you roll a critical failure on a Crafting check to Earn Income, treat it as a failure instead.</p>\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Creation. You choose the item and its appearance, and whether the spell is 4th or 5th level. This spell's duration is unlimited but ends when you Activate the tattoo again.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 9,
+    "name": "Tradecraft Tattoo",
+    "price": {
+      "gp": 700
+    },
+    "description": "<p>Crafters choose tattoos that represent their dedication and skill in their chosen field. Such tattoos might adorn the arm, fingers, or eyes, and they take the form of artistic patterns or depict tools of the trade, such as anvils, paintbrushes, or trowels. You gain a +2 item bonus to Crafting checks. Furthermore, when you roll a critical failure on a Crafting check to Earn Income, treat it as a failure instead.</p>\n<p><strong>Activate</strong> 1 minute (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The tattoo casts Creation. You choose the item and its appearance, and whether the spell is 4th or 5th level.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical",
+      "tattoo"
+    ],
+    "usage": "Tattooed On The Body",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Traitor's Ring",
+    "price": {
+      "gp": 15
+    },
+    "description": "<p><strong>Access</strong> Member of a secret society</p>\n<hr />\n<p>This ring has a thick band supporting a square-cut gem that can be customized to the buyer's preference. The thickness of the band allows it to be taken to any jeweler or blacksmith to be adjusted to different hands or fingers from the original make. There is a tiny clasp at the side of the gem that, when pressed, opens the gem, revealing a small, hinged compartment. This compartment is designed to hold one dose of poison, allowing wearers to slip the contents of the ring into the food or drink of an intended target. The compartment can be closed again by gently pressing the gem back into place. Noticing the compartment requires a DC 15 perception check for anyone inspecting the ring.</p>",
+    "rarity": "uncommon",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Dark Archive"
+  },
+  {
+    "level": 15,
+    "name": "Transposition Ammunition (Greater)",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Transposition ammunition has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire transposition ammunition at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. When you teleport, you can take along up to two willing adjacent creatures. These creatures must each arrive in unoccupied squares adjacent to the transposition ammunition; if there's not enough space for both of them, you choose which one is teleported.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "teleportation"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 9,
+    "name": "Transposition Ammunition",
+    "price": {
+      "gp": 125
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>Transposition ammunition has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire transposition ammunition at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. If this would carry along any other creature (even one in an extradimensional space), the activation fails.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "teleportation"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
+  },
+  {
+    "level": 6,
+    "name": "Traveler's Any-Tool",
+    "price": {
+      "gp": 200
+    },
+    "description": "<p>Before it's activated, this item appears to be an ash rod capped with steel on either end.</p>\n<p><strong>Activate—Tap</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You imagine a specific simple tool, and the any-tool transforms into it. (Usually, you can choose from a tool listed in the gear from Player Core). This transforms the wooden portion into any haft and the metal caps into spades, hammer heads, or the like, allowing for most basic tools but nothing more complex. You can return the item to its rod form with an Interact action.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 0,
+    "name": "Traveler's Chair",
+    "price": {
+      "gp": 5
+    },
+    "description": "<p>A traveler's chair is tailored for frequent adventures and travels. The design is sleek and fashionable to provide excellent comfort and support. A traveler's chair has small mechanisms, either made from interlocking wood pieces, clockwork, or other devices, that allow the chair to traverse up or down stairs without any additional difficulty (moving up stairs is still difficult terrain, just like for other characters), and move through other common adventuring terrain without any additional difficulty, such as ladders and uneven ground.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core"
+  },
+  {
     "level": 1,
     "name": "Traveler's Cloak",
     "price": {
@@ -2943,6 +3236,17 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Wand Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.pDxdE8S8QJV2PGiB inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 5,
@@ -7733,7 +8037,7 @@
     "price": {
       "gp": 1900
     },
-    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 27 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 9d6 slashing damage with a DC 29 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "description": "<p>This <em>+2 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 27 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 9d6 slashing damage with a DC 29 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
     "rarity": "common",
     "traits": [
       "air",
@@ -7750,7 +8054,7 @@
     "price": {
       "gp": 6000
     },
-    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 32 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 12d6 slashing damage with a DC 34 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "description": "<p>This <em>+2 greater resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 32 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 12d6 slashing damage with a DC 34 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
     "rarity": "common",
     "traits": [
       "air",
@@ -7767,7 +8071,7 @@
     "price": {
       "gp": 35000
     },
-    "description": "<p>This <em>+1 resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 39 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 16d6 slashing damage with a DC 41 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
+    "description": "<p>This <em>+3 greater resilient chain shirt</em> is made of small, interlocking currents of wind carefully woven together. While the links of air don't jingle against each other like chain links might, the tiny cyclones nevertheless create a blustering howl akin to standing at the center of a storm. A creature that ends its turn adjacent to you must attempt a DC 39 fortitude until it moves away from you.</p>\n<p><strong>Activate—Slicing Links</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60 foot cone. Creatures in the area take 16d6 slashing damage with a DC 41 fortitude save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.</p>",
     "rarity": "common",
     "traits": [
       "air",
@@ -8035,321 +8339,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 7,
-    "name": "Wondrous Figurine (Jade Serpent)",
-    "price": {
-      "gp": 340
-    },
-    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This tiny statue first appears to be a formless lump of jade until closer inspection reveals it to be a serpentine body curled into a snug knot.</p>\n<p>When activated, this figurine becomes a Giant Viper.</p>\n<p>The figurine can be used only once per day, and it can remain in serpent form for no more than 10 minutes.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 13,
-    "name": "Wondrous Figurine (Marble Elephant)",
-    "price": {
-      "gp": 2700
-    },
-    "description": "<p>Finely carved from a solid piece of marble, this gleaming elephant statuette becomes a fully grown Elephant when activated.</p>\n<p>The elephant can be called upon no more than four times per month. It remains for 24 hours as long as it is being used as a beast of burden or for transport.</p>\n<p>If it attempts an attack or otherwise engages in combat, it reverts to statuette form after 1d4 rounds.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 15,
-    "name": "Wondrous Figurine (Obsidian Steed)",
-    "price": {
-      "gp": 6000
-    },
-    "description": "<p>This sinister-looking black statuette resembles a horse rearing up on its hind legs.</p>\n<p>When activated, this figurine becomes a Nightmare.</p>\n<p>It can be called upon once per week for up to 24 hours, though it won't use Interplanar Teleport or its other abilities on behalf of its rider.</p>\n<p>Although evil, it allows itself to be ridden by creatures of any alignment, although if a good creature mounts it, the rider must attempt a DC 3 flat to take the rider to a random location in the Abyss, where it promptly returns to statue form, stranding its rider in that nightmarish place.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 2,
-    "name": "Wondrous Figurine (Onyx Dog)",
-    "price": {
-      "gp": 34
-    },
-    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This simple onyx statue transforms into a Guard Dog.</p>\n<p>The dog has a +4 circumstance bonus to Survival checks to Track, and it has darkvision. When the dog senses a hidden creature with its scent, that creature is instead observed and concealed.</p>\n<p>The onyx dog can be activated once per week and remains in its form for up to 6 hours.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Core Rulebook"
-  },
-  {
-    "level": 7,
-    "name": "Wondrous Figurine (Rubber Bear)",
-    "price": {
-      "gp": 350
-    },
-    "description": "<p>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation's frequency (if any), appear in its entry below.</p>\n<p>If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.</p><hr /><p>This small, stretchable statuette depicts a bear wearing a tutu and a fez and balancing on a ball slightly larger than its head.</p>\n<p>When activated, it becomes a Grizzly Bear with similar attire.</p>\n<p>The bear remains balanced upon its rubber ball, and is therefore ungainly: it cannot Climb or Swim, has a -10- foot circumstance penalty to its Speed, and is always off-guard. If the bear leaves its ball, such as if it is repositioned with forced movement or knocked prone, it immediately reverts to statuette form.</p>\n<p>The bear can be used once per day, and it can remain in bear form for up to 1 hour.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #152: Legacy of the Lost God"
-  },
-  {
-    "level": 9,
-    "name": "Wondrous Figurine (Ruby Hippopotamus)",
-    "price": {
-      "gp": 700
-    },
-    "description": "<p>This roughly hewn ruby figurine shimmers with a deep red hue and is carved into the likeness of an ornery hippopotamus. When activated, it transforms into an enraged Hippopotamus that sees everything within 30 feet of its activation area as its territory. It will relentlessly and ferociously attack anyone within this area except you, but it ignores your commands in favor of defending its area. The hippopotamus is active for 1 minute before reverting to its statue shape, satisfied that it has punished all possible interlopers into its territory. The figurine can be used only once per day.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #170: Spoken on the Song Wind"
-  },
-  {
-    "level": 5,
-    "name": "Wondrous Figurine, Stuffed Fox",
-    "price": {
-      "gp": 125
-    },
-    "description": "<p>This small toy fox has tufted, fluffy ears and buttons for eyes. When activated, it transforms into a big fox with the statistics of a Riding Dog. The stuffed fox always allows you to ride it. While you do, you don't take the -2 penalty to Reflex saves while being mounted, and its jaws Strike gains Knockdown. The stuffed fox can be activated once a day and remains in its form for up to 1 hour.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical"
-    ],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder #182: Graveclaw"
-  },
-  {
-    "level": 10,
-    "name": "Wood-Rotted Root (Greater)",
-    "price": {
-      "gp": 190
-    },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a Oaken Resilience. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a 10 foot emanation. Creatures in the area must attempt a DC 24 fortitude damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "catalyst",
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #202: Severed at the Root"
-  },
-  {
-    "level": 3,
-    "name": "Wood-Rotted Root (Lesser)",
-    "price": {
-      "gp": 11
-    },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a Oaken Resilience. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a 5 foot emanation. Creatures in the area must attempt a DC 15 fortitude damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "catalyst",
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #202: Severed at the Root"
-  },
-  {
-    "level": 14,
-    "name": "Wood-Rotted Root (Major)",
-    "price": {
-      "gp": 900
-    },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a Oaken Resilience. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a 15 foot emanation. Creatures in the area must attempt a DC 29 fortitude damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "catalyst",
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #202: Severed at the Root"
-  },
-  {
-    "level": 7,
-    "name": "Wood-Rotted Root (Moderate)",
-    "price": {
-      "gp": 55
-    },
-    "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr /><p>This palm-sized chunk of wood it rotting, and riddled with mold and fungi. You can crush this wood to use it as a spell catalyst when you cast a Oaken Resilience. When you do, the bark that covers your skin is rotting, and emits a small cloud of spores whenever your hurt. For the duration, whenever you take physical damage, your rotting bark skin emits a cloud of spores in a 5 foot emanation. Creatures in the area must attempt a DC 21 fortitude damage.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "catalyst",
-      "consumable",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #202: Severed at the Root"
-  },
-  {
-    "level": 0,
-    "name": "Wooden Breastplate",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p>A suit of carved and tempered wood, a wooden breastplate resembles a metal breastplate in shape and function. Such suits can be carved from large pieces of wood, but they most often come from wood coaxed magically from special trees, whether by druids, elves, fey, or plant creatures such as arboreals or leshys.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 9,
-    "name": "Wooden Nickel",
-    "price": {
-      "gp": 130
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision</p>\n<p><strong>Prerequisites</strong> You are a master in Deception</p><hr /><p>This rough wooden coin hangs from a string drilled through a hole at its center. When you Activate the <em>wooden nickel</em>, for 10 minutes, you can cause any object you touch of 2 Bulk or less to look, feel, and smell like valuables of a similar size crafted from a precious metal of your choice.</p>\n<p>A creature that touches or Interacts with an affected object can attempt a perception check against your Deception DC to disbelieve the illusion, and a successful check against your Deception DC with crafting or an appropriate Lore skill will also reveal the item's true nature. After 10 minutes have elapsed since you Activated the <em>wooden nickel</em>, all affected objects revert to their true form.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "illusion",
-      "magical",
-      "talisman",
-      "visual"
-    ],
-    "usage": "Affixed To Armor",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 0,
-    "name": "Wooden Shield",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>12</td>\n<td>6</td>\n</tr>\n</tbody>\n</table>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 0,
-    "name": "Wooden Taws",
-    "price": {
-      "sp": 1
-    },
-    "description": "<p>Wooden Taws to be fired from a Taw launcher.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Ancestry Guide"
-  },
-  {
-    "level": 3,
-    "name": "Wordreaper",
-    "price": {
-      "gp": 55
-    },
-    "description": "<p>The blade of this <em>+1 sickle</em> is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the base. You can use the <em>wordreaper</em>'s handle as an ink pen and it never runs out of ink.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You use the <em>wordreaper</em> to inscribe the words \"read by\" and your name inside a non-magical literary work (such as a non-magical book, scroll, or play). You immediately gain cursory knowledge of the literary work as though you had skimmed it for 5 minutes.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "finesse",
-      "magical",
-      "trip"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Adventure: Threshold of Knowledge"
-  },
-  {
-    "level": 18,
-    "name": "Words of Wisdom (Greater)",
-    "price": {
-      "gp": 22000
-    },
-    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are Hidden within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 1 hour. During this time, you gain a +3 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 4,
-    "name": "Words of Wisdom (Lesser)",
-    "price": {
-      "gp": 100
-    },
-    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are Hidden within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 1 minute. During this time, you gain a +1 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 11,
-    "name": "Words of Wisdom (Moderate)",
-    "price": {
-      "gp": 1400
-    },
-    "description": "<p>Yrisette developed these unique tattoos after months of tinkering and experimentation. This tattoo is always of a saying that has meaning to the person who wears it. While the words are Hidden within a larger pattern and are nearly impossible to discern at a glance, they lend gravitas and power to the wearer's words. When the tattoo is applied, choose whether the phrase is of threatening words (Intimidation), persuasive words (Deception), or dramatic words (Performance).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You speak your meaningful phrase from your tattoo out loud, emboldening your words for 10 minutes. During this time, you gain a +2 item bonus to Diplomacy checks and checks of the skill associated with your phrase. When you roll a critical failure on a Diplomacy check or the associated skill during this time, you get a failure instead.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical",
-      "tattoo"
-    ],
-    "usage": "Tattooed On The Body",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 25,
-    "name": "Worldforge",
-    "price": {},
-    "description": "<p>Mounted upon a base of iron, inscribed with innumerable runes, this immense anvil can be used to forge nearly anything into reality. Stories claim that even metaphorical and abstract concepts, including \"a graveknight's mercy\" and \"the tears of a living wildfire\" have been hammered into solid shape upon <em>Worldforge</em>, though the tales disagree about what form those objects took.</p>\n<p>The cost of using <em>Worldforge</em>, however, is prohibitive for mere mortals. In addition to the fuel and metal it consumes, <em>Worldforge</em> draws upon the user's physical and spiritual strength to sustain the act of creation. The demand of its magic is such that no one save gods, or those who are nearly gods, can use it and survive.</p><hr /><p><strong>Activate—Wondrous Forge</strong> (downtime, manipulate)</p>\n<p><strong>Requirements</strong> You have the ability to make a Crafting check at mythic proficiency (such as that granted by the Artisan's Calling)</p>\n<p><strong>Effect</strong> After spending 2 days setting up the work (or 1 if you have the desired item's formula) and supplying <em>Worldforge</em> with adequate raw materials (as determined by the GM), you attempt to Craft something upon it. The DC and final cost of the item is also determined by the GM. For each day you spend Crafting, you must expend a Mythic Point or your Drained condition increases by 1; this condition can't be reduced until you have finished Crafting the item or you abandon the project. Each day spent Crafting upon the <em>Worldforge</em> counts as 10 days of normal Crafting time. If the value of your drained condition reaches 4, you must attempt a DC 46 fortitude maintains his divinity.</p>",
-    "rarity": "unique",
-    "traits": [
-      "artifact",
-      "invested",
-      "magical",
-      "mythic"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder War of Immortals"
   }
 ]

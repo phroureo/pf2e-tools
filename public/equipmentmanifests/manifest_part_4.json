@@ -1,6 +1,122 @@
 [
   {
     "level": 12,
+    "name": "Exploration Lens (Investigating)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>An <em>exploration lens</em> is a magical glass lens designed for a Bull's Eye Lantern. When light from the lantern passes through the lens, it alters the light to make it easier to perform a common exploration activity with the lantern.</p>\n<p>Alternatively, an <em>exploration lens</em> can be installed in a Wayfinder like an aeon stone. In this case, light (such as that from a Lantern (Hooded), Torch, or Light spell) must still pass through the lens and you must hold the wayfinder in your hand for it to function.</p>\n<p>There are several different types of <em>exploration lens</em>, each granting benefits with a different type of exploration activity. Each type of lens is distinguishable from all the other types by holding it up to a bright light.</p>\n<hr />\n<p><strong>Type: Investigating</strong></p>\n<p>The outer rim of this lens glows faintly when held up to the light.</p>\n<p>While activated, the lens grants you a +1 item bonus to skill checks to Recall Knowledge while Investigating by outlining potential clues in a way that triggers your memory.</p>\n<p>If you're Investigating something while using the lens, you can always roll a Recall Knowledge skill check appropriate to the investigation for initiative.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #171: Hurricane's Howl"
+  },
+  {
+    "level": 14,
+    "name": "Exploration Lens (Searching)",
+    "price": {
+      "gp": 4000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>An <em>exploration lens</em> is a magical glass lens designed for a Bull's Eye Lantern. When light from the lantern passes through the lens, it alters the light to make it easier to perform a common exploration activity with the lantern.</p>\n<p>Alternatively, an <em>exploration lens</em> can be installed in a Wayfinder like an aeon stone. In this case, light (such as that from a Lantern (Hooded), Torch, or Light spell) must still pass through the lens and you must hold the wayfinder in your hand for it to function.</p>\n<p>There are several different types of <em>exploration lens</em>, each granting benefits with a different type of exploration activity. Each type of lens is distinguishable from all the other types by holding it up to a bright light.</p>\n<hr />\n<p><strong>Type: Searching</strong></p>\n<p>This lens has an opalescent sheen when held up to light.</p>\n<p>The lens subtly outlines hidden doors and concealed hazards, granting you a +2 item bonus to Perception checks to spot such features while Searching.</p>\n<p>Even if you aren't Searching, you get a check to find traps that normally require you to Search.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #171: Hurricane's Howl"
+  },
+  {
+    "level": 0,
+    "name": "Explorer's Clothing",
+    "price": {
+      "sp": 1
+    },
+    "description": "<p>Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes.</p>",
+    "rarity": "common",
+    "traits": [
+      "comfort"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 10,
+    "name": "Explorer's Yurt",
+    "price": {
+      "gp": 880
+    },
+    "description": "<p>Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places.</p>\n<p><strong>Activate—Unroll</strong> (10 minutes) (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The rolled-up tent expands into a spacious yurt complete with a fire pit, 10 bedrolls, various cooking utensils, and basic food and water.</p>\n<p>The yurt can house and feed you and up to nine other Medium creatures that eat roughly as much as a human does; they need not attempt a Survival check to Subsist when you use the yurt. Fires and light inside the yurt do not extend illumination into the area surrounding the yurt, making it harder to spot from a distance.</p>\n<p>A large loop of red cloth hangs from one wall. If this loop is pulled, which takes an Interact action, the entire yurt immediately folds back up into its deactivated form, ready for further travel.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "structure"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 13,
+    "name": "Explosive Ammunition (Greater)",
+    "price": {
+      "gp": 520
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>greater explosive ammunition</em> hits a target, the missile explodes in a 10 foot burst, dealing 10d6 fire damage to each creature in the area (including the target). Each creature must attempt a DC 30 reflex save.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 9,
+    "name": "Explosive Ammunition",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a target, the missile explodes in a 10 foot burst, dealing 6d6 fire damage to each creature in the area (including the target). Each creature must attempt a DC 25 reflex save.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "fire",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
+    "level": 1,
+    "name": "Explosive Dogslicer",
+    "price": {
+      "gp": 10
+    },
+    "description": "<p>An explosive dogslicer is a sneaky, explosive weapon that often brings perverse joy to the goblins who use them. At first glance, it appears to be a triple-bladed dogslicer with an oversized guard.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "backstabber",
+      "combination",
+      "fatal-d10",
+      "goblin",
+      "scatter-5"
+    ],
+    "usage": "Held In Two Hands",
+    "worn": null,
+    "publication": "Pathfinder Guns & Gears"
+  },
+  {
+    "level": 12,
     "name": "Explosive Mine (Greater)",
     "price": {
       "gp": 400
@@ -405,7 +521,7 @@
     "price": {
       "gp": 4000
     },
-    "description": "<p>This prosthetic eye was designed by elven crafters but comes in a range of appearances for different ancestries. While wearing the eye, you gain a +2 item bonus to visual Perception checks.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on the eye to see the unseen. The eye casts 5th-rank See the Unseen on you.</p>\n<p></p>",
+    "description": "<p>This prosthetic eye was designed by elven crafters but comes in a range of appearances for different ancestries. While wearing the eye, you gain a +2 item bonus to visual Perception checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You focus on the eye to see the unseen. The eye casts 5th-rank See the Unseen on you.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -421,7 +537,7 @@
     "price": {
       "gp": 450
     },
-    "description": "<p>This prosthetic eye was designed by elven crafters but comes in a range of appearances for different ancestries. While wearing the eye, you gain a +1 item bonus to visual Perception checks.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You focus on the eye to see the unseen. The eye casts See the Unseen on you.</p>\n<p></p>",
+    "description": "<p>This prosthetic eye was designed by elven crafters but comes in a range of appearances for different ancestries. While wearing the eye, you gain a +1 item bonus to visual Perception checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You focus on the eye to see the unseen. The eye casts See the Unseen on you.</p>",
     "rarity": "common",
     "traits": [
       "invested",
@@ -2361,7 +2477,7 @@
     "price": {
       "gp": 425
     },
-    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is +14, and the spell DC is 24.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to fire.</li>\n<li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d6 fire damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Produce Flame.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Fireball.</p>\n<p>DC 24 reflex</p>",
+    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is +14, and the spell DC is 24.</p><ul><li><strong>Armor</strong> You gain resistance 5 to fire.</li><li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d6 fire damage until the end of your next turn.</li></ul><p></p>\n<p></p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Produce Flame.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Fireball.</p>\n<p>DC 24 reflex</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -2378,7 +2494,7 @@
     "price": {
       "gp": 1750
     },
-    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is +19, and the spell DC is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to fire.</li>\n<li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d8 fire damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Produce Flame.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Fireball.</p>\n<p>DC 29 reflex</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Wall of Fire.</p>",
+    "description": "<p>A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is +19, and the spell DC is 29.</p><ul><li><strong>Armor</strong> You gain resistance 10 to fire.</li><li><strong>Weapon</strong> After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d8 fire damage until the end of your next turn.</li></ul><p></p>\n<p></p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Produce Flame.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Fireball.</p>\n<p>DC 29 reflex</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Wall of Fire.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -3967,7 +4083,7 @@
     "price": {
       "gp": 8000
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Barrowsiege</em> deals 19d6 fire on a DC 43 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Barrowsiege</em> deals 19d6 fire on a DC 43 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -3984,7 +4100,7 @@
     "price": {
       "gp": 70
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Blackpeak</em> deals 7d6 fire on a DC 25 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Blackpeak</em> deals 7d6 fire on a DC 25 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4001,7 +4117,7 @@
     "price": {
       "gp": 600
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Droskar's Crag</em> deals 13d6 fire on a DC 32 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Droskar's Crag</em> deals 13d6 fire on a DC 32 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4018,7 +4134,7 @@
     "price": {
       "gp": 1300
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Ka</em> deals 15d6 fire on a DC 36 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Ka</em> deals 15d6 fire on a DC 36 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4035,7 +4151,7 @@
     "price": {
       "gp": 300
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Mhar Massif</em> deals 11d6 fire on a DC 30 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Mhar Massif</em> deals 11d6 fire on a DC 30 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4052,7 +4168,7 @@
     "price": {
       "gp": 150
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Pale Mountain</em> deals 9d6 fire on a DC 27 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Pale Mountain</em> deals 9d6 fire on a DC 27 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4069,7 +4185,7 @@
     "price": {
       "gp": 3000
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava of Sakalayo</em> deals 17d6 fire on a DC 39 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava of Sakalayo</em> deals 17d6 fire on a DC 39 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -4086,7 +4202,7 @@
     "price": {
       "gp": 30
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p>\n<hr />\n<p><em>Frozen lava</em> deals 5d6 fire on a DC 21 reflex.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This blueberry-sized bead appears to be a sphere of glass with a flickering light at its core. In truth, the \"glass\" is a bubble of solidified time magic, containing suspended lava at the exact point before a volcanic eruption. When activated, it becomes a tiny beacon of bright light before unleashing its power. After you Activate <em>frozen lava</em>, it quickly heats up. If you or anyone else hurls it (an Interact action), it detonates as a Fireball where it lands. Your toss can place the center of the fireball anywhere within 70 feet, though at the GM's discretion, you might need to make an attack roll if the throw is unusually challenging. If no one hurls the bead by the start of your next turn, it pops like an ostentatious but harmless firework.</p>\n<p><em>Frozen lava</em> comes in many varieties, made of lava taken from notable volcanoes on Golarion and across the planes.</p><hr /><p><em>Frozen lava</em> deals 5d6 fire on a DC 21 reflex.</p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -5340,7 +5456,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>This 6-foot-long scarf shimmers with the silvery light of the River of Souls while worn, providing illumination equivalent to that of a candle. You can deactivate or activate this radiance as an Interact action. The dangling lengths of a ghost scarf softly billow in the presence of haunts, granting the wearer a +1 item bonus to all Perception checks and Perception DCs to resolve discovering a haunt or rolling initiative when a haunt triggers.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The scarf extends silvery threads that wrap around a weapon you carry, granting the effects of a ghost touch property rune to that weapon for 5 minutes. If the weapon already bears a ghost touch rune, you instead gain a +1 item bonus to Fortitude saves against effects from incorporeal undead for 5 minutes.</p>",
+    "description": "<p>This 6-foot-long scarf shimmers with the silvery light of the River of Souls while worn, providing illumination equivalent to that of a candle. You can deactivate or activate this radiance as an Interact action. The dangling lengths of a <em>ghost scarf</em> softly billow in the presence of haunts, granting the wearer a +1 item bonus to all Perception checks and Perception DCs to resolve discovering a haunt or rolling initiative when a haunt triggers.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The scarf extends silvery threads that wrap around a weapon you carry, granting the effects of a Ghost Touch property rune to that weapon for 5 minutes. If the weapon already bears a <em>ghost touch</em> rune, you instead gain a +1 item bonus to Fortitude saves against effects from incorporeal undead for 5 minutes.</p>\n<p></p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -5402,7 +5518,7 @@
     "price": {
       "gp": 21000
     },
-    "description": "<p>This miniature wooden planchette is engraved with symbols designed to attract spirits. When affixed, the symbols begin to glow, and the planchette turns slightly insubstantial. The spell DC of any spell cast by activating this item is 38.</p>\n<ul>\n<li><strong>Armor</strong> After you cast a necromancy spell by activating the <em>planchette</em>, you gain resistance 10 to all physical damage (except <em>ghost touch</em>) until the start of your next turn. Attacks by incorporeal creatures (such as a ghost's ghostly hand) count as <em>ghost touch</em>.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>planchette</em>, the affixed weapon gains the effects of both the <em>ghost touch</em> and <em>greater disrupting</em> property runes until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank Invoke Spirits.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Tempest of Shades.</p>",
+    "description": "<p>This miniature wooden planchette is engraved with symbols designed to attract spirits. When affixed, the symbols begin to glow, and the planchette turns slightly insubstantial. The spell DC of any spell cast by activating this item is 38.</p><ul><li><strong>Armor</strong> After you cast a necromancy spell by activating the <em>planchette</em>, you gain resistance 10 to all physical damage (except <em>ghost touch</em>) until the start of your next turn. Attacks by incorporeal creatures (such as a ghost's ghostly hand) count as <em>ghost touch</em>.</li><li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>planchette</em>, the affixed weapon gains the effects of both the <em>ghost touch</em> and <em>greater disrupting</em> property runes until the end of your next turn.</li></ul><p></p>\n<p></p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank Invoke Spirits.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Tempest of Shades.</p>",
     "rarity": "common",
     "traits": [
       "magical",
@@ -6467,7 +6583,7 @@
     "price": {
       "gp": 8100
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You take damage.</p>\n<p>An enterprising chirurgeon reversed the forces evoked by a void thousand-pains fulu to create the golden breath fulu, which fortifies ki and the body as elements move out of balance. When you Activate this fulu, you regain 75 healing Hit Points and attempt a flat check to end any persistent damage affecting you. The fulu is particularly appropriate help for ending any persistent damage. Also, if you would regain more Hit Points from the fulu than your maximum, you can gain the excess as temporary Hit Points or distribute the excess among creatures of your choice within 30 feet. The temporary Hit Points last for 1 minute.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You take damage.</p><hr /><p>An enterprising chirurgeon reversed the forces evoked by a <em>void thousand-pains fulu</em> to create the <em>golden breath fulu</em>, which fortifies ki and the body as elements move out of balance. When you Activate this fulu, you regain 75 healing Hit Points and attempt a flat check to end any persistent damage affecting you. The fulu is particularly appropriate help for ending any persistent damage. Also, if you would regain more Hit Points from the fulu than your maximum, you can gain the excess as temporary Hit Points or distribute the excess among creatures of your choice within 30 feet. The temporary Hit Points last for 1 minute.</p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "consumable",
@@ -6800,6 +6916,23 @@
     "usage": "Implanted",
     "worn": null,
     "publication": "Pathfinder Howl of the Wild"
+  },
+  {
+    "level": 8,
+    "name": "Gorum's Tear",
+    "price": {
+      "gp": 80
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> (concentrate, fortune)</p>\n<p><strong>Trigger</strong> You make an attack with the affixed weapon.</p><hr /><p>This teardrop-shaped piece of iron is a naturally occurring mineral, said to be a solidified tear of bellicose joy shed by Gorum during his battles. When you activate the Gorum's tear, you roll your next attack roll twice and take the better result, ignoring any circumstance penalties. You then become Off-Guard to the creature you targeted until the beginning of your next turn.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "talisman"
+    ],
+    "usage": "Affixed To Weapon",
+    "worn": null,
+    "publication": "Pathfinder #209: Destroyer's Doom"
   },
   {
     "level": 11,
@@ -7201,7 +7334,7 @@
     "level": 0,
     "name": "Greatpick",
     "price": {
-      "gp": 2
+      "gp": 1
     },
     "description": "<p>This pick has a longer handle and broader head than a regular pick. It is too heavy to wield in one hand.</p>",
     "rarity": "common",
@@ -8007,7 +8140,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>The flower that adorns this hairpin is a blooming lotus flower that varies in color; it regrows in a day after the item is activated. Whether or not the hairpin's flower is in bloom, as long as you wear it and it's invested, it grants a +1 item bonus to Diplomacy checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You pluck the flower from the hairpin and scatter the petals, creating a flurry of color in a 10 foot burst centered on you. You become Concealed for 1 minute or until you move from your current location. Any creature within the 10 foot burst when you Activate the Item must succeed at a DC 23 reflex until the end of its next turn on a critical failure). The flower blooms again the next day.</p>",
+    "description": "<p>The flower that adorns this hairpin is a blooming lotus flower that varies in color; it regrows in a day after the item is activated. Whether or not the hairpin's flower is in bloom, as long as you wear it and it's invested, it grants a +1 item bonus to Diplomacy checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You pluck the flower from the hairpin and scatter the petals, creating a flurry of color in a 10 foot burst centered on you. You become Concealed for 1 minute or until you move from your current location. Any creature within the 10 foot burst when you Activate the Item must succeed at a DC 23 reflex until the end of its next turn on a critical failure). The flower blooms again the next day.</p>",
     "rarity": "rare",
     "traits": [
       "invested",
@@ -8075,129 +8208,5 @@
     "usage": "Held In Two Hands",
     "worn": null,
     "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 7,
-    "name": "Hallajin Key",
-    "price": {},
-    "description": "<p><strong>Alignment</strong> Chaotic Good</p>\n<p><strong>Perception</strong> +12 Perception; imprecise hearing 60 feet</p>\n<p><strong>Communication</strong> telepathic images (Common), 60 feet</p>\n<p><strong>Int</strong> +2, <strong>Wis</strong> +2, <strong>Cha</strong> +4</p>\n<p><strong>Will</strong> +15 Will</p>\n<hr />\n<p>Working together, Lumna and the crystal key form an intelligent magic item. This item begins the adventure with 10 charges.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision; <strong>Cost</strong> 1 charge</p>\n<p><strong>Trigger</strong> A creature within 60 feet of the key takes electricity or mental damage</p>\n<p><strong>Effect</strong> Lumna grants the target resistance 10 to the triggering damage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> command (mental); <strong>Cost</strong> 1 charge</p>\n<p><strong>Effect</strong> Lumna floods the brain of a creature within 30 feet with painful telepathic images, inflicting 1d4 rounds.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) command, Interact (exploration); <strong>Cost</strong> 5 charges</p>\n<p><strong>Effect</strong> Lumna briefly transforms all allies within 60 feet into energy, renewing them as if they had spent a full day resting. These allies regain Hit Points and recover from conditions as if they had 24 hours of rest. They can make their daily preparations again, with access to all their spell slots and any other daily abilities, even if they already used or expended them. Daily preparations happen as part of this activation, even if it would normally require an hour of study, prayer, or communion.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) command, Interact</p>\n<p><strong>Frequency</strong> once per day; <strong>Cost</strong> 2 charges</p>\n<p><strong>Effect</strong> Lumna returns the key and all living creatures within 60 feet to the Ardis Scholars' manor.</p>",
-    "rarity": "unique",
-    "traits": [
-      "intelligent",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle"
-  },
-  {
-    "level": 1,
-    "name": "Hammer Gun",
-    "price": {
-      "gp": 13
-    },
-    "description": "<p>This weapon, favored by dwarves and those who like smashing and shooting, takes the form of a stoutly built gun designed similarly to an arquebus with a hammer head built into the muzzle, decreasing kickback but limiting range.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "combination",
-      "concussive",
-      "fatal-d10"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 0,
-    "name": "Hammer",
-    "price": {
-      "sp": 1
-    },
-    "description": "",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 1,
-    "name": "Hampering Snare",
-    "price": {
-      "gp": 3
-    },
-    "description": "<p>You arrange brambles, wires, sticky goo, or other materials to interfere with a creature's movement. The square with this snare, as well as three adjacent squares (to form a 1d4 rounds after the snare is triggered. A creature can use an Interact action to clear the difficult terrain out of a single square early.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "mechanical",
-      "snare",
-      "trap"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Player Core 2"
-  },
-  {
-    "level": 0,
-    "name": "Hand Adze",
-    "price": {
-      "sp": 5
-    },
-    "description": "<p>The adze's smaller version is useful for delicate woodworking in cramped spaces. Tripkees use hand adzes for crafting and as close quarters weapons.</p>",
-    "rarity": "common",
-    "traits": [
-      "agile",
-      "finesse",
-      "grippli",
-      "sweep",
-      "thrown-10"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Player Core 2"
-  },
-  {
-    "level": 0,
-    "name": "Hand Cannon",
-    "price": {
-      "gp": 5
-    },
-    "description": "<p>Popular among privateers and mercenaries in Goka, hand cannons are little more than a hardened tube with a handle and external ignition attached. A hand cannon can be used to fire almost anything that can be packed into its barrel. The wielder of a hand cannon can change the damage type granted by its modular trait as part of the same Interact action used to reload.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "modular"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 0,
-    "name": "Hand Crossbow",
-    "price": {
-      "gp": 3
-    },
-    "description": "<p>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 7,
-    "name": "Hand-Hewed Face",
-    "price": {},
-    "description": "<p>At the crossroads under a new moon, you traded your face for one that you can mold as though it were clay, sealed with a ribbon worn around your neck to hide the seam. Your true appearance changes to that of a generic member of your ancestry. You can shape your facial features with your hands and thus don't need a disguise kit to Impersonate, and you don't take circumstance penalties to Impersonate someone due to the difference in your facial features. Once per day, from any distance, the entity that holds your <em>bargained contract</em> can change their appearance to match your appearance from before you sealed the contract, or the appearance you are currently using through Impersonate. When they do, your face transforms to your new true appearance, that of a generic member of your ancestry, and you become Stunned 3 by the sudden backlash.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Requirements</strong> You have used Impersonate and molded your face into a different face</p>\n<p><strong>Effect</strong> You peel your current face from your skin, revealing the true generic appearance from your <em>bargained contract</em>. This allows you to duck out of sight and remove the facial component of your disguise almost immediately, though clothing or other elements might still give you away.</p>",
-    "rarity": "rare",
-    "traits": [
-      "contract",
-      "invested",
-      "magical"
-    ],
-    "usage": "Other",
-    "worn": null,
-    "publication": "Pathfinder Dark Archive"
   }
 ]

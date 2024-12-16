@@ -2309,6 +2309,33 @@
     "publication": "Pathfinder Gamemastery Guide"
   },
   {
+    "level": 0,
+    "name": "Amulet Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.PoclGJ7BCEyIuqJe inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
+  },
+  {
+    "level": 12,
+    "name": "Amulet of Kinship's Strength",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This weighty brass disk is inscribed with the ancestral names of its previous owners and now includes your own. When worn, it rests against your chest with a heavy warmth, a reminder of the strength of those who came before you. While worn and invested, you gain a +2 item bonus to Will saves. This bonus increases to +3 if the effect has the fear trait.</p>\n<p><strong>Activate—Strengthen Resolve</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You extend your resolve to your allies, casting Strength of Mind on up to three willing targets.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder #209: Destroyer's Doom"
+  },
+  {
     "level": 7,
     "name": "Amulet of the Hellcat",
     "price": {
@@ -4337,7 +4364,7 @@
     "price": {
       "gp": 1000
     },
-    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +1 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank Invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –1 item penalty to saving throws against fear effects.</p>",
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +1 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to <em>assassin's bracers</em> as though they were light armor.</p><hr /><p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank Invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –1 item penalty to saving throws against fear effects.</p>\n<p></p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "illusion",
@@ -4354,7 +4381,7 @@
     "price": {
       "gp": 6500
     },
-    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +2 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank Invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –2 item penalty to saving throws against fear effects.</p>",
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +2 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to <em>assassin's bracers</em> as though they were light armor.</p><hr /><p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank Invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +2 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –2 item penalty to saving throws against fear effects.</p>\n<p></p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "illusion",
@@ -4371,7 +4398,7 @@
     "price": {
       "gp": 70000
     },
-    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +3 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to assassin's bracers as though they were light armor.</p>\n<p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +1 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –3 item penalty to saving throws against fear effects.</p>",
+    "description": "<p>These paired bracers of red leather appear as plain armbands on the outside but display the branded symbol of Achaekek on the inside. They grant the wearer a +3 item bonus to AC and saving throws, and a maximum Dexterity modifier of +5 as armor. You can affix talismans to <em>assassin's bracers</em> as though they were light armor.</p><hr /><p><strong>Activate—Focus on the Doomed</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You designate one creature within 30 feet. You cast 4th-rank Invisibility on yourself, but the designated creature can still see you. The bracers enhance your appearance to the designated creature, making you appear more fearsome and unnerving, granting you a +3 item bonus to attempts to Feint or Demoralize the designated creature. The designated creature takes a –3 item penalty to saving throws against fear effects.</p>\n<p></p>\n<p></p>",
     "rarity": "uncommon",
     "traits": [
       "illusion",
@@ -4611,6 +4638,22 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder #157: Devil at the Dreaming Palace"
+  },
+  {
+    "level": 10,
+    "name": "Aurochs Hide Armor",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>Made of the sturdy, thick hide of the aurochs and tempered to be both flexible and durable, this <em>+1 resilient hide armor</em> is imbued with the aurochs' natural defenses against venomous predators. You gain resistance 5 to poison damage.</p>\n<p><strong>Activate—Stubborn Skin</strong> <span class=\"action-glyph\">1</span></p>\n<p>You pull the layers of the armor taut, stiffening your body against incoming forces for 1 minute. While the armor is taut, you have a –1 penalty to Reflex saves and a +2 item bonus to Fortitude saves.</p>\n<p></p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder #209: Destroyer's Doom"
   },
   {
     "level": 9,
@@ -6019,6 +6062,17 @@
     "usage": "Worn Crown",
     "worn": "Crown",
     "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Bell Implement",
+    "price": {},
+    "description": "<p>@Embed[Compendium.pf2e.classfeatures.Item.DK1LCE5pd0YCY11c inline]</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
   },
   {
     "level": 2,
@@ -8206,76 +8260,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Gamemastery Guide"
-  },
-  {
-    "level": 7,
-    "name": "Bloodgorger Scythe",
-    "price": {
-      "gp": 340
-    },
-    "description": "<p>This <em>+1 striking scythe</em> is made from the cruel, blackened branches of the carnivorous scythe tree, which hungrily drink up spilled blood.</p><hr /><p><strong>Activate—Root in Blood</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> Your last action was a successful Strike with this weapon and your target isn't currently taking any persistent bleed damage</p>\n<p><strong>Effect</strong> You break off a piece of the <em>bloodgorger scythe</em> inside your enemy to feed on their blood and sprout into a new tree. The target takes 1 bleed damage at the end of their turn. Each failure to stop the bleeding increases this bleed damage by 1 as a small scythe tree grows from the wound, to a maximum of 3 persistent bleed damage.</p><hr /><p><strong>Activate—Sapling Slash</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> A target has a piece of the <em>bloodgorger scythe</em> broken off inside them and has failed to recover from the persistent bleed damage for 3 consecutive turns</p>\n<p><strong>Effect</strong> The sprouted scythe tree grows large enough to be commanded. It makes a melee Strike against the target or a creature adjacent to the target, with a +18 to hit and dealing 1d10 slashing damage.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include branches and roots from a scythe tree.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "deadly-d10",
-      "magical",
-      "trip"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Howl of the Wild"
-  },
-  {
-    "level": 8,
-    "name": "Bloodhammer Reserve Black Label",
-    "price": {
-      "gp": 100
-    },
-    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect. When you consume the brew, you gain the effects of 4th-rank <em>animal form</em>, can choose which battle form you take, and the temporary Hit Points you gain from the battle form increase to 20. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "polymorph",
-      "potion"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 6,
-    "name": "Bloodhammer Reserve Select",
-    "price": {
-      "gp": 35
-    },
-    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect. When you consume the brew, you can choose which battle form you take and the temporary Hit Points you gain from the battle form increase to 10. Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "polymorph",
-      "potion"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
-  },
-  {
-    "level": 4,
-    "name": "Bloodhammer Reserve",
-    "price": {
-      "gp": 20
-    },
-    "description": "<p>This strong, rich red-brown home brew has no listed ingredients, but smells of earth and is both smoky and surprisingly bitter. Although Skogg Bloodhammer insists that the drink doesn't exist, it's somewhat of an open secret among his close friends. He prefers to share this drink at backroom gatherings with these trusted friends, and usually broaches the idea of sharing with a full mug and a question: \"You ever thought about being a frog?\"</p>\n<p>After drinking the brew, you transform into an animal, gaining the effects of Animal Form except you can't Dismiss the effect, and you transform into a random animal battle form. To determine the battle form, roll 1d10 (1 = ape, 2 = bear, 3 = bull, 4 = canine, 5 = cat, 6 = deer, 7 = frog, 8 = shark, 9 = snake, 10 = reroll). Your appearance while in the battle form resembles that of animals within Emperor's Peak or from the surrounding Five Kings Mountains, such as the Five Kings dart snake or the Coldforge singing frog. More unusual battle forms like apes and sharks instead resemble a typical member of that species.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "consumable",
-      "magical",
-      "polymorph",
-      "potion"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: Highhelm"
   }
 ]

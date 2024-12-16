@@ -17,7 +17,7 @@ interface DropZoneProps {
   reorderItemsInZone: (zoneId: string, sourceIndex: number, targetIndex: number) => void; // Reordering function
   style?: CSSProperties;
   handleQuantityChange(index: number, delta: number): void;
-  handleRemoveItem(index: number): void;
+  handleRemoveItem(id: string): void;
   quantityChangeEnabled: boolean;
   draggingItem: EquipmentItem | null;
   setDraggingItem: React.Dispatch<React.SetStateAction<EquipmentItem | null>>;

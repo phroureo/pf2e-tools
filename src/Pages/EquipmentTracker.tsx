@@ -281,14 +281,22 @@ const EquipmentTracker: React.FC = () => {
         }
     };
 
-    const handleRemoveItem = (index: number) => {
+    const handleRemoveItem = (id: string) => {
         setSelectedItems((prevItems) => {
-            const newItems = prevItems.filter((_, i) => i !== index);
+            const newItems = prevItems.filter((item) => item.id !== id);
             return [...newItems]; // Ensure new array reference for React to detect changes
         });
         setQuantities((prevQuantities) => {
-            const newQuantities = { ...prevQuantities };
-            delete newQuantities[index];
+            const newQuantities = { ...prevQuantities };        
+            
+            // Find the key in quantities that corresponds to the id and delete it
+            const keyToDelete = Object.keys(prevQuantities).find(
+                (key) => selectedItems[Number(key)]?.id === id
+            );
+    
+            if (keyToDelete !== undefined) {
+                delete newQuantities[Number(keyToDelete)];
+            }
             return newQuantities;
         });
     };

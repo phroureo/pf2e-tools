@@ -1,5 +1,310 @@
 [
   {
+    "level": 0,
+    "name": "Salvo Shield",
+    "price": {
+      "gp": 6
+    },
+    "description": "<p>This specialized steel shield features an outer layer of angled wooden or steel plates, which help deflect or redirect incoming ranged projectiles but don't offer any additional protection against melee weapons.</p>",
+    "rarity": "common",
+    "traits": [
+      "deflecting-physical-ranged"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 5,
+    "name": "Sampling Ammunition",
+    "price": {
+      "gp": 22
+    },
+    "description": "<p><strong>Ammunition</strong> arrow, bolt</p>\n<hr />\n<p>The head of this arrow or bolt is a pointed glass cylinder with a hollow core. Upon hitting a corporeal creature, sampling ammunition captures a small portion of the target's skin, blood, and flesh. The sample falls to the ground below wherever the creature was hit. This sample is sealed and magically preserved inside its chamber, although it deteriorates normally once the cylinder is opened. Sampling ammunition can't collect samples from creatures made entirely of metal, stone, or other hard substances.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Dark Archive"
+  },
+  {
+    "level": 11,
+    "name": "Sanctified Beans",
+    "price": {
+      "gp": 250
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<hr />\n<p>These roasted soybeans are blessed by a priest to ward against all various forms of otherworldly influence but are most effective against incorporeal evils, such as specters or path maidens. They can be safely eaten by living creatures and taste delicious when paired with rice wine. When you activate this item, choose an adjacent square to exhale into. You fill that square with soothing vapors that harm any fiend, fey, ghost, spirit, or undead creature that ends their turn in that square for the next minute, causing them to take 4d8+4 spirit (holy) damage (DC 28 will save to resist being affected as follows.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature becomes Off-Guard until the start of your next turn.</p>\n<p><strong>Failure</strong> The creature becomes Slowed 1 for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature becomes Stunned 1 and is then slowed 1 for 1 round.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "divine",
+      "magical",
+      "vitality"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #199: To Bloom Below the Web"
+  },
+  {
+    "level": 18,
+    "name": "Sandals of the Stag",
+    "price": {
+      "gp": 24000
+    },
+    "description": "<p>These sturdy leather sandals feature straps that wrap up to the knees. Etched in the leather are intricate patterns of stags leaping through the forest. You gain a +5-foot item bonus to your land Speed and a +3 item bonus on Athletics checks when attempting to High Jump or Long Jump. When you invest the sandals, you either increase your Strength modifier by 1 or increase it to +4, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You attempt a High Jump or Long Jump but you didn't Stride at least 10 feet</p>\n<hr />\n<p><strong>Effect</strong> You can attempt the jump normally. It doesn't automatically fail.</p>",
+    "rarity": "common",
+    "traits": [
+      "apex",
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn Sandles",
+    "worn": "Sandles",
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 12,
+    "name": "Sandalwood Fan",
+    "price": {
+      "gp": 2000
+    },
+    "description": "<p>This ornate fan's carving depicts a particular tableau from the Plane of Wood, often of the site where the fan was created. Fanning it through the air creates a sandalwood-scented breeze and a crackling of magic. A <em>sandalwood fan</em> is a planar key for Interplanar Teleport and similar magic. The <em>sandalwood fan</em> makes it more likely for you to arrive where you intended, appearing 1d6×25 miles from your intended destination instead of the usual error range. This distance is further reduced to 1d4×25 miles if your destination is the scenery depicted on the fan.</p>\n<hr />\n<p><strong>Activate - Plant Speech</strong> 1 minute (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>sandalwood fan</em> casts Speak with Plants and Translate for Fey and Muan on you. In addition to conversing with nearby plants, you can also communicate with any living plants you've spoken with in the past using this fan. These plants must either be on the same plane as you or on the Plane of Wood.</p>\n<hr />\n<p><strong>Activate - Cloud of Leaves</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You summon leaves that protect your allies and identify enemies. All allies and indifferent creatures within 30 feet of you gain lesser cover for 1 round, while enemies come under the effect of Revealing Light for 1 minute.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "wood"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
+  },
+  {
+    "level": 11,
+    "name": "Sandcastle",
+    "price": {
+      "gp": 1250
+    },
+    "description": "<p>A <em>sandcastle</em> comes in a cylindrical, waterproof satchel that contains densely packed fine sand. The sand's color depends on where it was collected when the item was made. This sand can be shaped and magically activated to create a fortification made of hard-packed sand. It can survive most ordinary weather, but a sandcastle has little resilience against water. It collapses if activated on water or if the structure is caught in a deluge or heavy rainfall. Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 40 Hit Points. It's immune to critical hits and precision damage, and it has weakness to water 15. If destroyed, a section of the sandcastle becomes a pile of sand, or wet sand if it was destroyed by water. This sand is difficult terrain, which lasts for the remaining duration of the activation. It's easy to make handholds and footholds in the sand walls, so the DC to climb the walls is 15.</p>\n<p><strong>Activate—Shape the Castle</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You empty the satchel and shape the sand into a miniature castle. When finished, you utter \"build\" in Petran, and the <em>sandcastle</em> swiftly builds into a full-size structure. The castle is shaped as you choose, up to 120 feet in any dimension. Its walls must be 10 feet thick, and each story must be at least 10 feet tall from floor to ceiling. The <em>sandcastle</em> has only rudimentary furnishings with no moving parts—even a chair or door is too complicated, but block-like benches and platforms can be created. Typically, the castle has little more than staircases and windows.</p>\n<p>You can return the <em>sandcastle</em> to its portable form by using one Interact action to fill the item's satchel with sand from the castle.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "earth",
+      "magical",
+      "structure"
+    ],
+    "usage": "Other",
+    "worn": null,
+    "publication": "Pathfinder Rage of Elements"
+  },
+  {
+    "level": 13,
+    "name": "Sandstorm Top",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p>On Tekritanin holidays, children reenacted legendary battles of deities by playing with magical tops. Though the paint on this wooden top has long since faded, its magical runes once gleamed yellow-gold and fiery orange, evoking the color of the sky during a sandstorm. To set the top in motion, wind a string around its bottom and upward along its body, and then throw it while gripping the string.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You throw the sandstorm top 10 feet away from you. For 1 minute, as it spins, the top generates a magical sandstorm in a 5-foot radius. Any creature that starts its turn in the area or moves into the area takes 4d6 slashing damage (DC 30 reflex save). Additionally, a creature within the sandstorm must hold its breath or begin suffocating.</p>",
+    "rarity": "rare",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Lost Omens: Monsters of Myth"
+  },
+  {
+    "level": 12,
+    "name": "Sanguine Fang (Greater)",
+    "price": {
+      "gp": 1750
+    },
+    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 29.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 5 to persistent bleed damage and a +2 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 1d6 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Sanguine Mist.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Vampiric Feast.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "void"
+    ],
+    "usage": "Affixed To Armor Or A Weapon",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 15,
+    "name": "Sanguine Fang (Major)",
+    "price": {
+      "gp": 5750
+    },
+    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 34.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 10 to persistent bleed damage and a +3 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 2d6 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 5th-rank Vampiric Feast.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Vampiric Exsanguination.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "void"
+    ],
+    "usage": "Affixed To Armor Or A Weapon",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 9,
+    "name": "Sanguine Fang",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>A pointed vampire fang hovers within this smoked-glass vial, its tip crimson with slowly dripping blood. The spell DC of any spell cast by activating this item is 25.</p>\n<ul>\n<li><strong>Armor</strong> You gain resistance 3 to persistent bleed damage and a +2 item bonus on saving throws against effects with the void trait.</li>\n<li><strong>Weapon</strong> After you cast a necromancy spell by activating the <em>fang</em>, your Strikes with the weapon deal 1d4 bleed damage until the end of your next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Void Warp.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Vampiric Feast.</p>",
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "spellheart",
+      "void"
+    ],
+    "usage": "Affixed To Armor Or A Weapon",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 14,
+    "name": "Sanguine Klar (Greater)",
+    "price": {
+      "gp": 3700
+    },
+    "description": "<p>This <em>+2 greater striking wounding klar</em> (Hardness 13, HP 100, BT 50) is built with spikes made of beasts' fangs.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You or a creature within 30 feet of you suffers bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The sanguine klar regains a number of Hit Points equal to the bleed damage, up to an amount equal to its Hardness.</p>",
+    "rarity": "common",
+    "traits": [
+      "integrated-1d6-s-versatile-p",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 9,
+    "name": "Sanguine Klar",
+    "price": {
+      "gp": 650
+    },
+    "description": "<p>This <em>+1 striking wounding klar</em> (Hardness 8, HP 64, BT 32) is built with spikes made of beasts' fangs.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You or a creature within 5 feet of you suffers bleed damage</p>\n<hr />\n<p><strong>Effect</strong> The sanguine klar regains a number of Hit Points equal to the bleed damage, up to an amount equal to its Hardness.</p>",
+    "rarity": "common",
+    "traits": [
+      "integrated-1d6-s-versatile-p",
+      "magical"
+    ],
+    "usage": "",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 11,
+    "name": "Sanguine Mutagen (Greater)",
+    "price": {
+      "gp": 300
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 hour you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Fortitude and Reflex saves. This bonus improves to +4 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p>When you roll a success on a save against a disease, poison, or effect that would give you the Fatigued condition, you get a critical success instead.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 1,
+    "name": "Sanguine Mutagen (Lesser)",
+    "price": {
+      "gp": 3
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 minute you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Fortitude and Reflex saves. This bonus improves to +2 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 17,
+    "name": "Sanguine Mutagen (Major)",
+    "price": {
+      "gp": 3000
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 hour you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Fortitude and Reflex saves. When you roll a success on a save against a disease, poison, or effect that would give you the Fatigued condition, you get a critical success instead and your critical failures on such saves become failures instead.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 3,
+    "name": "Sanguine Mutagen (Moderate)",
+    "price": {
+      "gp": 12
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 10 minutes you gain greatly increased blood production, filtering out contagions and boosting your endurance but causing your body to bloat with blood.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Fortitude and Reflex saves. This bonus improves to +3 when you attempt a save against an effect that has the disease trait, poison trait, or would give you the Fatigued condition.</p>\n<p><strong>Drawback</strong> Whenever you take piercing or slashing damage, you take 1d6 bleed.</p>\n<p></p>",
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "mutagen",
+      "polymorph"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 17,
+    "name": "Sanguine Pendant (Greater)",
+    "price": {
+      "gp": 17000
+    },
+    "description": "<p>This clear crystal pendant contains a drop of blood from a sorcerer that expands and contracts as you cast spells. A sanguine pendant is associated with a specific sorcerer bloodline, and only sorcerers with that bloodline can invest this item. This item gains the trait matching the tradition of that bloodline. The pendant grants a +3 item bonus to both of your bloodline skills.</p><hr /><p><strong>Activate—Blood's Call</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a bloodline spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a sorcerer with the associated bloodline.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 10,
+    "name": "Sanguine Pendant",
+    "price": {
+      "gp": 1000
+    },
+    "description": "<p>This clear crystal pendant contains a drop of blood from a sorcerer that expands and contracts as you cast spells. A sanguine pendant is associated with a specific sorcerer bloodline, and only sorcerers with that bloodline can invest this item. This item gains the trait matching the tradition of that bloodline. The pendant grants a +2 item bonus to both of your bloodline skills.</p><hr /><p><strong>Activate—Blood's Call</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a bloodline spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a sorcerer with the associated bloodline.</p>",
+    "rarity": "common",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
     "level": 2,
     "name": "Sanitizing Pin",
     "price": {
@@ -7505,7 +7810,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>This elegant black, gold-tipped <em>+1 striking fighting fan</em> is adorned with images of three golden leaves and a red rope tassel. If a creature is reduced to 0 Hit Points by a spirit fan, the golden leaves on the fan light up, providing illumination equal to that of a torch for 1 minute.</p>\n<p></p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Requirements</strong> The spirit fan's leaves are illuminated</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You sweep the spirit fan in the direction of a single target you can see within 30 feet, releasing the life energy in the form of a streak of golden light. The spirit fan goes dark. If the target is a living creature, the energy restores 3d8+8 Hit Points. If the target is undead, it takes 2d8+8 vitality damage (DC 23 fortitude save).</p>",
+    "description": "<p>This elegant black, gold-tipped <em>+1 striking fighting fan</em> is adorned with images of three golden leaves and a red rope tassel. If a creature is reduced to 0 Hit Points by a <em>spirit fan</em>, the golden leaves on the fan light up, providing illumination equal to that of a torch for 1 minute.</p>\n<p></p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision</p>\n<p><strong>Requirements</strong> The <em>spirit fan</em>'s leaves are illuminated</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You sweep the <em>spirit fan</em> in the direction of a single target you can see within 30 feet, releasing the life energy in the form of a streak of golden light. The spirit fan goes dark. If the target is a living creature, the energy restores 3d8+8 Hit Points. If the target is undead, it takes 2d8+8 vitality damage (DC 23 fortitude save).</p>",
     "rarity": "rare",
     "traits": [
       "agile",
@@ -7878,311 +8183,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder Rage of Elements"
-  },
-  {
-    "level": 20,
-    "name": "Splintering Spear (Major)",
-    "price": {
-      "gp": 60000
-    },
-    "description": "<p>The entirety of this <em>+3 high-grade duskwood major striking spear</em> is made of worn, cracked, splintered wood, including the spearhead. These splinters never harm you when you hold the weapon, but when you hit with the spear, splinters break off in the target, dealing 1d6 bleed damage.</p>\n<hr />\n<p><strong>Activate—Shatter</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You smash the spear into the ground or another nearby surface, shattering it into thousands of duskwood splinters in your choice of a 30 foot cone or a 10 foot emanation. Each creature in the area takes 18d6 piercing damage with a DC 43 reflex save. A creature that fails also takes the same amount of persistent bleed damage as the spear deals on a hit. The spear regrows into its full form at the end of this turn.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "monk",
-      "thrown-20",
-      "wood"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Rage of Elements"
-  },
-  {
-    "level": 13,
-    "name": "Splintering Spear",
-    "price": {
-      "gp": 2700
-    },
-    "description": "<p>The entirety of this <em>+2 duskwood greater striking spear</em> is made of worn, cracked, splintered wood, including the spearhead. These splinters never harm you when you hold the weapon, but when you hit with the spear, splinters break off in the target, dealing 1d6 bleed damage.</p>\n<hr />\n<p><strong>Activate—Shatter</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You smash the spear into the ground or another nearby surface, shattering it into thousands of duskwood splinters in your choice of a 30 foot cone or a 10 foot emanation. Each creature in the area takes 12d6 piercing damage with a DC 30 reflex save. A creature that fails also takes the same amount of persistent bleed damage as the spear deals on a hit. The spear regrows into its full form at the end of this turn.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "monk",
-      "thrown-20",
-      "wood"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Rage of Elements"
-  },
-  {
-    "level": 7,
-    "name": "Splithead Bow",
-    "price": {
-      "gp": 360
-    },
-    "description": "<p>This <em>+1 striking Hauling longbow</em> is lined with the flesh of a fallen hydra and ornate carvings on the grip that depict the hydra's number of heads it had before it was slain. When you wield the bow in combat, you regain 2 Hit Points at the start of each of your turns.</p><hr /><p><strong>Activate—Two-Headed Arrow</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Effect</strong> You imbue your arrow with the properties of a hydra, splitting it in two and sending each at a different foe. Make two ranged Strikes, each against a separate target. Both targets must be in your line of sight, and within 50 feet of you. Both Strikes count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both attacks. Additionally, after using this ability, you do not regain Hit Points from wielding the bow on your next turn.</p><hr /><p><strong>Activate—Five-Headed Arrow</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You make a powerful Strike propelled by the ferocity of a hydra at a target within your first range increment. If your Strike is successful, the arrow deals damage as normal and then passes through the target, splitting into four pieces. Choose four other targets within 30 feet of the original target and make a single ranged Strike with your multiple attack penalty, comparing the result to each secondary target's AC. After using this ability, you do not regain Hit Points from wielding the bow until after your next daily preparations.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the flesh from a severed head of a hydra.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "deadly-d10",
-      "magical",
-      "volley-30"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Howl of the Wild"
-  },
-  {
-    "level": 1,
-    "name": "Spoon Gun",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>No one's entirely certain who developed the spoon gun, but all authorities agree that it was probably a goblin. Essentially a terrible idea in firearm form, the spoon gun is a spring-powered Hand Cannon with a modified grip that uses miscellaneous knives, forks, chopsticks, and spoons as ammunition. Users typically upend the entire contents of their cutlery drawer into the gun, aim it in the general direction of the foe, and hope it hits something.</p>\n<p>This hand cannon is a martial weapon, instead of a simple weapon. It has the scatter (5 feet) trait and uses cutlery or similar-sized objects as ammunition instead of bullets (enough cheap cutlery to fire ten shots costs 1 sp).</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "cobbled",
-      "goblin",
-      "modular",
-      "scatter-5"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
-  },
-  {
-    "level": 11,
-    "name": "Spore Sap",
-    "price": {
-      "gp": 1250
-    },
-    "description": "<p>This flexible +2 striking sap is crafted from the stalks of cave fungi and bound around a mesh of spore-infused gills. Demon-worshipping xulgaths use spore saps to capture spellcasters alive for later sacrifice.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact (poison)</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Trigger</strong> You successfully Strike a creature with the <em>spore sap</em></p>\n<hr />\n<p><strong>Effect</strong> The <em>spore sap</em> releases a puff of stupefying fungal spores. The target must succeed at a Stupefied 2 on a critical failure).</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "agile",
-      "fungus",
-      "magical",
-      "nonlethal"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #154: Siege of the Dinosaurs"
-  },
-  {
-    "level": 8,
-    "name": "Spore Shephard's Staff (Greater)",
-    "price": {
-      "gp": 475
-    },
-    "description": "<p>This staff is constructed from a magically grown amanita mushroom, with a shaft that spreads into a bright red cap speckled in white. While wielding the staff you gain a +2 circumstance bonus to Nature checks to identify fungus.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Puff of Poison</li>\n<li><strong>1st</strong> Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only)</li>\n<li><strong>2nd</strong> Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only), One with Plants (giant mushroom only)</li>\n<li><strong>3rd</strong> Protector Tree (resembles giant mushroom, not a tree), Stinking Cloud, Summon Plant or Fungus (fungus only), Wall of Thorns (resembles wall of fungus; deals poison damage)</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #193: Mantle of Gold"
-  },
-  {
-    "level": 4,
-    "name": "Spore Shephard's Staff (Major)",
-    "price": {
-      "gp": 100
-    },
-    "description": "<p>This staff is constructed from a magically grown amanita mushroom, with a shaft that spreads into a bright red cap speckled in white. While wielding the staff you gain a +2 circumstance bonus to Nature checks to identify fungus.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Puff of Poison</li>\n<li><strong>1st</strong> Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only)</li>\n<li><strong>2nd</strong> Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only), One with Plants (giant mushroom only)</li>\n<li><strong>3rd</strong> Protector Tree (resembles giant mushroom, not a tree), Stinking Cloud, Summon Plant or Fungus (fungus only), Wall of Thorns (resembles wall of fungus; deals poison damage)</li>\n<li><strong>4th</strong> Protector Tree (resembles giant mushroom, not a tree), Speak with Plants (fungus only), Summon Plant or Fungus (fungus only)</li>\n<li><strong>5th</strong> Toxic Cloud, Plant Form (resemble giant fungus instead of plant, gain fungus trait instead of plant trait; arboreal type only), Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only)</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #193: Mantle of Gold"
-  },
-  {
-    "level": 4,
-    "name": "Spore Shephard's Staff",
-    "price": {
-      "gp": 100
-    },
-    "description": "<p>This staff is constructed from a magically grown amanita mushroom, with a shaft that spreads into a bright red cap speckled in white. While wielding the staff you gain a +2 circumstance bonus to Nature checks to identify fungus.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> Puff of Poison</li>\n<li><strong>1st</strong> Protector Tree (resembles giant mushroom, not a tree), Summon Plant or Fungus (fungus only)</li>\n</ul>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "magical",
-      "staff",
-      "two-hand-d8"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #193: Mantle of Gold"
-  },
-  {
-    "level": 7,
-    "name": "Sportlebore Capsule",
-    "price": {
-      "gp": 70
-    },
-    "description": "<p>Activate <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This tiny capsule of soluble material is filled with a flavorless clear powder mixed with thousands of microscopic eggs laid by insidious parasites known as sportlebores. If the capsule or its contents are swallowed by an unwitting victim, the eggs rapidly hatch inside their unfortunate host, causing great abdominal pain. The target can't recover from the poison's enfeebled or sickened condition except by magic. After stage 3, the target returns to stage 1, but if it progresses to stage 3 a second time, the damage is doubled.</p>\n<p><strong>Saving Throw</strong> DC 22 fortitude</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Maximum Duration</strong> 6 minutes</p>\n<p><strong>Stage 1</strong> Sickened 1 (1 minute)</p>\n<p><strong>Stage 2</strong> Enfeebled 1 and sickened 1 (1 minute)</p>\n<p><strong>Stage 3</strong> Enfeebled 2 as the affected target painfully vomits (1 minute)</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "ingested",
-      "poison"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Howl of the Wild"
-  },
-  {
-    "level": 0,
-    "name": "Spray Pellets",
-    "price": {
-      "sp": 1
-    },
-    "description": "<p>A specially prepared packet of spray pellets.</p>",
-    "rarity": "common",
-    "traits": [],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 0,
-    "name": "Spraysling",
-    "price": {
-      "gp": 1
-    },
-    "description": "<p>A spraysling is similar to a standard sling but with a wider cup fitted with a thin blade affixed to the cup's edges. When used to make an attack with a specially prepared packet of spray pellets, the razor slices open the packet and the weapon launches a cluster of stinging pellets.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "halfling",
-      "propulsive",
-      "scatter-5"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 5,
-    "name": "Spring Heel",
-    "price": {
-      "gp": 150
-    },
-    "description": "<p>Fitted into each of these prosthetic legs is a large spring, tightly bound around a collapsible shaft. When released, the spring unspools rapidly and the shaft telescopes out and back, returning to its compressed form and catapulting you forward.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You Stride up to twice your speed or Leap up to 20 feet horizontally and 5 feet vertically.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "clockwork",
-      "mechanical"
-    ],
-    "usage": "Worn",
-    "worn": "Worn",
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 2,
-    "name": "Spring-Loaded Net Launcher",
-    "price": {
-      "gp": 6
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This small bronze cylinder is about the size of a potion bottle. When you activate the launcher, it fires an unattached net requiring only a single hand, and at a greater distance. As normal, you make a ranged attack roll against a Medium or smaller creature, but you can target a creature up to 60 feet away, instead of only 20 feet away. The net trap otherwise functions as an unattached Net.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "clockwork",
-      "consumable",
-      "gadget"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Lost Omens: The Grand Bazaar"
-  },
-  {
-    "level": 5,
-    "name": "Sprite Apple (Chartreuse)",
-    "price": {
-      "gp": 26
-    },
-    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>A sparkling candy coating covers a sprite apple. For 10 minutes after consuming a sprite apple, you shed bright light in a 20 foot emanation (and dim light for the next 20 feet). While shedding this light, you can't be Concealed if you're visible, and if you're Invisible, you're concealed instead rather than being undetected. The light matches the vibrant color of the apple's candy coating. Creatures in the bright light are subject to another effect, depending on the type of apple.</p>\n<p>Creatures in the bright light feel more in tune with nature, gaining a +1 item bonus to Nature checks and to Diplomacy checks attempted against animals or plants (if they have the wild empathy class feature or some other ability to make such checks).</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "light"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 3,
-    "name": "Sprite Apple (Golden)",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>A sparkling candy coating covers a sprite apple. For 10 minutes after consuming a sprite apple, you shed bright light in a 20 foot emanation (and dim light for the next 20 feet). While shedding this light, you can't be Concealed if you're visible, and if you're Invisible, you're concealed instead rather than being undetected. The light matches the vibrant color of the apple's candy coating. Creatures in the bright light are subject to another effect, depending on the type of apple.</p>\n<p>Creatures in the bright light feel kind and inviting, taking a –1 item penalty to their Will DC against Diplomacy checks.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "light"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 4,
-    "name": "Sprite Apple (Pink)",
-    "price": {
-      "gp": 16
-    },
-    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>A sparkling candy coating covers a sprite apple. For 10 minutes after consuming a sprite apple, you shed bright light in a 20 foot emanation (and dim light for the next 20 feet). While shedding this light, you can't be Concealed if you're visible, and if you're Invisible, you're concealed instead rather than being undetected. The light matches the vibrant color of the apple's candy coating. Creatures in the bright light are subject to another effect, depending on the type of apple.</p>\n<p>Creatures in the bright light feel a burst of creativity, gaining a +1 item bonus to Performance checks.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "light"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 6,
-    "name": "Sprite Apple (Teal)",
-    "price": {
-      "gp": 41
-    },
-    "description": "<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p>A sparkling candy coating covers a sprite apple. For 10 minutes after consuming a sprite apple, you shed bright light in a 20 foot emanation (and dim light for the next 20 feet). While shedding this light, you can't be Concealed if you're visible, and if you're Invisible, you're concealed instead rather than being undetected. The light matches the vibrant color of the apple's candy coating. Creatures in the bright light are subject to another effect, depending on the type of apple.</p>\n<p>Creatures in the bright light feel a sense of calm, gaining a +1 item bonus to saving throws against fear effects.</p>",
-    "rarity": "common",
-    "traits": [
-      "alchemical",
-      "consumable",
-      "light"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder Treasure Vault"
-  },
-  {
-    "level": 11,
-    "name": "Spry Sinews (Greater)",
-    "price": {
-      "gp": 1300
-    },
-    "description": "<p>The tendons in your legs are uncommonly stretchy. When you Leap, you increase the horizontal distance of your Leap by 10 feet and the vertical distance by 6 feet.</p>",
-    "rarity": "common",
-    "traits": [
-      "graft",
-      "invested",
-      "magical"
-    ],
-    "usage": "Implanted",
-    "worn": null,
-    "publication": "Pathfinder Howl of the Wild"
   }
 ]

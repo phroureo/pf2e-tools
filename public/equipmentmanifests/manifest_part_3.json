@@ -1,5 +1,100 @@
 [
   {
+    "level": 9,
+    "name": "Corpsecaller Round",
+    "price": {
+      "gp": 130
+    },
+    "description": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This bullet is crafted entirely from obsidian and engraved with hair-thin runes. When an activated <em>corpsecaller round</em> hits a target, the struck creature is called to the grave. It takes 4d10 void damage with a DC 25 fortitude saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The foe is unaffected.</p>\n<p><strong>Success</strong> The foe takes half damage.</p>\n<p><strong>Failure</strong> The foe takes full damage and is Doomed 1. If the foe dies within the next 24 hours, its corpse is tethered to the Void, making it easier to raise as an undead. Creatures using the create undead ritual on the foe's corpse receive a +2 circumstance bonus to their primary and secondary skill checks for the ritual.</p>\n<p><strong>Critical Failure</strong> As failure, except the foe takes double damage and is Doomed 2.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "consumable",
+      "magical",
+      "void"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #180: The Smoking Gun"
+  },
+  {
+    "level": 5,
+    "name": "Corpseward Pendant",
+    "price": {
+      "gp": 150
+    },
+    "description": "<p>A <em>corpseward pendant</em> is usually shaped like the skull of a humanoid or small animal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You become undetectable to undead creatures for 10 minutes. Undead can't see, hear, or smell you, nor detect you with sensory capabilities such as tremorsense. A creature can attempt a single DC 18 will, touch or damage an undead creature, or attack any creature while warded in this manner, the pendant's effects immediately end. An undead creature who observes you in this manner or one who succeeds at the Will save is immune to the <em>corpseward pendant</em> for 24 hours.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "invested",
+      "magical"
+    ],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 0,
+    "name": "Corrective Lenses",
+    "price": {
+      "sp": 5
+    },
+    "description": "<p>A set of corrective lenses might take the form of eyeglasses or specialized goggles worn over the eyes. You can don or remove your corrective lenses as an Interact action.</p>",
+    "rarity": "common",
+    "traits": [],
+    "usage": "Worn",
+    "worn": "Worn",
+    "publication": "Pathfinder Player Core"
+  },
+  {
+    "level": 7,
+    "name": "Corrosive Ammunition",
+    "price": {
+      "gp": 70
+    },
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>This peculiar ammunition is coated in yellow dust that leaves a stain on anything it touches. When activated corrosive ammunition hits a target, it dissolves across the target's armor. The armor takes 1d8 persistent acid damage that ignores the armor's Hardness; if the target isn't wearing armor, it takes the acid damage instead. This damage occurs at the end of the target's turns.</p>\n<p>The creature can end this effect by spending an Interact action to wipe off the corrosive dust, and otherwise the effect ends once the armor becomes broken.</p>",
+    "rarity": "common",
+    "traits": [
+      "consumable",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Player Core 2"
+  },
+  {
+    "level": 5,
+    "name": "Corrosive Engravings",
+    "price": {
+      "gp": 140
+    },
+    "description": "<p>These tin sheets are bound in brass and show significant signs of erosion. The grimoire's title is acid-etched, and flipping between the sheets leaves your fingers covered in flecks of rust and powdery metal.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to cast an acid or poison spell that deals persistent damage, any creature who takes persistent damage from the spell is also Sickened 2 until the persistent damage ends. Using an action to retch can reduce the sickened value as normal, but it can't reduce the sickened value below 1 until the persistent damage ends.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "grimoire",
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder Treasure Vault"
+  },
+  {
+    "level": 15,
+    "name": "Corrosive (Greater)",
+    "price": {
+      "gp": 6500
+    },
+    "description": "<p>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 6d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</p>\n<p>The acid damage dealt by this weapon ignores the target's acid resistance.</p>",
+    "rarity": "common",
+    "traits": [
+      "acid",
+      "magical"
+    ],
+    "usage": "Etched Onto A Weapon",
+    "worn": null,
+    "publication": "Pathfinder GM Core"
+  },
+  {
     "level": 8,
     "name": "Corrosive",
     "price": {
@@ -2646,7 +2741,7 @@
     "price": {
       "gp": 2800
     },
-    "description": "<p>The surface of this golden, heart-shaped locket is nearly worn through with cracks. If opened, it reveals a portrait of someone the bearer loved dearly and has lost. The spell DC of any spell cast by activating this item is 30.</p>\n<ul>\n<li><strong>Armor</strong> The <em>desolation locket</em> numbs you to further despair, and you gain a +3 item bonus to saving throws against emotion effects.</li>\n<li><strong>Weapon</strong>(emotion, mental) After you cast an enchantment spell by activating the <em>locket</em>, you emanate an aura of hopelessness in a Slowed 2 on a critical failure) until the end of its next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Haunting Hymn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Agonizing Despair.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Wave of Despair.</p>",
+    "description": "<p>The surface of this golden, heart-shaped locket is nearly worn through with cracks. If opened, it reveals a portrait of someone the bearer loved dearly and has lost. The spell DC of any spell cast by activating this item is 30.</p><ul><li><strong>Armor</strong> The <em>desolation locket</em> numbs you to further despair, and you gain a +3 item bonus to saving throws against emotion effects.</li><li><strong>Weapon</strong>(emotion, mental) After you cast an enchantment spell by activating the <em>locket</em>, you emanate an aura of hopelessness in a Slowed 2 on a critical failure) until the end of its next turn.</li></ul><p></p>\n<p></p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Haunting Hymn.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th-rank Agonizing Despair.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Wave of Despair.</p>",
     "rarity": "common",
     "traits": [
       "magical",
@@ -2662,7 +2757,7 @@
     "price": {
       "gp": 34000
     },
-    "description": "<p>The surface of this golden, heart-shaped locket is nearly worn through with cracks. If opened, it reveals a portrait of someone the bearer loved dearly and has lost. The spell DC of any spell cast by activating this item is 41.</p>\n<ul>\n<li><strong>Armor</strong> The <em>desolation locket</em> numbs you to further despair, and you gain a +4 item bonus to saving throws against emotion effects. When you critically fail a saving throw against an emotion effect, you get a failure instead.</li>\n<li><strong>Weapon</strong>(emotion, mental) After you cast an enchantment spell by activating the <em>locket</em>, you emanate an aura of hopelessness in a Slowed 2 on a critical failure) until the end of its next turn.</li>\n</ul>\n<p></p>\n<p></p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Haunting Hymn.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank Wave of Despair.</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Canticle of Everlasting Grief.</p>",
+    "description": "<p>The surface of this golden, heart-shaped locket is nearly worn through with cracks. If opened, it reveals a portrait of someone the bearer loved dearly and has lost. The spell DC of any spell cast by activating this item is 41.</p><ul><li><strong>Armor</strong> The <em>desolation locket</em> numbs you to further despair, and you gain a +4 item bonus to saving throws against emotion effects. When you critically fail a saving throw against an emotion effect, you get a failure instead.</li><li><strong>Weapon</strong>(emotion, mental) After you cast an enchantment spell by activating the <em>locket</em>, you emanate an aura of hopelessness in a Slowed 2 on a critical failure) until the end of its next turn.</li></ul><p></p>\n<p></p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast Haunting Hymn.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 7th-rank Wave of Despair.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast Canticle of Everlasting Grief.</p>",
     "rarity": "common",
     "traits": [
       "magical",
@@ -3024,6 +3119,21 @@
     "publication": "Pathfinder Treasure Vault"
   },
   {
+    "level": 9,
+    "name": "Dirt Sea in a Jar",
+    "price": {
+      "gp": 880
+    },
+    "description": "<p>This small jar of dark sand swirls intensely as you peer into it, evoking the dangerous beauty of the Dirt Sea.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You pour the contents of the jar onto unworked ground. If you activate this item with one action, you pour the sand into one or two 5-foot squares adjacent to you. If you activate this item with two actions, the sand spreads across a 15 foot cone. The affected space turns into Quicksand. Creatures already in the area can Step out of the area as a reaction. The quicksand doesn't inflict lasting damage to most surfaces or nearby architecture, though a feature surrounded by the quicksand might sink or settle naturally. This terrain lasts for 1 day or until the effect is Dismissed, causing the sand to reappear in the jar.</p>",
+    "rarity": "uncommon",
+    "traits": [
+      "magical"
+    ],
+    "usage": "Held In One Hand",
+    "worn": null,
+    "publication": "Pathfinder #209: Destroyer's Doom"
+  },
+  {
     "level": 4,
     "name": "Dischoran Rubble",
     "price": {
@@ -3046,7 +3156,7 @@
     "price": {
       "gp": 22
     },
-    "description": "<p><strong>Duration</strong> 1 hour</p>\n<p>Incorporating green in its writing, a <em>discord fulu</em> is a popular but unethical tool often deployed on romantic rivals to foil their advances. While the fulu is affixed to it, a creature treats its attitude toward other creatures as one step worse than it is. The creature also takes a –1 status penalty to Diplomacy checks. The first failure the creature rolls on a Diplomacy check becomes a critical failure instead, and the fulu turns to ash, ending its effect.</p>",
+    "description": "<p><strong>Duration</strong> 1 hour</p><hr /><p>Incorporating green in its writing, a <em>discord fulu</em> is a popular but unethical tool often deployed on romantic rivals to foil their advances. While the fulu is affixed to it, a creature treats its attitude toward other creatures as one step worse than it is. The creature also takes a –1 status penalty to Diplomacy checks. The first failure the creature rolls on a Diplomacy check becomes a critical failure instead, and the fulu turns to ash, ending its effect.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -3762,7 +3872,7 @@
     "price": {
       "gp": 75
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Requirements</strong> You're trained in Athletics</p>\n<hr />\n<p>This shimmering green scale is usually attached to a golden clasp or chain.</p>\n<p>When you activate the scale, for 1 minute you gain a swim Speed equal to your land Speed.</p>\n<p></p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Requirements</strong> You're trained in Athletics</p><hr /><p>This shimmering green scale is usually attached to a golden clasp or chain.</p>\n<p>When you activate the scale, for 1 minute you gain a swim Speed equal to your land Speed.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -3848,7 +3958,7 @@
     "price": {
       "gp": 60
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You take the Leap action.</p>\n<p>Tradition says the dragonfly fulu should be affixed to the upper back, like the wings of an insect. When you Activate this fulu, you gain a +2 status bonus to Athletics checks to High Jump or Long Jump for 1 minute. During this time, you can attempt an Athletics check to High Jump or Long Jump as a single action without the Stride requirement. You can also High Jump or Long Jump from a nonsolid substance, such as air or water, but if you use this power of the fulu, its effects ends after you jump.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You take the Leap action.</p><hr /><p>Tradition says the <em>dragonfly fulu</em> should be affixed to the upper back, like the wings of an insect. When you Activate this fulu, you gain a +2 status bonus to Athletics checks to High Jump or Long Jump for 1 minute. During this time, you can attempt an Athletics check to High Jump or Long Jump as a single action without the Stride requirement. You can also High Jump or Long Jump from a nonsolid substance, such as air or water, but if you use this power of the fulu, its effects ends after you jump.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -7549,7 +7659,7 @@
     "price": {
       "gp": 70
     },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt to Escape.</p>\n<p>The <em>escape fulu</em> is a charm common among wealthy people, who wear the talisman in case of kidnapping. When you Activate this fulu, for 1 minute, you gain a +2 status bonus to your attempts to Escape as well as to Stealth checks to Hide and Sneak.</p>",
+    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Trigger</strong> You attempt to Escape.</p><hr /><p>The <em>escape fulu</em> is a charm common among wealthy people, who wear the talisman in case of kidnapping. When you Activate this fulu, for 1 minute, you gain a +2 status bonus to your attempts to Escape as well as to Stealth checks to Hide and Sneak.</p>\n<p></p>",
     "rarity": "common",
     "traits": [
       "consumable",
@@ -7611,7 +7721,7 @@
     "price": {
       "gp": 40000
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Barrowsiege</em> deals 19d6 fire on a DC 43 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Barrowsiege</em> deals 19d6 fire on a DC 43 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7627,7 +7737,7 @@
     "price": {
       "gp": 360
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of a <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Blackpeak</em> deals 7d6 fire on a DC 25 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of a <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Blackpeak</em> deals 7d6 fire on a DC 25 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7643,7 +7753,7 @@
     "price": {
       "gp": 3000
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Droskar's Crag</em> deals 13d6 fire on a DC 32 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Droskar's Crag</em> deals 13d6 fire on a DC 32 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7659,7 +7769,7 @@
     "price": {
       "gp": 6500
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Ka</em> deals 15d6 fire on a DC 36 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Ka</em> deals 15d6 fire on a DC 36 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7675,7 +7785,7 @@
     "price": {
       "gp": 1400
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Mhar Massif</em> deals 11d6 fire on a DC 30 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Mhar Massif</em> deals 11d6 fire on a DC 30 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7691,7 +7801,7 @@
     "price": {
       "gp": 700
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Pale Mountain</em> deals 9d6 fire on a DC 27 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Pale Mountain</em> deals 9d6 fire on a DC 27 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7707,7 +7817,7 @@
     "price": {
       "gp": 15000
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption of Sakalayo</em> deals 17d6 fire on a DC 39 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption of Sakalayo</em> deals 17d6 fire on a DC 39 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -7723,7 +7833,7 @@
     "price": {
       "gp": 160
     },
-    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p>\n<hr />\n<p><em>Eternal Eruption</em> deals 5d6 fire on a DC 21 reflex.</p>",
+    "description": "<p>Resembling <em>frozen lava</em>, an eternal eruption is made with the same type of time magic, but is built to loop through time, reforming itself after it's used. Determining the difference between the two requires a close examination to see a faint, repeating pattern of red runes.</p>\n<p><strong>Activate—Lava Bomb</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You fling the <em>eternal eruption</em>, with the effect of <em>2d4 hours, the <em>eternal eruption</em> reforms itself in a container on your person, typically the one you most recently stored it in.</p><hr /><p><em>Eternal Eruption</em> deals 5d6 fire on a DC 21 reflex.</p>",
     "rarity": "common",
     "traits": [
       "fire",
@@ -8102,121 +8212,5 @@
     "usage": "Held In One Hand",
     "worn": null,
     "publication": "Pathfinder #171: Hurricane's Howl"
-  },
-  {
-    "level": 12,
-    "name": "Exploration Lens (Investigating)",
-    "price": {
-      "gp": 1750
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>An <em>exploration lens</em> is a magical glass lens designed for a Bull's Eye Lantern. When light from the lantern passes through the lens, it alters the light to make it easier to perform a common exploration activity with the lantern.</p>\n<p>Alternatively, an <em>exploration lens</em> can be installed in a Wayfinder like an aeon stone. In this case, light (such as that from a Lantern (Hooded), Torch, or Light spell) must still pass through the lens and you must hold the wayfinder in your hand for it to function.</p>\n<p>There are several different types of <em>exploration lens</em>, each granting benefits with a different type of exploration activity. Each type of lens is distinguishable from all the other types by holding it up to a bright light.</p>\n<hr />\n<p><strong>Type: Investigating</strong></p>\n<p>The outer rim of this lens glows faintly when held up to the light.</p>\n<p>While activated, the lens grants you a +1 item bonus to skill checks to Recall Knowledge while Investigating by outlining potential clues in a way that triggers your memory.</p>\n<p>If you're Investigating something while using the lens, you can always roll a Recall Knowledge skill check appropriate to the investigation for initiative.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #171: Hurricane's Howl"
-  },
-  {
-    "level": 14,
-    "name": "Exploration Lens (Searching)",
-    "price": {
-      "gp": 4000
-    },
-    "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>An <em>exploration lens</em> is a magical glass lens designed for a Bull's Eye Lantern. When light from the lantern passes through the lens, it alters the light to make it easier to perform a common exploration activity with the lantern.</p>\n<p>Alternatively, an <em>exploration lens</em> can be installed in a Wayfinder like an aeon stone. In this case, light (such as that from a Lantern (Hooded), Torch, or Light spell) must still pass through the lens and you must hold the wayfinder in your hand for it to function.</p>\n<p>There are several different types of <em>exploration lens</em>, each granting benefits with a different type of exploration activity. Each type of lens is distinguishable from all the other types by holding it up to a bright light.</p>\n<hr />\n<p><strong>Type: Searching</strong></p>\n<p>This lens has an opalescent sheen when held up to light.</p>\n<p>The lens subtly outlines hidden doors and concealed hazards, granting you a +2 item bonus to Perception checks to spot such features while Searching.</p>\n<p>Even if you aren't Searching, you get a check to find traps that normally require you to Search.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "invested",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder #171: Hurricane's Howl"
-  },
-  {
-    "level": 0,
-    "name": "Explorer's Clothing",
-    "price": {
-      "sp": 1
-    },
-    "description": "<p>Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes.</p>",
-    "rarity": "common",
-    "traits": [
-      "comfort"
-    ],
-    "usage": "",
-    "worn": null,
-    "publication": "Pathfinder Player Core"
-  },
-  {
-    "level": 10,
-    "name": "Explorer's Yurt",
-    "price": {
-      "gp": 880
-    },
-    "description": "<p>Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places.</p>\n<p><strong>Activate—Unroll</strong> (10 minutes) (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The rolled-up tent expands into a spacious yurt complete with a fire pit, 10 bedrolls, various cooking utensils, and basic food and water.</p>\n<p>The yurt can house and feed you and up to nine other Medium creatures that eat roughly as much as a human does; they need not attempt a Survival check to Subsist when you use the yurt. Fires and light inside the yurt do not extend illumination into the area surrounding the yurt, making it harder to spot from a distance.</p>\n<p>A large loop of red cloth hangs from one wall. If this loop is pulled, which takes an Interact action, the entire yurt immediately folds back up into its deactivated form, ready for further travel.</p>",
-    "rarity": "common",
-    "traits": [
-      "magical",
-      "structure"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 13,
-    "name": "Explosive Ammunition (Greater)",
-    "price": {
-      "gp": 520
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>greater explosive ammunition</em> hits a target, the missile explodes in a 10 foot burst, dealing 10d6 fire damage to each creature in the area (including the target). Each creature must attempt a DC 30 reflex save.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "fire",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 9,
-    "name": "Explosive Ammunition",
-    "price": {
-      "gp": 130
-    },
-    "description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a target, the missile explodes in a 10 foot burst, dealing 6d6 fire damage to each creature in the area (including the target). Each creature must attempt a DC 25 reflex save.</p>",
-    "rarity": "common",
-    "traits": [
-      "consumable",
-      "fire",
-      "magical"
-    ],
-    "usage": "Held In One Hand",
-    "worn": null,
-    "publication": "Pathfinder GM Core"
-  },
-  {
-    "level": 1,
-    "name": "Explosive Dogslicer",
-    "price": {
-      "gp": 10
-    },
-    "description": "<p>An explosive dogslicer is a sneaky, explosive weapon that often brings perverse joy to the goblins who use them. At first glance, it appears to be a triple-bladed dogslicer with an oversized guard.</p>",
-    "rarity": "uncommon",
-    "traits": [
-      "backstabber",
-      "combination",
-      "fatal-d10",
-      "goblin",
-      "scatter-5"
-    ],
-    "usage": "Held In Two Hands",
-    "worn": null,
-    "publication": "Pathfinder Guns & Gears"
   }
 ]
